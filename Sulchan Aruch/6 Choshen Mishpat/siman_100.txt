@@ -1,0 +1,39 @@
+SIMAN 100
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 100):**
+
+**Aquele que solicita um prazo para pagamento: quanto tempo se concede a ele, e o que ocorre se não cumprir no prazo, e aquele que desobedece a ordem do tribunal. Contém três seções:**
+
+1. Um devedor que diz: "Estou pronto para pagar, estabeleçam para mim um prazo para que eu possa tomar emprestado de outro, ou penhorar, ou vender e trazer o dinheiro", concede-se a ele um prazo de 30 dias. *Nota: Se o juiz perceber que 30 dias não serão suficientes, ele pode aumentar o prazo, e se não for necessário tanto tempo, pode reduzi-lo (Tur em nome da resposta do Rif). Se o credor afirmar que precisa partir e não pode esperar pelo prazo, dizem-lhe que nomeie um representante que espere até o prazo (Resposta do Rosh, Clal 81, Siman 3).*
+
+2. Não se exige que ele dê um penhor, pois se houvesse bens móveis, o tribunal os cobraria imediatamente. Se o credor desejar fazer um juramento sobre quem possui dinheiro ou bens móveis e está enganando-o, ele pode fazê-lo. Não se exige que o devedor traga um fiador até que ele pague, a menos que o juiz veja motivo para suspeitar que ele possa fugir ou se esquivar.
+
+3. *Nota: O prazo é dado apenas para pagamento, mas não se concede prazo para um juramento, exceto no primeiro dia de comparecimento, quando ele deve jurar (Mordechai, último capítulo de Bava Metzia). Da mesma forma, não se concede prazo para outras obrigações que a pessoa se comprometeu a cumprir em um determinado tempo, sob pena imediata ao chegar o prazo, devendo pagar a multa ou cumprir o que se comprometeu (Resposta do Rashba, 1133).*
+
+**Há quem diga que aquele que estabelece um prazo para o pagamento de sua dívida e o prazo chega, não se concede outro prazo. Outros dizem que mesmo neste caso, concede-se um prazo de 30 dias.** *Nota: Mesmo que ele venha e exija 30 dias antes do prazo, ainda assim deve-se conceder a ele 30 dias a partir do prazo (Mordechai, capítulo mencionado).*
+
+**Se os 30 dias se passarem e ele não trouxer o pagamento, o tribunal escreve imediatamente uma ordem de penhora sobre seus bens. Se não encontrarem bens, não o excomungam. Mas se ele disser "não quero pagar", escrevem uma ordem de penhora sobre seus bens. Se não encontrarem bens, advertem-no três vezes e depois o excomungam, permanecendo excomungado até que pague ou alegue que não tem nada e jure sobre isso. Se ele permanecer excomungado por 30 dias e não solicitar a anulação da excomunhão, excomungam-no novamente por 30 dias, e se ele permanecer assim, o amaldiçoam. As leis de excomunhão e maldição são explicadas no Tur Yoreh De'ah, Siman 334.**
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 100 do Shulchan Aruch Choshen Mishpat trata de como lidar com situações em que uma pessoa deve dinheiro a outra e precisa de mais tempo para pagar. Vamos explicar isso de forma prática:
+
+1. **Pedido de Prazo para Pagamento:**
+   - Quando alguém deve dinheiro e pede mais tempo para pagar, dizendo que precisa desse tempo para conseguir o dinheiro (seja emprestando de outra pessoa, vendendo algo, etc.), a lei judaica geralmente concede um prazo de 30 dias. 
+   - No entanto, o juiz pode ajustar esse prazo se achar que 30 dias são insuficientes ou excessivos. Se o credor (a pessoa a quem o dinheiro é devido) não puder esperar, ele deve nomear alguém para representá-lo e esperar pelo pagamento.
+
+2. **Garantias e Fiadores:**
+   - Não é necessário que o devedor ofereça uma garantia (como um penhor) se ele não tiver bens móveis (bens que podem ser movidos, como móveis ou dinheiro). Se o credor suspeitar que o devedor está escondendo bens, ele pode pedir que o devedor faça um juramento sobre isso.
+   - Um fiador (alguém que garante o pagamento) não é exigido, a menos que haja suspeita de que o devedor possa fugir ou evitar o pagamento.
+
+3. **Prazo para Juramentos e Outras Obrigações:**
+   - O prazo de 30 dias é apenas para o pagamento da dívida. Se o devedor tiver que fazer um juramento (uma declaração solene de que está dizendo a verdade), ele deve fazê-lo no primeiro dia em que comparecer ao tribunal.
+   - Para outras obrigações que têm um prazo específico, não se concede tempo extra. Se o prazo chegar e a obrigação não for cumprida, a pessoa deve pagar uma multa ou cumprir o que prometeu imediatamente.
+
+4. **O que Acontece se o Prazo Expirar:**
+   - Se os 30 dias passarem e o devedor não pagar, o tribunal pode ordenar a penhora dos bens dele. Se não houver bens para penhorar, o tribunal não excomunga o devedor imediatamente.
+   - Se o devedor se recusar a pagar, o tribunal pode excomungá-lo, o que significa que ele é temporariamente excluído da comunidade até que pague ou prove que não tem como pagar, fazendo um juramento sobre isso.
+   - Se ele continuar excomungado por 30 dias sem tentar resolver a situação, ele pode ser excomungado novamente e, eventualmente, amaldiçoado, o que é uma medida mais severa.
+
+Essas regras são importantes para garantir que as dívidas sejam pagas de forma justa e que tanto o devedor quanto o credor sejam tratados com justiça. Na vida judaica contemporânea, essas leis ajudam a manter a ordem e a confiança nas transações financeiras.

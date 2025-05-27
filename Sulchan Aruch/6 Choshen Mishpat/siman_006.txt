@@ -1,0 +1,28 @@
+SIMAN 6
+
+**Sobre quantos se julga. E contém um parágrafo:**
+
+Os juízes não se sentam para julgar um caso que envolva um valor inferior a um *shaveh perutah* (a menor unidade monetária reconhecida pela lei judaica). No entanto, se já começaram a julgar um caso que envolve um *shaveh perutah*, eles devem concluir o julgamento mesmo que o valor em questão seja inferior a um *shaveh perutah*.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro esclarecer alguns conceitos:
+
+1. **Shulchan Aruch**: É um dos principais códigos de lei judaica, compilado por Rabi Yosef Karo no século XVI. Ele organiza e explica as leis judaicas de forma sistemática.
+
+2. **Choshen Mishpat**: É uma das quatro seções do Shulchan Aruch, focada em leis civis e comerciais, como disputas financeiras e danos.
+
+3. **Shaveh Perutah**: Refere-se à menor unidade monetária reconhecida pela lei judaica. Historicamente, uma *perutah* era uma pequena moeda de cobre usada na época do Talmud. Hoje, simboliza o valor mínimo que tem relevância legal em disputas financeiras.
+
+Agora, vamos explicar o texto:
+
+- **Juízes e Casos de Valor Mínimo**: A lei judaica estabelece que os juízes não devem iniciar um julgamento para casos que envolvam valores menores que um *shaveh perutah*. Isso significa que, se alguém tem uma disputa financeira que envolve uma quantia muito pequena, abaixo desse valor mínimo, os juízes não são obrigados a ouvir o caso. Isso ajuda a evitar que o sistema judicial seja sobrecarregado com disputas triviais.
+
+- **Exceção à Regra**: No entanto, se os juízes já começaram a julgar um caso e, durante o processo, descobrem que o valor em questão é inferior a um *shaveh perutah*, eles devem continuar e concluir o julgamento. Isso garante que, uma vez que o processo judicial tenha começado, ele seja levado até o fim, respeitando o compromisso com a justiça e a resolução de disputas.
+
+**Relevância Prática Hoje**: 
+
+Na vida judaica contemporânea, essa lei destaca a importância de um sistema judicial eficiente e justo. Ela ensina que, enquanto é importante não sobrecarregar os tribunais com casos de pouca importância financeira, também é crucial que qualquer processo iniciado seja concluído, garantindo que todas as partes envolvidas tenham uma resolução clara e justa.
+
+Para alguém que não é especialista, a mensagem principal é que a lei judaica valoriza tanto a eficiência quanto a justiça, mesmo em questões aparentemente pequenas.

@@ -1,0 +1,34 @@
+SIMAN 64
+
+**Lei sobre o erro na leitura do Shemá. Contém 4 seções:**
+
+1. Se alguém leu o Shemá fora de ordem, não cumpriu sua obrigação. Isso se refere à ordem dos versículos. No entanto, se alguém leu uma seção antes da outra, embora não seja permitido, ainda assim cumpriu sua obrigação, pois as seções não estão adjacentes na Torá.
+
+2. Se alguém leu uma seção e cometeu um erro, por exemplo, leu toda a seção, mas pulou um versículo no meio, deve voltar ao início desse versículo e completar a seção. Se não souber onde errou, deve voltar ao início da seção.
+
+3. Se alguém errou entre seções, sabendo que terminou uma seção, mas não sabe se foi a primeira ou a segunda, deve voltar à primeira seção e começar "E será, se diligentemente ouvirdes".
+
+4. Se alguém estava na parte "e as escreverás" e não sabe se é a "e as escreverás" da primeira ou da segunda seção, deve voltar à "e as escreverás" da primeira seção. Isso se aplica se ainda não começou "para que se multipliquem os vossos dias". Mas se já começou "para que se multipliquem os vossos dias", não precisa voltar, pois está seguindo a ordem correta.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 64 do Shulchan Aruch Orach Chayim trata de como lidar com erros durante a recitação do Shemá, uma oração central na prática judaica diária. Vamos explicar cada seção de forma prática:
+
+1. **Ordem dos Versículos e Seções**: 
+   - **Conceito**: O Shemá é composto por versículos e seções específicas que devem ser recitados em uma ordem determinada.
+   - **Prática**: Se você ler os versículos fora de ordem, precisa começar de novo, pois não cumpriu a obrigação. No entanto, se você leu as seções na ordem errada, mas cada seção foi lida corretamente, ainda assim cumpriu a obrigação. Isso ocorre porque as seções não estão diretamente uma após a outra na Torá.
+
+2. **Erro ao Pular Versículos**:
+   - **Conceito**: Às vezes, ao recitar, pode-se pular acidentalmente um versículo.
+   - **Prática**: Se isso acontecer, você deve voltar ao início do versículo que foi pulado e continuar a partir daí. Se não souber onde errou, é melhor voltar ao início da seção para garantir que tudo seja recitado corretamente.
+
+3. **Erro entre Seções**:
+   - **Conceito**: Pode haver confusão sobre qual seção foi concluída.
+   - **Prática**: Se você terminou uma seção, mas não tem certeza se foi a primeira ou a segunda, deve voltar à primeira seção e começar a partir do versículo "E será, se diligentemente ouvirdes". Isso garante que a ordem correta seja mantida.
+
+4. **Confusão entre Partes Semelhantes**:
+   - **Conceito**: Algumas partes do Shemá são semelhantes, como a frase "e as escreverás".
+   - **Prática**: Se você não tem certeza de qual "e as escreverás" está recitando, volte para a primeira ocorrência dessa frase. No entanto, se já começou a parte "para que se multipliquem os vossos dias", não precisa voltar, pois já está na ordem correta.
+
+Essas diretrizes ajudam a garantir que a recitação do Shemá seja feita de forma precisa e respeitosa, refletindo a importância dessa oração na vida judaica diária.

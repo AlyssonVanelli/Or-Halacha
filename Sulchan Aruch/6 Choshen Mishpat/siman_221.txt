@@ -1,0 +1,28 @@
+SIMAN 221
+
+**Vendedor que disse "por duzentos" e comprador que disse "por cem". E contém um parágrafo:**
+
+Aquele que deseja comprar uma mercadoria de seu amigo, o vendedor diz: "Estou vendendo para você por duzentos", e o comprador diz: "Eu só compro por cem". E então este foi para sua casa e aquele para sua casa. Posteriormente, eles se reuniram e este puxou o objeto sem especificar. Se foi o vendedor que procurou o comprador e lhe entregou o objeto, ele só paga cem. Mas se foi o comprador que veio e puxou o objeto sem especificar, ele é obrigado a pagar duzentos.
+
+*Nota: Se inicialmente houve um acordo entre eles e um deles voltou atrás e puxaram o objeto sem especificar, dizemos que certamente foi com base no primeiro acordo que a transação foi feita (Nimukei Yosef, capítulo HaOmanin).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch, uma obra fundamental da lei judaica, aborda uma situação comum em transações comerciais: a negociação de preço entre um vendedor e um comprador. Vamos explicar isso de forma prática e acessível:
+
+1. **Cenário da Negociação**: Imagine que você está em um mercado e quer comprar algo. O vendedor diz que o preço é 200, mas você só quer pagar 100. Ambos vão para casa sem fechar o negócio.
+
+2. **Reencontro e Ação**: Mais tarde, vocês se encontram novamente. Se o vendedor entrega o item a você sem discutir o preço novamente, você só precisa pagar os 100 que ofereceu inicialmente. Isso acontece porque o vendedor, ao entregar o item, parece aceitar sua oferta.
+
+3. **Iniciativa do Comprador**: Por outro lado, se você, como comprador, pega o item sem discutir o preço, deve pagar os 200 que o vendedor pediu inicialmente. Isso é porque, ao pegar o item, você está aceitando o preço do vendedor.
+
+4. **Importância do Acordo Inicial**: Se, no início, vocês chegaram a um acordo sobre o preço e depois alguém pegou o item sem discutir, presume-se que a transação foi feita com base nesse acordo inicial. Isso significa que o preço acordado inicialmente é o que deve ser pago.
+
+**Relevância Prática**: Na vida contemporânea, essa lei nos ensina a importância da clareza e do acordo mútuo em transações comerciais. É crucial que ambas as partes entendam e concordem com os termos antes de concluir uma venda. Isso ajuda a evitar mal-entendidos e disputas.
+
+**Conceitos Técnicos**: 
+- "Puxar o objeto" refere-se a um ato físico que, na lei judaica, pode simbolizar a aceitação de um contrato ou acordo.
+- "Nimukei Yosef" é um comentário que ajuda a esclarecer e interpretar as leis discutidas.
+
+Essas regras destacam a importância de comunicação clara e acordos explícitos em negócios, algo que continua sendo relevante em qualquer contexto comercial hoje.

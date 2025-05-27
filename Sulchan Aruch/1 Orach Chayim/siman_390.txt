@@ -1,0 +1,40 @@
+SIMAN 390
+
+**Siman 390: Um beco com um lado de gentio e outro lado de judeu. Contém dois parágrafos:**
+
+1. Um beco que tem um lado habitado por um gentio e o outro lado por um judeu, e há uma casa de outro judeu ao lado, que está aberta para o domínio público e não para o beco, com uma janela entre ele e o judeu que reside no beco. Não é permitido fazer um eruv através da janela entre eles para transportar seus utensílios para o beco através da casa do judeu vizinho que está aberta para o beco. No entanto, se houver uma porta entre eles, é permitido. Há quem proíba mesmo quando há uma porta aberta entre eles.
+
+2. Um beco que tem um lado habitado por um gentio e o outro lado por judeus, e há janelas abertas de seu pátio para o pátio do judeu, e todos fizeram um eruv através das janelas. Mesmo que tenham se tornado como membros de uma única casa e seja permitido transportar e trazer através das janelas, ainda assim é proibido usar o beco através de suas portas até que aluguem o direito de passagem do gentio.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 390 do Shulchan Aruch Orach Chayim, precisamos primeiro explicar alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite que judeus carreguem objetos em áreas públicas durante o Shabat, algo que normalmente é restrito. O eruv cria uma "fronteira" simbólica que transforma áreas públicas em uma extensão do espaço privado.
+
+2. **Beco**: Refere-se a uma passagem ou rua que é usada por várias casas ou pátios.
+
+3. **Gentio**: No contexto judaico, refere-se a uma pessoa que não é judia.
+
+Agora, vamos explicar os dois parágrafos do Siman 390:
+
+### Parágrafo 1:
+
+Imagine um beco onde de um lado mora um gentio e do outro lado mora um judeu. Há também uma casa de outro judeu que não está diretamente conectada ao beco, mas tem uma janela que dá para a casa do judeu que vive no beco. A questão aqui é sobre a possibilidade de criar um eruv através dessa janela para permitir que objetos sejam transportados no Shabat.
+
+- **Regra**: Não é permitido fazer um eruv através da janela para transportar objetos para o beco usando a casa do judeu vizinho. Isso significa que, mesmo que haja uma conexão visual ou física (como uma janela), não é suficiente para criar um eruv válido.
+  
+- **Exceção**: Se houver uma porta entre as duas casas, então é permitido. Isso porque uma porta representa uma conexão mais significativa entre os espaços.
+
+- **Opinião divergente**: Alguns dizem que mesmo com uma porta, não é permitido. Isso mostra que há diferentes interpretações sobre o que constitui uma conexão válida para um eruv.
+
+### Parágrafo 2:
+
+Neste cenário, o beco tem um lado com um gentio e o outro lado com judeus. As casas dos judeus têm janelas que se abrem para o pátio de outro judeu, e eles fizeram um eruv através dessas janelas.
+
+- **Regra**: Mesmo que, através das janelas, eles sejam considerados como uma única unidade (como se fossem uma única casa), e possam transportar objetos entre si, ainda não podem usar o beco para transportar objetos. Isso é porque o beco também é usado pelo gentio, e para que o eruv seja válido, é necessário "alugar" o direito de passagem do gentio. Isso significa que, na prática, eles precisam de uma permissão formal do gentio para incluir o beco no eruv.
+
+### Relevância Prática:
+
+Na vida judaica contemporânea, essas leis são relevantes para comunidades que desejam estabelecer um eruv em áreas urbanas. Elas precisam considerar cuidadosamente como as propriedades são conectadas e quem tem direitos de uso sobre as áreas comuns. A presença de não-judeus em áreas compartilhadas requer acordos específicos para que o eruv seja válido. Isso garante que as práticas do Shabat sejam respeitadas enquanto se vive em comunidades mistas.

@@ -1,0 +1,52 @@
+SIMAN 344
+
+**Título: Alegação de Morte por Trabalho ou Desejo de Pagar ou Jurar. Contém 4 Seções:**
+
+1. Se o mutuário alega que o objeto morreu devido ao trabalho, se estiver em um local onde há testemunhas disponíveis, ele não é isento até que traga testemunhas que confirmem suas palavras e que ele não alterou o uso do objeto. Se estiver em um local onde não há testemunhas disponíveis, ele deve jurar conforme explicado no Siman 294. Se ele estipulou que não jurará ou não pagará se o objeto for roubado ou forçado, tudo segue conforme sua condição. **Nota:** Mesmo que não tenha sido feito um ato formal de aquisição, qualquer condição feita por guardiões é válida, mesmo sem um ato formal (Mordechai, capítulo "Hashoel"). Isso é válido apenas se a condição foi feita antes que a guarda chegasse às suas mãos, mas após ele ter se comprometido, ele não pode estipular apenas com palavras (Mordechai, capítulo "Hachovel").
+
+2. Quando o mutuário paga, avaliam-se os fragmentos. Se ele pediu emprestado um utensílio e este quebrou, avaliam-se os fragmentos conforme seu valor no momento da quebra e entregam-se ao proprietário, e ele completa o pagamento sobre eles. Se o valor dos fragmentos diminuiu entre o momento da quebra e o momento do julgamento, avaliam-se conforme seu valor no momento da quebra. Da mesma forma, se ele pediu emprestado um animal e este morreu, avaliam-se quanto valia a carcaça no momento da morte e ele paga ao proprietário. **Nota:** Se os fragmentos foram roubados ou perdidos (mesmo que por força maior), o mutuário é responsável, a menos que ele tenha dito ao emprestador: "Tome o que é seu" (Nimukei Yosef, capítulo "Hashoel" e Beit Yosef, final deste Siman).
+
+3. Se Reuven emprestou um objeto a Shimon e este o perdeu, e Shimon disse a Reuven: "Jure quanto valia e eu te pagarei", e o proprietário do objeto respondeu: "Jure você e será isento", o proprietário deve jurar e o outro pagará com base em seu juramento. Se ele não jurar, o outro não pagará. Ele não é considerado obrigado a jurar e não pode jurar, então ele paga.
+
+4. Se alguém pediu emprestada uma vaca de seu amigo para metade do dia e a alugou para a outra metade, ou a pediu emprestada para um dia e a alugou para o dia seguinte, ou pediu emprestada uma e alugou outra (e uma delas morreu), e o emprestador alega que a que estava emprestada morreu no momento em que estava emprestada, e o locatário diz que não sabe, ou o guardião diz que a alugada morreu no momento em que estava alugada, e o emprestador diz que não sabe, ou se ambos dizem "não sei", a prova cabe a quem deseja retirar do outro. Se não houver prova, quando o emprestador alega com certeza, o locatário deve jurar que a alugada morreu ou que não sabe. Quando o emprestador diz "não sei", o guardião deve jurar o juramento dos guardiões que ela morreu de forma natural, e por meio de um juramento adicional, o guardião deve jurar que a alugada morreu ou que não sabe. O mesmo se aplica se um diz que a emprestada morreu e o outro diz que a alugada morreu, ou se ambos dizem "não sei".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 344 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho trata de situações em que alguém empresta ou aluga um objeto ou animal e algo acontece com ele, como quebra ou morte. As regras estabelecem como resolver disputas sobre quem é responsável por danos ou perdas.
+
+### Seção 1: Alegação de Morte por Trabalho
+
+- **Mutuário**: A pessoa que pegou o objeto emprestado.
+- **Testemunhas**: Pessoas que podem confirmar o que aconteceu com o objeto.
+- **Juramento**: Uma declaração solene feita perante uma autoridade religiosa para confirmar a verdade de uma alegação.
+
+Se alguém empresta um objeto e ele é danificado ou morre, o mutuário precisa provar que isso aconteceu durante o uso normal. Se houver testemunhas disponíveis, ele deve trazê-las. Se não houver, ele deve fazer um juramento. Se o mutuário e o emprestador fizeram um acordo específico sobre o que acontece em caso de roubo ou dano, esse acordo prevalece.
+
+### Seção 2: Avaliação de Fragmentos
+
+- **Fragmentos**: Restos do objeto quebrado.
+- **Avaliação**: Determinar o valor dos fragmentos no momento da quebra.
+
+Se um objeto emprestado quebra, o mutuário deve pagar pelo valor do objeto, mas pode entregar os fragmentos ao dono e pagar a diferença. Se os fragmentos forem perdidos ou roubados, o mutuário ainda é responsável, a menos que ele tenha oferecido os fragmentos ao dono imediatamente.
+
+### Seção 3: Juramento e Pagamento
+
+- **Reuven e Shimon**: Nomes comuns usados em exemplos legais, como "Pessoa A" e "Pessoa B".
+
+Se o objeto emprestado é perdido e há uma disputa sobre seu valor, o dono pode pedir ao mutuário para jurar sobre o valor. Se o dono se recusar a jurar, o mutuário não precisa pagar. O juramento é uma forma de resolver a disputa sem necessidade de mais provas.
+
+### Seção 4: Empréstimo e Aluguel
+
+- **Locatário**: A pessoa que alugou o objeto.
+- **Guardião**: A pessoa responsável pelo objeto durante o empréstimo ou aluguel.
+
+Se um objeto é emprestado e alugado em momentos diferentes, e algo acontece com ele, a responsabilidade depende de quando o dano ocorreu. Se não houver certeza sobre quando o dano aconteceu, a pessoa que quer receber compensação deve provar sua alegação. Se não houver provas, a pessoa que está sendo acusada pode fazer um juramento para resolver a questão.
+
+### Relevância Prática
+
+Essas leis são importantes para resolver disputas de forma justa e pacífica, especialmente em comunidades onde empréstimos e aluguéis de objetos são comuns. Elas ajudam a garantir que as pessoas sejam responsáveis por suas ações e que acordos sejam respeitados. Em um contexto moderno, essas regras podem ser aplicadas a situações como o aluguel de carros ou equipamentos, onde a responsabilidade por danos precisa ser claramente definida.

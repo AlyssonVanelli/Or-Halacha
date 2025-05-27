@@ -1,0 +1,44 @@
+SIMAN 51
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 51):**
+
+**Um documento que contém apenas uma testemunha ou uma delas é inválido. Este siman contém sete seções:**
+
+1. Uma testemunha por escrito e uma testemunha oral (sem um ato de aquisição) se juntam. Se a testemunha que não escreveu seu testemunho disser: "Eu adquiri dele sobre este assunto, e o credor não veio e não me pediu para escrever", ambas as testemunhas se juntam para tornar o empréstimo um documento, e o devedor não pode alegar que pagou.
+
+2. Se a testemunha oral disser: "Na minha presença, o documento foi entregue", isso é considerado um documento completo para cobrar de bens hipotecados. Nota: Isso é apenas se puderem dizer que foi entregue também na presença da testemunha assinada, tornando-se duas testemunhas de entrega. Mas se foi entregue apenas na presença de uma testemunha, mesmo que houvesse dois documentos, cada um assinado por uma testemunha, e foi entregue apenas na presença de uma testemunha, eles não se juntam para cobrar de bens hipotecados.
+
+3. Se um documento de dívida for apresentado com uma testemunha, e o devedor alegar que pagou, ele é obrigado a jurar e, se não puder jurar, deve pagar. Se ele alegar e disser: "Jure para mim que não paguei", ele deve jurar. Mas se ele alegar que não tomou emprestado, ele jura para contradizer a testemunha e é isento. Alguns dizem que mesmo se ele alegar que pagou, ele é acreditado com um juramento.
+
+4. Um documento assinado por duas testemunhas, e uma delas é encontrada próxima ou inválida, mesmo que haja testemunhas de entrega, é considerado como um caco. Alguns dizem que é tratado como um documento com apenas uma testemunha assinada.
+
+5. Um documento com muitas testemunhas, e uma delas é encontrada próxima ou inválida, e as testemunhas não estão presentes para serem questionadas, se houver evidência clara de que todos se sentaram para assinar com a intenção de testemunhar, o documento é anulado. Caso contrário, o testemunho é mantido pelos outros, pois é possível que as testemunhas válidas tenham assinado e deixado espaço para um adulto assinar, e este próximo ou inválido assinou sem o conhecimento deles.
+
+6. Um testamento em que uma das testemunhas é próxima ou inválida, e foi anulado conforme explicado, a testemunha que não é próxima, se lembrar do testemunho, deve vir perante o tribunal e testemunhar. Se houver uma testemunha que ouviu o testamento de fora, ele se junta a ele para testemunhar, mesmo que não tenha sido designado para testemunhar.
+
+7. Se alguém escrever todos os seus bens para duas pessoas em um único testemunho, e as testemunhas forem próximas de um dos beneficiários e distantes do outro, o documento é inválido porque é um único testemunho, a menos que aquele para quem as testemunhas são inválidas renuncie àquela propriedade. No caso de testemunho oral, em tal situação, eles são válidos para testemunhar para aquele que não é seu parente.
+
+8. Um documento entregue na presença de duas testemunhas pode ser cobrado de bens hipotecados, mesmo que não estejam assinados nele. No entanto, se as testemunhas assinadas forem encontradas inválidas, mesmo que apenas uma delas seja inválida, o documento é inválido, mesmo que tenha sido entregue na presença de testemunhas válidas, pois é falsificado por dentro.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 51 do Shulchan Aruch Choshen Mishpat trata de regras sobre a validade de documentos legais, especialmente em relação a testemunhas. Vamos explicar cada seção de forma prática:
+
+1. **Testemunhas em Documentos**: Um documento legal precisa de testemunhas para ser válido. Se um documento tem apenas uma testemunha escrita e outra testemunha que apenas fala sobre o que viu, elas podem se juntar para validar o documento, desde que a testemunha oral tenha visto a entrega do documento e não tenha sido solicitada a escrever seu testemunho. Isso significa que o devedor não pode alegar que já pagou a dívida.
+
+2. **Entrega do Documento**: Para que um documento seja considerado completo e possa ser usado para cobrar dívidas de bens hipotecados, ele deve ser entregue na presença de duas testemunhas. Se apenas uma testemunha viu a entrega, o documento não é suficiente para cobrar de bens hipotecados, mesmo que existam dois documentos separados, cada um com uma testemunha.
+
+3. **Alegações de Pagamento**: Se um devedor diz que pagou uma dívida e há apenas uma testemunha no documento, ele deve jurar que pagou. Se ele não puder jurar, deve pagar. Se ele diz que nunca tomou emprestado, ele pode jurar para contradizer a testemunha e ser isento. Algumas opiniões dizem que mesmo se ele alegar que pagou, ele pode ser acreditado com um juramento.
+
+4. **Testemunhas Inválidas**: Se um documento tem duas testemunhas e uma delas é considerada inválida, o documento é tratado como se fosse apenas um pedaço de papel, mesmo que haja testemunhas que viram a entrega. Algumas opiniões dizem que é como um documento com apenas uma testemunha.
+
+5. **Múltiplas Testemunhas**: Se um documento tem muitas testemunhas e uma delas é inválida, e não é possível verificar com as testemunhas, o documento é anulado se houver evidência de que todos assinaram para testemunhar. Caso contrário, o testemunho das testemunhas válidas é mantido, pois pode ser que a testemunha inválida tenha assinado sem o conhecimento das outras.
+
+6. **Testamento com Testemunha Inválida**: Se um testamento tem uma testemunha inválida, ele é anulado. No entanto, a testemunha válida pode testemunhar no tribunal se lembrar do testamento. Outra pessoa que ouviu o testamento pode se juntar para testemunhar, mesmo que não tenha sido designada como testemunha.
+
+7. **Propriedade para Duas Pessoas**: Se alguém deixa bens para duas pessoas em um único documento, e as testemunhas são parentes de um dos beneficiários, o documento é inválido, a menos que o beneficiário renuncie à sua parte. Em testemunho oral, as testemunhas podem testemunhar para o beneficiário que não é seu parente.
+
+8. **Entrega com Testemunhas**: Um documento entregue na presença de duas testemunhas pode ser usado para cobrar de bens hipotecados, mesmo que as testemunhas não tenham assinado. No entanto, se as testemunhas assinadas forem inválidas, o documento é considerado falsificado, mesmo que tenha sido entregue na presença de testemunhas válidas.
+
+Essas regras são importantes para garantir a integridade e a justiça nos processos legais, assegurando que os documentos sejam confiáveis e que as partes envolvidas sejam tratadas de forma justa.

@@ -1,0 +1,47 @@
+SIMAN 206
+
+**Lei sobre a venda condicional de um campo por um preço específico ou conforme avaliação do tribunal. Contém quatro seções:**
+
+1. Se alguém diz ao seu amigo: "Quando eu vender este campo, ele está vendido para você desde já por cem", e faz um ato de aquisição com ele sobre isso, mas depois vendeu para outro por cem, o primeiro comprador adquire. (Se não mencionou um valor, apenas disse "quando eu vendê-lo, venderei para você", o primeiro não adquire). Da mesma forma, se ele vendeu por mais de cem, o último comprador adquire, pois ele não disse senão "quando eu vender", significando que ele venderia por sua própria vontade como no início, e isso não foi o caso, pois ele não queria vender, mas vendeu por causa do acréscimo que este ofereceu, sendo considerado como se tivesse sido forçado a vender.
+
+   Nota: Tudo isso se refere a quando ele disse na linguagem de "quando eu vender, venderei para você", etc. Mas se ele disse "não venda senão para mim" ou estipulou explicitamente que mesmo se lhe oferecessem mais do que o valor estipulado, ele venderia para ele, sua condição é válida.
+
+2. Se ele disse: "Quando eu vendê-lo, ele está adquirido para você desde já conforme a avaliação de um tribunal de três, mesmo que seja por dois dos três", ele disse "conforme o que três disserem" até que os três digam.
+
+3. Da mesma forma, se ele disse "conforme a avaliação de um tribunal de quatro", até que os quatro avaliem e concordem, e ele vendeu para outro conforme o que eles concordaram, depois o primeiro adquire.
+
+4. Se três ou quatro avaliaram e o vendedor disse "até que venham outros três ou quatro e avaliem", não se ouve a ele, pois já foi adquirido de sua mão no início que ele vendeu desde já. Nota: Mas se ele não vendeu desde já, mesmo que tenha feito um ato de aquisição com ele que quando ele vendesse, ele venderia para ele, ele não adquire, pois é considerado uma aquisição de palavras, como explicado anteriormente no Siman 203, e também é considerado uma "asmachta" (compromisso condicional), como explicado no Siman 207.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 206 do Shulchan Aruch Choshen Mishpat, vamos desmembrar os conceitos e termos técnicos e explicar como essas leis podem ser relevantes na vida judaica contemporânea.
+
+### Contexto Geral
+
+Este trecho trata de leis sobre a venda de um campo, especificamente quando a venda é feita sob certas condições ou promessas. No contexto judaico, a venda de propriedades é um assunto sério e regulado por leis específicas para garantir justiça e clareza entre as partes envolvidas.
+
+### Seção 1: Venda Condicional
+
+- **Cenário:** Uma pessoa promete vender um campo a outra por um preço específico no futuro.
+- **Explicação:** Se alguém diz a outra pessoa que venderá um campo por um preço fixo (por exemplo, cem moedas) e realiza um ato formal de aquisição (como um contrato ou outro gesto legalmente reconhecido), essa promessa é válida. Se o vendedor depois vende o campo a outra pessoa pelo mesmo preço, a primeira pessoa ainda tem o direito de adquirir o campo.
+- **Importante:** Se o vendedor não especificou um preço e apenas disse que venderia o campo, a primeira pessoa não tem direito garantido. Além disso, se o campo for vendido por um preço maior, a venda para a segunda pessoa é válida, pois o vendedor não estava realmente disposto a vender inicialmente, mas foi persuadido pelo preço mais alto.
+
+### Seção 2: Avaliação por Tribunal
+
+- **Cenário:** A venda é condicionada à avaliação de um tribunal.
+- **Explicação:** Se a venda é feita com base na avaliação de um tribunal de três pessoas, todos os três devem concordar com o valor. Mesmo que dois dos três concordem, a venda não é válida até que todos os três estejam de acordo.
+
+### Seção 3: Avaliação por Quatro Pessoas
+
+- **Cenário:** A venda é condicionada à avaliação de quatro pessoas.
+- **Explicação:** Similar à seção anterior, se a venda depende da avaliação de quatro pessoas, todos os quatro devem concordar com o valor. Se o vendedor vende para outra pessoa com base nessa avaliação, a primeira pessoa ainda tem o direito de adquirir o campo.
+
+### Seção 4: Avaliação Posterior
+
+- **Cenário:** O vendedor quer esperar por outra avaliação.
+- **Explicação:** Se o vendedor já fez uma venda com base na avaliação inicial, ele não pode exigir uma nova avaliação para invalidar a venda. A venda já é considerada efetiva. No entanto, se a venda não foi feita de imediato e foi apenas uma promessa verbal, ela não é considerada válida, pois promessas verbais sem ação concreta são vistas como "asmachta" (compromissos condicionais que não são legalmente vinculativos).
+
+### Relevância Prática
+
+Na vida contemporânea, essas leis destacam a importância de clareza e formalidade em transações comerciais. Elas ensinam que promessas devem ser acompanhadas de ações concretas para serem válidas e que condições específicas devem ser claramente definidas e acordadas por todas as partes envolvidas. Isso ajuda a evitar mal-entendidos e disputas legais, promovendo transações justas e transparentes.

@@ -1,0 +1,95 @@
+SIMAN 111
+
+**Lei sobre empréstimos com documento e empréstimos verbais. Contém 24 seções:**
+
+1. Quando alguém empresta dinheiro a outro verbalmente, ele só pode cobrar do que encontrar nas mãos do devedor. No entanto, ele não pode tomar propriedades de compradores que adquiriram do devedor, nem de presentes que o devedor deu. Mas ele pode cobrar de tudo que encontrar nas mãos do devedor, seja terra ou bens móveis, mesmo que tenham sido adquiridos após o empréstimo.
+
+2. Contudo, se o empréstimo foi feito com um documento, o credor pode tomar propriedades de compradores e de quem recebeu presentes, mesmo que tenham adquirido terras após o empréstimo, mesmo que isso não esteja explicitamente mencionado no documento. Mas se foi especificado que o empréstimo foi feito com a condição de não tomar de compradores ou de quem recebeu presentes, essa condição é válida e ele não pode tomar deles.
+
+3. Propriedades dedicadas são consideradas como propriedades penhoradas e não podem ser cobradas enquanto houver propriedades livres. Se a venda ou o presente precederam o empréstimo, é claro que ele não pode tomar deles, a menos que haja prova de que a venda ou o presente foram feitos apenas para evitar o credor, como explicado no Siman 99, onde o presente é anulado mesmo que tenha precedido o empréstimo, e o credor pode cobrar dele, mesmo que seja um empréstimo verbal.
+
+4. Se um presente foi dado ao devedor com a condição de que não recaia sobre ele nenhum penhor, nem dívida nem ketubah que preceda o presente, e que não recaia sobre ele no futuro, a condição é válida e o credor não pode cobrar dele, mesmo que tenha sido escrito "da'kna" (um termo técnico que implica aquisição futura). Mas se ele comprou terra e o vendedor condicionou que não recaia sobre ela nenhum penhor, isso não é eficaz, e o credor do comprador pode cobrar dela.
+
+5. Se alguém deu terra a seu filho com a condição de que não recaia sobre ela nenhum penhor, e ele não tem outro filho, e o pai morreu, o credor do filho pode cobrar dela.
+
+6. Se alguém tem muitas dívidas e o tribunal vendeu a terra do devedor para pagar ao credor anterior, os outros credores não podem voltar à terra e tomá-la do comprador. Mas se o próprio devedor vendeu para pagar ao credor anterior, os outros credores podem tomá-la do comprador.
+
+7. Tutores de órfãos que venderam a outros, não dizemos que aceitaram a responsabilidade sobre si mesmos, mas eles podem voltar e tomar de volta para sua dívida.
+
+8. Um credor anterior que vem cobrar, e há outro credor posterior, e o devedor não tem bens além do suficiente para a dívida do primeiro, não o colocamos nos bens do devedor, mesmo que haja confiança no documento, até que ele jure o juramento da Mishná de que não recebeu nada, como é a lei de quem toma de outro, pois ele toma do segundo. Se o documento de dívida foi apagado e o tribunal escreveu outro documento para ele, e também se alguém emprestou a outro verbalmente e foi obrigado a ele em tribunal, e não tinha como pagar, e o tribunal escreveu um ato para ele, se ele pode tomar de compradores, isso é explicado no Siman 70, Seção 6.
+
+9. Quando dizemos que ele toma de propriedades penhoradas, é quando ele não encontra nas mãos do devedor propriedades livres para cobrar sua dívida. Mas se ele encontrar nas mãos do devedor propriedades livres para cobrar, mesmo que sejam de qualidade inferior, ele não toma de propriedades penhoradas, seja de compradores ou de quem recebeu presentes. Portanto, se o devedor deu presentes a outros e escreveu para eles "cem moedas para fulano, duzentas para fulano, trezentas para fulano", e não há em seus bens o suficiente para todos, não dizemos que quem tem o documento anterior ganha, mas dividem os bens em nove partes, e o dono dos cem recebe duas partes, o dono dos duzentos recebe três partes, e o dono dos trezentos recebe quatro partes. E se surgir uma dívida sobre eles, ele cobra de todos, e conforme a divisão, cada um paga sua parte. Mas se ele disse "cem moedas para fulano, e depois duzentas para fulano, e depois trezentas para fulano", quem tem o documento anterior ganha. Portanto, se surgir uma dívida sobre eles, ele cobra do último, e se não for suficiente, ele cobra do anterior, e se não for suficiente, ele cobra do anterior ao anterior.
+
+10. Reuven ordenou, em seu leito de morte, dar cem moedas a Shimon, e os herdeiros venderam todos os bens, e Shimon não encontrou para cobrar suas cem moedas, ele cobra dos compradores. E os herdeiros não podem dizer que já deram a ele, pois o documento de testamento está em suas mãos, e não tememos fraude.
+
+11. Herdeiros que venderam os bens de seu pai têm o status de propriedades penhoradas, e o credor não toma deles, pois há propriedades livres do pai. E se não deixaram propriedades livres do pai e querem pagar com suas próprias terras, isso é explicado no Siman 107.
+
+12. Se o devedor vendeu terras que tinha em sua cidade, e tem terras em outra cidade, o credor toma do comprador e não pode dizer "deixei para você propriedades livres", pois não estão em sua cidade. Mesmo que o próprio devedor não pudesse cobrar de suas propriedades que tem em outra cidade. No entanto, tudo depende da visão dos juízes, pois se não há dano para o credor em cobrar na outra cidade, ele cobra lá das propriedades livres.
+
+13. Se os compradores deixaram propriedades livres nas mãos do devedor e elas se deterioraram, o credor toma dos compradores, mas apenas se se deterioraram. Mas se não se deterioraram, mas ele não pode cobrar delas por sua própria negligência, como se ele removeu seu penhor delas e tomou um compromisso de não cobrar delas, ele não cobra dos compradores, pois eles podem dizer "deixamos para você um lugar para cobrar".
+
+14. E se não se deterioraram, mas um ladrão ou opressor tomou, ele não toma de propriedades penhoradas, pois é comum que pessoas violentas caiam, e no final ele cobrará sua dívida. No entanto, se o devedor se converteu a outra religião e não pode cobrar de acordo com suas leis, é como se tivessem se deteriorado em suas mãos, e ele toma de propriedades penhoradas. E alguns dizem que o mesmo se aplica se o devedor deixou órfãos menores, e há quem discorde.
+
+15. Um devedor que vem vender suas terras a um não-judeu para que o credor não possa cobrar sua dívida depois, e vem impedir a venda, ele não pode impedir, assim como não pode impedir quando vende seus bens móveis, mesmo que não possa tomá-los, pois talvez ele ainda pague antes que o tempo chegue. No entanto, o vendedor não faz bem, pois prejudica o penhor de seu amigo. E parece-me que se parecer ao tribunal que não haverá lugar para cobrar sua dívida depois, ele pode impedir.
+
+16. Mesmo que o tempo de pagamento tenha chegado, e o credor tenha negligenciado em cobrar sua dívida e receber de propriedades livres, e após muito tempo as propriedades livres foram destruídas, ele cobra de propriedades penhoradas.
+
+17. Se há dois ou três compradores que compraram dele de uma vez, e nenhum deles é anterior ao outro, e o credor vem tomar, ele cobra de quem quiser, e não precisa tomar metade de um campo deste e metade de um campo daquele. No entanto, se havia muitos campos e ele pode cobrar um campo de cada um, ele cobra deles e não de um deles.
+
+18. Se o comprador que comprou do devedor vendeu a outro, e o outro a outro, mesmo até cem, e ele vem tomar do último comprador, ele não pode dizer "por que não cobrou sua dívida do primeiro".
+
+19. Um devedor que vendeu seus bens e o credor assinou o documento de venda, não perdeu por isso seu direito, e toma dos compradores, pois pode dizer "o segundo é conveniente para mim e o primeiro é difícil para mim".
+
+20. Reuven comprou uma casa de Shimon, e Levi tinha um documento sobre essa casa, e Levi estava presente quando Reuven comprou a casa e não apresentou seu documento, e Reuven demoliu a casa e construiu nela, e nomeou Levi sobre a construção, e depois Levi apresentou seu documento, ele não perdeu seu direito por seu silêncio.
+
+21. Um devedor que tomou emprestado e depois deu seus bens como presente com a condição de devolver, se são terras que ele comprou antes de tomar emprestado ou que comprou depois de tomar emprestado, e escreveu "da'kna", seu presente não é nada. E se o presente precedeu o empréstimo e foi dado por um tempo determinado, o receptor do presente ganhou até que o tempo chegue. E se ele deu a ele como presente com a condição de devolver sem especificar quando devolverá, e depois tomou emprestado, assim como o receptor pode adiar o devedor por muito tempo dizendo "a cada vez devolverei a você depois de um tempo", assim ele adia o credor que vem por seu direito. No entanto, o credor pode forçá-lo, de acordo com Rabi Natan, quando quiser devolvê-los, para que ele não devolva a não ser ao doador.
+
+22. Mesmo que não tenha escrito "da'kna", se ele comprou e herdou, ele cobra. E há quem discorde.
+
+23. Reuven emprestou a Shimon verbalmente, e Shimon emprestou a Yehuda com um documento, e Yehuda vendeu todos os seus bens, e Reuven vem tomar dos compradores que compraram de Yehuda por causa do documento que Shimon tem sobre Yehuda, a lei está com ele, pois Shimon admite que deve a ele.
+
+24. Se o devedor não tinha bens, exceto documentos de dívidas que ele tem sobre outros, não apenas enquanto estão em suas mãos que o credor cobra deles de acordo com Rabi Natan, mas mesmo se o devedor morreu e os documentos caíram diante dos herdeiros, ele cobra deles, mesmo que os documentos que o devedor tem sobre outros credores tenham sido feitos depois que ele tomou emprestado do credor, e mesmo que os credores do devedor tenham comprado bens depois que o devedor tomou emprestado de seu credor, o credor cobra deles e de seus herdeiros de acordo com Rabi Natan.
+
+25. Se o devedor vendeu documentos de dívidas ou os deu a outro, ou se seus credores venderam seus bens depois que ele tomou emprestado de seu credor, se há no documento que o credor tem, e também no documento que o devedor tem sobre seus credores, um penhor de bens móveis junto com terras, então há uma prioridade, e os bens dos credores do devedor estão penhorados ao seu credor por seu direito, pois ele é anterior à venda que eles fizeram.
+
+26. Se o devedor tinha dois credores que lhe emprestaram e vêm juntos cobrar de seus devedores, se o devedor emprestou a seus devedores com um documento depois que ele tomou emprestado de ambos, eles dividem. E se um deles apreendeu, ele ganhou com sua apreensão. E se as dívidas do devedor precederam o empréstimo de ambos ou precederam o empréstimo do último, e ele escreveu para o primeiro junto com terras, o primeiro ganhou.
+
+27. Reuven tinha um documento sobre Shimon e o deu a Levi por escrito e entrega, e quando Levi veio cobrá-lo, Yehuda apresentou um documento que ele tinha sobre Reuven anterior ao documento que Reuven tinha sobre Shimon, e disse que o documento que Reuven deu a Levi é de seu credor, e ele ganhou por direito de prioridade. A lei está com Yehuda, pois seu documento é anterior, e ele penhorou bens móveis junto com terras, e não há nisso a questão de "proteção do mercado".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 111 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas a empréstimos, tanto aqueles feitos verbalmente quanto por meio de documentos escritos. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Empréstimos Verbais vs. Documentados**: 
+   - **Empréstimos Verbais**: Quando alguém empresta dinheiro sem um documento escrito, o credor só pode cobrar do que o devedor ainda possui. Ele não pode tomar propriedades que o devedor vendeu ou deu de presente a outras pessoas.
+   - **Empréstimos Documentados**: Se o empréstimo foi feito com um documento, o credor tem mais direitos. Ele pode cobrar de propriedades que o devedor vendeu ou deu de presente, mesmo que essas propriedades tenham sido adquiridas após o empréstimo. No entanto, se o documento especifica que o credor não pode tomar de compradores ou de quem recebeu presentes, essa condição deve ser respeitada.
+
+2. **Propriedades Penhoradas e Livres**:
+   - Propriedades que foram vendidas ou dadas como presente são consideradas "penhoradas". O credor só pode tomar essas propriedades se não houver outras propriedades "livres" (não penhoradas) disponíveis para cobrar a dívida.
+
+3. **Condições Especiais em Presentes e Vendas**:
+   - Se um presente ou venda é feito com a condição de que não recaia sobre ele nenhum penhor, essa condição pode ser válida, dependendo das circunstâncias. Por exemplo, se um pai dá terras a seu filho com essa condição, mas não tem outros filhos, o credor do filho pode cobrar dessas terras.
+
+4. **Venda de Propriedades para Pagar Dívidas**:
+   - Se um tribunal vende propriedades de um devedor para pagar uma dívida, outros credores não podem tomar essas propriedades do comprador. Mas se o próprio devedor vendeu para pagar uma dívida, outros credores podem tomar essas propriedades.
+
+5. **Herdeiros e Propriedades Vendidas**:
+   - Quando herdeiros vendem propriedades do falecido, essas propriedades são consideradas penhoradas. O credor não pode tomar delas se houver outras propriedades livres do falecido.
+
+6. **Cobrança de Dívidas em Diferentes Cidades**:
+   - Se um devedor tem propriedades em outra cidade, o credor pode cobrar do comprador na cidade original, a menos que não haja prejuízo em cobrar na outra cidade.
+
+7. **Propriedades Deterioradas ou Tomadas**:
+   - Se as propriedades livres do devedor se deterioraram ou foram tomadas por ladrões, o credor pode cobrar de propriedades penhoradas. Se o devedor se converteu a outra religião e o credor não pode cobrar de acordo com as novas leis, é como se as propriedades tivessem se deteriorado.
+
+8. **Venda a Não-Judeus**:
+   - Um devedor que vende suas propriedades a um não-judeu para evitar que o credor cobre não pode ser impedido, mas isso não é considerado uma boa ação, pois prejudica o credor.
+
+9. **Prioridade entre Credores**:
+   - Quando há múltiplos credores, a prioridade de cobrança pode depender de quem tem o documento mais antigo ou de como as dívidas foram estruturadas.
+
+10. **Documentos de Dívidas**:
+    - Se um devedor tem documentos de dívidas sobre outras pessoas, o credor pode cobrar dessas dívidas, mesmo que o devedor tenha morrido e os documentos tenham passado para os herdeiros.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades que seguem a Halachá (lei judaica) em questões financeiras. Elas ajudam a garantir justiça e clareza em transações financeiras, protegendo os direitos de credores e devedores.

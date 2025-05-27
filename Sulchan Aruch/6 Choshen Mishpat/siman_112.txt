@@ -1,0 +1,48 @@
+SIMAN 112
+
+**O credor não pode tomar dos bens alienados adquiridos posteriormente. Este capítulo contém cinco seções:**
+
+1. Um credor não pode tomar bens alienados a menos que o devedor possuísse esses bens no momento do empréstimo e os tenha vendido ou doado posteriormente. No entanto, se o devedor adquiriu os bens após o empréstimo e os vendeu, esses bens não estão vinculados ao credor, e ele não pode cobrá-los dos compradores.
+
+2. Contudo, enquanto os bens ainda estiverem na posse do devedor, o credor pode cobrá-los, mesmo que tenham sido adquiridos após o empréstimo.
+
+3. Se o devedor hipotecou seus bens presentes e futuros, a hipoteca se aplica também aos bens que ele adquirir posteriormente. Se ele adquirir bens após o empréstimo e os vender, o credor pode cobrá-los.
+
+4. Isso é válido apenas se o devedor especificou claramente que a hipoteca inclui bens futuros. Se ele não escreveu explicitamente "o que eu adquirirei", a hipoteca não se aplica.
+
+5. Se o devedor não escreveu "o que eu adquirirei" e vendeu seus bens após o empréstimo, e o credor tenta cobrar dos compradores alegando que os bens estavam na posse do devedor no momento do empréstimo, enquanto o comprador alega que foram adquiridos e vendidos após o empréstimo, alguns dizem que o credor deve provar que os bens estavam na posse do devedor no momento do empréstimo.
+
+6. Outros dizem que se houver testemunhas de que o devedor comprou e vendeu o terreno, o credor deve trazer testemunhas de que o devedor o adquiriu antes da hipoteca. Mas se houver testemunhas de que o devedor possuía o terreno e que era dele, o comprador deve provar quando o devedor o adquiriu. Se não houver prova, o tribunal presume que o terreno sempre pertenceu ao devedor e seus ancestrais.
+
+7. Se alguém doa seus bens "a partir de hoje e após a morte" e não se sabe quais bens ele possuía naquele momento, alguns dizem que o beneficiário da doação deve provar que os bens estavam na posse do doador no momento da doação.
+
+8. Outros dizem que se não for conhecido que o doador adquiriu bens posteriormente, todos os bens são presumidos como pertencentes ao beneficiário da doação.
+
+9. Dois credores apresentam seus documentos, e nenhum deles menciona "o que eu adquirirei". Se os bens não são suficientes para ambos, e o credor anterior alega que o devedor já possuía os bens quando contraiu o empréstimo, enquanto o credor posterior alega que os bens foram adquiridos após ambos os empréstimos, e não há testemunhas, alguns dizem que os bens são divididos igualmente.
+
+10. Outros dizem que se não houver testemunhas de que os bens foram adquiridos, eles permanecem com o credor anterior. Se houver testemunhas de que os bens foram adquiridos, mas não sabem quando, os bens são divididos igualmente.
+
+11. Se Reuven contraiu um empréstimo com um documento que não menciona "o que eu adquirirei", e ele adquiriu bens e faleceu, deixando uma filha que herdou e se casou, o credor não pode cobrar do marido os bens que ela trouxe para o casamento, pois o marido é considerado um comprador dos bens da esposa.
+
+**Nota:** Se a filha não se casou, o credor pode cobrar do herdeiro, conforme mencionado anteriormente no Siman 111, Seção 20.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 112 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de questões relacionadas a dívidas e propriedades no contexto da lei judaica. Vamos explicar os principais pontos de forma prática:
+
+1. **Credor e Devedor**: Um credor é alguém que emprestou dinheiro, e um devedor é quem tomou o empréstimo. Quando alguém empresta dinheiro, o credor tem o direito de cobrar a dívida. No entanto, se o devedor vende ou doa seus bens, o credor pode ter limitações sobre quais bens ele pode tomar para saldar a dívida.
+
+2. **Bens Alienados**: Isso se refere a bens que o devedor vendeu ou doou. Se o devedor tinha esses bens no momento do empréstimo e depois os alienou, o credor pode tentar recuperá-los. Mas se o devedor adquiriu os bens após o empréstimo e os vendeu, o credor não pode tomá-los dos novos proprietários.
+
+3. **Hipoteca de Bens Futuros**: Se o devedor explicitamente inclui bens futuros em uma hipoteca, o credor pode cobrar esses bens mesmo que o devedor os adquira após o empréstimo. Isso precisa estar claramente especificado no documento de hipoteca.
+
+4. **Prova de Posse**: Se houver disputa sobre quando o devedor adquiriu os bens, a responsabilidade de provar pode recair sobre o credor ou o comprador, dependendo das circunstâncias e das evidências disponíveis.
+
+5. **Doações e Heranças**: Quando alguém doa bens "a partir de hoje e após a morte", pode haver incerteza sobre quais bens estavam na posse do doador no momento da doação. A prova pode ser necessária para determinar a posse.
+
+6. **Disputas entre Credores**: Quando dois credores têm documentos de empréstimo e disputam sobre os bens do devedor, a divisão dos bens pode depender de provas sobre quando os bens foram adquiridos. Se não houver provas, os bens podem ser divididos igualmente.
+
+7. **Herança e Casamento**: Se um devedor falece e deixa bens para uma filha que se casa, o credor não pode cobrar do marido os bens que ela trouxe para o casamento, pois ele é considerado um comprador. No entanto, se a filha não se casou, o credor pode cobrar do herdeiro.
+
+Essas regras são importantes para garantir justiça e clareza em transações financeiras e de propriedade, protegendo os direitos de credores, devedores e terceiros envolvidos. Na vida contemporânea, essas leis ajudam a resolver disputas de forma justa e organizada, respeitando os princípios da lei judaica.

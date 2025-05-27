@@ -1,0 +1,82 @@
+SIMAN 292
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 292):**
+
+**Proibição de usar um depósito e as consequências de fazê-lo. Contém 22 seções:**
+
+1. O depositário não tem permissão para usar o depósito. Se ele o fizer, mesmo que não tenha a intenção de roubá-lo, mas apenas de usá-lo, ele é considerado como se estivesse em sua posse e é responsável por qualquer dano, mesmo que ainda não tenha usado o objeto. O uso indevido não requer que o objeto seja danificado; basta levantá-lo com a intenção de usá-lo de uma forma que o diminua para que seja considerado responsável, como se já tivesse causado dano. No entanto, se ele o levantou para um uso que não o diminui, ele não é responsável desde o momento do levantamento, mas apenas a partir do uso, e não por uso indevido, pois não está usando de forma a diminuí-lo, mas porque é considerado um "shomer" (guardião) sem permissão, o que é como um ladrão.
+
+2. Se ele devolveu o objeto ao lugar de onde o pegou, ele volta a ser considerado um guardião, já que inicialmente ele era apenas um "shomer" (guardião) comum. No caso de dinheiro, ele é responsável por danos (Tur, Siman 11 e veja mais adiante, Siman 66).
+
+3. Se ele inclinou um barril e retirou um quarto de seu conteúdo e o barril quebrou, ele é responsável apenas pelo quarto retirado, pois não levantou o barril. Mas se ele levantou o barril para retirar um quarto, ele é responsável mesmo que não tenha retirado nada. Se ele levantou uma bolsa para retirar um dinar ou algo semelhante, que não é uma unidade única, há dúvida se ele é responsável por toda a bolsa ou apenas pelo dinar.
+
+4. Da mesma forma, se ele inclinou e retirou um quarto e o vinho azedou, ele é responsável por todo o conteúdo, pois o azedamento foi causado pela falta. Isso se aplica a um barril de vinho que tende a azedar quando está incompleto, mas para outras frutas, se ele usou parte delas e não as levantou, ele é responsável apenas pelo que retirou.
+
+5. Se ele disse que pretende usar o depósito, ele não é responsável, mesmo que diga isso na presença de testemunhas.
+
+6. Quem usa um depósito por si mesmo ou por meio de um agente é considerado um ladrão e é responsável por qualquer dano, e o roubo é considerado como estando em sua posse, devendo pagar como um ladrão, conforme será explicado nas leis de roubo.
+
+7. Se alguém deposita um barril com um amigo, seja designado um local específico para ele ou não, e o amigo o moveu para seu próprio uso e ele quebrou, seja antes ou depois de devolvê-lo ao local designado, ele é responsável por pagar. Se ele o moveu para o uso do depósito, seja quebrado em suas mãos ou depois de colocá-lo em outro lugar, ele está isento.
+
+8. Se o depositário é um cambista ou lojista e dinheiro é depositado com ele, se não estiverem selados ou amarrados de forma incomum, mesmo que estejam embrulhados, ele pode usá-los. Portanto, ele se torna um "shomer sachar" (guardião pago) e é responsável por roubo e perda, mesmo antes de usá-los. Se ele já os usou, ele é responsável também por danos, mesmo depois de devolvê-los ao lugar, até que os devolva ao proprietário. Se o dinheiro estiver embrulhado e selado ou amarrado de forma incomum, ele não deve usá-los, e se forem perdidos ou roubados, ele não é responsável. Se forem depositados com um proprietário de casa, mesmo que estejam soltos, ele não deve usá-los, e se forem perdidos ou roubados, ele não é responsável, desde que os enterre no chão, como explicado (Siman 291, Seif 15). Um proprietário de casa que lida principalmente com juros é considerado como um cambista, pois ele sempre precisa de dinheiro.
+
+9. Se ele lucrou com o dinheiro, seja ele permitido a usá-lo ou não, ele não precisa dar parte do lucro ao proprietário do depósito. No entanto, se o proprietário do depósito vier e disser "dê-me meu depósito e eu lucrarei com ele", e o depositário retiver o dinheiro, ele deve dar o lucro a partir de então. Mas se o depositário disser "eu investi em um negócio, se você quiser, aceite o negócio, seja para lucro ou perda", o depositário está correto. Se ele investiu para o benefício do proprietário do depósito, o lucro é do proprietário. Se ele revelou que investiu para si mesmo ou em um lugar onde é proibido usar, presumivelmente ele investiu para o proprietário do depósito, ele não é acreditado para dizer "eu investi para mim mesmo" a menos que diga isso na presença de testemunhas.
+
+10. Se alguém deposita dinheiro ou objetos valiosos com um amigo e ladrões vêm e ele entrega o depósito para salvar a si mesmo, se ele é conhecido por ser rico, ele é responsável, pois presume-se que os ladrões vieram por causa dele, e ele está salvando a si mesmo com o dinheiro do outro. Se ele não é conhecido por ser rico, presume-se que os ladrões vieram por causa do depósito.
+
+11. Se dinheiro destinado ao resgate de cativos foi depositado com ele e ladrões vieram e ele deu a eles para salvar a si mesmo, se ele não tinha outro dinheiro para se resgatar, ele está isento, pois não há maior resgate de cativos do que isso. Isso se aplica apenas se o dinheiro for para resgate de cativos em geral, mas se for para cativos específicos, ele é responsável.
+
+12. Se alguém deposita frutas com um amigo, ele não deve misturá-las com suas próprias frutas. Se ele as misturou, ele deve calcular quanto era o depósito e ver quanto foi perdido no total, calcular a perda do depósito e dar ao proprietário após jurar.
+
+13. Se ele deu dinheiro para ser levado sob sua responsabilidade e o misturou com seu próprio dinheiro e parte do dinheiro foi perdido, a perda é proporcional ao valor do dinheiro. Isso se aplica apenas a dinheiro e coisas semelhantes que não são específicas, mas se ele deu para levar moedas de ouro e as misturou com as suas e uma delas foi perdida, o possuidor pode dizer ao não possuidor "talvez a sua foi perdida". Se dois depositaram com um e um deles foi perdido ou roubado, seguimos a maioria, e qualquer coisa que se separe, separa-se da maioria. Se for fixo, é considerado como metade e metade.
+
+14. Se ele retirou parte e não sabe quanto retirou, ele deve calcular a perda para trigo e arroz descascado, quatro e meio kabin para cada kur, para cevada e painço, nove kabin para cada kur, para espelta e sementes de linho com seus caules, e para arroz não descascado, três seah para cada kur, e essa medida para cada ano.
+
+15. Isso se aplica quando ele mediu para ele na época da colheita e devolveu na época da colheita, mas se ele mediu na época da colheita e devolveu na época das chuvas, ele não calcula as perdas, pois elas aumentam.
+
+16. Ele também calcula um sexto para vinho e três log de óleo para cada cem log, um e meio log de borras e um e meio log de absorção. Se o óleo for refinado, ele não calcula as borras, e se as jarras forem velhas, ele não calcula a absorção.
+
+17. Se ele depositou frutas não medidas e as misturou com suas próprias frutas e não as mediu, ele é negligente. Se o proprietário do depósito disser "havia tanto" e o guardião disser "não sei", ele deve pagar sem jurar, pois ele se obrigou a pagar e não sabe quanto deve, e assim está obrigado a jurar, mas não pode jurar.
+
+18. Se ele não as misturou com suas próprias frutas, mesmo que estejam diminuindo e continuem a diminuir, ele não deve tocá-las. Isso se aplica quando elas diminuem a quantidade esperada a cada ano, mas se diminuírem mais do que o esperado, se o proprietário do depósito estiver na cidade, ele deve informá-lo, e se não estiver, ele deve vendê-las no tribunal.
+
+19. Se alguém deposita frutas com um amigo e elas apodrecem, mel e vinho estragam, ele deve fazer o melhor para o proprietário do depósito se ele não estiver na cidade e vendê-las no tribunal, mesmo que estejam em perda e a perda não esteja se espalhando, pois as cestas e jarras aumentam a perda.
+
+20. Se alguém deposita chametz com um amigo e a Páscoa chega, ele não deve tocá-lo até a quinta hora do dia 14. A partir daí, ele deve sair e vendê-lo no mercado imediatamente, para evitar a perda para o proprietário.
+
+21. O mesmo se aplica a outros depósitos, que ele não deve tocar, mesmo que saiba com certeza que eles desvalorizarão em um determinado momento ou que o rei os confiscará, pois talvez os proprietários venham antes e os retirem.
+
+22. Qualquer um que venda um depósito por ordem do tribunal deve vendê-lo a outros e não a si mesmo, por causa da suspeita, e o dinheiro deve ser deixado com ele, e ele tem permissão para usá-lo. Portanto, ele é um "shomer sachar" (guardião pago) sobre eles, mesmo que ainda não os tenha usado.
+
+23. Se alguém deposita um Sefer Torá com um amigo, ele deve enrolá-lo uma vez a cada doze meses. Se, ao enrolá-lo, ele o abrir e ler, é permitido, mas ele não deve abri-lo por si mesmo e ler. O mesmo se aplica a outros livros. Se ele abrir e ler e enrolar por si mesmo, ele usou o depósito e é responsável por danos. Assim como é proibido ler dele, também é proibido copiar uma letra dele. Isso se aplica a um leigo, mas um estudioso que não tem um livro semelhante pode ler e copiar dele, pois certamente foi depositado com ele com essa intenção. Em um lugar onde não há livros disponíveis, o tribunal pode obrigar alguém a emprestar seus livros para estudo, desde que paguem por qualquer dano aos livros.
+
+24. Se alguém deposita uma roupa com um amigo, ele deve sacudi-la conforme explicado no Siman 267.
+
+25. Isso se aplica a um depósito cujos proprietários foram para o exterior, mas se eles estiverem na mesma terra, ele não deve tocá-lo, mesmo que se perca.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 292 do Shulchan Aruch Choshen Mishpat trata das regras sobre como lidar com objetos ou dinheiro que foram confiados a alguém para guarda, conhecido como "depósito". Vamos explicar os principais pontos de forma prática:
+
+1. **Uso Indevido de Depósito**: Quando alguém guarda algo para outra pessoa, não pode usar esse objeto sem permissão. Se usar, mesmo sem intenção de roubar, é considerado responsável por qualquer dano que ocorra, como se tivesse causado o dano. Isso se aplica mesmo se o objeto não for danificado, mas apenas levantado com intenção de uso.
+
+2. **Devolução ao Local Original**: Se a pessoa que guardou o objeto o devolve ao local de onde o pegou, ela volta a ser apenas um guardião, não responsável por danos, a menos que o objeto seja dinheiro, onde as regras podem ser diferentes.
+
+3. **Responsabilidade por Danos**: Se alguém move um objeto para uso próprio e ele se danifica, a pessoa é responsável. Por exemplo, se inclinar um barril para retirar parte do conteúdo e ele quebrar, a responsabilidade depende de como o objeto foi manuseado.
+
+4. **Uso de Dinheiro Depositado**: Se o dinheiro é depositado com um cambista ou lojista e não está selado de forma incomum, ele pode usá-lo, mas se torna responsável por qualquer perda ou roubo. Se o dinheiro estiver selado, ele não deve usá-lo e não é responsável por perdas.
+
+5. **Lucro com o Depósito**: Se o guardião lucra com o dinheiro depositado, ele não precisa dividir o lucro, a menos que o dono do depósito peça o dinheiro para lucrar por si mesmo e o guardião se recuse a devolver.
+
+6. **Proteção de Depósitos em Situações de Perigo**: Se ladrões ameaçam e o guardião entrega o depósito para se salvar, ele é responsável se for conhecido por ser rico, pois presume-se que os ladrões vieram por causa dele.
+
+7. **Mistura de Depósitos**: Se frutas ou dinheiro são misturados com os do guardião, ele deve calcular a perda proporcional e compensar o dono do depósito.
+
+8. **Venda de Depósitos em Caso de Deterioração**: Se um depósito começa a se deteriorar, o guardião deve vendê-lo para minimizar a perda, especialmente se o dono não estiver por perto.
+
+9. **Depósitos de Chametz na Páscoa**: Se alguém guarda chametz (fermento proibido na Páscoa) e a Páscoa se aproxima, o guardião deve vendê-lo antes que se torne proibido.
+
+10. **Uso de Livros Sagrados**: Se um Sefer Torá ou outro livro sagrado é depositado, o guardião pode abri-lo para enrolar, mas não deve usá-lo para leitura pessoal, a menos que seja um estudioso sem acesso a outros livros.
+
+Essas regras são importantes para garantir a confiança e a responsabilidade ao lidar com bens de outras pessoas, refletindo a importância da honestidade e integridade na vida judaica.

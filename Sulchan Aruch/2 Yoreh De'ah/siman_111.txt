@@ -1,0 +1,38 @@
+SIMAN 111
+
+**Regulamento sobre utensílios não kosher que se misturaram com kosher. Contém sete seifim:**
+
+1. Duas panelas, uma de alimento permitido e outra de alimento proibido, e diante delas duas peças, uma de alimento permitido e outra de alimento proibido. Se a peça é de uma proibição rabínica, como a gordura do nervo, e caíram uma na outra, são permitidas, pois assumimos que a proibição caiu na panela proibida e a permissão na panela permitida. Mesmo que a quantidade de alimento permitido na panela não seja maior do que a que está diante dela. O mesmo se aplica se houver apenas uma panela de carne abatida e uma dessas duas peças caiu nela, e não se sabe qual é. Assumimos que a peça permitida caiu, mesmo que a quantidade de alimento permitido não seja maior do que a proibida. Ou se houver apenas uma peça de proibição rabínica e duas panelas, uma de alimento permitido e outra de alimento proibido, e não se sabe em qual caiu, também aqui assumimos para ser leniente.
+
+2. Em que casos dizemos que assumimos para ser leniente, mesmo que a quantidade de alimento permitido não seja maior do que a proibida? Quando a quantidade de alimento proibido também não é maior do que a permitida. Mas se a quantidade de alimento proibido é maior do que a permitida, não assumimos para ser leniente.
+
+3. Se a proibição é da Torá, não assumimos para ser leniente, dizendo que caiu na panela proibida, a menos que a quantidade de alimento permitido seja maior do que a proibida, para que seja anulada de acordo com a Torá.
+
+4. Se a quantidade de alimento permitido é maior do que a proibida, para que seja anulada de acordo com a Torá, assumimos para ser leniente. Como, por exemplo, duas panelas, uma de carne abatida e outra de nevelá, e uma peça de nevelá caiu em uma delas. Se a quantidade de alimento permitido na panela permitida é um pouco maior do que a peça de nevelá, assumimos para ser leniente, pois de acordo com a Torá, um tipo em seu próprio tipo é anulado pela maioria. Mas os sábios exigiram sessenta. Se as duas panelas são do mesmo tipo e a proibição é de outro tipo, não assumimos para ser leniente até que a quantidade de alimento permitido seja sessenta vezes maior do que a proibida.
+
+5. Se houver duas panelas de alimento permitido e diante delas duas peças, uma de alimento permitido e outra de alimento proibido, e uma caiu em cada uma, ambas são proibidas, mesmo em uma proibição rabínica, se não houver em nenhuma delas o suficiente para anular a proibição. Mas se houver em uma delas o suficiente para anular a proibição, ambas são permitidas.
+
+6. Se houver duas panelas de alimento permitido e uma proibição caiu em uma delas, e se sabe em qual caiu, e depois outra proibição caiu em uma delas, e não se sabe em qual caiu, dizemos que a segunda caiu no mesmo lugar que a primeira. Mas se uma proibição caiu em uma delas e não se sabe em qual caiu, e depois outra proibição caiu em uma delas, e se sabe em qual caiu, ambas são proibidas. Nota: Isso é apenas quando não há sessenta para anular a proibição que caiu lá, mas se houver sessenta para anular a proibição que caiu lá, é como se nenhuma proibição tivesse caído lá (Beit Yosef em nome do Rashba).
+
+7. Se houver duas panelas de alimento permitido e uma proibição caiu em uma delas, e não se sabe em qual caiu, e não há em uma delas o suficiente para anular a proibição, mas há em ambas o suficiente para anulá-la, ambas se juntam para anulá-la. E não apenas isso, mas mesmo se uma estiver na casa e outra no sótão, elas se juntam. E o mesmo se aplica mesmo a cem. Isso é dito quando ambas pertencem a uma pessoa, pois tudo o que pertence a uma pessoa está destinado a se misturar. Mas se pertencem a duas pessoas, não se juntam. Nota: E há quem seja rigoroso que mesmo em uma pessoa não se deve ser leniente, mas em caso de perda, é permitido em uma pessoa, mas não deve ser consumido até que sejam misturados juntos, pois então a proibição já foi anulada (Aruch, regra 26, em nome de Maharish).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda as regras sobre o que fazer quando utensílios ou alimentos kosher (permitidos) se misturam com não kosher (proibidos). Vamos explicar isso de forma prática:
+
+1. **Mistura de Alimentos Permitidos e Proibidos**: Imagine que você tem duas panelas, uma com comida kosher e outra com comida não kosher. Se você também tem duas peças de comida, uma permitida e outra proibida, e elas caem nas panelas, a regra é que, se a proibição é apenas rabínica (não da Torá), como a gordura do nervo, assumimos que a peça proibida caiu na panela proibida e a permitida na panela permitida. Isso é uma abordagem leniente, ou seja, mais flexível.
+
+2. **Quando Ser Leniente**: Essa abordagem leniente só é aplicada quando a quantidade de comida proibida não é maior do que a permitida. Se a comida proibida for maior, não podemos ser lenientes.
+
+3. **Proibições da Torá**: Se a proibição é da Torá (mais séria), não podemos ser lenientes a menos que a quantidade de comida permitida seja maior, anulando a proibição.
+
+4. **Anulação pela Maioria**: Se a comida permitida é maior, podemos ser lenientes. Por exemplo, se uma peça de carne não kosher cai em uma panela de carne kosher, e a quantidade de carne kosher é maior, a proibição é anulada. No entanto, os sábios exigem que a comida permitida seja sessenta vezes maior para anular a proibição.
+
+5. **Duas Panelas e Duas Peças**: Se você tem duas panelas de comida permitida e duas peças, uma permitida e outra proibida, e uma peça cai em cada panela, ambas as panelas são proibidas, a menos que uma delas tenha o suficiente para anular a proibição.
+
+6. **Proibições Sucessivas**: Se uma proibição cai em uma panela e sabemos qual é, e depois outra proibição cai, mas não sabemos onde, assumimos que caiu no mesmo lugar que a primeira. Se não sabemos onde a primeira caiu, e depois sabemos onde a segunda caiu, ambas as panelas são proibidas, a menos que haja sessenta vezes mais comida permitida para anular a proibição.
+
+7. **Combinação de Panelas**: Se duas panelas têm comida permitida e uma proibição cai em uma delas, mas não sabemos qual, e nenhuma tem o suficiente para anular a proibição sozinha, mas juntas têm, podemos combiná-las para anular a proibição. Isso só se aplica se ambas as panelas pertencem à mesma pessoa, pois se pertencem a pessoas diferentes, não se combinam.
+
+Essas regras são importantes na vida judaica para garantir que a comida consumida esteja de acordo com as leis kosher, mantendo a integridade das práticas alimentares judaicas.

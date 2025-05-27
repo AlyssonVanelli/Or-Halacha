@@ -1,0 +1,90 @@
+SIMAN 73
+
+**Siman 73: Em que momento uma dívida sem prazo deve ser paga e detalhes das leis de empréstimos. Contém 20 seções:**
+
+1. Quando alguém empresta dinheiro a outra pessoa sem especificar um prazo para o pagamento, e não há um costume local estabelecido, o devedor tem um prazo de trinta dias antes que o credor possa exigir o pagamento. Isso se aplica tanto a empréstimos documentados quanto a empréstimos verbais, com ou sem penhor. Se houver um acordo de que o credor pode exigir o pagamento a qualquer momento, ele pode fazê-lo até mesmo no mesmo dia. No entanto, um empréstimo sem prazo deve ser pago imediatamente, e o credor pode exigir o pagamento imediatamente.
+
+2. Se o credor estipulou um prazo para o pagamento, mesmo que não tenha sido feito um acordo formal, ele não pode exigir o pagamento antes do prazo, seja o empréstimo verbal ou documentado, com ou sem penhor, e mesmo que o credor ou o devedor faleçam, desde que os herdeiros tenham bens equivalentes. Se houver uma disputa sobre o prazo, o devedor deve jurar que o prazo ainda não expirou.
+
+3. Se houver uma disputa sobre quanto tempo resta para o pagamento, o credor deve esperar até o final do período mais curto alegado e, então, o devedor deve jurar que ainda resta tempo.
+
+4. Isso se aplica a empréstimos verbais sem penhor. No entanto, se o empréstimo for documentado ou com penhor, e o credor alegar que não foi estipulado um prazo ou que o prazo já expirou, ele deve jurar e pode cobrar a dívida imediatamente.
+
+5. Se alguém jurar não vender seus bens para pagar uma dívida e, posteriormente, jurar pagar uma dívida em um determinado prazo, se a dívida for anterior ao juramento de não vender, o juramento de não vender não é válido, e ele pode ser forçado a pagar. Se o juramento de não vender for anterior, o segundo juramento é considerado um juramento em vão, e ele pode ser punido por isso.
+
+6. Se alguém jurar pagar uma dívida antes de um determinado prazo, mesmo que o credor não exija o pagamento dentro desse prazo, o juramento ainda é válido.
+
+7. Se alguém jurar pagar uma dívida em um dia que cai no Shabat, ele deve pagar antes desse dia. Se não puder pagar antes, deve dar um penhor nesse dia.
+
+8. Se alguém jurar pagar uma dívida em um determinado dia e o credor não estiver na cidade, ele está isento até que o credor ou seu representante chegue, mas deve ter o dinheiro disponível nesse dia.
+
+9. Se alguém jurar pagar no início do mês de Adar, deve pagar no primeiro dia do mês.
+
+10. Se alguém tiver um documento de dívida e temer que o devedor possa esconder seus bens, o tribunal pode reter os bens até que o prazo do documento expire.
+
+11. Se alguém comprar um campo e houver disputas sobre a propriedade, ele pode pedir ao vendedor que compre outro campo com o dinheiro para garantir a dívida.
+
+12. Após o prazo de trinta dias de um empréstimo sem prazo, se o empréstimo foi feito com penhor, o credor pode vendê-lo com a permissão do tribunal. Se o devedor estiver na cidade, ele deve ser notificado antes da venda.
+
+13. Se o penhor estiver se deteriorando, ele pode ser vendido imediatamente, mesmo que o devedor esteja presente.
+
+14. Alguns dizem que, mesmo após o prazo do empréstimo, o credor deve esperar trinta dias após a exigência antes de vender o penhor.
+
+15. Quem tem um penhor de outra pessoa não deve vendê-lo sem a permissão do tribunal, que deve avaliar seu valor.
+
+16. Se o penhor for vendido sem a avaliação de três peritos, a venda é nula, mesmo que o preço não tenha sido injusto.
+
+17. Se o penhor for vendido com a avaliação de três peritos, o credor não pode comprá-lo para si mesmo, a menos que o tribunal permita.
+
+18. Se alguém emprestar dinheiro com a condição de que, se o penhor não for resgatado, ele se tornará propriedade do credor, isso é considerado uma "asmachta" (compromisso não vinculativo).
+
+19. Se o devedor autorizar a venda do penhor e depois tentar cancelar a venda, ele não pode fazê-lo se a venda já foi realizada.
+
+20. Se o credor vender o penhor por um preço superior ao acordado, o lucro pertence ao devedor, mas as despesas de transporte são do devedor.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 73 do Shulchan Aruch Choshen Mishpat trata das regras sobre quando e como uma dívida deve ser paga, especialmente quando não há um prazo específico definido. Vamos explicar isso de forma prática:
+
+1. **Dívida sem prazo definido**: Se você empresta dinheiro a alguém e não diz quando quer o pagamento de volta, a regra geral é que a pessoa tem 30 dias para pagar. Isso vale para empréstimos com ou sem documentos, e mesmo se houver um penhor (algo dado como garantia). Mas, se vocês concordaram que o pagamento pode ser exigido a qualquer momento, o credor pode pedir o dinheiro de volta até no mesmo dia.
+
+2. **Dívida com prazo definido**: Se vocês combinaram um prazo para o pagamento, o credor não pode pedir o dinheiro antes desse prazo, mesmo que não tenha sido feito um contrato formal. Isso se aplica a qualquer tipo de empréstimo. Se houver uma discussão sobre o prazo, o devedor deve jurar que o prazo ainda não acabou.
+
+3. **Disputa sobre o tempo restante**: Se houver uma discussão sobre quanto tempo ainda resta para pagar, o credor deve esperar até o final do período mais curto que foi alegado. Depois disso, o devedor deve jurar que ainda tem tempo.
+
+4. **Empréstimos documentados ou com penhor**: Se o empréstimo foi documentado ou tem um penhor, e o credor diz que não havia prazo ou que o prazo já acabou, ele deve jurar e pode cobrar a dívida imediatamente.
+
+5. **Juramentos conflitantes**: Se alguém jurar não vender seus bens para pagar uma dívida, mas depois jurar pagar uma dívida em um certo prazo, o juramento mais recente prevalece se a dívida for anterior ao juramento de não vender.
+
+6. **Juramento de pagar antes do prazo**: Se alguém jurar pagar uma dívida antes de um certo prazo, mesmo que o credor não peça, o juramento ainda é válido.
+
+7. **Pagamento no Shabat**: Se alguém jurar pagar uma dívida em um dia que cai no Shabat, deve pagar antes desse dia. Se não puder, deve dar um penhor no dia.
+
+8. **Credor ausente**: Se alguém jurar pagar em um dia específico, mas o credor não estiver na cidade, ele está isento até que o credor ou seu representante chegue, mas deve ter o dinheiro pronto.
+
+9. **Pagamento no início do mês**: Se alguém jurar pagar no início do mês de Adar, deve pagar no primeiro dia do mês.
+
+10. **Medo de ocultação de bens**: Se alguém tem um documento de dívida e teme que o devedor esconda seus bens, o tribunal pode reter os bens até que o prazo do documento acabe.
+
+11. **Disputas sobre propriedade de campo**: Se alguém compra um campo e há disputas, pode pedir ao vendedor que compre outro campo com o dinheiro para garantir a dívida.
+
+12. **Venda de penhor após 30 dias**: Após 30 dias de um empréstimo sem prazo, se houver um penhor, o credor pode vendê-lo com permissão do tribunal, mas deve notificar o devedor se ele estiver na cidade.
+
+13. **Penhor se deteriorando**: Se o penhor estiver se deteriorando, pode ser vendido imediatamente, mesmo que o devedor esteja presente.
+
+14. **Espera de 30 dias após exigência**: Alguns dizem que, mesmo após o prazo do empréstimo, o credor deve esperar 30 dias após exigir o pagamento antes de vender o penhor.
+
+15. **Venda de penhor com permissão do tribunal**: Quem tem um penhor não deve vendê-lo sem a permissão do tribunal, que deve avaliar seu valor.
+
+16. **Venda sem avaliação**: Se o penhor for vendido sem a avaliação de três peritos, a venda é nula, mesmo que o preço não tenha sido injusto.
+
+17. **Compra do penhor pelo credor**: Se o penhor for vendido com a avaliação de três peritos, o credor não pode comprá-lo para si, a menos que o tribunal permita.
+
+18. **Asmachta (compromisso não vinculativo)**: Se alguém empresta dinheiro com a condição de que, se o penhor não for resgatado, ele se tornará propriedade do credor, isso é considerado um compromisso não vinculativo.
+
+19. **Autorização de venda do penhor**: Se o devedor autorizar a venda do penhor e depois tentar cancelar, ele não pode fazê-lo se a venda já foi realizada.
+
+20. **Lucro da venda do penhor**: Se o credor vender o penhor por um preço superior ao acordado, o lucro pertence ao devedor, mas as despesas de transporte são do devedor.
+
+Essas regras ajudam a garantir que tanto credores quanto devedores saibam seus direitos e responsabilidades, promovendo justiça e clareza nas transações financeiras.

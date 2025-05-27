@@ -1,0 +1,38 @@
+SIMAN 295
+
+**Como o depositário paga e como o fazem jurar. Contém três seções:**
+
+1. Um guardião gratuito que diz: "Estou disposto a pagar e não a jurar." Se o depósito for algo cujo tipo é uniforme e disponível no mercado para compra, como frutas ou tecidos de lã e linho que são uniformes em todos os aspectos, ou vigas que não são decoradas, e coisas semelhantes, ele paga e não jura. Mas se o depósito for [um animal ou] uma roupa decorada, ou um utensílio refinado, ou algo que não se encontra para comprar no mercado, tememos que ele tenha cobiçado o objeto, e o fazemos jurar segurando um objeto sagrado que não está em sua posse, e depois ele paga. O mesmo se aplica a outros guardiões, como o mutuário que diz que o objeto morreu ou foi roubado, e o guardião remunerado e o locatário que dizem que foi roubado ou perdido. Embora sejam obrigados a pagar, fazemos com que jurem que o objeto não está em sua posse, e depois pagam o valor do animal ou do objeto, pois tememos que ele tenha cobiçado o objeto. Se os proprietários afirmarem que o objeto valia mais, ele inclui em seu juramento que não valia mais do que uma certa quantia.
+
+2. Assim, todo guardião que jura o juramento dos guardiões inclui em seu juramento três coisas: que guardou conforme o costume dos guardiões, que o evento ocorreu de tal maneira, que o objeto não está em sua posse, e que não usou o objeto antes do evento que o isenta. Se ele quiser pagar, jura que o objeto não está em sua posse e inclui em seu juramento que valia uma certa quantia. Se ele pagou e não quis jurar, e depois o ladrão foi encontrado, ele adquire todo o lucro que veio de fora, mas não o lucro que veio do próprio objeto (Tur).
+
+3. Há quem diga que mesmo se o objeto depositado, alugado ou emprestado valer uma prutá (mínima unidade monetária), o guardião jura sobre ele, e nenhum dos guardiões precisa de uma admissão parcial ou de uma negação parcial. Muitos discordam disso, afirmando que mesmo se o objeto depositado valer uma prutá, ele jura sobre ele, e dizem que é necessário uma negação de duas moedas de prata.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 295 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata das responsabilidades e obrigações de diferentes tipos de guardiões de objetos. Na lei judaica, um guardião é alguém que cuida de um objeto que pertence a outra pessoa. Existem diferentes tipos de guardiões, cada um com suas próprias regras e responsabilidades.
+
+### Seção 1: Guardião Gratuito e Juramento
+
+- **Guardião Gratuito**: Este é alguém que cuida de um objeto sem receber pagamento. Se ele diz que está disposto a pagar pelo objeto perdido ou danificado, mas não quer jurar, a situação depende do tipo de objeto.
+  
+- **Objetos Comuns vs. Objetos Especiais**: Se o objeto é algo comum e facilmente substituível, como frutas ou tecidos simples, ele pode simplesmente pagar sem precisar jurar. No entanto, se o objeto é especial ou único, como uma roupa decorada ou um utensílio refinado, ele deve jurar que o objeto não está mais em sua posse antes de pagar. Isso é para garantir que ele não está tentando ficar com o objeto para si.
+
+- **Outros Guardiões**: Isso também se aplica a outros tipos de guardiões, como um mutuário (alguém que pegou emprestado) ou um guardião remunerado (alguém que é pago para cuidar do objeto). Eles também devem jurar que o objeto não está com eles antes de pagar, especialmente se o objeto for especial.
+
+### Seção 2: Conteúdo do Juramento
+
+- **Três Partes do Juramento**: Quando um guardião faz um juramento, ele deve incluir três coisas: que cuidou do objeto de acordo com as normas, que o evento que causou a perda ou dano aconteceu como ele descreveu, e que o objeto não está mais em sua posse. Além disso, ele deve jurar que não usou o objeto de forma inadequada antes do evento.
+
+- **Pagamento Voluntário**: Se o guardião decide pagar sem querer jurar, ele ainda deve jurar que o objeto não está com ele e declarar o valor do objeto.
+
+- **Recuperação do Objeto**: Se o guardião paga e depois o objeto é encontrado, ele tem direito a qualquer lucro que venha de fora, mas não ao lucro que venha do próprio objeto.
+
+### Seção 3: Valor Mínimo e Juramento
+
+- **Valor Mínimo**: Há uma discussão sobre o valor mínimo de um objeto para que um juramento seja necessário. Alguns dizem que mesmo que o objeto valha apenas uma prutá (a menor unidade monetária), o guardião deve jurar. Outros discordam, dizendo que é necessário que o valor seja maior, como duas moedas de prata, para que o juramento seja exigido.
+
+### Relevância Prática
+
+Na vida judaica contemporânea, essas leis são importantes para resolver disputas sobre objetos perdidos ou danificados que foram confiados a outra pessoa. Elas ajudam a garantir que os guardiões sejam honestos e que os proprietários sejam compensados de forma justa. Além disso, o uso de juramentos serve como uma ferramenta para reforçar a verdade e a responsabilidade em situações onde a confiança é essencial.

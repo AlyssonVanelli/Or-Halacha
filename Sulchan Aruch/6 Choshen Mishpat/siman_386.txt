@@ -1,0 +1,37 @@
+SIMAN 386
+
+**Divisão entre "Grama" em danos e "Dina deGarmi" e o caso de quem lança um objeto do telhado. Contém quatro seções:**
+
+1. **A Lei segue Rabi Meir**: 
+   A halachá é conforme Rabi Meir, que julga de acordo com "Dina deGarmi". Isso se aplica especificamente a uma pessoa, mas no caso de um animal, todos concordam que está isento. Portanto, se alguém empurra a moeda de seu amigo até que caia no mar, é responsável, mesmo que não a tenha levantado. Da mesma forma, quem diminui o valor da moeda de seu amigo ou altera sua forma é responsável, mesmo que não tenha causado perda material. Se alguém vende uma dívida a outro e depois perdoa a dívida, deve pagar ao comprador, conforme explicado no Siman 66.
+
+2. **Queimar um Documento de Dívida**:
+   Quem queima um documento de dívida de seu amigo deve pagar o valor total da dívida que estava no documento, mesmo que o documento em si não seja dinheiro. Isso porque causou a perda de dinheiro. No entanto, isso é apenas se o causador do dano admitir que o documento era válido e continha tal valor, e que devido à queima, a dívida não pode ser cobrada. Se não for acreditado, ele só paga o valor do papel. Isso se aplica quando não há testemunhas que saibam o valor do documento, pois se houvesse, ele não seria responsável, já que poderiam fazer outro documento, conforme explicado no Siman 41.
+
+3. **Lançar um Objeto do Telhado**:
+   Se alguém lança seu próprio objeto do telhado e há almofadas e travesseiros embaixo, de modo que não se quebraria ao cair, mas outra pessoa os remove e o objeto cai e quebra, quem removeu é responsável. Isso se aplica a todos os casos semelhantes. No entanto, alguns dizem que isso é considerado "Grama" em danos e está isento. Da mesma forma, empurrar a moeda de alguém ou diminuir seu valor é isento, pois é "Grama" em danos. Portanto, mesmo se alguém lançar um objeto do telhado e ele mesmo remover as almofadas, está isento, pois a ação de lançar não causou dano imediato, e a remoção é considerada apenas "Grama".
+
+4. **Lançar Objetos do Telhado sem Almofadas**:
+   Se alguém lança objetos do telhado e não há almofadas embaixo, e enquanto estão no ar, outra pessoa os quebra com um bastão, o lançador é responsável, e quem quebrou está isento, pois consideramos o objeto como quebrado desde o momento em que foi lançado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 386 do Shulchan Aruch Choshen Mishpat, vamos explorar os conceitos e casos apresentados de forma prática e acessível:
+
+1. **Dina deGarmi e Responsabilidade por Danos:**
+   - **Dina deGarmi** é um conceito legal que trata de danos indiretos, mas que são suficientemente próximos para que a pessoa seja responsabilizada. Rabi Meir, uma autoridade rabínica, defende que uma pessoa pode ser responsabilizada por esses danos indiretos.
+   - Por exemplo, se alguém empurra a moeda de outra pessoa para o mar, mesmo sem tocá-la diretamente, é responsável pela perda. Isso se aplica a pessoas, mas não a animais, que são isentos nesse tipo de situação.
+
+2. **Queimar um Documento de Dívida:**
+   - Se alguém queima um documento que comprova uma dívida, deve pagar o valor total da dívida, pois causou a perda do direito de cobrança. No entanto, isso só se aplica se a pessoa que causou o dano admitir que o documento era válido e que a dívida não pode mais ser cobrada.
+   - Se não houver testemunhas que conheçam o valor do documento, a pessoa só paga pelo valor do papel, a menos que haja testemunhas que possam confirmar o valor, permitindo a criação de um novo documento.
+
+3. **Lançar um Objeto do Telhado:**
+   - Se alguém joga um objeto do telhado e há almofadas embaixo para amortecer a queda, mas outra pessoa remove as almofadas, a pessoa que removeu é responsável pelo dano. Isso porque a remoção das almofadas foi a causa direta do dano.
+   - No entanto, há uma opinião que considera isso como "Grama", um tipo de dano indireto, e nesse caso, a pessoa estaria isenta de responsabilidade.
+
+4. **Lançar Objetos do Telhado sem Almofadas:**
+   - Se alguém lança um objeto do telhado sem almofadas e outra pessoa quebra o objeto enquanto ele está no ar, a responsabilidade recai sobre quem lançou o objeto. Isso porque o objeto já estava destinado a quebrar desde o momento do lançamento.
+
+Essas leis são relevantes na vida judaica contemporânea, pois estabelecem princípios de responsabilidade e justiça em casos de danos, mesmo quando não há contato direto. Elas nos ensinam a considerar as consequências de nossas ações e a sermos responsáveis por danos que causamos, direta ou indiretamente.

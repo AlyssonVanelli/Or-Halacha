@@ -1,0 +1,88 @@
+SIMAN 129
+
+**Lei sobre o fiador em documento e verbalmente, e quando se pode cobrar do fiador. Contém 22 seções:**
+
+1. Se alguém empresta a seu amigo e, após o empréstimo, outra pessoa diz "Eu sou o fiador", ou se o credor processa o devedor em tribunal e outra pessoa diz "Deixe-o, eu sou o fiador", ou se alguém está pressionando seu amigo no mercado para pagar e outra pessoa diz "Deixe-o, eu sou o fiador", o fiador não é responsável por nada, mesmo que tenha dito perante o tribunal "Eu sou o fiador". No entanto, se ele pagou ao credor por ordem do devedor, ele deve ser reembolsado pelo que pagou ao credor.
+
+2. Se houve uma aquisição formal (kinyan) de que ele é fiador para este dinheiro, seja perante o tribunal ou entre ele e o credor, ele se torna responsável. Se alguém diz a seu amigo "Eu sou fiador para você por um dia", isso não tem validade.
+
+3. Se ele disse no momento do empréstimo "Empreste a ele e eu sou o fiador", o fiador se torna responsável e não é necessário um kinyan. Mesmo que ele não tenha se tornado fiador explicitamente, mas apenas disse ao credor para emprestar ao devedor porque ele é confiável, e isso se revelou falso, ele deve pagar, pois é como se tivesse se tornado fiador.
+
+4. Se o tribunal o fez fiador, ele se torna responsável, mesmo sem um kinyan, como quando o tribunal quer cobrar do devedor e ele diz "Deixe-o, eu sou fiador para vocês", já que ele se beneficia da confiança do tribunal, ele se torna responsável.
+
+5. Se, por sua palavra, um documento ou penhor foi devolvido, ele é considerado fiador no momento do empréstimo. Da mesma forma, se o devedor foi liberado por causa do fiador, ele é como um fiador no momento do empréstimo. Alguns dizem que se o fiador tinha dinheiro do devedor em sua posse no momento em que se tornou fiador, ele se torna responsável em qualquer caso.
+
+6. Um fiador que aparece após a assinatura dos documentos, ou seja, após as testemunhas assinarem o documento, e escreve "Eu sou o fiador" e é reconhecido como sua caligrafia, ou as testemunhas testificam sobre ele, alguns dizem que ele se torna responsável sem um kinyan para cobrar de bens livres, enquanto outros dizem que ele só se torna responsável com um kinyan. Segundo Maimônides, mesmo um fiador que aparece antes da assinatura dos documentos precisa de um kinyan, a menos que ele tenha se tornado fiador no momento do empréstimo.
+
+7. Assim como o fiador não se torna responsável sem um kinyan, no momento do empréstimo ou perante o tribunal, o mesmo se aplica ao "kablán" (fiador principal), que não se torna responsável exceto por um desses meios, sem diferença entre eles, exceto em relação à responsabilidade por um contrato de casamento ou dote, como explicado no Tur Even HaEzer.
+
+8. Se um kinyan é necessário e não foi feito, ele não pode cobrar nem mesmo de bens livres, mesmo que tenha escrito um documento. Mesmo que ele tenha dado um aperto de mão, se não é costume fazer kinyan dessa forma, ele não é obrigado a cumprir, mas é forçado a cumprir seu juramento.
+
+9. Se alguém deu um presente a seu amigo e disse que o daria após um tempo e nomeou um fiador, alguns dizem que é como um fiador no momento do empréstimo, mas há quem discorde.
+
+10. Se ele se tornou fiador com um kinyan e escreveu um documento, ele tem o status de um credor com documento para cobrar de bens hipotecados. Se não escreveu um documento, mesmo que tenha se tornado fiador com um kinyan, ele é como um credor verbal e só pode cobrar de bens livres. Alguns dizem que onde um kinyan foi feito, ele pode cobrar de bens hipotecados, mesmo sem um documento.
+
+11. Parece-me que, no caso de um fiador perante o tribunal, todos concordam que ele pode cobrar de bens hipotecados, mesmo sem um documento, pois uma admissão perante o tribunal é como um documento.
+
+12. Se o fiador não fez um documento separado, mas escreveu a garantia no próprio documento da dívida, se foi escrito após a assinatura das testemunhas, ele só pode cobrar de bens livres. Se foi escrito antes da assinatura das testemunhas, se está escrito "Fulano é fiador" sem um "e" (vav), e depois as testemunhas assinaram, ele só pode cobrar de bens livres, pois é como o início de uma declaração e não está misturado com o devedor e o credor. Mas se está escrito "e Fulano é fiador" com um "e" (vav), ele está misturado com o devedor e o credor, e depois as testemunhas assinaram, ele pode cobrar de bens hipotecados.
+
+13. Se alguém empresta a seu amigo por meio de um fiador, embora o fiador se torne responsável perante o credor, ele não deve processar o fiador primeiro, mas sim o devedor. Mesmo que o devedor só tenha propriedades de baixa qualidade, ele não deve cobrar do fiador. Mesmo que o devedor não tenha bens conhecidos, como terras, e o fiador tenha bens conhecidos, ele não deve cobrar do fiador, mas deve procurar o devedor, talvez ele tenha bens móveis.
+
+14. Se o devedor diz que pagou, e é um empréstimo verbal, o devedor jura e é liberado, assim como o fiador. Mesmo que o devedor seja um gentio e diga que pagou, o fiador é liberado. Mas se o devedor diz "Eu nunca tomei emprestado", o fiador é obrigado a pagar.
+
+15. Se alguém pediu um objeto emprestado de seu amigo e disse que, se não o devolver em tal tempo, pagará uma certa quantia, e nomeou um fiador para o pagamento, embora para o tomador seja uma "asmachta" (compromisso condicional) e ele esteja isento, o fiador é obrigado a pagar.
+
+16. Se o devedor vendeu um terreno e o credor assinou como testemunha, o fiador é liberado, pois ele causou sua própria perda. Mas no caso de um "kablán" (fiador principal), o fiador é obrigado a pagar.
+
+17. Se o credor procurou o devedor e não encontrou nada, ele deve jurar, conforme a instituição dos Gaonim, que não tem nada antes de cobrar do fiador. Ele deve incluir em seu juramento que ainda é devido a ele essa dívida, para que não façam uma conspiração contra os bens do fiador. Ele não pode cobrar do fiador até 30 dias após o fiador ter se tornado responsável, a menos que haja um acordo entre eles.
+
+18. Se o devedor não está presente, deve-se notificá-lo se ele estiver próximo, para que um mensageiro possa ir e voltar dentro de 30 dias. Se ele não pagar, então o fiador pode ser processado. Se ele estiver em um país distante e não puder ser notificado, ou se ele for uma pessoa que não obedece à lei, então o fiador pode ser processado e cobrado, e depois o fiador pode buscar o devedor e cobrar dele, ou excomungá-lo até que pague o que foi pago por ele.
+
+19. Mesmo que o devedor tenha bens conhecidos em outro país, o credor pode cobrar do fiador primeiro, pois não se diz ao credor para gastar duzentos para cobrar cem.
+
+20. Quando o devedor está em um país distante, o credor pode cobrar do fiador sem notificar o devedor, apenas se o empréstimo for documentado. Se for um empréstimo verbal, nunca se cobra do fiador sem a admissão do devedor, a menos que seja dentro do prazo, ou o devedor tenha admitido no momento de sua morte, ou tenha sido excomungado por não pagar essa dívida e morreu em excomunhão.
+
+21. Se o devedor alegar que deu o dinheiro do pagamento ao fiador para entregar ao credor, ele jura e é liberado, pois poderia ter dito que pagou diretamente ao credor. Se o credor nega e diz que não nomeou aquele fiador, o devedor jura que nomeou o fiador e que pagou a ele, e é liberado.
+
+22. Todas essas regras se aplicam apenas quando o credor não fez um acordo com o fiador. Se ele fez um acordo de que o fiador seria confiável para dizer que não pagou, tudo segue o acordo. Se o credor fez um acordo com o fiador de que ele poderia cobrar de quem quisesse, ele pode cobrar do fiador primeiro, mesmo que o devedor tenha bens. Há quem discorde, mas concordam que se ele disse explicitamente "de quem eu quiser, cobrarei primeiro", ele pode cobrar do fiador primeiro, mesmo que o devedor tenha bens.
+
+23. Um "kablán" (fiador principal) pode sempre ser cobrado primeiro, se o credor quiser, mesmo que o devedor tenha bens, a menos que o devedor queira pagar. O devedor não é confiável para dizer que pagou, pois deveria ter feito um acordo com o "kablán". Parece-me que o credor jura e recebe.
+
+24. Se um credor vem cobrar do "kablán" e não tem o documento, e alega que o perdeu, e o devedor admite que não pagou, mas o "kablán" alega que talvez o devedor tenha pago e rasgado o documento, há quem diga que a razão está com o "kablán".
+
+25. Quem é um fiador e quem é um "kablán"? Se ele diz "Dê a ele e eu pagarei a você", ele é um "kablán". Se for após o empréstimo, ele diz "O que você deu a ele, eu pagarei a você", e é necessário um kinyan, como explicado.
+
+26. Mas se ele diz "Empreste a ele e eu sou o fiador", "Empreste a ele e eu pagarei", "Empreste a ele e eu sou responsável", "Empreste a ele e eu darei", "Empreste a ele e eu sou o 'kablán'", "Dê a ele e eu sou o fiador", "Dê a ele e eu pagarei", "Dê a ele e eu sou responsável para pagar a você", mesmo que ele diga "Dê a ele e eu sou o 'kablán'", todos são expressões de garantia. Alguns dizem que "Dê a ele e eu sou o 'kablán'" é um "kablán", e assim parece ser a orientação.
+
+27. Se um documento diz "Fulano é o 'kablán'", ele é um fiador "kablán", pois certamente é dito em uma linguagem eficaz.
+
+28. Se o "kablán" recebeu o dinheiro do credor e o entregou ao devedor, o credor não tem nada contra o devedor e só pode processar o "kablán". Se o "kablán" não tem, ele cobra do devedor por meio da regra de Rabi Natan, a menos que o "kablán" tenha perdoado o devedor. Há quem diga que o mesmo se aplica ao fiador.
+
+29. Há quem diga que a garantia e a "kablánut" (responsabilidade principal) são quando o devedor pede ao credor para emprestar, e o fiador entra no assunto com linguagem de garantia ou "kablánut". Mas se o devedor não falou nada com o credor, e Reuven disse a Shimon "Empreste a Levi e eu pagarei", "Empreste a ele e eu darei a você", ou "Empreste a ele e eu sou responsável para você", Shimon não tem nada contra Levi, mesmo que tenha dado a ele diretamente, mas apenas contra Reuven, que disse "Empreste a ele" e foi por ordem de Reuven que ele deu a ele.
+
+30. Um "kablán" que não recebeu e entregou, e o devedor vendeu todos os seus bens, mesmo que o "kablán" tenha bens, se o credor quiser cobrar dos compradores do devedor, eles não podem mandá-lo aos bens livres do "kablán". O mesmo se aplica a dois que se tornaram responsáveis um pelo outro, e um deles vendeu seus bens. Mas um "kablán" que recebeu e entregou não pode cobrar dos compradores do devedor, a menos que o "kablán" não tenha bens.
+
+31. O fiador e o "kablán" não podem cobrar de bens hipotecados do devedor até que o credor entregue a eles o documento da dívida e o transfira por meio de um kinyan de documentos, para que não seja uma reivindicação verbal. Se alguém prometeu uma recompensa a seu amigo para que ele fosse fiador por ele, se ele fez um kinyan para dar a recompensa, ele é obrigado a pagar conforme combinado. Se não fez um kinyan, não precisa dar a recompensa apenas por palavras.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 129 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas a fiadores em empréstimos, ou seja, pessoas que se comprometem a pagar uma dívida caso o devedor original não o faça. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Fiador e Kinyan**: Um fiador é alguém que garante o pagamento de uma dívida. Para que essa garantia seja válida, muitas vezes é necessário um "kinyan", que é um ato formal de aquisição ou compromisso. Sem isso, a promessa de ser fiador pode não ter validade legal.
+
+2. **Tipos de Fiadores**: Existem diferentes tipos de fiadores. Um "fiador simples" se compromete a pagar se o devedor não puder, enquanto um "kablán" (fiador principal) pode ser cobrado diretamente pelo credor, sem que este precise primeiro tentar cobrar do devedor.
+
+3. **Responsabilidade do Fiador**: Se alguém se torna fiador no momento do empréstimo, ele é responsável mesmo sem um kinyan. No entanto, se a promessa de ser fiador ocorre após o empréstimo, um kinyan é necessário para que a responsabilidade seja legalmente reconhecida.
+
+4. **Cobrança do Fiador**: O credor deve tentar cobrar do devedor antes de recorrer ao fiador, a menos que o fiador seja um "kablán". Se o devedor não puder ser encontrado ou não tiver bens, o credor pode então cobrar do fiador.
+
+5. **Documentação**: Se o fiador assina um documento de dívida, isso pode afetar sua responsabilidade. A posição da assinatura (antes ou depois das testemunhas) e a linguagem usada no documento são importantes para determinar se o fiador pode ser cobrado de bens hipotecados ou apenas de bens livres (não comprometidos).
+
+6. **Condições Especiais**: Existem situações específicas, como quando o devedor está em um país distante ou quando o empréstimo é verbal, que afetam como e quando o fiador pode ser cobrado.
+
+7. **Acordos Especiais**: Se houver um acordo específico entre o credor e o fiador sobre como a cobrança deve ser feita, esse acordo prevalece sobre as regras gerais.
+
+8. **Recompensa ao Fiador**: Se alguém prometeu uma recompensa a um fiador por assumir essa responsabilidade, essa promessa só é obrigatória se um kinyan foi feito.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades onde empréstimos e garantias são comuns. Elas ajudam a garantir que todas as partes envolvidas em um empréstimo entendam suas responsabilidades e direitos, promovendo justiça e clareza nas transações financeiras.

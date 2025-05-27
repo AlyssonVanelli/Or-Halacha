@@ -1,0 +1,50 @@
+SIMAN 18
+
+**Como conduzir discussões e seguir a maioria. Contém seis seções:**
+
+1. Quando uma das partes em um litígio traz testemunhas para apoiar sua posição, as testemunhas são introduzidas e seu testemunho é aceito de acordo com as regras estabelecidas, como será explicado no Siman 28. Após o recebimento do testemunho, todos devem sair, e os juízes devem discutir o caso. (Alguns dizem que é melhor começar com o juiz mais jovem). Se todos concordarem em uma opinião, isso é ideal; caso contrário, a decisão segue a maioria.
+
+2. Se dois juízes dizem que o réu é inocente e um diz que é culpado, o réu é considerado inocente. Se dois dizem que é culpado e um diz que é inocente, ele é considerado culpado. Se um diz que é inocente, outro diz que é culpado, e o terceiro diz "não sei", ou mesmo se dois dizem que é inocente ou culpado e um diz "não sei", dois juízes adicionais são adicionados, totalizando cinco. Se três consideram o réu inocente e dois culpados, ele é inocente; se três consideram culpado e dois inocente, ele é culpado.
+
+3. Se dois dizem que é inocente, dois dizem que é culpado, e um diz "não sei", mais juízes são adicionados. No entanto, se quatro dizem que é inocente ou culpado e um diz "não sei", ou se três dizem que é inocente, um diz que é culpado, e um diz "não sei", seja o mesmo que inicialmente disse "não sei" ou outro, a decisão segue a maioria.
+
+4. Se uma comunidade escolheu quatro ou cinco árbitros, a decisão não segue a maioria, pois a maioria só se aplica em um tribunal. Se a comunidade decidiu seguir a maioria e há empate, não se trazem outros para decidir, pois a comunidade escolheu apenas esses árbitros. No entanto, esses árbitros podem consultar outros e decidir de acordo com suas orientações.
+
+5. Se houver empate e um diz "não sei", dois outros são adicionados. Se a questão permanecer incerta, mais são adicionados até que haja 71. Se 35 dizem que é inocente, 35 dizem que é culpado, e um diz "não sei", discutem com ele até que ele se incline para um lado, resultando em 36 considerando inocente ou culpado. Se ele ou nenhum outro mudar de opinião, o dinheiro permanece em posse do atual proprietário.
+
+6. Quem diz "não sei" não precisa justificar sua dúvida, ao contrário de quem considera o réu inocente ou culpado, que deve explicar seu raciocínio.
+
+7. Se três juízes se sentaram para julgar e um se retirou, os dois restantes não podem concluir o julgamento. O mesmo se aplica se mais de três foram inicialmente escolhidos e um se retirou, conforme explicado anteriormente.
+
+8. A regra de que um mestre e seu aluno contam como um só juiz se aplica apenas quando o mestre ensina a lei ao aluno e este depende dele. Mesmo assim, se o aluno é como Rav Ami e Rav Assi, que precisavam do mestre para aprender, mas não para entender, ele pode julgar com o mestre. Se o mestre não ensina durante o julgamento, mesmo que seja seu aluno, contam como dois, desde que o aluno tenha alguma capacidade de raciocínio.
+
+9. Em questões de proibições e permissões ou leis de pureza e impureza, mesmo que o aluno dependa do mestre, contam como dois.
+
+10. Um tribunal pode decidir casos monetários na ausência de uma das partes.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 18 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+1. **Testemunhas e Discussão do Caso**: Quando há uma disputa legal, as partes podem trazer testemunhas para apoiar suas alegações. Essas testemunhas são ouvidas de acordo com regras específicas. Depois que o testemunho é recebido, os juízes discutem o caso em particular. É sugerido que o juiz mais jovem comece a discussão. Se todos os juízes concordarem, ótimo; se não, a decisão é tomada pela maioria.
+
+2. **Decisões por Maioria**: Se dois juízes acham que a pessoa é inocente e um acha que é culpada, a pessoa é considerada inocente. O contrário também é verdadeiro. Se houver um empate ou um juiz não souber decidir, mais juízes são adicionados até que haja uma maioria clara.
+
+3. **Empate e Juízes Adicionais**: Se houver empate entre os juízes e um não souber decidir, mais juízes são adicionados. Se a maioria já está clara, mesmo que um juiz não saiba, a decisão segue a maioria.
+
+4. **Decisões Comunitárias**: Quando uma comunidade escolhe árbitros, a decisão não segue a maioria como em um tribunal formal. Se houver empate, não se adicionam mais árbitros, mas os árbitros podem buscar conselhos externos.
+
+5. **Empate Persistente**: Se mesmo após adicionar juízes houver empate, o processo continua até que haja 71 juízes. Se ainda assim houver empate, o dinheiro ou propriedade em disputa permanece com quem já o possui.
+
+6. **Justificação das Decisões**: Juízes que dizem "não sei" não precisam justificar sua dúvida. Aqueles que decidem pela inocência ou culpa devem explicar seu raciocínio.
+
+7. **Retirada de Juízes**: Se um juiz se retira durante o julgamento, os juízes restantes não podem concluir o caso. Isso se aplica tanto a um grupo de três quanto a um grupo maior.
+
+8. **Mestre e Aluno como Juízes**: Um mestre e seu aluno geralmente contam como um só juiz se o aluno depende do mestre para entender a lei. No entanto, se o aluno é capaz de raciocinar por si mesmo, eles podem contar como dois juízes.
+
+9. **Questões de Leis Religiosas**: Em questões de leis religiosas, como permissões e proibições, mesmo que o aluno dependa do mestre, eles contam como dois juízes.
+
+10. **Decisões na Ausência de uma Parte**: Um tribunal pode decidir casos monetários mesmo se uma das partes não estiver presente.
+
+Essas regras são importantes para garantir justiça e clareza em disputas legais dentro da comunidade judaica, refletindo um sistema que valoriza a discussão, a maioria e a consulta.

@@ -1,0 +1,33 @@
+SIMAN 357
+
+**Reconhecimento de objetos e livros e a reputação de roubo na cidade. Contém três seções:**
+
+1. Um proprietário que não costuma vender seus objetos e ganhou uma reputação de roubo na cidade, e ele reconhece seus objetos e livros nas mãos de outros. Ou, se ele costumava vender, e os objetos que ele reconheceu são daqueles que são normalmente emprestados ou alugados. Se houver testemunhas de que esses objetos pertencem a ele, a pessoa que os possui deve jurar com um objeto sagrado sobre quanto pagou por eles, e então receberá o valor do proprietário e devolverá os objetos a ele.
+
+2. (E há quem diga que, uma vez que ele alega que foram roubados, a presunção de que são objetos emprestados ou alugados é enfraquecida, pois ele não alega isso, e por isso suspeitamos que ele os vendeu) (Tur em nome do Rosh).
+
+3. Se o proprietário costumava vender seus objetos e eles não eram do tipo que se empresta ou aluga, mesmo que ele tenha ganhado uma reputação de roubo na cidade e seus objetos sejam reconhecidos, eles não são devolvidos imediatamente aos compradores, pois pode ser que ele os tenha vendido a outros. Mas se pessoas vieram e pernoitaram em sua casa, e ele se levantou e gritou à noite que seus objetos e livros foram roubados, e as pessoas vieram e encontraram um túnel escavado, e as pessoas que pernoitaram em sua casa saem com pacotes de objetos em seus ombros, e todos dizem que esses são os objetos e livros de fulano, então ele é acreditado. A pessoa que possui os objetos deve jurar com um objeto sagrado sobre quanto gastou e receberá do ladrão, e devolverá os objetos a ele.
+
+**Lei sobre quem entra na casa de outro e tira objetos sob suas roupas é explicada no Siman 90:**
+
+Reuven, cujos objetos foram roubados, perdidos ou levados por ladrões, e chegaram às mãos de um não-judeu, e outro judeu os comprou por menos do que valem, e os proprietários vieram e os reivindicaram da pessoa que os comprou, isso será explicado no Siman 368.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 357 do Shulchan Aruch Choshen Mishpat trata de situações em que uma pessoa reconhece seus objetos ou livros que foram roubados e agora estão nas mãos de outra pessoa. Vamos explicar isso de forma prática:
+
+1. **Reconhecimento de Objetos e Reputação de Roubo:**
+   - Se uma pessoa tem uma má reputação na cidade por roubo e reconhece seus objetos ou livros com outra pessoa, há um procedimento a seguir. Se essa pessoa não costuma vender seus objetos, ou se os objetos são do tipo que normalmente são emprestados ou alugados, e há testemunhas que confirmam que os objetos pertencem a ela, a pessoa que atualmente possui os objetos deve jurar sobre quanto pagou por eles. Depois, ela receberá esse valor do proprietário original e devolverá os objetos.
+
+2. **Presunção de Venda:**
+   - Existe uma opinião que diz que se o proprietário alega que os objetos foram roubados, a ideia de que eles poderiam ser emprestados ou alugados é enfraquecida. Isso significa que, se ele não está alegando que os objetos foram emprestados ou alugados, pode-se suspeitar que ele os vendeu.
+
+3. **Venda e Roubo:**
+   - Se o proprietário costuma vender seus objetos e eles não são do tipo que se empresta ou aluga, mesmo que ele tenha uma má reputação, os objetos não são devolvidos imediatamente. Isso porque pode ser que ele os tenha vendido. No entanto, se houver uma situação clara de roubo, como pessoas que pernoitaram em sua casa e ele gritou que foi roubado, e um túnel foi encontrado, então ele é acreditado. Nesse caso, a pessoa que possui os objetos deve jurar sobre quanto pagou e receberá esse valor do ladrão, devolvendo os objetos ao proprietário.
+
+4. **Casos Específicos:**
+   - Há menção de outros casos específicos, como quando objetos roubados chegam às mãos de um não-judeu e são comprados por um judeu por menos do que valem. Esses casos são tratados em outras seções do Shulchan Aruch.
+
+**Relevância Prática:**
+Essas leis são importantes para resolver disputas sobre propriedade de objetos que foram roubados ou perdidos. Elas ajudam a proteger os direitos dos proprietários originais, enquanto também consideram a posição de quem comprou os objetos de boa fé. Na vida contemporânea, essas regras podem ser aplicadas em situações de disputas sobre propriedade, especialmente em comunidades onde a lei judaica é seguida.

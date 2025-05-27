@@ -1,0 +1,34 @@
+SIMAN 394
+
+**Uma besta que caiu em um jardim e causou dano, e como se avalia o dano. Contém seis seções:**
+
+1. Uma besta que escorregou em uma pedra ou em urina e caiu em um jardim, e se chocou contra frutas e vegetais ou os comeu, paga pelo que se beneficiou. Mesmo que tenha andado de canteiro em canteiro e mesmo que tenha permanecido lá o dia inteiro, paga apenas pelo que se beneficiou. Que benefício tem ao se chocar, já que encontrou um lugar macio e seus membros não foram esmagados? Mas se desceu de forma habitual e comeu, paga pelo dano que causou. Mesmo se sujou frutas com água de parto, paga pelo dano, pois o início foi por negligência. Da mesma forma, se empurrou sua companheira e ela caiu, paga pelo dano, pois deveria ter passado uma a uma para que não se empurrassem. (Assim é a opinião do Rif) Nota: Alguns dizem que se empurrou sua companheira, não é considerado negligência, mas sim um acidente, e está isento (Tur, Seção 64, em nome de R"Y, Ramah e Rosh). Se a conduziu perto do jardim do outro e era possível que descesse e entrasse no jardim, mesmo que tenha caído por acidente, é responsável, pois o início foi por negligência e o fim por acidente (Tur, Seção 61, Tosafot e Rosh). Há quem discorde disso (Beit Yosef em nome de Rashba em nome de Raavad).
+
+2. Se escorregou e caiu e saiu (e ele sabia) e voltou ao jardim, mesmo que tenha retornado sem o conhecimento dos donos, paga pelo dano, pois deveria ter vigiado para que não retornasse, já que é sabido que, uma vez que conheceu o caminho do jardim, ela retorna por si mesma. Nota: No entanto, se a vigiou com uma vigilância excelente e ela saiu e causou dano, está isento (Tur).
+
+3. Quem coloca a besta do outro sobre a colheita do outro, o que colocou é responsável por pagar o dano. Da mesma forma, se a golpeou até que fosse para a colheita do outro e causou dano, aquele que a golpeou é responsável. Nota: Mesmo que as frutas estejam em domínio público, é considerado como causar dano com as próprias mãos (Maimonides, Capítulo 4 de Danos de Propriedade, Beit Yosef em nome de Rashba). E apenas se a golpeou assim, mas se apenas se levantou diante dela até que fosse para lá, está isento, pois é considerado dano indireto (Magid Mishneh lá, e não como a opinião de Raavad).
+
+4. Toda besta que causou dano a frutas conectadas, avalia-se o dano em sessenta e paga quem é obrigado a pagar. Como assim? Se comeu um beit seah, avalia-se sessenta beit seah naquele campo, quanto valia e quanto vale agora após a perda do beit seah, e paga a diferença. Da mesma forma, se comeu um kav ou um quarto, mesmo um único talo, avalia-se em sessenta.
+
+5. Se comeu frutas maduras que não precisam da terra, paga o valor das frutas maduras em seu valor, se um seah, o valor de um seah, e se dois seah, o valor de dois seah.
+
+6. Se comeu frutas de uma única palmeira, e da mesma forma quem cortou frutas da palmeira do outro e comeu, se era uma palmeira romana ou similar, cujos tâmaras não são boas, avalia-se em sessenta sobre a terra. E se era uma palmeira persa ou similar, cujos tâmaras são muito boas, avalia-se a palmeira por si mesma, quanto valia e quanto vale agora. Nota: Alguns dizem que se o crescimento não estava completo, avalia-se em sessenta, e se o crescimento estava completo, avalia-se como está (Tur, Seção 10).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda leis relacionadas a danos causados por animais em propriedades alheias, um tema relevante na lei judaica, especialmente em comunidades agrícolas ou onde animais são comuns. Vamos explicar cada seção de forma prática:
+
+1. **Animal que causa dano ao cair**: Se um animal escorrega e cai em um jardim, danificando plantas ou comendo-as, o dono do animal paga apenas pelo benefício que o animal obteve, como a comida que comeu. Isso ocorre porque o dano não foi intencional. No entanto, se o animal desceu intencionalmente e causou dano, o dono paga pelo dano total. Se o animal sujou frutas ou empurrou outro animal que causou dano, o dono também é responsável, pois deveria ter evitado a situação. Há uma discussão sobre se empurrar outro animal é considerado negligência ou um acidente inevitável.
+
+2. **Animal que retorna ao local do dano**: Se um animal escorrega, sai do jardim e depois retorna, o dono é responsável pelo dano, pois deveria ter impedido o retorno. No entanto, se o dono vigiou bem o animal e ele ainda assim causou dano, o dono não é responsável.
+
+3. **Responsabilidade de terceiros**: Se alguém coloca o animal de outra pessoa em uma colheita alheia, essa pessoa é responsável pelo dano. O mesmo se aplica se alguém força o animal a ir para a colheita. Se a pessoa apenas se posiciona de forma a direcionar o animal, sem forçá-lo, não é considerada responsável, pois o dano é indireto.
+
+4. **Avaliação de danos em frutas conectadas**: Quando um animal danifica frutas ainda conectadas à planta, o dano é avaliado em relação ao valor total do campo. Por exemplo, se um animal come uma quantidade específica de frutas, calcula-se quanto o campo valia antes e depois do dano, e a diferença é paga.
+
+5. **Frutas maduras**: Se o animal come frutas maduras que já não dependem da terra, o dono paga o valor total das frutas consumidas, pois elas já estavam prontas para colheita.
+
+6. **Frutas de palmeiras**: Se um animal come frutas de uma palmeira, a avaliação depende do tipo de palmeira. Para palmeiras com frutas de menor qualidade, o dano é avaliado em relação ao campo. Para palmeiras com frutas de alta qualidade, avalia-se o valor da palmeira antes e depois do dano. Se as frutas ainda não estavam maduras, o cálculo é feito como no caso de frutas conectadas.
+
+Essas leis refletem a preocupação com a responsabilidade e a justiça em situações de danos causados por animais, incentivando os donos a cuidarem bem de seus animais para evitar prejuízos a terceiros.

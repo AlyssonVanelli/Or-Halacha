@@ -1,0 +1,46 @@
+SIMAN 219
+
+**Como se finalizam as fronteiras e se não as finalizou. Contém seis seções:**
+
+1. Aquele que diz ao seu amigo: "Estou vendendo para você o campo tal", adquire todo o campo, mesmo que seja muito grande, desde que não haja uma fronteira que interrompa. 
+
+   **Nota:** Se ele especificou a fronteira oriental e ocidental, mas não mencionou a fronteira norte e sul, ele adquire todo o campo. Não dizemos que ele adquire apenas um sulco no leste e um sulco no oeste (Tur).
+
+2. Se ele especificou a primeira, segunda e terceira fronteira, mas não a quarta, ele adquire todo o campo, mas não a quarta fronteira. 
+
+   **Nota:** Se a quarta fronteira está embutida entre as outras e não tem uma fileira de palmeiras, e não contém nove kavim, ele adquire também a quarta fronteira. Se não estiver embutida e tiver uma fileira de palmeiras ou contiver nove kavim, ele não a adquire. Se estiver embutida e tiver uma fileira de palmeiras ou contiver nove kavim, ou se não estiver embutida e não tiver uma fileira de palmeiras e não contiver nove kavim, a questão é deixada para o tribunal decidir conforme parecer adequado.
+
+3. Se ele especificou uma fronteira longa e uma curta, se a longa pertencer a outra pessoa, ele adquire da longa apenas o que corresponde à curta. 
+
+   **Nota:** Se pertencer a duas pessoas, ele adquire conforme a cabeça de um touro. (E há quem diga que mesmo se pertencer a uma pessoa, ele adquire na diagonal como a cabeça de um touro) (Tur em nome do Rosh e do Rabino Yonah).
+
+4. Se ele especificou apenas os cantos e não especificou a fronteira de cada direção, ou se especificou duas fronteiras em forma de "L" (uma frente à outra), ou se especificou uma parte de cada direção, ele não adquire todo o campo, mas apenas o que foi especificado, conforme parecer dos juízes.
+
+5. Se a fronteira de Reuven for leste e oeste, e a de Shimon for norte e sul, é necessário que ele escreva a fronteira de Reuven em duas direções e a de Shimon em duas direções.
+
+6. Se ele tinha um campo e vendeu parte dele a Shimon para o lado oeste, e para o lado leste manteve para si, e especificou a fronteira oeste, mas não a leste, apenas escreveu "fronteira leste de onde se divide" ou "de onde termina", se ele escreveu "e estas são as fronteiras", ele adquire metade do campo. Se não escreveu assim, ele adquire apenas nove kavim.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 219 do Shulchan Aruch Choshen Mishpat trata de como as fronteiras de um campo são definidas em uma transação de venda. Vamos explicar cada seção de forma prática:
+
+1. **Venda de um Campo Inteiro**: Quando alguém diz que está vendendo um campo específico, o comprador adquire todo o campo, mesmo que seja grande, desde que não haja uma fronteira clara que o divida. Isso significa que, se não houver uma barreira física ou legal que separe o campo, a venda inclui tudo.
+
+   - **Nota**: Se o vendedor menciona apenas as fronteiras leste e oeste, mas não as do norte e sul, o comprador ainda adquire todo o campo. Não se assume que ele está comprando apenas uma pequena parte.
+
+2. **Especificação de Três Fronteiras**: Se o vendedor menciona três das quatro fronteiras do campo, o comprador adquire todo o campo, exceto a quarta fronteira.
+
+   - **Nota**: Se a quarta fronteira está entre as outras e não tem características especiais (como uma fileira de palmeiras) ou não é grande (menos de nove kavim, uma medida de área), o comprador também adquire essa parte. Caso contrário, a aquisição dessa parte depende de uma decisão judicial.
+
+3. **Fronteiras Longas e Curtas**: Se o vendedor especifica uma fronteira longa e uma curta, e a longa pertence a outra pessoa, o comprador adquire apenas a parte da longa que corresponde à curta.
+
+   - **Nota**: Se a fronteira longa pertence a duas pessoas, a aquisição é feita de forma proporcional, como a cabeça de um touro, que é uma metáfora para uma divisão proporcional.
+
+4. **Especificação de Cantos ou Formato em "L"**: Se o vendedor menciona apenas os cantos do campo ou duas fronteiras em forma de "L", o comprador não adquire o campo inteiro, mas apenas as partes especificadas. A decisão final sobre o que é adquirido cabe aos juízes.
+
+5. **Fronteiras de Reuven e Shimon**: Se as fronteiras de dois campos pertencem a pessoas diferentes, é necessário especificar as direções de cada uma para evitar confusão sobre o que está sendo vendido.
+
+6. **Venda Parcial de um Campo**: Se alguém vende parte de um campo para o lado oeste e mantém o lado leste, e especifica a fronteira oeste, mas não a leste, a aquisição depende de como a fronteira é descrita. Se for dito "e estas são as fronteiras", o comprador adquire metade do campo. Caso contrário, ele adquire apenas uma pequena parte (nove kavim).
+
+Essas regras são importantes para garantir clareza e evitar disputas em transações de terras, algo que ainda é relevante em comunidades que seguem a lei judaica. Elas ajudam a definir claramente o que está sendo vendido e evitam mal-entendidos entre as partes envolvidas.

@@ -1,0 +1,34 @@
+SIMAN 279
+
+1. Se um erro for encontrado em um Sefer Torá durante a leitura pública, deve-se retirar outro Sefer Torá e começar a leitura a partir do local onde o erro foi encontrado, completando as sete leituras com aqueles que leram no Sefer Torá com erro. Se o erro for encontrado no meio da leitura, deve-se terminar a leitura no Sefer Torá válido e fazer a bênção após a leitura, mas não antes, pois a bênção feita antes no Sefer Torá inválido e a leitura realizada nele são válidas em caráter de emergência. Não há diferença se o erro foi encontrado no primeiro Sefer Torá ou no segundo, que é usado para a leitura obrigatória do dia para o Maftir (e veja Orach Chaim, Siman 143).
+
+2. Um Sefer Torá no qual foram encontrados três erros não pode ser lido até que seja corrigido, pois é considerado como contendo erros.
+
+3. Um Sefer Torá que tem três erros em cada folha deve ser corrigido, mas se houver quatro erros, deve ser guardado. Se a maior parte do Sefer Torá estiver corrigida e o restante contiver quatro erros em cada folha, mas restar ao menos uma folha desse restante sem quatro erros, ele pode ser corrigido. Isso se aplica quando uma palavra completa foi escrita de forma abreviada, pois é vergonhoso ter tantas correções entre as linhas. Mas se uma palavra abreviada foi escrita por extenso, mesmo que haja muitos erros em cada folha, pode ser corrigido, pois raspar não é tão vergonhoso quanto pendurar. Ao raspar, deve-se alargar um pouco as letras antes e depois para que o local raspado não interrompa a palavra.
+
+4. Se duas ou três linhas foram omitidas, não se deve apagar três linhas para escrever quatro ou cinco no lugar, a fim de incluir o que foi omitido, pois isso diminui o texto e faz parecer manchado (como a pele de um leopardo que tem muitas manchas). É melhor remover a folha. No entanto, os escribas têm o costume de corrigir, conforme explicado anteriormente no início do Siman 275.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido no Siman 279 do Shulchan Aruch Yoreh De'ah de forma prática e acessível:
+
+1. **Erro em um Sefer Torá durante a leitura pública**: 
+   - **Sefer Torá**: É um rolo que contém os cinco livros de Moisés, escritos à mão em pergaminho. É usado nas sinagogas para leituras públicas.
+   - Quando um erro é encontrado durante a leitura pública, um novo Sefer Torá deve ser trazido para continuar a leitura. A leitura deve recomeçar do ponto onde o erro foi encontrado, e as sete leituras obrigatórias devem ser completadas. 
+   - Se o erro for descoberto no meio de uma leitura, a leitura deve ser concluída com o Sefer Torá correto, e a bênção final é feita após a leitura. A bênção inicial e a leitura feitas no Sefer Torá com erro são consideradas válidas em situações de emergência.
+   - Isso é importante porque a leitura da Torá é uma parte central do serviço religioso judaico, e a precisão do texto é fundamental.
+
+2. **Três erros em um Sefer Torá**:
+   - Se um Sefer Torá tiver três erros, ele não pode ser usado até ser corrigido. Isso garante que o texto lido seja preciso e respeite a santidade do Sefer Torá.
+
+3. **Erros em cada folha do Sefer Torá**:
+   - Se houver três erros em cada folha, o Sefer Torá deve ser corrigido. Se houver quatro erros por folha, ele deve ser guardado e não usado.
+   - Se a maior parte do Sefer Torá estiver correta e apenas uma parte tiver quatro erros por folha, mas houver pelo menos uma folha sem quatro erros, ele pode ser corrigido.
+   - A correção de erros é feita de forma cuidadosa para não desrespeitar o texto. Por exemplo, se uma palavra foi escrita de forma abreviada, é mais vergonhoso corrigir, mas se uma palavra abreviada foi escrita por extenso, é mais fácil corrigir.
+
+4. **Omissão de linhas**:
+   - Se duas ou três linhas foram omitidas, não se deve apagar três linhas para escrever quatro ou cinco no lugar, pois isso pode prejudicar a aparência do texto. É melhor remover a folha inteira.
+   - No entanto, há um costume entre os escribas de corrigir de outra forma, conforme mencionado em outra parte do Shulchan Aruch.
+
+Essas regras são importantes para manter a integridade e a santidade do Sefer Torá, que é um objeto sagrado no judaísmo. A precisão do texto é essencial para garantir que as leituras públicas sejam feitas corretamente, respeitando a tradição e a lei judaica.

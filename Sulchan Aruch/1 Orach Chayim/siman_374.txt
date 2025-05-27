@@ -1,0 +1,32 @@
+SIMAN 374
+
+**Siman 374: Fechamento de uma porta ou janela no Shabat em um local onde foi feito um eruv. Contém quatro seifim:**
+
+1. Se o eruv foi feito através de uma janela ou porta entre duas áreas e esta foi fechada no Shabat, é permitido usar o topo do muro e suas aberturas. Mesmo se o eruv foi feito para o ano e a porta foi fechada durante a semana e reaberta no Shabat, o eruv volta a permitir. Segundo o Rambam, não é permitido transportar de uma área para outra, mas cada uma pode transportar dentro de si mesma.
+
+2. Se havia um muro entre dois pátios e cada um fez seu próprio eruv, e o muro foi rompido no Shabat, é permitido transportar em cada pátio, mesmo com utensílios da casa. No entanto, se o pátio foi rompido no Shabat para um domínio público ou para um carmelit, é proibido.
+
+3. Um pátio pequeno que foi completamente aberto para um pátio maior antes do Shabat, e a abertura não excede dez amot, o pátio maior pode transportar utensílios que estavam na casa para o pátio, se fez seu próprio eruv. O pátio menor não pode transportar utensílios que estavam na casa para o pátio, a menos que tenham feito um eruv conjunto. Isso se aplica quando as paredes do pátio menor entram no maior, e quando as paredes do menor estão afastadas três tefachim das paredes do comprimento do maior, pois, caso contrário, o menor seria permitido por parecer externo e igual internamente.
+
+4. Um telhado pequeno que foi completamente aberto para um telhado maior antes do Shabat, o pequeno é proibido de subir utensílios que estavam na casa, e o maior é permitido. Isso é válido se as paredes da casa forem visíveis para quem está no telhado, mas se não forem visíveis, como quando o telhado se projeta sobre elas, é considerado um carmelit, a menos que haja uma janela de quatro por quatro aberta da casa para ele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 374 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos do Shabat e do eruv. No Shabat, há restrições sobre transportar objetos entre diferentes tipos de áreas, como de um espaço privado para um espaço público. Um "eruv" é uma solução que permite, sob certas condições, transportar objetos dentro de uma área delimitada, como um bairro ou conjunto de pátios.
+
+**1. Eruv e Fechamento de Portas/Janelas:**
+- Quando um eruv é estabelecido entre duas áreas através de uma porta ou janela, ele permite que objetos sejam transportados entre essas áreas. Se essa porta ou janela for fechada no Shabat, ainda é permitido usar o topo do muro e suas aberturas. Isso significa que, mesmo com a porta fechada, a conexão estabelecida pelo eruv ainda é válida.
+- Segundo o Rambam, mesmo que o eruv permita o transporte dentro de cada área individualmente, não se pode transportar de uma área para outra se a porta estiver fechada.
+
+**2. Muro Rompido entre Pátios:**
+- Se dois pátios têm um muro entre eles e cada um fez seu próprio eruv, e esse muro é rompido no Shabat, os moradores ainda podem transportar objetos dentro de seus próprios pátios. No entanto, se o rompimento do muro expõe o pátio a um domínio público ou a um "carmelit" (uma área semi-pública), então transportar objetos se torna proibido.
+
+**3. Pátio Pequeno e Pátio Maior:**
+- Quando um pátio pequeno está completamente aberto para um pátio maior, e a abertura não é muito grande (não excede dez amot, uma medida de comprimento), o pátio maior pode transportar objetos da casa para o pátio, se tiver seu próprio eruv. O pátio menor, no entanto, só pode transportar objetos se houver um eruv conjunto entre os dois pátios.
+- Isso depende da configuração das paredes: se as paredes do pátio menor se estendem para dentro do maior ou estão afastadas de uma maneira específica, isso afeta a permissão de transporte.
+
+**4. Telhado Pequeno e Telhado Maior:**
+- Se um telhado pequeno está completamente aberto para um telhado maior, o telhado pequeno não pode ser usado para subir objetos da casa, enquanto o telhado maior pode, desde que as paredes da casa sejam visíveis do telhado. Se as paredes não forem visíveis, o telhado é considerado um "carmelit", a menos que haja uma janela específica que conecte a casa ao telhado.
+
+Essas leis são relevantes para a vida judaica contemporânea, especialmente em comunidades que utilizam eruvim para facilitar o cumprimento das leis de Shabat. Elas ajudam a determinar como as áreas podem ser usadas e como o transporte de objetos é regulado, garantindo que as práticas do Shabat sejam respeitadas.

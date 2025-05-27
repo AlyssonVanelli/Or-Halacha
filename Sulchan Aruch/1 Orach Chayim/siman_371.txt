@@ -1,0 +1,42 @@
+SIMAN 371
+
+**Quando um dos moradores do pátio se separa ou falece. Contém seis seções:**
+
+1. Um dos moradores do pátio que deixou sua casa e foi passar o Shabat em outro pátio, mesmo que este seja próximo ao seu, se ele não tem intenção de retornar para sua casa durante o Shabat, ele não proíbe os outros moradores de carregar no pátio. Isso se aplica a um judeu, mas no caso de um não-judeu, mesmo que ele vá passar o Shabat em outra cidade, ele ainda proíbe até que se alugue o espaço dele. Se a cidade é próxima, a uma distância de um dia de caminhada, ele pode retornar no Shabat, mas se for mais distante, ele não proíbe. Alguns dizem que mesmo um não-judeu que foi passar o Shabat em outro pátio não proíbe. [E isso parece ser a opinião principal. E se o não-judeu retornar no Shabat, veja o Siman 383.]
+
+2. Um judeu do pátio que foi passar o Shabat em outro pátio e não tem intenção de retornar no Shabat, mas depois mudou de ideia e voltou no Shabat, não proíbe.
+
+3. Alguém do mercado que tinha uma casa no pátio e faleceu, deixando sua propriedade para um dos moradores do pátio, se ele faleceu antes do Shabat, o herdeiro não proíbe, pois o eruv que foi feito para a casa dele também permite o que foi herdado. Mas se ele faleceu após o anoitecer, ele proíbe, mesmo que o herdeiro tenha feito eruv com eles, não é eficaz para o que foi herdado posteriormente no Shabat.
+
+4. Se um dos moradores do pátio faleceu no Shabat, se ele fez eruv, mesmo que um dos herdeiros seja do mercado, ele não proíbe. Se ele não fez eruv e um dos herdeiros é do mercado, enquanto ele não vier morar com eles, ele não proíbe. Se ele vier morar no Shabat na casa do falecido, ele proíbe. Se o herdeiro for um dos moradores do pátio e ele fez eruv, e morava com o falecido na casa, ele não proíbe, mesmo que o falecido não tenha feito eruv. Mas se ele não morava com o falecido, mas em outra casa no pátio, ele proíbe, mesmo que o herdeiro tenha feito eruv, pois o falecido não fez. Se ele faleceu antes do Shabat e o herdeiro é do mercado, ele proíbe, desde que o herdeiro venha para a casa do falecido no Shabat.
+
+5. Um judeu e um prosélito que moravam no pátio, e o prosélito faleceu antes do Shabat, e outro judeu tomou posse de seus bens, mesmo que ele não tenha tomado posse até o anoitecer, ele proíbe até que renuncie ao seu direito, como qualquer outro herdeiro que faleceu após o anoitecer, pois ele permanece na permissão original.
+
+6. Um dos moradores do pátio que estava à beira da morte, mesmo que não possa sobreviver até o final do dia, ele proíbe até que se faça eruv com ele. E uma criança também proíbe, mesmo que não possa comer a quantidade de um 'kezayit'. Mas um hóspede não proíbe, como explicado no Siman 370.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 371 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite que judeus carreguem objetos em áreas públicas durante o Shabat, algo que normalmente é restrito. O eruv cria uma "fronteira" simbólica que transforma áreas públicas em privadas para os propósitos do Shabat.
+
+2. **Pátio (Chatzer)**: Refere-se a um espaço comum compartilhado por várias residências, como um quintal ou área comum em um complexo de apartamentos.
+
+3. **Proibição de Carregar**: No Shabat, carregar objetos entre domínios privados e públicos é proibido. O eruv permite que os moradores de um pátio carreguem dentro dessa área comum.
+
+Agora, vamos explicar cada seção do Siman 371:
+
+1. **Morador Ausente**: Se um judeu que mora em um pátio vai passar o Shabat em outro lugar e não planeja voltar, ele não impede que os outros moradores usem o eruv para carregar. No entanto, se um não-judeu faz o mesmo, ele ainda pode impedir o uso do eruv, a menos que seu espaço seja alugado para os outros moradores. Isso se aplica especialmente se ele estiver a uma distância que permita retornar no Shabat.
+
+2. **Mudança de Planos**: Se um judeu decide voltar para casa no Shabat, mesmo que não planejasse inicialmente, ele não impede o uso do eruv.
+
+3. **Herdeiro de Propriedade**: Se alguém que possuía uma casa no pátio morre antes do Shabat e deixa a propriedade para um morador do pátio, o eruv ainda é válido. Mas se a morte ocorre após o início do Shabat, o herdeiro não pode usar o eruv para a propriedade herdada.
+
+4. **Falecimento no Shabat**: Se um morador que fez parte do eruv morre no Shabat, seus herdeiros não impedem o uso do eruv, a menos que um herdeiro de fora venha morar na casa do falecido durante o Shabat.
+
+5. **Conversão e Herança**: Se um prosélito (convertido ao judaísmo) morre antes do Shabat e um judeu toma posse de seus bens, ele impede o uso do eruv até que renuncie ao seu direito, como qualquer herdeiro que herda após o início do Shabat.
+
+6. **Pessoa à Beira da Morte e Crianças**: Uma pessoa que está prestes a morrer ainda impede o uso do eruv, a menos que tenha participado dele. Crianças também podem impedir, mesmo que não consigam comer a quantidade mínima de alimento que define uma refeição. No entanto, um hóspede não impede o uso do eruv.
+
+Essas regras são relevantes para comunidades que observam o Shabat e vivem em áreas onde o eruv é necessário para facilitar a vida cotidiana, permitindo que objetos sejam carregados em áreas comuns sem violar as restrições do Shabat.

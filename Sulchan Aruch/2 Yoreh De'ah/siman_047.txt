@@ -1,0 +1,42 @@
+SIMAN 47
+
+1. Um animal em que se encontram dois intestinos é considerado tereifá (impróprio para consumo). Isso ocorre, por exemplo, quando há um intestino adicional desde o início até o fim, de modo que se encontram dois intestinos lado a lado do começo ao fim, seja no intestino de uma ave ou quando o intestino sai como um ramo do tronco e está separado, tanto em aves quanto em animais. No entanto, se ele se mistura novamente com o intestino e se torna um com uma de suas extremidades, e ambos estão separados no meio, então é permitido e não é considerado um excesso. E há quem diga que quando um pequeno intestino sai dos intestinos como um ramo que sai do tronco, se na parte superior do estômago, onde os intestinos saem, há uma largura de um dedo antes que este intestino comece a se separar, e também na parte inferior, após se conectar com os outros intestinos, há uma largura de um dedo completo, é kasher (permitido). Caso contrário, se não houver uma largura de um dedo completo na parte superior e inferior, é tereifá. (E assim é a opinião principal) (Beit Yosef em nome de Rashba e Ran).
+
+2. Em que casos isso se aplica? Em animais. Mas em aves, algo semelhante é kasher (mesmo que vários ramos saiam dele, é kasher) (Rabino Yerucham).
+
+3. Um intestino que sai da "casa das taças" (o final do rúmen é feito como um chapéu e é chamado de "casa das taças", e o mesenterium está conectado a ele, e o alimento entra da "casa das taças" para o mesenterium, que é o estômago. E como ele digere o alimento, é chamado de mesenterium, relacionado ao termo "como um moinho que mói") para o mesenterium é kasher, mas o que sai da "casa das taças" para o rúmen é tereifá.
+
+4. Se houver dois "sniya" (intestinos) de um "dibi" (animal), é tereifá. Mas se eles se fundirem, é kasher.
+
+5. Um "hadra d'kanata" que sai do meio, um excesso que está pendurado nos intestinos como um pequeno intestino, com o comprimento de um dedo, é kasher. Nota: Tudo isso se o excesso estiver fechado na extremidade e não permitir a saída de excremento, mas se estiver aberto na extremidade, é tereifá, pois o excremento cai no corpo (assim parece do Mordechai no final do capítulo "Elu Tereifot", e assim está no Raavan, Siman 21, e na nota no final de Orach Chaim, Klal 55, Din 6, e é simples). Além disso, é considerado uma perfuração dos intestinos.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 47 do Shulchan Aruch Yoreh De'ah, é importante saber que ele trata das leis de kashrut, que determinam quais alimentos são permitidos ou proibidos para consumo de acordo com a lei judaica. Especificamente, este texto aborda condições que tornam um animal "tereifá", ou seja, impróprio para consumo.
+
+### 1. Intestinos Duplos
+
+- **Conceito**: Se um animal tem dois intestinos completos, lado a lado, do início ao fim, ele é considerado tereifá. Isso significa que não pode ser consumido de acordo com a lei judaica.
+- **Exceção**: Se os intestinos se juntam em uma das extremidades, mesmo que estejam separados no meio, o animal é considerado kasher (permitido).
+- **Medida Específica**: Há uma opinião que diz que se um pequeno intestino se ramifica, ele deve ter uma largura de um dedo em ambas as extremidades para ser considerado kasher. Caso contrário, é tereifá.
+
+### 2. Aplicação em Aves
+
+- **Diferença entre Animais e Aves**: Enquanto a duplicação de intestinos em animais torna-os tereifá, em aves, mesmo que haja várias ramificações, o animal ainda pode ser kasher.
+
+### 3. Conexões Intestinais
+
+- **"Casa das Taças"**: Este é um termo técnico para uma parte do sistema digestivo. Se um intestino sai da "casa das taças" para o mesenterium (outra parte do estômago), é kasher. Mas se vai para o rúmen, é tereifá.
+
+### 4. Dois "Sniya" de um "Dibi"
+
+- **Conceito**: Se um animal tem dois intestinos chamados "sniya" de um "dibi", ele é tereifá. No entanto, se eles se fundem, o animal é kasher.
+
+### 5. "Hadra d'kanata"
+
+- **Conceito**: Um excesso que parece um pequeno intestino pendurado, com o comprimento de um dedo, é kasher, desde que esteja fechado na extremidade. Se estiver aberto, é tereifá, pois isso pode causar uma perfuração nos intestinos, permitindo que excremento entre no corpo.
+
+### Relevância Prática
+
+Na prática, essas leis são relevantes para os shochtim (aqueles que realizam o abate kosher) e para os supervisores de kashrut, que devem inspecionar os animais após o abate para garantir que não apresentem essas condições. Para a maioria das pessoas que seguem as leis de kashrut, é importante confiar em fornecedores de carne que respeitem essas inspeções rigorosas para garantir que a carne consumida seja kasher.

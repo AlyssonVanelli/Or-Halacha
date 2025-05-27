@@ -1,0 +1,45 @@
+SIMAN 293
+
+**Quando o depósito pode ser reclamado e se pode ser devolvido em qualquer lugar. Contém 4 seções:**
+
+1. O depositante não pode reclamar o depósito, exceto no local onde foi depositado. Por exemplo, se foi depositado em Tiberíades, não pode ser reclamado em Tzipori. No entanto, em qualquer lugar que o depositário deseje devolver o depósito ao depositante, este deve aceitá-lo, mesmo que seja contra a vontade do depositante, é considerado uma devolução e o depositário está isento. (Isso é apenas se ele devolveu ao depositante, mas se ele disse para trazer e o depositante foi embora, o depositário é responsável).
+
+2. Se o depósito foi feito por um tempo determinado, o depositário não pode forçar o depositante a aceitá-lo de volta antes do tempo acordado.
+
+3. Isso se aplica em áreas habitadas, mas se o depósito foi feito em uma área habitada e o depositário o trouxe para o deserto, o depositante não precisa aceitá-lo. Ele pode dizer: "Está sob sua responsabilidade até que você o devolva a mim em uma área habitada, como foi depositado com você." Se, ao depositar, o depositante disse que queria ir ao deserto e o depositário respondeu que também queria ir, é como se ele tivesse especificado que o devolveria no deserto, e ele pode devolvê-lo lá.
+
+4. Se alguém depositou com seu amigo e o dono do depósito foi para o exterior, e o depositário deseja viajar por mar ou sair em uma caravana, se ele trouxer o depósito ao tribunal, ele está isento da responsabilidade de guardá-lo, pois não se proíbe alguém de viajar por causa do depósito de outro que foi embora. Ele não pode levá-lo consigo, pois pode ocorrer um acidente e ele seria responsável. O tribunal confia o depósito a uma pessoa de confiança para garantir a devolução ao proprietário. (Nota: Se ele não puder deixá-lo em uma área habitada e precisar levá-lo ao deserto por causa de perigo ou se um guardião entregou a outro guardião e ocorreu um acidente, alguns dizem que o depositário está isento).
+
+5. Se ele enviou o depósito por outra pessoa, seja dizendo "leve-o" ou "dê-o", ele é responsável até que chegue às mãos do proprietário, pois o proprietário não nomeou o mensageiro. Portanto, se ele quiser recuperar o depósito do mensageiro, ele pode, a menos que o depositário tenha sido considerado um negador, caso em que o mensageiro adquire o depósito em nome do depositante, e o depositário não pode recuperá-lo, mas ainda é responsável até que chegue ao depositante. (Veja também Siman 291, Seção 1, sobre devolver ao cônjuge do depositante). Há quem diga que isso também se aplica mesmo que o depositário não tenha sido considerado um negador, mas o proprietário do depósito costumava depositar com o depositário atual. Da mesma forma, se ele enviou por alguém confiável, mesmo que não tenha sido liberado, ele não pode voltar atrás e é responsável até que chegue ao depositante.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 293 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+Este texto trata das regras sobre como e onde um depósito pode ser reclamado ou devolvido. No contexto judaico, um depósito refere-se a um bem que uma pessoa (o depositante) confia a outra (o depositário) para guardar. As leis discutem as responsabilidades e direitos de ambas as partes envolvidas.
+
+### Seção 1: Local de Reivindicação do Depósito
+- **Regra Básica**: O depositante só pode pedir o depósito de volta no local onde ele foi originalmente deixado. Por exemplo, se você deixou algo em Tiberíades, não pode exigir que ele seja devolvido em Tzipori.
+- **Devolução pelo Depositário**: O depositário pode devolver o depósito em qualquer lugar que desejar. O depositante deve aceitar a devolução, mesmo que não queira. Isso libera o depositário de responsabilidade.
+- **Exceção**: Se o depositário apenas diz que vai devolver e o depositante vai embora, o depositário ainda é responsável.
+
+### Seção 2: Depósito com Prazo Determinado
+- **Prazo Acordado**: Se foi combinado um tempo específico para o depósito, o depositário não pode forçar o depositante a aceitá-lo de volta antes do prazo.
+
+### Seção 3: Áreas Habitada vs. Deserto
+- **Devolução em Áreas Diferentes**: Se o depósito foi feito em uma área habitada e o depositário o leva para o deserto, o depositante não precisa aceitá-lo de volta lá. Ele pode exigir que seja devolvido em uma área habitada.
+- **Exceção**: Se ambos concordaram que o depósito poderia ser devolvido no deserto, então isso é permitido.
+
+### Seção 4: Viagem do Depositário
+- **Viagem do Depositário**: Se o depositante viajou para o exterior e o depositário precisa viajar, ele pode deixar o depósito com o tribunal, que o confia a uma pessoa de confiança. Isso isenta o depositário de responsabilidade.
+- **Proibição de Levar o Depósito**: O depositário não pode levar o depósito em sua viagem, pois se algo acontecer, ele seria responsável.
+- **Exceção**: Se for necessário levar o depósito ao deserto por segurança, ou se um guardião passar o depósito a outro e ocorrer um acidente, o depositário pode ser isento de responsabilidade.
+
+### Seção 5: Envio do Depósito por Terceiros
+- **Envio por Mensageiro**: Se o depositário envia o depósito por outra pessoa sem o consentimento do depositante, ele continua responsável até que o depósito chegue ao proprietário.
+- **Recuperação do Depósito**: O depositante pode recuperar o depósito do mensageiro, a menos que o depositário tenha sido considerado um negador (alguém que nega ter o depósito).
+- **Exceções e Confiabilidade**: Se o depositário é confiável ou se o depositante costuma deixar depósitos com ele, o depositário pode enviar o depósito por alguém confiável, mas ainda é responsável até que o depósito chegue ao depositante.
+
+Essas regras ajudam a garantir que os bens confiados a outra pessoa sejam tratados com responsabilidade e que ambas as partes saibam seus direitos e deveres.

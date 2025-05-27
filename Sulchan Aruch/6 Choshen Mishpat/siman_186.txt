@@ -1,0 +1,48 @@
+SIMAN 186
+
+**Aquele que adquire utensílios do artesão para vendê-los. Contém 2 seções:**
+
+1. Aquele que adquire utensílios da casa do artesão para enviá-los à casa de seu sogro e diz a ele: "Se eles os aceitarem de mim, eu te darei o valor deles, e se não, eu te darei uma pequena remuneração", e eles foram perdidos durante o caminho, ele é responsável. Mas se foram perdidos na volta, ele está isento. No entanto, se foram roubados ou perdidos, ele é responsável.
+
+2. Se ele os pegou com a intenção de vendê-los e disse: "Se forem vendidos em tal lugar ou até tal tempo, eu te darei tal e tal valor, e se não forem vendidos, eu os devolverei a você", e eles foram perdidos, seja no caminho ou na volta, ele é obrigado a pagar. E há quem diga que isso se aplica a algo que tem muitos compradores e pode ser vendido imediatamente pelo preço estipulado, mas ele os devolve para vendê-los por mais, para lucrar com isso. Caso contrário, ele está isento de perdas, e só é responsável por roubo e perda, como é a lei de um intermediário. 
+
+*Nota: E se ele estipulou um preço e disse: "Todo o lucro disso dividiremos entre nós", ele tem apenas o status de um intermediário e não é responsável por perdas (Beit Yosef).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda situações em que alguém adquire utensílios de um artesão com a intenção de vendê-los. Vamos explicar isso de forma prática:
+
+### Contexto Geral
+
+Na vida judaica, como em qualquer sociedade, há transações comerciais que envolvem a compra e venda de bens. Este texto trata especificamente de como lidar com a responsabilidade por perdas ou danos a esses bens durante o processo de venda.
+
+### Seção 1: Envio de Utensílios para o Sogro
+
+1. **Cenário**: Uma pessoa compra utensílios de um artesão para enviá-los à casa de seu sogro. Ele diz ao artesão que, se o sogro aceitar os utensílios, ele pagará por eles. Se não, ele pagará uma pequena taxa ao artesão.
+
+2. **Responsabilidade**:
+   - **Perda no Caminho**: Se os utensílios se perderem durante o envio para o sogro, a pessoa que os comprou é responsável por pagar ao artesão.
+   - **Perda na Volta**: Se os utensílios forem recusados pelo sogro e se perderem no caminho de volta, a pessoa não é responsável por pagar.
+   - **Roubo ou Perda**: Independentemente de ser na ida ou na volta, se os utensílios forem roubados ou perdidos, a pessoa é responsável.
+
+### Seção 2: Venda com Intenção de Lucro
+
+1. **Cenário**: A pessoa pega os utensílios com a intenção de vendê-los. Ela estipula que, se conseguir vendê-los em um determinado lugar ou tempo, pagará um valor específico ao artesão. Se não conseguir, devolverá os utensílios.
+
+2. **Responsabilidade**:
+   - **Perda**: Se os utensílios se perderem, seja no caminho para a venda ou na volta, a pessoa deve pagar ao artesão.
+   - **Exceção**: Se os utensílios são de um tipo que pode ser vendido rapidamente e a pessoa os mantém para tentar vendê-los por um preço mais alto, ela é responsável apenas por roubo ou perda, como um intermediário seria.
+
+3. **Divisão de Lucro**: Se a pessoa e o artesão concordam em dividir o lucro da venda, a pessoa é considerada apenas um intermediário e não é responsável por perdas.
+
+### Relevância Prática
+
+Essas leis são relevantes para qualquer pessoa envolvida em transações comerciais, especialmente aquelas que lidam com consignação ou venda de produtos de terceiros. Elas ajudam a definir claramente quem é responsável por perdas ou danos, dependendo do acordo feito entre as partes. Isso é importante para evitar disputas e garantir que todos saibam suas responsabilidades.
+
+### Conceitos Técnicos
+
+- **Intermediário**: Alguém que não é o proprietário final dos bens, mas que os manuseia para venda ou outro propósito.
+- **Responsabilidade por Perda/Roubo**: Determina quem deve arcar com o custo se os bens forem perdidos ou roubados.
+
+Essas diretrizes ajudam a manter a justiça e a clareza nas transações comerciais, refletindo a importância da honestidade e da responsabilidade nos negócios, valores centrais na ética judaica.

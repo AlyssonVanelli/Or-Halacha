@@ -1,0 +1,42 @@
+SIMAN 130
+
+**Lei sobre o fiador que pagou ao credor e como ele pode cobrar do devedor. Contém sete seções:**
+
+1. Um fiador ou garantidor que pagou ao credor na presença de testemunhas, se ele pagou antes de saber se o devedor já havia pago, e o devedor alega que já pagou, o devedor não deve nada ao fiador. Mas se ele pagou após o credor ter trazido prova de que não foi pago, o devedor deve reembolsar tudo o que o fiador pagou em seu nome, seja a dívida formalizada por escrito ou verbalmente, mesmo sem testemunhas.
+
+2. Alguns dizem que isso se aplica quando o devedor disse ao fiador no momento em que ele se tornou fiador: "Seja meu fiador e pague". Mas se o fiador se ofereceu por conta própria e pagou ao credor sem autorização do devedor, o devedor não é obrigado a reembolsá-lo. Se o devedor disse ao fiador para se tornar garantidor, mesmo sem autorização para pagar, e o garantidor pagou por conta própria, mesmo antes de o credor levar o devedor ao tribunal e não encontrar bens, o devedor deve reembolsá-lo. Mas se ele disse para se tornar fiador e não autorizou o pagamento, e o fiador pagou após o credor levar o devedor ao tribunal e não encontrar bens, o devedor deve reembolsá-lo. Se o fiador pagou antes de o credor levar o devedor ao tribunal e não encontrou bens, o devedor não deve nada ao fiador.
+
+3. Há quem discorde e diga que mesmo um fiador que não é garantidor, que se tornou fiador por conta própria e pagou, pode cobrar do devedor. 
+
+4. O fiador não pode cobrar do devedor até que traga testemunhas de que pagou em seu nome. Enquanto não tiver testemunhas, não pode cobrar nada, mesmo que tenha o documento da dívida em mãos. Se o credor escreveu ao fiador que recebeu dele o valor da dívida, isso permite que ele cobre do devedor, desde que a fiança esteja especificada no documento ou que o devedor a reconheça.
+
+5. Quando o credor escreve ao fiador que recebeu dele o valor da dívida, alguns dizem que isso equivale a um empréstimo documentado, permitindo cobrar dos compradores que adquiriram do devedor. Outros dizem que, mesmo que o credor tenha escrito isso, só é válido em relação ao próprio devedor, que não pode alegar que pagou, mas não pode cobrar de bens vendidos pelo devedor até que o credor entregue o documento da dívida ao fiador e o transfira formalmente, para que a reivindicação não seja apenas verbal.
+
+6. Se o fiador pagou ao credor e não pediu o documento, o devedor não deve nada ao fiador, pois o fiador foi negligente ao deixar o documento com o credor.
+
+7. Se o devedor morreu e o fiador pagou a dívida antes de notificar os herdeiros, se soubermos que o devedor não pagou a dívida antes de morrer, como quando ele a reconheceu antes de morrer ou foi excomungado e morreu excomungado, ou se o tempo para o credor cobrar ainda não havia chegado, o fiador pode cobrar dos herdeiros tudo o que pagou. Alguns dizem que isso se aplica apenas a herdeiros menores, mas herdeiros adultos devem pagar se o documento estiver com o fiador, conforme explicado anteriormente.
+
+8. Se o credor for um não-judeu, os herdeiros não são obrigados a pagar, pois o pai pode ter dado ao fiador toda a dívida, já que o não-judeu cobra primeiro do fiador. Portanto, o fiador pagou por conta própria antes de notificar os herdeiros. Mas se ele os notificou que o não-judeu estava cobrando e ele iria pagar, os herdeiros são obrigados a pagar. Se o tribunal obrigou o fiador a pagar, é como se ele tivesse notificado os herdeiros.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda as leis relacionadas a um fiador, que é uma pessoa que se compromete a pagar uma dívida caso o devedor original não o faça. Vamos explicar cada seção de forma prática:
+
+1. **Fiador que paga sem saber se o devedor já pagou**: Se um fiador paga uma dívida na presença de testemunhas, mas sem saber se o devedor já pagou, e o devedor afirma que já pagou, o fiador não pode exigir reembolso. No entanto, se o credor provar que não recebeu o pagamento do devedor, o devedor deve reembolsar o fiador.
+
+2. **Autorização do devedor**: Se o devedor pediu ao fiador para garantir a dívida e pagar, o devedor deve reembolsar o fiador. Mas se o fiador agiu por conta própria, sem autorização, o devedor não é obrigado a reembolsá-lo, a menos que o credor tenha tentado cobrar do devedor e não encontrou bens.
+
+3. **Opiniões divergentes**: Algumas opiniões permitem que um fiador que agiu por conta própria cobre do devedor, mesmo sem autorização prévia.
+
+4. **Prova de pagamento**: O fiador precisa de testemunhas para provar que pagou a dívida em nome do devedor. Sem isso, ele não pode cobrar do devedor, mesmo que tenha o documento da dívida. Se o credor der um recibo ao fiador, isso pode servir como prova.
+
+5. **Recibo do credor**: Se o credor dá um recibo ao fiador, isso pode ser considerado como um documento formal, permitindo que o fiador cobre do devedor. No entanto, para cobrar de bens vendidos pelo devedor, o documento original da dívida deve ser transferido formalmente para o fiador.
+
+6. **Negligência do fiador**: Se o fiador paga a dívida mas não pega o documento da dívida do credor, ele não pode cobrar do devedor, pois foi negligente.
+
+7. **Devedor falecido**: Se o devedor morre e o fiador paga a dívida sem informar os herdeiros, ele pode cobrar dos herdeiros se for comprovado que a dívida não foi paga antes da morte. Isso é mais aplicável a herdeiros menores, mas herdeiros adultos devem pagar se o fiador tiver o documento.
+
+8. **Credor não-judeu**: Se o credor é não-judeu, os herdeiros não são obrigados a pagar, pois o pai pode ter dado ao fiador a responsabilidade total. No entanto, se o fiador informou os herdeiros sobre a cobrança, eles devem pagar. Se um tribunal obrigou o fiador a pagar, é como se ele tivesse notificado os herdeiros.
+
+Essas leis são relevantes para situações em que alguém se oferece para ajudar outra pessoa com uma dívida, garantindo que todos os envolvidos saibam suas responsabilidades e direitos. Na prática, isso ajuda a evitar mal-entendidos e disputas financeiras.

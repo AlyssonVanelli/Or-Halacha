@@ -1,0 +1,38 @@
+SIMAN 109
+
+1. Uma peça que não é digna de ser honrada, que se misturou com outras do mesmo tipo, seco com seco (ou seja, que não se mistura e a proibição permanece por si só, mas está misturada e não é reconhecível) é anulada na proporção de um para dois e é permitido que uma pessoa coma cada uma separadamente, mas não deve comer as três juntas. Há quem proíba que uma pessoa as coma, mesmo uma após a outra. Nota: E assim deve-se agir inicialmente, e há quem seja rigoroso em descartar uma ou dar a um não-judeu (anotações de Shach em nome de Mahar"m e Rashi em Avodah Zarah 74a), mas isso é apenas uma medida de rigor. Tudo isso se aplica quando se mistura com o mesmo tipo, mas se não for do mesmo tipo e não for reconhecível, mesmo seco com seco, é necessário sessenta (Tur em nome de Ba'al HaTerumah e muitos outros decisores). Não há diferença nisso se a proibição é rabínica ou da Torá (Beit Yosef em nome dos decisores, não como a anotação de Shach). Veja também o Siman 122 se utensílios se misturaram juntos.
+
+2. Seco com seco que foi anulado um em dois, se foram cozidos todos juntos, mesmo comer cada um separadamente é proibido se não houver sessenta, porque o molho dá sabor e é absorvido nas peças. Se quiser cozinhá-los juntos e não houver sessenta, é permitido aumentar a quantidade até atingir a proporção de sessenta e cozinhá-los, e isso não é considerado como anular uma proibição. Nota: E há quem diga que se a mistura foi conhecida antes de serem cozidos juntos, tudo é permitido, pois não se tornam proibidos novamente uma vez que foram anulados em seco (Tur em nome de Rosh e R' Yerucham em nome dos Tosafot, e escreveu que isso é o principal). Em caso de perda, pode-se confiar nos que permitem e liberar.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 109 do Shulchan Aruch Yoreh De'ah, vamos desmembrar os conceitos e aplicá-los de forma prática:
+
+### Conceitos Técnicos
+
+1. **Seco com Seco**: Refere-se a alimentos que não se misturam fisicamente, como grãos ou pedaços de carne. Quando falamos de "seco com seco", estamos lidando com itens que, mesmo misturados, não se fundem em um único produto.
+
+2. **Anulação (Bittul)**: É um princípio halachico que permite que uma pequena quantidade de algo proibido seja considerada "anulada" ou insignificante quando misturada com uma quantidade maior de algo permitido. Isso é relevante quando, por exemplo, um pedaço de comida não-casher cai em um prato de comida casher.
+
+3. **Proporção de Um para Dois**: Significa que, para anular um item proibido, é necessário que haja pelo menos duas vezes a quantidade do item permitido em relação ao proibido.
+
+4. **Sessenta (Shishim)**: Em muitos casos, a proporção necessária para anular um item proibido é de 1 para 60. Isso é especialmente relevante quando o sabor do item proibido pode se espalhar, como em líquidos ou quando cozido.
+
+### Relevância Prática
+
+- **Mistura de Alimentos**: Se um alimento proibido se mistura com alimentos permitidos, a questão é se ele pode ser considerado anulado. Se os alimentos são do mesmo tipo e secos, a anulação pode ocorrer com uma proporção de 1 para 2. No entanto, se são de tipos diferentes ou se há risco de sabor se espalhar, a proporção de 1 para 60 é necessária.
+
+- **Cozimento**: Quando alimentos são cozidos juntos, o sabor pode se espalhar, tornando a anulação mais complexa. Se não houver a proporção de 1 para 60, não se deve cozinhar os itens juntos, a menos que se aumente a quantidade de alimento permitido para atingir essa proporção.
+
+### Pontos Esclarecedores
+
+- **Comer Separadamente**: Mesmo que a anulação ocorra, há uma recomendação de não comer todos os itens juntos, para evitar a aparência de consumir algo proibido. Algumas opiniões são mais rigorosas e sugerem não comer os itens de forma consecutiva.
+
+- **Medida de Rigor**: Algumas práticas, como descartar um dos itens ou dá-lo a um não-judeu, são medidas de rigor e não obrigatórias.
+
+- **Diferença entre Proibições**: Não importa se a proibição é de origem rabínica ou da Torá; as regras de anulação se aplicam igualmente.
+
+### Aplicação na Vida Contemporânea
+
+Na prática, essas leis são relevantes em cozinhas casher, onde é crucial garantir que alimentos proibidos não contaminem alimentos permitidos. Em situações de dúvida, é comum consultar uma autoridade rabínica para orientação específica, especialmente em casos complexos ou quando há risco de perda financeira significativa.

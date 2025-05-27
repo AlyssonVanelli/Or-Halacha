@@ -1,0 +1,32 @@
+SIMAN 377
+
+**Lei sobre duas varandas opostas abertas para um pátio. Contém um parágrafo:**
+
+Duas varandas que estão abertas para um pátio, uma em frente à outra, e uma delas fez uma cavidade no pátio para despejar água, pois o pátio não tem quatro amot de largura, enquanto a outra não fez. Se ambas fizeram um eruv juntas, ambas podem despejar suas águas. Se não fizeram um eruv juntas, e uma fez um eruv para si mesma e a outra não fez eruv de forma alguma, aquela que não fez eruv está proibida de despejar, enquanto a que fez eruv está permitida. Contudo, ela não deve despejar diretamente na cavidade, mas sim despejar na varanda, e a água descerá até a cavidade.
+
+*Nota: Despejar com força em um pátio que não está eruvado é permitido (Tur). O mesmo se aplica se o pátio tiver mais de quatro amot, pois ambas estão permitidas nesse caso e não precisam de uma cavidade (Beit Yosef).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender essa lei, precisamos primeiro explicar alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite carregar objetos em áreas públicas durante o Shabat, algo que normalmente é restrito. Um eruv pode ser uma barreira física ou um acordo comunitário que transforma um espaço público em uma área "privada" para os propósitos do Shabat.
+
+2. **Amot**: É uma medida de comprimento usada na Halachá, equivalente a aproximadamente 48-60 centímetros. Quatro amot seriam cerca de 2 a 2,4 metros.
+
+3. **Varanda e Pátio**: No contexto deste texto, as varandas são áreas elevadas que se abrem para um pátio comum. O pátio é uma área compartilhada por várias residências.
+
+Agora, vamos à explicação prática:
+
+Imagine que você mora em um prédio com varandas que se abrem para um pátio comum. Duas dessas varandas estão uma de frente para a outra. Para facilitar o despejo de água (como água usada para lavar), uma das varandas fez uma cavidade no pátio para que a água possa ser despejada ali. A outra varanda não fez essa cavidade.
+
+A questão aqui é sobre como as pessoas dessas varandas podem despejar água no pátio durante o Shabat, respeitando as leis judaicas:
+
+- **Se ambas as varandas fizeram um eruv juntas**: Isso significa que elas concordaram em compartilhar o espaço do pátio como se fosse uma área privada comum. Nesse caso, ambas podem despejar água no pátio sem problemas.
+
+- **Se não fizeram um eruv juntas**: Aqui, a situação se complica. Se uma varanda fez um eruv para si mesma (ou seja, ela tem permissão para usar o pátio como uma extensão de sua área privada) e a outra não fez nenhum eruv, a varanda que não fez o eruv não pode despejar água no pátio. A varanda que fez o eruv pode despejar, mas deve fazê-lo de forma indireta: despejando a água na própria varanda, permitindo que ela escorra até a cavidade no pátio.
+
+A nota adicional esclarece que, se o pátio fosse suficientemente grande (mais de quatro amot de largura), não haveria necessidade de uma cavidade, e ambas as varandas poderiam despejar água sem restrições, mesmo sem um eruv.
+
+Essas regras são relevantes para a vida judaica contemporânea, especialmente em comunidades onde o eruv é usado para facilitar a observância do Shabat em áreas urbanas. Elas ajudam a garantir que as práticas do Shabat sejam respeitadas, mesmo em situações de convivência comunitária complexa.

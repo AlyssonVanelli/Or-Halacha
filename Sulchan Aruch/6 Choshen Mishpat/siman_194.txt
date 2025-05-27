@@ -1,0 +1,38 @@
+SIMAN 194
+
+**Um não-judeu que vendeu um terreno a um judeu e recebeu o dinheiro, mas não escreveu um documento. Contém três seções:**
+
+1. O não-judeu não adquire por meio de chazakah (posse) (e nem por dinheiro), mas sim por meio de um documento que adquire junto com a entrega do dinheiro. E o judeu que compra de um não-judeu é considerado como um não-judeu e não adquire exceto por meio de um documento. Nota: No entanto, o aluguel de um não-judeu é adquirido apenas com dinheiro (Beit Yosef, Siman 192). Da mesma forma, se o comprador estipulou que adquirirá apenas com dinheiro, ele adquire imediatamente (Beit Yosef neste Siman).
+
+2. Uma vez que o não-judeu não adquire o terreno de um judeu nem o transfere a um judeu exceto por meio de um documento, um judeu que comprou um campo de um não-judeu e pagou o dinheiro, e antes de tomar posse, outro judeu veio e tomou posse da maneira que se toma posse de propriedades de um prosélito, o último adquiriu. Nota: Alguns dizem que mesmo se o primeiro tomou posse, o último adquiriu, pois o primeiro não confia sem um documento (Tur em nome de Rashba e Magid, capítulo 1 de Zekhiyah, e assim parece no Mordechai, capítulo Chazakah). E assim me parece. Mas se o primeiro tomou posse antes de pagar o dinheiro, ele adquiriu (para todos). E o segundo deve pagar ao primeiro o dinheiro, pois desde que o não-judeu recebeu o dinheiro, ele removeu sua autoridade, e o judeu não adquire até que o documento chegue às suas mãos, e essas propriedades são consideradas como propriedades do deserto, que qualquer um que tomar posse delas adquire. E a responsabilidade recai sobre o não-judeu vendedor. Nota: O segundo é chamado de malvado (Tur em nome de Rashbam, veja Beit Yosef). No entanto, se o primeiro tentar, através do não-judeu, retirar o segundo, ele é chamado de delator, já que o segundo lhe dá seu dinheiro (Tur em nome de Rosh, Hagahot Ashri, Tosafot e Mordechai).
+
+3. Isso se aplica em um lugar onde não há uma lei conhecida do rei, mas se a lei do rei é que ninguém adquire o terreno exceto aquele cujo nome está no documento ou aquele que paga o dinheiro, e coisas semelhantes, então se age de acordo com a lei do rei. Nota: Um não-judeu que tinha um penhor ou depósito nas mãos de Reuven e o deu a Shimon por meio de um documento, Reuven adquire o que está em suas mãos, pois assim que o não-judeu deu a Shimon, o não-judeu se retirou, e Shimon não adquire até que ele puxe, portanto, é como uma propriedade abandonada, e Reuven adquire como alguém que adquire de uma propriedade abandonada (Resposta de Rashba, Siman 1032, e R' Yerucham, parte 23).
+
+Há quem diga que mesmo se o não-judeu escreveu um documento para o primeiro antes que outro tomasse posse, não é válido, pois ele já se retirou e é como outro, a menos que o documento seja escrito antes de receber o dinheiro. Nota: Tudo isso se refere apenas a terrenos, mas em relação a bens móveis, adquire-se com a entrega do dinheiro (Tur).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 194 do Shulchan Aruch Choshen Mishpat, precisamos primeiro esclarecer alguns conceitos e termos técnicos:
+
+1. **Chazakah**: É um termo que se refere à posse ou controle contínuo de uma propriedade, que pode levar à aquisição legal da mesma.
+
+2. **Documento**: No contexto de transações de terras, um documento é um contrato escrito que formaliza a transferência de propriedade.
+
+3. **Lei do rei**: Refere-se às leis civis ou governamentais que podem influenciar ou determinar como as transações de propriedade são realizadas.
+
+Agora, vamos explicar as três seções do texto:
+
+### Seção 1:
+- **Aquisição de Terras por Judeus e Não-Judeus**: Quando um não-judeu vende um terreno a um judeu, a transação só é considerada completa quando um documento é emitido, mesmo que o dinheiro já tenha sido pago. Isso é porque, tradicionalmente, um não-judeu não adquire terras apenas por posse ou dinheiro, mas sim por meio de um documento. Da mesma forma, um judeu que compra de um não-judeu também precisa de um documento para que a compra seja válida. No entanto, se o acordo for apenas para aluguel, o pagamento em dinheiro é suficiente.
+
+### Seção 2:
+- **Disputa de Posse entre Judeus**: Se um judeu compra um terreno de um não-judeu e paga, mas ainda não tomou posse, outro judeu pode tomar posse do terreno e, nesse caso, ele adquire o terreno. Isso ocorre porque, sem o documento, a propriedade é considerada como "propriedade do deserto", que qualquer um pode adquirir. Se o primeiro comprador já tomou posse antes de pagar, ele mantém o direito à propriedade. O segundo comprador, que tomou posse, é considerado malvado por interferir, mas se ele pagar ao primeiro comprador, ele pode manter a posse.
+
+### Seção 3:
+- **Influência das Leis Governamentais**: Em locais onde há leis civis específicas sobre como as propriedades devem ser adquiridas, essas leis devem ser seguidas. Por exemplo, se a lei local diz que a propriedade só é adquirida quando o nome está no documento ou quando o dinheiro é pago, então essas regras prevalecem.
+
+### Considerações Finais:
+- **Bens Móveis vs. Terrenos**: As regras acima se aplicam principalmente a terrenos. Para bens móveis, a aquisição é feita com o pagamento do dinheiro, sem a necessidade de um documento.
+
+Essas leis refletem a complexidade das transações de propriedade na tradição judaica e a importância de documentos formais para garantir a segurança e a clareza nas transferências de propriedade. Na prática contemporânea, essas regras podem ser comparadas à necessidade de contratos formais e registros legais em transações imobiliárias modernas.

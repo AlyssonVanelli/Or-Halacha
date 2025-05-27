@@ -1,0 +1,40 @@
+SIMAN 143
+
+**Lei sobre a posse na ausência do contestante, estando ele em outro país ou fugido. Contém quatro seções:**
+
+1. Se alguém tomou posse de uma terra por menos de três anos, isso não constitui uma posse legal, mesmo que tenha sido na presença do contestante. No entanto, se a posse durou três anos, é considerada legal, mesmo que o contestante não estivesse presente, desde que haja rotas de caravanas entre o local da posse e o local onde o contestante reside. Se houver guerra ou interrupção das rotas entre esses locais, a posse não é considerada legal. Mesmo que haja testemunhas de que o contestante esteve no mercado local por 30 dias, e esses 30 dias sejam no final dos três anos, de modo que, se ele não contestar agora, não terá mais tempo para fazê-lo, ainda assim ele pode alegar que durante esses 30 dias estava ocupado com seus negócios e não sabia que alguém estava tomando posse de sua propriedade. Isso se aplica quando ele tem outra casa onde morar.
+
+2. Há quem diga que essa regra se aplica apenas em vilarejos onde as pessoas estão ocupadas com seus mercados. Alguns dizem que disso se aprende que tudo depende do final dos três anos: se no início ele estava em um lugar onde não podia contestar e no final em um lugar onde podia, a posse é válida. Mas se no início ele estava em um lugar onde podia contestar e depois foi para um lugar onde não podia, a posse não é válida, pois pode-se dizer que ele planejava contestar no final, mas não teve oportunidade.
+
+3. Todas essas regras se aplicam apenas quando é sabido que o contestante não estava no país. Se não for sabido, não se aceita sua alegação de que não estava presente, a menos que ele prove com testemunhas.
+
+4. Se o contestante fugiu por risco de vida, não se pode tomar posse de seus bens, pois ele tem medo de contestar, temendo que seu paradeiro seja descoberto e que o persigam. Mas se ele fugiu por questões financeiras, pode-se tomar posse de seus bens, pois ele não tem tanto medo.
+
+5. Há quem diga que não se pode tomar posse dos bens de prisioneiros, nem dos bens de pessoas desaparecidas (ou seja, pessoas cujo paradeiro é desconhecido), nem dos bens de pessoas mentalmente incapazes, pois todos esses não podem contestar, seja porque não sabem quem está tomando posse de seus bens devido à sua grande distração.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender melhor as leis apresentadas no Siman 143 do Shulchan Aruch Choshen Mishpat, vamos desmembrar os conceitos e aplicá-los de forma prática e acessível:
+
+1. **Posse de Terra e Contestação:**
+   - **Posse Legal:** Para que alguém seja considerado o dono legal de uma terra que não era originalmente sua, ele precisa ter ocupado essa terra por três anos consecutivos. Se a posse for por menos de três anos, não é considerada legal.
+   - **Presença do Contestante:** Se a pessoa que poderia contestar a posse (o contestante) está em outro país, a posse ainda pode ser considerada legal após três anos, desde que existam rotas de comunicação (como rotas de caravanas) entre os dois locais. Isso significa que o contestante tinha a possibilidade de saber sobre a posse e contestá-la.
+   - **Exceções:** Se houver guerra ou interrupções nas rotas, a posse não é considerada legal, pois o contestante não teria como saber ou contestar a posse.
+
+2. **Circunstâncias Especiais:**
+   - **Mercados e Ocupações:** Em vilarejos onde as pessoas estão ocupadas com mercados, pode-se alegar que o contestante estava ocupado e não sabia da posse. Isso é relevante se ele tem outra casa onde morar.
+   - **Final dos Três Anos:** A situação no final dos três anos é crucial. Se o contestante estava em um lugar onde poderia contestar no final, a posse é válida. Se ele estava em um lugar onde não podia contestar, a posse não é válida.
+
+3. **Prova de Ausência:**
+   - Se não for conhecido que o contestante estava fora do país, ele precisa provar sua ausência com testemunhas para que sua alegação seja aceita.
+
+4. **Fuga por Risco de Vida:**
+   - Se o contestante fugiu por risco de vida, não se pode tomar posse de seus bens, pois ele está impossibilitado de contestar por medo de ser descoberto.
+   - Se a fuga foi por questões financeiras, a posse pode ser considerada, pois o medo não é tão grande.
+
+5. **Prisioneiros e Pessoas Desaparecidas:**
+   - Não se pode tomar posse dos bens de prisioneiros, pessoas desaparecidas ou mentalmente incapazes, pois eles não têm a capacidade de contestar a posse.
+
+**Relevância Prática:**
+Essas leis são importantes para resolver disputas de propriedade de forma justa, garantindo que todos tenham a oportunidade de defender seus direitos. Em tempos modernos, essas regras podem ser aplicadas em contextos legais e comunitários para assegurar que a posse de propriedades seja tratada de maneira ética e justa, respeitando as circunstâncias de cada indivíduo envolvido.

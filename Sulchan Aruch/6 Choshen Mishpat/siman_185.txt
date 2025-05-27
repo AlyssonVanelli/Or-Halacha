@@ -1,0 +1,54 @@
+SIMAN 185
+
+**Intermediário que vendeu por menos ou mais do que o proprietário lhe instruiu e outras disputas entre ele e o proprietário. Contém 10 seções:**
+
+1. O intermediário é um agente, mas recebe pagamento por sua agência. Portanto, se ele alterar a intenção dos proprietários, ele deve pagar o que causou de prejuízo. Por exemplo, se Reuven deu um objeto a Shimon, o intermediário, e disse: "Venda isto para mim e não venda por menos de cem", e ele foi e vendeu por cinquenta, ele deve pagar os cinquenta de sua própria casa. Se ele vendeu por duzentos, tudo pertence a Reuven.
+
+2. Um agente não pode comprar para si mesmo, mesmo pelo preço que os proprietários o autorizaram a vender.
+
+3. Se um objeto foi dado a um intermediário para ser vendido por quatro, e o intermediário, ao receber o objeto, disse: "Aqui estão quatro por ele", e o vendedor concordou, ele não pode voltar atrás, mesmo que inicialmente não tenha sido dado a ele com essa intenção.
+
+4. Se o proprietário disse ao intermediário que o excedente da venda seria dele, mesmo que o intermediário tenha permanecido em silêncio, ele adquire o excedente.
+
+5. Se Reuven diz que instruiu a venda por cem e o intermediário diz que foi instruído a vender por cinquenta e assim vendeu, o intermediário deve fazer um juramento da Torá, pois ele admitiu parcialmente. Se ele já deu os cinquenta ou disse "aqui está", ele faz um juramento de heset que cumpriu sua agência, e o comprador adquire. Se o comprador souber que o objeto pertence a Reuven e que o vendedor é um intermediário, ele deve devolver o objeto ao proprietário e amaldiçoar quem deu permissão para vender por cinquenta ou que concordou com cinquenta e depois voltou atrás após a compra. Alguns dizem que o comprador não precisa devolver, mesmo que o intermediário concorde com o vendedor.
+
+6. Qualquer intermediário que informe ao comprador que este objeto ou terreno pertence a Reuven, e após a compra o vendedor diz que não quer vender por esse preço, o comprador deve devolver, pois não foi acordado um preço e ele foi instruído a vender por um valor específico. Alguns dizem que isso se aplica apenas se nada foi dito no momento do depósito, mas se foi dito "venda pelo que encontrar", o vendedor não pode voltar atrás, e o que o intermediário fez está feito.
+
+7. Se Reuven tinha uma casa para vender e Shimon intermediou a venda para Levi, e Reuven disse que não queria vender para Levi porque o odiava, mas depois vendeu para Levi através de outro, ele deve pagar a comissão a Shimon.
+
+8. Qualquer intermediário que perdeu o objeto de suas mãos ou foi roubado, mesmo durante o transporte, deve pagar, pois ele é um portador assalariado.
+
+9. Se Reuven deu um anel ao intermediário para vender e a pedra foi perdida, o intermediário deve jurar que não está em sua posse e jurar quanto valia a pedra e pagar seu valor.
+
+10. Se alguém deu seus utensílios ao intermediário para penhorar e ele disse que não sabe onde os penhorou, isso é negligência e ele deve pagar. Se ele disse que os penhorou com uma certa pessoa e assim fez, mas essa pessoa negou, o intermediário está isento.
+
+11. Um intermediário que deu um utensílio para avaliação e o avaliador não quis devolvê-lo, o intermediário é responsável. Certamente, o intermediário não deve vender um objeto a crédito, a menos que receba permissão do proprietário do objeto. O casamenteiro é como um intermediário, e se ele quiser que seu pagamento seja feito imediatamente e os proprietários não quiserem pagar até o casamento, isso depende do costume local. Onde não há costume, a lei está com os proprietários. Se não for necessário pagar até o casamento e eles desistirem, cancelando o casamento, os proprietários estão isentos de pagar, a menos que tenham estipulado explicitamente que pagariam, e então devem pagar imediatamente, mesmo que desistam.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática o que está sendo discutido neste trecho do Shulchan Aruch, que trata das regras para intermediários, ou agentes, em transações comerciais. Um intermediário é alguém que age em nome de outra pessoa para realizar uma venda ou compra. Aqui estão os principais pontos:
+
+1. **Responsabilidade do Intermediário**: Quando alguém age como intermediário, ele deve seguir as instruções do proprietário. Se o proprietário diz para vender um item por no mínimo cem, e o intermediário vende por cinquenta, ele é responsável por cobrir a diferença. Isso significa que ele deve pagar do próprio bolso o que o proprietário perdeu. Se ele vende por mais, todo o lucro vai para o proprietário.
+
+2. **Compra Pessoal pelo Intermediário**: Um intermediário não pode comprar para si mesmo o item que está vendendo, mesmo que pague o preço que o proprietário pediu. Isso evita conflitos de interesse.
+
+3. **Venda Direta ao Intermediário**: Se o intermediário decide comprar o item pelo preço que deveria vender e o proprietário concorda, a venda é válida e não pode ser desfeita.
+
+4. **Excedente de Venda**: Se o proprietário diz que qualquer valor acima do preço pedido é do intermediário, então o intermediário fica com esse excedente, mesmo que não tenha dito nada na hora.
+
+5. **Disputas sobre Instruções de Venda**: Se houver desacordo sobre o preço que o intermediário deveria vender, ele deve jurar que seguiu as instruções. Se ele já entregou o dinheiro ou está pronto para fazê-lo, ele faz um juramento mais simples. Se o comprador sabe que o item pertence a outra pessoa, ele deve devolver o item ao verdadeiro dono se houver problemas com o preço.
+
+6. **Instruções Claras de Venda**: Se o intermediário informa ao comprador que o item pertence a outra pessoa e o preço não foi acordado, o comprador deve devolver o item se o proprietário não concordar com o preço. Se o proprietário disse para vender pelo melhor preço possível, ele não pode reclamar depois.
+
+7. **Comissão do Intermediário**: Se o intermediário encontra um comprador, mas o proprietário não quer vender para essa pessoa por razões pessoais, e depois vende para a mesma pessoa por meio de outro intermediário, ele ainda deve pagar a comissão ao primeiro intermediário.
+
+8. **Perda ou Roubo do Item**: Se o item é perdido ou roubado enquanto está com o intermediário, ele deve pagar ao proprietário, pois é considerado um portador assalariado, responsável pela segurança do item.
+
+9. **Perda de Parte do Item**: Se uma parte do item, como uma pedra de um anel, é perdida, o intermediário deve jurar que não está com ele e pagar o valor da parte perdida.
+
+10. **Penhor de Itens**: Se o intermediário penhora um item e não sabe onde, ele é responsável por pagar. Se ele sabe onde está e a pessoa nega, ele não é responsável.
+
+11. **Avaliação e Venda a Crédito**: Se o intermediário dá um item para avaliação e não o recupera, ele é responsável. Ele não deve vender a crédito sem permissão. No caso de casamenteiros, que são como intermediários, o pagamento depende do costume local. Se não houver costume, o pagamento é feito no casamento. Se o casamento é cancelado, não há pagamento, a menos que tenha sido acordado de outra forma.
+
+Essas regras ajudam a garantir que as transações sejam justas e que os intermediários ajam de forma responsável e honesta. Elas são relevantes hoje em dia, pois muitas transações ainda envolvem intermediários, como corretores de imóveis ou agentes de vendas.

@@ -1,0 +1,42 @@
+SIMAN 294
+
+**Aquele que nega um depósito ou alega que foi roubado. Contém seis seções:**
+
+1. Se alguém reivindica um depósito e o depositário nega, ele imediatamente se torna um ladrão e é responsável por qualquer perda ou dano. Ele também é desqualificado para testemunhar e jurar. Isso se aplica quando há testemunhas de que, no momento da negação, o objeto estava sob sua posse. Mas se não houver testemunhas, talvez o objeto tenha se perdido e ele pensou: "Negarei e o afastarei até que o encontre e o devolva."
+
+2. Se ele não negou, mas alegou que foi roubado ou perdido, e disse que isso ocorreu em um lugar onde há testemunhas disponíveis, ele deve trazer prova com testemunhas para ser isento, até mesmo de um juramento. Se ele não trouxer testemunhas, deve pagar. Se for em um lugar onde não há testemunhas disponíveis, ele deve jurar que é como ele diz, e o juramento incluirá que ele não foi negligente em sua guarda, mas guardou como é costume dos guardiões, e que não usou o objeto antes. Pois se ele usou o objeto antes para seu benefício, ele é responsável mesmo que ocorra um acidente.
+
+3. Alguns dizem que mesmo se houver testemunhas de que foi roubado ou perdido, ele precisa jurar que não foi negligente, e o juramento incluirá que ele não usou o objeto. Mas se houver testemunhas de que ele não foi negligente, não precisa jurar que não usou o objeto.
+
+4. O que dissemos, que em um lugar onde há testemunhas disponíveis, se ele não trouxer testemunhas que confirmem suas palavras, ele deve pagar, aplica-se a algo que é visível, como alguém que transporta um barril no mercado. Mas em um caso onde algo pode acontecer sem ser notado, como alguém que segura um objeto na mão, mesmo que muitas pessoas estejam presentes, o acidente pode não ser percebido, e é considerado como um lugar onde não há testemunhas disponíveis.
+
+5. Se alguém depositou uma capa e o depositário alega que foi perdida por acidente, e ele traz testemunhas de que uma capa foi perdida, mesmo que não saibam se era a capa do depositante, ele está isento. Pois se a capa estivesse em sua posse e o depositante dissesse "não é esta", e o depositário dissesse "é esta", ele seria acreditado com um juramento. E se o depositante disser "talvez" e o depositário disser "com certeza", nem mesmo um juramento é necessário. Aqui, como o depositante não sabe se a capa perdida era a dele, o depositário é acreditado.
+
+6. Se o depositário estipulou que estaria isento de juramento, sua condição é válida.
+
+7. Se o depósito foi roubado por acidente e depois o ladrão foi identificado, tanto o guardião pago quanto o guardião gratuito podem processar o ladrão e não precisam jurar. Se ele já jurou e depois o ladrão foi identificado, se for um guardião gratuito, ele pode escolher manter seu juramento ou processar o ladrão. Se for um guardião pago, ele deve processar o ladrão.
+
+**Nota:** Se Reuven apresentou uma dívida garantida a Shimon e recebeu pagamento pela corretagem, e depois a dívida se complicou, necessitando de esforços com o oficial, e Shimon quer que Reuven faça esse esforço já que recebeu pagamento pela dívida, alguns dizem que a lei está com Shimon, semelhante ao caso do ladrão identificado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda as leis relacionadas a depósitos, ou seja, quando alguém confia um objeto a outra pessoa para que ela o guarde. Vamos explicar cada seção de forma prática:
+
+1. **Negação de Depósito**: Se alguém deixa um objeto com outra pessoa e essa pessoa nega ter o objeto, ela é considerada um ladrão. Isso significa que ela é responsável por qualquer dano ou perda do objeto e não pode servir como testemunha ou fazer juramentos em questões legais. Isso se aplica quando há testemunhas que confirmam que o objeto estava com ela no momento da negação. Se não houver testemunhas, pode ser que a pessoa tenha perdido o objeto e negou temporariamente, esperando encontrá-lo para devolvê-lo.
+
+2. **Alegação de Roubo ou Perda**: Se a pessoa não nega ter recebido o objeto, mas diz que ele foi roubado ou perdido, ela precisa provar isso com testemunhas, se possível. Se não conseguir, deve pagar pelo objeto. Se não houver testemunhas disponíveis, ela deve fazer um juramento afirmando que o objeto foi guardado adequadamente e que não o usou para benefício próprio. Se ela usou o objeto, é responsável por ele, mesmo que tenha ocorrido um acidente.
+
+3. **Necessidade de Juramento**: Mesmo que haja testemunhas de que o objeto foi roubado ou perdido, a pessoa ainda precisa jurar que não foi negligente e que não usou o objeto. Se houver testemunhas de que ela não foi negligente, não precisa jurar que não usou o objeto.
+
+4. **Disponibilidade de Testemunhas**: Quando se diz que a pessoa deve trazer testemunhas, isso se aplica a situações onde o evento poderia ser facilmente observado, como carregar um barril no mercado. Mas se o evento pode ter ocorrido sem ser notado, como segurar um objeto na mão, é considerado como se não houvesse testemunhas disponíveis.
+
+5. **Identificação de Objetos Perdidos**: Se alguém diz que uma capa foi perdida e traz testemunhas de que uma capa foi realmente perdida, ele está isento de pagar, mesmo que as testemunhas não saibam se era a capa específica do depositante. Se o depositante não tem certeza se a capa perdida era a dele, o guardião é acreditado.
+
+6. **Isenção de Juramento**: Se o guardião e o depositante concordaram previamente que o guardião estaria isento de fazer um juramento, essa condição é válida.
+
+7. **Roubo e Identificação do Ladrão**: Se o objeto foi roubado e o ladrão é identificado, tanto o guardião pago quanto o gratuito podem processar o ladrão sem precisar jurar. Se o guardião já jurou e o ladrão é identificado depois, o guardião gratuito pode escolher manter o juramento ou processar o ladrão. O guardião pago deve processar o ladrão.
+
+**Nota sobre Dívidas**: Se alguém recebeu pagamento para garantir uma dívida e a dívida se complicou, exigindo esforços adicionais, a pessoa que recebeu o pagamento pode ser obrigada a fazer esses esforços, semelhante ao caso do ladrão identificado.
+
+Essas leis são relevantes na vida judaica contemporânea, pois tratam de questões de confiança e responsabilidade, que são fundamentais em qualquer sociedade. Elas ajudam a garantir que as pessoas cuidem adequadamente dos bens dos outros e estabelecem regras claras para resolver disputas.

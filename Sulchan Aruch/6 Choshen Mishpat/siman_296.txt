@@ -1,0 +1,42 @@
+SIMAN 296
+
+**Aquele que deposita com testemunhas e o depositário alega que foi roubado ou que o depósito nunca ocorreu. Contém oito seções:**
+
+1. Aquele que deposita, empresta ou aluga a seu amigo com testemunhas, ou mesmo sem testemunhas, tem o mesmo julgamento, pois uma vez que este admitiu por si mesmo que o depósito foi feito em suas mãos, ou que lhe foi emprestado ou alugado, ele deve jurar o juramento dos guardiões. Não dizemos "migo" para isentá-lo do juramento, mas apenas para isentá-lo de pagar. (E há quem diga que dizemos "migo" para isentá-lo do juramento, mas este não é um bom "migo", portanto, não o dizemos) (Tur em nome do Rosh e Ran, início do capítulo "Aquele que jura" e o Maguid, capítulo 2 de Aluguel).
+
+2. Mas se ele alegar: "Você não depositou nada em minhas mãos, nem me emprestou, nem alugou", ou se ele disser: "É verdade que você depositou em minhas mãos, ou alugou, ou emprestou, mas eu devolvi a você", ele jura um juramento "heset" e é isento, mesmo que o depósito, empréstimo ou aluguel tenha sido feito com um documento. Ele é acreditado com um juramento, segurando um objeto sagrado, para dizer "eu devolvi a você", com base no "migo" de que ele poderia ter dito que foi roubado se fosse um guardião gratuito, ou que foi forçado se fosse um guardião pago, ou que morreu devido ao trabalho se fosse um mutuário. Assim como se ele alegasse isso, ele teria que jurar pela Torá segurando um objeto sagrado, da mesma forma, quando ele alega que devolveu, ele deve jurar de acordo com a Torá.
+
+3. Quando dizemos isso? Quando o guardião poderia alegar que foi forçado e não precisava trazer prova de sua alegação. Mas se ele tivesse que trazer prova de sua alegação, como em um lugar onde há testemunhas disponíveis, ele não é acreditado para dizer "eu devolvi", a menos que o dono do documento jure segurando um objeto sagrado que ele não devolveu e pague. E isso é quando ele diz a ele: "Jure para mim que você não devolveu". Mas inicialmente, dizemos a ele: "Vá e pague".
+
+4. Se ele veio devolver o depósito e o depositante disse: "Este não é o meu depósito, mas outro", ou "Era inteiro e você o quebrou", ou "Era novo e você o usou", ou "Eu depositei cem medidas com você e estas são apenas cinquenta", e o guardião diz: "Este é o que você mesmo depositou, e o que você deu, você pega", o guardião jura um juramento "heset" como todos os que juram, pois nenhum guardião jura o juramento dos guardiões mencionado na Torá, exceto quando ele admite o próprio depósito como o depositante disse, mas alega que foi roubado ou perdido ou capturado. Mas se ele disser: "Este é o que você me emprestou ou alugou, ou eu recebi pagamento por guardá-lo", e os donos dizem: "Não é este, mas outro, ou mudou de como era", o guardião jura um juramento "heset" ou o juramento da Torá se ele admitir parcialmente. Como, por exemplo, "Eu depositei cem medidas com você", e o guardião diz: "Você não depositou mais do que cinquenta", ele jura o juramento da Torá porque admitiu parcialmente, não por causa do juramento dos guardiões. "Eu depositei cem coros de trigo com você", e ele diz: "Você não depositou mais do que cem de cevada", ele jura um juramento "heset" como todos os que juram em tal alegação.
+
+5. Um guardião gratuito pode estipular para ser isento de juramento, e um mutuário para ser isento de pagamento. Da mesma forma, o dono do depósito pode estipular com um guardião gratuito ou pago e um locatário para serem responsáveis por tudo como um mutuário, pois qualquer condição em questões monetárias ou juramentos monetários é válida e não requer aquisição ou testemunhas.
+
+6. Se ele alegar que havia uma condição, e o guardião disser que não havia condição, o guardião jura o juramento dos guardiões e inclui nele que não havia condição.
+
+7. Se ele alegar que depositou com ele, e este disser: "Eu não disse, exceto 'coloque diante de você', e eu não me tornei seu guardião", ele jura um juramento "heset" que não o aceitou senão dessa maneira, e inclui em seu juramento que não o usou, nem o perdeu intencionalmente, nem causou sua perda de forma que ele seria obrigado a pagar.
+
+8. Se o guardião admitir que foi negligente e alegar que havia uma condição entre eles de que ele não precisaria guardá-lo como guardiões fazem, e o depositante disser que não havia tal condição, mesmo que ele tenha depositado com testemunhas que testemunham que este é um depósito com ele, mas não sabemos se havia uma condição ou não, o guardião é acreditado porque ele poderia ter dito: "Eu guardei como guardiões fazem e foi forçado", ele é acreditado para dizer que havia uma condição entre eles. Portanto, ele deve jurar que não o usou, que não está em sua posse, e que havia uma condição. E se o depositante trouxer testemunhas de que ele foi negligente, o guardião é obrigado e não é acreditado em sua alegação de que havia uma condição entre eles, pois não há "migo" aqui. (Nota: E isso é apenas quando as testemunhas sabem que ele era um guardião sobre ele, mas sem isso, mesmo que ele tenha sido negligente, ele é acreditado com um "migo" de que ele poderia ter dito: "Eu não era um guardião sobre ele", pois eu não disse senão "a casa está diante de você" (Maguid, capítulo 6 de Empréstimo)).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 296 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de situações em que uma pessoa (o depositante) confia um item a outra (o guardião) para guardar, emprestar ou alugar. Vamos explicar os conceitos e as regras de forma prática:
+
+1. **Depósito com Testemunhas**: Quando alguém deixa um item com outra pessoa e há testemunhas, ou mesmo sem testemunhas, se o guardião admite que recebeu o item, ele deve fazer um juramento específico chamado "juramento dos guardiões". Isso significa que ele precisa jurar que o item foi roubado ou que ele não o tem mais, mas não precisa pagar pelo item, a menos que o juramento seja feito.
+
+2. **Negação do Depósito**: Se o guardião nega que o item foi depositado ou diz que já devolveu o item, ele faz um juramento mais simples chamado "juramento heset". Este juramento é feito segurando um objeto sagrado e é suficiente para isentá-lo de responsabilidade, mesmo que o depósito tenha sido documentado.
+
+3. **Provas e Testemunhas**: Se há testemunhas que podem provar que o guardião deveria ter cuidado do item, ele não pode simplesmente alegar que devolveu o item sem que o depositante também jure que não recebeu o item de volta.
+
+4. **Disputas sobre o Estado do Item**: Se o depositante alega que o item devolvido não é o mesmo ou está em condições diferentes, o guardião deve fazer um juramento "heset" para confirmar sua versão dos fatos. Se ele admite parcialmente a alegação do depositante, ele faz um juramento mais sério, conforme a Torá.
+
+5. **Acordos Especiais**: As partes podem fazer acordos especiais sobre a responsabilidade do guardião. Por exemplo, um guardião gratuito pode ser isento de juramento, ou um mutuário pode ser isento de pagamento, desde que esses acordos sejam feitos claramente.
+
+6. **Condições Alegadas**: Se houver uma disputa sobre se havia uma condição especial no acordo, o guardião deve jurar que não havia tal condição, a menos que ele possa provar que havia.
+
+7. **Recusa em Ser Guardião**: Se o guardião alega que nunca aceitou formalmente ser responsável pelo item, ele faz um juramento "heset" para confirmar isso.
+
+8. **Negligência e Condições**: Se o guardião admite negligência, mas alega que havia uma condição que o isentava de responsabilidade, ele é acreditado se não houver provas em contrário. No entanto, se houver testemunhas de sua negligência, ele não pode usar essa alegação para se isentar.
+
+Essas regras são importantes na vida judaica contemporânea porque estabelecem um sistema de confiança e responsabilidade em transações e acordos, garantindo que as partes envolvidas ajam de forma justa e honesta.

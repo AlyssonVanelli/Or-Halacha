@@ -1,0 +1,30 @@
+SIMAN 389
+
+**Um não-judeu que tem uma janela aberta para o beco. E contém um parágrafo:**
+
+Um não-judeu que reside em um beco e tem uma janela na parte de trás de sua casa aberta para um campo ou um pátio, mesmo que tenha apenas quatro cúbitos por quatro cúbitos, não impõe restrições aos moradores do beco, mesmo que ele traga e leve camelos e carroças pelo beco o dia todo. Isso ocorre porque ele prefere a abertura que tem na parte de trás, que lhe proporciona ar, e sua entrada para o beco é considerada como se não fosse habitual, portanto, não impõe restrições. Isso é válido quando o campo ou pátio tem mais de dois seáh, mas se tiver apenas dois seáh, é pequeno e ele não se sente confortável com isso.
+
+Um judeu que tem uma entrada para o beco e uma entrada na parte de trás para um pátio, e esqueceu de participar do eruv, se o pátio tiver mais de dois seáh, ele impõe restrições, pois não é adequado para ele e ele não se retira do beco. E se o pátio foi cercado para habitação, mesmo que tenha mais de dois seáh, não impõe restrições, pois é adequado para ele.
+
+Há quem diga, ao contrário, que se o pátio foi cercado para habitação, mesmo que tenha dois seáh, impõe restrições, pois, uma vez que foi cercado para habitação, não tem ar e ele não deseja se retirar do beco por causa disso.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Beco e Pátio**: Na época talmúdica, as casas frequentemente se abriam para becos ou pátios compartilhados. Esses espaços eram usados para atividades diárias e, portanto, as regras sobre como eles eram usados eram importantes para a vida comunitária.
+
+2. **Eruv**: Um eruv é uma solução haláchica que permite que os judeus carreguem objetos em espaços públicos durante o Shabat, algo que normalmente não é permitido. Para que um eruv seja válido, todos os moradores de uma área devem participar dele.
+
+3. **Cúbito e Seáh**: Um cúbito é uma medida de comprimento, aproximadamente 45 cm, e um seáh é uma medida de área. Essas medidas são usadas para determinar o tamanho de espaços como pátios.
+
+Agora, vamos explicar o texto:
+
+- **Não-Judeu com Janela para o Beco**: Se um não-judeu vive em uma casa que tem uma janela aberta para um beco, ele não impõe restrições aos judeus que vivem no mesmo beco em relação ao eruv. Isso significa que, mesmo que ele use o beco para passar com camelos ou carroças, ele não afeta a validade do eruv. Isso ocorre porque ele prefere usar a janela na parte de trás de sua casa, que se abre para um campo ou pátio, para obter ar fresco. Portanto, sua entrada para o beco é considerada secundária.
+
+- **Judeu com Entrada para o Beco e Pátio**: Se um judeu tem uma entrada para o beco e outra para um pátio, e ele esquece de participar do eruv, a situação muda. Se o pátio for grande (mais de dois seáh), ele impõe restrições aos outros moradores do beco, porque o pátio não é adequado para ele, e ele ainda depende do beco. No entanto, se o pátio foi cercado para habitação, mesmo que seja grande, ele não impõe restrições, pois o pátio é considerado adequado para ele.
+
+- **Opinião Alternativa**: Há uma opinião que diz o contrário: se o pátio foi cercado para habitação, mesmo que seja pequeno (dois seáh), ele impõe restrições. Isso ocorre porque, uma vez que o pátio foi cercado para habitação, ele não tem a mesma ventilação, e o morador não deseja se retirar do beco.
+
+Em termos práticos, essas regras ajudam a determinar como os espaços compartilhados são usados e como as regras do eruv são aplicadas, garantindo que todos os moradores de uma área possam observar o Shabat adequadamente. Na vida contemporânea, essas leis ainda são relevantes em comunidades que estabelecem eruvim para facilitar a observância do Shabat.

@@ -1,0 +1,56 @@
+SIMAN 70
+
+**Lei sobre empréstimo verbal e se ele disse "não me pague exceto na presença de testemunhas". Contém seis seções:**
+
+É proibido emprestar sem testemunhas, mesmo para um estudioso da Torá, a menos que o empréstimo seja garantido por um penhor. O empréstimo registrado em um documento é mais louvável. Quem empresta sem testemunhas transgride a proibição de "não coloque um obstáculo diante do cego" e causa uma maldição sobre si mesmo. Se alguém empresta a seu amigo na presença de testemunhas, sem um contrato formal, não é necessário pagar na presença de testemunhas, mas é confiável com um juramento de heset para dizer "eu paguei você".
+
+**Nota:** Se houve uma aquisição, mesmo sem um documento, ele não pode alegar que pagou, pois é considerado como um documento, já que toda aquisição está destinada a ser escrita (Beit Yosef em nome de Terumot, Shaar 25, e Mordechai, capítulo 1 de Ketubot). Há quem discorde (Mordechai, lá) e veja Siman 39, Seção 5. Em qualquer caso em que é confiável dizer "eu paguei", é também confiável dizer "você me perdoou", embora o perdão seja uma alegação fraca (Mordechai, capítulo dos parceiros, e assim está escrito em Siman 82).
+
+Se ele disse "eu paguei você na presença de fulano e fulano", e eles dizem ao devedor "traga-os e você será liberado", mas eles não vieram, ou mesmo se vieram e o contradisseram dizendo "isso nunca aconteceu", ele deve jurar heset e será liberado. Se ele diz que os chamou como testemunhas quando pagou, mas eles o contradizem, ele é obrigado a pagar.
+
+**Nota:** Alguns dizem que não há diferença entre chamá-los ou não, e sempre que as testemunhas vêm e o contradizem, ele é obrigado a pagar, mas não precisa provar suas palavras (Rosh, capítulo do Get Pashut, e Magid, capítulo 6 das leis de reivindicações, de acordo com o Rambam). Se ele não puder trazer as testemunhas, não há problema, e veja no início de Siman 75.
+
+Se ele disse "não me pague exceto na presença de testemunhas", seja no momento do empréstimo ou depois, ele deve pagar na presença de testemunhas. Se ele alegar que pagou sem testemunhas, ele não é confiável, e o credor pode cobrar dele sem juramento. Se ele alegar "eu fiz isso e paguei você na presença de fulano e fulano, mas eles foram para o exterior ou morreram", ele é confiável e jura heset e é liberado. Da mesma forma, se ele disse "não me pague exceto na presença de um estudioso da Torá ou médicos", e ele pagou na presença deles, mas eles morreram ou foram para o exterior, ele é confiável e jura heset e é liberado.
+
+Se ele disse "não me pague exceto na presença de fulano e fulano", e ele pagou na presença de outros, se esses outros vierem e testemunharem que ele pagou na presença deles, ele é liberado.
+
+**Nota:** No entanto, o credor pode dizer que ele os aceitou por outra dívida, mesmo que ele tenha pago na presença de testemunhas, já que não pagou na presença de fulano e fulano como foi dito (Mordechai, capítulo dos juízes). Se eles morreram ou foram para o exterior, ele não é confiável. Se ele disse "eu paguei você na presença de fulano e fulano que você especificou", e eles morreram ou foram para o exterior, ele é confiável com um juramento, pois ele disse que cumpriu sua condição. Se ele admite que não pagou, mas diz "não pagarei até que fulano e fulano que você especificou venham, e eu pagarei na presença deles", não ouvimos ele, mas ele paga no tribunal, e eles escrevem para ele que ele pagou na presença deles.
+
+Se ele disse "não me pague exceto na presença de fulano e fulano", e ele pagou em particular e o dinheiro foi perdido, e o credor diz que ele os recebeu como um depósito até que fulano e fulano venham, e exige que ele pague novamente, suas palavras não têm valor, pois ele admite que os recebeu, e o outro não os entregou como um depósito, é considerado pagamento, e suas palavras não têm valor.
+
+Se o documento de alguém foi apagado e o tribunal escreveu outro documento para ele, é considerado como um empréstimo com documento, e ele não pode alegar que pagou. Há quem diga que o mesmo se aplica se ele processou seu amigo verbalmente e foi condenado, e não pôde pagar, e o tribunal escreveu um registro do julgamento, se ele alegar posteriormente que pagou, ele não é confiável e pode cobrar dos compradores. Se alguém vendeu seu campo sob coação e entregou uma declaração de aviso antes, de modo que a venda é nula, o dinheiro do comprador em posse do vendedor tem o status de um empréstimo verbal, e ele não pode cobrar dos bens hipotecados com o poder do documento em sua posse, pois não tem o status de um documento, pois não foi dado para ser escrito, e ele também é confiável para dizer "eu paguei" (Resposta do Rashba). O mesmo se aplica a qualquer documento que não foi dado para ser escrito (veja Siman 61, Seção 2).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 70 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este texto trata das regras sobre empréstimos, especialmente quando não há um documento formal envolvido. No judaísmo, as leis financeiras são muito importantes, pois garantem justiça e confiança entre as pessoas. O foco aqui é como lidar com empréstimos verbais e a importância de testemunhas.
+
+### Conceitos e Termos
+
+1. **Empréstimo Verbal**: Um acordo de empréstimo feito apenas com palavras, sem um documento escrito.
+2. **Testemunhas**: Pessoas que presenciam o acordo ou pagamento, garantindo que ele realmente aconteceu.
+3. **Juramento de Heset**: Um tipo de juramento que uma pessoa faz para confirmar sua palavra em questões financeiras.
+4. **Penhor**: Um objeto ou garantia dada ao credor para assegurar o pagamento do empréstimo.
+5. **Documento**: Um registro escrito do empréstimo, que é mais seguro e louvável do que um acordo verbal.
+
+### Regras Práticas
+
+1. **Importância das Testemunhas**: É proibido emprestar dinheiro sem testemunhas, pois isso pode levar a disputas. Mesmo um estudioso da Torá deve ter testemunhas, a menos que haja um penhor. Um documento escrito é ainda melhor, pois evita mal-entendidos e disputas.
+
+2. **Pagamento na Presença de Testemunhas**: Se o empréstimo foi feito com testemunhas, o pagamento não precisa ser feito na presença delas, mas o devedor deve estar disposto a jurar que pagou.
+
+3. **Condições Especiais**: Se o credor especificou que o pagamento deve ser feito na presença de certas pessoas, o devedor deve seguir essa condição. Se ele alegar que pagou na presença de outras pessoas, ele precisa provar isso.
+
+4. **Perda de Testemunhas**: Se as testemunhas especificadas morreram ou foram para o exterior, o devedor pode jurar que pagou e ser liberado da dívida.
+
+5. **Documentos e Registros**: Se um documento de empréstimo foi perdido ou apagado, o tribunal pode emitir um novo. Isso mantém a força do documento original, e o devedor não pode alegar que pagou sem provas.
+
+6. **Venda Forçada**: Se alguém vendeu um campo sob coação e a venda foi anulada, o dinheiro recebido é considerado um empréstimo verbal. O vendedor pode alegar que pagou, mas não pode usar o documento para cobrar de bens hipotecados.
+
+### Relevância Prática
+
+Na vida judaica contemporânea, essas leis enfatizam a importância de clareza e honestidade em transações financeiras. Elas incentivam o uso de documentos e testemunhas para evitar disputas e garantir que todos os envolvidos sejam tratados de forma justa. Mesmo em tempos modernos, onde contratos digitais são comuns, o princípio de ter um registro claro e testemunhas ainda é relevante para manter a confiança e a justiça nas relações financeiras.

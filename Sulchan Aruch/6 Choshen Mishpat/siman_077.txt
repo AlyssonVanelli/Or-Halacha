@@ -1,0 +1,67 @@
+SIMAN 77
+
+**Lei sobre dois que tomaram empréstimo de um e a lei sobre sócios quando um toma empréstimo sozinho. Contém 11 seções:**
+
+1. Quando dois tomam um empréstimo juntos ou compram uma mercadoria juntos, ou recebem um depósito juntos, seja por documento ou verbalmente, ambos são garantidores um do outro, mesmo que não tenham especificado isso. Se um deles não tiver bens, o credor pode cobrar tudo do outro. No entanto, se um deles tiver bens, o credor não deve inicialmente cobrar do garantidor, pois ele tem o status de garantidor em todos os aspectos. O credor deve cobrar de cada um a metade que lhe cabe, a menos que tenham especificado claramente que são garantidores solidários, caso em que o credor pode cobrar de qualquer um que desejar. Se um deles pagar toda a dívida, ele pode cobrar do outro a sua parte.
+
+2. Se um sócio toma um empréstimo para a sociedade, o outro sócio é responsável, mesmo que não estivesse presente no momento do empréstimo, desde que admita que o empréstimo foi para a sociedade ou que isso seja comprovado por testemunhas. Nesse caso, é como se ambos tivessem tomado o empréstimo juntos.
+
+3. Quando dois são garantidores de um, o credor pode cobrar de qualquer um deles. Se um não tiver bens suficientes, o credor pode cobrar o restante do outro. No entanto, há quem discorde disso.
+
+4. Se um garantidor paga ao credor, ele deve informar qual das dívidas está pagando, para que possa cobrar do devedor correspondente.
+
+5. Se Reuven precisou tomar um empréstimo de Shimon, mas Shimon só concordou em emprestar se Yehuda e Levi fossem garantidores, e Reuven ficou sem bens, Shimon cobrou toda a dívida de Levi. Levi, então, cobrou metade de Yehuda, que alegou que só era garantidor de Reuven e não de Levi. Essa alegação não tem fundamento, e Yehuda deve pagar metade.
+
+6. Se Reuven cobra de dois que tomaram um empréstimo juntos, e um nega enquanto o outro admite, o testemunho do que admite não obriga o outro. Se houver três devedores e dois admitem, o terceiro não é obrigado a pagar com base no testemunho dos outros dois. No entanto, se houver um documento contra os três, e todos alegarem que pagaram na presença um do outro, cada um pode testemunhar sobre o outro, e não há suspeita de conluio.
+
+7. Se dois tomaram um empréstimo com um único documento e o credor perdoa a dívida de um deles, ele só perdoa a parte desse, e pode cobrar do outro a metade restante. No entanto, há quem diga que toda a dívida é perdoada, e o credor não pode cobrar do outro. Na prática, se os dois eram garantidores solidários, e o credor perdoa um deles, toda a dívida é perdoada. Mas se não eram garantidores solidários, o perdão só se aplica à metade, e o credor pode cobrar a outra metade do outro.
+
+8. Se alguém toma um empréstimo de dois e um deles perdoa toda a dívida, a parte do outro não é perdoada, mesmo que ambos estejam no mesmo documento. Se o devedor se acerta com um deles, o outro não pode exigir o mesmo acerto, pois o devedor pode alegar que só perdoou um deles.
+
+9. Se dois são garantidores de um, e o credor libera um deles da garantia, há quem diga que o credor pode cobrar toda a dívida do outro garantidor.
+
+10. Se dois emprestam ou depositam algo com um, e um deles vem cobrar sua parte, não se deve atender ao pedido até que o outro também venha. No entanto, se o outro está na cidade e não vem, deve-se pagar ao que cobra. Se o devedor alega que só quer pagar a parte de um e deixar a parte do outro com o tribunal, ele tem esse direito.
+
+11. Se alguém toma um empréstimo de dois, mas o documento está em nome de apenas um deles, o devedor pode alegar que não deve nada ao que não está no documento. No entanto, o que está no documento pode cobrar tudo sem autorização do outro. Se ambos estão no documento, cada um pode cobrar tudo. 
+
+Essas leis refletem a complexidade das relações financeiras e de garantias no direito judaico, destacando a importância de acordos claros e a responsabilidade compartilhada em transações conjuntas.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática as leis apresentadas no Siman 77 do Shulchan Aruch Choshen Mishpat, que tratam de situações financeiras envolvendo empréstimos e garantias entre pessoas.
+
+### 1. Empréstimos e Garantias Conjuntas
+Quando duas pessoas tomam um empréstimo ou compram algo juntas, elas são automaticamente responsáveis uma pela outra, mesmo sem dizer isso explicitamente. Isso significa que se uma delas não puder pagar, o credor pode cobrar tudo da outra. No entanto, se ambas tiverem bens, o credor deve tentar cobrar de cada uma a sua parte, a menos que tenham acordado que qualquer uma pode ser cobrada pelo total.
+
+### 2. Empréstimos para Sociedades
+Se um sócio toma um empréstimo em nome da sociedade, o outro sócio também é responsável, mesmo que não estivesse presente na hora do empréstimo. Isso é válido se o sócio ausente reconhecer que o empréstimo foi para a sociedade ou se houver testemunhas que confirmem isso.
+
+### 3. Garantidores de Um Empréstimo
+Quando duas pessoas garantem um empréstimo para outra, o credor pode cobrar de qualquer um dos garantidores. Se um deles não puder pagar, o credor pode cobrar o restante do outro. Há opiniões divergentes sobre essa prática.
+
+### 4. Pagamento por Garantidores
+Se um garantidor paga a dívida, ele deve especificar qual dívida está pagando, para que possa cobrar do devedor correto.
+
+### 5. Garantidores Múltiplos
+Se um credor exige garantias de várias pessoas e cobra de uma delas, essa pessoa pode cobrar dos outros garantidores a parte que lhes cabe, mesmo que eles aleguem que só garantiram a dívida do devedor principal.
+
+### 6. Admissão e Negação de Dívidas
+Se dois devedores são cobrados e um admite a dívida enquanto o outro nega, a admissão de um não obriga o outro a pagar. Se houver um documento contra eles, e todos alegarem que pagaram na presença um do outro, eles podem testemunhar um pelo outro.
+
+### 7. Perdão de Dívida
+Se um credor perdoa a dívida de um de dois devedores, ele só perdoa a parte desse devedor, a menos que eles sejam garantidores solidários, caso em que toda a dívida é perdoada.
+
+### 8. Perdão por Parte de Credores
+Se um devedor deve a dois credores e um deles perdoa a dívida, a parte do outro credor não é perdoada. O devedor pode negociar separadamente com cada credor.
+
+### 9. Liberação de Garantidores
+Se um credor libera um dos garantidores, há opiniões que dizem que ele pode cobrar toda a dívida do outro garantidor.
+
+### 10. Cobrança de Empréstimos ou Depósitos
+Se dois emprestam ou depositam algo com alguém, e um deles quer sua parte de volta, o devedor deve esperar até que ambos venham cobrar, a menos que um deles esteja na cidade e não venha, caso em que deve pagar ao que cobra.
+
+### 11. Documentação de Empréstimos
+Se um empréstimo é feito de dois credores, mas o documento está em nome de apenas um, o devedor pode alegar que não deve nada ao que não está no documento. No entanto, o credor nomeado pode cobrar tudo sem autorização do outro. Se ambos estão no documento, cada um pode cobrar tudo.
+
+Essas leis mostram a importância de acordos claros e a responsabilidade compartilhada em transações financeiras, refletindo a complexidade das relações financeiras no direito judaico.

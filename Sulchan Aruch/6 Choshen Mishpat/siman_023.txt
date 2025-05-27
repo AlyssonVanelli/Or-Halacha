@@ -1,0 +1,32 @@
+SIMAN 23
+
+**Até quando o juiz é confiável para dizer "a este eu dei ganho de causa". Contém um parágrafo:**
+
+Enquanto as partes estão diante do juiz, ele é confiável para dizer "a este eu obriguei" e "a este eu dei ganho de causa". Se as partes se retiraram de sua presença, ele não é mais confiável, a menos que tenha em mãos um veredicto por escrito. Isso é especificamente em casos de "Shuda deDayanei" (decisão discricionária dos juízes), mas em um julgamento que depende das alegações, não se aplica a confiança, pois de acordo com as alegações, o vencedor será determinado, desde que não contradiga as alegações iniciais.
+
+E tudo isso é especificamente com um único juiz, mas se forem dois, eles são sempre confiáveis, mesmo que haja duas testemunhas que os contradigam.
+
+*Nota: O mesmo se aplica se as partes aceitaram uma arbitragem por um tempo; tudo o que ele disser dentro desse tempo é confiável. Mas se ele já escreveu e entregou a arbitragem, ele não tem permissão para adicionar ou subtrair (mesmo dentro do tempo), mesmo que diga que essa era sua intenção (Beit Yosef em nome de Rashba).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante saber que ele trata de como e quando um juiz é considerado confiável para afirmar quem ganhou ou perdeu um caso em um tribunal judaico.
+
+1. **Conceitos Técnicos:**
+   - **Juiz:** No contexto judaico, um juiz é alguém que decide casos de acordo com a lei judaica (Halachá).
+   - **Shuda deDayanei:** Refere-se a uma situação em que os juízes têm a liberdade de tomar uma decisão baseada em seu julgamento pessoal, quando a lei não é clara.
+   - **Veredicto por escrito:** Um documento formal que registra a decisão do juiz.
+
+2. **Relevância Prática:**
+   - Na vida judaica contemporânea, essas regras são relevantes em situações de disputas legais que são levadas a um tribunal rabínico (Beit Din). Saber quando um juiz é confiável para afirmar sua decisão ajuda a garantir que o processo seja justo e transparente.
+
+3. **Esclarecimentos:**
+   - **Enquanto as partes estão diante do juiz:** Isso significa que enquanto as pessoas envolvidas no caso ainda estão na presença do juiz, ele pode dizer quem ganhou ou perdeu, e sua palavra é aceita.
+   - **Se as partes se retiraram:** Uma vez que as pessoas saem da presença do juiz, ele não pode mais afirmar quem ganhou, a menos que tenha um documento escrito que prove sua decisão.
+   - **Decisão discricionária vs. julgamento baseado em alegações:** Se a decisão do juiz é baseada em seu julgamento pessoal (Shuda deDayanei), ele tem mais liberdade. Mas se a decisão depende das alegações apresentadas pelas partes, ele deve seguir essas alegações.
+
+4. **Fidelidade ao Significado Original:**
+   - O texto original destaca a importância de um juiz ser confiável e transparente em suas decisões. Ele também diferencia entre decisões baseadas em julgamento pessoal e aquelas baseadas em evidências e alegações apresentadas.
+
+Em resumo, este trecho do Shulchan Aruch estabelece diretrizes sobre quando um juiz pode ser considerado confiável para afirmar sua decisão em um caso, enfatizando a importância de documentação e clareza no processo judicial.

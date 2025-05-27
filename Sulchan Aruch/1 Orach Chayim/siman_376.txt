@@ -1,0 +1,26 @@
+SIMAN 376
+
+**Poço e cisterna entre dois pátios. E contém quatro seções:**
+
+1. Um poço entre dois pátios, e não há entre eles uma porta ou janela que permita fazer um eruv, ou se há e não fizeram o eruv, não se pode retirar água dele no Shabat, a menos que façam uma divisória de dez tefachim (unidade de medida) acima da água. É necessário que um tefach da divisória desça dentro da água. Se a divisória estiver completamente dentro da água, é necessário que um tefach sobressaia acima da água para que a distinção entre os domínios seja evidente. Da mesma forma, se fizerem uma viga larga de quatro tefachim sobre a boca do poço, um pode retirar água de um lado da viga e o outro do lado oposto. Nota: Isso é apenas se for retirar água com utensílios da casa, mas com utensílios do pátio, não é necessário nenhum ajuste, pois os pátios são considerados um único domínio, como mencionado anteriormente no Siman 372 (Hagahot Maimoniot, capítulo 15).
+
+2. Uma cisterna no meio do caminho entre duas paredes de pátios, mesmo que esteja afastada quatro tefachim de uma parede e quatro tefachim da outra, ambos podem retirar água dela e não precisam de saliências sobre ela, pois uma pessoa não proíbe o uso do espaço aéreo ao seu vizinho. Nota: Isso é apenas quando não há pátios abertos para o caminho, apenas janelas (Tur e Magid, capítulo 3 das leis de eruvin). E há quem diga que se não estiverem afastados quatro tefachim, proíbem, mesmo neste caso (Beit Yosef em nome de Rashi).
+
+3. Dois pátios e entre eles três terrenos baldios, cada um pode usar o que está próximo a ele através das janelas, por meio de arremesso, e o do meio é permitido para ambos. Se os três estiverem próximos às casas, de modo que o do meio esteja alinhado com os outros dois como três cabeças de um cântaro, cada um pode usar o terreno baldio próximo a ele, e o terceiro, que está próximo aos dois pátios, é proibido para ambos.
+
+4. Um banheiro entre duas casas, e não fizeram eruv juntos, o domínio de ambos prevalece sobre ele, e é proibido. (Veja acima no Siman 355).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 376 do Shulchan Aruch Orach Chayim, é importante saber que ele trata de regras sobre como usar espaços compartilhados entre vizinhos durante o Shabat, um dia sagrado de descanso no judaísmo. Vamos explicar cada seção de forma prática:
+
+1. **Poço entre dois pátios**: Imagine que você e seu vizinho têm um poço entre suas casas, mas não há uma conexão direta, como uma porta ou janela, que permita que vocês compartilhem o espaço de forma oficial (chamado de "eruv"). No Shabat, não é permitido retirar água do poço a menos que vocês criem uma barreira visível de uma certa altura (dez tefachim, uma unidade de medida antiga) acima da água. Parte dessa barreira deve estar dentro da água para mostrar claramente que o espaço está dividido. Alternativamente, se houver uma viga larga sobre o poço, cada um pode pegar água de seu lado da viga. Isso só se aplica se vocês estiverem usando utensílios de dentro de casa; se forem utensílios do pátio, não é necessário fazer essa divisão, pois os pátios são considerados um único espaço.
+
+2. **Cisterna entre duas paredes de pátios**: Se há uma cisterna no caminho entre duas paredes de pátios, e ela está a uma certa distância de cada parede, ambos os vizinhos podem usar a água sem precisar de barreiras adicionais. Isso é porque o espaço aéreo não é considerado propriedade exclusiva de ninguém. No entanto, se a cisterna estiver muito próxima das paredes, pode haver restrições.
+
+3. **Terrenos baldios entre pátios**: Se há três terrenos baldios entre dois pátios, cada vizinho pode usar o terreno mais próximo de sua casa, mas o terreno do meio pode ser usado por ambos. Se os terrenos estão dispostos de forma que o do meio está alinhado com os outros dois, como três cabeças de um cântaro, cada um pode usar o terreno mais próximo, mas o do meio, que está próximo a ambos, é proibido para ambos.
+
+4. **Banheiro entre duas casas**: Se há um banheiro entre duas casas e os moradores não fizeram um eruv juntos, o banheiro é considerado parte de ambos os domínios, tornando seu uso proibido no Shabat.
+
+Essas regras são importantes para manter a harmonia e o respeito entre vizinhos, especialmente em comunidades onde o Shabat é observado rigorosamente. Elas ajudam a definir limites claros sobre o que é permitido em espaços compartilhados, garantindo que o descanso do Shabat seja respeitado.

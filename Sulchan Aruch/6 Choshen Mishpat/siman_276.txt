@@ -1,0 +1,34 @@
+SIMAN 276
+
+**Ordem das Heranças: Como é. E contém sete seções:**
+
+1. A ordem das heranças é assim: Quem falece, seu filho o herda. Se não há filho, verifica-se se o filho tem descendência, seja masculina ou feminina, até o fim de todas as gerações, e essa descendência ocupa o lugar dele e herda tudo. Se não há descendência do filho, se ele tem uma filha, ela o herda. Se não há filha, verifica-se se ela tem descendência, seja masculina ou feminina, até o fim de todas as gerações, e essa descendência herda tudo. Se não há descendência dela, a herança retorna ao pai do falecido. Se o pai não está vivo, retorna à sua descendência, que são os irmãos do falecido. Se ele tem um irmão, este herda tudo. Se não há irmão, verifica-se se ele deixou descendência até o fim de todas as gerações, que ocupará seu lugar para herdar. Se não há irmão nem descendência dele, a herança retorna à irmã do falecido ou à sua descendência até o fim de todas as gerações. Se não há irmã nem descendência dela, a herança retorna ao avô do falecido. Se ele não está vivo, retorna à sua descendência, que são os irmãos do avô do falecido, ou à sua descendência até o fim de todas as gerações. Se não há irmãos do avô do falecido nem descendência deles, retorna à irmã do avô do falecido ou à sua descendência até o fim de todas as gerações. E assim a herança continua subindo até Reuven.
+
+2. Quem falece e deixa uma filha e uma neta (filha do filho), mesmo que seja a filha da filha da neta até o fim de várias gerações, a neta precede e herda tudo, e a filha não recebe nada. O mesmo se aplica à filha do irmão com a irmã, e à filha do filho do irmão do pai com a irmã do pai, e assim por diante.
+
+3. Quem tinha dois filhos e ambos morreram em sua vida, e um deixou três filhos e o outro deixou apenas uma filha, e depois o idoso faleceu, a filha do filho herda metade dos bens, e os três filhos do outro filho herdam a outra metade. Consideramos como se os filhos estivessem vivos e herdassem igualmente, e cada um transmite sua parte aos seus filhos. E assim os filhos dos irmãos e os filhos dos irmãos do pai dividem até a origem das gerações.
+
+4. A família da mãe não é considerada família, pois a mãe não herda seu filho nem sua filha. Irmãos por parte de mãe e não por parte de pai não herdam uns aos outros, mas cada um é herdado pela família de seu pai. Mesmo um shtuki (filho de pai desconhecido) que não tem herdeiros por parte do pai, a família de sua mãe não o herda, mas ele é como um convertido e seus bens são considerados sem dono (Terumat HaDeshen, Siman 352). Mas o homem herda sua mãe, e assim a filha herda sua mãe se não há filho, pois a lei sobre os bens da mãe é como sobre os bens do pai, ambos a herdam, mas o filho e sua descendência precedem a filha.
+
+5. O filho não herda sua mãe no túmulo para transmitir aos seus irmãos por parte de pai. Se ele morreu em sua vida e depois ela morreu, não dizemos que se ele ainda estivesse vivo, ele a herdaria. Agora também, se ele não tem descendência, seus irmãos por parte de pai ocuparão seu lugar para herdá-la, mas sua herança retorna à família da casa de seu pai, pois seu filho não tem descendência. Mas se a mãe morreu em sua vida e depois ele morreu, mesmo que fosse um bebê de um dia, já que viveu após ela, mesmo que por uma hora, ele a herda e transmite a herança aos seus herdeiros da família de seu pai. Nota: Isso é apenas se o bebê nasceu, mas um feto não herda sua mãe se ela morreu enquanto estava grávida para transmitir aos seus herdeiros por parte de pai (Tur).
+
+6. Todos os parentes por transgressão herdam como os legítimos. Se ele tinha um irmão ou filho mamzer (ilegítimo), este herda como um legítimo, e assim todos os outros herdeiros. Mas um filho de uma família ou um gentio não é considerado filho para qualquer coisa e não herda de forma alguma. Nota: Os herdeiros não herdam coisas que não têm substância (Hagahot Mordechai, final de Bava Batra) ou um mero benefício que não é dinheiro (Maharik, Shoresh 161 e Moram Padua, Siman 65).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis de herança no judaísmo, conforme descritas no Siman 276 do Shulchan Aruch Choshen Mishpat, é importante conhecer a ordem e os princípios que guiam quem herda os bens de uma pessoa falecida. Vamos explicar isso de forma prática e acessível:
+
+1. **Ordem de Herança**: Quando alguém falece, a herança segue uma ordem específica. Primeiro, os filhos do falecido herdam. Se não houver filhos, verifica-se se há netos (descendentes dos filhos), e assim por diante, até o fim das gerações. Se não houver descendentes diretos, a herança passa para o pai do falecido e, se ele não estiver vivo, para os irmãos do falecido, e assim continua subindo na árvore genealógica.
+
+2. **Prioridade de Descendentes**: Se uma pessoa deixa uma filha e uma neta (filha de um filho falecido), a neta herda antes da filha. Isso se aplica a outros casos semelhantes, onde descendentes de um filho falecido têm prioridade sobre outros parentes.
+
+3. **Divisão entre Netos**: Se alguém tinha dois filhos que faleceram antes dele, e um filho deixou três filhos e o outro apenas uma filha, a herança é dividida igualmente entre os netos, como se os filhos ainda estivessem vivos. Assim, a filha de um filho herda metade, e os três filhos do outro filho dividem a outra metade.
+
+4. **Família Materna**: No judaísmo, a herança não passa pela linha materna. Isso significa que irmãos que compartilham apenas a mãe não herdam uns dos outros. A herança sempre segue a linha paterna.
+
+5. **Herança de Mãe para Filho**: Um filho herda de sua mãe, mas se ele morrer antes dela, ele não pode transmitir essa herança aos seus irmãos por parte de pai. Se a mãe morrer antes do filho, mesmo que ele viva apenas por um curto período após a morte dela, ele herda e pode passar a herança para seus herdeiros.
+
+6. **Herança de Parentes Ilegítimos**: Parentes considerados ilegítimos (mamzerim) herdam da mesma forma que os legítimos. No entanto, filhos de um relacionamento com um não-judeu ou de uma família não-judaica não são considerados herdeiros.
+
+Essas regras refletem a importância da continuidade familiar e da preservação dos bens dentro da linhagem familiar, conforme as tradições judaicas. Na prática contemporânea, essas leis podem ser complementadas por testamentos e acordos legais que respeitem tanto a lei judaica quanto as leis civis do país onde a pessoa reside.

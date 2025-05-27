@@ -1,0 +1,30 @@
+SIMAN 135
+
+**Lei sobre a posse de animais, como gado e escravos. Contém 2 seções:**
+
+1. Embora aquele que mantém a posse de um objeto móvel seja acreditado ao afirmar que é seu, no caso de animais e feras, ele não é acreditado. Isso ocorre porque, como eles se movem, há a preocupação de que talvez tenham entrado em sua propriedade por conta própria ou que ele os tenha encontrado no caminho e os tenha mantido. Portanto, se o contestante tiver testemunhas de que o animal é dele, ele faz um juramento "heset" e toma posse. Se não tiver testemunhas, o possuidor faz um juramento "heset" e mantém a posse. Em locais onde é costume entregar o gado ao pastor pela manhã e recebê-lo de volta à noite, de modo que o animal não anda sozinho, ele é considerado como outros objetos móveis, e o possuidor é acreditado com um juramento "heset" ao afirmar que o comprou. Se ele alegar que o animal causou danos equivalentes ao seu valor ou que lhe deve uma certa quantia, ele deve jurar segurando um objeto sagrado. Há quem diga que se ele manteve a posse por três anos, em qualquer caso, isso constitui uma presunção de posse.
+
+2. Um escravo cananeu adulto é tratado como gado e não adquire presunção de posse até após três anos, uma vez que ele anda. O possuidor deve trazer prova de que o escravo o serviu durante todos esses três anos como um escravo serve a seu mestre. Se o escravo for uma criança que não anda, ele é tratado como outros objetos móveis e adquire presunção de posse imediatamente, mesmo que haja alguém que costumeiramente entre e saia da casa do possuidor.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender essas leis, é importante saber que o Shulchan Aruch é um dos principais códigos de leis judaicas, e Choshen Mishpat é a seção que trata de leis civis e comerciais. O Siman 135 aborda questões de posse relacionadas a animais e escravos, que eram relevantes no contexto histórico em que essas leis foram escritas.
+
+### Explicação Prática:
+
+1. **Posse de Animais:**
+   - **Conceito de Posse:** Normalmente, se alguém possui um objeto móvel (algo que pode ser movido, como um móvel ou uma ferramenta), essa pessoa é acreditada se afirmar que o objeto é dela. No entanto, com animais, a situação é diferente.
+   - **Por que Animais são Diferentes?** Animais se movem por conta própria. Isso significa que um animal pode entrar na propriedade de alguém sem que essa pessoa o tenha adquirido legalmente. Por isso, a posse de um animal não é automaticamente aceita.
+   - **Resolução de Disputas:** Se alguém contesta a posse de um animal, a pessoa que afirma ser o dono precisa de testemunhas para provar sua posse. Se tiver testemunhas, ele faz um juramento "heset" (um tipo de juramento legal) e pode tomar posse do animal. Se não houver testemunhas, a pessoa que atualmente possui o animal faz o juramento e mantém a posse.
+   - **Costumes Locais:** Em lugares onde é comum que o gado seja entregue a um pastor e não ande sozinho, a posse é tratada como a de outros objetos móveis. Isso significa que a pessoa que possui o animal pode ser acreditada com um juramento "heset" se afirmar que comprou o animal.
+
+2. **Posse de Escravos:**
+   - **Escravos Cananeus Adultos:** São tratados de forma semelhante ao gado, pois também se movem por conta própria. A posse não é presumida até que a pessoa tenha mantido o escravo por três anos, e deve haver prova de que o escravo serviu como tal durante todo esse tempo.
+   - **Escravos Crianças:** Se o escravo for uma criança que ainda não anda, ele é tratado como um objeto móvel. Isso significa que a posse pode ser presumida imediatamente, mesmo que outras pessoas entrem e saiam da casa do possuidor.
+
+### Relevância Prática:
+
+Embora a posse de escravos não seja mais uma prática aceita, essas leis refletem princípios gerais sobre posse e propriedade que ainda são relevantes. Por exemplo, a ideia de que a posse de algo que se move por conta própria (como um animal) requer mais prova do que a posse de algo que não se move, pode ser aplicada em contextos modernos, como disputas sobre propriedade de veículos ou outros bens móveis.
+
+Essas leis também destacam a importância de costumes locais e práticas comuns na determinação de posse, algo que ainda é relevante em muitas áreas do direito civil.

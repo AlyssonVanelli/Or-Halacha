@@ -1,0 +1,63 @@
+SIMAN 358
+
+**Regra sobre quais locais são considerados cercados para habitação. Contém 14 seções:**
+
+1. Qualquer cercado que não foi feito para habitação, como jardins e pomares, e cabanas que são feitas apenas para guardar dentro delas, os sábios proibiram carregar dentro delas mais de quatro cúbitos se for maior que um "beit satayim". Mas se for um "beit satayim", que é a medida de 70 cúbitos e 4 palmos por 70 cúbitos e 4 palmos, é permitido carregar em todo o espaço, seja ele quadrado ou redondo, ou longo e estreito, desde que o comprimento não seja mais que o dobro da largura. E se foi cercado para habitação, mesmo que tenha várias milhas, é permitido carregar em todo o espaço.
+
+   *Nota: Veja adiante no Siman 401 sobre a regra de cidades comuns se são cercadas para habitação. Alguns dizem que nossos "karpef" são considerados cercados para habitação, pois é costume abrir uma entrada primeiro e depois cercar (Mordechai, capítulo "Ossin Pisin"). Outros dizem que qualquer "karpef" próximo à sua casa é considerado cercado para habitação, pois sua intenção está sobre ele (Hagahot Ashri, capítulo 2 de Eruvin), mas há quem discorde (Beit Yosef em nome de Tosafot).*
+
+2. O que é chamado de cercado para habitação? É quando se constrói uma casa de habitação ou se abre uma entrada de sua casa e depois se cerca. E se foi cercado não para habitação, não é necessário abrir tudo, mas deve-se abrir uma brecha maior que dez cúbitos, de modo que a casa fique aberta sem o cercado, e depois fechar a brecha completamente, ou uma cúbito a mais que dez cúbitos, e os dez cúbitos são a entrada, e assim está aberto e depois cercado. E se abriu um cúbito e fechou, e voltou a abrir um cúbito ao lado do que fechou, e continuou assim até completar dez, é permitido.
+
+   *Nota: Se for difícil abrir a parede, alguns dizem que pode-se colocar terra ao lado da parede de ambos os lados até que a parede diminua de altura de dez, e a largura da terra seja mais de dez cúbitos ao longo da parede e quatro de largura. E se a altura da terra não for de dez, então é como se tivesse aberto a parede, pois não resta ali altura de dez acima da terra, sendo como o solo do "karpef". E mesmo que depois se retire a terra, desde que tenha sido anulada ali por um Shabat, há quem discorde, dizendo que a terra não é anulação a menos que nunca se pretenda removê-la (Terumat HaDeshen, Siman 75, Rosh, capítulo 1 de Sucá).*
+
+3. Um monte alto de dez cúbitos tem o mesmo status que um "karpef".
+
+4. Um "karpef" maior que um "beit satayim" no qual se plantaram árvores para reduzir seu espaço aéreo não é considerado uma redução, mesmo que tenham altura de dez e largura de quatro. O mesmo se aplica a cavar um buraco nele.
+
+5. Se construiu uma coluna e assim reduziu, se tiver largura de três palmos, é considerado uma redução.
+
+6. Se construiu uma cerca de dez de comprimento em frente à primeira cerca para anulá-la, de modo que seja como se não existisse, e assim seja cercado para habitação pela segunda, se a distanciou da primeira por três palmos, é permitido.
+
+7. Se aplicou argila nas primeiras cercas para reduzir seu espaço aéreo e assim reduziu, se a argila for espessa o suficiente para que, se a primeira cerca for removida, possa ficar de pé por si só, é considerado uma redução; caso contrário, não é.
+
+8. Se construiu cercas sobre a primeira para cercá-lo para habitação, não é eficaz. E se as inferiores foram absorvidas e as superiores permaneceram por si mesmas, é permitido por meio delas. Mas um monte maior que um "beit satayim" no qual se fizeram cercas, mesmo na borda, para habitação, é eficaz, pois habita no espaço aéreo das cercas que fez agora.
+
+9. Um "karpef" maior que um "beit satayim" que foi cercado para habitação e a maior parte foi plantada com árvores, mesmo que não estejam plantadas em fileiras, não anulam a habitação. Mas se a maior parte foi semeada, as sementes anulam a habitação, mesmo que não haja mais que um "beit satayim". Se a menor parte foi semeada, se não houver mais que um "beit satayim", é permitido; mais que um "beit satayim" é proibido.
+
+10. Quem tem um jardim em seu pátio, se for a maior parte do pátio, mesmo que não tenha mais que um "beit satayim", não deve carregar dele e do pátio para a casa. E se for mais que um "beit satayim", não deve carregar nele e no pátio, exceto dentro de quatro cúbitos. Se for a menor parte do pátio, o que há nele mais que um "beit satayim" proíbe todo o pátio. E se houver um "beit satayim" ou menos, é proibido retirar dele para a casa.
+
+11. Um "karpef" maior que um "beit satayim" que foi cercado para habitação e entrou água nele, se for adequada para beber, não anula a habitação, mesmo que o local onde se espalhou seja mais que um "beit satayim", e mesmo que seja muito profundo. Se não for adequada para beber, tem o mesmo status que sementes, desde que sua profundidade seja de dez palmos.
+
+12. Um "karpef" de três "seah" e cobriu um "beit seah" dele, é permitido, mesmo que a cobertura seja inclinada.
+
+13. Um "karpef" de um "beit satayim" exato e um pátio que foram completamente abertos um para o outro, o "karpef" é proibido porque o local da cerca o torna maior que um "beit satayim".
+
+14. Um "karpef" maior que um "beit satayim" que não foi cercado para habitação e abriu uma entrada nele e fez uma cerca em frente a ele maior que dez, e foi permitido por meio da cerca que anulou a primeira cerca que não era para habitação, e depois a última cerca caiu, retorna à sua proibição.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 358 do Shulchan Aruch Orach Chayim, é importante saber que ele trata das regras sobre carregar objetos em espaços cercados durante o Shabat, um dia sagrado de descanso no judaísmo. No Shabat, há restrições sobre carregar objetos em espaços públicos ou entre espaços privados e públicos. As leis discutidas aqui ajudam a determinar quais áreas cercadas são consideradas "privadas" para permitir carregar objetos dentro delas.
+
+1. **Espaços Cercados para Habitação**: 
+   - Um espaço cercado é considerado "para habitação" se foi feito com a intenção de ser usado como parte de uma casa ou residência. Isso significa que você pode carregar objetos dentro dele no Shabat.
+   - Se o espaço não foi cercado para habitação, como jardins ou pomares, há restrições. Se o espaço for maior que um "beit satayim" (aproximadamente 35 metros por 35 metros), você não pode carregar objetos dentro dele.
+
+2. **Como Determinar se um Espaço é para Habitação**:
+   - Se você constrói uma casa ou abre uma entrada de sua casa para o espaço antes de cercá-lo, é considerado para habitação.
+   - Se o espaço foi cercado sem intenção de habitação, você pode abrir uma brecha na cerca e depois fechá-la para que o espaço seja considerado para habitação.
+
+3. **Outras Considerações**:
+   - Um monte ou elevação de terra com mais de 10 cúbitos de altura é tratado como um espaço cercado.
+   - Plantar árvores ou cavar buracos para reduzir o espaço não altera seu status de habitação.
+   - Construir colunas ou cercas adicionais pode mudar o status do espaço, dependendo de como são feitas.
+
+4. **Espaços com Água ou Plantas**:
+   - Se um espaço cercado tem água potável, ele ainda pode ser considerado para habitação.
+   - Se a água não é potável ou se o espaço é plantado com sementes, isso pode anular o status de habitação, dependendo do tamanho e da profundidade.
+
+5. **Regras Específicas para Jardins e Pátios**:
+   - Se um jardim ocupa a maior parte de um pátio, há restrições sobre carregar objetos entre o jardim, o pátio e a casa.
+   - O tamanho do jardim em relação ao pátio e se ele excede um "beit satayim" afeta essas regras.
+
+Essas leis são relevantes para a vida judaica contemporânea, especialmente em comunidades que observam o Shabat rigorosamente. Elas ajudam a definir como as pessoas podem usar seus espaços durante o Shabat, garantindo que as práticas religiosas sejam seguidas corretamente.

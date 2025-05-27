@@ -1,0 +1,38 @@
+SIMAN 58
+
+**Siman 58: Aquele que apresentou um documento de dívida contra seu companheiro e a alegação de "starei". Contém quatro seções:**
+
+1. Aquele que apresenta um documento de dívida validado contra seu companheiro, e o devedor diz: "Eu paguei você", e o credor responde: "É verdade que você me pagou, mas era por outro empréstimo que eu tinha contra você, verbalmente, e por isso eu aceitei o pagamento, mas este documento ainda está em vigor." Se o pagamento não foi feito na presença de testemunhas, o credor é acreditado, e o documento ainda está em vigor, permitindo que ele cobre sem juramento, se houver uma cláusula de confiança no documento. Se posteriormente o devedor alegar que o credor recebeu o pagamento indevidamente, ele deve jurar um juramento de heset e será liberado. Se não houver cláusula de confiança, o credor só pode cobrar com um juramento.
+
+2. Se o devedor não pagou pessoalmente, mas enviou o pagamento através de um mensageiro, seja dizendo ao mensageiro "pegue o documento e entregue o dinheiro" ou "entregue o dinheiro e pegue o documento", o mensageiro é obrigado a pagar ao remetente. Há quem diga que, uma vez que o mensageiro é obrigado a pagar, o credor não pode reter o pagamento se alegar que o devedor lhe deve por outra razão, a menos que o credor alegue que o mensageiro também pagou por outra dívida. Há discordâncias sobre se, em qualquer caso, o credor pode alegar que o devedor lhe deve por outra razão.
+
+3. Se alguém depositou algo com outra pessoa, e o depositário alega que o depósito pertence a outra pessoa que lhe deve, se o depositário alega que o depósito foi entregue a ele em nome do terceiro, ele pode alegar até o valor do depósito, mesmo que o depositante tenha que pagar ao terceiro. Mas se o depositário alega que o depositante não mencionou o terceiro, ele não pode reter o depósito, pois não pode provar que o terceiro lhe deve. Há quem diga que isso se aplica apenas se o depósito foi entregue como tal, mas se o depositário tomou posse do depósito diretamente do depositante e tem uma alegação válida, ele pode alegar que o depósito pertence a alguém que lhe deve, e o depositante deve pagar.
+
+4. Se o devedor alegar que pagou na presença de testemunhas, e estes testemunhasrem que ele pagou, mas não mencionaram o documento, e o credor responder que foi por outra dívida, o documento é anulado. Há quem diga que o documento não é completamente anulado, mas não pode ser usado para cobrar, embora, se o credor já tiver tomado posse, não será removido dele. Isso se aplica quando os testemunhasrem que o pagamento foi feito como quitação, mas se viram o pagamento sem saber se era quitação, depósito ou presente, e o credor nega o pagamento, ele é considerado um mentiroso e o documento é anulado. Se o credor alegar que foi por outra dívida, ele é acreditado e pode jurar e cobrar o que está no documento, pois o pagamento não foi feito na presença de testemunhas. Há quem discorde, dizendo que mesmo neste caso o documento é enfraquecido, e a prova cabe a quem deseja cobrar.
+
+5. Se o devedor alegar que o documento de dívida é pelo valor de um boi que comprou do credor, e o credor já recebeu o valor da carne, e o credor admitir que recebeu o valor, mas por outra dívida, o documento é anulado se houver testemunhas de que o valor do boi foi pago. Há quem diga que, mesmo sem testemunhas, o devedor pode jurar que pagou. Se for sabido que parte do valor foi paga por outra dívida, o credor não pode alegar que o restante é por outra dívida.
+
+6. Se alguém tem duas dívidas contra seu companheiro, e o devedor paga sem especificar, o credor pode decidir a qual dívida aplicar o pagamento. Mesmo se o devedor disser no momento do pagamento que é para uma dívida específica, e o credor aceitar em silêncio, ele pode posteriormente alegar que foi para outra dívida verbal ou outra obrigação.
+
+7. Se o devedor der dinheiro ao credor para pagar outro credor, o credor pode reter o dinheiro para si mesmo.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 58 do Shulchan Aruch Choshen Mishpat, é importante desmistificar alguns conceitos e termos técnicos que aparecem no texto. Vamos abordar cada seção de forma prática e acessível:
+
+1. **Documento de Dívida e Alegação de Pagamento**: Quando alguém apresenta um documento que prova que outra pessoa lhe deve dinheiro, e o devedor diz que já pagou, mas sem testemunhas, o credor é acreditado se houver uma cláusula de confiança no documento. Isso significa que o credor pode cobrar a dívida sem precisar jurar. Se o devedor depois afirmar que o pagamento foi indevido, ele deve fazer um juramento simples (heset) para ser liberado da dívida. Se não houver cláusula de confiança, o credor precisa jurar para cobrar.
+
+2. **Pagamento por Mensageiro**: Se o devedor envia o pagamento por um mensageiro, e o mensageiro não cumpre as instruções corretamente, ele é responsável por pagar ao devedor. Há uma discussão sobre se o credor pode alegar que o pagamento foi para outra dívida, mas isso depende das circunstâncias e das alegações do mensageiro.
+
+3. **Depósito e Alegação de Terceiros**: Se alguém deixa algo com outra pessoa e essa pessoa alega que o item pertence a um terceiro que lhe deve, a situação muda dependendo de como o depósito foi feito. Se o depósito foi entregue em nome do terceiro, o depositário pode reter o item até o valor da dívida. Caso contrário, ele não pode reter o depósito sem prova.
+
+4. **Pagamento com Testemunhas**: Se o devedor paga na presença de testemunhas, mas elas não mencionam o documento de dívida, e o credor diz que o pagamento foi para outra dívida, o documento pode ser anulado. Se o credor já tiver recebido o pagamento, ele não precisa devolver. Se as testemunhas não souberem o motivo do pagamento, o credor é considerado mentiroso se negar o pagamento, e o documento é anulado.
+
+5. **Dívida por Compra de Boi**: Se o devedor diz que a dívida é pelo valor de um boi comprado, e o credor admite ter recebido o valor, mas por outra dívida, o documento é anulado se houver testemunhas do pagamento. Sem testemunhas, o devedor pode jurar que pagou. Se parte do valor foi paga por outra dívida, o credor não pode alegar que o restante é por outra dívida.
+
+6. **Duas Dívidas**: Se o devedor tem duas dívidas e paga sem especificar qual, o credor pode decidir a qual dívida aplicar o pagamento. Mesmo que o devedor diga que é para uma dívida específica, o credor pode alegar que foi para outra dívida, a menos que o devedor tenha especificado claramente no momento do pagamento.
+
+7. **Pagamento para Outro Credor**: Se o devedor dá dinheiro ao credor para pagar outra pessoa, o credor pode reter o dinheiro para si, a menos que haja um acordo claro em contrário.
+
+Essas leis são relevantes na vida judaica contemporânea, pois tratam de questões de honestidade e responsabilidade financeira, que são fundamentais em qualquer sociedade. Elas ajudam a garantir que as transações financeiras sejam justas e que as partes envolvidas cumpram suas obrigações de forma ética.

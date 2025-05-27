@@ -1,0 +1,49 @@
+SIMAN 353
+
+**Leis sobre saliências no domínio público. Contém três seções:**
+
+1. Duas casas em lados opostos de um domínio público, pertencentes a uma única pessoa ou a duas, e se fizeram um eruv (união de domínios para permitir o transporte no Shabat), se ambas as casas são de altura igual, é permitido lançar objetos de uma para a outra. Porém, se uma é mais alta que a outra, é proibido lançar objetos de uma para a outra, a menos que sejam de cerâmica ou materiais semelhantes que se quebrariam se caíssem. Isso se aplica quando um domínio público passa entre elas, mas se for uma carmelit (área de status intermediário) que passa entre elas, é permitido em qualquer caso.
+
+2. Uma saliência, que é uma prateleira que se projeta da parede para o domínio público, se estiver a mais de dez tefachim (aproximadamente 80 cm) de altura e tiver quatro por quatro tefachim de largura, e a janela da casa estiver aberta para ela, é permitido usá-la. Se houver duas saliências, uma abaixo da outra, pertencentes a duas pessoas diferentes, mesmo que ambas estejam a mais de dez tefachim de altura, se a saliência superior, que está em frente à janela, tiver quatro por quatro tefachim, é proibido usá-la, pois é considerada um domínio separado, e a saliência inferior é outro domínio, e eles se proíbem mutuamente. Se nenhuma das saliências tiver quatro tefachim, é permitido usar ambas e toda a parede até dez tefachim de altura. Se a saliência inferior tiver quatro tefachim e a superior não, é permitido usar a superior apenas em frente à janela, mas é proibido usar o restante da saliência devido à presença da saliência inferior que cria um domínio separado.
+
+3. Qualquer saliência que se projeta sobre o espaço aéreo do domínio público, onde é permitido usá-la, ao utilizá-la, não se pode colocar ou retirar dela nada além de utensílios de cerâmica e vidro, ou semelhantes, que se quebrariam se caíssem no domínio público. Outros utensílios são proibidos, pois podem cair no domínio público e serem trazidos de volta. Nota: Isso se aplica especificamente a uma saliência ou algo semelhante, mas se for uma área larga como um telhado, onde a pessoa que usa o utensílio está de pé, é permitido usar todos os tipos de utensílios (conforme Beit Yosef em nome de Ritva). Se houver uma única saliência que se projeta sobre o espaço aéreo de uma carmelit, desde que esteja a dez tefachim de altura, é sempre permitido, seja larga ou estreita, e mesmo utensílios que não se quebram, pois não se decretou proibição em uma carmelit.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 353 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos do judaísmo, especialmente relacionados ao Shabat, o dia de descanso semanal judaico.
+
+### Conceitos Básicos
+
+1. **Domínio Público e Privado**: No contexto das leis do Shabat, o "domínio público" refere-se a áreas abertas e acessíveis a todos, como ruas e praças. O "domínio privado" é uma área fechada e de propriedade individual, como uma casa.
+
+2. **Eruv**: É uma solução haláchica que permite o transporte de objetos entre diferentes domínios durante o Shabat. Ele cria uma "união" simbólica entre áreas, permitindo que sejam tratadas como um único domínio.
+
+3. **Carmelit**: Uma área que não é nem totalmente pública nem totalmente privada, como um campo aberto. Tem regras específicas sobre o que pode ou não ser feito durante o Shabat.
+
+4. **Tefachim**: Uma medida de comprimento tradicional judaica, onde um tefach é aproximadamente 8 cm.
+
+### Explicação Prática
+
+#### Seção 1: Lançar Objetos entre Casas
+
+- **Situação**: Duas casas estão em lados opostos de uma rua pública.
+- **Regra**: Se as casas têm a mesma altura e há um eruv, é permitido lançar objetos de uma para a outra. Se uma casa é mais alta, não se pode lançar objetos, a menos que sejam frágeis (como cerâmica), pois se quebrariam ao cair, evitando que alguém os pegue e transporte no Shabat.
+- **Exceção**: Se a área entre as casas é uma carmelit, é permitido lançar objetos independentemente da altura.
+
+#### Seção 2: Uso de Saliências
+
+- **Saliência**: Uma prateleira ou estrutura que se projeta da parede para o espaço público.
+- **Regra**: Se a saliência está a mais de 80 cm de altura e tem uma área de pelo menos 32 cm x 32 cm, pode ser usada se houver uma janela aberta para ela.
+- **Duas Saliências**: Se há duas saliências, uma acima da outra, pertencendo a pessoas diferentes, e a superior tem a medida mínima, ela é considerada um domínio separado, proibindo o uso de ambas. Se nenhuma tem a medida mínima, ambas podem ser usadas.
+- **Uso Restrito**: Se a saliência inferior tem a medida mínima e a superior não, a superior só pode ser usada diretamente em frente à janela.
+
+#### Seção 3: Uso de Saliências sobre o Domínio Público
+
+- **Regra Geral**: Ao usar uma saliência sobre o domínio público, só se pode colocar ou retirar objetos frágeis, como cerâmica ou vidro, para evitar que caiam e sejam transportados de volta.
+- **Exceção**: Se a saliência é parte de uma área maior, como um telhado, onde a pessoa está de pé, todos os tipos de objetos podem ser usados.
+- **Carmelit**: Se a saliência está sobre uma carmelit e a mais de 80 cm de altura, é permitido usar qualquer tipo de objeto, pois as restrições são mais leves.
+
+### Relevância Prática
+
+Essas leis são relevantes para judeus que observam o Shabat e vivem em áreas urbanas, onde a distinção entre domínios públicos e privados é comum. Elas ajudam a garantir que as atividades do Shabat sejam realizadas de acordo com a tradição, respeitando as restrições de transporte de objetos entre diferentes tipos de domínios.

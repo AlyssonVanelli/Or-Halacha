@@ -1,0 +1,27 @@
+SIMAN 356
+
+**Lei sobre um canal de água que passa por um pátio. Contém 2 seções:**
+
+1. Um canal de água que passa por um pátio, se for profundo dez tefachim (aproximadamente 80 cm) e largo quatro tefachim (aproximadamente 32 cm), não se pode retirar água dele no Shabat, a menos que se faça uma barreira de dez tefachim de altura na entrada e na saída. Um tefach da barreira deve estar submerso na água. Se a barreira estiver completamente submersa, é necessário que um tefach dela esteja acima da água. Se a barreira começar a ser feita na borda de cada lado e não estiver conectada no meio, permitindo que a água entre e saia por ali, se a distância entre elas não for de três tefachim, é permitido, pois dizemos que é "lavud" (considerado fechado). Se houver três tefachim entre elas, é proibido.
+
+   Nota: Se os buracos pelos quais o canal entra e sai não forem largos três tefachim, mesmo uma barreira não é necessária (Beit Yosef em nome de Ritva).
+
+2. Um pátio que foi aberto e uma língua de mar passa pela abertura, se não estiver completamente aberto e a abertura não tiver mais de dez amot (aproximadamente 4,8 metros), é permitido retirar água e levá-la para dentro da casa. Se estiver completamente aberto ou a abertura tiver mais de dez amot, se restarem elevações no local da abertura com altura de dez tefachim e a água as cobrir, é permitido retirar água no pátio, mas é proibido levá-la para dentro da casa, a menos que se faça uma barreira de dez tefachim de altura sobre a água. Se não restarem elevações, é proibido até mesmo retirar água no pátio.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender essas leis, é importante saber que elas se referem a regras específicas sobre o que é permitido ou não fazer no Shabat, o dia de descanso judaico. No Shabat, existem restrições sobre carregar objetos entre diferentes tipos de espaços, chamados de "domínios". Vamos explicar os conceitos e as regras mencionadas:
+
+1. **Canal de Água no Pátio:**
+   - **Canal de Água:** Imagine um pequeno rio ou canal que passa pelo seu quintal.
+   - **Tefachim:** É uma medida antiga usada na lei judaica. Um tefach é aproximadamente 8 cm.
+   - **Barreira:** Para poder usar a água do canal no Shabat, é necessário criar uma barreira. Essa barreira deve ter pelo menos 80 cm de altura e parte dela deve estar submersa na água. Isso é para garantir que o canal seja considerado um espaço separado, permitindo que você retire água sem violar as regras do Shabat.
+   - **Lavud:** É um conceito que diz que se duas partes de uma estrutura estão a menos de três tefachim (24 cm) de distância, elas são consideradas conectadas. Isso é importante para saber se a barreira é válida.
+
+2. **Pátio com Abertura para o Mar:**
+   - **Língua de Mar:** Refere-se a uma parte do mar que entra no pátio.
+   - **Abertura:** Se a abertura do pátio para o mar não for muito grande (menos de 4,8 metros), você pode retirar água e levá-la para dentro de casa. Se for maior, você precisa de uma barreira para separar os espaços.
+   - **Elevações:** Se houver elevações naturais ou feitas pelo homem de 80 cm de altura na abertura, e a água as cobrir, você pode retirar água no pátio, mas não levá-la para dentro de casa sem uma barreira adicional.
+
+Essas regras são relevantes para quem observa o Shabat e precisa saber como lidar com a água em suas propriedades. Elas garantem que as atividades realizadas no Shabat respeitem as tradições e leis judaicas, mantendo a separação entre diferentes tipos de espaços.

@@ -1,0 +1,42 @@
+SIMAN 355
+
+**Leis sobre uma varanda e um banheiro. Contém cinco seções:**
+
+1. Uma varanda (definida como uma plataforma ou construção que se projeta para fora das casas) que está acima da água e tem uma janela aberta para ela a partir da casa, não se pode encher água dela a menos que se faça uma barreira ao redor dela ou se faça a barreira ao redor do buraco por onde se tira a água. Isso é válido se a varanda tiver quatro por quatro [tfachim]. Não há diferença se a barreira é feita abaixo, conectada a ela, ou acima dela. Uma vez que a barreira é feita, é permitido também despejar água dela.
+
+2. Da mesma forma, quem está em um barco não pode encher água a menos que faça uma plataforma de quatro por quatro e faça um buraco nela para encher água por ali. Não é necessário fazer barreiras, pois dizemos que se dobram os lados e se considera como se a barreira descesse. Isso é permitido no barco porque não se pode fazer ali o que se faz em uma casa.
+
+3. Isso se aplica quando está dentro de dez tfachim, mas se as laterais do barco são mais altas que dez tfachim acima da água, pode-se estender qualquer saliência e fazer um buraco nela para encher água, pois está enchendo através de um espaço que é um makom patur (lugar isento), e é suficiente ter uma saliência visível.
+
+4. Pode-se despejar água nas laterais do barco e ela desce para o mar, pois não se está jogando diretamente no mar, mas sim indiretamente, e não se decretou proibição sobre isso em um carmelit (área semi-pública).
+
+5. Duas varandas, uma acima da outra, deslocadas uma da outra um pouco, e não estão a quatro tfachim de distância uma da outra, seja dentro de dez tfachim ou mais de dez amot de altura, se a superior fez uma barreira em parceria com a inferior, ambas são proibidas até que façam um eruv (mistura de domínios). Se ambas fizeram para a inferior, ambas são proibidas até que façam um eruv. Mas se cada uma fez sozinha, a outra não a proíbe, mesmo que a outra não tenha feito a sua própria barreira. Se ambas fizeram em parceria, uma não proíbe a outra.
+
+**Banheiro sobre a água é permitido com uma barreira suspensa, desde que seja feita para permitir, mas se for feita apenas para privacidade, não é eficaz. Se se fez uma plataforma ou uma vara menos de três [tfachim] para que as fezes caiam sobre ela antes de cair na água, não é necessário barreiras, pois é considerado como se fosse em um carmelit e é permitido. O mesmo se aplica se o banheiro for feito de forma que as fezes caiam nas laterais da parede e depois rolem para baixo em um carmelit. Se a plataforma quebrar no Shabat, é permitido por causa da dignidade humana.
+
+Se o banheiro se projeta para fora da muralha da cidade e as fezes caem em uma escavação ao redor da cidade que tem mais de um beit satayim (medida de área), que é um carmelit, não é permitido com uma barreira suspensa, pois isso só foi permitido sobre a água, mas com uma plataforma é permitido, pois é considerado como se fosse em um carmelit.**
+
+**Água que não tem dez tfachim de profundidade não tem o status de água para permitir despejar nela com uma barreira suspensa. E certamente se a água secou, mesmo que antes tivesse dez tfachim de profundidade.**
+
+**Se havia duas varandas, uma acima da outra, deslocadas uma da outra um pouco, e não estão a quatro tfachim de distância uma da outra, seja dentro de dez tfachim ou mais de dez amot de altura, se a superior fez uma barreira em parceria com a inferior, ambas são proibidas até que façam um eruv. Se ambas fizeram para a inferior, ambas são proibidas até que façam um eruv. Mas se cada uma fez sozinha, a outra não a proíbe, mesmo que a outra não tenha feito a sua própria barreira. Se ambas fizeram em parceria, uma não proíbe a outra.**
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda leis relacionadas ao uso de varandas e banheiros em contextos específicos, principalmente em relação ao Shabat, um dia sagrado de descanso no judaísmo. Vamos explicar cada seção de forma prática:
+
+1. **Varanda sobre a água**: Imagine uma varanda que se projeta sobre um corpo d'água, como um rio ou lago. Se você quiser pegar água dessa varanda durante o Shabat, precisa criar uma barreira ao redor do local de onde a água será retirada. Isso é necessário para evitar a transferência direta de objetos entre diferentes tipos de domínios, algo que é restrito no Shabat. A varanda precisa ter um tamanho mínimo de quatro por quatro "tfachim" (uma medida antiga de comprimento, aproximadamente 32-40 cm). A barreira pode ser colocada tanto acima quanto abaixo da varanda.
+
+2. **Enchendo água de um barco**: Quando você está em um barco, a situação é um pouco diferente. Você pode criar uma plataforma de quatro por quatro tfachim com um buraco para pegar água, sem precisar de barreiras adicionais. Isso é porque, no barco, as regras são mais flexíveis devido às limitações do espaço.
+
+3. **Altura do barco**: Se as laterais do barco estão a mais de dez tfachim acima da água, você pode estender uma saliência e fazer um buraco para pegar água. Isso é permitido porque a área entre a saliência e a água é considerada um "makom patur", um espaço isento de certas restrições.
+
+4. **Despejando água do barco**: É permitido despejar água nas laterais do barco, desde que a água não seja jogada diretamente no mar. Isso é considerado uma ação indireta e, portanto, não é proibido.
+
+5. **Duas varandas**: Quando há duas varandas, uma acima da outra, e elas estão próximas, há regras específicas sobre como elas podem ser usadas. Se uma varanda faz uma barreira em conjunto com a outra, ambas precisam fazer um "eruv", uma mistura de domínios, para que seja permitido o uso. Se cada varanda faz sua própria barreira, elas não se proíbem mutuamente.
+
+**Banheiro sobre a água**: Se um banheiro está sobre a água, é permitido usá-lo com uma barreira suspensa, desde que a barreira tenha sido feita para permitir o uso, e não apenas para privacidade. Se houver uma plataforma ou vara que faça com que os dejetos caiam primeiro sobre ela antes de atingir a água, não é necessário uma barreira, pois é considerado como se estivesse em um "carmelit", uma área semi-pública.
+
+**Água rasa**: Se a água tem menos de dez tfachim de profundidade, ela não é considerada "água" para os propósitos dessas leis, e não se pode despejar água nela com uma barreira suspensa. Se a água secou, mesmo que antes fosse profunda o suficiente, as mesmas restrições se aplicam.
+
+Essas leis refletem a preocupação com a observância do Shabat e a necessidade de respeitar as diferentes categorias de domínios, garantindo que as ações realizadas estejam de acordo com as regras estabelecidas.

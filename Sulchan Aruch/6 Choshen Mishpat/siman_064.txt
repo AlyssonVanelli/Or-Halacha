@@ -1,0 +1,30 @@
+SIMAN 64
+
+**Depósito que deseja reter documentos como garantia de dívida. Contém um parágrafo:**
+
+1. Se alguém depositou documentos com uma pessoa e o depositante faleceu, e o depositário alega que, enquanto o depositante ainda estava vivo, ele reteve os documentos como penhor por uma dívida que o depositante tinha com ele, pois, para cobrá-los, não seria eficaz sem uma escritura. Se houver testemunhas de que ele exigiu os documentos enquanto o depositante estava vivo e o depositário se recusou a devolvê-los, então a retenção é válida; caso contrário, não.
+
+2. Isso se refere a uma situação em que há testemunhas de que os documentos foram depositados com ele e também há testemunhas que os viram agora em sua posse. Pois, se não fosse assim, ele seria acreditado com a alegação de que os documentos foram perdidos ou que nunca existiram.
+
+3. Tudo isso é de acordo com a lei do Talmud. No entanto, de acordo com o que os rabinos instituíram, que se pode cobrar dos bens móveis dos órfãos, pode-se cobrar dos documentos deles, mesmo que não tenham sido retidos enquanto o depositante estava vivo.
+
+4. Nota: Mesmo que ele não tenha um "migo" (uma presunção de credibilidade) e não possa alegar que os documentos são de sua propriedade, ainda assim, se ele os reteve enquanto o depositante estava vivo, ele pode alegar que os reteve como penhor (Tosafot e Rosh no capítulo "HaKotev"). Isso não é como alguns dizem, que ele não pode alegar que os reteve como penhor, a menos que seja sabido que o depositante lhe devia, já que ele não tem um "migo" (Beit Yosef em nome do Rashba).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido aqui de forma prática e acessível:
+
+1. **Contexto Geral**: Este trecho do Shulchan Aruch está lidando com uma situação em que uma pessoa (o depositante) entrega documentos a outra pessoa (o depositário) para que sejam guardados. Se o depositante morre, pode surgir uma disputa sobre a posse desses documentos, especialmente se o depositário alega que os documentos foram retidos como garantia de uma dívida.
+
+2. **Retenção de Documentos como Penhor**: Se o depositário diz que está segurando os documentos como penhor (ou seja, como garantia de que uma dívida será paga), ele precisa provar que essa retenção é válida. Isso pode ser feito se houver testemunhas que viram o depositante pedir os documentos de volta enquanto ainda estava vivo, e o depositário se recusou a devolvê-los. Se não houver tais testemunhas, a alegação do depositário não é automaticamente aceita.
+
+3. **Importância das Testemunhas**: A presença de testemunhas é crucial. Elas devem ter visto tanto o depósito dos documentos quanto o fato de que o depositário ainda os possui. Sem essas testemunhas, o depositário poderia alegar que os documentos foram perdidos ou que nunca existiram, e sua palavra seria aceita.
+
+4. **Mudanças Instituídas pelos Rabinos**: Originalmente, de acordo com a lei do Talmud, a cobrança de dívidas de órfãos só poderia ser feita a partir de bens imóveis. No entanto, os rabinos instituíram que também se pode cobrar de bens móveis, como documentos, mesmo que não tenham sido retidos enquanto o depositante estava vivo.
+
+5. **Conceito de "Migo"**: "Migo" é um princípio que dá credibilidade a uma pessoa em uma disputa legal, baseado na ideia de que, se a pessoa quisesse mentir, poderia ter inventado uma mentira mais convincente. No entanto, mesmo sem um "migo", se o depositário reteve os documentos enquanto o depositante estava vivo, ele pode alegar que os reteve como penhor. Isso é aceito mesmo que não haja prova de que o depositante devia algo ao depositário.
+
+6. **Divergências de Opinião**: Há diferentes opiniões sobre se o depositário pode alegar que reteve os documentos como penhor sem prova de dívida. A posição aceita aqui é que ele pode, desde que tenha retido os documentos enquanto o depositante estava vivo.
+
+**Relevância Prática**: Na vida contemporânea, essas leis podem ser aplicadas em situações de disputas sobre posse de documentos ou outros bens que foram deixados em confiança. Elas destacam a importância de ter testemunhas e documentação adequada para evitar conflitos legais. Além disso, mostram como as leis podem evoluir para se adaptar a novas circunstâncias, como a proteção dos direitos dos órfãos.

@@ -1,0 +1,30 @@
+SIMAN 449
+
+**Regra sobre o chametz encontrado em uma loja de um judeu com trabalhadores não-judeus, ou vice-versa. Contém um parágrafo:**
+
+Uma loja pertencente a um judeu, com o estoque (isto é, as mercadorias e utensílios da loja) pertencente ao judeu, e os trabalhadores que entram lá são não-judeus. Se chametz for encontrado lá após o Pessach, é proibido obter qualquer benefício dele.
+
+Por outro lado, se a loja pertence a um não-judeu, com o estoque pertencente ao não-judeu, e os trabalhadores que entram lá são judeus, o chametz encontrado lá é permitido até mesmo para consumo.
+
+Esta é a versão de Rashi e Rabbeinu Hai, mas Rabbeinu Chananel tem uma versão oposta.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Chametz**: Refere-se a qualquer alimento feito de trigo, cevada, centeio, aveia ou espelta que tenha fermentado. Durante o Pessach, uma festividade judaica que comemora a libertação dos israelitas do Egito, é proibido possuir, comer ou se beneficiar de chametz.
+
+2. **Pessach**: É uma das principais festas judaicas, durando sete ou oito dias, dependendo da tradição. Durante este período, os judeus evitam qualquer contato com chametz.
+
+Agora, vamos explicar o que o texto está dizendo:
+
+- **Cenário 1**: Se uma loja pertence a um judeu e o estoque (os produtos e utensílios) também é do judeu, mas os trabalhadores são não-judeus, qualquer chametz encontrado na loja após o Pessach não pode ser usado ou vendido. Isso ocorre porque, durante o Pessach, o chametz deveria ter sido removido ou vendido, e a presença dele após a festa indica que o chametz não foi tratado corretamente.
+
+- **Cenário 2**: Se a loja pertence a um não-judeu e o estoque também é do não-judeu, mas os trabalhadores são judeus, o chametz encontrado na loja após o Pessach pode ser consumido ou usado. Isso se deve ao fato de que o chametz nunca foi propriedade de um judeu durante o Pessach, então as restrições não se aplicam.
+
+A diferença entre os dois cenários está na propriedade do chametz durante o Pessach. No primeiro caso, o chametz é considerado como tendo sido propriedade de um judeu durante o Pessach, o que o torna proibido após a festa. No segundo caso, como o chametz pertenceu a um não-judeu, ele não está sujeito às mesmas restrições.
+
+Por fim, o texto menciona que há diferentes opiniões rabínicas sobre este assunto. Rashi e Rabbeinu Hai apresentam a visão explicada acima, enquanto Rabbeinu Chananel tem uma opinião oposta, que não é detalhada aqui.
+
+Na prática, essas leis são relevantes para judeus que possuem negócios ou trabalham em ambientes onde chametz pode estar presente, ajudando-os a garantir que estão cumprindo as obrigações religiosas durante e após o Pessach.

@@ -1,0 +1,28 @@
+SIMAN 46
+
+1. Se os intestinos saírem para fora e retornarem por si mesmos, o animal é kasher. Mas se alguém os recolocar e eles se inverterem, mesmo que não tenham sido perfurados, o animal é terefá, pois é impossível que sejam recolocados como estavam antes de serem invertidos, e não sobreviverá. O mesmo se aplica se não saíram, mas foram encontrados invertidos, o animal é terefá. (Linguagem do Rambam, capítulo 6 das Leis de Shechitá, halachá 15). Nota: Da mesma forma, se os intestinos forem encontrados entre a pele e a carne e estiverem costurados ali, há motivo para suspeitar que saíram e se inverteram. Mas se não houver costura ali e não for evidente que foi rasgado, e não houver nenhum sinal de defeito, o animal é kasher. (Fonte: Orach Chaim, seção 55, e a nota de Rabi Yehuda ben Barzilai).
+
+2. Se a membrana que envolve os intestinos, chamada de "dara dekanata" (intestinos delgados que circundam a gordura chamada "interilia"), for perfurada de um para o outro, o animal é kasher, pois o outro protege. E não é necessário dizer que se for perfurado para a "kanata", que é gordura pura, ela sela.
+
+3. Se uma agulha for encontrada nos intestinos, o animal é terefá, pois há preocupação de que tenha perfurado.
+
+4. O "chalchulit", que é o último intestino, reto e sem curvatura, por onde sai o excremento, se for perfurado em qualquer medida, o animal é terefá, como os outros intestinos. Em que caso isso se aplica? Quando é perfurado para a cavidade abdominal. Mas se for perfurado no local onde está aderido entre as coxas, é kasher. Mesmo se toda a parte aderida entre as coxas for removida, é kasher, desde que reste o equivalente a quatro dedos de largura em um boi grande, e proporcionalmente em um animal menor. Se nesses quatro dedos houver uma perfuração, alguns proíbem em qualquer medida, enquanto outros permitem até que a maior parte da largura seja removida.
+
+5. Se uma aderência sair dos intestinos ou de qualquer outro órgão cuja perfuração em qualquer medida torna o animal terefá, e aderir à parede ou a outro local, o animal é kasher, pois não encontramos bolhas e aderências exceto no pulmão. Nota: No entanto, deve-se ter cuidado, pois às vezes muitas bolhas são encontradas e, por meio delas, os intestinos são selados, tornando o animal terefá. Deve-se verificar com uma palha ou pena se estão selados.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o texto do Shulchan Aruch Yoreh De'ah, Siman 46, de forma prática e acessível:
+
+1. **Intestinos que saem e retornam**: Se os intestinos de um animal saírem do corpo e voltarem sozinhos, o animal ainda é considerado kasher, ou seja, apto para consumo segundo as leis judaicas. No entanto, se alguém os recolocar manualmente e eles se inverterem, o animal é considerado terefá, ou seja, não apto para consumo, porque é impossível garantir que foram recolocados corretamente, o que compromete a sobrevivência do animal. Isso também se aplica se os intestinos forem encontrados invertidos sem terem saído. Se os intestinos forem encontrados entre a pele e a carne e estiverem costurados, há suspeita de que saíram e se inverteram, tornando o animal terefá. Se não houver sinais de costura ou defeito, o animal é kasher.
+
+2. **Perfuração na membrana dos intestinos**: A membrana que envolve os intestinos, chamada "dara dekanata", se perfurada de um lado para o outro, não torna o animal terefá, pois a outra camada protege. Se a perfuração for para a gordura pura, ela sela a perfuração, mantendo o animal kasher.
+
+3. **Agulha nos intestinos**: Se uma agulha for encontrada nos intestinos, o animal é considerado terefá, pois há risco de perfuração.
+
+4. **Perfuração no "chalchulit" (reto)**: O reto, que é o último intestino, se perfurado em qualquer medida para a cavidade abdominal, torna o animal terefá. Se a perfuração ocorrer na parte aderida entre as coxas, o animal é kasher. Mesmo se essa parte for removida, o animal ainda é kasher, desde que reste uma largura mínima de quatro dedos em um boi grande, ajustando proporcionalmente para animais menores. Se houver uma perfuração nesses quatro dedos, há divergência: alguns proíbem qualquer perfuração, enquanto outros permitem até que a maior parte seja removida.
+
+5. **Aderências nos intestinos**: Se houver uma aderência nos intestinos ou em qualquer órgão cuja perfuração tornaria o animal terefá, e essa aderência se fixar em outro local, o animal é kasher, pois aderências são normalmente encontradas apenas nos pulmões. No entanto, deve-se ter cuidado, pois bolhas podem selar os intestinos, tornando o animal terefá. É necessário verificar com uma palha ou pena se estão selados.
+
+Essas leis são relevantes para garantir que a carne consumida siga as diretrizes kosher, que são fundamentais na prática judaica. Elas asseguram que o animal esteja saudável e que o processo de abate e inspeção respeite as tradições e normas religiosas.

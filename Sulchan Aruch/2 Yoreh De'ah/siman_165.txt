@@ -1,0 +1,22 @@
+SIMAN 165
+
+**Lei sobre o empréstimo em moeda e o aumento sobre ela. Contém um parágrafo:**
+
+1. Aquele que empresta ao seu amigo em moeda e houve um aumento no seu peso, se os preços das mercadorias caíram devido ao aumento, ele deve deduzir a quantidade do aumento, mesmo que o aumento tenha sido mínimo. E se não caíram devido ao aumento, ele não deduz, mas dá-lhe a moeda corrente naquele momento. Em que casos isso se aplica? Quando o aumento foi até um quinto, como se o peso fosse quatro e o tornaram cinco. Mas se o aumento foi mais de um quinto, ele deduz todo o aumento, mesmo que os preços das mercadorias não tenham caído. O mesmo se aplica ao empréstimo em moeda que foi diminuída. Nota: Veja em Choshen Mishpat, Siman 74, quando é possível devolver a moeda que foi emprestada, mesmo que tenha sido invalidada. E se os preços das mercadorias caíram devido à nova moeda e não houve aumento sobre ela, ele dá-lhe a nova moeda (Talmud). E quando uma nova moeda foi feita e não sabemos se aumentaram ou diminuíram um quinto, confiamos nos artesãos gentios que são peritos nisso e falam sem intenção de enganar, ou nas autoridades responsáveis por isso (Beit Yosef em nome de Sefer HaTerumot). E se o rei decretou que todos que pagarem devem pagar com a nova moeda, seguimos o decreto do rei, pois "a lei do reino é lei", e não há nisso nem usura nem proibição de roubo (Beit Yosef em nome de Ramban, e veja Siftei Kohen, subparágrafo 8). Veja também em Choshen Mishpat, Siman 74.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda as leis relacionadas a empréstimos em dinheiro e como lidar com mudanças no valor da moeda. Vamos explicar isso de forma prática:
+
+1. **Empréstimo em Moeda e Aumento de Valor**: Quando alguém empresta dinheiro a outra pessoa, pode acontecer de o valor da moeda mudar. Isso pode ocorrer se o governo decide alterar o peso ou o valor da moeda. Se a moeda emprestada aumenta de valor (por exemplo, se o governo decide que a moeda agora vale mais), e isso faz com que os preços das mercadorias caiam, o credor deve ajustar o valor do empréstimo para refletir esse aumento. Isso significa que ele deve devolver menos dinheiro, proporcional ao aumento do valor da moeda.
+
+2. **Limite de Ajuste**: Se o aumento no valor da moeda for de até um quinto (20%), o ajuste só é necessário se os preços das mercadorias caírem por causa desse aumento. Se o aumento for maior que um quinto, o ajuste deve ser feito independentemente de qualquer mudança nos preços das mercadorias.
+
+3. **Moeda Diminuída**: O mesmo princípio se aplica se a moeda diminuir de valor. Se a moeda emprestada perde valor, o ajuste deve ser feito de acordo com as mudanças.
+
+4. **Nova Moeda**: Se uma nova moeda é introduzida e não está claro se o valor aumentou ou diminuiu, podemos confiar em especialistas, como artesãos ou autoridades, que não têm intenção de enganar, para determinar o valor correto.
+
+5. **Decreto Real**: Se o governo decreta que todos os pagamentos devem ser feitos com a nova moeda, esse decreto deve ser seguido. Isso é baseado no princípio de que "a lei do reino é lei", o que significa que as leis civis do país são respeitadas, desde que não contradigam a lei judaica. Neste caso, seguir o decreto não é considerado usura (cobrança de juros proibida) nem roubo.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em situações de empréstimos e transações financeiras, onde mudanças econômicas podem afetar o valor do dinheiro. Elas garantem que as transações sejam justas e que nenhuma das partes seja prejudicada por flutuações no valor da moeda.

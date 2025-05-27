@@ -1,0 +1,62 @@
+SIMAN 44
+
+**Lei sobre a devolução do documento na última linha e como validar rasuras e adições. Contém 11 parágrafos:**
+
+1. É necessário repetir o conteúdo do documento na última linha, pois não se aprende da última linha (Tur). Isso porque as testemunhas não conseguem assinar imediatamente após o texto, e há o receio de que tenham deixado espaço para uma linha, permitindo que um falsificador escreva o que quiser. Se não for repetido, o documento não é invalidado, mas não se aprende da última linha.
+
+2. Nota: Diferente de algumas opiniões que dizem que o documento inteiro é inválido se não for feito conforme os sábios, mesmo sem razão para invalidá-lo (Tur em nome do Rosh e Tosafot). A regra de não aprender da última linha aplica-se quando há suspeita de falsificação, mas se a última linha for contra o portador do documento, aprende-se dela, pois certamente não foi falsificada (Nimukei Yosef em nome de Ritva e Rosh).
+
+3. Se o documento inteiro for escrito à mão por quem se comprometeu, aprende-se da última linha. Mas se o documento for de outra pessoa e o devedor assinar abaixo, não se aprende da última linha.
+
+4. Se o documento terminar no final de uma linha e as testemunhas assinarem no meio da segunda linha, não se aprende da metade da última linha nem da linha completa anterior. Nota: Se algo estiver escrito na metade da linha anterior e na linha anterior, e as testemunhas assinarem uma abaixo da outra, é válido. Mas se assinarem uma ao lado da outra, o documento é inválido, conforme discutido no Siman 45, parágrafo 10.
+
+5. Quando está escrito "válido e confirmado", aprende-se da última linha (e não é necessário repetir o conteúdo do documento na última linha) (Tur).
+
+6. Se houver rasuras, adições ou palavras riscadas no documento, é necessário validá-las antes de declarar "tudo é válido e confirmado". Não é necessário escrever "e a validação é conforme a lei" (Mordechai e Tosafot). Se não forem validadas, não invalidam o documento, mas não se aprende delas. Nota: Alguns dizem que se houver uma rasura não validada, o documento inteiro é inválido, pois pode ter sido uma obrigação para o portador do documento que foi apagada, a menos que o documento prove o que foi apagado (Tur e Nimukei Yosef).
+
+7. Se as rasuras estiverem no corpo do documento, ou seja, o nome do devedor, do credor e o valor, o documento é inválido se não forem validadas. Se estiverem na data e não forem validadas, é como um documento sem data.
+
+8. Um documento com uma rasura na parte de trás ou entre as linhas, onde é costume escrever o pagamento, é válido, mas deve-se pressionar o portador do documento. Alguns invalidam.
+
+9. Alguns dizem que as rasuras devem ser validadas com a mesma escrita do documento e não com uma escrita mais fina.
+
+10. Se a rasura estiver em uma linha próxima à última e for do tamanho de "válido e confirmado" ou maior, mesmo que seja validada, é inválida, pois pode ter sido apagada e algo falsificado foi escrito no espaço entre o texto e as testemunhas. Isso se aplica quando não há espaço de uma linha entre as testemunhas e o documento, pois pode-se suspeitar que algo foi adicionado nesse espaço. Mas se houver espaço de uma linha, é válido, e não se suspeita que deixaram espaço para duas linhas e adicionaram o que quiseram, restando ainda uma linha de espaço. Isso se aplica quando as testemunhas são conhecidas por saberem, caso contrário, suspeita-se.
+
+11. Atualmente, é costume escrever a validação de rasuras e adições após "e adquirimos", pois agora é comum escrever "válido e confirmado" em todos os documentos, o que impede falsificações, e aprende-se da última linha sem precisar repetir o conteúdo do documento. Portanto, um documento sem "válido e confirmado" é inválido, e as testemunhas não devem assinar a menos que esteja escrito "válido e confirmado". Se estiver escrito duas vezes "válido e confirmado", é válido (mas inicialmente não deve ser feito assim) (Responsa do Rosh, Clal 68, Siman 18).
+
+12. Um documento que tem "validado" sobre uma rasura e foi verificado letra por letra, e não foram encontradas essas duas letras, é válido.
+
+13. Um documento com rasuras e as testemunhas esqueceram de validá-las no final do documento, mas escreveram "válido e confirmado", e uma testemunha assinou. Antes que a segunda assinasse, perceberam que não validaram as rasuras. A correção para este documento é escrever: "Nós, as testemunhas, após uma de nós ter assinado, antes de validarmos tais e tais rasuras que estão nele, validamos conforme necessário, e tudo é válido e confirmado", e então ambas devem assinar novamente. Nota: Certamente, se algo estiver escrito abaixo da assinatura das testemunhas e elas assinarem novamente, é válido (Mordechai, Perek Gittin).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 44 do Shulchan Aruch Choshen Mishpat trata de regras específicas sobre como documentos legais devem ser escritos e validados para garantir sua autenticidade e evitar falsificações. Vamos explicar isso de forma prática:
+
+1. **Repetição na Última Linha**: Quando um documento é escrito, é importante repetir o conteúdo na última linha. Isso é feito para evitar que alguém adicione informações falsas após o texto original, já que as testemunhas não assinam imediatamente após o texto. Se não for repetido, o documento ainda é válido, mas não se pode confiar no que está escrito na última linha.
+
+2. **Validade do Documento**: Algumas opiniões dizem que se o documento não seguir exatamente as regras dos sábios, ele pode ser considerado inválido. No entanto, se a última linha for contra quem está segurando o documento, presume-se que não foi falsificada.
+
+3. **Documentos Escritos à Mão**: Se a pessoa que deve algo escreve o documento à mão, a última linha é confiável. Mas se outra pessoa escreve e o devedor apenas assina, a última linha não é confiável.
+
+4. **Assinaturas das Testemunhas**: Se as testemunhas assinam em uma linha abaixo do texto, não se pode confiar na última linha do texto. A forma como as testemunhas assinam (uma abaixo da outra ou lado a lado) também afeta a validade.
+
+5. **"Válido e Confirmado"**: Se o documento inclui a frase "válido e confirmado", a última linha é confiável sem precisar repetir o conteúdo.
+
+6. **Rasuras e Adições**: Se houver rasuras ou adições no documento, elas precisam ser validadas antes de se declarar o documento como "válido e confirmado". Se não forem validadas, não se pode confiar nelas, mas o documento ainda pode ser válido.
+
+7. **Rasuras em Partes Importantes**: Se as rasuras estão em partes cruciais, como nomes ou valores, o documento é inválido sem validação. Se a rasura está na data, é como se o documento não tivesse data.
+
+8. **Rasuras em Outras Partes**: Rasuras em partes menos importantes, como no verso do documento, podem ser aceitas, mas o portador do documento pode ser questionado.
+
+9. **Validação de Rasuras**: A validação deve ser feita com a mesma escrita do documento original.
+
+10. **Espaço para Falsificação**: Se houver espaço suficiente para adicionar texto entre o documento e as assinaturas, pode-se suspeitar de falsificação, a menos que haja uma linha de espaço.
+
+11. **Prática Atual**: Hoje em dia, é comum incluir "válido e confirmado" em todos os documentos, o que ajuda a prevenir falsificações. Documentos sem essa frase são considerados inválidos.
+
+12. **Verificação de Rasuras**: Se um documento foi verificado e não foram encontradas letras faltando, ele é válido.
+
+13. **Correção de Erros**: Se as testemunhas esquecerem de validar rasuras, mas já assinaram, elas podem corrigir isso escrevendo uma declaração adicional e assinando novamente.
+
+Essas regras são importantes para garantir que documentos legais sejam confiáveis e não possam ser facilmente alterados ou falsificados. Na prática, isso significa que ao lidar com documentos legais, especialmente em contextos judaicos, é crucial seguir essas diretrizes para assegurar sua validade e autenticidade.

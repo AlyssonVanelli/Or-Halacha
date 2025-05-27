@@ -1,0 +1,39 @@
+SIMAN 379
+
+**Lei sobre pátios e casas entre eles. Contém 2 seções:**
+
+1. Dois pátios e três casas entre eles, abertas umas para as outras, desejam fazer um eruv juntos. Um pátio vem através da casa ao lado dele e coloca seu eruv na casa do meio. Da mesma forma, o segundo pátio faz o mesmo, e todos são permitidos em todos os três, pois cada casa ao lado do pátio é considerada como um beit sha'ar (casa de passagem) e não precisa colocar pão. A casa do meio é onde o eruv é colocado, e não precisa colocar pão.
+
+2. Dois pátios e duas casas entre eles, e não fizeram um eruv juntos, mas cada um por si. Um vem de seu pátio através da casa ao lado dele e coloca seu eruv na casa ao lado do outro. O segundo faz o mesmo, colocando seu eruv na casa próxima ao outro pátio. Não adquiriram o eruv, pois cada um colocou seu eruv na beit sha'ar do outro pátio.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 379 do Shulchan Aruch Orach Chayim, precisamos primeiro explicar alguns conceitos básicos:
+
+1. **Eruv**: É uma prática judaica que permite que os judeus carreguem objetos em espaços públicos durante o Shabat, algo que normalmente não é permitido. O eruv cria uma "fronteira" simbólica que transforma áreas públicas em uma extensão do espaço privado.
+
+2. **Pátio (Chatzer)**: Refere-se a um espaço comum compartilhado por várias casas ou apartamentos. No contexto do eruv, os moradores de um pátio precisam se unir para criar um eruv comum.
+
+3. **Beit Sha'ar**: Literalmente "casa de passagem", refere-se a uma área que serve principalmente como passagem, como um corredor ou uma entrada, e não como um espaço de habitação.
+
+Agora, vamos explicar as duas seções mencionadas:
+
+### Seção 1:
+Imagine dois pátios, cada um com várias casas, e entre esses pátios há três casas alinhadas. Os moradores desses pátios querem criar um eruv conjunto para que possam carregar objetos entre suas casas e pátios durante o Shabat.
+
+- **Como funciona**: Cada pátio usa uma das casas ao lado como passagem para chegar à casa do meio, onde o eruv é colocado. As casas ao lado são consideradas "casas de passagem" (beit sha'ar) e, portanto, não precisam contribuir com pão para o eruv. O pão é um símbolo usado para criar o eruv, representando a união dos espaços.
+
+- **Resultado**: Todos os moradores podem usar livremente os três pátios e casas, pois o eruv foi estabelecido corretamente na casa do meio.
+
+### Seção 2:
+Agora, imagine a mesma configuração, mas com apenas duas casas entre os pátios, e cada pátio tenta fazer seu próprio eruv separadamente.
+
+- **Como funciona**: Cada pátio coloca seu eruv na casa ao lado do outro pátio, usando a casa ao lado como uma passagem.
+
+- **Problema**: Como cada pátio colocou seu eruv na casa de passagem do outro, o eruv não é válido. Isso ocorre porque uma casa de passagem não é um local adequado para colocar o eruv, já que não é considerada um espaço de habitação.
+
+### Relevância Prática:
+Na vida judaica contemporânea, especialmente em comunidades onde muitos judeus vivem próximos, o conceito de eruv é muito importante. Ele permite que as pessoas carreguem itens essenciais, como chaves ou carrinhos de bebê, durante o Shabat. Entender como configurar corretamente um eruv é crucial para garantir que ele seja válido e que as atividades permitidas possam ser realizadas sem violar as leis do Shabat.
+
+Essas leis, embora possam parecer técnicas, garantem que a prática do eruv seja feita de maneira que respeite as tradições e regras judaicas, promovendo a harmonia e a cooperação entre os membros da comunidade.

@@ -1,0 +1,30 @@
+SIMAN 393
+
+**Leis de Eruv em Yom Tov que cai na véspera de Shabat e a lei do crepúsculo. Contém três seções:**
+
+1. Não se faz eruv de pátios e parcerias de becos em Yom Tov que cai na sexta-feira. Se alguém esqueceu e não fez o eruv antes de Yom Tov, e há dois dias de Yom Tov na quinta e sexta-feira, pode-se fazer o eruv em Yom Tov com a condição de dizer: "Se hoje é um dia comum, este será o eruv, e se hoje é sagrado, minhas palavras não têm efeito." No dia seguinte, deve-se dizer: "Se hoje é sagrado, então eu já fiz o eruv ontem, e se hoje é comum, este será o eruv." Isso se aplica aos dois dias de Yom Tov na diáspora, mas não aos dois dias de Rosh Hashaná, pois são considerados como um único dia prolongado (veja adiante no Siman 668).
+
+2. Tanto o eruv de pátios quanto a parceria de becos podem ser feitos durante o crepúsculo, mesmo que já se tenha aceitado a adição do Shabat. No entanto, há quem proíba se a adição do Shabat já foi aceita.
+
+3. Se alguém fez eruv para dois, um antes do pôr do sol e o eruv foi consumido durante o crepúsculo, e para o outro fez o eruv durante o crepúsculo, ambos adquiriram o eruv. Para aquele cujo eruv foi consumido durante o crepúsculo, consideramos como noite, e para aquele que colocou o eruv durante o crepúsculo, consideramos como dia. Mas se fez o eruv durante o crepúsculo e o eruv foi consumido durante o crepúsculo, é proibido.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis discutidas no Siman 393 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite carregar objetos em áreas públicas durante o Shabat e Yom Tov (dias festivos judaicos), algo que normalmente seria proibido. Existem diferentes tipos de eruv, como o "eruv de pátios" e a "parceria de becos", que são arranjos específicos para permitir o transporte em áreas compartilhadas.
+
+2. **Yom Tov**: Dias festivos judaicos que têm algumas leis semelhantes ao Shabat, mas com certas permissões adicionais, como cozinhar.
+
+3. **Crepúsculo**: O período entre o pôr do sol e o aparecimento das estrelas. É um tempo incerto em termos de definição haláchica, pois não é claramente dia nem noite.
+
+Agora, vamos explicar cada seção:
+
+1. **Eruv em Yom Tov que cai na sexta-feira**: Quando Yom Tov cai na sexta-feira, não se deve fazer o eruv nesse dia. No entanto, se alguém esqueceu de fazer o eruv antes de Yom Tov, há uma solução para os dois dias de Yom Tov na diáspora (fora de Israel). A pessoa pode fazer o eruv com uma condição: se o primeiro dia é um dia comum, o eruv é válido; se é sagrado, não é. No segundo dia, a pessoa repete o processo, cobrindo assim ambas as possibilidades. Isso não se aplica ao Rosh Hashaná, que é considerado um único dia prolongado.
+
+2. **Eruv durante o crepúsculo**: É permitido fazer o eruv durante o crepúsculo, mesmo que a pessoa já tenha aceitado o Shabat, que é o período de descanso semanal judaico. No entanto, há opiniões que proíbem isso se o Shabat já foi aceito formalmente.
+
+3. **Eruv consumido durante o crepúsculo**: Se alguém fez um eruv antes do pôr do sol e ele foi consumido durante o crepúsculo, e para outro eruv foi feito durante o crepúsculo, ambos são considerados válidos. Para o primeiro, o crepúsculo é considerado como noite, e para o segundo, como dia. Mas se o eruv foi feito e consumido durante o crepúsculo, ele não é válido.
+
+Essas leis são relevantes para garantir que as práticas de Shabat e Yom Tov sejam observadas corretamente, permitindo que as comunidades judaicas carreguem objetos em áreas públicas de acordo com a halachá. Elas também mostram a complexidade e a flexibilidade da lei judaica em lidar com situações práticas do dia a dia.

@@ -1,0 +1,40 @@
+SIMAN 47
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 47):**
+
+**Aquele que alega que o documento é de confiança ou quitado. Contém 2 seções:**
+
+1. Um credor que afirma sobre um documento em sua posse que é um documento de confiança ou que está quitado, se ele deve a outros e não tem de onde pagar a não ser com este documento, e está escrito nele uma cláusula de confiança, e o documento foi confirmado no Beit Din (tribunal rabínico) ou está nas mãos de um terceiro, ele não é acreditado. Mesmo que no momento de sua admissão não se soubesse que ele devia a outros, e isso foi descoberto posteriormente, ele não é acreditado, pois isso prejudicaria outros. Mesmo que ele também perca a si mesmo, como no caso em que o documento é de duzentos e ele deve a outros apenas cem, ele não é acreditado. Se, após ter dito que o documento é de confiança, ele pagou seu credor e veio cobrar o documento do devedor, verificamos: se quando seu credor veio cobrar com este documento ele disse que o documento é de confiança, então certamente sua intenção era apenas adiar seu credor (e ele pode voltar a cobrar com ele). Mas se ele admitiu por si mesmo, sem a cobrança do credor, que o documento é de confiança, ele não pode voltar a cobrar com ele.
+
+2. Se o credor disse: "Este documento é verdadeiro, pois o devedor instruiu as testemunhas a escreverem no documento mil dinares, mas ele confiou em mim que eu só cobraria quinhentos dinares", o documento é válido. Mas se ele diz que as testemunhas erraram ao escrever mil dinares, então o documento é como um caco de barro, e mesmo que haja uma cláusula de confiança no documento, o devedor faz um juramento de heset e é liberado. (E se ele diz sobre um documento em sua posse que pertence a outros, veja mais adiante no Siman 99).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 47 do Shulchan Aruch Choshen Mishpat, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Documento de confiança**: Este é um documento que, embora pareça ser uma prova de dívida, foi criado com a intenção de não ser usado para cobrança imediata. Pode ser uma forma de garantir que o devedor pague, mas com a confiança de que o credor não cobrará até que seja necessário.
+
+2. **Quitado**: Significa que a dívida foi paga e, portanto, o documento não deve mais ser usado para cobrar o devedor.
+
+3. **Beit Din**: É um tribunal rabínico que decide questões de acordo com a lei judaica.
+
+Agora, vamos explicar as duas seções do Siman 47:
+
+### Seção 1:
+
+- **Credor e Documento de Confiança**: Se um credor tem um documento que diz que alguém lhe deve dinheiro, mas ele afirma que o documento é apenas de confiança (ou seja, não é para ser cobrado imediatamente) ou que a dívida já foi paga, ele não pode ser acreditado automaticamente. Isso é especialmente verdade se ele deve dinheiro a outras pessoas e não tem como pagar, exceto usando esse documento. Se o documento foi confirmado por um Beit Din ou está nas mãos de um terceiro, ele não pode simplesmente alegar que o documento é de confiança ou quitado, pois isso poderia prejudicar outros credores que dependem desse documento para receber o que lhes é devido.
+
+- **Admissão Posterior**: Mesmo que o credor só admita que o documento é de confiança depois que se descobre que ele deve a outros, ele ainda não é acreditado. Isso é para proteger os direitos dos outros credores.
+
+- **Perda Pessoal**: Mesmo que o credor perca pessoalmente, como quando o documento é de um valor maior do que ele deve a outros, ele ainda não pode alegar que o documento é de confiança.
+
+- **Cobrança e Admissão**: Se o credor paga sua dívida e depois tenta cobrar o documento do devedor, precisamos verificar as circunstâncias. Se ele disse que o documento era de confiança apenas para adiar seu credor, ele pode tentar cobrar novamente. Mas se ele admitiu por conta própria que o documento era de confiança, sem pressão de um credor, ele não pode usá-lo para cobrar.
+
+### Seção 2:
+
+- **Valor do Documento**: Se o credor diz que o documento é verdadeiro, mas que o devedor instruiu as testemunhas a escreverem um valor maior do que o realmente devido, o documento ainda é válido. Isso significa que o credor pode cobrar o valor correto que foi acordado.
+
+- **Erro das Testemunhas**: Se o credor alega que as testemunhas cometeram um erro ao escrever o valor no documento, então o documento é considerado inválido, como um "caco de barro". Mesmo que haja uma cláusula de confiança, o devedor pode fazer um juramento de heset (um tipo de juramento para resolver disputas) e ser liberado da dívida.
+
+Essas leis são relevantes na vida judaica contemporânea, pois tratam de questões de honestidade e confiança em transações financeiras. Elas garantem que os direitos de todas as partes envolvidas sejam protegidos e que os documentos financeiros sejam tratados com seriedade e precisão.

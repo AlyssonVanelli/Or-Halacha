@@ -1,0 +1,26 @@
+SIMAN 352
+
+**O leitor de um livro que rolou de um domínio para outro. Contém dois parágrafos:**
+
+1. Se alguém está lendo um livro na soleira da porta e uma extremidade do livro rola de sua mão, enquanto a outra extremidade permanece em sua mão, ele pode enrolá-lo de volta para si, mesmo que tenha rolado para além de quatro côvados, e mesmo que esteja em domínio público enquanto a soleira está em domínio privado. Isso é permitido devido à desonra que seria causada aos escritos sagrados. 
+
+   Nota: Isso se aplica especificamente aos escritos sagrados, mas em relação a outros escritos, é proibido, mesmo que tenha caído apenas em um carmelit (um tipo de domínio semi-público). [Fonte: Maguid Mishneh capítulo 15 e Rashba]
+
+2. Se alguém estava lendo no telhado e uma extremidade do livro rolou de sua mão, mas não chegou a menos de dez tefachim (aproximadamente 80 cm) do chão, ele pode enrolá-lo de volta para si. Se chegou a menos de dez tefachim e a parede está inclinada de forma que o livro repousa sobre ela, é proibido enrolá-lo de volta. Para evitar desonra, ele deve virar o lado escrito para baixo. Se a parede não estiver inclinada, enquanto não chegar ao chão, ele pode enrolá-lo de volta para si.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda uma situação específica que pode ocorrer durante o Shabat, o dia de descanso judaico, quando certas atividades são restritas. Vamos explicar os conceitos e a aplicação prática dessas leis:
+
+1. **Contexto Geral**: No Shabat, há restrições sobre mover objetos entre diferentes tipos de domínios, como de um espaço privado para um espaço público. Isso se baseia nas leis de "carregar" no Shabat, que são uma das 39 categorias de trabalho proibidas.
+
+2. **Cenário 1 - Soleira da Porta**: Imagine que você está lendo um livro sagrado (como um rolo da Torá ou outro texto religioso) enquanto está sentado na soleira da porta de sua casa. Se parte do livro escorregar de sua mão e cair para fora, mas você ainda estiver segurando uma parte dele, você pode puxá-lo de volta, mesmo que tenha caído em um espaço público. Isso é permitido para evitar a desonra dos escritos sagrados, que são tratados com grande respeito.
+
+   - **Escritos Sagrados vs. Outros Escritos**: Esta permissão se aplica apenas a textos sagrados. Se fosse um livro comum, não seria permitido puxá-lo de volta se ele caísse em um espaço semi-público (chamado de "carmelit").
+
+3. **Cenário 2 - Telhado**: Se você está lendo no telhado e parte do livro escorrega, mas não chega a menos de 80 cm do chão, você pode puxá-lo de volta. No entanto, se ele chegar a menos de 80 cm e a parede estiver inclinada, de modo que o livro esteja apoiado nela, você não pode puxá-lo de volta. Para evitar desonra, você deve virar o lado escrito para baixo.
+
+   - **Parede Inclinada vs. Não Inclinada**: Se a parede não estiver inclinada e o livro ainda não tiver tocado o chão, você pode puxá-lo de volta. A inclinação da parede faz diferença porque pode ser vista como um suporte, mudando a situação halachica.
+
+**Relevância Prática**: Essas leis refletem a importância de tratar textos sagrados com respeito, mesmo em situações que envolvem as complexas leis de Shabat. Na prática, isso ensina a importância de cuidar dos objetos sagrados e de estar ciente das regras de Shabat, mesmo em situações aparentemente simples.

@@ -1,0 +1,51 @@
+SIMAN 222
+
+**Dois discordam sobre uma transação e outras reivindicações entre o vendedor e o comprador. Contém quatro seções:**
+
+1. O proprietário da mercadoria é confiável para dizer "a este vendi e a este não vendi" quando a mercadoria está em sua posse. No entanto, se a mercadoria não está em sua posse, ele é considerado apenas como uma única testemunha, e seu testemunho é tratado como o de qualquer outra pessoa, pois ele não tem interesse pessoal em seu testemunho. (Não importa se ele recebeu dinheiro de um ou de dois, e disse que um deles pagou contra sua vontade. Portanto, se ele recebeu dinheiro de dois, um voluntariamente e outro contra sua vontade, e não sabe de quem recebeu voluntariamente e de quem contra sua vontade, seja a mercadoria em sua posse ou ambos a segurando, não há testemunho válido. Cada um jura conforme a estipulação dos sábios com um objeto sagrado e recebe metade da mercadoria e metade do dinheiro).
+
+2. Se alguém compra de um entre cinco indivíduos, e cada um deles reivindica ser o vendedor, e o comprador não sabe de quem comprou, ele deve deixar o dinheiro da transação entre eles e se retirar. O dinheiro deve ser deixado no tribunal até que eles concordem ou até que o profeta Elias venha. Se ele for um homem piedoso, ele paga a cada um para cumprir sua obrigação celestial.
+
+3. Se alguém comprou de um entre cinco indivíduos e negou, jurando falsamente, e depois se arrependeu e deseja pagar, e cada um reivindica ser aquele a quem ele negou e jurou falsamente, e ele diz que não sabe, ele é obrigado a pagar a cada um, pois cometeu uma transgressão.
+
+4. Se alguém reivindica que seu amigo lhe vendeu algo e o outro nega, ou diz que vendeu mas não recebeu o pagamento, ou o comprador afirma que pagou mas ainda não retirou a mercadoria, ou que retirou mas não viu o objeto, e o vendedor diz que o informou, ou um deles diz que havia uma condição entre eles e o outro nega, em todas essas reivindicações e similares, quem deseja retirar algo de seu amigo deve trazer prova. Se não houver prova, o negador jura o juramento de heset. Se ele admitir parte da reivindicação ou houver uma única testemunha contra ele, ele jura o juramento da Torá, como em todas as outras reivindicações. (Nota: Há quem escreva que se alguém diz "vendi um campo e não sei a quem", e alguém vem e diz "eu sou o comprador", ele é confiável).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 222 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho aborda disputas comerciais entre vendedores e compradores, algo que pode acontecer em qualquer sociedade. As leis aqui discutidas são sobre como resolver essas disputas de maneira justa, de acordo com a lei judaica.
+
+### Seção 1: Confiabilidade do Proprietário
+
+- **Situação**: Quando há uma disputa sobre quem comprou um item, e o item ainda está com o vendedor.
+- **Regra**: O vendedor é considerado confiável para dizer a quem ele vendeu, desde que o item ainda esteja com ele. Se o item não está mais com ele, ele é tratado como qualquer outra testemunha, sem vantagem especial.
+- **Exemplo Prático**: Se você vendeu um carro e ainda está com você, sua palavra sobre quem comprou é confiável. Se o carro já foi entregue, sua palavra é apenas uma entre outras.
+
+### Seção 2: Compra de Vários Vendedores
+
+- **Situação**: Um comprador comprou de um grupo de pessoas, mas não sabe de quem exatamente.
+- **Regra**: O comprador deve deixar o dinheiro com o tribunal até que os vendedores concordem entre si ou até que haja uma solução clara.
+- **Exemplo Prático**: Se você comprou um item em um mercado de pulgas de um grupo de vendedores e não lembra de quem, você deixa o pagamento com uma autoridade até que a situação seja resolvida.
+
+### Seção 3: Arrependimento Após Juramento Falso
+
+- **Situação**: Alguém comprou de um grupo, negou a compra sob juramento, mas depois se arrependeu e quer pagar.
+- **Regra**: Ele deve pagar a cada um dos vendedores, pois cometeu um erro moral ao jurar falsamente.
+- **Exemplo Prático**: Se você negou ter comprado algo e depois percebeu que estava errado, deve compensar todos os possíveis vendedores.
+
+### Seção 4: Disputas sobre Transações
+
+- **Situação**: Disputas sobre se um item foi vendido, pago, ou se havia condições na venda.
+- **Regra**: Quem quer provar que algo foi vendido ou pago deve trazer provas. Se não houver provas, a pessoa que nega a reivindicação deve fazer um juramento.
+- **Exemplo Prático**: Se você diz que pagou por um serviço e o prestador nega, você precisa de um recibo ou testemunha. Sem isso, o prestador pode jurar que não recebeu.
+
+### Nota Final
+
+- **Situação**: Se alguém diz que vendeu um campo mas não lembra para quem, e alguém se apresenta como comprador, essa pessoa é considerada confiável.
+- **Exemplo Prático**: Se você vendeu um terreno e esqueceu para quem, e alguém diz que comprou, você pode confiar nessa pessoa.
+
+Essas regras ajudam a manter a justiça e a confiança nas transações comerciais, essenciais para a vida comunitária e econômica.

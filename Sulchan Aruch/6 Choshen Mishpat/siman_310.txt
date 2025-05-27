@@ -1,0 +1,32 @@
+SIMAN 310
+
+**Siman 310: O locatário do jumento que ficou cego, morreu ou quebrou. Contém três seções:**
+
+1. O locatário de um animal que adoeceu (mas ainda é apto para o trabalho) ou enlouqueceu, ou foi levado para o serviço do rei, mesmo que não haja expectativa de retorno, se foi levado enquanto caminhava, o locador pode dizer ao locatário: "Aqui está o seu animal", e ele deve pagar o aluguel completo. Isso se aplica quando o animal foi alugado para carregar carga que pode ser removida sem preocupação. No entanto, se foi alugado para montar ou para carregar objetos frágeis, como vidro, o locador deve fornecer outro animal. Se não o fizer, deve devolver o aluguel e ajustar o pagamento pelo uso que foi feito do animal.
+
+2. Se o animal morreu ou quebrou, seja alugado para carga ou para montar, se o locador disse "um jumento qualquer eu alugo para você", ele deve fornecer outro animal. Se não fornecer, o locatário pode vender o animal e comprar outro com o dinheiro. Se o valor não for suficiente para comprar outro animal, ele pode alugar outro até chegar ao destino acordado.
+
+3. Se o locador disse "este jumento eu alugo para você" e foi alugado para montar ou carregar vidro, e morreu no meio do caminho, se o valor do animal for suficiente para comprar outro, ele deve fazê-lo. Se não for suficiente, ele pode alugar outro, mesmo que custe o valor total do animal, até chegar ao destino. Se não houver valor suficiente nem para comprar nem para alugar, o locador paga pelo uso até a metade do caminho, e o locatário não tem mais do que uma queixa contra ele. Se foi alugado para carga, já que o locador disse "este jumento", e morreu no meio do caminho, ele não precisa fornecer outro, mas paga pelo uso até a metade do caminho e deixa o cadáver com o locatário. Há quem discorde e diga que mesmo se alugado para carga, a regra é como se fosse para montar. E quando dizemos que ele paga pelo uso até a metade do caminho, é porque o locatário pode vender sua mercadoria lá ou alugar outro jumento até o destino desejado, mas se não for assim, ele não paga nada pelo uso, pois não lhe trouxe benefício.
+
+**Caso de Reuven que alugou seu animal por dois dias para ir e voltar, e no segundo dia, ao retornar, o rio cresceu e ele teve que esperar um dia:**
+
+Se foi alugado por dias, é claro que ele deve pagar o aluguel por cada dia. Se foi alugado para um determinado local e para voltar, ou por dois dias mencionando o local desejado, e o rio o atrasou, se o rio não costuma crescer, a perda é do dono do animal. Se o rio costuma crescer e o locatário conhece a situação do rio, mas o locador não, a perda é do locatário. Se ambos sabiam, a perda é do dono do animal. As despesas de alimentação do animal e o aluguel têm a mesma regra.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 310 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de questões legais relacionadas ao aluguel de animais, que era uma prática comum no passado, especialmente para transporte de carga e pessoas. Vamos explicar cada seção de forma prática:
+
+1. **Aluguel de um animal que adoeceu ou foi requisitado pelo rei:**
+   - Se você aluga um animal e ele adoece, mas ainda pode trabalhar, ou é requisitado para serviço do rei, o dono do animal pode simplesmente devolvê-lo a você e cobrar o aluguel completo. Isso é válido se o animal foi alugado para carregar coisas que podem ser facilmente removidas, como sacos de grãos. Mas se o animal foi alugado para montar ou carregar itens frágeis, como vidro, o dono deve fornecer outro animal. Se não puder, ele deve devolver parte do aluguel, ajustando pelo uso que você já fez do animal.
+
+2. **Animal que morreu ou quebrou:**
+   - Se o animal morre ou se machuca gravemente, e o dono disse que alugaria "qualquer jumento", ele deve fornecer outro. Se não puder, você pode vender o animal danificado e usar o dinheiro para comprar ou alugar outro até chegar ao seu destino. Se o dono especificou "este jumento" e ele morre no caminho, você pode usar o valor do animal para comprar ou alugar outro, mas se o valor não for suficiente, o dono paga pelo uso até a metade do caminho.
+
+3. **Especificidades do contrato de aluguel:**
+   - Se o contrato especifica "este jumento" e ele foi alugado para montar ou carregar vidro, e o animal morre, o dono deve ajudar a cobrir os custos de substituição até o destino. Se foi alugado para carga comum e o animal morre, o dono não precisa fornecer outro, mas paga pelo uso até a metade do caminho. Isso é porque o locatário pode vender sua carga ou alugar outro animal para continuar. Se não houver benefício, o dono não paga nada.
+
+**Caso especial de atraso devido a um rio:**
+- Se você aluga um animal para uma viagem de ida e volta e é atrasado por um rio que cresceu, o pagamento depende do contrato e do conhecimento prévio sobre o rio. Se o rio não costuma crescer, a perda é do dono do animal. Se o rio costuma crescer e você sabia disso, mas o dono não, a perda é sua. Se ambos sabiam, a perda é do dono. As despesas de alimentação do animal seguem a mesma lógica.
+
+Essas regras refletem a importância de acordos claros e a consideração de circunstâncias imprevistas, algo que ainda é relevante em contratos modernos, mesmo que o contexto tenha mudado.

@@ -1,0 +1,50 @@
+SIMAN 142
+
+**Lei sobre o apoio do contestador ao possuidor em sua posse e se o apoio foi por engano. Contém três seções:**
+
+1. Embora não haja posse estabelecida em menos de três anos, se o possuidor trouxer testemunhas de que o contestador levantou uma cesta de frutas deste campo sobre o ombro do possuidor para levá-las à casa do possuidor para si mesmo, isso constitui posse imediatamente. Nota: Alguns dizem que o mesmo se aplica se o possuidor enviar um presente ao contestador das frutas que está consumindo e ele as aceitar, isso constitui posse imediatamente, pois se a terra fosse dele, ele não deveria aceitá-las como presente, mas sim tomar tudo (Tur em nome de R"Ch).
+
+2. Daqui se aprende que se Reuven e Shimon têm uma disputa conjunta sobre a posse de um assentamento, e Reuven compra de Shimon a posse por um ano, o assentamento pertence a Shimon, pois se a posse fosse de Reuven, ele não compraria de Shimon por um ano. O mesmo se aplica a todos os casos semelhantes (Mordechai no final do capítulo "Chazakat"). O mesmo se aplica se ele alugou dele, conforme mencionado adiante no Siman 147.
+
+3. Se o contestador alegar que ele o desceu para as frutas e que as frutas eram dele, mas não vendeu o corpo da terra, ele é acreditado e não há posse nisso. Isso se aplica dentro de três anos, mas se ele alegar após três anos que ele o desceu para as frutas, não se dá ouvidos a ele. Portanto, se ele o desceu para as frutas, ele deve protestar dentro de três anos para informar que ele o desceu para as frutas.
+
+4. Se a parede entre Reuven e Shimon cair, e Reuven reconstruir a parede e a colocar dentro do limite de Shimon por engano, não reconhecendo o local original da parede, mesmo que Shimon tenha ajudado na construção, isso não constitui posse para manter o que foi tomado do limite de Shimon, pois o apoio foi por engano. No entanto, se Shimon, o ajudante, admitir que sabia que Reuven colocou dentro de sua propriedade, isso constitui posse, mesmo que Reuven, o construtor, não soubesse, e ele adquire o local que colocou dentro da propriedade de Shimon imediatamente.
+
+5. Se Reuven abrir uma janela para o pátio de Shimon na presença dele, alguns dizem que isso não constitui posse, mesmo que ele tenha ajudado a abri-la. De acordo com o Rambam, uma vez que o prejudicado sabia da abertura da janela e não protestou, ele não pode voltar e contestar.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 142 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho do Shulchan Aruch trata de questões de posse de terras e propriedades. Em termos simples, ele discute como se determina quem é o verdadeiro dono de uma propriedade quando há disputas, e como certas ações podem ou não estabelecer posse legal.
+
+### Seção 1: Posse Imediata
+
+- **Posse de Três Anos**: Normalmente, para alguém ser considerado o dono de uma terra, ele precisa ter posse dela por três anos. Isso significa que ele deve usar a terra de forma contínua e pública durante esse tempo.
+- **Exceção com Testemunhas**: Se alguém (o possuidor) puder provar que a outra pessoa (o contestador) reconheceu sua posse de alguma forma, como ajudando a levar frutas da terra para a casa do possuidor, isso pode estabelecer posse imediata. A ideia é que, se o contestador realmente achasse que a terra era dele, ele não ajudaria dessa forma.
+- **Presente de Frutas**: Se o possuidor dá frutas da terra como presente ao contestador e este aceita, isso também pode ser visto como reconhecimento de posse, pois se a terra fosse do contestador, ele não aceitaria as frutas como presente.
+
+### Seção 2: Disputas de Posse
+
+- **Compra de Posse**: Se duas pessoas disputam a posse de uma propriedade e uma delas paga à outra para usar a terra por um ano, isso sugere que a terra pertence à pessoa que recebeu o pagamento. A lógica é que, se a terra fosse do pagador, ele não precisaria pagar para usá-la.
+- **Aluguel**: O mesmo raciocínio se aplica se a pessoa aluga a terra.
+
+### Seção 3: Alegações de Frutas
+
+- **Alegação de Frutas**: Se o contestador diz que ele só permitiu que o possuidor usasse a terra para colher frutas, mas não vendeu a terra em si, ele é acreditado, mas apenas dentro de três anos. Após três anos, essa alegação não é mais válida, a menos que ele tenha protestado antes.
+
+### Seção 4: Construção de Muro
+
+- **Erro na Construção**: Se um muro entre duas propriedades cai e é reconstruído no lugar errado por engano, isso não dá posse ao construtor, mesmo que o outro proprietário tenha ajudado. A ajuda foi por engano, então não conta como reconhecimento de posse.
+- **Admissão de Conhecimento**: Se o proprietário que ajudou admite que sabia do erro e não protestou, isso pode dar posse ao construtor.
+
+### Seção 5: Abertura de Janela
+
+- **Janela no Pátio**: Se alguém abre uma janela para o pátio do vizinho e o vizinho não protesta, isso não necessariamente estabelece posse. No entanto, segundo o Rambam, se o vizinho sabia e não protestou, ele não pode reclamar depois.
+
+### Relevância Prática
+
+Essas leis são importantes para resolver disputas de propriedade de forma justa e clara. Elas ajudam a determinar quem tem direitos sobre uma terra ou propriedade, baseando-se em ações e comportamentos das partes envolvidas. Na vida contemporânea, essas regras podem ser aplicadas em contextos de disputas de terras, propriedades e até mesmo em questões de vizinhança.

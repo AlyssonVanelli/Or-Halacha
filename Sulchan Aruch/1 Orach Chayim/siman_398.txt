@@ -1,0 +1,56 @@
+SIMAN 398
+
+**Lei sobre como medir dois mil côvados. Contém onze seções:**
+
+1. Quando alguém vem medir dois mil côvados do limite da cidade, se a cidade for longa e estreita ou se for quadrada, mas não alinhada com os pontos cardeais, já que possui quatro ângulos iguais, ela é deixada como está e mede-se dois mil côvados em cada direção a partir de seus quatro lados.
+
+2. Se a cidade for redonda, criam-se ângulos e considera-se como se estivesse dentro de um quadrado. Mede-se a partir dos lados desse quadrado dois mil côvados em cada direção, ganhando-se assim os ângulos. Da mesma forma, se a cidade for triangular ou tiver muitos lados, ela é quadrada e, em seguida, mede-se para fora do quadrado dois mil côvados em cada direção.
+
+3. Quando se faz o quadrado, ele deve ser alinhado com os pontos cardeais, de modo que cada lado esteja alinhado com uma direção do mundo.
+
+4. Se a cidade for larga de um lado e estreita do outro, considera-se como se toda ela fosse larga. Se for em forma de "ג" ou arco, se houver menos de quatro mil côvados entre suas extremidades, mede-se a partir da corda, considerando toda a largura entre a corda e o arco como se estivesse cheio de casas. Se houver quatro mil côvados entre as extremidades, mede-se apenas a partir do arco. Nota: Alguns dizem que se mede a partir do ponto onde o arco se estreita e não há quatro mil côvados, desde que haja mais de dois mil côvados entre o arco e a corda. Caso contrário, mede-se em qualquer caso a partir da corda, e assim parece ser a opinião leniente.
+
+5. Qualquer casa de habitação que esteja fora da cidade, se estiver a setenta côvados e dois terços da cidade, que é o lado de um beit se'ah quadrado ou menos, é considerada parte da cidade. Quando se mede dois mil côvados em cada direção, mede-se a partir dessa casa. Nota: Alguns dizem que não se começa a medir imediatamente da casa, mas estende-se uma linha ao longo da largura da cidade em frente à casa, afastando-se setenta côvados e dois terços, e então começa a medir, e assim em qualquer lugar que se mede, e assim parece ser a opinião leniente.
+
+6. Se houver uma casa próxima à cidade a setenta côvados, e uma segunda casa próxima à primeira a setenta côvados, e uma terceira próxima à segunda a setenta côvados, e assim por diante por vários dias de caminhada, todas são consideradas como uma cidade. Quando se mede, mede-se a partir da última casa, desde que essa casa de habitação tenha quatro côvados por quatro côvados ou mais. Da mesma forma, uma sinagoga com habitação para o chazan, uma casa de estudo com habitação para os sacerdotes, armazéns com habitação, uma ponte e um túmulo com habitação, três paredes sem teto com quatro côvados por quatro côvados, uma casa construída no mar, duas paredes com teto e cobertura, e uma caverna com construção na entrada e habitação, todas estas se juntam à cidade se estiverem dentro de setenta côvados e dois terços. A partir dessa casa que se projeta, considera-se como se uma linha estivesse estendida ao longo de toda a cidade, e mede-se dois mil côvados a partir dessa linha. Nota: Se houver duas casas assim em frente à cidade, elas são consideradas como uma cidade em forma de arco.
+
+7. Mas duas paredes sem teto, mesmo que se habite entre elas, uma ponte, um túmulo, uma sinagoga, uma casa de estudo, armazéns sem habitação, um poço, uma cisterna, uma caverna, um pombal, e uma casa em um navio, todas estas e similares não se juntam à cidade.
+
+8. Se houver duas cidades próximas uma da outra a cento e quarenta e um côvados e um terço, de modo que haja setenta côvados e dois terços para cada uma, ambas são consideradas como uma cidade, e cada cidade pode caminhar até a outra e mais dois mil côvados além. Nota: Da mesma forma, se a muralha da cidade for rompida de ambos os lados opostos e as casas entre elas estiverem destruídas até cento e quarenta e um côvados e um terço, é considerado como fechado. Mas uma única casa, mesmo que seja muito grande, não tem o status de cidade para dar setenta côvados e dois terços.
+
+9. Se houver três vilas em forma de triângulo, se houver dois mil côvados ou menos entre o meio e cada uma das externas, e entre as duas externas cento e quarenta e três côvados menos um terço (além da largura da vila do meio), de modo que entre cada uma delas e o meio, quando se considera como se estivesse entre elas, haja cento e quarenta e um côvados e um terço, todas as três são consideradas como uma cidade, e mede-se dois mil côvados em cada direção a partir das três. Nota: Alguns dizem que não se mede a partir do meio, mas apenas a partir de suas muralhas.
+
+10. Uma cidade situada à beira de um rio que na maior parte do tempo está seco e é usado, estando cheio apenas na estação das chuvas, se houver uma plataforma de quatro côvados de largura na margem do rio para que se possa ficar sobre ela e usar o rio, o rio é considerado parte da cidade, e mede-se dois mil côvados a partir da margem oposta, fazendo com que todo o rio seja parte da cidade por causa da plataforma construída ao lado. Se não houver plataforma, mede-se apenas a partir da entrada de suas casas, e o rio é medido a partir dos dois mil côvados.
+
+11. Habitantes de tendas, ou seja, aqueles que vivem em tendas feitas de juncos e salgueiros, não têm o status de cidade, e portanto, mede-se dois mil côvados apenas a partir da entrada de suas casas. Nota: Se não houver uma cerca de dez tefachim ou um fosso de dez ao redor de suas casas. Se houver três pátios de duas casas fixas de pedra ou tábuas, estas tornam todas fixas e têm o status de cidade, e mede-se dois mil côvados em cada direção como outras cidades.
+
+12. Uma cidade que foi cercada e depois habitada, mede-se a partir do local de sua habitação. Se foi habitada e depois cercada, mede-se a partir de sua muralha.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 398 do Shulchan Aruch Orach Chayim trata das regras para medir o "techum Shabbat", que é a distância que uma pessoa pode caminhar fora dos limites de uma cidade durante o Shabat. Essa distância é de dois mil côvados, uma medida antiga que equivale aproximadamente a 960 metros.
+
+Aqui está uma explicação prática e acessível das seções mencionadas:
+
+1. **Medindo a partir de cidades de diferentes formas**: Se a cidade tem um formato regular, como um quadrado ou retângulo, mede-se dois mil côvados a partir de cada lado. Se a cidade for redonda, ela é considerada como se estivesse dentro de um quadrado, e a medição começa a partir dos lados desse quadrado. Isso é feito para maximizar a área que pode ser percorrida.
+
+2. **Alinhamento com os pontos cardeais**: Quando se cria um quadrado ao redor de uma cidade para medir o techum, ele deve estar alinhado com as direções norte, sul, leste e oeste. Isso ajuda a padronizar a medição.
+
+3. **Cidades com formas irregulares**: Se a cidade tem uma forma irregular, como um "L" ou um arco, e as extremidades estão a menos de quatro mil côvados de distância, considera-se a área entre as extremidades como parte da cidade. Isso permite que a medição comece a partir de uma linha imaginária que conecta as extremidades.
+
+4. **Casas fora da cidade**: Uma casa que está a até setenta côvados e dois terços da cidade é considerada parte da cidade. Isso significa que a medição dos dois mil côvados pode começar a partir dessa casa. Se houver uma série de casas, cada uma a setenta côvados e dois terços da outra, elas são vistas como uma extensão da cidade.
+
+5. **Estruturas que se juntam à cidade**: Certas estruturas, como sinagogas com habitação, casas de estudo, ou mesmo pontes com habitação, podem ser consideradas parte da cidade se estiverem dentro da distância permitida. Isso não se aplica a estruturas sem habitação, como poços ou cisternas.
+
+6. **Cidades próximas**: Se duas cidades estão a uma distância de até cento e quarenta e um côvados e um terço uma da outra, elas são consideradas como uma única cidade para fins de medição do techum. Isso permite que os habitantes de uma cidade caminhem até a outra e ainda tenham dois mil côvados adicionais.
+
+7. **Vilas em forma de triângulo**: Se três vilas formam um triângulo e estão dentro de certas distâncias umas das outras, elas são consideradas como uma única cidade. Isso permite que a medição comece a partir das extremidades do triângulo.
+
+8. **Cidades à beira de um rio**: Se uma cidade está ao lado de um rio que geralmente está seco, mas tem uma plataforma que permite o uso do rio, o rio é considerado parte da cidade. Caso contrário, a medição começa a partir das casas.
+
+9. **Habitantes de tendas**: Pessoas que vivem em tendas não têm o mesmo status de uma cidade fixa, então a medição começa a partir da entrada de suas casas. No entanto, se houver estruturas fixas, como casas de pedra, elas podem ser consideradas como uma cidade.
+
+10. **Cidades cercadas**: Se uma cidade foi cercada antes de ser habitada, a medição começa a partir do local de habitação. Se foi habitada antes de ser cercada, a medição começa a partir da muralha.
+
+Essas regras ajudam a determinar até onde uma pessoa pode se deslocar no Shabat, respeitando os limites tradicionais e garantindo que as comunidades possam se conectar de maneira prática e significativa.

@@ -1,0 +1,26 @@
+SIMAN 113
+
+**Não se pode cobrar de bens móveis penhorados. Contém três seções:**
+
+1. Um credor não pode cobrar dos compradores, exceto de terrenos que o devedor vendeu ou doou. No entanto, bens móveis que foram vendidos ou doados não podem ser cobrados, mesmo que estivessem na posse do devedor no momento do empréstimo. Mesmo que o credor tenha advertido os compradores para não adquirirem os bens móveis do devedor, o credor não pode cobrá-los. Se os bens foram dados como presente por uma pessoa em leito de morte, o credor pode cobrá-los, conforme será explicado no Siman 152.
+
+2. Se o devedor penhorou bens móveis juntamente com terrenos, o credor pode cobrar os bens móveis dos compradores, assim como cobraria terrenos, mesmo que os terrenos tenham sido vendidos antes da aquisição dos bens móveis. Isso é válido se o devedor escreveu ao credor que não é uma "asmachta" (compromisso condicional) e não é como os formulários padrão de documentos, ou se ele escreveu que está penhorando-os a partir de agora.
+
+3. Quando bens móveis são penhorados juntamente com terrenos, não é necessário que estejam fisicamente juntos. Mesmo bens móveis que se movem, como animais e escravos, podem ser penhorados. Mesmo que o terreno seja pequeno, pode-se penhorar muitos bens móveis. Se o devedor não possui terrenos e o credor lhe concede um pedaço de seu campo através de um dos métodos de aquisição de terrenos, ou se ele empresta ou aluga um terreno, ele pode penhorar todos os bens móveis que desejar. Não é necessário especificar o local onde os bens móveis foram penhorados. Se o credor também não possui terrenos, ele deve escrever que concedeu ao devedor quatro cúbitos de terreno em seu pátio e, através disso, penhorou os bens móveis, mesmo que não saibamos que ele possui terrenos. A admissão de uma parte é como cem testemunhas contra ele.
+
+**Nos tempos atuais, mesmo que bens móveis sejam penhorados juntamente com terrenos, não se pode cobrar de bens móveis vendidos ou doados devido ao "Takanat HaShuk" (regulamento do mercado). No entanto, se o devedor escreveu que adquirirá e depois tomou emprestado de outro, e ambos penhoraram bens móveis juntamente com terrenos, e o segundo credor apreendeu os bens móveis adquiridos antes de emprestar, o primeiro credor pode recuperá-los, mesmo nos tempos atuais, pois isso não está sujeito ao "Takanat HaShuk".**
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido aqui de forma prática e acessível:
+
+1. **Cobrança de Dívidas e Bens Móveis**: Quando alguém deve dinheiro a outra pessoa (o credor), o credor geralmente pode tentar recuperar o dinheiro cobrando de bens que o devedor possui. No entanto, há regras específicas sobre quais bens podem ser usados para pagar essa dívida. Em geral, o credor pode cobrar de terrenos que o devedor vendeu ou doou, mas não de bens móveis (como móveis ou objetos pessoais) que foram vendidos ou doados, mesmo que esses bens estivessem com o devedor quando ele contraiu a dívida. Isso significa que, se você comprou ou recebeu um bem móvel de alguém que tinha dívidas, o credor dessa pessoa não pode vir atrás de você para pegar esse bem.
+
+2. **Penhora de Bens Móveis e Terrenos**: Se um devedor penhora (ou seja, oferece como garantia) tanto bens móveis quanto terrenos para um credor, o credor pode cobrar esses bens móveis dos compradores, assim como faria com os terrenos. Isso é possível se o devedor deixou claro que a penhora é válida e não apenas uma promessa condicional. A penhora é um compromisso sério de que, se a dívida não for paga, o credor pode tomar posse dos bens.
+
+3. **Regras de Penhora**: Não é necessário que os bens móveis e os terrenos estejam fisicamente juntos para que a penhora seja válida. Isso significa que mesmo coisas que se movem, como animais, podem ser penhoradas junto com terrenos. Além disso, mesmo que o terreno seja pequeno, muitos bens móveis podem ser penhorados com ele. Se o devedor não tem terrenos, o credor pode dar a ele um pequeno pedaço de terra para que a penhora seja válida. Isso pode ser feito através de métodos legais de aquisição de terrenos.
+
+4. **Regulamento do Mercado (Takanat HaShuk)**: Nos tempos atuais, há uma regra chamada "Takanat HaShuk" que protege compradores de boa fé. Isso significa que, mesmo que bens móveis sejam penhorados junto com terrenos, o credor não pode cobrar de bens móveis que foram vendidos ou doados, para proteger quem comprou ou recebeu esses bens sem saber da dívida. No entanto, há exceções, como quando um credor tem um direito anterior sobre os bens móveis antes de outro credor emprestar dinheiro ao devedor.
+
+Essas regras são importantes para garantir justiça e clareza nas transações financeiras e protegem tanto os credores quanto os compradores de boa fé. Elas ajudam a manter a confiança no mercado e nas relações comerciais.

@@ -1,0 +1,39 @@
+SIMAN 404
+
+**Siman 404: Um boi que causou dano a outro boi, melhorou ou depreciou. Contém 2 seifim:**
+
+1. Um boi que vale duzentos que chifrou um boi que também vale duzentos, e reduziu seu valor em cinquenta. No momento de apresentar o caso ao tribunal, o boi danificado melhorou e agora vale quatrocentos. Se não fosse pela chifrada que reduziu seu valor, ele valeria quinhentos. Seja porque foi alimentado ou porque melhorou por si só, o pagamento é feito apenas com base no valor no momento do dano.
+
+2. Se o boi perdeu peso devido ao golpe no momento de apresentar o caso ao tribunal, e a redução de valor é de cem, o pagamento é feito com base no valor no momento de apresentar o caso ao tribunal. Se o boi causador do dano melhorou no momento de apresentar o caso ao tribunal, se foi porque foi alimentado, o pagamento é feito apenas com base no valor que tinha no momento do dano. (E há quem diga que se a melhoria exceder o custo, o causador do dano recebe o custo e a remuneração por seu esforço, e o restante da melhoria é dividido com o danificado) (Tur, Seção 63). Se a melhoria foi por si só, o pagamento é feito com base no valor no momento de apresentar o caso ao tribunal.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 404 do Shulchan Aruch Choshen Mishpat trata de situações em que um boi causa dano a outro boi. Vamos entender isso de forma prática:
+
+### Contexto Geral
+
+Na lei judaica, os bois são frequentemente usados como exemplos em discussões sobre danos, porque eram comuns na vida agrícola antiga. As leis sobre danos são relevantes porque ajudam a resolver disputas de forma justa quando uma propriedade causa prejuízo a outra.
+
+### Explicação dos Seifim
+
+**Seif 1:**
+
+- **Cenário:** Imagine que você tem dois bois, cada um valendo 200. Um boi chifra o outro, reduzindo seu valor em 50. Quando você leva o caso ao tribunal, o boi danificado agora vale 400, mas se não tivesse sido chifrado, valeria 500.
+  
+- **Regra:** O pagamento de compensação é baseado no valor do boi no momento em que o dano ocorreu, não no valor que ele tem quando o caso é apresentado ao tribunal. Isso significa que, mesmo que o boi tenha melhorado de valor por alimentação ou por si só, a compensação considera apenas a perda inicial de 50.
+
+**Seif 2:**
+
+- **Cenário:** Se o boi danificado perdeu ainda mais valor até o momento do julgamento, digamos que agora a perda total é de 100, a compensação é calculada com base nesse valor mais recente.
+
+- **Melhoria do boi causador do dano:** Se o boi que causou o dano melhorou de valor até o julgamento, a situação é um pouco mais complexa:
+  - Se a melhoria foi devido a cuidados, como alimentação, a compensação ainda se baseia no valor do boi no momento do dano.
+  - Existe uma opinião que diz que se a melhoria do boi causador do dano for maior que o custo dos cuidados, o dono do boi causador do dano pode recuperar o custo e o esforço, e o restante do aumento de valor é dividido com o dono do boi danificado.
+  - Se a melhoria foi natural, sem intervenção, a compensação é baseada no valor do boi no momento do julgamento.
+
+### Relevância Prática
+
+Essas leis são importantes porque estabelecem princípios de justiça e responsabilidade. Elas ensinam que a compensação por danos deve ser justa e refletir a situação no momento do dano, mas também consideram mudanças que ocorrem até o julgamento. Isso ajuda a garantir que ninguém seja injustamente beneficiado ou prejudicado por circunstâncias que mudam com o tempo.
+
+Na vida contemporânea, esses princípios podem ser aplicados a outras formas de propriedade e danos, ajudando a resolver disputas de maneira justa e ética.

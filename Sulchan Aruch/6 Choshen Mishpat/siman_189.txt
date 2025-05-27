@@ -1,0 +1,31 @@
+SIMAN 189
+
+**Lei sobre a não conclusão de uma transação apenas com palavras. Contém um parágrafo:**
+
+A transação não é concluída apenas com palavras. Quando uma pessoa diz a outra: "Por quanto você me dá este objeto?" e a outra responde: "Por tanto", e ambos concordam e fixam o preço, ambos ainda podem desistir.
+
+Mesmo que isso ocorra na presença de testemunhas e eles digam aos testemunhas: "Sejam nossas testemunhas de que este vendeu e este comprou", isso não tem validade até que a transação seja concluída de acordo com o tipo de bem: terra de acordo com seu modo de aquisição, animais de acordo com seu modo de aquisição, e bens móveis de acordo com seu modo de aquisição. Após a conclusão da transação, cada um de acordo com seu modo de aquisição, nenhum deles pode desistir, mesmo que não haja testemunhas envolvidas.
+
+*Nota (Rema):* Mesmo que eles perdoem um ao outro posteriormente, isso não é eficaz. Eles precisam voltar e realizar a aquisição um para o outro (Teshuvot HaRosh, Siman 311 e Rivash, Siman 510).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda como as transações comerciais são formalmente concluídas de acordo com a lei judaica. Vamos explicar isso de forma prática:
+
+1. **Transações e Palavras**: No contexto judaico, simplesmente concordar verbalmente sobre uma compra ou venda não é suficiente para que a transação seja considerada finalizada. Isso significa que, mesmo que duas pessoas concordem sobre o preço de um item, elas ainda podem mudar de ideia e desistir do acordo.
+
+2. **Testemunhas**: Mesmo que a conversa sobre a transação ocorra na presença de testemunhas, e as partes envolvidas peçam para que as testemunhas confirmem o acordo, isso ainda não torna a transação válida. A presença de testemunhas não substitui a necessidade de um ato formal de aquisição.
+
+3. **Modos de Aquisição**: Diferentes tipos de bens exigem diferentes métodos para que a transação seja considerada completa:
+   - **Terra**: A aquisição de terras tem suas próprias regras específicas.
+   - **Animais**: A compra de animais também segue um conjunto distinto de regras.
+   - **Bens Móveis**: Itens que podem ser movidos, como móveis ou utensílios, têm suas próprias formas de serem adquiridos.
+
+   Cada tipo de bem tem um "modo de aquisição" específico que deve ser seguido para que a transação seja considerada válida.
+
+4. **Conclusão da Transação**: Uma vez que a transação é formalmente concluída de acordo com o método apropriado para o tipo de bem, nenhuma das partes pode desistir, mesmo que não haja testemunhas presentes.
+
+5. **Nota do Rema**: O Rema, um importante comentarista, acrescenta que mesmo que as partes decidam perdoar uma à outra e cancelar o acordo verbalmente, isso não é suficiente. Elas precisam realizar novamente o ato formal de aquisição para que a transação seja desfeita.
+
+**Relevância Prática**: Na vida judaica contemporânea, essas leis destacam a importância de formalizar acordos comerciais de maneira adequada. Isso ajuda a evitar mal-entendidos e disputas, garantindo que todas as partes envolvidas tenham clareza sobre suas obrigações e direitos. Em um mundo onde muitos acordos são feitos verbalmente ou por meios digitais, essas regras lembram a importância de seguir procedimentos formais para garantir a validade e a segurança das transações.

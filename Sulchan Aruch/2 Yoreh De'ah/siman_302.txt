@@ -1,0 +1,40 @@
+SIMAN 302
+
+**Regulamento sobre uma roupa que contém kilayim (mistura proibida de tecidos). Contém dois seifim:**
+
+1. Uma roupa de lã na qual se perdeu um fio de linho, ou uma roupa de linho na qual se perdeu um fio de lã, deve ser tingida, pois a lã e o linho não absorvem a mesma cor, e assim o fio se torna imediatamente reconhecível e pode ser removido. Se não for reconhecível, é permitido, pois pode ser que o fio tenha se soltado e desaparecido, já que foi verificado e não encontrado. (Isso se aplica a kilayim de origem rabínica, mas em casos de kilayim de origem bíblica, não se deve ser leniente em casos de dúvida) (Tur).
+
+2. Quem compra uma peça de lã de um não-judeu deve examiná-la cuidadosamente, pois pode estar costurada com linho. (E quem compra roupas de um não-judeu deve desfazer a costura e refazê-la com cânhamo) (Tur). Mesmo que o não-judeu diga casualmente que costurou com cânhamo, ele não é acreditado. Em lugares onde o linho é mais caro que o cânhamo, pode-se confiar para permitir. Nota: É proibido dizer a um não-judeu para costurar roupas com fios de cânhamo, mesmo que o linho seja mais caro, pois é mais fácil costurar com linho do que com cânhamo (Rashba, Siman 361). Mas se ele fornecer os fios de cânhamo, é permitido, e não se teme a substituição, pois é possível verificar que os fios de linho, quando acesos, queimam rapidamente, enquanto os de cânhamo queimam lentamente e de forma contínua (assim parece no Maimonides, Capítulo 8 de Ma'aseh Avot). E assim é o costume, embora haja quem seja mais rigoroso (Rashba mencionado acima). Um judeu suspeito de costurar kilayim é tratado como um não-judeu. Há quem seja rigoroso e não costure uma roupa de lã com cânhamo branco para que não seja suspeitado de ser linho, e por isso tingem o cânhamo (Maharil).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 302 do Shulchan Aruch Yoreh De'ah trata das leis de "kilayim", que se refere à proibição de misturar certos tipos de materiais em roupas, especificamente lã e linho. Vamos entender isso de forma prática:
+
+### 1. O que é Kilayim?
+
+Kilayim é uma lei da Torá que proíbe a mistura de lã e linho em uma mesma peça de roupa. Essa mistura é chamada de "shatnez". A razão para essa proibição não é explicitamente explicada na Torá, mas é uma das várias leis que os judeus seguem como parte de sua observância religiosa.
+
+### 2. Identificação de Kilayim
+
+- **Roupa de lã com fio de linho perdido**: Se você tem uma roupa de lã e suspeita que há um fio de linho nela, uma maneira prática de identificar isso é tingindo a roupa. Lã e linho absorvem cor de maneira diferente, então o fio de linho se destacaria após o tingimento, permitindo que você o remova.
+
+- **Se o fio não for encontrado**: Se, após a verificação, o fio de linho não for encontrado, pode-se assumir que ele se soltou e desapareceu. No entanto, essa leniência só se aplica a kilayim de origem rabínica, não àquelas de origem bíblica, onde a dúvida não é permitida.
+
+### 3. Comprando roupas de não-judeus
+
+- **Exame cuidadoso**: Ao comprar roupas de lã de um não-judeu, é importante verificar se não há linho costurado nelas. Isso é porque pode haver uma mistura proibida.
+
+- **Costura com cânhamo**: Se a roupa for costurada com cânhamo, que é um material permitido, ainda é necessário verificar. Mesmo que o vendedor diga que usou cânhamo, ele não é automaticamente acreditado, a menos que o cânhamo seja mais barato que o linho na região, o que tornaria mais provável que ele realmente tenha usado cânhamo.
+
+- **Teste de queima**: Uma maneira de verificar se o fio é de linho ou cânhamo é queimá-lo. O linho queima rapidamente, enquanto o cânhamo queima mais lentamente.
+
+### 4. Práticas e precauções
+
+- **Fornecimento de fios**: Se você fornecer os fios de cânhamo para a costura, é permitido, pois você pode verificar a autenticidade dos fios.
+
+- **Suspeita de kilayim**: Um judeu que é suspeito de costurar kilayim é tratado como um não-judeu nesse contexto, ou seja, suas roupas devem ser verificadas com o mesmo cuidado.
+
+- **Cânhamo tingido**: Para evitar suspeitas de que o cânhamo é linho, algumas pessoas tingem o cânhamo, tornando-o mais fácil de distinguir.
+
+Essas leis são relevantes para judeus que desejam seguir as práticas tradicionais e garantir que suas roupas estejam em conformidade com as leis da Torá. Em muitos casos, existem serviços especializados que verificam roupas para shatnez, ajudando a comunidade a cumprir essas leis de forma prática e acessível.

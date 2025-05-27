@@ -1,0 +1,34 @@
+SIMAN 354
+
+**Leis sobre poços e depósitos de lixo em domínio público. Contém 2 seções:**
+
+1. Um poço no domínio público com um monte de terra ao redor: Se estiver dentro de quatro tefachim (aproximadamente 32 cm) de um domínio privado, é permitido encher água dele para o domínio privado, mesmo que o monte de terra não tenha dez tefachim de altura. Porém, se estiver a uma distância de quatro tefachim do domínio privado, só é permitido encher água se o monte de terra tiver dez tefachim de altura.
+
+2. Um depósito de lixo no domínio público que tenha dez tefachim de altura e quatro de largura: Se for de propriedade pública, é permitido jogar lixo nele a partir de um domínio privado próximo. *Nota: Não nos preocupamos que o lixo possa rolar do depósito para o domínio público e alguém venha a carregá-lo, pois não é comum jogar no depósito senão coisas desprezíveis (conforme o Maguid Mishneh no nome do Rashba).* Se o depósito for de propriedade privada, é proibido, pois o proprietário pode remover o lixo, e as pessoas podem acabar jogando lixo ali como de costume, resultando em despejo no domínio público.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 354 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Domínio Público e Privado**: No contexto das leis judaicas de Shabat, um "domínio público" refere-se a áreas abertas e acessíveis a todos, como ruas e praças. Um "domínio privado" é uma área cercada e de uso particular, como uma casa ou quintal.
+
+2. **Tefachim**: Esta é uma unidade de medida antiga usada na lei judaica, equivalente a cerca de 8 centímetros. Assim, quatro tefachim seriam aproximadamente 32 centímetros.
+
+Agora, vamos explicar as duas seções:
+
+### Seção 1: Poços no Domínio Público
+
+- **Poço Próximo ao Domínio Privado**: Se há um poço no domínio público e ele está a menos de quatro tefachim (32 cm) de um domínio privado, você pode tirar água dele para o seu espaço privado, mesmo que o monte de terra ao redor do poço não seja muito alto. Isso é porque a proximidade facilita o transporte da água sem violar as regras de Shabat.
+
+- **Poço Distante do Domínio Privado**: Se o poço está a mais de quatro tefachim de distância, você só pode tirar água se o monte de terra ao redor do poço tiver pelo menos dez tefachim de altura (cerca de 80 cm). Isso cria uma separação clara entre os domínios, permitindo o transporte da água.
+
+### Seção 2: Depósitos de Lixo no Domínio Público
+
+- **Depósito de Lixo Público**: Se um depósito de lixo no domínio público tem pelo menos dez tefachim de altura e quatro de largura, você pode jogar lixo nele a partir de um domínio privado. A razão é que o lixo jogado ali é considerado desprezível e não é comum que as pessoas o removam, então não há preocupação de que ele seja transportado para o domínio público.
+
+- **Depósito de Lixo Privado**: Se o depósito de lixo pertence a alguém, não é permitido jogar lixo nele a partir de um domínio privado. Isso ocorre porque o proprietário pode remover o lixo, e isso poderia levar a uma situação onde o lixo acaba sendo transportado para o domínio público, o que é proibido no Shabat.
+
+### Relevância Prática
+
+Essas leis são relevantes para a observância do Shabat, um dia sagrado de descanso no judaísmo, onde é proibido transportar objetos entre domínios públicos e privados. Entender essas regras ajuda a evitar violações acidentais das leis de Shabat, especialmente em comunidades onde as fronteiras entre domínios podem ser complexas.

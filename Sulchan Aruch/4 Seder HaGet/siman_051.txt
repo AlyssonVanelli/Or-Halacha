@@ -1,0 +1,18 @@
+SIMAN 51
+
+1. E mesmo se ele quiser fazer um "mem" aberto e sua mão se estender e fechá-lo, não é permitido raspar a junção para abri-lo, pois isso seria considerado "gravura interna" (veja acima no Siman 125, seif 9).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro saber que ele está lidando com as leis de escrita de um "Get", que é um documento de divórcio no judaísmo. A escrita de um Get deve seguir regras muito específicas para ser considerado válido.
+
+1. **"Mem" aberto e fechado**: No alfabeto hebraico, a letra "mem" tem duas formas: uma que é usada no meio das palavras (aberta) e outra que é usada no final das palavras (fechada). A diferença está no formato da letra, onde a "mem" aberta tem uma abertura e a fechada é completamente fechada.
+
+2. **Erro na escrita**: O texto está discutindo o que acontece se, ao escrever um Get, a pessoa acidentalmente escreve uma "mem" fechada quando deveria ser uma "mem" aberta. Isso pode acontecer se a mão do escriba escorregar ou se ele cometer um erro.
+
+3. **Proibição de raspar**: A lei aqui diz que não é permitido raspar a junção da letra para tentar corrigir o erro e transformá-la de uma "mem" fechada para uma "mem" aberta. Isso é porque tal ação seria considerada "gravura interna", que é uma técnica proibida na escrita de um Get. "Gravura interna" refere-se a alterar a forma das letras de uma maneira que não é permitida.
+
+4. **Relevância prática**: Na prática, isso significa que se um erro como esse ocorrer, o escriba não pode simplesmente corrigir a letra raspando-a. Ele teria que reescrever o documento ou encontrar outra solução que esteja de acordo com as leis judaicas. Isso garante que o Get seja escrito de forma precisa e respeitosa, mantendo a integridade do processo de divórcio.
+
+Essas regras são importantes para garantir que o Get seja válido e que o divórcio seja reconhecido de acordo com a lei judaica. Isso tem implicações significativas para a vida pessoal e comunitária dos envolvidos, pois um Get inválido pode afetar o status marital e a capacidade de se casar novamente dentro da comunidade judaica.

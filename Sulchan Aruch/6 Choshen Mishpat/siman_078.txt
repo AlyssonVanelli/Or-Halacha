@@ -1,0 +1,44 @@
+SIMAN 78
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 78):**
+
+**Aquele que alega ter pago antes do prazo. Contém oito seções:**
+
+1. Quando alguém estabelece um prazo para seu amigo e o credor cobra antes do prazo, e o devedor diz "Eu já paguei", ele não é acreditado. Pois há uma presunção de que uma pessoa não paga antes do prazo. (E o mesmo se aplica a não poder dizer "Você me perdoou"). Mesmo se o devedor morrer antes do prazo e deixar órfãos, mesmo que sejam menores, o credor pode cobrar deles sem juramento, se o empréstimo foi documentado ou mesmo se foi verbal e o pai foi levado a julgamento e o testemunho foi aceito na sua presença. Isso se aplica também a empréstimos verbais, desde que haja testemunhas do empréstimo e do estabelecimento do prazo. Se não houver testemunhas, o devedor é acreditado com um juramento de heset, alegando que o empréstimo nunca ocorreu, ou que o prazo não foi estabelecido, ou que o prazo já passou e ele pagou no prazo.
+
+2. Se o credor cobra antes do prazo e o devedor diz "Eu já paguei", e depois o credor cobra novamente após o prazo e o devedor diz "Eu paguei agora", ele é considerado um mentiroso e não é acreditado. (Nota: Alguns dizem que essa presunção só se aplica a empréstimos, mas se o dinheiro foi confiado a ele e ele o usou para outros, é considerado como qualquer outro depósito, e ele pode alegar que devolveu mesmo antes do prazo estabelecido. O aluguel é considerado como um empréstimo e só é pago no final, e ele não é acreditado se disser que pagou antes do prazo. No entanto, se ele contratou um escriba para escrever vários cadernos, cada caderno é considerado como tendo seu prazo imediatamente, e o mesmo se aplica a qualquer trabalho que seja dividido dessa forma).
+
+3. Se o devedor morrer antes do prazo e o credor vier cobrar de um comprador com um empréstimo documentado, de acordo com Maimônides, não é necessário um juramento. Outros dizem que é necessário. Se o devedor estiver vivo e disser que pagou, alguns dizem que o credor deve jurar que não foi pago e então pode cobrar. Outros dizem que não é necessário um juramento, e essa é a opinião principal.
+
+4. Se o credor cobrar no dia em que o prazo termina e o devedor disser "Eu paguei hoje", se for um empréstimo verbal, ele é acreditado com um juramento de heset, pois é comum que uma pessoa pague no dia em que o prazo termina. Se for um empréstimo documentado, é tratado como qualquer outro empréstimo documentado sem prazo estabelecido.
+
+5. Alguns dizem que quando o credor cobra no dia em que o prazo termina e o devedor diz "Eu paguei hoje", ele é acreditado apenas se o credor cobrar no final do dia. Antes disso, ele não é acreditado. E se ele disser no final do dia "Eu paguei antes do prazo", ele é acreditado com um argumento de que poderia ter dito "Eu paguei hoje". (Alguns dizem que isso só se aplica se ele mesmo alegar, mas não alegamos isso em nome de seus herdeiros).
+
+6. Se o credor cobrar após o prazo ou no final do dia em que o prazo termina e o devedor alegar que pagou no prazo, o devedor faz um juramento de heset e é liberado.
+
+7. Se o devedor morrer antes do prazo e seus herdeiros apresentarem um documento de quitação geral que diz que ele pagou toda a dívida a Reuven antes de morrer, isso é explicado no Siman 71. (Veja também Siman 84, Seção 2, e Siman 85, Seção 1).
+
+8. Se alguém tiver um documento contra seu amigo para pagamento em um determinado prazo e o documento for perdido, e ele cobrar antes do prazo, ou se o documento estiver nas mãos de outra pessoa e ele cobrar antes do prazo, e o outro alegar que caiu dele e ele pagou, não dizemos que uma pessoa não paga antes do prazo, conforme explicado no Siman 41.
+
+A presunção de que uma pessoa não paga antes do prazo aplica-se apenas quando um prazo é estabelecido. Mas em um empréstimo comum, mesmo que o prazo seja de trinta dias, ele é acreditado se disser "Eu paguei dentro dos trinta dias".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 78 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de situações em que alguém deve dinheiro a outra pessoa e há um prazo estabelecido para o pagamento. Vamos explicar os principais pontos de forma prática:
+
+1. **Pagamento Antes do Prazo**: Se alguém deve dinheiro e o credor tenta cobrar antes do prazo combinado, o devedor não é acreditado se disser que já pagou. Isso ocorre porque, geralmente, presume-se que as pessoas não pagam suas dívidas antes do prazo. Essa regra também se aplica se o devedor alegar que o credor perdoou a dívida.
+
+2. **Empréstimos Documentados e Verbais**: Se o empréstimo foi documentado ou houve testemunhas, o credor pode cobrar dos herdeiros do devedor falecido sem precisar jurar que a dívida ainda existe. No entanto, se não houver testemunhas, o devedor pode jurar que o empréstimo nunca aconteceu ou que já pagou.
+
+3. **Mentira Repetida**: Se o devedor diz que pagou antes do prazo e depois, quando cobrado novamente após o prazo, diz que pagou agora, ele não é acreditado, pois isso sugere que ele está mentindo.
+
+4. **Cobrança no Dia do Prazo**: Se o credor cobra no dia em que o prazo termina e o devedor diz que pagou naquele dia, ele é acreditado se fizer um juramento simples, pois é comum pagar no último dia.
+
+5. **Diferenças de Opinião**: Há diferentes opiniões sobre se o credor precisa jurar que não foi pago quando o devedor alega ter pago. Algumas autoridades dizem que sim, outras dizem que não.
+
+6. **Documentos Perdidos**: Se o documento que comprova a dívida é perdido, e o credor tenta cobrar antes do prazo, a regra de que as pessoas não pagam antes do prazo não se aplica.
+
+7. **Herdeiros e Documentos de Quitação**: Se o devedor morre e os herdeiros apresentam um documento que diz que a dívida foi paga, isso é tratado em outras seções do Shulchan Aruch.
+
+Essas regras são importantes para garantir justiça e clareza em transações financeiras, evitando que credores ou devedores tirem vantagem indevida. Na prática, elas ajudam a resolver disputas sobre dívidas de forma justa, baseando-se em presunções comuns sobre o comportamento humano e a necessidade de provas.

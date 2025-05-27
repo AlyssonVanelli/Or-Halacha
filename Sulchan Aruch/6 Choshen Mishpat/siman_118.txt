@@ -1,0 +1,36 @@
+SIMAN 118
+
+**Título: O Escritor ao Comprador: "Não Tenho Contenda Contigo". Contém 4 Seções:**
+
+1. Um devedor que vendeu suas propriedades para dois compradores, um após o outro, e o credor escreveu ao segundo comprador "não tenho contenda contigo" e fez um kinyan (ato de aquisição) com ele, não pode tomar do primeiro comprador, pois pode dizer a ele: "Deixei para você um lugar para cobrar do seu credor, das propriedades que o segundo comprador adquiriu depois, e você perdeu para si mesmo, pois se afastou delas." O mesmo se aplica a uma mulher em relação à sua ketubah; se ela escreveu ao segundo, perdeu sua ketubah e não pode tomar. Mas se escreveram ao primeiro, podem tomar do segundo.
+
+2. Nota: Se o primeiro vendeu a terra que comprou para outro, não pode tomá-la do segundo, assim como não pode tomá-la se permanecer nas mãos do primeiro (Tur, e assim escreveu o Raavad em sua objeção lá, e o Magid).
+
+3. Se o devedor vendeu um campo a um comprador e depois vendeu outro campo a um segundo comprador, e o credor escreveu ao segundo comprador "não tenho contenda contigo" e fez um kinyan com ele, o credor pode tomar do primeiro comprador o primeiro campo, e o primeiro comprador pode tomar do segundo comprador o segundo campo, pois comprou depois dele. E o credor toma do primeiro, e o segundo comprador a toma do credor, pois ele escreveu para ele "não tenho contenda contigo", e o primeiro comprador retorna e toma do segundo, e assim continuam até que façam um acordo entre eles. O mesmo se aplica à mulher em relação à sua ketubah, desde que a dívida seja equivalente aos dois campos.
+
+4. O mesmo se aplica se a dívida for de cem e ele vendeu a dois compradores, cada um por cem, e o credor escreveu ao segundo comprador "não tenho contenda contigo", e se descobre que o campo que o primeiro comprou não é dele, o primeiro toma do segundo, e o credor toma do primeiro, e o segundo toma do credor, e assim continuam até que façam um acordo entre eles.
+
+5. O mesmo se aplica se o campo que o primeiro comprou foi designado como apotiki (garantia específica) para outro credor anterior, então esse credor toma do primeiro, e o primeiro toma do segundo, e o último credor toma do primeiro, e o segundo comprador toma do credor, e assim continuam.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 118 do Shulchan Aruch Choshen Mishpat, é importante desmembrar os conceitos e situações jurídicas apresentadas, que envolvem transações de propriedades e dívidas. Vamos explicar cada seção de forma prática:
+
+1. **Venda de Propriedades e Dívidas:**
+   - Imagine que uma pessoa deve dinheiro (devedor) e possui propriedades. Ela vende essas propriedades para duas pessoas diferentes, uma após a outra.
+   - Se o credor (a pessoa a quem o dinheiro é devido) diz ao segundo comprador "não tenho contenda contigo" e realiza um ato formal de acordo (kinyan), ele não pode mais exigir a propriedade do primeiro comprador. Isso ocorre porque o credor, ao fazer esse acordo com o segundo comprador, está implicitamente dizendo que o primeiro comprador ainda tem a responsabilidade de pagar a dívida, mas ele (o credor) não vai interferir com o segundo comprador.
+
+2. **Venda Posterior pelo Primeiro Comprador:**
+   - Se o primeiro comprador vende a propriedade que comprou para outra pessoa, ele não pode exigir a propriedade do segundo comprador. Isso significa que o primeiro comprador não pode voltar atrás e tentar recuperar a propriedade do segundo comprador, mesmo que ele tenha vendido a propriedade para outra pessoa.
+
+3. **Sequência de Vendas e Reivindicações:**
+   - Quando o devedor vende um campo para um comprador e depois outro campo para um segundo comprador, e o credor faz um acordo com o segundo comprador, o credor pode exigir o primeiro campo do primeiro comprador. O primeiro comprador, por sua vez, pode exigir o segundo campo do segundo comprador, e assim por diante. Isso cria um ciclo de reivindicações até que todos cheguem a um acordo. Este ciclo é possível porque o credor fez um acordo com o segundo comprador, protegendo-o de reivindicações diretas.
+
+4. **Valor das Dívidas e Propriedades:**
+   - Se a dívida é de um valor específico e as propriedades vendidas têm o mesmo valor, o mesmo ciclo de reivindicações ocorre. Se o primeiro campo comprado não pertencia realmente ao vendedor, o primeiro comprador pode exigir do segundo, e o ciclo continua até que um acordo seja alcançado.
+
+5. **Garantia Específica (Apotiki):**
+   - Se o primeiro campo comprado foi designado como garantia específica para outro credor, esse credor pode exigir o campo do primeiro comprador. O ciclo de reivindicações continua da mesma forma, com cada parte exigindo a propriedade da próxima, até que um acordo seja feito.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades que seguem a lei judaica para resolver disputas financeiras. Elas ajudam a garantir que as transações sejam justas e que os direitos de todas as partes envolvidas sejam respeitados. A complexidade dessas leis reflete a tentativa de equilibrar os interesses de devedores, credores e compradores em situações de múltiplas transações.

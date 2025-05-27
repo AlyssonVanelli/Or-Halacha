@@ -1,0 +1,28 @@
+SIMAN 413
+
+**Lei dos Oleiros que Caminham um Atrás do Outro e Tropeçam e Caem. Contém Três Seções:**
+
+1. Dois oleiros que estavam caminhando na estrada, um atrás do outro, e o primeiro tropeçou e caiu, e o segundo tropeçou no primeiro. Se o primeiro tinha a capacidade de se levantar e não o fez, ele é responsável pelos danos causados ao segundo. Embora ele estivesse em situação de força maior no momento da queda, ele não está em situação de força maior enquanto está deitado no caminho, pois ele pode se levantar. Se ele não tinha a capacidade de se levantar, ele está isento, mesmo que não tenha avisado aquele que tropeçou nele, pois ele está preocupado consigo mesmo. (E alguns dizem que ele é responsável se teve tempo de avisar e não o fez) (Tur, Seção 1, em nome do Rosh). Quando dizemos que ele é responsável pelos danos ao segundo, é quando o corpo do segundo foi danificado, mas se os utensílios do segundo foram danificados, ele está isento, pois não é responsável por utensílios em um "bor" (poço), e toda obstrução é uma derivação de "bor", como foi explicado.
+
+2. Oleiros e vidraceiros (isto é, vendedores de utensílios de vidro) e outros semelhantes que estavam caminhando um atrás do outro, e o primeiro tropeçou e caiu, e o segundo tropeçou no primeiro, e o terceiro no segundo. Se cada um deles tinha a capacidade de se levantar e não o fez, o primeiro é responsável pelos danos ao corpo do segundo, quer tenha sido danificado pelo corpo do primeiro que estava deitado no chão, quer tenha sido danificado pela sua carga. (E há quem discorde e sustente que se foi danificado pela sua carga, mesmo o corpo do segundo, ele está isento) (Tur, em nome do Rosh). O segundo é responsável pelos danos ao corpo do terceiro se foi danificado pelo corpo do segundo, mas se foi danificado pela carga do segundo que caiu, ele está isento, pois o segundo pode dizer que não foi ele quem cavou este "bor", pois o primeiro derrubou o segundo com sua carga. E se eles avisaram uns aos outros, todos estão isentos.
+
+3. Se o primeiro caiu e estava deitado atravessado no caminho, e um tropeçou na sua cabeça, outro nos seus pés, e outro no seu abdômen, ele é responsável pelos danos de todos, pois ele tinha a capacidade de se levantar e não o fez. (Nota: E alguns dizem que isso é apenas se o primeiro estiver deitado na diagonal) (Tur, em nome do Rosh).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda uma situação específica de responsabilidade por danos em um contexto onde várias pessoas estão caminhando em fila e uma delas cai, causando um efeito dominó. Vamos explicar isso de forma prática:
+
+1. **Cenário Geral**: Imagine que você está andando em uma fila de pessoas, como em uma calçada movimentada. Se a pessoa à sua frente tropeça e cai, e você acaba tropeçando nela, a questão é: quem é responsável pelos danos que você sofreu?
+
+2. **Responsabilidade do Primeiro a Cair**: Se a primeira pessoa que caiu tinha a capacidade de se levantar e não o fez, ela é responsável pelos danos que você sofreu ao tropeçar nela. Isso porque, após a queda, ela não estava mais em uma situação de "força maior" (algo fora de seu controle) e poderia ter evitado o acidente levantando-se. No entanto, se ela não conseguia se levantar, por exemplo, por estar machucada, ela não é responsável, mesmo que não tenha conseguido avisar você a tempo.
+
+3. **Danos a Objetos**: Se você tropeçou e apenas seus objetos, como uma bolsa ou um vaso que você estava carregando, foram danificados, a pessoa que caiu não é responsável. Isso se baseia em uma regra que compara a situação a um "bor" (poço), uma categoria de dano onde a responsabilidade por objetos é limitada.
+
+4. **Cenário com Múltiplas Pessoas**: Se várias pessoas estão andando em fila e caem uma sobre a outra, a responsabilidade se complica. O primeiro a cair é responsável pelos danos ao corpo da segunda pessoa, mas não pelos danos aos objetos. Se a segunda pessoa também não se levanta e causa danos à terceira, ela é responsável pelos danos ao corpo da terceira, mas não pelos objetos, a menos que tenha sido avisada e não tenha agido.
+
+5. **Avisos e Isenção de Responsabilidade**: Se as pessoas que caíram conseguiram avisar as outras a tempo, todos ficam isentos de responsabilidade, pois fizeram o possível para evitar mais acidentes.
+
+6. **Posição no Caminho**: Se a primeira pessoa caiu de forma que bloqueia o caminho (por exemplo, deitada atravessada), ela é responsável por todos que tropeçarem nela, pois poderia ter se levantado e não o fez. Há uma opinião que diz que isso só se aplica se a pessoa estiver deitada na diagonal, dificultando ainda mais a passagem.
+
+Essas regras são aplicadas para entender como a responsabilidade é determinada em situações de acidentes em sequência, algo que pode ser relevante em contextos modernos, como acidentes de trânsito ou em locais públicos movimentados. A ideia central é que cada pessoa deve fazer o possível para evitar causar danos a outras, especialmente quando tem a capacidade de prevenir um acidente.

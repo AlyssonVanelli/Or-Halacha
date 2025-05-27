@@ -1,0 +1,31 @@
+SIMAN 102
+
+1. Há quem diga que a regra de "davar sheyesh lo matirin" (algo que tem permissão futura) se aplica apenas quando a permissão é certa de ocorrer ou se está nas mãos da pessoa fazer sem perda. Mas algo que não está nas mãos da pessoa e não é certo que a permissão virá, não é considerado "davar sheyesh lo matirin". Portanto, um ovo de dúvida de tereifá (animal não kosher) que se misturou com outros não é considerado "davar sheyesh lo matirin", pois a permissão não é certa e não está nas mãos da pessoa.
+
+2. Um utensílio que foi proibido por absorver algo proibido e se misturou com outros e não é reconhecível, é anulado pela maioria e não é tratado como "davar sheyesh lo matirin". (Pois é necessário gastar para purificá-lo e tudo semelhante a isso).
+
+3. Há quem diga que "davar sheyesh lo matirin" não se aplica onde o alimento se deteriora. Nota: A regra de que "davar sheyesh lo matirin" não é anulado aplica-se apenas se a proibição está presente ou ainda há substância da proibição na mistura, mas se o sabor é anulado (Tur Orach Chaim Siman 513 e Aruch e Hagahot Ashri no final de Avodah Zarah e Mahara'i em nome de Mahari"ch), e também se a proibição não é por si mesma anulada. Portanto, um pedaço que não foi salgado dentro de três dias, embora alguns digam que é considerado "davar sheyesh lo matirin" porque é permitido assar, ainda assim é anulado, pois não é proibido exceto por causa do sangue absorvido nele (Terumat HaDeshen Siman 180). Qualquer proibição que não era reconhecível antes de se misturar é anulada, mesmo que seja "davar sheyesh lo matirin" (Aruch K'lalei 25 em nome de Sefer Gittin e Mordechai no início de Shabbat). Quem fez um voto sobre algo e depois se misturou, para ele é considerado "davar sheyesh lo matirin" (lá e em Maimonides capítulo 8 de Nedarim e Ran no início e Orach Chaim, e é um Talmud claro no capítulo 7 de Nedarim página 59 e Yerushalmi capítulo 6 de Nedarim e acordado por todos os decisores), pois é possível anular o voto. Algo que tem permissão e volta a ser proibido, como chametz (fermento) em Pessach, não é considerado "davar sheyesh lo matirin" (Mordechai capítulo Kol Sha'ah). E há quem discorde disso (Rambam capítulo 15 de Ma'achalot Assurot). Não é considerado "davar sheyesh lo matirin" a menos que seja permitido para quem foi proibido, mas se permanece proibido para alguém para sempre, mesmo que seja permitido para outros, como cozinhar no Shabat, não é considerado "davar sheyesh lo matirin" (Beit Yosef em nome de Rabbeinu Yerucham em nome de Ramah).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 102 do Shulchan Aruch Yoreh De'ah, precisamos primeiro explicar o conceito de "davar sheyesh lo matirin". Este termo refere-se a algo que é atualmente proibido, mas que se tornará permitido no futuro sem a necessidade de anulação ou mudança significativa. Vamos explorar como isso se aplica em diferentes situações:
+
+1. **Permissão Futura Certa ou Incerta**: 
+   - A regra de "davar sheyesh lo matirin" se aplica quando a permissão futura é garantida ou está sob controle da pessoa, sem perda. Por exemplo, se você tem um alimento que é proibido agora, mas sabe que será permitido em breve, você deve esperar para consumi-lo quando for permitido, em vez de anulá-lo em uma mistura.
+   - No caso de um ovo que pode ser de um animal não kosher (tereifá), se ele se mistura com outros ovos, não é considerado "davar sheyesh lo matirin" porque não há certeza de que ele se tornará permitido, e não está sob controle da pessoa.
+
+2. **Utensílios Proibidos**:
+   - Se um utensílio absorveu algo proibido e se misturou com outros, ele pode ser anulado pela maioria, pois purificá-lo requer esforço e custo. Assim, não é tratado como "davar sheyesh lo matirin".
+
+3. **Deterioração do Alimento**:
+   - A regra de "davar sheyesh lo matirin" não se aplica se o alimento se deteriora enquanto espera para se tornar permitido. Se o sabor proibido é anulado na mistura, a regra também não se aplica.
+
+4. **Casos Específicos**:
+   - Um pedaço de carne que não foi salgado dentro de três dias pode ser considerado "davar sheyesh lo matirin" porque pode ser assado para remover o sangue, mas ainda assim pode ser anulado na mistura.
+   - Se uma proibição não era reconhecível antes de se misturar, ela pode ser anulada, mesmo que seja "davar sheyesh lo matirin".
+   - Se alguém fez um voto sobre algo e depois isso se misturou, é considerado "davar sheyesh lo matirin" porque o voto pode ser anulado.
+   - Algo que se torna permitido e depois proibido novamente, como chametz (fermento) em Pessach, não é considerado "davar sheyesh lo matirin".
+   - Se algo é permitido para alguns, mas permanece proibido para outros, como cozinhar no Shabat, não é considerado "davar sheyesh lo matirin".
+
+Essas regras são relevantes na vida judaica contemporânea, pois ajudam a determinar como lidar com alimentos e utensílios que podem ter se tornado proibidos, garantindo que as práticas alimentares kosher sejam seguidas corretamente. Elas também destacam a importância de entender quando é necessário esperar por uma permissão futura ou quando é possível anular uma proibição em uma mistura.

@@ -1,0 +1,88 @@
+SIMAN 232
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 232):**
+
+**O vendedor de algo por medida, peso ou número que cometeu um erro, ou que errou na contagem do dinheiro, e o vendedor de algo que foi encontrado com defeito. Contém 23 seções:**
+
+1. Se alguém vende a seu próximo por medida, peso ou número e comete um erro, mesmo que seja mínimo, a venda é anulada. Isso ocorre porque o erro em contas não é considerado como um erro em dinheiro. Por exemplo, se alguém vendeu cem nozes por um dinar e foram encontradas 101 ou 99, a venda é válida, mas o erro deve ser corrigido, mesmo após muitos anos. Da mesma forma, se o dinheiro foi encontrado em falta ou em excesso em relação ao acordado, a venda é anulada, mesmo que o comprador já tenha aceitado o objeto e não tenha mais nada a receber do vendedor, pois a aquisição foi feita por engano.
+
+2. Se alguém recebe dinheiro de seu próximo, seja em uma venda, empréstimo ou pagamento, e encontra um excesso de dinheiro, mesmo que não tenha sido solicitado, deve devolvê-lo se for um erro razoável. Isso significa que, se o excesso puder ser dividido em grupos de dez ou cinco, e não houver um ou dois a mais que não cheguem a cinco, pode-se dizer que houve um erro na contagem. Se o excesso for de cinquenta para quarenta ou de quarenta para trinta, ou se for de cinco em cinco, e houver um erro de três quintos para quatro, ou se o excesso for de quinze ou vinte e cinco, houve um erro de três ou cinco vezes em quintos. Mas se o excesso for de um, dois, três ou quatro, que não chegam a cinco, é considerado um presente, desde que o excesso não esteja em múltiplos de cinco ou dez, pois, se estiver, deve ser devolvido, pois pode ser que os outros que estavam contando em quintos ou décimos tenham se misturado com eles.
+
+3. Se alguém vende a seu próximo um terreno, escravo, animal ou outros bens móveis, e um defeito é encontrado na compra que o comprador não conhecia, ele pode devolvê-lo mesmo após muitos anos, pois é uma compra por engano, desde que não tenha usado o objeto após saber do defeito. Mas se ele usou após ver o defeito, ele renunciou ao seu direito e não pode devolvê-lo.
+
+4. Não se calcula a depreciação do defeito, mesmo que alguém tenha vendido um utensílio que valia dez dinars e foi encontrado com um defeito que o deprecia em um issar, o utensílio é devolvido, e ele não pode dizer "tome o issar pela depreciação do defeito", pois o comprador pode dizer "eu quero um objeto completo". Da mesma forma, se o comprador quiser aceitar a depreciação do defeito, o vendedor pode dizer "ou aceite como está ou devolva meu dinheiro e devolva minha compra".
+
+5. Se Reuven vendeu a Shimon casas que ele possuía em outra cidade, e antes da conclusão da venda, gentios entraram nas casas e danificaram alguns lugares, enegreceram as paredes, arrancaram portas e janelas, e Shimon quer desistir, mas Reuven alega que, como é um defeito passageiro, ele deve deduzir do preço para restaurar a casa ao seu estado original e manter a venda, a lei está com Reuven.
+
+6. Tudo o que os habitantes do país concordaram que é um defeito que anula a compra, isso anula a compra. E tudo o que concordaram que não é um defeito, não anula a compra, a menos que seja especificado que qualquer negociação é feita com base no costume do país.
+
+7. Qualquer comprador que compra sem especificar, compra apenas um objeto completo, sem defeito. E se o vendedor especificou e disse "com a condição de que você não volte a mim por um defeito", ele pode voltar até que o defeito seja especificado e o comprador renuncie, ou até que ele diga "qualquer defeito que você encontrar nesta compra que deprecie seu valor até tanto e tanto, eu aceito", pois o renunciante precisa saber do que está renunciando e especificá-lo, assim como especifica a fraude.
+
+8. Se alguém vende a seu próximo uma vaca e diz que tem tais e tais defeitos visíveis, e entre eles menciona um defeito não visível, e é encontrado aquele defeito não visível, mas não os outros, é uma compra por engano. Por exemplo, se ele disse "esta vaca é manca, cega, mordedora e deitada", e foi encontrada apenas mordedora, é uma compra por engano, pois o comprador pode dizer "quando vi que não era manca nem cega, pensei que assim como não tinha esses defeitos, também não tinha outros defeitos", e ele só disse isso para me tranquilizar. Mas se houver defeitos visíveis, seja todos ou alguns, e também o defeito não visível, como se fosse manca e também mordedora, ou cega e também mordedora, não é uma compra por engano, pois assim como ele renunciou ao visível, ele renunciou ao não visível.
+
+9. Se havia um defeito visível e ele o mostrou, e disse que havia tais e tais defeitos não visíveis, e foram encontrados esses defeitos não visíveis, não é uma compra por engano, mesmo que todos os defeitos mencionados estejam presentes, pois ele não enganou, apenas mencionou os defeitos que estavam presentes.
+
+10. Se alguém vende um escravo ou escrava, o comprador não pode devolvê-lo por defeitos que não o impeçam de trabalhar, que são chamados de "sampón", pois se esse "sampón" fosse visível, ele já o teria visto. E se não for visível, como uma verruga na carne, mordida de cachorro, mau hálito ou mau cheiro do nariz, e semelhantes, já que não o impede de trabalhar, não pode ser devolvido, pois os escravos não são para uso pessoal, mas para trabalho. Se for encontrado com uma doença grave ou uma doença que enfraquece sua força, ou se for epiléptico, ou deprimido, isso é um defeito, pois o impede de trabalhar. Da mesma forma, se for encontrado com lepra ou semelhantes, que são repugnantes, isso é um defeito, pois a pessoa não pode suportá-los e não pode trabalhar com comida e bebida. Da mesma forma, se for encontrado como um ladrão armado, isso é um defeito que o destrói, pois o rei o captura e o mata. E se for encontrado como um criminoso do reino, isso é um defeito e ele pode ser devolvido, pois o rei o captura para seu trabalho sempre que quiser. Mas se for encontrado como um ladrão ou sequestrador, ou sempre fugindo, ou glutão e beberrão, e semelhantes, não pode ser devolvido, pois todos os escravos são presumidos como tendo todos esses males, a menos que seja especificado.
+
+11. Se alguém vende um animal a seu próximo para abate, e ele o abate e é encontrado como um animal não kosher, se for sabido com certeza que era não kosher quando foi comprado, como se o estômago tivesse sido perfurado e a ferida cicatrizada, o que indica que foi perfurado há três dias, se foi comprado dentro de três dias, é uma compra por engano e o dinheiro deve ser devolvido. Se não foi comprado dentro de três dias, ou foi comprado dentro de três dias e a ferida não cicatrizou, então é uma dúvida se foi perfurado dentro de três dias ou não, e o comprador deve trazer prova, e se não, ele perde e deve pagar o dinheiro se ainda estiver em sua posse.
+
+12. No caso de um defeito de "sircha" (aderência), também anula a compra, mas há quem discorde, pois, como é algo comum, deveria ter sido estipulado. Mesmo um animal não kosher que proibimos por dúvida anula a compra, e o vendedor não pode dizer "traga prova de que era não kosher".
+
+13. Se alguém vende algo que tinha um defeito e o comprador causou outro defeito antes de saber do primeiro defeito, se ele fez algo que é costumeiro fazer, ele está isento. Mas se ele mudou e causou outro defeito antes de saber do primeiro defeito, ele devolve a compra ao vendedor e paga o valor do defeito que causou.
+
+14. Se alguém comprou um tecido e o rasgou para fazer uma túnica, e depois descobriu o defeito, ele devolve os pedaços. Se ele costurou e depois descobriu o defeito, se a costura melhorou, ele recebe o valor da melhoria da costura do vendedor, e assim em todos os casos semelhantes.
+
+15. Se alguém vende um terreno a seu próximo e come seus frutos, e depois de um tempo descobre um defeito, se ele quiser devolver o terreno ao proprietário, ele devolve todos os frutos que comeu. Se era um pátio e ele morava nele, ele deve pagar o aluguel.
+
+16. Se Reuven vendeu a Shimon três queijos, e após três dias ele os abriu e os encontrou mofados, ele deve perguntar aos fabricantes de queijo quanto tempo leva para que tal mofo e deterioração ocorram. Se disserem que o mofo ocorreu na casa do vendedor, é uma compra por engano. Se houver dúvida, quem quer retirar do outro deve trazer prova.
+
+17. Se Reuven vendeu a Shimon um odre de óleo, e ele não o abriu, mas confiou no vendedor que disse que era bom, e quando o abriu encontrou-o turvo, o vendedor deve jurar que deu a ele óleo bom como combinado. Se ele não quiser jurar, o comprador deve jurar que foi combinado que ele receberia óleo bom e claro, e que este é o óleo que ele recebeu, e ele deve devolver o óleo ou avaliar quanto vale menos do que óleo bom. Se o comprador quiser aceitá-lo, ele deve devolver a diferença.
+
+18. Se alguém vende algo com um defeito não visível e o objeto é perdido por causa desse defeito, ele deve devolver o dinheiro. Por exemplo, se alguém vende a seu próximo um boi sem dentes, e o comprador o coloca com seu gado e coloca comida diante de todos, e eles comem, mas ele não sabia que este não estava comendo até que morreu de fome, ele deve devolver a carcaça e receber o dinheiro de volta. E assim em todos os casos semelhantes. Se o vendedor era um intermediário que compra e vende animais no mercado no mesmo dia, e não sabia desse defeito, o intermediário deve jurar que não sabia desse defeito e será isento, pois era responsabilidade do comprador verificar o boi por si mesmo e devolvê-lo antes que morresse. E o intermediário deve devolvê-lo ao primeiro comprador, e como ele não fez isso, ele perdeu por si mesmo.
+
+19. Se alguém vende ovos a seu próximo e eles são encontrados como "muzarot" (começando a formar um embrião), que não são adequados para comer, é uma compra por engano e o dinheiro deve ser devolvido. Atualmente, não é esse o costume, e o costume anula a lei.
+
+20. Se alguém vende sementes de jardim a seu próximo, que não são comestíveis, e ele as planta e elas não crescem, ele é responsável por elas e deve devolver o dinheiro que recebeu, pois a presunção é que são para plantio. Isso é, desde que não tenham crescido por causa de sua própria natureza. Mas se a terra foi atingida por granizo ou algo semelhante, ele não é responsável por elas, pois talvez não tenham crescido por causa do granizo, e assim em todos os casos semelhantes.
+
+21. Se alguém vende sementes comestíveis, como trigo e cevada, e elas são plantadas e não crescem, ele não é responsável por elas, mesmo que sejam sementes de linho que a maioria das pessoas compra para plantio, pois, como são comestíveis, ele não é responsável por seu plantio. No entanto, se ele ainda não pagou, há quem diga que o comprador pode dizer que comprou para plantio. E se ele informou que está comprando para semente, ele é responsável por isso. O mesmo se aplica a coisas vendidas para medicina ou tintura, e assim em todos os casos semelhantes.
+
+22. Se alguém compra algo de seu próximo e informa que está levando para outra cidade para vendê-lo lá, e depois de levá-lo para lá encontra um defeito, ele não pode dizer "devolva minha compra aqui", mas deve devolver o dinheiro, e o vendedor deve cuidar de trazer sua mercadoria de volta ou vendê-la lá. Mesmo que seja perdido ou roubado após ser informado, ainda está sob a responsabilidade do vendedor. Se o vendedor sabia que sua mercadoria tinha um defeito, ele é responsável pelas despesas que o comprador teve para levá-la a outro lugar. Se ele não sabia que havia um defeito, ele está isento das despesas de transporte, mas é responsável apenas pelas despesas de devolução. Se ele não informou ao vendedor que estava levando para outra cidade e levou, e encontrou um defeito lá, está sob a responsabilidade do comprador até que devolva a mercadoria com o defeito ao vendedor.
+
+23. Se alguém compra algo e encontra um defeito, e depois é perdido ou roubado, está sob a responsabilidade do comprador até que devolva a mercadoria ao vendedor. Se foi danificado ou deteriorado por causa do defeito, está sob a responsabilidade do vendedor. Se ele deveria ter informado o vendedor e não o fez, está sob a responsabilidade do comprador.
+
+24. Se alguém vende um boi a seu próximo e ele é encontrado como um boi que chifra, se não houver prova se foi comprado para arar ou para abate, como se fosse uma pessoa que compra para ambos, e também não há prova no preço, como se o preço da carne tivesse subido ao preço de um boi para arar, não é uma compra por engano, pois ele pode dizer "vendi para abate". Mesmo que a maioria compre para arar, não seguimos a maioria para retirar do vendedor. Mas se o dinheiro ainda está com o comprador, não apenas se a maioria compra para arar, mas mesmo se for igual, quem quer retirar do outro deve trazer prova. Se o comprador não costuma comprar, exceto para arar, e o vendedor o conhece, é uma compra por engano. Se ele não costuma comprar, exceto para abate, presume-se que ele comprou para abate. Se ele costuma comprar para abate e arar, se houver prova no preço, se ele pagou o preço de um boi para arar, dizemos que ele comprou para arar, e é uma compra por engano. Se ele pagou o preço de um boi para abate, dizemos que ele comprou para abate.
+
+**Nota:** Em qualquer lugar onde há uma compra por engano e ele deve devolver o dinheiro, e ele tem dinheiro, ele deve dar dinheiro, pois é como um credor. Isso não é como quem diz que ele pode dar terra.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 232 do Shulchan Aruch Choshen Mishpat trata de questões relacionadas a vendas e transações comerciais, especialmente quando há erros ou defeitos nos produtos vendidos. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Erros em Medidas e Contagem**: Quando alguém vende algo por medida, peso ou número e comete um erro, mesmo que pequeno, a venda pode ser anulada. Por exemplo, se você compra 100 nozes e recebe 101 ou 99, a venda ainda é válida, mas o erro precisa ser corrigido. Isso se aplica também a erros na contagem de dinheiro.
+
+2. **Excesso de Dinheiro**: Se você recebe mais dinheiro do que deveria em uma transação, deve devolver o excesso, a menos que seja uma pequena quantidade que não seja múltiplo de cinco ou dez, o que pode ser considerado um presente.
+
+3. **Defeitos nos Produtos**: Se você compra algo e descobre um defeito que não conhecia, pode devolver o item, mesmo após muitos anos, desde que não tenha usado o produto após saber do defeito. Se você usou, perde o direito de devolução.
+
+4. **Depreciação por Defeitos**: Se um produto tem um defeito que diminui seu valor, o comprador pode devolver o item, e o vendedor não pode simplesmente oferecer um desconto pelo defeito.
+
+5. **Defeitos Temporários**: Se um defeito é temporário e pode ser consertado, como danos causados por terceiros antes da conclusão da venda, o comprador deve aceitar uma dedução no preço para cobrir o reparo.
+
+6. **Costumes Locais**: O que é considerado um defeito pode depender dos costumes locais. Se algo é geralmente aceito como um defeito que anula uma compra, então a compra pode ser anulada.
+
+7. **Especificação de Defeitos**: Se um vendedor especifica que um produto tem certos defeitos, o comprador não pode reclamar desses defeitos depois, a menos que o defeito não tenha sido especificado.
+
+8. **Defeitos Visíveis e Não Visíveis**: Se um vendedor menciona defeitos visíveis e um não visível, e o não visível é encontrado, a compra pode ser considerada um engano, a menos que todos os defeitos mencionados estejam presentes.
+
+9. **Escravos e Animais**: Existem regras específicas para defeitos em escravos e animais. Defeitos que não afetam a capacidade de trabalho de um escravo não permitem devolução. Para animais, se um defeito torna o animal não kosher, a venda pode ser anulada.
+
+10. **Produtos Não Comestíveis ou Não Viáveis**: Se você compra algo que não é comestível ou não cresce como esperado, pode ser considerado um erro de compra, e o vendedor pode ser responsável, dependendo das circunstâncias.
+
+11. **Responsabilidade por Defeitos**: Se um produto é perdido ou danificado por causa de um defeito, o vendedor pode ser responsável por devolver o dinheiro, especialmente se o defeito não era visível.
+
+12. **Transporte e Defeitos**: Se você compra algo e leva para outra cidade e encontra um defeito, o vendedor pode ser responsável por trazer o produto de volta, dependendo se ele sabia do defeito.
+
+13. **Perda ou Roubo**: Se um produto com defeito é perdido ou roubado, a responsabilidade pode recair sobre o comprador ou o vendedor, dependendo de quando o defeito foi descoberto e comunicado.
+
+Essas leis são relevantes na vida judaica contemporânea, pois estabelecem princípios de justiça e honestidade em transações comerciais, garantindo que tanto compradores quanto vendedores sejam tratados de forma justa. Elas também destacam a importância de comunicação clara e acordos explícitos em negócios.

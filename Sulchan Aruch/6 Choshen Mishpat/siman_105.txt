@@ -1,0 +1,54 @@
+SIMAN 105
+
+**Lei sobre a apreensão para um credor em um caso que prejudica outros e um depositário que apreendeu o depósito para o credor. Contém seis seções:**
+
+1. Um devedor que deve a dois ou mais credores e não tem o suficiente para pagar a todos, e uma pessoa se adianta e apreende os bens móveis do devedor para beneficiar um dos credores, não adquire direito sobre eles. Pois qualquer apreensão para um credor em um caso onde há dívida para outros não é válida, mesmo que ele tenha sido nomeado como agente e tenha recebido uma autorização escrita. No entanto, um tutor adquire, pois ele age em nome dos proprietários.
+
+2. Se o devedor também deve ao apreensor, ele adquire através de sua apreensão, pois se ele quisesse, poderia adquirir para si mesmo, então ele pode adquirir para seu amigo.
+
+3. Se o devedor disser a uma pessoa para adquirir um objeto para outra pessoa, ou para dar uma quantia a outra pessoa, ele adquire para ela, mesmo que o adquirente não conheça essa pessoa. Nenhum dos credores pode cobrar desses bens que já foram adquiridos por outro.
+
+4. Se não houver dívida para outros, o apreensor adquire para o credor, mas apenas em um caso onde há perda para o credor, como quando o devedor está perdendo seus bens ou empobreceu e perdeu suas posses. Mesmo dentro do prazo, a apreensão é eficaz se ele não tiver outros bens e o credor perderia sem essa apreensão. Isso é apenas se o credor tiver um documento em mãos que ele possa sustentar, mas se ele não tiver prova e o devedor negar, o dinheiro é devolvido ao proprietário, e ele não pode dizer "marque um tempo para que eu traga prova".
+
+5. O apreensor para um credor em um caso onde não prejudica outros é responsável por ele. (Alguns dizem que ele não é responsável por ele) (Tur em nome do Rosh). Se o devedor disser ao apreensor para aceitar a responsabilidade explicitamente ou devolver o que ele apreendeu porque não confia nele, ele deve ser ouvido.
+
+6. Um depositário que apreendeu um depósito para um credor em um caso onde não prejudica outros, sua apreensão é eficaz no sentido de que, se o depositante morrer, não se torna bens móveis para seus filhos, e o ano sabático não o cancela. Se ele o deu em conjunto (ou seja, junto com a terra) ou por meio de um ato de aquisição ou como um presente de um moribundo para outro, não é dado. No entanto, se o credor não estiver presente, o depositário não pode reter o depósito para ele, mesmo que o devedor admita que a lei exige que todo depósito seja devolvido a quem o depositou. Se outros tiverem direito sobre ele, a lei é entre eles. Se o depositário o entregou ao credor, ele está isento, mesmo que fosse um guardião remunerado, pois mesmo se ele o devolvesse ao depositante, ele teria que pagar ao credor (Tur, Seção 65).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 105 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho trata de situações em que uma pessoa (o devedor) deve dinheiro a várias pessoas (os credores) e não tem recursos suficientes para pagar a todos. A discussão gira em torno de quem tem o direito de "apreender" ou tomar posse dos bens do devedor para garantir o pagamento de uma dívida.
+
+### Seção 1
+
+- **Conceito:** Se alguém tenta tomar os bens do devedor para pagar um dos credores, isso não é válido se o devedor deve a várias pessoas. Mesmo que essa pessoa tenha sido autorizada por escrito, a apreensão não é reconhecida.
+- **Exceção:** Um tutor, que é alguém legalmente responsável por cuidar dos interesses de outra pessoa, pode fazer isso porque age em nome dos proprietários dos bens.
+
+### Seção 2
+
+- **Conceito:** Se a pessoa que apreende os bens também é um dos credores, ela pode ficar com os bens. Isso ocorre porque, se ela quisesse, poderia ter tomado os bens para si mesma, então pode fazê-lo em benefício de outro credor.
+
+### Seção 3
+
+- **Conceito:** Se o devedor instrui alguém a transferir um bem ou dinheiro para outra pessoa, essa transferência é válida, mesmo que o intermediário não conheça a pessoa que vai receber. Uma vez transferidos, esses bens não podem ser usados para pagar outros credores.
+
+### Seção 4
+
+- **Conceito:** Se não houver outros credores, a apreensão é válida, mas apenas se o credor estiver em risco de perder seu dinheiro, como quando o devedor está ficando sem bens. A apreensão é válida se o credor tiver um documento que comprove a dívida. Se não houver prova e o devedor negar a dívida, os bens devem ser devolvidos ao devedor.
+
+### Seção 5
+
+- **Conceito:** Se a apreensão não prejudica outros credores, a pessoa que apreendeu os bens pode ser responsabilizada por eles. No entanto, há opiniões divergentes sobre essa responsabilidade. Se o devedor pedir explicitamente para que a pessoa assuma a responsabilidade ou devolva os bens, isso deve ser respeitado.
+
+### Seção 6
+
+- **Conceito:** Um depositário (alguém que guarda bens para outra pessoa) que apreende um depósito para um credor, em um caso que não prejudica outros, faz com que a apreensão seja válida. Isso significa que, se o depositante morrer, os bens não são automaticamente transferidos para os herdeiros, e o ano sabático (um ano em que dívidas são perdoadas) não cancela a dívida.
+- **Exceção:** Se o credor não estiver presente, o depositário não pode reter os bens para ele. Se o depositário entregou os bens ao credor, ele não é responsável, mesmo que fosse um guardião remunerado, pois teria que pagar ao credor de qualquer forma.
+
+### Relevância Prática
+
+Essas leis são importantes para garantir justiça e clareza em situações de dívida, protegendo tanto os credores quanto os devedores. Elas ajudam a evitar conflitos e garantem que as dívidas sejam tratadas de maneira justa e ordenada, respeitando os direitos de todas as partes envolvidas.

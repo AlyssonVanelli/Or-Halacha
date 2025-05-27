@@ -1,0 +1,34 @@
+SIMAN 311
+
+**O locatário de um navio que descarregou no meio do caminho ou afundou no meio do caminho. E contém seis seções:**
+
+1. Um navio que teve um acréscimo de um trigésimo em sua carga e afundou, o locatário é obrigado a pagar seu valor.
+
+2. Se alguém aluga um navio e ele afunda no meio do caminho, se o proprietário disse "Estou alugando este navio para você" e o locatário o alugou para transportar vinho sem especificar, mesmo que tenha pago o aluguel, deve devolver todo o aluguel, pois o locatário pode dizer: "Traga-me o próprio navio que aluguei, pois há uma grande preocupação com este navio, e eu trarei vinho de qualquer lugar e o transportarei." Nota: Se for possível retirar o navio da água e alugar outro navio com o valor ou com tudo o que pertence ao navio, deve-se alugar, conforme explicado anteriormente no Siman 310 sobre um burro (Hagahot Maimoni, capítulo 5 de Aluguel).
+
+3. Se o proprietário disse "Estou alugando um navio para você" e o locatário o alugou para transportar este vinho, mesmo que não tenha pago nada do aluguel, é obrigado a pagar todo o aluguel, pois o proprietário pode dizer: "Traga-me o próprio vinho e eu trarei um navio de qualquer maneira e o transportarei." No entanto, deve-se deduzir o esforço de metade do caminho, pois não é o mesmo cuidar do transporte do navio que ficar sentado e ocioso. Nota: Alguns dizem que ele só paga o aluguel de metade do caminho (Tur em nome do Rosh).
+
+4. Se o proprietário disse "Estou alugando este navio para você" e o locatário o alugou para transportar este vinho, se o aluguel foi pago, não pode ser devolvido. Se não foi pago, não deve ser pago, pois nem o proprietário pode trazer o próprio navio, nem o locatário pode trazer o próprio vinho.
+
+5. Se um navio foi alugado sem especificar para vinho sem especificar, eles dividem o aluguel, mas apenas quando nenhum deles quer completar. Se um traz seu vinho e o outro não traz o navio, se o aluguel foi pago, ele também deve receber e retirar de sua posse.
+
+6. Se alguém aluga um navio e descarrega no meio do caminho, deve pagar o aluguel de todo o caminho. Se o locatário encontrar alguém que alugue o navio até o ponto onde parou, ele aluga, mas o proprietário do navio tem uma queixa contra ele. Nota: Deve-se pagar ao proprietário do navio o que o navio perdeu ao descarregar a primeira carga e carregar a segunda (Tur). Da mesma forma, se toda a mercadoria no navio for vendida a outra pessoa no meio do caminho e o comprador embarcar, o primeiro paga o aluguel de metade do caminho e o último paga o aluguel da outra metade, e o proprietário do navio tem uma queixa contra ele por ter causado a ele o incômodo de lidar com outra pessoa com quem ainda não estava acostumado, e assim em todos os casos semelhantes.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática o que está sendo discutido neste trecho do Shulchan Aruch, que é um importante código de leis judaicas. Este texto trata de questões relacionadas ao aluguel de navios, que era uma prática comum no passado, mas ainda pode ter relevância em situações modernas de transporte e logística.
+
+1. **Acréscimo de Carga e Afundamento**: Se um navio afunda porque foi carregado além de sua capacidade (um trigésimo a mais), o locatário, ou seja, a pessoa que alugou o navio, é responsável por pagar o valor do navio. Isso ensina a importância de respeitar os limites de carga para evitar acidentes.
+
+2. **Afundamento no Meio do Caminho**: Se um navio afunda durante a viagem e o proprietário disse "Estou alugando este navio para você", o locatário pode exigir o mesmo navio para continuar o transporte, mesmo que já tenha pago o aluguel. Isso porque o locatário pode ter escolhido aquele navio específico por razões de confiança ou adequação ao tipo de carga. Se for possível recuperar o navio ou alugar outro com o valor do seguro, isso deve ser feito.
+
+3. **Especificidade do Vinho**: Se o proprietário disse "Estou alugando um navio para você" e o locatário especificou que era para transportar um determinado vinho, o locatário deve pagar o aluguel completo, mesmo que o navio afunde, porque o proprietário pode argumentar que ele poderia ter providenciado outro navio para transportar aquele vinho específico. No entanto, o locatário pode deduzir o custo do esforço já feito até o ponto do afundamento.
+
+4. **Aluguel Específico e Afundamento**: Se o aluguel foi específico tanto para o navio quanto para o vinho, e o navio afunda, o aluguel não pode ser devolvido se já foi pago, pois nem o proprietário pode fornecer o mesmo navio, nem o locatário pode fornecer o mesmo vinho.
+
+5. **Aluguel Sem Especificação**: Se o navio foi alugado sem especificar para qual vinho, e ocorre um problema, o aluguel é dividido entre as partes, mas isso só se aplica se nenhum dos dois quiser continuar com o transporte. Se um deles estiver disposto a continuar, ele deve ser compensado.
+
+6. **Descarregamento no Meio do Caminho**: Se o locatário decide descarregar a carga no meio do caminho, ele ainda deve pagar pelo aluguel completo, a menos que encontre alguém para alugar o navio pelo restante do percurso. No entanto, o proprietário do navio pode reclamar por ter que lidar com uma nova pessoa e por possíveis perdas causadas pela troca de carga.
+
+Essas regras refletem a importância de acordos claros e a responsabilidade de cada parte em um contrato de aluguel, princípios que ainda são muito relevantes em qualquer tipo de contrato ou acordo comercial hoje em dia.

@@ -1,0 +1,39 @@
+SIMAN 147
+
+1. Como um homem divorcia sob condição? Não é que ele diga "escrevam um guet para minha esposa sob esta condição" ou "escrevam e entreguem a ela sob esta condição", e não é necessário dizer que ele não deve escrever dentro do guet "sob esta condição fulano divorcia fulana". Em vez disso, como ele faz? Ele diz ao escriba para escrever e às testemunhas para assinarem, e eles escrevem um guet válido sem qualquer condição no mundo. Depois, ele entrega a ela o guet e diz: "Este é o seu guet" ou "Você está divorciada de mim sob tal e tal condição", ou ele diz ao mensageiro: "Entregue a ela este guet sob tal e tal condição".
+
+2. Se a condição foi escrita no guet após a conclusão do texto principal do guet, este é válido, seja a condição escrita antes da assinatura das testemunhas ou depois. Mas se foi escrita antes do texto principal do guet, mesmo que tenha sido escrito "sob tal e tal condição", é um caso de dúvida de divórcio, pois ele manteve um direito sobre o corpo do guet. Da mesma forma, se ele estipulou verbalmente antes da escrita do texto principal, é um caso de dúvida de divórcio.
+
+3. Qualquer um que divorcia sob uma condição que invalida o guet, como estipular que ela não coma carne ou não beba vinho por toda a vida, ou que ela seja permitida a todos os homens exceto fulano, ou que estipule outras condições antes da escrita do texto principal, se a condição foi escrita no guet e depois apagada e entregue a ela, é um caso de dúvida de divórcio. E se a condição foi verbal, ele retira o guet dela e o entrega novamente sem qualquer condição, ou sob uma condição válida.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 147 do Shulchan Aruch Even HaEzer, é importante saber que estamos falando sobre as leis de divórcio no judaísmo, especificamente sobre como um homem pode dar um "guet" (documento de divórcio) à sua esposa sob certas condições.
+
+### 1. Divórcio sob Condição
+
+- **Guet**: É o documento de divórcio no judaísmo. Para que um divórcio seja válido, o guet deve ser entregue à esposa.
+- **Condição**: Às vezes, um homem pode querer que o divórcio só seja efetivo se certas condições forem cumpridas.
+
+**Explicação Prática**: 
+- O homem não deve incluir a condição diretamente no texto do guet. Em vez disso, ele deve instruir o escriba a escrever um guet sem condições e as testemunhas a assinarem. Depois, ele pode entregar o guet à esposa e verbalmente declarar a condição, ou instruir um mensageiro a fazer isso.
+
+### 2. Condições Escritas no Guet
+
+- **Texto Principal do Guet**: Refere-se ao corpo principal do documento de divórcio.
+- **Assinaturas das Testemunhas**: São necessárias para validar o guet.
+
+**Explicação Prática**:
+- Se uma condição é escrita no guet após o texto principal, o guet ainda é válido. No entanto, se a condição é escrita antes do texto principal, isso cria uma dúvida sobre a validade do divórcio, porque parece que o homem ainda mantém algum controle sobre o guet.
+
+### 3. Condições que Invalidam o Guet
+
+- **Condições Inaceitáveis**: Algumas condições, como proibir a esposa de comer carne ou beber vinho, ou permitir que ela se case com qualquer homem exceto um específico, são consideradas inválidas.
+
+**Explicação Prática**:
+- Se tais condições são escritas no guet e depois apagadas, ainda há dúvida sobre a validade do divórcio. Se a condição foi apenas verbal, o homem deve retirar o guet e entregá-lo novamente sem condições, ou com uma condição que seja válida.
+
+### Relevância Prática
+
+Na vida judaica contemporânea, essas leis garantem que o processo de divórcio seja claro e justo, evitando ambiguidades que possam prejudicar qualquer uma das partes. O guet deve ser dado de forma que não deixe dúvidas sobre a liberdade da mulher para se casar novamente, respeitando tanto a letra quanto o espírito da lei judaica.

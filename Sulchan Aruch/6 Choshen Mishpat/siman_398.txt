@@ -1,0 +1,30 @@
+SIMAN 398
+
+**Siman 398: Introdução de um boi no pátio do próximo sem permissão ou com permissão. Contém cinco seções:**
+
+1. Se alguém introduz seu boi no pátio do próximo sem permissão e o boi do dono do pátio o fere, o dono do pátio está isento. Da mesma forma, se o dono do pátio danifica o boi, ele está isento, pois pode alegar que, uma vez que o boi foi introduzido sem seu conhecimento, ele não sabia de sua presença até que o danificou acidentalmente. No entanto, se ele o danificou intencionalmente, é obrigado a pagar o dano completo, pois, embora tenha permissão para removê-lo de sua propriedade, não tem permissão para danificá-lo.
+
+2. Se o boi que entrou danifica o dono do pátio ou o boi do dono do pátio, o caso é tratado como se o dano tivesse ocorrido em um domínio público. O dono do boi pagará metade do dano se o boi for considerado "tam" (não acostumado a causar danos) e o dano completo se for "mu'ad" (acostumado a causar danos).
+
+3. Se o boi danifica o pátio, por exemplo, cavando buracos, poços ou cavernas, o dono do boi é responsável pelos danos ao pátio. O dono do pátio é responsável pelos danos causados pelo poço, pois deveria tê-lo fechado.
+
+4. Se o boi cai em um poço no pátio e contamina a água, se a contaminação ocorreu no momento da queda, o dono do boi é responsável pelos danos à água. Se a contaminação ocorreu após a queda, ele está isento, pois é considerado como qualquer outro obstáculo, onde o poço é responsável por danos a objetos, mas não a utensílios.
+
+5. Se o boi foi introduzido com a permissão do dono do pátio, o dono do boi está isento. Se o boi do dono do pátio danifica o boi que entrou com permissão, o dono do pátio está isento, a menos que ele tenha assumido a responsabilidade de guardá-lo. Nota: Alguns dizem que, ao dar permissão para entrar, é como se ele tivesse assumido a responsabilidade de guardá-lo, mas isso se aplica apenas a danos que vêm do dono do pátio. Para danos que vêm de fora, ele não é responsável até que assuma a responsabilidade de guardá-lo (Tur em nome de R"Y e Rosh).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 398 do Shulchan Aruch Choshen Mishpat trata de situações em que um boi entra no pátio de outra pessoa, seja com ou sem permissão, e os possíveis danos que podem ocorrer. Vamos explicar cada seção de forma prática:
+
+1. **Entrada sem permissão e danos ao boi**: Se alguém deixa seu boi entrar no pátio de outra pessoa sem pedir, e o boi é ferido pelo dono do pátio ou por seu boi, o dono do pátio não precisa pagar por esses danos. Isso porque o boi estava lá sem permissão, e o dono do pátio pode não ter percebido sua presença. No entanto, se o dono do pátio danificar o boi de propósito, ele deve pagar, pois não tem o direito de machucar o boi intencionalmente, mesmo que ele esteja em sua propriedade sem permissão.
+
+2. **Danos causados pelo boi que entrou**: Se o boi que entrou sem permissão causa danos ao dono do pátio ou ao seu boi, a situação é tratada como se tivesse ocorrido em um espaço público. Isso significa que o dono do boi pagará metade dos danos se o boi não for conhecido por causar danos (chamado de "tam") e o dano completo se o boi já tiver histórico de causar danos (chamado de "mu'ad").
+
+3. **Danos ao pátio**: Se o boi danifica o pátio, por exemplo, cavando buracos, o dono do boi é responsável por esses danos. No entanto, se o boi cair em um buraco que já estava no pátio, o dono do pátio é responsável por não ter fechado o buraco.
+
+4. **Contaminação de água**: Se o boi cai em um poço e contamina a água, o dono do boi paga pelos danos se a contaminação ocorreu no momento da queda. Se a contaminação aconteceu depois, ele não é responsável, pois o poço é considerado responsável por danos a objetos, mas não a utensílios.
+
+5. **Entrada com permissão**: Se o boi entra com a permissão do dono do pátio, o dono do boi não é responsável por danos. Se o boi do dono do pátio machuca o boi que entrou com permissão, o dono do pátio não precisa pagar, a menos que ele tenha concordado em cuidar do boi. Há uma opinião que diz que ao permitir a entrada, o dono do pátio assume a responsabilidade de cuidar do boi, mas isso só se aplica a danos causados por ele ou por seu boi, não por fatores externos, a menos que ele tenha explicitamente assumido essa responsabilidade.
+
+Essas leis são relevantes hoje em dia, pois refletem princípios de responsabilidade e cuidado com a propriedade alheia, que podem ser aplicados em diversas situações de convivência e uso de espaços compartilhados.

@@ -1,0 +1,58 @@
+SIMAN 121
+
+**O devedor que envia sua dívida por meio de um mensageiro. Contém doze seções:**
+
+1. Se o credor instruiu que a dívida ou depósito fosse enviado por meio de um mensageiro e eles se perderam, o credor está isento, mesmo que não tenha sido dito diretamente, mas apenas por escrito, desde que o devedor reconheça a caligrafia. Isso se aplica mesmo que o mensageiro seja um gentio, surdo, tolo ou menor de idade. Se o credor não especificou uma pessoa conhecida, mas apenas disse para enviar por quem desejar, e eles se perderam ou o mensageiro negou recebê-los, o credor ainda está isento, desde que o mensageiro seja confiável e o envio seja feito de maneira comum. No entanto, se o envio for feito por alguém conhecido por negar ou em um local perigoso, o credor é responsável, a menos que tenha especificado de outra forma.
+
+2. Mesmo que o credor não tenha instruído o mensageiro a dizer ao devedor para enviar o dinheiro, se ele disse na presença de testemunhas que tem dinheiro com o devedor e que o mensageiro deve trazê-lo, e o devedor entregou ao mensageiro e o dinheiro se perdeu, o credor está isento. Mas se ele apenas sugeriu que o mensageiro poderia trazer o dinheiro, sem torná-lo um mensageiro oficial, e o dinheiro se perdeu, o credor é responsável.
+
+3. Se o credor não fez do mensageiro um mensageiro oficial na presença de testemunhas, mas apenas entregou um selo como sinal de que ele é um mensageiro, e o mensageiro entregou o dinheiro e ele se perdeu, o devedor não está isento. O mensageiro deve primeiro fazer um juramento de que não mentiu.
+
+4. Se o credor ou depositante enviou uma carta ao devedor ou depositário instruindo a entrega do dinheiro por meio de um mensageiro, e o credor nega ter enviado tal carta, o devedor deve jurar que recebeu a carta e, portanto, enviou o dinheiro. Se a caligrafia não for reconhecida, o devedor é responsável, a menos que o credor jure que não enviou a carta.
+
+5. Se o credor ou depositante afirma que a caligrafia não é dele e não há testemunhas para confirmá-la, mas o depositário reconhece a caligrafia, ele é confiável com um juramento leve. Se o dinheiro foi depositado com um documento, o devedor não é confiável sem um juramento severo.
+
+6. Se o credor admite que a caligrafia é dele, mas não acredita que o mensageiro perdeu o dinheiro, o mensageiro deve fazer um juramento de guardião.
+
+7. Se o mensageiro admite ter recebido o dinheiro e que ele foi perdido, mas o credor ou depositante nega ter recebido, o mensageiro não é confiável, mesmo que sejam dois mensageiros, pois são parte interessada. O mensageiro deve fazer um juramento leve e o devedor ou depositário deve aceitar um juramento geral.
+
+8. Se o mensageiro nega ter recebido o dinheiro, mas o depositário ou devedor afirma que entregou, o mensageiro deve jurar ao devedor ou depositário na presença deles e ser liberado. O devedor ou depositário deve então jurar ao credor ou depositante na presença do mensageiro.
+
+9. Isso se aplica quando o mensageiro foi designado para trazer o dinheiro. Se ele não foi designado, mas apenas confiado pelo devedor ou depositário, e o mensageiro afirma que o dinheiro foi perdido ou entregue, ele não é confiável sem um juramento.
+
+10. Se o mensageiro foi liberado de um juramento no momento da entrega, ele pode ser confiável. Se o mensageiro e o remetente foram juntos e o remetente viu de longe que o mensageiro cumpriu sua missão, ele pode ser uma testemunha única, exigindo um juramento do credor.
+
+11. Se ambos, o mensageiro e o credor, estão presentes e se contradizem, o mensageiro não pode ser forçado a jurar que cumpriu sua missão, pois não há uma acusação direta. Se o mensageiro morreu ou foi para o exterior, o credor não pode exigir um juramento do devedor de que o mensageiro não pagou.
+
+12. Se Reuven instruiu Levi a entregar dinheiro a Shimon, e Levi afirma ter entregue, mas Shimon nega, a regra é como se Levi tivesse sido instruído a entregar o dinheiro a alguém. Se Levi foi enviado para penhorar algo e não sabe onde está, ele é responsável. Se ele sabe onde está, mas a pessoa nega, ele deve pagar, a menos que tenha sido instruído a penhorar com testemunhas.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 121 do Shulchan Aruch Choshen Mishpat trata de situações em que uma dívida ou depósito é enviado por meio de um mensageiro. Vamos explicar isso de forma prática e acessível:
+
+1. **Mensageiro e Responsabilidade**: Quando alguém deve dinheiro (o devedor) e o credor (quem emprestou o dinheiro) pede que o pagamento seja enviado por um mensageiro, se o dinheiro se perder, o credor não é responsável, desde que o devedor reconheça que a instrução foi dada, mesmo que por escrito. Isso vale mesmo se o mensageiro for alguém que normalmente não seria confiável, como um menor de idade ou alguém com deficiência mental. No entanto, se o credor não especificar um mensageiro confiável ou se o envio for feito de maneira arriscada, o credor pode ser responsabilizado.
+
+2. **Instruções Claras**: Se o credor, na presença de testemunhas, diz que o mensageiro deve trazer o dinheiro, e o dinheiro se perde, o credor não é responsável. Mas se ele apenas sugere que o mensageiro poderia trazer o dinheiro, sem torná-lo um mensageiro oficial, o credor é responsável se o dinheiro se perder.
+
+3. **Prova de Mensageiro**: Se o credor não oficializou o mensageiro na presença de testemunhas, mas deu um sinal, como um selo, e o dinheiro se perde, o mensageiro deve jurar que não mentiu sobre a entrega.
+
+4. **Negação de Instrução**: Se o credor nega ter enviado uma carta instruindo o envio do dinheiro, o devedor deve jurar que recebeu tal carta. Se a caligrafia não for reconhecida, o devedor é responsável, a menos que o credor jure que não enviou a carta.
+
+5. **Reconhecimento de Caligrafia**: Se o credor nega a caligrafia e não há testemunhas, mas o devedor reconhece, ele é confiável com um juramento leve. Se o dinheiro foi depositado com um documento, um juramento mais severo é necessário.
+
+6. **Perda do Dinheiro**: Se o credor reconhece a caligrafia, mas não acredita que o mensageiro perdeu o dinheiro, o mensageiro deve fazer um juramento de guardião.
+
+7. **Conflito de Relatos**: Se o mensageiro admite a perda, mas o credor nega o recebimento, o mensageiro não é confiável sem um juramento leve. O devedor deve fazer um juramento geral.
+
+8. **Negação do Mensageiro**: Se o mensageiro nega ter recebido o dinheiro, mas o devedor afirma que entregou, o mensageiro deve jurar ao devedor e ser liberado. O devedor então jura ao credor.
+
+9. **Designação do Mensageiro**: Se o mensageiro não foi oficialmente designado, ele não é confiável sem um juramento.
+
+10. **Isenção de Juramento**: Se o mensageiro foi liberado de um juramento na entrega, ele pode ser confiável. Se o remetente viu de longe o mensageiro cumprir sua missão, ele pode ser uma testemunha única.
+
+11. **Contradição entre Mensageiro e Credor**: Se ambos estão presentes e se contradizem, o mensageiro não pode ser forçado a jurar. Se o mensageiro não está disponível, o credor não pode exigir um juramento do devedor.
+
+12. **Instruções de Terceiros**: Se alguém instrui um mensageiro a entregar dinheiro a outra pessoa, e há uma disputa sobre a entrega, as regras são semelhantes às de um mensageiro comum. Se o mensageiro foi enviado para penhorar algo e não sabe onde está, ele é responsável, a menos que tenha sido instruído a penhorar com testemunhas.
+
+Essas leis ajudam a garantir a confiança e a clareza nas transações financeiras, especialmente quando terceiros estão envolvidos. Elas são relevantes hoje em dia, pois muitas vezes dependemos de intermediários para realizar pagamentos ou transferências de bens.

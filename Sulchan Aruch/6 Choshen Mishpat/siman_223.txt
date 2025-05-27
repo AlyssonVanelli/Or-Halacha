@@ -1,0 +1,35 @@
+SIMAN 223
+
+**Aquele que troca uma vaca por um jumento, ou quem possui dois servos ou dois campos. Contém cinco seções:**
+
+1. Aquele que troca uma vaca por um jumento, e o dono da vaca puxou o jumento, mas a vaca ainda está em sua casa e deu à luz. O dono da vaca alega que a vaca deu à luz antes de puxar o jumento, enquanto o dono do jumento diz que a vaca deu à luz após puxar o jumento. Da mesma forma, aquele que vende sua serva e recebe o dinheiro, e a serva deu à luz. O vendedor diz que ela deu à luz antes de receber o dinheiro, e o comprador diz que foi depois. Mesmo que o comprador alegue com certeza e o vendedor com dúvida, cabe ao comprador trazer prova, mesmo que a vaca e a serva não estejam sob a posse do vendedor, mas estejam em um pântano. Se não trouxer prova, o vendedor deve jurar sobre o bezerro da vaca com um juramento de objeto, e sobre o filho da serva com um juramento heset. Se o comprador estiver em posse, cabe ao vendedor trazer prova.
+
+2. Se ambos dizem "não sei" e não está sob a posse de nenhum deles, cabe ao comprador trazer prova. (E alguns dizem que mesmo se o demandante alega com certeza e o réu com dúvida) (Tur). E há quem diga que devem dividir.
+
+3. Se um diz "ela deu à luz sob minha posse" e o outro fica em silêncio, aquele que alega ganha o bezerro.
+
+4. Aquele que tinha dois servos, um grande e um pequeno, ou dois campos, um grande e um pequeno. O comprador diz "comprei o grande" e o vendedor diz "foi o pequeno que você comprou". Cabe ao comprador trazer prova ou o vendedor deve jurar heset que vendeu apenas o pequeno. Se houver uma admissão parcial, ele deve jurar um juramento da Torá sobre os bens móveis e estender o juramento aos imóveis.
+
+5. Se o comprador diz "comprei o grande" e o vendedor fica em silêncio, o comprador ganha o grande. Se o vendedor diz "não sei", cabe ao comprador trazer prova ou o vendedor deve jurar heset que não sabe, e o comprador só tem direito ao pequeno.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda questões de disputas comerciais e de propriedade, usando exemplos específicos para ilustrar como resolver conflitos sobre quem possui o quê em situações de troca ou venda. Vamos explicar cada seção de forma prática:
+
+1. **Troca de Animais e Venda de Servos:**
+   - Imagine que duas pessoas fazem uma troca: uma vaca por um jumento. Se a vaca dá à luz antes de a troca ser finalizada, há uma disputa sobre quem é o dono do bezerro. O mesmo vale para a venda de uma serva que dá à luz. A regra aqui é que, se houver dúvida sobre quando o nascimento ocorreu, cabe à pessoa que recebeu o jumento ou comprou a serva provar que o nascimento aconteceu após a troca ou venda. Se não conseguir provar, a pessoa que originalmente possuía a vaca ou a serva deve fazer um juramento para confirmar sua alegação.
+
+2. **Ambos Não Sabem:**
+   - Se ambos os envolvidos na troca ou venda dizem que não sabem quando o nascimento ocorreu, a responsabilidade de provar recai sobre o comprador. Em algumas opiniões, se ninguém pode provar nada, o item em disputa pode ser dividido.
+
+3. **Silêncio de Uma Parte:**
+   - Se uma pessoa afirma que o nascimento ocorreu sob sua posse e a outra parte não contesta, a pessoa que fez a afirmação fica com o bezerro.
+
+4. **Disputa sobre o Tamanho do Bem Vendido:**
+   - Quando alguém compra um servo ou um campo e há uma disputa sobre qual foi vendido (o grande ou o pequeno), o comprador deve provar sua alegação. Se não puder, o vendedor deve jurar que vendeu apenas o menor. Se o vendedor admite parcialmente, ele deve fazer um juramento mais formal.
+
+5. **Silêncio do Vendedor:**
+   - Se o comprador afirma ter comprado o bem maior e o vendedor não responde, o comprador fica com o bem maior. Se o vendedor diz que não sabe, ele deve jurar que não tem conhecimento, e o comprador só recebe o bem menor, a menos que possa provar o contrário.
+
+Essas regras são aplicadas para garantir justiça em transações comerciais, assegurando que a posse de bens seja clara e que disputas sejam resolvidas de maneira justa. Na prática contemporânea, essas leis destacam a importância de documentação e clareza em transações para evitar mal-entendidos.

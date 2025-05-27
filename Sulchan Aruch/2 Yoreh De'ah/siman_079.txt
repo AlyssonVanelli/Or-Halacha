@@ -1,0 +1,43 @@
+SIMAN 79
+
+1. Os sinais de um animal e uma fera pura foram explicados na Torá, e são dois sinais: ruminação e cascos fendidos. Todo animal e fera que não tem dentes na mandíbula superior nem presas, que são como pedaços de carne semelhantes a dentes salientes nas gengivas, é sabido que é puro, desde que se reconheça que não é um camelo, que não tem presas até crescer. Todo animal que rumina tem cascos fendidos, exceto o camelo, a lebre e o damão, que ruminam mas não têm cascos fendidos, e não há preocupação se têm dentes ou presas na parte superior. Portanto, quem encontrar um animal no deserto e não o reconhecer, e seus cascos estiverem cortados, de modo que não possa ser examinado, deve verificar se não tem dentes nem presas na parte superior, e é sabido que é puro, desde que se reconheça que não é um camelo. Todo animal que tem cascos fendidos rumina, exceto o porco. Portanto, se encontrar um animal com a boca cortada, de modo que não possa ser examinado, deve verificar suas patas; se seus cascos forem fendidos, é sabido que é puro, desde que se reconheça que não é um porco. Se tiver chifres, está fora da dúvida de ser um porco e é puro. Não há animal impuro cuja carne sob a cauda vá em cruz, exceto o onagro (jumento selvagem). Portanto, quem encontrar um animal com a boca e os cascos cortados, de modo que não possa ser examinado, deve verificar a carne sob a base da cauda após o abate; se for em cruz, é puro, desde que se reconheça que não é um onagro. (A carne humana é proibida de ser comida pela Torá).
+
+2. Um animal impuro que deu à luz algo semelhante a um puro, mesmo que tenha todos os sinais de pureza, é proibido. E um animal puro que deu à luz algo semelhante a um impuro é permitido, mesmo que tenha todos os sinais de impureza. Isso é apenas se deu à luz diante de nós, mas se a deixou prenha e depois encontrou um tipo impuro seguindo-a, mesmo que esteja ligado a ela e mamando, é proibido, pois pode ter nascido do impuro e se ligado ao puro.
+
+3. O que nasce de um animal terefá (com defeito que o torna não kosher) é permitido.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 79 do Shulchan Aruch Yoreh De'ah, precisamos primeiro explicar alguns conceitos básicos sobre as leis alimentares judaicas, conhecidas como "kashrut". Essas leis determinam quais animais são considerados "kosher" (permitidos para consumo) e quais não são.
+
+### 1. Sinais de Animais Puros
+
+A Torá, que é a lei judaica, especifica dois sinais principais para identificar animais terrestres que são kosher:
+- **Ruminação**: O animal deve mastigar o alimento, engoli-lo e depois regurgitá-lo para mastigar novamente. Isso é conhecido como "ruminar".
+- **Cascos fendidos**: Os cascos do animal devem ser divididos em duas partes.
+
+Se um animal tem esses dois sinais, ele é considerado puro e pode ser consumido. No entanto, há exceções importantes:
+- **Camelo, lebre e damão**: Esses animais ruminam, mas não têm cascos fendidos, então não são kosher.
+- **Porco**: Tem cascos fendidos, mas não rumina, então também não é kosher.
+
+### 2. Identificação de Animais Desconhecidos
+
+Se alguém encontrar um animal desconhecido e não puder verificar seus sinais devido a danos (como cascos ou boca cortados), há métodos alternativos para determinar sua pureza:
+- **Sem dentes ou presas na mandíbula superior**: Se o animal não tiver dentes ou presas na parte superior da boca, é um sinal de que pode ser puro, desde que não seja um camelo.
+- **Chifres**: Se o animal tiver chifres, não é um porco e pode ser considerado puro.
+- **Carne sob a cauda**: Se a carne sob a base da cauda estiver em forma de cruz, o animal é considerado puro, exceto se for um onagro (jumento selvagem).
+
+### 3. Nascimento de Animais
+
+As leis também abordam o nascimento de animais:
+- **Animal impuro dando à luz um puro**: Se um animal impuro (não kosher) der à luz algo que parece puro (kosher), mesmo que tenha todos os sinais de pureza, ele ainda é proibido para consumo.
+- **Animal puro dando à luz um impuro**: Se um animal puro der à luz algo que parece impuro, ele é permitido, desde que o nascimento tenha sido testemunhado. Se não foi testemunhado, e o animal impuro é encontrado junto ao puro, ele é proibido, pois pode ter nascido de um animal impuro.
+
+### 4. Animais Terefá
+
+Um animal "terefá" é aquele que tem um defeito físico que o torna não kosher. No entanto, se um animal terefá der à luz, o que nasce dele é permitido para consumo.
+
+### Relevância Prática
+
+Essas leis são fundamentais para a prática do judaísmo, especialmente para aqueles que seguem uma dieta kosher. Elas garantem que os alimentos consumidos estejam de acordo com as tradições e mandamentos religiosos. Na vida contemporânea, essas regras são seguidas por meio de certificações kosher, que garantem que os produtos atendem a esses critérios.

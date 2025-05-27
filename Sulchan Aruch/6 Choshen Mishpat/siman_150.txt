@@ -1,0 +1,38 @@
+SIMAN 150
+
+**Siman 150: Aquele que entrou em um campo sob a condição de penhor e depois fez um contrato de venda. Contém sete seções:**
+
+1. Aquele que entrou em um campo sob a condição de penhor não adquire posse se for conhecido que ele entrou sob essa condição. Se não houver nada além de um rumor, isso foi esclarecido no Siman 149 (Seção 20). De qualquer forma, é um bom conselho para o credor hipotecário protestar a cada três anos, para que o devedor não esconda o documento de penhor após o esquecimento do assunto e alegue que o campo foi comprado por ele, como no caso de alguém que hipotecou um pomar a seu amigo por dez anos e, após três anos, disse: "Se você me vender, melhor, senão esconderei o documento de penhor e alegarei que o comprei."
+
+2. Se o credor hipotecário deu o campo a seu filho como presente e depois fez um contrato de venda com o credor hipotecário, o contrato de venda não tem validade, e o dinheiro pago a mais sobre o penhor é considerado apenas como um empréstimo verbal.
+
+3. Quando é sabido que ele entrou sob a condição de penhor, alguns dizem que ele nunca adquire posse, mesmo se for sabido que o período do penhor terminou e ele manteve o campo por três anos depois disso. Outros dizem que se ele consumiu os frutos por três anos após o término do penhor, ele adquire posse. Há quem diga que se as testemunhas atestarem que o campo está hipotecado a ele, mas não souberem por quantos anos, mesmo que ele tenha mantido o campo por muitos anos, ele não adquire posse. Mas se as testemunhas atestarem que o campo foi hipotecado a ele sem especificar o tempo, e ele consumiu os frutos por três anos a partir do primeiro ano, ele adquire posse, pois um penhor sem especificação é considerado de um ano.
+
+4. Reuven que entrou no campo de Shimon sob a condição de penhor e tinha outra reivindicação verbal contra Shimon, que não podia ser retirada dele, e o período do penhor terminou, e ele deseja reter o campo e consumir seus frutos até o valor da reivindicação que tem contra Shimon, e depois devolvê-lo a ele. Se for sabido que ele entrou sob a condição de penhor, ele não é acreditado, mesmo que tenha mantido o campo por três anos, e deve devolvê-lo imediatamente, pois o período do penhor terminou. Se não for sabido, ele é acreditado em sua outra reivindicação, com o argumento de que poderia ter escondido o documento de penhor e alegado que o campo foi comprado por ele, mas com um juramento. Isso é apenas se ele já consumiu os frutos até o valor da reivindicação que alega, mas se ele vier reivindicar antes de consumir os frutos, ele não é acreditado para reter o campo.
+
+5. Se não for sabido que ele entrou sob a condição de penhor, mas apenas um rumor surgiu, se o rumor surgiu antes que ele mantivesse o campo, ele não é acreditado para alegar que o campo foi comprado por ele. Se o rumor surgiu após ele ter mantido o campo por três anos, se ele alegar que o campo foi comprado por ele, ele é acreditado. Mas se ele alegar que tem outra reivindicação contra ele e deseja reter o campo até consumir o valor da reivindicação, com o argumento de que poderia ter alegado que o campo foi comprado por ele, ele não é acreditado, pois a força do argumento foi enfraquecida, já que um rumor surgiu de que ele entrou sob a condição de penhor, e por isso ele não quis alegar que o campo foi comprado por ele.
+
+6. Assim como a lei entre Reuven e Shimon, assim é a lei entre ele e os herdeiros de Shimon, se Shimon morreu e ele vem alegar contra seus herdeiros. Se ele está em uma situação em que pode alegar que o campo foi comprado por ele, ele é acreditado também sobre os frutos que consumiu até o valor da reivindicação. Se ele não pode alegar que o campo foi comprado por ele, ele não é acreditado também sobre a outra reivindicação. Mas há quem diga que entre eles, o pai o faz jurar sobre a reivindicação principal, que é a outra reivindicação que ele tem contra ele, e sobre a alegação de que o campo foi comprado por ele. Mas contra os órfãos, que não têm uma reivindicação certa, ele recebe sem juramento. E há quem diga que tudo o que o pai poderia alegar e fazer jurar, nós alegamos para os órfãos, mesmo em uma dúvida.
+
+7. Se ele entrou no campo sob a condição de penhor e consumiu os frutos por três anos, e não há testemunhas de que ele recebeu o campo sob a condição de penhor, e ele diz que ainda tem dois anos para manter o campo sob a condição de penhor, ele é acreditado com o argumento de que o campo foi comprado por ele, mesmo que o credor alegue que tinha um documento de penhor e o perdeu.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 150 do Shulchan Aruch Choshen Mishpat trata de situações envolvendo penhores de campos, que são acordos onde uma pessoa (o credor hipotecário) recebe um campo como garantia de um empréstimo. Vamos explicar cada seção de forma prática:
+
+1. **Posse sob Penhor**: Quando alguém entra em um campo como parte de um acordo de penhor, ele não se torna automaticamente o dono do campo. Se for amplamente conhecido que ele está lá apenas como parte do penhor, ele não pode alegar posse. No entanto, é aconselhável que o credor hipotecário proteste a cada três anos para evitar que o devedor esconda o documento de penhor e alegue que comprou o campo.
+
+2. **Presente e Venda**: Se o credor hipotecário dá o campo a seu filho como presente e depois tenta vender o campo, essa venda não é válida. O dinheiro pago a mais é considerado apenas um empréstimo verbal, sem efeito sobre a posse do campo.
+
+3. **Duração do Penhor**: Se é sabido que o campo foi hipotecado, há diferentes opiniões sobre se o credor pode adquirir posse após o término do penhor. Alguns dizem que ele nunca adquire posse, enquanto outros dizem que, se ele consumir os frutos por três anos após o término do penhor, ele adquire posse. Se as testemunhas sabem que o campo está hipotecado, mas não por quanto tempo, ele não adquire posse, a menos que o penhor não tenha especificação de tempo, que é considerado de um ano.
+
+4. **Reivindicação Adicional**: Se alguém tem outra reivindicação contra o dono do campo e o período do penhor terminou, ele não pode manter o campo, mesmo que tenha uma reivindicação adicional, a menos que não seja conhecido que ele entrou sob penhor. Nesse caso, ele pode ser acreditado, mas deve fazer um juramento.
+
+5. **Rumores sobre Penhor**: Se houver apenas rumores de que ele entrou sob penhor, o momento em que o rumor surgiu é importante. Se o rumor surgiu antes de ele manter o campo por três anos, ele não pode alegar que comprou o campo. Se o rumor surgiu depois, ele pode ser acreditado se alegar que comprou o campo.
+
+6. **Reivindicações contra Herdeiros**: As mesmas regras se aplicam se o dono original do campo morreu e o credor hipotecário está lidando com os herdeiros. Ele pode ser acreditado em suas alegações, mas pode precisar fazer um juramento, especialmente se houver dúvidas.
+
+7. **Ausência de Testemunhas**: Se não há testemunhas de que ele recebeu o campo sob penhor e ele consumiu os frutos por três anos, ele pode alegar que comprou o campo, mesmo que o credor diga que perdeu o documento de penhor.
+
+Essas leis são relevantes para garantir que acordos de penhor sejam respeitados e que não haja abusos ou alegações falsas de posse. Elas ajudam a proteger tanto o credor quanto o devedor, garantindo que os direitos de propriedade sejam claros e justos.

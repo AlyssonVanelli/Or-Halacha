@@ -1,0 +1,54 @@
+SIMAN 82
+
+**Lei de um Documento Não Validado ou Validado, onde o Devedor Alega Confiança, Pagamento ou Juros, e a Lei sobre a Condição do Documento e o Juramento. Contém 13 Seções:**
+
+1. Um credor que apresenta um documento não validado e não traz testemunhas para validá-lo, e o devedor admite que o escreveu, mas alega que já pagou, é acreditado. Mesmo que o documento contenha uma cláusula de confiança, isso não é eficaz. O mesmo se aplica a qualquer alegação que anule o documento, como alegar que foi escrito em confiança ou que foi escrito para tomar emprestado, mas não foi emprestado, ou que foi feito sob uma condição que não foi cumprida. Se o credor posteriormente encontrar testemunhas para validar o documento no tribunal, ele é como outros documentos e pode cobrar com ele.
+
+2. Se o devedor inicialmente alegou que o documento era falsificado e, após o credor trazer testemunhas para validá-lo, o devedor alegou que já pagou, alguns dizem que ele é considerado um mentiroso e não é acreditado, pois ao alegar falsificação é como se dissesse que não tomou emprestado, e não é acreditado posteriormente para alegar que pagou. Outros discordam e dizem que ele é acreditado, pois não negou o empréstimo, apenas alegou que o documento era falsificado e queria que fosse validado antes de discutir.
+
+3. Se o documento é validado e o devedor alega que pagou tudo ou parte dele, e o credor diz que não recebeu nada, se o documento contém uma cláusula de confiança, o devedor não é acreditado. Mesmo que o devedor peça um juramento, não se ouve, e o credor cobra sem juramento. No entanto, se houver um credor posterior, o credor não pode cobrar sem um juramento de que não recebeu nada de sua dívida.
+
+4. Se o devedor alega que o credor perdoou a dívida, há quem diga que é como alegar que pagou. Pode-se alegar perdão mesmo que haja uma cláusula de confiança, pois a confiança se aplica apenas ao pagamento.
+
+5. Se o devedor alega que o documento foi feito sob uma condição que ele cumpriu, e o credor diz que não havia condição, se o documento afirma que foi feito sem condição, o devedor não é acreditado. Se não estiver escrito, o credor jura e cobra. Mesmo que haja uma cláusula de confiança, se o credor admite que foi feito sob condição, mas alega que o devedor ainda não cumpriu, cabe ao credor trazer prova, e se não tiver, o devedor jura e é liberado.
+
+6. Se o devedor alega que o documento é falso ou que a dívida é de juros ou foi escrito em confiança, e o credor mantém a validade do documento, o devedor deve pagar e depois pode processar o credor. Se o credor admitir, ele deve devolver, e se negar, ele jura.
+
+7. Se o credor é um estudioso da Torá, ele não é obrigado a jurar, mas se ele apreender bens do devedor, não são retirados dele. Se ele não apreender, mas deseja jurar para receber o que é devido, ele pode fazê-lo.
+
+8. Se o credor e o devedor são ambos estudiosos da Torá, há quem diga que a situação retorna ao que era, e se o devedor exigir um juramento, ele deve jurar.
+
+9. Se o credor morreu e seus herdeiros apresentam o documento, e o devedor alega que já pagou, os herdeiros juram o juramento dos herdeiros e cobram. Se o credor era suspeito, há quem diga que o devedor jura e é liberado, mas outros dizem que os herdeiros cobram sem juramento.
+
+10. Se o credor não era suspeito e deseja transferir o juramento para o devedor, não se ouve. Se ele disser que não quer jurar e prefere que sua reivindicação seja como um empréstimo verbal, o devedor jura e é liberado. Se o devedor não quiser ouvir o juramento, ele não é excomungado por isso.
+
+11. Se o devedor alega que o documento foi feito sob uma condição que ele cumpriu, e o credor diz que não havia condição, se o documento afirma que foi feito sem condição, o devedor não é acreditado. Se não estiver escrito, o credor jura e cobra. Mesmo que haja uma cláusula de confiança, se o credor admite que foi feito sob condição, mas alega que o devedor ainda não cumpriu, cabe ao credor trazer prova, e se não tiver, o devedor jura e é liberado.
+
+12. Se o devedor alega que o documento foi feito sob uma condição que ele cumpriu, e o credor diz que não havia condição, se o documento afirma que foi feito sem condição, o devedor não é acreditado. Se não estiver escrito, o credor jura e cobra. Mesmo que haja uma cláusula de confiança, se o credor admite que foi feito sob condição, mas alega que o devedor ainda não cumpriu, cabe ao credor trazer prova, e se não tiver, o devedor jura e é liberado.
+
+13. Se o devedor alega que o documento foi feito sob uma condição que ele cumpriu, e o credor diz que não havia condição, se o documento afirma que foi feito sem condição, o devedor não é acreditado. Se não estiver escrito, o credor jura e cobra. Mesmo que haja uma cláusula de confiança, se o credor admite que foi feito sob condição, mas alega que o devedor ainda não cumpriu, cabe ao credor trazer prova, e se não tiver, o devedor jura e é liberado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 82 do Shulchan Aruch Choshen Mishpat trata de questões legais relacionadas a documentos de dívida, como notas promissórias, e as alegações que podem ser feitas por devedores e credores. Vamos explicar os principais pontos de forma prática:
+
+1. **Documento Não Validado**: Quando um credor apresenta um documento de dívida que ainda não foi validado por testemunhas, e o devedor admite que o documento é verdadeiro, mas alega que já pagou a dívida, o devedor é acreditado. Isso significa que, na ausência de validação formal, a palavra do devedor pode ser suficiente para anular a cobrança, a menos que o credor consiga validar o documento posteriormente.
+
+2. **Alegação de Falsificação**: Se o devedor inicialmente diz que o documento é falso, mas depois que o credor o valida, ele muda a alegação para dizer que já pagou, há uma discussão. Alguns dizem que o devedor não é acreditado porque ele mudou sua história, enquanto outros dizem que ele ainda pode ser acreditado, pois ele apenas queria que o documento fosse validado antes de discutir o pagamento.
+
+3. **Documento Validado e Alegação de Pagamento**: Se o documento já foi validado e o devedor alega que pagou, mas o documento tem uma cláusula de confiança (indicando que o devedor não pode alegar pagamento sem prova), o devedor não é acreditado. O credor pode cobrar sem precisar jurar que não recebeu o pagamento.
+
+4. **Alegação de Perdão**: Se o devedor diz que o credor perdoou a dívida, isso pode ser considerado como uma alegação de pagamento. Mesmo com uma cláusula de confiança, a alegação de perdão pode ser aceita, pois a cláusula geralmente se aplica apenas a pagamentos.
+
+5. **Condições do Documento**: Se o devedor alega que o documento foi feito sob uma condição que ele cumpriu, mas o credor nega a existência dessa condição, a situação depende do que está escrito no documento. Se o documento diz que não havia condição, o devedor não é acreditado. Caso contrário, o credor deve jurar para cobrar.
+
+6. **Alegações de Falsidade ou Juros**: Se o devedor alega que o documento é falso ou que a dívida é de juros (o que é proibido), ele deve pagar primeiro e depois pode processar o credor. Se o credor admitir a falsidade ou os juros, ele deve devolver o dinheiro; se negar, ele deve jurar.
+
+7. **Estudiosos da Torá**: Se o credor é um estudioso da Torá, ele não precisa jurar, mas se ele apreender bens do devedor, eles não são retirados dele. Se ambos, credor e devedor, são estudiosos, a situação volta ao estado inicial, e o devedor pode exigir um juramento.
+
+8. **Herdeiros do Credor**: Se o credor faleceu e seus herdeiros apresentam o documento, e o devedor alega pagamento, os herdeiros devem jurar para cobrar. Se o credor era suspeito de desonestidade, há opiniões divergentes sobre se os herdeiros podem cobrar sem juramento.
+
+9. **Transferência de Juramento**: Se o credor não quer jurar e prefere que a dívida seja tratada como um empréstimo verbal, o devedor pode jurar e ser liberado. Se o devedor não quiser ouvir o juramento, ele não é punido por isso.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades que seguem a lei judaica para resolver disputas financeiras. Elas estabelecem regras claras sobre como lidar com documentos de dívida e as alegações que podem ser feitas, garantindo justiça e clareza nas transações financeiras.

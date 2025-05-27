@@ -1,0 +1,100 @@
+SIMAN 37
+
+**Os inválidos devido ao benefício. Contém 22 seções:**
+
+1. Qualquer testemunho em que uma pessoa tenha um benefício é inválido para testemunhar. Portanto, se um terreno pertence a dois sócios e um deles tenta retirá-lo das mãos do outro, alegando que quem o vendeu a eles o roubou, o sócio não pode testemunhar para invalidar os testemunhos do contestador. Mesmo sobre a parte do sócio, seu testemunho não é válido, a menos que ele se retire dela e transfira sua parte ao sócio. Mesmo que ele não se retire até após a contestação, isso é eficaz, mas ele deve aceitar que, se um credor vier e a tomar do sócio, ele pagará seu valor. Ele deve também estipular que, se alguém vier a reivindicá-la por outros motivos, como alegar que estava roubada, ele não aceitará responsabilidade. Mas se o contestador apenas reivindicar a parte do sócio, como alegar que o sócio a vendeu, ele pode testemunhar, pois então não está envolvido no testemunho.
+
+2. Se alguém contesta um campo e há frutos nele, o arrendatário não pode testemunhar, pois deseja que o campo permaneça com o proprietário para que ele receba sua parte dos frutos. Se não houver frutos, ele pode testemunhar, desde que não tenha outro benefício disso.
+
+3. Testemunhas que admitem ter parte na dívida sobre a qual já testemunharam, essa admissão não tem validade. Mas se disseram isso antes de testemunhar, o testemunho é anulado.
+
+4. Se Reuven processa dois a quem emprestou dinheiro, e um nega enquanto o outro admite que ambos devem, se o dinheiro foi tomado em parceria, ele não é confiável para testemunhar contra seu parceiro, e ele sozinho será responsável por tudo.
+
+5. Se alguém apresenta um documento de dívida contra três e todos alegam que pagaram, se cada um deve dez moedas de ouro individualmente, sem parceria, seu testemunho é válido contra o outro.
+
+6. Se um dos sócios alega algo que é uma obrigação para ele e seu parceiro, ele é confiável como uma única testemunha para obrigar seu parceiro a jurar e isentar o outro de jurar. Se dois sócios testemunharem sobre sua obrigação, eles são confiáveis para obrigar seus parceiros.
+
+7. Quem vende um documento de dívida a um dos signatários, isso é permitido.
+
+8. Mediadores, juízes ou tutores são aptos a testemunhar.
+
+9. Tesoureiros, enquanto não tiverem nenhum direito nos bens consagrados ou em seus frutos, são aptos a testemunhar. E certamente seus parentes são aptos a testemunhar, mesmo que o tesoureiro distribua o dinheiro como desejar, pois o benefício potencial não é considerado dinheiro.
+
+10. Sempre que alguém não está atualmente envolvido no testemunho, mesmo que possa se beneficiar no futuro, ele é apto a testemunhar.
+
+11. Se Reuven tem um documento de dívida contra Shimon e o transfere para Levi por escrito e entrega, e Shimon é uma das testemunhas da transferência, ele é inválido.
+
+12. Se alguém aluga e recebe o aluguel, dizendo que quem mantiver o terreno receberá, ele pode testemunhar para o locador. Se já pagou o aluguel ao proprietário, ele não pode testemunhar, pois se o terreno for retirado, ele terá que pagar o aluguel novamente.
+
+13. Se um devedor é contestado para retirar seu terreno, se não restar outro terreno equivalente à dívida, o credor e o fiador não podem testemunhar para mantê-lo. Se restar outro terreno, eles podem testemunhar.
+
+14. O primeiro comprador pode testemunhar para o segundo comprador que comprou depois dele, para mantê-lo, desde que o vendedor tenha outro campo livre equivalente ao valor do campo do primeiro comprador.
+
+15. Se Reuven vendeu um campo a Shimon sem garantia e Yehuda contesta para retirá-lo, Reuven não pode testemunhar, pois deseja que o campo permaneça com Shimon para que o credor de Reuven o tome por sua dívida.
+
+16. Se Reuven vendeu uma vaca ou manto a Shimon sem garantia e Yehuda contesta, alegando que foi comprado de um ladrão, Reuven pode testemunhar, pois não tem benefício em que permaneça com Shimon, já que um credor não pode tomar bens móveis.
+
+17. Se Reuven roubou um manto ou campo de Shimon e Yehuda contesta, Shimon não pode testemunhar, pois prefere que o campo ou manto permaneça com Reuven.
+
+18. Se Reuven vendeu ou legou o campo roubado a Levi e Yehuda contesta, Shimon não pode testemunhar que não é de Yehuda. Se Reuven vendeu o manto roubado a Levi e Shimon desistiu dele, e Yehuda contesta, se Reuven morreu, Shimon pode testemunhar que não é de Yehuda.
+
+19. Se os habitantes de uma cidade são contestados sobre um banho ou rua, nenhum deles pode testemunhar ou julgar até que se retirem completamente.
+
+20. Se o Sefer Torá de uma cidade foi roubado, como é feito para leitura pública, ninguém pode se retirar dele, e não se julga com os juízes daquela cidade, nem se traz testemunho de seus habitantes.
+
+21. Se alguém diz "dê cem moedas aos pobres da minha cidade", não se julga com os juízes daquela cidade, nem se traz testemunho de seus habitantes, se os pobres dependem deles.
+
+22. Esses assuntos dependem do discernimento do juiz e de sua compreensão dos princípios legais, para saber se o testemunho traz algum benefício, mesmo que remoto, e então ele não deve testemunhar ou julgar.
+
+**Nota:** Agora é costume aceitar testemunhas da comunidade sobre seus regulamentos e acordos, e sobre consagrações e todos os seus assuntos, e são aptos, mesmo para seus parentes, desde que sejam aceitos por eles.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 37 do Shulchan Aruch Choshen Mishpat trata de situações em que uma pessoa não pode servir como testemunha em um caso legal judaico devido a um possível benefício pessoal. Vamos explicar isso de forma prática:
+
+1. **Testemunho com Benefício Pessoal**: Se uma pessoa pode ganhar algo ao testemunhar, seu testemunho não é válido. Por exemplo, se duas pessoas possuem um terreno juntas e uma delas quer provar que o terreno foi roubado, essa pessoa não pode testemunhar contra o outro sócio, pois tem interesse direto no resultado.
+
+2. **Arrendatários e Frutos**: Se alguém aluga um campo e há frutos nele, essa pessoa não pode testemunhar sobre o campo, pois tem interesse em que o campo permaneça com o proprietário para receber sua parte dos frutos. Sem frutos, o testemunho é permitido, desde que não haja outro benefício.
+
+3. **Admissão de Parte na Dívida**: Se testemunhas admitem ter parte em uma dívida após já terem testemunhado, essa admissão não é válida. Mas se admitirem antes de testemunhar, o testemunho é anulado.
+
+4. **Dívidas em Parceria**: Se duas pessoas devem dinheiro juntas e uma admite a dívida enquanto a outra nega, a que admite não pode testemunhar contra a outra, pois ambas são responsáveis.
+
+5. **Dívidas Individuais**: Se três pessoas devem individualmente e cada uma alega ter pago, elas podem testemunhar umas contra as outras.
+
+6. **Sócios e Obrigações**: Um sócio pode ser uma testemunha única para obrigar o outro a jurar, mas não para isentá-lo de jurar. Se dois sócios testemunharem sobre sua obrigação, eles podem obrigar seus parceiros.
+
+7. **Venda de Documentos de Dívida**: É permitido vender um documento de dívida a um dos signatários.
+
+8. **Mediadores e Juízes**: Mediadores, juízes ou tutores podem ser testemunhas.
+
+9. **Tesoureiros**: Tesoureiros podem testemunhar, desde que não tenham interesse nos bens consagrados. Seus parentes também podem testemunhar.
+
+10. **Benefício Futuro**: Se alguém não tem benefício imediato, mas pode ter no futuro, ainda pode testemunhar.
+
+11. **Transferência de Dívida**: Se alguém transfere uma dívida e uma das testemunhas é o devedor, ele não pode testemunhar.
+
+12. **Aluguel e Testemunho**: Se alguém paga aluguel e o terreno é contestado, ele não pode testemunhar, pois teria que pagar novamente.
+
+13. **Credores e Fiadores**: Se um terreno é contestado e não há outro terreno equivalente, o credor e o fiador não podem testemunhar.
+
+14. **Compradores**: O primeiro comprador pode testemunhar para o segundo, desde que o vendedor tenha outro campo equivalente.
+
+15. **Venda sem Garantia**: Se um campo é vendido sem garantia e é contestado, o vendedor não pode testemunhar, pois tem interesse que o campo permaneça com o comprador.
+
+16. **Bens Móveis**: Se bens móveis são vendidos sem garantia e contestados, o vendedor pode testemunhar, pois não há benefício em que permaneçam com o comprador.
+
+17. **Roubo e Testemunho**: Se alguém roubou um bem e é contestado, o proprietário original não pode testemunhar, pois prefere que o bem permaneça com o ladrão.
+
+18. **Venda de Bens Roubados**: Se um bem roubado é vendido e contestado, o proprietário original não pode testemunhar, a menos que o ladrão tenha morrido.
+
+19. **Propriedade Comunitária**: Se uma propriedade comunitária é contestada, nenhum morador pode testemunhar ou julgar até que se retirem completamente.
+
+20. **Sefer Torá Roubado**: Se um Sefer Torá é roubado, ninguém da cidade pode testemunhar ou julgar, pois todos têm interesse nele.
+
+21. **Doações para Pobres**: Se alguém doa dinheiro para os pobres de uma cidade, os juízes e testemunhas dessa cidade não podem julgar ou testemunhar, pois os pobres dependem deles.
+
+22. **Discernimento do Juiz**: Cabe ao juiz avaliar se há algum benefício, mesmo remoto, no testemunho, e decidir se a pessoa pode testemunhar ou julgar.
+
+**Nota Prática**: Hoje em dia, é comum aceitar testemunhas da comunidade sobre seus próprios regulamentos e acordos, desde que sejam aceitos por todos, mesmo que sejam parentes. Isso reflete a confiança mútua dentro da comunidade.

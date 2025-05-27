@@ -1,0 +1,52 @@
+SIMAN 30
+
+**Não é necessário que as testemunhas em casos monetários sejam submetidas a investigação e inquirição, mas o testemunho deve ser completo. Este capítulo contém 13 seções:**
+
+1. As testemunhas em casos de leis monetárias, exceto em casos de danos corporais, não precisam de investigação e inquirição. Se as testemunhas disserem: "Fulano emprestou a sicrano cem moedas no ano tal", mesmo que não especifiquem o mês ou o local do empréstimo, ou se a moeda era de um tipo ou de outro, o testemunho é válido. No entanto, se o juiz perceber que o caso é fraudulento, ele deve investigar e inquirir para chegar à verdade.
+
+2. Embora não seja necessário investigar e inquirir as testemunhas em casos monetários, se elas se contradisserem em suas investigações ou inquirições, o testemunho é anulado. Se se contradisserem em verificações, o testemunho permanece válido. Por exemplo, se uma testemunha diz que o empréstimo ocorreu em Nissan e a outra diz que foi em Iyar, ou se uma diz que foi em Jerusalém e a outra em Lida, o testemunho é anulado. Da mesma forma, se uma testemunha diz que o empréstimo foi de um barril de vinho e a outra diz que foi de óleo, o testemunho é anulado, pois se contradizem na investigação. Mas se uma diz que o dinheiro era preto devido à sua antiguidade e a outra diz que era branco, o testemunho permanece válido.
+
+3. Se uma testemunha diz que o empréstimo ocorreu no andar superior e a outra diz que foi no inferior, o testemunho é válido, desde que os locais sejam próximos o suficiente para que se possa ver de um para o outro. Mesmo se uma testemunha diz que o empréstimo foi de cem moedas e a outra diz que foi de duzentas, o devedor deve pagar cem, pois duzentas incluem cem. Da mesma forma, se uma testemunha diz que o devedor deve o valor de um barril de vinho e a outra diz que é de óleo, ele paga o menor valor.
+
+4. Se Reuven processa Shimon por mil e quinhentas moedas de ouro e traz cinco testemunhas, cada uma testemunhando um valor diferente, se cada uma testemunhar em tempos diferentes, Shimon paga o valor total testemunhado. Mas se todas testemunharem no mesmo dia, ele paga apenas duzentas moedas. Se as testemunhas não especificarem o tempo, o caso é tratado como uma contradição, e o devedor paga o menor valor.
+
+5. Se uma testemunha diz que viu algo e menciona outra pessoa que estava presente, mas essa pessoa nega ter visto, isso não é considerado uma contradição.
+
+6. Se alguém processa outro por duzentas moedas em depósito e uma testemunha diz que ouviu do depositário que eram cinquenta, e outra diz que eram cento e cinquenta, o depositário é considerado mentiroso e deve pagar.
+
+7. Em casos monetários, mesmo que as duas testemunhas não vejam o evento ao mesmo tempo, seus testemunhos podem ser combinados. Por exemplo, se uma testemunha diz que viu o empréstimo em um dia e a outra em outro, ou se uma diz que viu o empréstimo e a outra a admissão da dívida, seus testemunhos se combinam.
+
+8. O conceito de combinar testemunhos de empréstimos diferentes se aplica quando o credor processa por dois empréstimos distintos. Se o credor admite que só houve um empréstimo, e há uma possibilidade de erro no tempo, os testemunhos podem ser combinados. Caso contrário, se for claro que são dois empréstimos, um dos testemunhos é falso.
+
+9. Se uma testemunha diz que Reuven deu a Shimon um terreno e outra diz que Shimon tomou posse dele, os testemunhos se combinam, pois é como uma admissão após um empréstimo.
+
+10. Se alguém processa outro por um documento de dívida e traz duas testemunhas, uma dizendo que o pagamento foi feito em Nissan e outra em Tishrei, os testemunhos se combinam. Se o documento foi feito antes de Nissan, considera-se pago. Se uma testemunha diz que o pagamento foi feito e a outra que houve uma admissão de pagamento, os testemunhos se combinam.
+
+11. Em casos monetários, não é necessário que as duas testemunhas testemunhem juntas. Uma pode testemunhar hoje e a outra em outro momento, e seus testemunhos se combinam para decidir o caso.
+
+12. Se uma testemunha é por escrito e outra oral, seus testemunhos se combinam. Se a testemunha oral diz que comprou o direito de testemunhar, e o credor não pediu para escrever, os testemunhos se combinam para fazer o empréstimo por escrito, e o devedor não pode alegar que pagou.
+
+13. Se uma testemunha testemunha em um tribunal e outra em outro, os tribunais devem se reunir para combinar os testemunhos. No entanto, outras pessoas que ouviram o caso não podem se juntar, pois seriam testemunhas de segunda mão.
+
+14. Se duas testemunhas testemunham em um tribunal e depois em outro, e novamente em um terceiro, um representante de cada tribunal deve se reunir para formar um novo tribunal e julgar o caso. No entanto, um juiz que ouviu o testemunho de duas testemunhas não pode se juntar a uma delas para formar um novo testemunho.
+
+15. Cada testemunha deve testemunhar sobre um assunto completo. Se testemunharem sobre partes de um assunto, o testemunho não é válido. Por exemplo, se uma testemunha diz que viu um cabelo em um lado e outra no outro, isso não é válido. Mas se uma testemunha diz que viu dois cabelos de um lado e outra dois do outro, os testemunhos se combinam.
+
+16. Testemunho baseado em conhecimento sem visão será discutido no Siman 90. Há quem diga que é considerado testemunho, e não há diferença em casos monetários entre algo que é geralmente conhecido ou não.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 30 do Shulchan Aruch Choshen Mishpat trata das regras sobre como o testemunho deve ser conduzido em casos monetários, ou seja, disputas financeiras. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Testemunhas em Casos Monetários**: Em disputas financeiras, as testemunhas não precisam passar por um interrogatório detalhado, como acontece em casos criminais. O importante é que o testemunho seja claro e completo. Por exemplo, se as testemunhas afirmam que alguém emprestou dinheiro a outra pessoa, mesmo sem detalhes como o mês ou o local exato, o testemunho é aceito. No entanto, se o juiz suspeitar de fraude, ele deve investigar mais a fundo.
+
+2. **Contradições no Testemunho**: Se as testemunhas se contradizem em detalhes importantes, como datas ou locais, o testemunho é anulado. Mas se as contradições são sobre detalhes menores, como a cor do dinheiro, o testemunho ainda pode ser válido.
+
+3. **Testemunhos Combinados**: Mesmo que as testemunhas não tenham visto o evento ao mesmo tempo, seus testemunhos podem ser combinados. Por exemplo, se uma testemunha viu o empréstimo e outra ouviu a admissão da dívida, isso é suficiente para validar o caso.
+
+4. **Testemunhas em Diferentes Tribunais**: Se as testemunhas prestam depoimento em tribunais diferentes, os tribunais devem se reunir para combinar os testemunhos. Isso garante que o caso seja julgado de forma justa e completa.
+
+5. **Testemunho Parcial**: Cada testemunha deve testemunhar sobre um evento completo. Se uma testemunha só viu parte do evento e outra viu outra parte, isso não é suficiente. No entanto, se cada uma viu eventos completos que se complementam, os testemunhos podem ser combinados.
+
+Essas regras são importantes para garantir que as disputas financeiras sejam resolvidas de maneira justa e precisa, respeitando tanto os direitos do credor quanto do devedor. Na prática, isso significa que, em uma comunidade judaica, as pessoas podem confiar que suas questões financeiras serão tratadas com seriedade e justiça, de acordo com a lei judaica.

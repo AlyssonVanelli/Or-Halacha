@@ -1,0 +1,32 @@
+SIMAN 152
+
+**Regra sobre aqueles que não têm prescrição e quando a adquirem. Contém um parágrafo:**
+
+Todos aqueles que se diz não terem prescrição, seus filhos têm prescrição. Se o filho usufruiu da propriedade por três anos e alega que os proprietários a venderam ou deram a ele, ele tem prescrição. No entanto, se ele alegar que a herdou de seu pai, que a usufruiu por dois anos, ele não tem prescrição. Da mesma forma, o neto, se alegar que a herdou de seu avô, e assim por diante, não tem prescrição. Mas se o neto alegar que a herdou de seu pai, ele tem prescrição.
+
+Se ele trouxer testemunhas de que os proprietários admitiram ao seu pai que a venderam ou deram a ele, a propriedade é mantida em suas mãos. Alguns dizem que mesmo que ele não traga testemunhas, mas apenas diga que na nossa presença admitiram ao nosso pai que a venderam a ele, são acreditados, com base no argumento de que poderiam ter dito que a compraram.
+
+Exceto o filho do ladrão, que mesmo que traga prova de que os proprietários admitiram ao seu pai que a venderam a ele, isso não é considerado prova, como foi explicado. No entanto, se ele disser na nossa presença que seu pai pagou o dinheiro e ele manteve a posse por três anos, ele é acreditado, com base no argumento de que poderia ter dito que a comprou de você.
+
+O neto do ladrão, mesmo que venha com a alegação de seu pai, tem prescrição. Mas se vier com a alegação de seu avô, não tem prescrição. Alguns dizem que se o neto do ladrão disser na nossa presença que você admitiu ter vendido ao meu avô, isso constitui prescrição, pois não se impõe temor por causa do neto. Mas se o filho do ladrão disser na nossa presença que admitiu ter vendido ao meu pai, isso não é válido, pois devido ao temor, ele foi forçado a admitir também na presença dele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Prescrição**: No contexto judaico, refere-se ao direito de posse de uma propriedade após um certo período de uso contínuo, geralmente três anos, sem contestação do proprietário original. Isso é semelhante ao conceito de "usucapião" em algumas jurisdições modernas.
+
+2. **Propriedade e Herança**: A discussão aqui envolve a posse de propriedades que podem ser passadas de geração em geração, e como essa posse pode ser legitimada ou contestada.
+
+Agora, vamos explicar o texto de forma prática:
+
+- **Posse por Herança**: Se uma pessoa usa uma propriedade por três anos e alega que a comprou ou recebeu como presente, essa pessoa pode ter direito à posse. No entanto, se a pessoa alega que herdou a propriedade de alguém que a usou por menos de três anos, isso não é suficiente para garantir a posse.
+
+- **Testemunhas e Admissão**: Se alguém pode trazer testemunhas que confirmem que o proprietário original admitiu ter vendido ou dado a propriedade ao pai da pessoa, isso fortalece a reivindicação de posse. Em alguns casos, mesmo sem testemunhas, se a pessoa afirma que o proprietário admitiu a venda na presença dela, isso pode ser aceito, pois a pessoa poderia ter alegado que comprou a propriedade diretamente.
+
+- **Exceção do Ladrão**: Se o pai da pessoa era um ladrão, mesmo que haja prova de que o proprietário admitiu a venda, isso não é considerado válido. No entanto, se a pessoa afirma que o pai pagou pela propriedade e a usou por três anos, essa alegação pode ser aceita, pois a pessoa poderia ter dito que comprou a propriedade diretamente.
+
+- **Neto do Ladrão**: Se o neto do ladrão alega que o pai adquiriu a propriedade, ele pode ter direito à posse. Mas se alega que o avô adquiriu, isso não é suficiente. Alguns dizem que se o neto afirma que o proprietário admitiu a venda ao avô, isso pode ser aceito, pois não há medo de coerção em relação ao neto. No entanto, se o filho do ladrão faz a mesma alegação sobre o pai, isso não é aceito, pois pode haver suspeita de coerção.
+
+Essas regras são relevantes na vida judaica contemporânea, especialmente em comunidades onde a lei judaica é aplicada em questões de propriedade e herança. Elas ajudam a resolver disputas de posse de maneira justa, levando em consideração o histórico de uso e as alegações de compra ou herança.

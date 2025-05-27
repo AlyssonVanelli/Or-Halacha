@@ -1,0 +1,50 @@
+SIMAN 199
+
+**Existem maneiras pelas quais o dinheiro adquire e há tempos em que o dinheiro adquire. Este capítulo contém quatro seções:**
+
+1. Existem casos em que o dinheiro adquire. Como assim? Se alguém tem dinheiro em mãos, sem contá-lo ou pesá-lo, e diz ao seu amigo: "Venda-me seu objeto por este dinheiro que está em minhas mãos", e o vendedor aceita o dinheiro sem se preocupar em saber a quantidade exata, o objeto é adquirido pelo comprador, e nenhum dos dois pode voltar atrás. Isso ocorre porque é uma situação rara, e os rabinos não decretaram sobre ela. *Nota: Mesmo que o comprador saiba a quantidade, mas o vendedor não se preocupe com isso, há quem diga que a aquisição é válida (ver Beit Yosef).*
+
+2. Da mesma forma, se Reuven vendeu bens móveis a Shimon por uma quantia e Shimon adquiriu os bens, ficando em dívida com Reuven, e depois Shimon tem outros bens móveis para vender, e Reuven diz: "Venda-me por essa dívida que você tem comigo", e Shimon concorda, os bens são adquiridos por Reuven onde quer que estejam, mesmo sem puxar ou levantar, pois também é uma situação rara, e os rabinos não decretaram sobre ela. No entanto, se a dívida não for devido à venda, e ele disser: "Venda-me bens móveis pela dívida que você tem comigo", e ambos concordarem, a aquisição não é válida. *Nota: Alguns dizem que isso se aplica apenas se ele disser: "Venda-me pelo benefício de perdoar a dívida que você tem comigo", mas se ele disser: "Venda-me pela dívida que você tem comigo", a aquisição não é válida (ver Magid Mishneh e Ran).*
+
+3. Há tempos em que o dinheiro adquire, pois os sábios estabeleceram suas palavras de acordo com a lei da Torá em relação à carne em quatro ocasiões, que são: véspera do último dia de Sucot, véspera do primeiro dia de Pessach, véspera de Shavuot e véspera de Rosh Hashaná. Se um açougueiro tem um boi que vale cem dinheiros e recebe um dinheiro do comprador para fornecer carne quando abater, mas não recebeu todo o valor do boi, ele é obrigado a abater o boi para fornecer a carne ao comprador. Portanto, se o boi morrer, ele morre para o comprador, que perde o dinheiro. *Nota: Há quem escreva que o mesmo se aplica a quem dá dinheiro para vinho para o Kidush na véspera de Shabat, que a aquisição é válida, pois em casos assim, os sábios estabeleceram suas palavras de acordo com a lei da Torá (Maharil).*
+
+4. Órfãos ou seus tutores que venderam bens móveis e o comprador os puxou, mas ainda não pagou, e o valor dos bens aumentou, podem voltar atrás, de acordo com a lei da Torá, que diz que a aquisição é feita apenas com dinheiro. *Nota: Mesmo assim, o comprador é considerado um guardião remunerado sobre a compra (Mordechai e Beit Yosef em nome de Tosafot).*
+
+5. Apenas neste caso, a lei dos órfãos difere da dos outros, mas em outras distinções, a lei dos órfãos é igual à de qualquer pessoa. *Nota: Isso se aplica apenas a órfãos, mas consagração e caridade são adquiridas com dinheiro. Portanto, se alguém deu dinheiro para consagração sobre uma compra e o valor aumentou, a consagração não pode voltar atrás (Mordechai e Ran).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido neste trecho do Shulchan Aruch, que é um importante código de leis judaicas, especificamente na seção que trata de transações financeiras e aquisições.
+
+### 1. Aquisição por Dinheiro
+
+**Conceito:** Normalmente, para adquirir um objeto, não basta apenas entregar dinheiro; é necessário um ato físico, como pegar ou levantar o objeto. No entanto, há exceções.
+
+**Exemplo Prático:** Se você der dinheiro a alguém para comprar um objeto, mas não contar ou pesar o dinheiro, e o vendedor aceitar sem se preocupar com a quantidade exata, a venda é considerada válida. Isso é uma situação rara, e por isso, os rabinos não aplicaram suas regras habituais.
+
+### 2. Dívidas e Aquisições
+
+**Conceito:** Quando alguém deve dinheiro a outra pessoa, essa dívida pode, em certas circunstâncias, ser usada para adquirir bens.
+
+**Exemplo Prático:** Se você deve dinheiro a alguém e decide vender um objeto para essa pessoa, dizendo que o pagamento será a dívida que você tem com ela, a aquisição é válida sem a necessidade de um ato físico. Isso só se aplica se a dívida for resultado de uma venda anterior.
+
+### 3. Ocasiões Especiais
+
+**Conceito:** Existem momentos específicos no calendário judaico em que as regras de aquisição por dinheiro são diferentes.
+
+**Exemplo Prático:** Em vésperas de feriados importantes, como Pessach ou Rosh Hashaná, se você pagar parte do valor de um boi para obter carne, o açougueiro deve abater o boi e fornecer a carne, mesmo que o pagamento não tenha sido completo. Se o boi morrer antes do abate, a perda é do comprador.
+
+### 4. Órfãos e Aquisições
+
+**Conceito:** As regras para transações envolvendo órfãos são um pouco diferentes.
+
+**Exemplo Prático:** Se um tutor vende bens de órfãos e o comprador já pegou os bens, mas ainda não pagou, e o valor dos bens aumenta, o tutor pode cancelar a venda. Isso se baseia na lei de que a aquisição só é completa com o pagamento.
+
+### 5. Exceções para Órfãos
+
+**Conceito:** As regras para órfãos têm algumas exceções, mas em geral, são semelhantes às de qualquer outra pessoa.
+
+**Exemplo Prático:** A diferença principal é que, para órfãos, a aquisição de bens móveis só é finalizada com o pagamento. No entanto, para consagração ou caridade, a aquisição é feita com dinheiro, e não se pode voltar atrás se o valor aumentar.
+
+Essas leis refletem a complexidade e a consideração cuidadosa que o judaísmo aplica às transações financeiras, garantindo justiça e clareza em situações que podem ser complicadas.

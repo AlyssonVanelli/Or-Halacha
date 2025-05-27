@@ -1,0 +1,51 @@
+SIMAN 55
+
+**Lei sobre quem pagou parte de sua dívida e depositou seu documento. Contém 2 seções:**
+
+1. Quem pagou parte de sua dívida e depositou o documento com um terceiro, dizendo: "Se eu não te pagar até tal dia, entregue-lhe o documento", e o prazo chegou e ele não pagou, o terceiro não deve entregar o documento, pois isso é uma "asmachta" (uma condição dependente da própria vontade e em algo que está em seu controle e não em seu controle, e ele confia que a obrigação não se concretizará, portanto, ele não finaliza a transação) e não é vinculante. Se ele fez um "kinyan" (ato formal de aquisição) em um tribunal importante, então é vinculante, desde que ele tenha registrado seus direitos no tribunal e não esteja sob coação. Como, por exemplo, se ele registrou seu documento ou recibo no tribunal e fez um "kinyan" de que, se não viesse até tal dia, isso seria entregue ao seu oponente, e o dia chegou e ele não veio, então eles entregam. Se ele foi impedido por um rio ou doença de vir, não entregam, e assim em todos os casos semelhantes, desde que seja em um tribunal importante.
+
+2. Nota: Alguns dizem que não é necessário registrar o documento, desde que ele tenha feito um "kinyan" em um tribunal importante, ou seja, três que são versados nas leis de "asmachta" (Tur em nome do Rosh e Mahar"m). Veja mais adiante no Siman 207, Seif 15. Se o terceiro devolveu o documento ao credor quando não deveria ter devolvido, ele é excomungado até que aceite sobre si toda a perda que ocorreu ao devedor por isso (Responsa do Rashba 152). E se o tribunal souber que ele devolveu indevidamente, não julgam sobre o documento (Beit Yosef em nome do Rashba). E se o tribunal não souber e eles cobraram do devedor todo o valor do documento, e depois se soube que o terceiro devolveu indevidamente, o terceiro está isento, pois é considerado dano indireto (Responsa do Rashba 152).
+
+**Quando dizemos que o documento é entregue ao oponente? Quando ele disse: "Se eu não pagar até tal dia, o dinheiro que dei será um presente", e o documento permanecerá válido como no início. Caso contrário, o documento é considerado perdoado na medida do dinheiro que foi dado (veja Seif Katan 4) e não se cobra nada dele, exceto de bens livres (Beit Yosef em nome do Rosh).**
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 55 do Shulchan Aruch Choshen Mishpat, vamos dividir o texto em partes e explicar cada uma delas de forma prática e acessível.
+
+### Contexto Geral
+
+Este trecho trata de situações em que uma pessoa deve dinheiro a outra e paga apenas parte da dívida. Para garantir que pagará o restante, ela deposita o documento da dívida com uma terceira pessoa, estabelecendo condições sobre quando e como o documento pode ser entregue ao credor.
+
+### Seção 1: A Condição de "Asmachta"
+
+1. **Conceito de "Asmachta"**: 
+   - "Asmachta" refere-se a uma condição que depende da vontade da pessoa e de circunstâncias que ela acredita que não ocorrerão. Por exemplo, alguém pode dizer: "Se eu não pagar até tal dia, você pode entregar o documento ao credor." A pessoa confia que conseguirá pagar a tempo, então não considera a condição como um compromisso firme.
+
+2. **O Papel do Terceiro**:
+   - Se a data chega e a dívida não é paga, o terceiro não deve entregar o documento automaticamente, pois a condição é considerada uma "asmachta" e não é vinculante.
+
+3. **Exceção com "Kinyan"**:
+   - Um "kinyan" é um ato formal de aquisição que torna a condição vinculante. Se feito em um tribunal importante, e a pessoa registrou seus direitos sem estar sob coação, a condição se torna obrigatória. Isso significa que, se a pessoa não pagar até a data acordada, o documento pode ser entregue ao credor.
+
+4. **Impedimentos Justificáveis**:
+   - Se a pessoa não puder pagar devido a circunstâncias fora de seu controle, como estar doente ou impedido por um rio, o documento não deve ser entregue.
+
+### Seção 2: Consequências e Exceções
+
+1. **Registro do Documento**:
+   - Há uma opinião de que não é necessário registrar o documento, desde que o "kinyan" seja feito em um tribunal competente, composto por três pessoas versadas nas leis de "asmachta".
+
+2. **Erro do Terceiro**:
+   - Se o terceiro entrega o documento ao credor quando não deveria, ele pode ser excomungado até compensar o devedor pela perda. Se o tribunal souber que o documento foi entregue indevidamente, eles não devem julgar com base nesse documento.
+
+3. **Dano Indireto**:
+   - Se o tribunal não souber do erro e cobrar o devedor, mas depois descobrir que o documento foi entregue indevidamente, o terceiro não é responsabilizado, pois o dano é considerado indireto.
+
+### Quando o Documento é Entregue
+
+- O documento só é entregue ao credor se a condição for que, caso o pagamento não ocorra até a data, o dinheiro já pago seja considerado um presente, mantendo o documento válido. Caso contrário, o documento é considerado parcialmente perdoado, e o credor só pode cobrar o restante de bens que não estejam comprometidos.
+
+### Relevância Prática
+
+Na vida contemporânea, essas leis ajudam a regular acordos financeiros e garantias entre partes, assegurando que as condições sejam claras e justas. Elas também protegem as partes de ações precipitadas ou injustas, garantindo que qualquer compromisso seja feito de forma consciente e formalizada.

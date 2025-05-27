@@ -1,0 +1,53 @@
+SIMAN 304
+
+**Aquele que transporta um barril de um lugar para outro e ele se quebra: quando é responsável. E contém seis seções:**
+
+1. Aquele que transporta um barril de um lugar para outro mediante pagamento e ele se quebra, a lei da Torá é que ele deve pagar, pois isso não é considerado um grande acidente. A quebra é comparada a roubo e perda, pelos quais ele é responsável. No entanto, os sábios instituíram que ele deve fazer um juramento de que não foi negligente, pois se dissermos que ele deve pagar, ninguém se disporá a transportar um barril para seu amigo. Portanto, eles consideraram a quebra do barril como a morte de um animal e sua quebra.
+
+2. Além disso, foi instituído que se dois carregarem o barril com uma vara e ele se quebrar, eles pagam metade, pois essa carga é pesada para um, mas leve para dois, sendo considerada como um acidente, mas não um acidente completo, e pagam metade se houver testemunhas de que não foram negligentes.
+
+3. Se ele se quebrou em um lugar onde não há testemunhas disponíveis, eles juram que não o quebraram por negligência e pagam metade do valor, pois cada um deveria ter transportado apenas uma carga que pudesse carregar sozinho.
+
+4. Daqui se aprende que aquele que transporta um barril grande, que não é costume dos carregadores transportar sozinho, é considerado negligente, e se ele se quebra em sua mão, ele paga tudo. (Nota: Esta é a linguagem e opinião de Maimônides, mas há aqueles que discordam e acreditam que, se é leve para dois, mesmo que seja pesado para um, não é considerado negligência completa e ele paga apenas metade).
+
+5. O carregador que quebrou um barril de vinho de um comerciante e é obrigado a pagar, se o valor do vinho no dia de mercado é quatro e nos outros dias é três, se ele devolver no dia de mercado, deve devolver um barril de vinho ou pagar quatro, desde que o comerciante não tenha outro vinho para vender no dia de mercado. Mas se ele tinha vinho, devolve três. Se ele devolver em outros dias, devolve três e deduz o esforço que teria na venda e o dano do furo que teria feito no barril, e assim por diante. (Nota: Esta é a linguagem e opinião de Maimônides, mas a maioria dos comentaristas discorda e acredita no contrário: se ele quebrou em outros dias, paga três, e se quebrou no dia de mercado, se ele vier pagar em outros dias, deve dar quatro e não está isento se quiser dar outro barril de vinho, mas se vier pagar no dia de mercado, pode devolver outro barril de vinho, desde que não tenha outro vinho para vender no mercado. Mas se ele tem outro vinho, é como nos outros dias e deve dar o valor do vinho).
+
+6. Um guardião assalariado, quando seu tempo termina, sua responsabilidade termina, e mesmo que ainda esteja em sua casa, ele é apenas um guardião gratuito.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 304 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho aborda as responsabilidades de uma pessoa que transporta um barril de um lugar para outro, especialmente quando o barril se quebra durante o transporte. As leis discutidas aqui são relevantes para entender como a responsabilidade é atribuída em casos de danos a propriedades alheias, algo que pode ocorrer em várias situações do dia a dia, como mudanças, transporte de mercadorias, etc.
+
+### Seção 1: Responsabilidade do Transportador
+
+- **Transportador Pago**: Se alguém é pago para transportar um barril e ele se quebra, a lei da Torá diz que essa pessoa deve pagar pelo dano, pois a quebra não é considerada um acidente inevitável. É comparável a situações de roubo ou perda, onde a responsabilidade é clara.
+- **Instituição dos Sábios**: Para evitar que as pessoas se recusem a transportar barris por medo de ter que pagar por quebras, os sábios instituíram que o transportador deve jurar que não foi negligente. Se ele fizer isso, não precisa pagar.
+
+### Seção 2: Transporte em Dupla
+
+- **Dois Transportadores**: Quando dois transportam um barril juntos e ele se quebra, eles pagam metade do valor. Isso porque a carga é considerada leve para dois, mas ainda assim, não é um acidente completo. Se houver testemunhas de que não foram negligentes, eles pagam apenas metade.
+
+### Seção 3: Falta de Testemunhas
+
+- **Sem Testemunhas**: Se o barril se quebra em um local sem testemunhas, os transportadores devem jurar que não foram negligentes e pagar metade do valor. A ideia é que cada um deveria ter carregado apenas o que consegue sozinho.
+
+### Seção 4: Transporte Individual de Barril Grande
+
+- **Transportador Solitário**: Se alguém tenta transportar sozinho um barril grande, que normalmente requer duas pessoas, e ele se quebra, essa pessoa é considerada negligente e deve pagar tudo. No entanto, há opiniões divergentes sobre se ele deve pagar tudo ou apenas metade, dependendo do peso do barril.
+
+### Seção 5: Valor do Vinho
+
+- **Valor do Vinho no Mercado**: Se um transportador quebra um barril de vinho de um comerciante, o valor a ser pago pode variar dependendo do dia. No dia de mercado, o vinho vale mais. Se o comerciante não tem outro vinho para vender, o transportador deve pagar o valor mais alto ou devolver um barril de vinho. Se ele tinha outro vinho, paga o valor mais baixo. Há diferentes opiniões sobre como calcular o valor dependendo do dia em que o pagamento é feito.
+
+### Seção 6: Guardião Assalariado
+
+- **Fim do Contrato de Guarda**: Quando o tempo de um guardião assalariado termina, sua responsabilidade também termina. Mesmo que o item ainda esteja em sua casa, ele passa a ser considerado um guardião gratuito, com menos responsabilidade.
+
+### Relevância Prática
+
+Essas leis são importantes para entender como lidar com responsabilidades e compensações em casos de danos a propriedades alheias. Elas ajudam a equilibrar a justiça e a praticidade, garantindo que as pessoas não sejam desencorajadas a ajudar ou trabalhar por medo de consequências financeiras injustas.

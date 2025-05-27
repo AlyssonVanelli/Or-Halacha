@@ -1,0 +1,26 @@
+SIMAN 272
+
+1. O comprimento de cada linha deve ser de trinta letras, de modo a poder escrever "למשפחותיכם" três vezes. Não deve ser mais curto do que isso, para que a página não pareça uma carta, nem mais longo, para que os olhos não se percam no texto. (Língua de Rambam, capítulo 7 das leis de Sefer Torá, parágrafo 4).
+
+2. Não se faz uma folha com menos de três colunas, nem com mais de oito. Se ocorrer de ter uma folha com nove colunas, não se deve dividi-la de modo que haja três colunas em uma parte e seis na outra, mas sim quatro em uma e cinco na outra. Em que casos isso se aplica? Em todas as folhas do livro, exceto na última. Mas no final do livro, mesmo que haja apenas um versículo, faz-se uma coluna sozinha e costura-se com as outras folhas.
+
+3. Ao terminar a Torá, é necessário que se conclua no meio da linha no final da página. Se restarem muitas linhas na página, encurta-se e sobe-se, fazendo letras longas de baixo para cima, de modo que uma palavra ocupe quatro ou cinco linhas. (Tur). Começa-se no início da linha no final da página e não se termina a linha, ajustando-se para que "לעיני כל ישראל" esteja no meio da linha no final da página.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido neste trecho do Shulchan Aruch Yoreh De'ah, que trata de regras específicas para a escrita de um Sefer Torá, o rolo da Torá, que é um dos objetos mais sagrados no judaísmo.
+
+1. **Comprimento das Linhas:**
+   - **Conceito:** Cada linha de um Sefer Torá deve ter um comprimento específico, capaz de conter a palavra "למשפחותיכם" (l'mishp'choteichem) três vezes. Isso equivale a cerca de 30 letras.
+   - **Relevância:** Essa regra garante que o texto não pareça uma carta comum e que seja fácil de ler, evitando que os olhos se percam. É uma questão de estética e funcionalidade, assegurando que o texto seja claro e respeitoso à sua santidade.
+
+2. **Número de Colunas por Folha:**
+   - **Conceito:** Cada folha do Sefer Torá deve ter entre três e oito colunas. Se uma folha tiver nove colunas, deve ser dividida de forma equilibrada, com quatro colunas em uma parte e cinco na outra.
+   - **Relevância:** Isso ajuda a manter a uniformidade e a estrutura do Sefer Torá. A exceção é a última folha, onde pode haver uma coluna única, mesmo que contenha apenas um versículo. Isso é importante para a integridade física e visual do rolo.
+
+3. **Conclusão do Texto:**
+   - **Conceito:** Ao terminar de escrever a Torá, a última palavra "לעיני כל ישראל" (l'einei kol Yisrael) deve estar no meio da linha final da página. Se houver espaço extra, o escriba deve ajustar o texto, usando letras mais longas para preencher o espaço de forma equilibrada.
+   - **Relevância:** Isso assegura que o final do Sefer Torá seja visualmente distinto e respeitoso, destacando a conclusão do texto sagrado de maneira apropriada.
+
+Essas regras são seguidas por escribas treinados, conhecidos como soferim, que dedicam suas vidas a escrever e manter os Sifrei Torá. Na prática contemporânea, essas diretrizes continuam a ser observadas rigorosamente, refletindo a continuidade e a reverência pela tradição judaica.

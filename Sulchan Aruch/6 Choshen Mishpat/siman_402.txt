@@ -1,0 +1,34 @@
+SIMAN 402
+
+**Dois bois que se feriram mutuamente, sejam eles "tamim" ou "muadim". E contém um parágrafo:**
+
+Dois bois "tamim" que se feriram mutuamente pagam o excedente de meio dano. Por exemplo, se um causou dano ao outro no valor de 100 e o segundo causou dano no valor de 50, eles se compensam em 50, e os 50 restantes são pagos pela metade. Mesmo que um deles tenha sido perdido, isso se aplica apenas quando o valor de cada um é equivalente ao dano causado. Mas se não for assim, ele deduz apenas o que pode ser cobrado do corpo do boi (Nimukei Yosef lá).
+
+Se ambos forem "muadim", pagam o excedente de dano completo. Se um for "tam" e o outro "muad", e o "muad" causou mais dano ao "tam" do que o contrário, ele paga o excedente de dano completo. Por exemplo, se o "muad" causou dano ao "tam" no valor de 100 e o "tam" não causou mais do que 50, ele paga 75. Se o "tam" causou dano ao "muad", ele paga meio dano. Por exemplo, se o "tam" causou dano ao "muad" no valor de 100 e o "muad" não causou mais do que 25, ele paga 25.
+
+**Nota:**
+
+Alguns dizem que tudo isso se refere apenas quando começaram ao mesmo tempo ou, após se separarem, o segundo voltou e feriu o primeiro. Mas se um começou, o que iniciou paga e o segundo está isento, pois qualquer um que altera e outro vem e altera (nele) está isento (Tur em nome do Rosh). E assim está mais adiante no Siman 421, parágrafo 13, sobre dois homens que se feriram mutuamente. E o autor que decidiu aqui como quem discorda e entende que não há diferença, e mais adiante decidiu como escrevi, não acertou bem.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro explicar alguns conceitos básicos:
+
+1. **Bois "Tamim" e "Muadim"**: No direito judaico, um boi é considerado "tam" (ou "tamim") se ele não tem histórico de comportamento agressivo. Se um boi já demonstrou comportamento agressivo repetidamente, ele é considerado "muad". A diferença entre eles é importante porque afeta a responsabilidade do dono pelo dano causado pelo boi.
+
+2. **Danos e Compensação**: Quando um boi causa dano, a lei judaica determina como o dono deve compensar a parte prejudicada. A compensação depende se o boi é "tam" ou "muad". Um boi "tam" paga apenas metade do dano que causa, enquanto um boi "muad" paga o dano completo.
+
+Agora, vamos aplicar isso ao cenário descrito:
+
+- **Dois Bois que se Ferem Mutuamente**: Quando dois bois se ferem, a compensação depende do status de cada boi (se são "tam" ou "muad") e do valor do dano causado.
+
+- **Caso de Dois Bois "Tamim"**: Se ambos os bois são "tamim" e se ferem, eles compensam o dano entre si. Por exemplo, se um boi causa 100 de dano e o outro 50, eles se compensam em 50, e o dono do boi que causou mais dano paga metade do excedente (neste caso, 25).
+
+- **Caso de Dois Bois "Muadim"**: Se ambos os bois são "muadim", eles pagam o dano completo. Assim, se um boi causa mais dano que o outro, o dono do boi que causou mais dano paga a diferença total.
+
+- **Caso de um Boi "Tam" e um "Muad"**: Se um boi "muad" causa mais dano que um "tam", o dono do "muad" paga a diferença total. Se o "tam" causa mais dano, ele paga apenas metade do dano excedente.
+
+- **Nota sobre a Ordem dos Ataques**: A nota final discute a ordem dos ataques. Se os bois começaram a se ferir ao mesmo tempo, as regras acima se aplicam. No entanto, se um boi começou a atacar e o outro apenas reagiu, o boi que iniciou o ataque é considerado responsável, e o outro está isento de pagar.
+
+Essas leis são relevantes hoje em dia principalmente em contextos de responsabilidade e compensação por danos, mesmo que não lidemos com bois no dia a dia. Elas ensinam princípios de justiça e responsabilidade que podem ser aplicados em várias situações de disputas e danos.

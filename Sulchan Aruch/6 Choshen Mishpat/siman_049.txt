@@ -1,0 +1,50 @@
+SIMAN 49
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 49):**
+
+**Reconhecimento dos nomes do devedor e do credor e a questão dos erros nos nomes e valores. Contém 10 seções:**
+
+1. Se o devedor ou o credor tiver dois nomes, não é necessário escrever mais do que o nome principal. Se escreverem apenas o nome secundário, ainda é válido. Não é necessário escrever o apelido (isto é, o nome pelo qual são conhecidos além do nome próprio) ou "Cohen" e "Levi", a menos que haja duas pessoas na cidade com nomes idênticos.
+
+2. Os testemunhos devem reconhecer que o nome do devedor é "Fulano, filho de Fulano". No documento de venda, deve constar o nome do vendedor, e no recibo, o nome do devedor e do credor. Se o documento do credor não tiver uma aquisição formal, é necessário reconhecer também o nome do credor. Se não os reconhecerem, mesmo uma mulher ou um parente são aptos a afirmar que este é o nome deles. Se houver um erro baseado na confiança em uma mulher ou parente, aceitamos para um estudioso da Torá, pois não é comum que um estudioso da Torá seja meticuloso (como mencionado no Beit Yosef, início do Siman 29, em nome do Rashbam). Alguns dizem que isso se aplica apenas a mulheres, pois não é comum que homens olhem para mulheres, como explicado em Even HaEzer, Siman 110. Mas em outros assuntos, não há diferença entre um estudioso da Torá e outros homens. O autor do Beit Yosef escreveu em Choshen Mishpat, Siman 29, que esta é a regra principal. Portanto, é estranho o que ele escreveu aqui ao contrário. Para outra pessoa que é meticulosa, não aceitamos, pois certamente ele foi meticuloso e agora está mentindo.
+
+3. Em outros erros evidentes de escriba, onde é claro que o documento está errado, consideramos o documento válido e dizemos que foi um erro, assim como dizemos em relação à responsabilidade, que é um erro de escriba (Rosh, Clal 58, Siman 32) (e como mencionado acima, início do Siman 39).
+
+4. Se o nome de alguém for estabelecido na cidade por trinta dias, escrevem esse nome e não se preocupam que ele tenha mudado de nome para enganar (isto é, para fraudar).
+
+5. Se alguém for chamado por um nome e responder, consideramos esse nome como seu, mesmo que não tenha sido estabelecido por trinta dias. Por exemplo, se ele se chamou de Reuven e um documento foi escrito dizendo que Reuven tomou emprestado de Shimon, e ele agora alega que seu nome não é Reuven, se ele foi chamado de Reuven e respondeu, mesmo que não tenha sido estabelecido por trinta dias, ele é obrigado.
+
+6. Se um documento surgir diante de nós e o devedor alegar que não deve nada, dizendo que talvez um impostor tenha usado seu nome e admitido a dívida, ou que ele deve a outra pessoa e este é um impostor que usou o nome do seu credor, desde que não haja duas pessoas com nomes idênticos estabelecidos, não nos preocupamos com suas palavras.
+
+7. Se alguém for conhecido por um apelido na cidade e um documento for escrito com esse apelido, e depois se descobrir que ele tinha outro apelido, ou se houver um erro no nome do devedor ou do credor, como escrever Reuven em vez de Shimon, ou se houver um erro no valor do dinheiro, deve-se escrever outro documento. Não dizemos que os testemunhos já cumpriram sua missão, enquanto não houver uma aquisição formal escrita no documento e ainda faltar a entrega ao proprietário (Ran, Perek HaMekabel). Alguns dizem que mesmo que um documento válido tenha sido escrito, não se aplica aos documentos dizer que os testemunhos já cumpriram sua missão (Nimukei Yosef, em nome do Rashba). E há quem diga que mesmo que não escrevam outro documento, se for comprovado que é um erro de escriba, o documento é válido.
+
+8. Se houver duas pessoas na mesma cidade, ambas chamadas Yosef ben Shimon, nenhuma delas pode apresentar um documento contra a outra, se houver uma aquisição formal, dizendo que este documento que você está apresentando contra mim é meu e eu o devolvi a você quando paguei a dívida que tinha com você. E ninguém pode apresentar um documento de dívida contra eles, pois cada um pode dizer que o documento não foi escrito contra ele, mas contra seu colega. A menos que os próprios testemunhos do documento venham e digam que este é o documento sobre o qual testemunharam, e este é o empréstimo sobre o qual testemunharam. Se outros testemunhos disserem o mesmo, tem o status de um empréstimo verbal. Se um deles era menor na época mencionada no documento, cobram do outro. E qual é a solução? Devem escrever o nome do avô. Se o nome do avô também for o mesmo, devem escrever algum sinal.
+
+9. Se um credor emprestou a dois Yosef ben Shimon com dois documentos, e os documentos são distintos, e um recibo válido for encontrado com o credor indicando que o documento de Yosef ben Shimon foi pago, mas o recibo não for distinto, e ambos os documentos forem encontrados entre os documentos rasgados do credor, a força dos documentos é enfraquecida e ambos são considerados pagos.
+
+10. Dois Yosef ben Shimon, um dos quais tomou emprestado de outro, e um campo for encontrado com um deles, comprado do outro Yosef ben Shimon, ou se eles forem parceiros nele, o credor não pode confiscar o campo dizendo que se emprestei a você, melhor, e se emprestei ao seu colega, já que seu colega não tem bens livres, você tomou meu penhor. Da mesma forma, quando são parceiros, ele não pode cobrar metade de qualquer maneira, pois os bens do devedor não são penhorados, exceto como garantia, e a garantia só é penhorada onde ele pode cobrar do próprio devedor. E como ele não pode cobrar do próprio devedor, ele não pode cobrar dos bens. Conclui-se que a garantia para dois Yosef ben Shimon, seja para dois credores ou para um credor, assim como ele não pode cobrar deles, ele não pode cobrar da garantia.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 49 do Shulchan Aruch Choshen Mishpat trata de questões relacionadas à identificação correta de devedores e credores em documentos legais, como contratos de empréstimo, e como lidar com erros nesses documentos. Vamos explicar isso de forma prática:
+
+1. **Nomes em Documentos**: Quando alguém tem mais de um nome, é suficiente usar o nome principal em documentos legais. Se usarem um nome secundário, ainda é válido. Não é necessário incluir apelidos ou designações como "Cohen" ou "Levi", a menos que existam duas pessoas com nomes idênticos na mesma cidade.
+
+2. **Reconhecimento de Nomes**: Testemunhas devem confirmar o nome completo do devedor, incluindo o nome do pai. Em documentos de venda, o nome do vendedor deve estar claro, e em recibos, tanto o nome do devedor quanto o do credor devem ser reconhecidos. Se houver dúvidas sobre os nomes, mesmo uma mulher ou parente pode confirmar, especialmente se a pessoa for um estudioso da Torá, pois espera-se que eles sejam honestos.
+
+3. **Erros de Escriba**: Se houver erros óbvios nos documentos, como um nome ou valor incorreto, mas é claro que foi um erro de escrita, o documento ainda pode ser considerado válido.
+
+4. **Nome Estabelecido**: Se alguém é conhecido por um nome na cidade por 30 dias, esse nome pode ser usado em documentos sem preocupação de fraude. Se alguém responde a um nome, mesmo que não tenha sido usado por 30 dias, esse nome é considerado válido.
+
+5. **Impostores e Nomes Idênticos**: Se um devedor alega que um impostor usou seu nome, isso só é considerado se houver duas pessoas com nomes idênticos na cidade. Caso contrário, a alegação não é aceita.
+
+6. **Apelidos e Erros**: Se um documento usa um apelido ou contém erros nos nomes ou valores, um novo documento deve ser escrito, a menos que o erro seja claramente de escriba.
+
+7. **Dois com o Mesmo Nome**: Se duas pessoas na mesma cidade têm o mesmo nome, como "Yosef ben Shimon", não podem usar documentos um contra o outro sem testemunhas que confirmem qual documento pertence a quem. Uma solução é incluir o nome do avô ou outro sinal distintivo.
+
+8. **Recibos e Documentos Distintos**: Se um credor tem dois documentos para dois devedores com o mesmo nome, e um recibo não especifica qual dívida foi paga, ambos os documentos são considerados pagos se encontrados entre documentos rasgados.
+
+9. **Propriedades e Garantias**: Se dois "Yosef ben Shimon" têm uma transação de empréstimo e um campo está envolvido, o credor não pode confiscar o campo sem provas claras de quem é o devedor. A garantia só pode ser cobrada se o devedor puder ser identificado com certeza.
+
+Essas regras são importantes para garantir que transações financeiras e legais sejam claras e justas, evitando fraudes e mal-entendidos. Na prática, isso significa que documentos legais devem ser redigidos com cuidado, e qualquer erro ou ambiguidade deve ser corrigido para proteger os direitos de todas as partes envolvidas.

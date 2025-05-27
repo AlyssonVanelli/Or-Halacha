@@ -1,0 +1,78 @@
+SIMAN 61
+
+**Alguns regulamentos sobre documentos legais. Contém dezesseis seções:**
+
+1. Uma comunidade que decretou que nenhum documento seria válido a menos que fosse escrito pela mão do escriba da cidade. Isso não inclui uma renúncia que Reuven fez a Shimon e que Reuven assinou. (Certamente, a intenção não é apenas para documentos assinados por testemunhas) (Tur).
+
+2. Um modelo de documento nas mãos do escriba, assinado por testemunhas, mas não transcrito, não tem o status de documento, a menos que seja costume na cidade que tenha tal status. Nota: Se as testemunhas não assinaram para entregá-lo ao proprietário, mas apenas como um mero registro, não é considerado um documento. Da mesma forma, um documento que não foi autorizado a ser escrito, e pode-se dizer que as testemunhas cometeram um erro, não é julgado com base nesse documento (Responsa de Rashba, Siman 1111). Isso é considerado como se fosse dito por escrito, como explicado anteriormente no Siman 28, Seções 11 e 12. No entanto, há quem discorde e sustente que qualquer modelo escrito com a intenção de redigir um documento, mesmo que o documento não tenha sido escrito, o modelo tem o status de documento (Tur em nome de Rosh, Clal 68).
+
+3. Uma mulher que é obrigada a jurar, conforme o decreto dos Geonim que decretaram para o devedor, se ela possui bens móveis para pagar e se recusa, é excomungada até que obedeça à lei, assim como se faz com um homem (pois uma mulher é igual a um homem em todas as punições da Torá) (Tur).
+
+4. Um documento que diz que qualquer um que o apresentar pode cobrar sem autorização, se não houver costume na cidade de cobrar sem autorização, a condição é válida e pode-se cobrar sem autorização. Mesmo que esteja escrito que ele se comprometeu a qualquer um que o apresentar, seja judeu ou gentio, isso é válido apenas se o apresentador já tivesse nascido no momento do empréstimo. Mas se ele nasceu depois, não, pois não se pode obrigar a alguém que ainda não nasceu.
+
+5. Qualquer coisa que seja costume na região escrever, seja cláusulas de confiança, seja escrita no mercado, ou outras melhorias de documentos que os escribas costumam escrever, qualquer um que transfere com um lenço para escrever um documento, sua intenção é que seja escrito conforme o costume da região, e não é necessário especificar que todas as boas expressões sejam escritas, e isso será explicado mais adiante no Siman 71. Nota: E aquele que aceita escrever um documento em todas as expressões de mérito, mesmo que o escriba não saiba como reforçar adequadamente, uma vez que está escrito nele e a responsabilidade deste documento foi aceita por ele como todos os documentos que são costume em Israel, não é considerado uma condição e não como modelos de documentos, aplica-se a todas as regras no início do assunto. Mas condições como confiança em um empréstimo ou cancelamento de uma declaração em um presente não são consideradas até que sejam especificadas (R"Y 54:1) e veja mais adiante no Siman 71, Seção 14.
+
+6. Um documento que diz que as despesas serão pagas sobre a duplicação é uma condição e não é cobrado. Nota: E mesmo que esteja escrito nele que não é uma condição, etc., e veja mais adiante no Siman 207 sobre as leis de condições. E qualquer coisa que seja costume na região em documentos, mesmo que não seja conforme o decreto dos sábios, segue-se isso (Tur no final do Siman 42 e Rivash Siman 105).
+
+7. Um documento que diz que o credor tem permissão para descer aos bens do devedor, seja na presença dele ou não, sem autorização do tribunal e sem avaliação e anúncio, não tem permissão para violar as palavras da Torá para descer aos bens, pois quem empresta a seu amigo não pode penhorar exceto no tribunal. Mas se não encontrar um juiz que queira julgá-lo, então ele tem permissão para fazer justiça por si mesmo.
+
+8. Shimon que escreveu a Reuven no primeiro de Nissan que se comprometeu a ele com qualquer quantia de dinheiro até mil moedas de ouro, que Shimon reconheça após a data deste documento que Reuven tem sobre ele e escreva e assine com sua própria mão este reconhecimento, e Reuven apresentou a escrita de Shimon que reconheceu que Reuven tem sobre ele cem moedas de ouro, e a data da escrita de Shimon é no 27 de Nissan, e a assinatura de Shimon foi confirmada no primeiro de Iyar, Reuven cobra a partir da data de seu documento, pois então se tornou conhecido que o documento de Shimon até mil moedas de ouro foi confirmado.
+
+9. Reuven que processou Shimon em tribunal e disse: "Você admitiu perante testemunhas que me deve cem moedas em um documento, e agora o documento foi roubado e dado a você." Shimon respondeu: "Você não me emprestou, Levi me deu um penhor e pediu para escrever um documento de dívida em seu nome, e ele me devolveu o documento e eu devolvi o penhor a ele." Shimon é confiável sob juramento.
+
+10. Quem deseja invalidar um documento porque não foi apresentado durante a vida de seu pai, e ainda o credor chegou à extrema pobreza e não o apresentou, o documento não é invalidado por isso. No entanto, o juiz deve investigar e inquirir para trazer o julgamento à verdade, e se parecer a ele com uma presunção clara que o julgamento é fraudulento e falso, ele escreverá e assinará que nenhum juiz de Israel deve se envolver neste julgamento e entregará ao réu. Nota: E veja mais adiante no Siman 15, Seção 3. Nota: E assim todo documento antigo, o tribunal deve investigar e examinar (Tur Siman 98 em nome de Rosh, Clal 81, Seção 9, e Maharik, Raiz 191) mesmo que esteja escrito nele que o réu não deve alegar nenhuma defesa contra o documento e aceitou sobre si com um juramento e uma maldição, ainda assim o tribunal deve investigar isso para trazer o julgamento à verdade (lá em Maharik).
+
+11. Um documento que está escrito na seguinte linguagem: "Explicação do que Reuven admitiu perante nós que ele tem do patrimônio de Yaakov tal e tal", não tem o status de documento para cobrar de bens hipotecados, pois não há aquisição nele, mas é apenas um reconhecimento, e a linguagem prova que não foi intencionado na escrita para ser um documento, mas apenas um registro, pois escreveram "explicação do que ele admitiu perante nós" e não escreveram "ele testemunhou sobre si mesmo" como é costume escrever em documentos, e ele não admitiu perante nós como se escreve em documentos de reconhecimento. Um documento que não está escrito nele (lá o credor) mas o devedor obrigou-se a qualquer um que apresentar este documento que ele cobrará dele, qualquer um que o apresentar cobrará com ele, mesmo que seja sabido que ele não emprestou este dinheiro, e é que ele tenha nascido no momento da escrita do documento. (E veja mais adiante no Siman 50).
+
+12. Um devedor que pagou ao credor e o credor não quer devolver-lhe seu documento, deve ser excomungado até que o devolva, pois está transgredindo um mandamento negativo das palavras dos profetas. (E veja mais adiante no Siman 57).
+
+13. Um documento que foi pago ou cujo penhor foi perdoado, o credor deve devolver o documento ao devedor, pois o corpo do papel é dele. (E veja mais adiante no Siman 57).
+
+14. Quem alegar sobre o contrato de casamento de sua esposa que ele era um ignorante e não entendeu quando o chazan leu o contrato e as condições, não se ouve. Nota: E o mesmo se aplica a outros detalhes que devem ser examinados no documento, e não se diz que este homem não examinou tanto, como foi explicado acima (Beit Yosef em nome de Rivash, Siman 480).
+
+15. Quem tem em sua posse um documento de presente que pela lei não pode cobrar com ele, e o outro alega que deve forçá-lo a entregar o documento, não se força.
+
+16. Examina-se a linguagem do documento e julga-se de acordo com essa precisão, e não se diz que este homem não aprendeu tanto e pensou que a lei era de tal maneira e por isso escreveu aquela linguagem.
+
+17. Há quem diga que uma condição que uma pessoa faz com seu amigo não se segue a linguagem escrita nela, mas sim a intenção.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 61 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de regras sobre documentos legais, que são escritos formais usados para registrar acordos, dívidas ou outros compromissos. Vamos explicar cada seção de forma prática:
+
+1. **Validade de Documentos na Comunidade**: Algumas comunidades podem decidir que apenas documentos escritos por um escriba específico são válidos. No entanto, se uma pessoa, Reuven, renuncia a um direito em favor de outra, Shimon, e assina isso, essa renúncia é válida mesmo sem o escriba.
+
+2. **Modelos de Documentos**: Um modelo de documento assinado por testemunhas, mas não finalizado, não é considerado um documento oficial, a menos que seja costume na cidade. Se as testemunhas assinaram apenas como registro, não é um documento válido. Há uma opinião que diz que mesmo um modelo pode ser considerado um documento se foi feito com essa intenção.
+
+3. **Juramento de Mulheres**: Se uma mulher deve jurar por causa de uma dívida e se recusa, ela pode ser excomungada, assim como um homem seria, pois as punições da Torá se aplicam igualmente a ambos.
+
+4. **Cobrança sem Autorização**: Se um documento permite que qualquer pessoa que o apresente cobre uma dívida sem autorização, isso é válido apenas se for costume na cidade. A condição é válida apenas se a pessoa que apresenta o documento já existia quando o documento foi feito.
+
+5. **Costumes Locais em Documentos**: Quando se transfere algo para ser documentado, presume-se que será feito conforme os costumes locais, sem necessidade de especificar cada detalhe. No entanto, certas condições precisam ser explicitamente mencionadas para serem válidas.
+
+6. **Condições de Pagamento**: Se um documento menciona condições específicas, como pagar despesas, isso é considerado uma condição e não pode ser cobrado. Os costumes locais prevalecem, mesmo que não estejam de acordo com decretos rabínicos.
+
+7. **Penhora de Bens**: Um documento que permite penhorar bens sem autorização judicial não é válido, pois a Torá exige que penhoras sejam feitas através do tribunal. Se não houver juiz disponível, a pessoa pode agir por conta própria.
+
+8. **Reconhecimento de Dívida**: Se alguém reconhece uma dívida em um documento, a data do reconhecimento é importante para determinar quando a dívida pode ser cobrada.
+
+9. **Perda de Documento**: Se alguém alega que um documento foi roubado, mas o devedor tem uma explicação plausível, ele é confiável se fizer um juramento.
+
+10. **Documentos Antigos**: Documentos antigos não são automaticamente inválidos se não foram apresentados antes. O tribunal deve investigar para garantir que não haja fraude.
+
+11. **Reconhecimento vs. Documento**: Um documento que apenas registra um reconhecimento, sem formalizar uma obrigação, não pode ser usado para cobrar dívidas de bens hipotecados.
+
+12. **Devolução de Documentos**: Se um devedor paga sua dívida, o credor deve devolver o documento. Se o credor se recusar, ele pode ser excomungado.
+
+13. **Propriedade do Documento**: Mesmo que um documento tenha sido pago, o credor deve devolvê-lo ao devedor, pois o papel pertence ao devedor.
+
+14. **Ignorância do Contrato**: Se alguém alega que não entendeu um contrato de casamento, essa alegação não é aceita.
+
+15. **Documentos de Presente**: Se um documento de presente não pode ser usado para cobrar, não se pode forçar a entrega do documento.
+
+16. **Interpretação de Documentos**: A linguagem precisa do documento é o que determina seu significado, não o que a pessoa pensou que significava.
+
+17. **Condições e Intenções**: Algumas opiniões dizem que, em condições feitas entre amigos, a intenção é mais importante do que a linguagem escrita.
+
+Essas regras ajudam a garantir que os documentos legais sejam usados de forma justa e clara, respeitando tanto a tradição quanto as necessidades práticas da comunidade.

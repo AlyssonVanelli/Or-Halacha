@@ -1,0 +1,52 @@
+SIMAN 381
+
+**Leis sobre a anulação de domínio e a transgressão ao transportar. Contém sete seções:**
+
+1. Aquele que anula seu domínio e, posteriormente, transporta de sua casa para o pátio inadvertidamente, não proíbe. Se o faz intencionalmente, proíbe, pois está revertendo a anulação que fez.
+
+2. Se os outros já tomaram posse, transportando de suas casas para o pátio ou trazendo do pátio para suas casas, ele não pode reverter sua anulação.
+
+3. Segundo Rashi, a posse só é eficaz se for tomada após o anoitecer.
+
+4. É possível anular domínio de um pátio para outro. Não importa se são dois pátios com uma abertura entre eles e cada um fez um eruv separadamente, mas não juntos; cada um pode anular seu domínio para o outro, permitindo o uso. Ou, se são dois pátios, um dentro do outro, e apenas o pátio externo fez eruv, o interno, que proíbe o externo, pode anular seu domínio para o externo, permitindo que o externo use, exceto quando precisa sair. Se fizeram eruv juntos e colocaram o eruv no pátio externo, e alguém do interno esqueceu de participar, ele pode anular seu domínio para todos os do interno e do externo, ficando ele proibido, mas todos os outros permitidos.
+
+5. É possível anular domínio em uma ruína. Se há duas casas com uma ruína entre elas, pertencente a ambos, e esqueceram de fazer eruv, um pode anular seu domínio para o outro, permitindo o uso.
+
+6. É possível anular domínio de uma casa para outra. Se há duas casas com uma abertura entre elas e não fizeram eruv, um pode anular seu domínio para o outro. Mesmo aquele que anula pode transportar de sua casa para a do outro, mas não pode trazer da casa do outro para a sua, pois estaria retomando o domínio que anulou. Da mesma forma, se tem um quarto aberto para sua casa e anulou o domínio de sua casa, é proibido transportar do quarto para sua casa. Nota: Alguns dizem que não se pode anular de casa para casa, a menos que se deixe um quarto sem anular, permitindo trazer da casa do outro para a sua. É bom ser rigoroso desde o início (Beit Yosef em nome de Rabbeinu Yerucham, R"T e Hagahot Maimoniot, capítulo 2 das leis de eruvin).
+
+7. Duas casas em lados opostos de uma via pública, cercadas por um não-judeu com uma barreira no Shabat, criando um pátio entre elas, proíbem-se mutuamente. Não podem anular um para o outro.
+
+8. Um herdeiro pode anular domínio. Se o falecido não fez eruv e morreu no Shabat, e o herdeiro vem morar no pátio, ele proíbe, mas pode anular seu domínio.
+
+9. É possível anular e depois anular novamente. Ou seja, os moradores de um pátio anulam seu domínio para os de outro pátio ou para um dos moradores, permitindo que transportem o que quiserem, e depois anulam novamente para aqueles que anularam para eles, permitindo que também transportem o que quiserem.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis discutidas no Siman 381 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite transportar objetos em áreas públicas durante o Shabat, algo que normalmente é proibido. Isso é feito simbolicamente unindo propriedades privadas em uma única "área comum".
+
+2. **Anulação de domínio**: Quando alguém "anula seu domínio", está abrindo mão de seus direitos de uso sobre uma área comum, permitindo que outros a utilizem como se fosse uma única propriedade.
+
+Agora, vamos explicar cada seção de forma prática:
+
+1. **Anulação e Transporte Inadvertido ou Intencional**: Se alguém anula seu domínio sobre uma área comum e depois transporta objetos de sua casa para essa área sem querer, isso não causa problemas. Mas se fizer isso de propósito, está desrespeitando a anulação, o que é problemático.
+
+2. **Posse pelos Outros**: Se outras pessoas já começaram a usar a área comum após a anulação, a pessoa que anulou não pode voltar atrás e retomar seus direitos.
+
+3. **Posse Após Anoitecer**: Segundo Rashi, a posse só é considerada válida se for estabelecida após o início do Shabat, ou seja, após o anoitecer.
+
+4. **Anulação entre Pátios**: É possível anular o domínio de um pátio para outro, mesmo que cada pátio tenha feito um eruv separadamente. Isso permite que os moradores usem o espaço comum. Se um pátio interno não fez eruv, ele pode anular seu domínio para o pátio externo, permitindo que o externo use o espaço.
+
+5. **Anulação em Ruínas**: Se há uma ruína entre duas casas e não foi feito um eruv, um dos moradores pode anular seu domínio para o outro, permitindo o uso da ruína.
+
+6. **Anulação entre Casas**: Se há duas casas conectadas e não foi feito um eruv, um morador pode anular seu domínio para o outro. No entanto, ele não pode trazer objetos de volta para sua casa, pois isso reverteria a anulação.
+
+7. **Casas em Lados Opostos de uma Via Pública**: Se duas casas estão em lados opostos de uma rua pública e um não-judeu cria uma barreira no Shabat, formando um pátio, os moradores não podem anular seus domínios um para o outro.
+
+8. **Anulação por Herdeiro**: Se alguém morre no Shabat sem ter feito um eruv, o herdeiro que vem morar no pátio pode anular seu domínio para permitir o uso do espaço.
+
+9. **Anulação Repetida**: É possível que os moradores de um pátio anulem seu domínio para outro pátio e depois façam o processo inverso, permitindo que todos usem o espaço comum.
+
+Essas leis são relevantes para a vida judaica contemporânea, especialmente em comunidades que observam o Shabat e desejam facilitar o transporte de objetos em áreas comuns. Elas ajudam a manter o equilíbrio entre a observância das leis do Shabat e a necessidade prática de usar espaços compartilhados.

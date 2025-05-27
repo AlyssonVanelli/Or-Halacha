@@ -1,0 +1,46 @@
+SIMAN 255
+
+**Siman 255: Declarações de um moribundo sobre dívidas e propriedades. Contém nove seções:**
+
+1. Um moribundo que declara: "Tenho cem moedas nas mãos de fulano" ou "de fulano nas minhas mãos", os testemunhos são registrados como tal, mesmo que não saibam se é verdade. Portanto, quando os herdeiros vêm cobrar, precisam trazer prova.
+
+2. Se um moribundo diz: "Cem moedas de fulano estão em minhas mãos" e diz "dê", então devem dar. Se não disse "dê", não se dá, pois pode ter dito isso apenas para que não digam que seus herdeiros têm dinheiro. Portanto, se ele disse isso como uma confissão e não havia suspeita de engano, dá-se mesmo que não tenha dito "dê". Da mesma forma, se ele confessou por escrito que todas as suas propriedades pertencem a fulano, isso é considerado uma confissão, e não dizemos que ele fez isso para não sobrecarregar seus filhos com juramentos.
+
+3. Quem dedica todas as suas propriedades não é acreditado se, após a dedicação, diz que tem uma dívida com fulano ou que um objeto pertence a fulano, pois pode ser uma conspiração contra a dedicação. Mesmo que haja um documento de dívida, não se cobra com base em sua confissão, mas como qualquer credor cobraria. Isso se aplica a uma pessoa saudável, mas um doente que dedicou todas as suas propriedades e disse, no momento da dedicação, que tem cem moedas de fulano em suas mãos, é acreditado, pois ninguém faz uma conspiração contra a dedicação no momento da morte, prejudicando outros, já que está prestes a morrer. Portanto, se ele disse "dê", recebe sem juramento. Se não disse "dê", não se dá, a menos que haja um documento validado, então ele recebe da dedicação por causa do testamento. Se, após a dedicação, ele disse "dê", não se ouve, mas é como outros credores; se o documento for validado, ele jura e cobra do resgatador, não da dedicação.
+
+4. Se ele disse: "Cem moedas de fulano estão em minhas mãos" e os órfãos disseram "pagamos", não são acreditados, pois ele não disse "dê". Como saberiam que devem dar? Mas se ele disse "dê" e os órfãos disseram "pagamos", são acreditados e juram o juramento de heset que pagaram. (Alguns dizem que em qualquer caso são acreditados para dizer "pagamos").
+
+5. Um moribundo que confessou que tem cem moedas de fulano em suas mãos e os órfãos disseram "nosso pai voltou e nos disse que pagou", são acreditados e juram sobre isso o juramento de heset. Mas se ele disse "dê" e os órfãos disseram "nosso pai voltou e nos disse que pagou", não são acreditados.
+
+6. Se ele ordenou, por causa da morte, dar cem moedas a Shimon e morreu, e os herdeiros venderam todas as propriedades de modo que Shimon não encontrou para cobrar o seu, ele cobra dos compradores. Os herdeiros não são acreditados para dizer que pagaram, pois o documento do testamento está em suas mãos. Mas se o documento do testamento não está em suas mãos, são acreditados para dizer que pagaram. Se dizem que não pagaram, suspeita-se de conspiração.
+
+7. Se ele viu que seu pai escondeu dinheiro e disse que pertence a fulano ou é dedicado, se ele disse isso como um testamento, suas palavras são válidas. Mas se ele disse isso para que não o considerem rico, não é necessário cumprir suas palavras.
+
+8. Se alguém veio e disse "vi seu pai esconder dinheiro e disse que pertence a fulano ou é dedicado", se está escondido em um lugar onde o informante poderia pegá-lo, ele é acreditado. Caso contrário, não é acreditado.
+
+9. Se havia um depósito nas mãos de seu pai e ele não sabe onde o colocou, e lhe disseram em um sonho que está em tal lugar e pertence a fulano ou é de maaser sheni, e ele encontrou no lugar e na quantidade que lhe foi dito, as palavras dos sonhos não têm efeito, e o depósito é dele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 255 do Shulchan Aruch Choshen Mishpat trata de como lidar com declarações feitas por uma pessoa que está prestes a falecer, especialmente em relação a dívidas e propriedades. Vamos explicar cada seção de forma prática:
+
+1. **Declarações de Dívidas**: Se uma pessoa moribunda diz que tem dinheiro com outra pessoa ou que outra pessoa tem dinheiro com ela, essa declaração é registrada. No entanto, os herdeiros precisam provar a veracidade dessa declaração se quiserem cobrar ou pagar a dívida. Isso significa que a simples palavra do moribundo não é suficiente para ações legais sem provas adicionais.
+
+2. **Instruções de Pagamento**: Se o moribundo diz que tem dinheiro de outra pessoa e instrui que seja dado, então deve ser dado. Se ele não instrui explicitamente, não se deve dar, pois ele pode ter dito isso apenas para evitar que seus herdeiros pareçam ricos. No entanto, se ele confessou sem suspeita de engano, a confissão é válida mesmo sem a instrução de "dê".
+
+3. **Dedicação de Propriedades**: Se alguém dedica todas as suas propriedades e depois alega ter dívidas ou que algo pertence a outra pessoa, essa alegação não é aceita, pois pode ser uma tentativa de burlar a dedicação. No entanto, se um moribundo faz essa declaração no momento da dedicação, ele é acreditado, pois não se espera que alguém em seu leito de morte faça conspirações.
+
+4. **Reivindicações de Pagamento pelos Herdeiros**: Se o moribundo não instruiu explicitamente "dê" e os herdeiros dizem que pagaram, eles não são acreditados. Mas se ele disse "dê" e os herdeiros afirmam que pagaram, eles são acreditados, desde que façam um juramento de heset (um tipo de juramento para resolver disputas).
+
+5. **Confissão e Reivindicação de Pagamento**: Se o moribundo confessou uma dívida e os herdeiros dizem que ele depois afirmou ter pago, eles são acreditados com um juramento. Mas se ele instruiu "dê" e os herdeiros dizem que ele afirmou ter pago, eles não são acreditados.
+
+6. **Venda de Propriedades após Instrução de Pagamento**: Se o moribundo instruiu que dinheiro fosse dado a alguém e os herdeiros venderam as propriedades, o beneficiário pode cobrar dos compradores. Os herdeiros não são acreditados se disserem que pagaram, a menos que não haja documento de testamento.
+
+7. **Dinheiro Escondido**: Se alguém vê o pai esconder dinheiro e diz que pertence a outra pessoa ou é dedicado, isso é válido se for um testamento. Caso contrário, não é necessário cumprir.
+
+8. **Testemunho de Terceiros sobre Dinheiro Escondido**: Se alguém diz ter visto o pai esconder dinheiro e afirmar que pertence a outra pessoa, ele é acreditado se o dinheiro estava em um local acessível a ele. Caso contrário, não é acreditado.
+
+9. **Sonhos sobre Depósitos**: Se alguém sonha sobre a localização de um depósito e encontra o dinheiro conforme o sonho, as palavras do sonho não têm efeito legal, e o depósito pertence à pessoa que o encontrou.
+
+Essas leis são relevantes para garantir que as últimas vontades de uma pessoa sejam respeitadas, mas também para proteger os herdeiros e outras partes envolvidas de possíveis fraudes ou mal-entendidos. Elas refletem a importância de provas e testemunhos claros em questões de herança e dívidas.

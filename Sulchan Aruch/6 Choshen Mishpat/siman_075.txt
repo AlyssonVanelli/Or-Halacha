@@ -1,0 +1,48 @@
+SIMAN 75
+
+**Seção 75: Se o credor e o devedor precisam esclarecer suas alegações (e todas as leis de quem é obrigado a jurar pela Torá ou pelos rabinos, e quem não pode jurar, e tudo o que o reclamante e o réu alegam com certeza e dúvida). Contém 25 parágrafos:**
+
+1. Quando alguém processa seu amigo no tribunal dizendo: "Você me deve cem", o tribunal diz a ele: "Esclareça suas palavras. De que ele lhe deve? Você emprestou a ele ou depositou algo com ele, ou ele danificou sua propriedade?" Pois pode ser que ele pense que deve, mas na verdade não deve. Da mesma forma, se o réu responde: "Não lhe devo nada", ele deve esclarecer suas palavras, pois pode estar enganado e pensar que não deve, mas na verdade deve. Mesmo que ele seja um grande sábio, dizem a ele que não há prejuízo em responder à alegação e nos informar como ele não deve.
+
+2. Se ele não quiser esclarecer suas palavras e parecer ao juiz que há engano, ele perderá. Mas se parecer ao juiz que ele não pode esclarecer, não o obrigam, pois não dizem "esclareça suas palavras" exceto para revelar a verdade, devido à abundância de enganadores.
+
+3. Se alguém diz: "Você me deve cem", e o outro responde: "Não lhe devo nada, exceto cinquenta", ele é obrigado a jurar pela Torá que não deve mais do que cinquenta e paga os cinquenta que admitiu. Se houver alguém que o apoie, alguns dizem que ele está isento de jurar, enquanto outros dizem que não está.
+
+4. Se ele não foi processado, mas por si mesmo diz: "Eu devia cem ao seu pai, paguei cinquenta e restam cinquenta", ele está isento até mesmo do juramento de heset.
+
+5. Se ele nega tudo e há testemunhas que ele deve cinquenta, ele paga cinquenta e jura pela Torá sobre o restante, para que sua própria admissão não seja maior do que o testemunho das testemunhas.
+
+6. Se ele diz: "Você me deve cem de um empréstimo e cem de outro empréstimo", e o réu responde: "Eu paguei o primeiro empréstimo assim e o segundo assim", e o tribunal reconhece que ele ainda deve vinte dinarim, é como se dois testemunhas dissessem que ele deve cinquenta, pois o tribunal é testemunha do que ele admitiu que ainda deve, e ele jura pela Torá sobre o restante.
+
+7. Se ele admite parte e paga imediatamente, dizendo: "Não lhe devo nada além disso", ele está isento do juramento da Torá, mas jura heset.
+
+8. Se ele diz: "Você me deve cem", e o outro responde: "Não lhe devo nada", ou "Eu paguei", e o reclamante diz: "Jure para mim heset", e o réu responde: "Você tem um documento contra mim e quer que eu jure primeiro e depois apresente o documento pago e cobre com ele", dizem a ele: "Traga o documento". Se o reclamante diz: "Eu nunca tive um documento", ou "Eu tinha um documento e o perdi", dizem ao credor: "Anule qualquer documento que você tenha contra ele antes deste tempo e depois faça-o jurar heset ou decrete um herem geral".
+
+9. Se o réu diz: "Não juro até que você anule todos os testemunhos que você tem contra mim nesta reivindicação", não o escutam.
+
+Este texto do Shulchan Aruch aborda as complexidades das disputas financeiras e as obrigações de juramento no tribunal judaico, destacando a importância de esclarecer alegações e a responsabilidade de jurar para resolver disputas.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 75 do Shulchan Aruch Choshen Mishpat trata de como lidar com disputas financeiras no tribunal judaico, conhecido como Beit Din. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Esclarecimento de Alegações**: Quando alguém acusa outra pessoa de dever dinheiro, o tribunal pede que a pessoa explique claramente por que acredita que o dinheiro é devido. Isso pode ser porque emprestou dinheiro, deixou algo em depósito ou sofreu danos. O objetivo é garantir que a acusação seja baseada em fatos e não em suposições. Da mesma forma, se a pessoa acusada nega a dívida, ela também deve explicar sua posição para evitar mal-entendidos.
+
+2. **Consequências de Não Esclarecer**: Se alguém se recusa a esclarecer suas alegações e o juiz suspeita de engano, essa pessoa pode perder o caso. No entanto, se o juiz acredita que a pessoa realmente não consegue esclarecer, ela não é forçada a fazê-lo. O objetivo é sempre buscar a verdade, especialmente devido à possibilidade de enganos.
+
+3. **Admissão Parcial de Dívida**: Se a pessoa acusada admite parte da dívida, por exemplo, reconhecendo que deve cinquenta de cem, ela deve jurar pela Torá que não deve mais do que isso e pagar a parte admitida. O juramento é uma forma de garantir a veracidade da declaração.
+
+4. **Admissão Voluntária**: Se alguém voluntariamente admite ter pago parte de uma dívida sem ser processado, essa pessoa não precisa fazer um juramento adicional, pois já está sendo honesta.
+
+5. **Testemunhas e Juramento**: Se há testemunhas de que a pessoa deve uma parte da dívida, ela paga essa parte e jura sobre o restante. Isso é para garantir que a admissão da pessoa não contradiga o testemunho das testemunhas.
+
+6. **Dívidas Múltiplas**: Se a disputa envolve múltiplos empréstimos e a pessoa admite ter pago parte deles, o tribunal age como testemunha do que foi admitido e a pessoa deve jurar sobre o restante.
+
+7. **Pagamento Imediato**: Se a pessoa admite parte da dívida e paga imediatamente, ela está isenta do juramento da Torá, mas ainda deve fazer um juramento menor, conhecido como heset, para confirmar sua declaração.
+
+8. **Documentos e Juramentos**: Se o credor exige um juramento e o devedor alega que há um documento que prova o pagamento, o tribunal pede para ver o documento. Se o credor não tem o documento ou diz que o perdeu, ele deve anular qualquer documento existente antes de exigir um juramento.
+
+9. **Testemunhos e Juramentos**: Se o devedor exige que o credor anule todos os testemunhos antes de jurar, essa exigência não é aceita. O foco é resolver a disputa de forma justa e honesta.
+
+Essas regras são importantes para garantir justiça e clareza em disputas financeiras, refletindo a seriedade com que o sistema legal judaico trata questões de integridade e verdade.

@@ -1,0 +1,30 @@
+SIMAN 102
+
+**De qual tipo de terra se cobra a dívida para o credor. E contém cinco seções:**
+
+1. Quando o credor vem cobrar uma terra, ele deve receber da terra de qualidade média (beynoni) dos bens do devedor, pois é com os bens do devedor que se faz a avaliação.
+
+2. Se o devedor possui três ou quatro campos de qualidade média, o credor não pode exigir um campo específico que lhe seja mais querido. O devedor tem a prerrogativa de escolher qual campo entregar. Se o credor deseja receber uma terra de qualidade inferior (ziborit) e pede ao devedor que lhe dê uma quantidade um pouco maior, ele deve ser atendido e receber a terra a um preço mais baixo do que o valor de mercado atual, mas não a um preço mais alto do que o valor futuro. Nota: Alguns dizem que não se pode forçar o devedor a dar a terra de qualidade inferior, a menos que ele queira dar a um preço mais alto do que o valor futuro, caso em que ele pode ser forçado a dar a um preço mais baixo do que o valor atual (Tur em nome do Rosh).
+
+3. Se o credor diz "dê-me uma terra de qualidade superior (idit) por um pouco menos", ele não pode ser forçado a dar, mesmo a um preço mais alto do que o valor futuro. Se o devedor só possui terra de qualidade superior, ele não pode vendê-la para comprar terra de qualidade média para pagar ao credor; ele deve pagar com a terra de qualidade superior. Mesmo que ele tenha terra de qualidade superior em um local e terra de qualidade média em outro, ele não pode exigir que o credor aceite a terra de qualidade média de outro local; ele deve dar a terra de qualidade superior que está no local do credor.
+
+4. Se ele só tem terra de qualidade superior, média ou inferior, ele deve aceitar como está. Se ele tem terra de qualidade superior e média, ele deve dar a terra de qualidade média. Se ele tem terra de qualidade superior e inferior, ele só deve dar a terra de qualidade inferior. Se ele tem terra de qualidade inferior e média, e tinha terra de qualidade superior no momento em que contraiu a dívida e a vendeu, ele deve dar a terra de qualidade média; caso contrário, ele deve dar a terra de qualidade inferior.
+
+5. Se ele tinha terra de qualidade superior, média e inferior, e fez um acordo para pagar com a terra de qualidade superior, e tinha uma terra de qualidade superior ainda melhor que foi danificada, a terra de qualidade superior existente substitui a terra de qualidade superior danificada, e ele só deve pagar com a terra de qualidade média.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 102 do Shulchan Aruch Choshen Mishpat trata de como um credor pode cobrar uma dívida quando o devedor possui terras. Vamos explicar isso de forma prática:
+
+1. **Qualidade da Terra para Pagamento**: Quando alguém deve dinheiro e precisa pagar com terras, a regra geral é que o credor deve receber terras de qualidade média (chamadas de "beynoni"). Isso significa que, ao avaliar as propriedades do devedor, a terra de qualidade média é considerada justa para ambas as partes.
+
+2. **Escolha da Terra**: Se o devedor tem várias terras de qualidade média, ele pode escolher qual delas entregar ao credor. O credor não pode exigir uma terra específica que ele prefira. No entanto, se o credor estiver disposto a aceitar uma terra de qualidade inferior (chamada de "ziborit") em maior quantidade, ele pode fazer isso, mas o preço deve ser justo, não mais alto do que o valor futuro da terra.
+
+3. **Terra de Qualidade Superior**: Se o credor quer uma terra de qualidade superior (chamada de "idit") por um preço menor, ele não pode forçar o devedor a dar essa terra. Se o devedor só tem terras de qualidade superior, ele deve pagar com elas, mesmo que isso signifique não poder comprar terras de qualidade média para o pagamento.
+
+4. **Disponibilidade de Terras**: Se o devedor só tem um tipo de terra (superior, média ou inferior), ele deve pagar com o que tem. Se ele tem terras de qualidade superior e média, ele deve pagar com a média. Se ele tem terras de qualidade superior e inferior, ele deve pagar com a inferior. Se ele tinha terras de qualidade superior quando contraiu a dívida, mas as vendeu, ele deve pagar com a terra de qualidade média, se disponível.
+
+5. **Acordos Específicos**: Se houve um acordo para pagar com terras de qualidade superior, mas essas terras foram danificadas, o devedor pode pagar com terras de qualidade média, desde que a terra de qualidade superior danificada seja substituída por outra de qualidade superior.
+
+**Relevância Prática**: Essas regras são importantes para garantir justiça e clareza nas transações financeiras envolvendo terras. Elas ajudam a proteger tanto o credor quanto o devedor, assegurando que o pagamento seja feito de forma justa e que o devedor não seja forçado a se desfazer de suas melhores propriedades injustamente. Na vida contemporânea, essas leis podem ser aplicadas em contextos onde propriedades são usadas como garantia de dívidas, garantindo que ambas as partes sejam tratadas de forma equitativa.

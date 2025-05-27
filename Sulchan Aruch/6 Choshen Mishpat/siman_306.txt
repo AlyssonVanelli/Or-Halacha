@@ -1,0 +1,61 @@
+SIMAN 306
+
+**Os artesãos são guardiões assalariados e, se danificarem, são responsáveis. Contém oito seções:**
+
+Todos os artesãos são considerados guardiões assalariados. Se disserem "pegue o seu e traga o pagamento" ou se o artesão disser "terminei" e o proprietário não pegar o objeto, o artesão se torna um guardião gratuito. No entanto, se o artesão disser "traga o pagamento e pegue o seu", ele ainda é considerado um guardião assalariado como antes. (E se ele disser "pegue o seu e não o guardarei mais", ele está isento) (Beit Yosef em nome dos alunos de Rashba).
+
+Se alguém der algo aos artesãos para consertar e eles danificarem, são obrigados a pagar. Por exemplo, se alguém der a um carpinteiro uma cômoda, um baú ou uma torre para fixar um prego e ele quebrar, ou se der madeira para fazer uma cômoda, um baú ou uma torre e eles quebrarem após serem feitos, o artesão deve pagar o valor da cômoda, do baú ou da torre, pois o artesão não adquire o objeto pelo valor agregado. Veja Even HaEzer, Siman 28, Seif 15: Nota: Se um construtor contratado para demolir uma parede quebrar ou danificar as pedras, ele deve pagar. Se ele estava demolindo de um lado e caiu do outro lado, ele está isento, mas se foi devido ao golpe, ele é responsável (Tur, Seif 5).
+
+Se alguém der lã a um tintureiro e ele a queimar na caldeira, ele deve pagar o valor da lã. Se ele tingir de forma inadequada ou se foi dado para tingir de vermelho e ele tingiu de preto, ou de preto e ele tingiu de vermelho, ou se alguém deu madeira a um carpinteiro para fazer uma cadeira bonita e ele fez uma cadeira ruim ou um banco, se o valor agregado for maior que o custo, o proprietário do objeto paga o custo, e se o custo for maior que o valor agregado, ele paga apenas o valor agregado. (O que deveria ter sido melhorado se não tivesse mudado está incluído no valor original e consideramos o valor agregado e o custo sem isso) (Tur). Se o proprietário do objeto disser "não quero essa correção, apenas me dê o valor da lã ou da madeira", não o ouvimos. Da mesma forma, se o artesão disser "aqui está o valor da sua lã ou madeira, e vá", não o ouvimos, pois o artesão não adquire o objeto pelo valor agregado que fez.
+
+Se alguém levar trigo para moer e não o transformar em farinha, mas em farelo ou casca, ou se der farinha a um padeiro e ele fizer pão ruim, ou se der um animal a um açougueiro e ele o tornar impróprio para consumo, ele deve pagar o valor. Se ele abateu de graça, se o açougueiro era um especialista, ele está isento, mas se não era um especialista, ele é responsável. (E os açougueiros que compram partes dos animais casher são considerados assalariados, e se tornarem o animal impróprio, devem pagar) (Tur).
+
+Quando dizemos que ele tornou o animal impróprio com certeza, mas se ele fez algo que o tornou impróprio por dúvida, como se ele demorou ao cortar a maioria dos sinais, ele está isento. Da mesma forma, se ele encontrou a faca danificada e a verificou antes, já que podemos dizer que foi danificada no osso do pescoço, em questões monetárias, não retiramos dinheiro por dúvida. Nota: Embora tenhamos o costume de proibir, ele ainda está isento de responsabilidade monetária, e assim me parece, embora haja quem discorde (Terumat HaDeshen, Siman 186). No entanto, ele perde seu pagamento, pois talvez ele tenha abatido com uma faca danificada (Beit Yosef em nome de R' Yerucham e o Rosh).
+
+Se alguém mostrar uma moeda a um cambista e ele disser que é boa, mas ela se revelar ruim, se ele a viu por pagamento, ele deve pagar, mesmo que seja um especialista e não precise aprender. Se ele a viu de graça, ele está isento, desde que seja um especialista que não precise aprender. Se ele não for um especialista, ele deve pagar, mesmo que tenha visto de graça, desde que ele tenha dito ao cambista "confio em você" ou que as circunstâncias mostrem que ele confiou na visão dele e não mostrou a outros. (E alguns dizem que mesmo sem especificar, ele é responsável (Tur em nome de Rabbeinu Yitzchak e o Rosh), mas a primeira opinião parece ser a principal).
+
+Um açougueiro que trabalha de graça e torna o animal impróprio, assim como um cambista que diz que a moeda é boa e se revela ruim, e todos os casos semelhantes, eles devem trazer prova de que são especialistas, e se não trouxerem prova, devem pagar.
+
+Quem planta árvores para a comunidade e causa prejuízo (e alguns dizem que o mesmo se aplica a um indivíduo (Tur)), assim como um açougueiro da cidade que torna os animais impróprios, um sangrador que causa dano, um escriba que comete erros em documentos, e um professor de crianças que negligencia e não ensina (mesmo que seja apenas por um dia ou dois (Mordechai)), ou ensina incorretamente, e todos os casos semelhantes, e os artesãos que não podem reparar o prejuízo que causaram, são removidos sem aviso prévio, pois são considerados como se já tivessem sido avisados, até que se esforcem em seu trabalho, uma vez que a comunidade os colocou em suas posições. Nota: E alguns dizem que, embora não precisem de aviso, ainda é necessário que tenham uma reputação estabelecida, ou que sejam avisados, antes de serem removidos (Maggid, Capítulo 10 de Aluguel, e Nimukei Yosef, Capítulo HaMekabel). Se alguém der dinheiro a outro para escrever um Sefer Torá e houver erros que precisem de correção por outro, se forem erros comuns de escribas, o escriba não é responsável, mas se ele cometeu erros que não são comuns, ele é responsável. No entanto, seguimos o costume; se o costume local é que os escribas revisem, este também deve revisar, e em lugares onde não é costume que o escriba revise, se ele revisou por conta própria, os proprietários devem pagar a ele (Responsa de Rashba, Siman 1, 56).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 306 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Conceito de Guardiões
+
+1. **Guardiões Assalariados vs. Guardiões Gratuitos**:
+   - **Guardiões Assalariados**: Quando um artesão é pago para trabalhar em um objeto, ele é responsável por cuidar bem dele. Se o objeto for danificado enquanto está sob seus cuidados, ele deve pagar pelo dano.
+   - **Guardiões Gratuitos**: Se o artesão não está mais sendo pago para guardar o objeto, como quando ele diz "terminei" e o dono não busca o objeto, ele se torna um guardião gratuito, com menos responsabilidade.
+
+### Responsabilidade dos Artesãos
+
+2. **Danos Durante o Trabalho**:
+   - Se um artesão danifica um objeto enquanto trabalha nele, ele deve pagar pelo dano. Por exemplo, se um carpinteiro quebra um móvel que estava consertando, ele é responsável pelo valor do móvel.
+
+3. **Erros na Execução do Trabalho**:
+   - Se um artesão faz um trabalho diferente do solicitado (como tingir uma lã da cor errada), a compensação depende do valor agregado pelo trabalho. Se o trabalho feito vale mais do que o custo dos materiais, o dono paga o custo. Caso contrário, paga-se apenas pelo valor agregado.
+
+### Casos Específicos
+
+4. **Moagem e Panificação**:
+   - Se alguém transforma trigo em farelo em vez de farinha, ou faz pão ruim, deve pagar pelo valor do trigo ou da farinha.
+
+5. **Abate de Animais**:
+   - Um açougueiro que torna um animal impróprio para consumo deve pagar, a menos que ele tenha trabalhado de graça e seja um especialista.
+
+6. **Avaliação de Moedas**:
+   - Se um cambista avalia uma moeda como boa e ela é ruim, ele deve pagar se foi pago pela avaliação. Se fez de graça e é um especialista, está isento.
+
+### Profissionais da Comunidade
+
+7. **Profissionais que Causam Danos**:
+   - Profissionais como açougueiros, escribas e professores que causam danos ou erros podem ser removidos de suas posições sem aviso prévio, pois são considerados como já avisados.
+
+8. **Escribas de Sefer Torá**:
+   - Se um escriba comete erros comuns ao escrever um Sefer Torá, ele não é responsável. Mas se os erros são incomuns, ele deve corrigir. O costume local sobre revisão também influencia a responsabilidade.
+
+### Relevância Prática
+
+Essas leis são importantes para garantir a justiça e a responsabilidade em transações comerciais e serviços na comunidade judaica. Elas estabelecem padrões claros para a responsabilidade de profissionais e artesãos, protegendo tanto os trabalhadores quanto os clientes. Na vida contemporânea, esses princípios ainda são aplicados em contextos de negócios e serviços, promovendo confiança e integridade nas relações comerciais.

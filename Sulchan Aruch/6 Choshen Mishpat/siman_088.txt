@@ -1,0 +1,96 @@
+SIMAN 88
+
+**Leis de negação e admissão, e que devem ser do mesmo tipo da reivindicação. Contém 33 seções:**
+
+1. Quando alguém admite parcialmente uma reivindicação, ele é obrigado a jurar, a menos que admita pelo menos uma perutá (moeda de valor mínimo). A negação deve ser de pelo menos duas moedas de prata. Portanto, ele não é obrigado até que seja reivindicado duas moedas e uma perutá, e ele admite uma perutá e nega duas moedas. Mas se ele reivindicar duas moedas e uma perutá e admitir duas perutás, já que a negação não é de duas moedas, ou se ele admitir meia perutá, está isento, pois a admissão não é de uma perutá.
+
+2. A medida de uma perutá é o peso de meia cevada de prata pura, e a medida de duas moedas é o peso de 32 cevada de prata pura.
+
+3. Da mesma forma, se ele não reivindicar dinheiro, mas sim tipos de mercadorias, e ele admitir parcialmente, avaliam a negação e a admissão. Se a negação valer duas moedas e a admissão uma perutá, ele é obrigado.
+
+4. Isso se aplica quando ele reivindica frutas ou tipos de mercadorias, mas se ele reivindicar dois utensílios e ele admitir um deles, não é necessário uma medida. Mesmo que fossem dez agulhas por uma perutá, se ele reivindicar dois e admitir um, ele é obrigado.
+
+5. Se ele reivindicar dinheiro e utensílios, e ele admitir os utensílios e negar o dinheiro, se a negação for de duas moedas, ele é obrigado; caso contrário, está isento. Se ele admitir o dinheiro e negar os utensílios, se ele admitir uma perutá, ele é obrigado.
+
+6. A necessidade de uma negação de duas moedas é apenas quando ele admite parcialmente, mas se ele nega tudo e uma testemunha o contradiz, mesmo que ele negue apenas uma perutá, ele é obrigado.
+
+7. O juramento dos guardiões também não requer duas moedas, mas mesmo que ele deposite uma perutá ou o valor de uma perutá e alegue que foi perdida, ele jura. Qualquer coisa abaixo do valor de uma perutá não é considerada dinheiro, e o tribunal não se ocupa disso.
+
+8. O juramento de heset também é imposto mesmo por uma perutá.
+
+9. Não se é obrigado a admitir parcialmente até que se admita do mesmo tipo da reivindicação. Por exemplo, se ele reivindicar um kur de trigo ou um kur de grãos e ele admitir um "baltach" (meio kur, que é 15 seá) de leguminosas, ele está isento. Mas se ele reivindicar um kur de frutas e ele admitir um "baltach" de leguminosas, ele é obrigado, pois as leguminosas estão incluídas nas frutas.
+
+10. Se ele não reivindicar algo específico, mas disser "você me deve um valor de cem", qualquer coisa que ele admitir é considerada do mesmo tipo da reivindicação, pois tudo está incluído no valor. Mas se ele reivindicar um valor específico e ele admitir metade, não é considerado do mesmo tipo da reivindicação.
+
+11. Se ele reivindicar um dinar de prata ou um dinar de ouro, é como se ele reivindicasse o valor de um dinar de prata ou ouro, e qualquer coisa que ele admitir é considerada do mesmo tipo da reivindicação. Isso é apenas quando ele reivindica uma moeda corrente, pois presumimos que ele está falando do valor, já que as pessoas costumam avaliar tudo em moeda corrente. Mas se ele reivindicar uma libra de ouro ou uma moeda que não é mais corrente, não é considerado como se ele reivindicasse o valor. Da mesma forma, se ele reivindicar um dinar de ouro cunhado, não é considerado o valor de um dinar, mesmo que seja corrente, mas apenas um dinar específico.
+
+12. Se ele reivindicar cem dinar de uma moeda específica e ele responder que só tem cinquenta de outra moeda, não é considerado do mesmo tipo da reivindicação, a menos que ele diga que deu um dinar de ouro para trocar por moedas, e ele diz que deu tudo menos uma moeda. Mas de outra forma, ele não é obrigado, mesmo que ele reivindique um dinar de ouro e ele admita uma moeda de meio dinar.
+
+13. Se ele reivindicar dois itens, como trigo e cevada, e ele admitir um deles, ele deve dar o que admitiu e jurar sobre o restante. Mas se ele reivindicar trigo e ele admitir cevada, ele está isento, mesmo do valor da cevada. Há quem diga que isso é porque é considerado como se o reclamante admitisse que ele não deve cevada, e portanto, mesmo que haja testemunhas sobre a cevada, ele está isento, pois a admissão de uma parte é como cem testemunhas.
+
+14. Se o reclamante souber que ele deve cevada, ele está isento de pagar, pois é como se o reclamante tivesse perdoado, como explicado anteriormente. Se o reclamante apreender o valor da cevada, não o retiram dele.
+
+15. Se alguém reivindicar que emprestou cem e o outro admitir cinquenta, dizendo que os usou para comprar um item específico que ainda existe, ou que o empréstimo foi feito com a condição de que só seria pago com o próprio item, ou vice-versa, há quem diga que o que foi reivindicado não foi admitido, e ele está isento tanto do pagamento quanto do juramento bíblico, mas deve jurar heset e ser liberado.
+
+16. Se ele reivindicar um kur de trigo e, antes de terminar de falar, o réu rapidamente diz que só deve um kur de cevada, e o reclamante diz que também queria reivindicar cevada, se ele fez isso de forma astuta para responder antes que o outro terminasse sua reivindicação, ele é obrigado, pois é considerado como se ele já tivesse reivindicado ambos. Mas se ele fez isso inocentemente, ele está isento do juramento bíblico e do pagamento, mesmo que imediatamente após a admissão ele diga que também queria reivindicar cevada.
+
+17. Se o réu disser primeiro que deve cevada e depois o reclamante reivindicar trigo e ele negar, já que ele admitiu a cevada antes de reivindicar o trigo, não há admissão parcial da reivindicação, e ele paga a cevada e jura heset sobre o trigo.
+
+18. Da mesma forma, se ele reivindicar trigo e ele admitir, e depois ele reivindicar cevada e ele negar, já que ele admitiu a reivindicação de trigo antes de reivindicar a cevada, não é uma admissão parcial da reivindicação, e ele paga o trigo e jura heset sobre a cevada.
+
+19. Se ele reivindicar trigo e ele responder que não sabe se deve trigo ou cevada, ele jura heset que não sabe e paga a cevada. Há quem diga que mesmo assim ele está isento da cevada, a menos que ele queira cumprir sua obrigação moral.
+
+20. Se ele reivindicar dez jarros de óleo e ele responder que só deve dez jarros sem óleo, ele está isento, pois ele reivindicou óleo e ele admitiu jarros. Se ele reivindicar dez jarros de óleo e ele responder que só deve dez jarros vazios, ou que ele admitiu apenas o óleo, ele é obrigado a um juramento bíblico, pois ele reivindicou os jarros e o óleo.
+
+21. Se ele reivindicar um valor emprestado e ele responder que nunca houve tal coisa, mas que ele deve cinquenta dinar como depósito ou algo semelhante, isso é uma admissão parcial e ele deve jurar um juramento bíblico.
+
+22. Se ele reivindicar uma dívida do pai e ele admitir uma dívida própria, ele paga a dívida própria que admitiu e jura heset sobre a dívida do pai, se ele alegar que sabe com certeza que o pai deve.
+
+23. Se dois litigantes reivindicarem um ao outro, e a reivindicação de um não for como a do outro, mas um diz que emprestou cem e o outro admite um dinar, e o outro diz que tem um kur de trigo e ele admite parcialmente e nega o restante, se a admissão do segundo for igual à do primeiro, ele está isento do juramento bíblico, pois é considerado como se ele tivesse devolvido. Mas se a admissão for maior que a do primeiro, ele é obrigado a um juramento bíblico, pois ele não disse ao ser reivindicado que não deve, mas admitiu de forma completa, sendo uma admissão parcial.
+
+24. Se alguém for reivindicado por cem e admitir cinquenta, e ao jurar ele diz que não quer jurar, mas pagar todo o valor, e o outro diz que não jurará até que seja pago primeiro, a lei está com o reclamante, pois ele deve jurar um juramento bíblico ou pagar. No entanto, ele pode fazer um juramento geral sobre quem está mentindo e pagar, e depois de pagar, ele pode exigir um juramento heset se ele tomou dinheiro indevidamente.
+
+25. Não se é obrigado a admitir parcialmente até que se reivindique algo em medida, peso e número, e ele admita algo em medida, peso e número. Por exemplo, se ele disser que tem dez dinar ou um kur de grãos ou duas libras de seda, e ele responder que só tem um dinar ou um "letach" ou uma libra, mas se ele disser que tem uma bolsa cheia de moedas e ele responder que só tem três dinar, ou se ele reivindicar cem dinar e ele disser que só tem um pacote que lhe foi entregue e não sabe quantos são, pois não os contou, ele está isento do juramento bíblico.
+
+26. Se ele disser que tem uma casa cheia de frutas e ele responder que só tem dez kur, ou se ele reivindicar dez kur e ele responder que não sabe quantos são, pois não os mediu, e o que foi deixado ele pode levar, ele está isento, mesmo que ele reivindique uma casa cheia de frutas. Mas se ele reivindicar uma casa que tinha frutas até a borda e ele responder que só tinha até a janela, ele é obrigado, especialmente se as frutas apodreceram por sua negligência, pois ele é obrigado a pagar. Caso contrário, seria considerado como se ele tivesse devolvido e estaria isento.
+
+27. Se ele reivindicar um candelabro grande e ele admitir um pequeno, ele está isento. Mas se ele reivindicar um candelabro de dez libras e ele admitir sete libras, ele é obrigado. Se ele reivindicar um candelabro desmontável, ele é obrigado em qualquer caso.
+
+28. Se ele reivindicar um cinto grande e ele admitir um pequeno, ele está isento. Mas se ele reivindicar um cinto desmontável, ele é obrigado.
+
+29. Se ele reivindicar uma cortina de dez medidas e ele admitir uma de cinco, ele é obrigado.
+
+30. Uma admissão em um documento não é considerada uma admissão para obrigar um juramento bíblico sobre a negação. Por exemplo, se ele reivindicar cinquenta em um documento e cinquenta oralmente, não é necessário dizer que se ele admitir os cinquenta oralmente e negar os cinquenta no documento, não há juramento, mas ele paga os cinquenta que admitiu, e o documento que ele negou, o portador do documento jura e recebe. Mesmo se ele admitir os cinquenta no documento e negar os cinquenta oralmente, ele não jura um juramento bíblico, pois o documento é como terra, já que é sobre a hipoteca de terras, e assim como não se jura sobre a negação de hipotecas de terras, a admissão delas não obriga um juramento.
+
+31. Isso se aplica a um documento que pode ser validado, mas se não puder ser validado, é considerado como uma admissão oral, e ele jura sobre a negação que a acompanha. Não é necessário dizer que se o credor em um documento alegar que tinha um documento e perdeu, e o devedor admitir que fez um documento para ele e negar parcialmente ou admitir tudo, mas alegar que parte foi paga, ele jura um juramento bíblico como qualquer outro que admite parcialmente.
+
+32. Isso se aplica a um documento que pode ser cobrado de bens hipotecados, mas um documento escrito à mão, mesmo que tenha credibilidade, já que não pode ser cobrado de bens hipotecados, é obrigado a um juramento bíblico como um empréstimo oral.
+
+33. Se ele reivindicar um valor emprestado em Nissan e outro em Tishrei, e ele admitir um deles, é considerado do mesmo tipo da reivindicação, mesmo que não tenha sido emprestado de uma só vez.
+
+34. Um documento de dívida que menciona selas ou dinar sem especificar, e o credor diz cinco e o devedor diz dois, ele está isento do juramento bíblico, pois não há admissão, já que sem a admissão, o mínimo de selas é dois, e ele não admitiu mais do que o que está no documento, e não há admissão. Mesmo se o devedor disser três, admitindo um a mais do que o significado do documento, ele ainda está isento, pois é como devolver uma perda, já que se quisesse, poderia ter dito dois.
+
+35. Portanto, se ele disser que tem um valor ou para seu pai em sua posse e ele pagou metade, e o outro responder que não se lembra, mas que ele o lembrou, sabendo que não pagou nada, ele está isento, mesmo do juramento heset, pois é como devolver uma perda.
+
+36. Assim como a admissão de um credor em um documento não é uma admissão, a admissão de um credor em uma aquisição com testemunhas de aquisição não é uma admissão, pois uma aquisição é geralmente para escrita, e seu julgamento é como um documento. Portanto, se ele disser que tem cinquenta dinar em uma aquisição e cinquenta sem aquisição, e ele admitir os da aquisição e negar os outros, ele jura heset e é liberado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 88 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas a negações e admissões em disputas financeiras, especialmente quando alguém admite parcialmente uma reivindicação. Vamos explicar isso de forma prática:
+
+1. **Admissão Parcial e Juramento**: Quando alguém admite que deve parte do que foi reivindicado, ele geralmente precisa fazer um juramento para confirmar sua declaração. Isso acontece porque a admissão parcial levanta suspeitas de que a pessoa pode estar escondendo a verdade. No entanto, para que essa regra se aplique, a admissão deve ser de pelo menos uma "perutá" (uma pequena moeda de valor mínimo), e a negação deve ser de pelo menos duas moedas de prata.
+
+2. **Valores e Medidas**: A "perutá" é uma medida mínima de valor, enquanto duas moedas de prata são uma medida maior. Se a reivindicação envolve mercadorias em vez de dinheiro, a avaliação é feita com base no valor das mercadorias.
+
+3. **Tipos de Reivindicações**: Se a reivindicação envolve diferentes tipos de itens, como dinheiro e utensílios, as regras variam. Por exemplo, se alguém admite dever um utensílio, mas nega dever dinheiro, ele só precisa jurar se a negação for de duas moedas de prata.
+
+4. **Juramento de Heset**: Este é um tipo de juramento que pode ser exigido mesmo para pequenas quantias, como uma perutá, quando há uma disputa sobre a verdade de uma reivindicação.
+
+5. **Reivindicações de Diferentes Tipos**: Se a reivindicação é por um tipo de item, mas a admissão é de outro tipo, a pessoa pode estar isenta de jurar, a menos que os itens sejam considerados do mesmo tipo. Por exemplo, frutas e leguminosas podem ser consideradas do mesmo tipo, mas trigo e cevada não.
+
+6. **Documentos e Admissões**: Se uma reivindicação é baseada em um documento, a admissão parcial não necessariamente leva a um juramento, pois documentos têm um status especial. No entanto, se o documento não puder ser validado, a situação muda.
+
+7. **Reivindicações de Vários Empréstimos**: Se alguém reivindica empréstimos feitos em diferentes momentos, e a pessoa admite um deles, isso é considerado do mesmo tipo de reivindicação, mesmo que os empréstimos não tenham sido feitos de uma só vez.
+
+Essas leis são relevantes na vida judaica contemporânea, pois estabelecem um sistema de justiça e honestidade em transações financeiras e disputas. Elas ajudam a garantir que as pessoas sejam responsáveis por suas palavras e ações, promovendo a confiança e a integridade nas relações comerciais.

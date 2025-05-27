@@ -1,0 +1,62 @@
+SIMAN 117
+
+**Lei sobre quem faz de seu campo ou escravo um apotiki. Contém sete seifim:**
+
+1. Quem faz de seu campo um apotiki para um credor ou para uma mulher em seu contrato de casamento, deve escrever para eles "disto vocês cobrarão". Se o campo for levado por um rio, ele pode cobrar de outros bens e tomá-los. No entanto, enquanto o campo estiver em sua posse, ele não pode ser removido com outros bens, apenas com dinheiro. (Maguid, capítulo 18 das leis de empréstimos e Ran). Há quem discorde (Tur, Seif 1).
+
+2. Se ele estipulou que não haverá pagamento exceto deste campo, ele não pode cobrar de outros bens. Se ele vendeu o campo a outro e o credor veio para tomá-lo, ele não pode ser removido com dinheiro, uma vez que foi estipulado que não haveria pagamento exceto deste campo.
+
+3. Se ele fez de seu campo um apotiki explícito, dizendo "não haverá pagamento exceto deste", e o campo não era dele, há quem diga que ele pode cobrar de outros bens (Rabino Yerucham, Caminho 6, Parte 3, em nome do Tosefta). Mas se um credor anterior tomou o campo, ele não pode voltar sobre ele.
+
+4. Se ele fez de seu campo um apotiki para seu credor ou para uma mulher em seu contrato de casamento e o vendeu, o campo está vendido. Quando o credor vier cobrar, se não encontrar bens livres, ele tomará o campo. Isso se aplica quando ele vendeu temporariamente, mas se ele vendeu permanentemente, o campo não está vendido.
+
+5. Isso é a opinião de Maimônides, mas a maioria dos comentaristas discorda e acredita que mesmo se houver bens livres, ele toma do apotiki explícito. E se ele vendeu, a venda é válida até o momento da cobrança, e isso é o principal (Tur e Maguid, capítulo 18, e Beit Yosef).
+
+6. Em relação a um penhor, se ele penhorou sem especificar, é como um apotiki não especificado. Se ele especificou "não haverá pagamento exceto deste", é como um apotiki explícito.
+
+7. Se ele fez de seu boi um apotiki e o vendeu, o credor não pode cobrar dele, assim como outros bens móveis, porque não têm voz. Mesmo que ele tenha feito um apotiki em um documento, e mesmo que o comprador soubesse que era um apotiki, os rabinos não fazem distinção.
+
+8. Em relação à prioridade, se ele fez de bens móveis um apotiki, mesmo que explícito em um documento para o primeiro, e um credor posterior os tomou, ele adquiriu. Isso é desde que ele não os tenha hipotecado junto com a terra, pois se ele os hipotecou junto com a terra, se um credor posterior os tomou, ele não adquiriu.
+
+9. Se ele fez de seu escravo um apotiki, mesmo que sem especificar, e o vendeu, o credor pode cobrar dele porque tem voz.
+
+10. Se um escravo foi feito apotiki por seu mestre e foi libertado, mesmo que tenha sido escrito "não haverá pagamento exceto deste", ele sai para a liberdade. O credor cobra sua dívida do devedor e escreve um documento sobre ele e toma a partir desse momento. Forçam o segundo mestre a libertá-lo para corrigir o mundo, para que não o encontre no mercado e diga "você é meu escravo".
+
+11. A proibição de usufruto anula o penhor, assim como a santidade do corpo, como no caso do manto que foi estendido sobre um morto com a intenção de ser enterrado com ele, o credor não pode cobrar dele. No entanto, a santidade de valor não anula o penhor, a menos que o credor o resgate por um valor pequeno, para que não digam que o sagrado sai para o profano sem resgate. O valor do resgate é adicionado à dívida e cobrado do devedor (Tur, Seif 67). Mesmo na santidade do corpo, ele não pode proibi-los ao credor sozinho, dizendo "meus bens são proibidos a ele", a menos que ele os proíba a todo o mundo (Mordechai, capítulo HaMadir e capítulo Gittin, em nome de Maharam). Há quem discorde (Ran, capítulo Af Al Pi e Nimukei Yosef, capítulo Almana, ambas as opiniões).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 117 do Shulchan Aruch Choshen Mishpat, precisamos primeiro esclarecer alguns conceitos e termos técnicos:
+
+1. **Apotiki**: Este é um termo técnico em hebraico que se refere a um bem específico que uma pessoa designa como garantia para uma dívida. Isso significa que, se a pessoa não puder pagar a dívida, o credor pode tomar posse desse bem específico.
+
+2. **Credor e contrato de casamento**: Um credor é alguém a quem se deve dinheiro. No contexto de um contrato de casamento, refere-se ao dote ou à quantia prometida à mulher no caso de divórcio ou morte do marido.
+
+3. **Bens livres**: São bens que não estão comprometidos como garantia para dívidas. Eles podem ser usados para pagar dívidas se o bem designado como apotiki não estiver disponível.
+
+Agora, vamos explicar as leis de forma prática:
+
+1. **Designação de um campo como apotiki**: Se alguém designa um campo como apotiki para um credor ou para garantir o dote de uma esposa, deve ser especificado por escrito que a dívida será paga com esse campo. Se o campo for destruído, o credor pode cobrar de outros bens. Enquanto o campo existir, ele deve ser usado para pagar a dívida, a menos que o pagamento seja feito em dinheiro.
+
+2. **Restrição de pagamento a um campo específico**: Se foi acordado que a dívida só pode ser paga com um campo específico, o credor não pode cobrar de outros bens. Se o campo for vendido, o novo proprietário não pode impedir que o credor tome o campo, pois foi estipulado que o pagamento viria apenas desse campo.
+
+3. **Campo não pertencente ao devedor**: Se alguém designa um campo que não é seu como apotiki, há opiniões que permitem ao credor cobrar de outros bens. No entanto, se um credor anterior já tomou o campo, o novo credor não pode reivindicá-lo.
+
+4. **Venda de um campo designado como apotiki**: Se o campo foi vendido, o credor pode tomá-lo se não houver outros bens disponíveis. Isso se aplica a vendas temporárias. Em vendas permanentes, o campo não pode ser tomado.
+
+5. **Opiniões divergentes sobre a venda de apotiki**: Maimônides acredita que, mesmo se houver outros bens, o credor pode tomar o apotiki. Outros comentaristas discordam, mas a prática aceita é que a venda é válida até que o credor venha cobrar.
+
+6. **Penhor e apotiki**: Um penhor sem especificação é tratado como um apotiki não especificado. Se for especificado que o pagamento só pode vir do penhor, é tratado como um apotiki explícito.
+
+7. **Bens móveis como apotiki**: Se um bem móvel, como um boi, é designado como apotiki e vendido, o credor não pode tomá-lo, pois bens móveis não têm a mesma proteção que imóveis.
+
+8. **Prioridade de credores**: Se bens móveis são designados como apotiki, um credor posterior que os toma os adquire, a menos que estejam hipotecados junto com a terra.
+
+9. **Escravo como apotiki**: Se um escravo é designado como apotiki e vendido, o credor pode tomá-lo, pois o escravo tem "voz", ou seja, é considerado um bem significativo.
+
+10. **Libertação de um escravo apotiki**: Se um escravo designado como apotiki é libertado, ele permanece livre, e o credor deve cobrar a dívida de outra forma. Isso é feito para evitar confusão sobre a liberdade do escravo.
+
+11. **Proibição de usufruto e santidade**: Se um bem é proibido para uso ou tem santidade, como um manto destinado a um enterro, o credor não pode tomá-lo. No entanto, se a santidade é apenas de valor, o credor pode resgatar o bem por um valor pequeno, que é adicionado à dívida.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em questões de empréstimos e garantias, ajudando a garantir que as transações financeiras sejam justas e claras para todas as partes envolvidas.

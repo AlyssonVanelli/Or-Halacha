@@ -1,0 +1,44 @@
+SIMAN 12
+
+**Coisas que invalidam o tsitsit. Contém três seções:**
+
+1. Se todos os fios da borda se romperem e restar neles o suficiente para um nó de todos os fios rompidos juntos, é kasher (válido). Se não restar o suficiente para um nó, mesmo que apenas um fio esteja completamente rompido, é passul (inválido). Portanto, como cada fio é dobrado em dois, se dois extremos se romperem, é passul, pois pode ser que um fio inteiro tenha se rompido. De acordo com o costume de marcar quatro extremos de um lado do nó e quatro do outro, se dois extremos de um lado se romperem, é kasher, pois certamente são dois fios diferentes, e o segundo extremo de cada fio ainda está presente, sendo mais do que o necessário para um nó. Segundo Rabenu Tam, só é considerado kasher se restarem dois fios inteiros, ou seja, quatro extremos, cada um com doze polegadas de comprimento. Se dois outros fios se romperem, é kasher se restar o suficiente para um nó. Mas se três fios se romperem, mesmo que reste o suficiente para um nó, é passul. Portanto, se três extremos se romperem e não foi marcado durante a confecção do tsitsit para distinguir os quatro extremos de um lado do nó, há a preocupação de que cada extremo pertença a um fio diferente, restando apenas um fio inteiro, tornando-o passul por dúvida. 
+
+   *Nota: E certamente, se foi marcado para distinguir os quatro extremos de um lado e três extremos do outro lado se romperem, é passul, pois certamente três fios se romperam. Se se romperem em ambos os lados, também é passul, pois pode ser que sejam três fios (Beit Yosef em nome de Ben Chaviv). Mas se apenas dois extremos se romperem, é kasher se restar o suficiente para um nó. A halachá segue a primeira opinião, mas onde possível, é bom considerar a opinião de Rabenu Tam. Nota: E o costume é seguir Rabenu Tam (Agudá, Siman 15).*
+
+2. Quando é necessário o suficiente para um nó, e devido à espessura dos fios não é possível amarrá-los, mas se fossem finos haveria o suficiente para um nó, é kasher. 
+
+   *Nota: E a medida é feita com fios de espessura média (palavras próprias).*
+
+3. O suficiente para um nó, segundo Rashi, é a partir do ramo, e segundo R"i, mesmo que todo o ramo se rompa e reste apenas o suficiente para um nó a partir da trança, é kasher. O costume mundial segue Rashi, mas onde não é possível, pode-se confiar em R"i.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre o tsitsit, é importante saber que o tsitsit são franjas especiais presas às quatro pontas de uma peça de roupa, geralmente um talit (um manto de oração). Essas franjas são uma mitzvá (mandamento) da Torá, e há regras específicas sobre como elas devem ser feitas e mantidas.
+
+### Seção 1: Quando os fios do tsitsit se rompem
+
+- **Fios e nós**: Cada fio do tsitsit é dobrado ao meio, criando dois extremos. Se todos os fios se romperem, mas ainda houver comprimento suficiente para amarrar um nó com os fios restantes, o tsitsit ainda é considerado kasher (válido). Se não houver comprimento suficiente para um nó, mesmo que apenas um fio esteja completamente rompido, o tsitsit é passul (inválido).
+
+- **Diferentes opiniões**: 
+  - A primeira opinião diz que se dois extremos de um lado se romperem, ainda é kasher, pois são de fios diferentes.
+  - Rabenu Tam, um importante comentarista, tem uma visão mais rigorosa: ele diz que é necessário que restem dois fios inteiros (quatro extremos) com pelo menos doze polegadas de comprimento para que o tsitsit seja kasher. Se três fios se romperem, mesmo que reste o suficiente para um nó, é passul.
+
+- **Prática comum**: A halachá (lei judaica) segue a primeira opinião, mas é considerado bom seguir a opinião de Rabenu Tam quando possível. Na prática, muitas comunidades seguem Rabenu Tam.
+
+### Seção 2: Espessura dos fios
+
+- **Espessura e nós**: Às vezes, os fios são tão grossos que não é possível amarrar um nó, mas se fossem mais finos, seria possível. Nesse caso, o tsitsit ainda é kasher. A medida para "suficiente para um nó" é feita com fios de espessura média.
+
+### Seção 3: Onde medir "suficiente para um nó"
+
+- **Ponto de medição**: 
+  - Segundo Rashi, outro comentarista importante, a medida de "suficiente para um nó" começa a partir do ponto onde os fios se separam (o ramo).
+  - Segundo R"i, mesmo que todo o ramo se rompa, se restar o suficiente para um nó a partir da trança, ainda é kasher.
+
+- **Prática comum**: O costume mundial segue Rashi, mas em situações onde não é possível, pode-se confiar na opinião de R"i.
+
+### Relevância prática
+
+Na vida judaica contemporânea, essas leis são importantes para garantir que o tsitsit, uma parte essencial da prática diária para muitos judeus, esteja sempre em conformidade com a halachá. Manter o tsitsit kasher é uma forma de cumprir um mandamento diário e de se conectar com a tradição judaica. Portanto, entender essas regras ajuda a garantir que o tsitsit esteja sempre em boas condições e válido para uso.

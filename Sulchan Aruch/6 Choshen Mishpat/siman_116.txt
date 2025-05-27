@@ -1,0 +1,36 @@
+SIMAN 116
+
+**Como se escreve para ele o "tirfa". Contém 2 seifim (parágrafos):**
+
+1. Quando alguém compra um campo que foi confiscado dele, o Beit Din (tribunal rabínico) escreve para ele um "tirfa" (documento de confisco), explicando como o campo foi confiscado dele devido a uma dívida do vendedor. Ele então pode voltar e confiscar do vendedor. 
+
+   Nota: O credor não precisa escrever para ele uma autorização ou um documento de reconhecimento de que o campo foi confiscado dele (Beit Yosef, Siman 111, em nome do Rashba).
+
+2. Se ele comprou o campo por quinhentos e o valor aumentou, se o campo valia mil, escreve-se para ele um "tirfa" no valor de mil. Da mesma forma, se o campo valia mil no momento da compra e no momento do confisco valia apenas quinhentos, ou se valia mil e ele comprou por quinhentos, em todos esses casos, escreve-se para ele um "tirfa" no valor de mil. Todo o julgamento que o credor tem com o comprador é o mesmo julgamento do primeiro comprador que teve o campo confiscado por um credor e agora vem confiscar dos compradores que compraram depois dele, mesmo que não tenha sido vendido a ele com um documento, mas apenas com testemunhas. Mesmo que a responsabilidade não tenha sido explicitada.
+
+   Nota: Alguns dizem que isso se aplica apenas a um vendedor, mas se foi dado como presente com testemunhas, ele não pode confiscar sem um documento, pois um presente não tem publicidade, a não ser com um documento (Magid, capítulo 11 de Malveh).
+
+   E o fato de que ele pode confiscar sem que tenha sido vendido a ele com um documento, mas apenas com testemunhas, é apenas quando as testemunhas testemunham que não assinaram nenhum documento sobre essa venda e que não havia outras testemunhas lá, exceto eles. De qualquer forma, o Beit Din escreve para ele como foi confiscado dele, como prova, para que ele possa processar o devedor que vendeu para ele.
+
+3. Se ele comprou explicitamente sem responsabilidade e pede ao credor que lhe dê o poder do documento de dívida para que ele possa processar o devedor, se já foi confiscado dele, ele não pode mais fazer para ele nem uma autorização nem uma venda, pois a obrigação já foi perdoada e anulada. Mas antes que ele confisque, ele pode persuadi-lo a dar-lhe o poder, mas não se escreve para ele um "tirfa", pois ele comprou explicitamente sem responsabilidade.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 116 do Shulchan Aruch Choshen Mishpat, precisamos primeiro esclarecer alguns conceitos e termos técnicos:
+
+1. **Beit Din**: É um tribunal rabínico que decide questões de acordo com a lei judaica. Ele tem autoridade para lidar com disputas civis, como questões de propriedade e dívidas.
+
+2. **Tirfa**: É um documento emitido pelo Beit Din que confirma que uma propriedade foi confiscada devido a uma dívida. Este documento é importante para que o comprador original possa tentar recuperar sua perda.
+
+3. **Confisco**: Refere-se à tomada de uma propriedade para satisfazer uma dívida. Se alguém deve dinheiro e não paga, o credor pode confiscar bens do devedor.
+
+Agora, vamos explicar os parágrafos:
+
+1. **Parágrafo 1**: Quando alguém compra um campo que foi confiscado, o Beit Din emite um "tirfa" para o comprador. Este documento explica que o campo foi confiscado devido a uma dívida do vendedor. Com este documento, o comprador pode tentar recuperar o campo do vendedor original. Não é necessário que o credor emita um documento adicional para o comprador, pois o "tirfa" já serve como prova suficiente.
+
+2. **Parágrafo 2**: Este parágrafo trata de como o valor do campo é considerado no "tirfa". Se o valor do campo aumenta ou diminui após a compra, o "tirfa" é emitido com base no valor mais alto. Isso significa que, independentemente do preço pago ou do valor atual, o documento reflete o valor máximo que o campo teve. Isso é importante para garantir que o comprador possa recuperar o valor total que o campo poderia valer. Além disso, mesmo que a venda tenha sido feita apenas com testemunhas e sem um documento formal, o Beit Din ainda pode emitir um "tirfa", desde que as testemunhas confirmem que não há outros documentos ou testemunhas.
+
+3. **Parágrafo 3**: Se o comprador adquiriu o campo sem responsabilidade, ou seja, sabendo que não poderia reclamar perdas, ele não pode exigir um "tirfa" após o confisco. No entanto, antes do confisco, ele pode tentar convencer o credor a dar-lhe o poder de processar o devedor. Mas, se o campo já foi confiscado, ele não pode mais fazer isso, pois a obrigação foi considerada perdoada.
+
+**Relevância prática**: Na vida judaica contemporânea, essas leis são importantes para transações de propriedades e dívidas. Elas garantem que os direitos dos compradores e credores sejam respeitados e que haja um processo justo para resolver disputas financeiras. Mesmo que hoje em dia muitos judeus vivam em sistemas legais seculares, essas leis ainda são estudadas e aplicadas em comunidades que seguem a lei judaica tradicional.

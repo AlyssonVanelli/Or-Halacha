@@ -1,0 +1,36 @@
+SIMAN 119
+
+**O vendedor que vendeu todos os seus campos e o credor que estipulou que cobraria do melhor terreno. Contém seis seções:**
+
+1. Reuven vendeu todos os seus campos para Shimon de uma só vez, e Shimon vendeu um campo para Levi, que era de qualidade média, e não restou outro campo de qualidade média nas mãos de Shimon. Quando o credor vem cobrar, ele pode escolher cobrar do campo de qualidade média que está nas mãos de Levi ou do que está nas mãos de Shimon. Mesmo que só tenha restado a melhor terra nas mãos de Shimon, ele pode cobrar dela. Isso se aplica quando Levi comprou um campo de qualidade média, mas se ele comprou um campo de melhor ou pior qualidade, ele não pode cobrar dele. Alguns dizem que ele pode cobrar do campo de pior qualidade que está nas mãos do segundo comprador, se apenas a melhor terra restou nas mãos do primeiro. (Fonte: Maimonides, em nome de Ramban e Rashba).
+
+2. Se restou um campo de qualidade média nas mãos de Shimon, ele não pode cobrar de Levi, mesmo que Levi tenha comprado um campo de qualidade média. Isso só se aplica quando Shimon comprou todos os campos de uma só vez, mas se ele os comprou um após o outro e comprou o campo de pior qualidade por último, ele não pode cobrar de Levi.
+
+3. Um devedor que estipulou com o credor que ele cobraria do melhor terreno de suas propriedades e vendeu o melhor terreno, deixando apenas terrenos de qualidade média e inferior, o credor não pode tomar o melhor terreno que foi vendido.
+
+4. Se alguém tinha terrenos de melhor, média e pior qualidade e tinha dívidas, um credor e uma ketubah de esposa, e vendeu os terrenos para três pessoas de uma só vez, eles assumem a posição do proprietário original. O credor de danos cobra do melhor terreno, o credor comum do terreno de qualidade média, e a ketubah da esposa do terreno de pior qualidade. Se cada comprador alegar que comprou primeiro e deixou espaço para o outro cobrar, há quem diga que se deve ouvir essa alegação, e o credor não pode cobrar por dúvida. Outros dizem que, como não está claro no documento, e todos compraram no mesmo dia, e as horas de compra não são registradas, a compra só é efetiva no final do dia, e então todos são considerados como tendo comprado ao mesmo tempo.
+
+5. Se os terrenos foram vendidos para três pessoas em três dias diferentes ou no mesmo dia, mas com as horas registradas no documento, e não há prioridade de cobrança, como quando a dívida foi contraída em um dia diferente, ou após a obrigação para todos, e foi escrito que todos podem cobrar do último comprador, se não for suficiente, cobram do anterior, e assim por diante. Se o documento de um deles for anterior ao dos outros, e eles vierem cobrar ao mesmo tempo, aquele cujo documento é anterior cobra do último comprador primeiro, seja o terreno de melhor, média ou pior qualidade. Se os credores de danos forem os primeiros, seguidos pelo credor comum e depois pela ketubah da esposa, os credores de danos cobram do último, mesmo que seja de pior qualidade, o credor comum do anterior, mesmo que seja de melhor qualidade, e a ketubah da esposa do anterior a este, mesmo que seja de melhor qualidade.
+
+6. Se os terrenos foram vendidos para um comprador, um após o outro, o comprador assume a posição do proprietário original. Isso se aplica quando o terreno de melhor qualidade foi comprado por último. Se o terreno de pior qualidade foi comprado por último, todos cobram do terreno de pior qualidade. Alguns dizem que mesmo se o terreno de melhor qualidade foi comprado por último, isso só se aplica se o vendedor morreu, mas se o vendedor ainda estiver vivo, ele pode devolver o documento do terreno de pior qualidade ao vendedor, e então todos terão que cobrar do vendedor. O mesmo se aplica se o terreno de pior qualidade foi comprado por último, mesmo que o vendedor tenha morrido, todos cobram do terreno de pior qualidade. Se o terreno de qualidade média foi comprado por último, os credores de danos e o credor comum cobram do terreno de qualidade média, e a ketubah da esposa do terreno de pior qualidade.
+
+7. Se os terrenos foram vendidos para um comprador, um após o outro, e o terreno de melhor qualidade foi vendido por último, e o comprador vendeu os terrenos de pior e média qualidade, deixando o de melhor qualidade para si, todos cobram do terreno de melhor qualidade. Se o terreno de melhor qualidade foi vendido e restaram os terrenos de qualidade média e inferior, os credores de danos tomam o terreno de melhor qualidade que está nas mãos do segundo comprador, e do terreno de qualidade média e inferior que restou, o credor comum cobra do terreno de qualidade média, e a ketubah da esposa do terreno de pior qualidade.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 119 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de questões de dívidas e propriedades, especificamente sobre como um credor pode cobrar uma dívida quando o devedor vendeu suas terras. Vamos explicar os conceitos e as regras de forma prática:
+
+1. **Venda de Terras e Cobrança de Dívidas**: Quando alguém deve dinheiro e possui terras de diferentes qualidades (melhor, média e pior), essas terras podem ser usadas para pagar a dívida. A qualidade da terra é importante porque, tradicionalmente, terras de melhor qualidade são usadas para pagar dívidas de danos, terras de qualidade média para dívidas comuns, e terras de pior qualidade para a ketubah (acordo de casamento).
+
+2. **Venda para Múltiplos Compradores**: Se um devedor vende todas as suas terras para uma pessoa, e essa pessoa vende uma parte para outra, o credor pode escolher de qual terra cobrar, dependendo da qualidade e da ordem das vendas. Se a terra de qualidade média foi vendida, o credor pode cobrar dela, mas se apenas terras de melhor ou pior qualidade restarem, a situação muda.
+
+3. **Prioridade de Cobrança**: Se as terras foram vendidas para várias pessoas ao mesmo tempo, a cobrança pode ser complicada. Se não está claro quem comprou primeiro, todos os compradores são tratados como se tivessem comprado ao mesmo tempo. Isso significa que a cobrança deve seguir a ordem tradicional de qualidade das terras.
+
+4. **Documentação e Ordem de Compra**: Se as terras foram vendidas em dias diferentes ou com horários registrados, a ordem de compra pode afetar quem paga o quê. O documento mais antigo tem prioridade, e o credor pode cobrar do último comprador primeiro.
+
+5. **Venda em Ordem Diferente**: Se as terras foram vendidas uma após a outra, a ordem de venda pode determinar de qual terra o credor pode cobrar. Se a terra de melhor qualidade foi vendida por último, ela pode ser usada para pagar dívidas de danos. Se a terra de pior qualidade foi vendida por último, todos os credores podem ter que cobrar dessa terra.
+
+6. **Relevância Prática**: Na vida judaica contemporânea, essas leis são importantes para resolver disputas financeiras de forma justa e organizada. Elas garantem que os credores sejam pagos de acordo com a qualidade das terras e a ordem das vendas, protegendo tanto os direitos dos credores quanto dos compradores.
+
+Essas regras ajudam a manter a justiça e a ordem em transações financeiras, assegurando que todos os envolvidos saibam seus direitos e responsabilidades.

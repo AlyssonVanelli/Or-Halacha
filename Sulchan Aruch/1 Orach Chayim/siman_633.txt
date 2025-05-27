@@ -1,0 +1,52 @@
+SIMAN 633
+
+**Lei sobre a altura da sucá. Contém 10 parágrafos:**
+
+1. Uma sucá que é mais alta do que vinte cúbitos é inválida, seja ela grande ou pequena, quer as suas paredes alcancem o s'chach (cobertura) ou não. No entanto, se a altura for exatamente vinte cúbitos, é válida, mesmo que todo o s'chach esteja acima de vinte cúbitos, desde que o espaço interno não exceda vinte cúbitos.
+
+2. Se a sucá for mais alta que vinte cúbitos e houver ramos pequenos com suas folhas pendendo para baixo, se a sombra proporcionada por eles for maior que a luz do sol, a sucá é válida; caso contrário, é inválida.
+
+3. Uma sucá cujo espaço interno excede vinte cúbitos e nela foram pendurados objetos decorativos, reduzindo assim o espaço interno, essa redução não é considerada válida. Da mesma forma, se o espaço for reduzido com almofadas e travesseiros, não é considerado uma redução válida, mesmo que sejam anulados.
+
+4. Se o espaço for reduzido com palha e esta for anulada, isso é considerado uma redução válida. Não é necessário mencionar que se for reduzido com terra e esta for anulada, também é válido. No entanto, se não houver anulação explícita, não é considerado uma redução válida, mesmo com terra, até que seja explicitamente anulada verbalmente.
+
+5. Se a sucá for mais alta que vinte cúbitos e uma plataforma for construída ao longo da parede central, cobrindo toda a extensão da sucá, e essa plataforma tiver a medida mínima de uma sucá válida, então toda a sucá é considerada válida, mesmo além da plataforma.
+
+6. Se a plataforma for construída ao lado, e houver menos de quatro cúbitos entre a plataforma e a parede oposta, a sucá é válida, mas apenas sobre a plataforma. Caso contrário, é inválida.
+
+7. Se a plataforma for construída no meio, e houver menos de quatro cúbitos entre a plataforma e cada uma das paredes laterais, a sucá é válida sobre a plataforma, mesmo que a altura exceda dez cúbitos. Se houver quatro cúbitos entre a plataforma e a parede, a sucá é inválida, mesmo que a plataforma tenha uma altura de dez cúbitos.
+
+8. Uma sucá que não tenha uma altura de dez tefachim (palmos) é inválida.
+
+9. Se a sucá tiver mais de dez tefachim de altura e os ramos pendem para dentro dos dez tefachim, mesmo que a luz do sol seja maior que a sombra, a sucá é inválida. No entanto, se as decorações pendem para dentro dos dez tefachim, isso não invalida a sucá.
+
+10. Se a sucá for mais baixa que dez tefachim e for escavada para completar a altura de dez tefachim, e a escavação tiver a medida mínima de uma sucá válida, se não houver três tefachim entre a escavação e a parede, a sucá é válida. Se houver três tefachim entre eles, a sucá é inválida.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre a altura da sucá, é importante primeiro saber o que é uma sucá. Durante a festa judaica de Sucot, os judeus constroem uma estrutura temporária chamada sucá, que simboliza as cabanas usadas pelos israelitas durante sua jornada pelo deserto após a saída do Egito. A sucá deve ter um teto feito de material natural, como galhos ou folhas, chamado s'chach, que permite a entrada de luz e chuva, lembrando a fragilidade e a proteção divina.
+
+Aqui está uma explicação prática das leis sobre a altura da sucá:
+
+1. **Altura Máxima**: A sucá não pode ser mais alta que vinte cúbitos (aproximadamente 9 a 10 metros). Se for exatamente vinte cúbitos, é válida, mas se ultrapassar, não é. Isso se aplica independentemente do tamanho da sucá ou se as paredes alcançam o teto.
+
+2. **Ramos Pendentes**: Se a sucá for mais alta que vinte cúbitos, mas tiver ramos pendentes que criam mais sombra do que luz, ela é válida. A sombra é um critério importante para a validade da sucá.
+
+3. **Decorações e Reduções**: Pendurar decorações ou usar almofadas para reduzir a altura interna da sucá não é considerado uma redução válida. A altura deve ser reduzida de forma permanente e significativa.
+
+4. **Redução com Materiais**: Se a altura for reduzida com palha ou terra e esses materiais forem considerados parte permanente da estrutura, a redução é válida. Deve haver uma intenção clara de que esses materiais são permanentes.
+
+5. **Plataformas Internas**: Construir uma plataforma que cubra toda a extensão da sucá e tenha a altura mínima necessária pode tornar a sucá válida, mesmo que o restante da sucá seja mais alto que vinte cúbitos.
+
+6. **Plataformas Laterais**: Se a plataforma estiver ao lado e houver menos de quatro cúbitos (aproximadamente 2 metros) entre a plataforma e a parede oposta, a sucá é válida sobre a plataforma. Caso contrário, não é.
+
+7. **Plataformas Centrais**: Se a plataforma estiver no meio e houver menos de quatro cúbitos entre a plataforma e cada parede lateral, a sucá é válida sobre a plataforma, mesmo que a altura exceda dez cúbitos.
+
+8. **Altura Mínima**: A sucá deve ter pelo menos dez tefachim (aproximadamente 80 cm) de altura. Menos que isso a torna inválida.
+
+9. **Ramos e Decorações Internas**: Se os ramos pendem para dentro dos dez tefachim, a sucá é inválida, mesmo que a luz seja maior que a sombra. No entanto, decorações pendentes não invalidam a sucá.
+
+10. **Sucá Escavada**: Se a sucá for escavada para atingir a altura mínima de dez tefachim, e a escavação tiver o tamanho mínimo necessário, a sucá é válida, desde que a distância entre a escavação e a parede não seja maior que três tefachim.
+
+Essas regras garantem que a sucá seja construída de forma que cumpra seu propósito simbólico e religioso, proporcionando uma experiência autêntica durante a celebração de Sucot.

@@ -1,0 +1,26 @@
+SIMAN 371
+
+**Terreno não pode ser roubado, mesmo que os proprietários tenham desistido. Contém 4 seções:**
+
+1. O terreno nunca é considerado roubado, mas permanece sob a posse de seus proprietários, mesmo que tenha sido vendido mil vezes consecutivas e os proprietários tenham desistido. Ele retorna ao proprietário original sem custo, e qualquer um que o tenha vendido deve buscar compensação de quem o comprou. O segundo vendedor busca do primeiro, até que o comprador do ladrão busque do ladrão e receba dele. (Veja acima no Siman 236 sobre o que acontece se foi comprado de um ladrão não-judeu).
+
+2. Portanto, se ocorrer um dano natural, como uma inundação do rio, a responsabilidade pela perda não recai sobre o ladrão, pois o terreno é considerado sob a posse do proprietário original, que pode dizer: "Aqui está o que é seu". Mas se o ladrão causar dano diretamente, como cavar buracos, cortar árvores, destruir fontes ou demolir construções, ele é obrigado a restaurar a casa ou o campo ao estado em que estavam no momento do roubo, ou pagar o valor do dano. (Nota: Assim como o terreno está sob a posse do proprietário original, que pode dizer "Aqui está o que é seu", também está sob sua posse para seu benefício. Embora em relação a bens móveis o pagamento seja apenas pelo valor no momento do roubo, no caso de terrenos não é assim. Se o ladrão usou e consumiu seus frutos, ele deve pagar pelo benefício que obteve. - Tur)
+
+3. Se um campo for roubado e confiscado por opressores sob a autoridade do rei, se for um evento generalizado, como o rei tomar campos ou casas de todos os habitantes da região, o ladrão pode dizer: "Aqui está o que é seu". Mas se foi confiscado por causa do ladrão, ele é obrigado a fornecer outro campo.
+
+4. Se o rei forçou o ladrão a mostrar todos os seus bens e ele incluiu o campo roubado entre suas propriedades, e o rei o confiscou, o ladrão é obrigado a fornecer outro campo semelhante ou pagar seu valor.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 371 do Shulchan Aruch Choshen Mishpat trata de leis relacionadas ao roubo de terrenos. Vamos explicar cada seção de forma prática e acessível:
+
+1. **Terreno não pode ser roubado permanentemente**: Diferente de objetos móveis, que podem ser considerados roubados e mudam de posse, um terreno nunca é considerado permanentemente roubado. Mesmo que o terreno seja vendido várias vezes após o roubo, ele ainda pertence ao proprietário original. Se alguém comprar um terreno que foi roubado, ele não se torna o novo dono legítimo. Quando o proprietário original reivindica seu terreno, ele o recebe de volta sem precisar pagar. Quem comprou o terreno de um ladrão deve buscar reembolso de quem lhe vendeu, e assim por diante, até chegar ao ladrão original.
+
+2. **Responsabilidade por danos ao terreno**: Se um terreno roubado sofrer danos naturais, como uma inundação, o ladrão não é responsável, pois o terreno ainda é considerado propriedade do dono original. No entanto, se o ladrão causar danos diretos, como destruir construções ou cortar árvores, ele deve reparar o dano ou pagar pelo prejuízo. Além disso, se o ladrão usou o terreno para colher frutos ou obter outros benefícios, ele deve pagar por esses benefícios.
+
+3. **Confisco por autoridades**: Se um campo roubado for confiscado por autoridades, como parte de uma ação geral que afeta todos na região, o ladrão não é responsável por substituir o campo. No entanto, se o confisco ocorreu especificamente por causa do ladrão, ele deve fornecer outro campo ao proprietário original.
+
+4. **Confisco devido à declaração do ladrão**: Se o ladrão incluir o campo roubado em uma lista de seus bens quando forçado a declarar suas posses ao rei, e o campo for confiscado, ele deve fornecer um campo semelhante ou pagar o valor ao proprietário original.
+
+Essas leis destacam a importância da justiça e da proteção dos direitos de propriedade na tradição judaica. Elas asseguram que, mesmo em casos de roubo, o proprietário original não perde seus direitos sobre o terreno. Na prática contemporânea, essas leis reforçam a importância de transações justas e a responsabilidade de reparar danos causados a propriedades alheias.

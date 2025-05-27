@@ -1,0 +1,32 @@
+SIMAN 31
+
+1. O cérebro possui duas membranas, uma sobre a outra. Se a membrana inferior for perfurada, é considerado tereifá (impróprio para consumo), mas se apenas a membrana superior for perfurada, é kasher (próprio para consumo). Nota: Há aqueles que também consideram tereifá se apenas a membrana superior for perfurada, e essa é a prática comum, exceto em casos de grande perda financeira.
+
+2. Se o próprio cérebro estiver um pouco deteriorado ou esmagado, mas a membrana estiver intacta, é kasher. No entanto, se o cérebro estiver liquefeito como água ou cera, é tereifá. Se houver água dentro da membrana e faltar do cérebro a quantidade correspondente à água, se o cérebro envolver completamente a água sem estar exposto, mesmo à membrana, é kasher; caso contrário, é tereifá. O mesmo se aplica se a água estiver em uma pequena bolsa, se o cérebro a envolver completamente sem exposição, é kasher; caso contrário, é tereifá. Nota: Se houver dúvida se estava coberto pelo cérebro ou não, é tereifá. Portanto, deve-se ter cuidado ao abrir a cabeça para verificar se o cérebro envolve a água, se houver. No entanto, não é necessário investigar isso, pois confiamos na maioria, e pode-se descartar a cabeça ou vendê-la a um não-judeu sem abrir.
+
+3. Se for encontrada uma larva na membrana do cérebro e o cérebro estiver intacto, e não houver marca ou mancha de sangue na membrana inferior, é kasher. No entanto, há quem diga que não somos proficientes em tal inspeção, e é tereifá. Nota: Essa é a prática comum. Mas se a larva for encontrada fora da cavidade, como no nariz, é kasher, pois assumimos que nunca chegou ao cérebro.
+
+4. O osso onde o cérebro está alojado tem uma grande cavidade como uma panela, e na parte superior, em direção ao pescoço, há algo como dois feijões. Tudo o que está do cérebro dentro da cavidade até os feijões, incluindo os feijões, é considerado como parte do cérebro, e sua perfuração, mesmo que mínima, torna-o tereifá. Daí em diante, é considerado como a medula espinhal.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O texto que você forneceu é uma parte do Shulchan Aruch, um importante código de leis judaicas, que trata das leis de kashrut, ou seja, as regras que determinam quais alimentos são próprios para consumo segundo a tradição judaica. Especificamente, este trecho aborda as condições que tornam o cérebro de um animal kasher (próprio para consumo) ou tereifá (impróprio para consumo). Vamos explicar cada ponto de forma prática:
+
+1. **Membranas do Cérebro**: O cérebro de um animal é coberto por duas camadas de membranas. Se a membrana interna for perfurada, o animal é considerado tereifá, ou seja, não pode ser consumido. Se apenas a membrana externa for perfurada, o animal ainda é kasher, ou seja, pode ser consumido. No entanto, a prática comum é considerar o animal tereifá mesmo se apenas a membrana externa for perfurada, a menos que isso cause uma grande perda financeira.
+
+   *Relevância prática*: Isso é importante para quem trabalha com o abate de animais segundo as leis judaicas, garantindo que a carne seja kasher.
+
+2. **Estado do Cérebro**: Se o cérebro estiver um pouco danificado, mas as membranas estiverem intactas, o animal é kasher. No entanto, se o cérebro estiver completamente liquefeito, é tereifá. Se houver líquido dentro da membrana e faltar uma quantidade correspondente de cérebro, o animal é kasher somente se o cérebro cobrir completamente o líquido. Caso contrário, é tereifá. Se houver dúvida sobre a cobertura do líquido pelo cérebro, o animal é considerado tereifá.
+
+   *Relevância prática*: Isso orienta os inspetores de kashrut sobre como avaliar o estado do cérebro durante a inspeção.
+
+3. **Larvas na Membrana**: Se uma larva for encontrada na membrana do cérebro, mas o cérebro estiver intacto e não houver sinais de sangue na membrana interna, o animal é kasher. No entanto, a prática comum é considerar o animal tereifá, pois não se confia na habilidade de inspecionar adequadamente. Se a larva for encontrada fora da cavidade do cérebro, como no nariz, o animal é kasher, pois presume-se que a larva nunca esteve no cérebro.
+
+   *Relevância prática*: Isso ajuda a determinar a kashrut de um animal quando são encontradas larvas durante a inspeção.
+
+4. **Cavidade do Cérebro e Medula Espinhal**: O osso que abriga o cérebro tem uma cavidade grande, e na parte superior, em direção ao pescoço, há estruturas semelhantes a feijões. Tudo que está dentro dessa cavidade, incluindo os "feijões", é considerado parte do cérebro. Qualquer perfuração nessa área torna o animal tereifá. A partir dos "feijões" em direção ao pescoço, a área é considerada parte da medula espinhal.
+
+   *Relevância prática*: Isso define claramente quais partes do sistema nervoso central são consideradas ao determinar a kashrut do animal.
+
+Essas leis são aplicadas principalmente em contextos de abate kosher, onde é crucial garantir que a carne seja própria para consumo de acordo com a tradição judaica. Elas refletem um compromisso com a observância rigorosa das leis de kashrut, que são uma parte central da vida judaica para aqueles que seguem essas práticas.

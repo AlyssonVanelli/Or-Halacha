@@ -1,0 +1,28 @@
+SIMAN 371
+
+1. Uma abertura entre uma casa e um sótão que não tem a medida de um tefach, e há um pedaço de carne do morto embaixo na casa, em frente à abertura, a casa está pura e o sótão está impuro.
+
+2. Dois quartos abertos para uma casa, e em cada um há meio zayit do morto, e suas portas estão trancadas, a casa está impura e eles estão puros. Se forem abertas, também eles se tornam impuros.
+
+3. Um pátio cercado por beirais e varandas, e há impureza em uma das casas. Se todas as portas e janelas das casas estiverem trancadas, a impureza sai para debaixo dos beirais e varandas. (E a razão é que, já que a impureza eventualmente sairá por ali, é considerado como se já tivesse saído. Portanto, há quem seja rigoroso para que os cohanim não passem pelo portão da cidade, pois o morto eventualmente sairá por ali. E há quem permita, e quem for leniente não perde, onde não é costume ser rigoroso.) Se uma janela ou porta do outro lado for aberta, e aquelas do lado do pátio estiverem todas trancadas, a impureza não sai para debaixo dos beirais. Se uma delas também for aberta para o lado dos beirais, a impureza sai da casa para debaixo dos beirais. Da mesma forma, se a impureza estiver debaixo dos beirais, ela entra debaixo deles para a casa. Portanto, telhados que se projetam para fora sobre as entradas das casas, e há impureza em uma das casas, todas as casas cujas entradas estão abertas estão impuras. (Nota: Dois telhados que não se tocam, mesmo que haja menos de três entre eles, não são considerados conectados para impureza, pois não dizemos "lavud" para ser rigoroso. Se um estiver acima do outro, mesmo que não se toquem, dizemos "chavut rami" como se estivessem tocando. Os cohanim não podem forçar os parentes do morto a mover o morto para que possam entrar em suas casas, a menos que seja costume mover todos os mortos.)
+
+4. É proibido aproximar-se dentro de quatro amot de um morto ou de um túmulo. Isso se aplica quando o túmulo não está cercado por paredes de dez tefachim de altura. Mas se estiver cercado por paredes de dez tefachim de altura ou por uma vala de dez tefachim de profundidade, não é necessário afastar-se mais do que quatro tefachim. (E é permitido a um cohen ficar ao lado de uma casa onde há um morto e tocar em suas paredes, desde que nada esteja cobrindo-o.)
+
+5. Um morto colocado em um barco, se o barco for pequeno e balançar quando se pisa nele, é proibido para um cohen entrar nele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 371 do Shulchan Aruch Yoreh De'ah, é importante conhecer alguns conceitos básicos sobre as leis de pureza e impureza no judaísmo, especialmente em relação aos mortos. Essas leis são particularmente relevantes para os cohanim, que são descendentes dos sacerdotes do Templo e têm restrições adicionais em relação à impureza.
+
+1. **Abertura entre casa e sótão**: Quando há uma abertura pequena (menos de um "tefach", que é uma medida de cerca de 8 cm) entre uma casa e um sótão, e há um pedaço de carne de um morto na casa, a impureza não passa para o sótão. Isso significa que a casa é considerada impura, mas o sótão permanece puro.
+
+2. **Dois quartos com impureza parcial**: Se há dois quartos, cada um contendo metade de uma medida de impureza (meio "zayit", que é uma medida de volume), e suas portas estão fechadas, a casa conectada a eles é impura, mas os quartos permanecem puros. Se as portas forem abertas, os quartos também se tornam impuros.
+
+3. **Pátio com beirais e varandas**: Quando há impureza em uma casa dentro de um pátio cercado por beirais e varandas, e todas as portas e janelas estão fechadas, a impureza é considerada como se estivesse sob os beirais. Isso ocorre porque a impureza eventualmente sairá por ali. Há diferentes opiniões sobre se os cohanim podem passar por esses locais, dependendo do costume local. Se uma abertura do outro lado estiver aberta, a impureza não se move para debaixo dos beirais, a menos que uma abertura do lado dos beirais também esteja aberta. Se a impureza estiver sob os beirais, ela pode entrar nas casas cujas entradas estão abertas.
+
+4. **Proximidade de um morto ou túmulo**: É proibido se aproximar a menos de quatro "amot" (cerca de 2 metros) de um morto ou túmulo, a menos que o túmulo esteja cercado por uma barreira de pelo menos dez "tefachim" de altura ou profundidade. Um cohen pode ficar ao lado de uma casa com um morto e tocar suas paredes, desde que não haja cobertura sobre ele.
+
+5. **Morto em um barco**: Se um morto está em um barco pequeno que balança quando alguém pisa nele, um cohen não pode entrar no barco, pois isso pode causar impureza.
+
+Essas leis são aplicadas principalmente em contextos onde a pureza ritual é relevante, como em cerimônias religiosas ou em locais sagrados. Para os cohanim, essas regras são especialmente importantes, pois eles devem evitar a impureza para manter sua capacidade de realizar funções sacerdotais.

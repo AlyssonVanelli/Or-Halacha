@@ -1,0 +1,29 @@
+SIMAN 36
+
+**Muitos que testemunharam e um deles foi encontrado como parente ou inválido. Contém dois parágrafos:**
+
+1. Quando muitos testemunham e um deles é encontrado como parente ou inválido, o testemunho é anulado. Isso se aplica quando todos tinham a intenção de testemunhar. No entanto, se nem todos tinham essa intenção, o testemunho dos outros permanece válido. Como se verifica isso? O tribunal pergunta a eles: "Quando vocês viram este evento, vieram para testemunhar ou apenas para observar?" Qualquer um que diga "Vim para testemunhar" é separado. Se entre aqueles que tinham a intenção de testemunhar for encontrado um parente ou inválido, o testemunho é anulado, mesmo que não soubessem um do outro (Tosafot). Se todos os testemunhos forem válidos, e um tinha a intenção de testemunhar enquanto outro não, mas viu o evento e ajustou seu testemunho, o julgamento pode ser baseado em seu testemunho. Contudo, eles não podem redigir um documento sobre isso, mesmo que tenham visto a aquisição, pois não foram convocados para isso (Responsa do Rashba, Siman 1003) (veja também Siman 39, Seif 5).
+
+2. Alguns dizem que mesmo se alguém teve a intenção de observar para testemunhar, isso não invalida, a menos que ele venha ao tribunal e testemunhe. Pois é necessário tanto a intenção de observar para testemunhar quanto vir ao tribunal e testemunhar. Se um documento foi assinado por um testemunho inválido e todo o testemunho foi anulado, ainda assim, se os testemunhos válidos se lembram do testemunho através da visão do documento, eles podem voltar e testemunhar sozinhos perante o tribunal, e o tribunal redigirá seu testemunho e considerará como um documento (Responsa do Rosh, Clal 60, Siman 5). Se uma convenção comunitária foi assinada por um testemunho inválido ou um documento foi assinado pelo próprio interessado, é válido com outros, pois eles não tinham a intenção de testemunhar (Rivash, final de Siman 195) (veja também Siman 45, Seif 12 e 13). Se o demandante convocou testemunhos válidos e parentes e inválidos estavam presentes, mesmo que tivessem a intenção de testemunhar e testemunharam, o testemunho dos válidos não é anulado, pois sua intenção era apenas para aqueles aptos a testemunhar.
+
+3. Se um parente testemunhou junto com um não-parente, e o não-parente não sabia da relação de parentesco, alguns dizem que o testemunho do não-parente é válido e ele é obrigado a jurar. Ele é acreditado ao dizer que não reconheceu, desde que não seja alguém próximo a ele. Mas se ele for próximo, não é acreditado. Há quem discorde e diga que mesmo que ele não reconhecesse o parentesco, o testemunho do não-parente é anulado, pois o testemunho inválido foi dado junto com ele no tribunal (Tur).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 36 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata das regras sobre testemunhas em um tribunal judaico. Vamos explicar os conceitos e a aplicação prática dessas leis:
+
+1. **Testemunhas e Intenção de Testemunhar:**
+   - Quando várias pessoas testemunham sobre um evento, se uma delas for considerada inválida (por exemplo, por ser parente de uma das partes envolvidas), isso pode anular todo o testemunho. No entanto, isso só acontece se todos os presentes tinham a intenção de testemunhar. 
+   - O tribunal verifica a intenção perguntando se as pessoas estavam lá para testemunhar ou apenas para observar. Se alguém estava lá apenas para observar, seu testemunho não afeta o dos outros.
+   - Na prática, isso significa que, em um tribunal judaico, a intenção das testemunhas é crucial. Se alguém estava apenas observando e não pretendia testemunhar, seu status não invalida o testemunho dos outros.
+
+2. **Documentos e Testemunhas Inválidas:**
+   - Se um documento foi assinado por uma testemunha inválida, o testemunho pode ser anulado. No entanto, se as testemunhas válidas puderem lembrar do evento ao ver o documento, elas podem testemunhar novamente, e o tribunal pode aceitar esse testemunho.
+   - Isso é relevante hoje em dia, pois documentos legais muitas vezes precisam de testemunhas. Se uma testemunha for inválida, ainda há maneiras de validar o documento, desde que as testemunhas válidas possam confirmar o que aconteceu.
+
+3. **Testemunhas Parentes e Não-Parentes:**
+   - Se um parente e um não-parente testemunham juntos, e o não-parente não sabia do parentesco, há diferentes opiniões sobre a validade do testemunho. Alguns dizem que o testemunho do não-parente ainda é válido, desde que ele jure que não sabia do parentesco. Outros discordam, dizendo que o testemunho é anulado porque foi dado junto com um testemunho inválido.
+   - Na prática, isso significa que a relação entre as testemunhas pode afetar a validade do testemunho. É importante que as testemunhas sejam imparciais e não relacionadas às partes envolvidas.
+
+Essas regras são importantes para garantir a justiça e a imparcialidade nos julgamentos, assegurando que apenas testemunhos válidos e imparciais sejam considerados. Em um contexto contemporâneo, isso reforça a importância de selecionar testemunhas adequadas e de entender as intenções e relações das pessoas envolvidas em um caso legal.

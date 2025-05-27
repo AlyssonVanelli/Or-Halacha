@@ -1,0 +1,32 @@
+SIMAN 355
+
+**Ladrão que devolveu o roubo sem o conhecimento dos proprietários. Contém três seções:**
+
+1. Um ladrão que rouba um objeto da casa de seu amigo e o devolve ao seu lugar sem que os proprietários saibam que foi devolvido: se os proprietários souberem que foi roubado, mesmo que o ladrão o tenha devolvido, ele não está isento e permanece sob sua responsabilidade até que os proprietários saibam, por exemplo, ao contar seus objetos e encontrá-los completos. No entanto, quando eles os contam, ele está isento, mesmo que os proprietários não soubessem no momento em que foi devolvido. Portanto, se ele roubou dinheiro e o misturou na conta ou o colocou em sua bolsa, se ele souber a quantidade de seu dinheiro, está isento, pois uma pessoa costuma verificar seu dinheiro a todo momento e, assim, encontra que foi devolvido entre seu dinheiro. Mas se ele jogou o dinheiro em uma bolsa vazia, ele não está isento e é responsável pelo roubo até que informe que o devolveu àquela bolsa. Se os proprietários não souberem que foi roubado deles no momento em que foi devolvido ao seu lugar, ele está isento, mesmo que os proprietários não o contem.
+
+2. Isso se aplica a algo que não tem vida, mas se alguém rouba um cordeiro do rebanho e os proprietários souberem disso e ele o devolver ao rebanho sem o conhecimento dos proprietários, e o cordeiro morrer ou for roubado, ele é responsável. Se eles contarem o rebanho e ele estiver completo, ele está isento. Se os proprietários não souberem nem do roubo nem da devolução, mesmo que contem o rebanho e ele esteja completo, ele é responsável até que informe os proprietários para que possam guardar o cordeiro roubado, pois ele aprendeu um caminho diferente do resto do rebanho.
+
+3. Isso se aplica quando ele está isento ao devolver ao seu lugar no caso de um ladrão que rouba da casa dos proprietários. Mas um guardião que rouba de sua própria posse, como quando um saco ou cordeiro foi confiado a ele, e há testemunhas de que ele roubou, mesmo que haja testemunhas de que ele devolveu ao seu lugar, ele é responsável até que informe os proprietários, pois sua guarda terminou e ele não é mais um guardião, e é como se ele não tivesse devolvido até que informe os proprietários.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda as leis relacionadas a um ladrão que devolve o que roubou sem que os proprietários saibam. Vamos explicar cada seção de forma prática:
+
+1. **Devolução de Objetos Roubados:**
+   - **Cenário:** Um ladrão rouba algo e depois devolve ao lugar original sem que os donos saibam.
+   - **Regra:** Se os donos sabiam que o objeto foi roubado, o ladrão continua responsável até que os donos percebam que o objeto foi devolvido. Isso pode acontecer, por exemplo, quando eles contam seus pertences e veem que está tudo certo.
+   - **Exceção:** Se o ladrão devolve dinheiro e mistura com o dinheiro dos donos, ele não é mais responsável, pois é comum as pessoas verificarem seu dinheiro regularmente. No entanto, se ele coloca o dinheiro em uma bolsa vazia, ele continua responsável até informar os donos.
+   - **Caso os donos não soubessem do roubo:** Se o objeto é devolvido sem que os donos soubessem que foi roubado, o ladrão não é mais responsável, mesmo que os donos não contem seus pertences.
+
+2. **Roubo de Animais:**
+   - **Cenário:** Um ladrão rouba um animal, como um cordeiro, e o devolve ao rebanho sem que os donos saibam.
+   - **Regra:** Se os donos sabiam do roubo, o ladrão é responsável até que os donos contem o rebanho e vejam que está completo.
+   - **Exceção:** Se os donos não sabiam do roubo nem da devolução, o ladrão continua responsável, mesmo que o rebanho pareça completo. Isso ocorre porque o animal pode ter aprendido a se comportar de forma diferente e precisa ser vigiado.
+
+3. **Guardião que Rouba:**
+   - **Cenário:** Um guardião, alguém que foi confiado a cuidar de um objeto ou animal, rouba o que estava sob sua guarda.
+   - **Regra:** Mesmo que ele devolva o objeto ao lugar original, ele continua responsável até informar os donos. Isso acontece porque, ao roubar, ele deixou de ser um guardião confiável, e a devolução só é válida quando os donos são informados.
+
+**Relevância Prática:**
+Essas leis destacam a importância da responsabilidade e da comunicação na restituição de bens roubados. Na vida contemporânea, isso pode ser aplicado em situações de confiança e responsabilidade, como quando alguém cuida dos pertences de outra pessoa. A ênfase está em garantir que os donos estejam cientes da devolução para que possam retomar a responsabilidade sobre seus bens.

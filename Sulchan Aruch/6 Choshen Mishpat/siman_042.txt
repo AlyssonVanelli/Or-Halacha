@@ -1,0 +1,60 @@
+SIMAN 42
+
+**Título: Escrever o documento em qualquer idioma e a regra se a moeda não estiver especificada. Contém 15 seções:**
+
+1. Não se deve escrever um documento de dívida em algo que possa ser falsificado. Se for escrito, é inválido, mesmo para cobrança imediata. Isso se aplica especificamente a um documento de dívida, mas um documento de aquisição é válido. Qualquer documento que não seja feito conforme a regulamentação dos sábios, mesmo que não haja razão para invalidá-lo, é inválido. Portanto, se atualmente for feito um documento amarrado, é inválido. Alguns discordam, mas essa é a decisão aceita.
+
+2. Pode ser escrito em qualquer idioma e qualquer escrita, desde que o escriba seja preciso para não haver alterações.
+
+3. Ao redigir documentos, deve-se observar os "vav" e "zayin" para que não fiquem apertados entre as palavras, evitando que se acrescente um "vav" ou "zayin", nem muito espaçados, para que não se apague uma letra como "hei" ou "chet" e deixe um espaço para um "vav". Deve-se ser meticuloso em qualquer idioma e escrita. O escriba deve garantir que as letras sejam semelhantes e o texto alinhado, sem espaçar ou apertar demais as letras. As testemunhas não devem assinar até que verifiquem todas as letras. Quando o documento chega ao juiz, ele deve examinar todas as letras e compará-las. Se houver alguma alteração, não deve ser cobrado até que seja verificado. Se necessário, o dono do documento pode ser forçado a confessar para que a verdade prevaleça. Alguns dizem que isso se aplica quando se trata de herdeiros ou compradores, mas não quando se trata do próprio credor ou vendedor.
+
+4. Deve-se ter cuidado para não escrever no final de uma linha números como três a dez, para que não se transforme em vinte ou trinta. Se for escrito "três" ou "dez", não há problema, pois não há risco de falsificação. Se ocorrer no final de uma linha, deve-se repetir até que esteja no meio da linha. Deve-se evitar escrever números em letras como "bet" ou "dalet", para que não se transformem em "kaf" ou "resh". Se não for feito assim, o documento pode ser falsificado e é inválido. No entanto, se for escrito em numerais ou abreviações que não podem ser falsificados, é válido.
+
+5. Se houver uma discrepância entre o que está escrito na parte superior e inferior do documento, e ambos puderem ser mantidos, ambos são válidos. Mas se forem contraditórios, como "cem" em cima e "duzentos" embaixo, segue-se o inferior, desde que não esteja na última linha e não esteja escrito "e tudo é válido". No entanto, para invalidar o documento, mesmo a última linha é considerada. Se o valor inferior for apagado, todo o documento é inválido, pois poderia ter sido apenas um "dinar". Se a parte superior detalhar e a inferior resumir, segue-se o detalhe. Isso se aplica quando um não depende do outro, mas se for escrito "cem que são duzentos" ou "duzentos que são cem", só se cobra o menor valor.
+
+6. Se uma letra for apagada na parte inferior, mas o significado puder ser entendido pela parte superior, segue-se a parte superior. Por exemplo, se "Chanani" estiver em cima e "Chanan" embaixo, segue-se a parte superior. Mas se duas letras forem apagadas, como "Chanani" em cima e "Chan" embaixo, não se segue. Se o documento for conhecido por ter sido apagado, é inválido. Mas uma letra pode ser aprendida, mesmo que a parte superior tenha apenas duas letras e precisemos aprender metade da palavra. Se a falta não for devido a um apagamento, mas um erro, como "Chanani" em cima e "Chan" embaixo, é considerado um erro e segue-se o inferior.
+
+7. Se estiver escrito "safl" em cima e "kafl" embaixo, segue-se o inferior, pois "kafl" é menor que "safl". Se "kafl" estiver em cima e "safl" embaixo, há preocupação de que uma mosca tenha removido a perna do "kaf" e se tornado um "samech", e só se cobra "kafl". Em todos esses casos, a mão do dono do documento está na parte inferior.
+
+8. Em todos os casos mencionados, se o dono do documento apreender bens móveis, não os retiramos dele. E certamente, em um recibo, a mão do dono do documento está na parte superior, pois ele está em posse.
+
+9. Não dizemos que a mão do dono do documento está na parte inferior, exceto nos casos mencionados, onde o documento não é completamente inválido. Mas em casos onde o documento é completamente inválido, como se estiver escrito que alguém deve a outro uma quantia a ser paga na Páscoa, deve ser pago na próxima Páscoa, e não pode dizer que pagará em uma Páscoa de anos depois.
+
+10. Muitos comentaristas escreveram que agora, quando é costume escrever "não como uma promessa" e "não como um formulário de documento", em qualquer linguagem duvidosa, a mão do dono do documento está na parte superior. E qualquer linguagem que inclua mais para fortalecer a posição do dono do documento é considerada assim, de acordo com a compreensão dos ouvintes, mesmo para fortalecer a posição do dono do documento.
+
+11. Se estiver escrito no documento uma moeda específica e o valor for apagado e não reconhecível, ele só tem direito a duas daquela moeda.
+
+12. Se estiver escrito "shekels" e o credor diz cinco e o devedor diz dois, ele dá dois e jura sobre o restante. Se ele apreender, retiramos dele.
+
+13. Se estiver escrito que alguém emprestou dinheiro a outro, ele dá uma pequena peça de prata. Se estiver escrito "moeda de prata", se moedas de prata são usadas naquele lugar, ele dá uma moeda; se não, ele dá a menor moeda de prata usada lá. Se estiver escrito "dinars de prata" ou "prata dinars", ele dá dois dinars de prata. Se estiver escrito "prata em dinars", ele dá prata equivalente a dois dinars de ouro. Se estiver escrito "ouro em dinars", ele dá ouro equivalente a dois dinars de ouro. Se estiver escrito "prata em dinars", ele dá prata equivalente a dois dinars de prata. Se estiver escrito "ouro", ele dá uma pequena peça de ouro. Se estiver escrito "moeda de ouro", ele dá a menor moeda de ouro usada. Se estiver escrito "ouro dinars" ou "dinars de ouro", ele dá dois dinars de ouro. Se estiver escrito "ouro em dinars", ele dá ouro equivalente a dois dinars de prata.
+
+14. Quem apresenta um documento de dívida contra outro no valor de cem dinars ou shekels, e não está especificado qual moeda, se estiver escrito na Babilônia, ele cobra em moedas da Babilônia; se estiver escrito em Israel, ele cobra em moedas de Israel. Se não estiver especificado o local no documento e for apresentado na Babilônia, ele cobra em moedas da Babilônia; se em Israel, em moedas de Israel. Se ele tentar cobrar na moeda do local onde o documento foi emitido e o devedor alegar que a dívida é em uma moeda inferior, o credor jura e recebe. No entanto, se o devedor provar que inicialmente residiam em um lugar onde a moeda era inferior, ele paga menos. Se estiver escrito "cem prata" e não especificar se são shekels ou pondoins, o devedor escolhe como pagar.
+
+15. Se estiver escrito um valor geral, segue-se o costume do local onde o documento foi emitido. Por exemplo, se estiver escrito "seiscentos e zuz", e houver dúvida se são seiscentos "istira" e "zuz" ou seiscentos "zuz" e "zuz", diz-se que ele deve dar seiscentos "istira", que é menos. Mas não se duvida de seiscentas prutot, pois não se faz uma soma de prutot. A linguagem usada em documentos, mesmo que não seja conforme a regulamentação dos sábios, mas uma linguagem que os leigos costumam usar naquele lugar, é seguida. Mesmo que não esteja escrito, é considerado como se estivesse. O mesmo se aplica a regulamentos comunitários ou costumes da cidade. Se alguém cria um órfão em sua casa e escreve no documento "meu filho" ou o órfão escreve "meu pai" ou "minha mãe", não é considerado falsificado e é válido, pois é apropriado escrever assim.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 42 do Shulchan Aruch Choshen Mishpat trata de regras sobre a redação de documentos legais, especialmente documentos de dívida, e como garantir que eles sejam válidos e não sujeitos a falsificações. Vamos explicar os principais pontos de forma prática:
+
+1. **Documentos de Dívida e Aquisição**: Um documento de dívida deve ser escrito de forma que não possa ser facilmente falsificado. Se for, ele é considerado inválido. Isso não se aplica a documentos de aquisição, que têm regras diferentes. A importância aqui é garantir que os documentos sejam confiáveis e não possam ser alterados para enganar alguém.
+
+2. **Idioma e Escrita**: Os documentos podem ser escritos em qualquer idioma ou estilo de escrita, desde que o escriba seja cuidadoso para evitar erros ou alterações. Isso significa que, independentemente do idioma, a precisão é crucial para a validade do documento.
+
+3. **Formatação e Espaçamento**: É importante que as letras e palavras sejam escritas de forma clara e espaçada corretamente. Isso evita que alguém possa adicionar ou apagar letras para mudar o significado do documento. Testemunhas e juízes devem verificar cuidadosamente o documento antes de assiná-lo ou aceitá-lo.
+
+4. **Números e Falsificação**: Ao escrever números, deve-se ter cuidado para que não possam ser alterados para representar valores diferentes. Por exemplo, números escritos no final de uma linha devem ser repetidos para evitar que sejam alterados. Isso ajuda a prevenir fraudes.
+
+5. **Discrepâncias no Documento**: Se houver diferenças entre partes do documento, como valores diferentes escritos em partes diferentes, geralmente se segue a parte inferior, a menos que haja uma razão clara para seguir a parte superior. Isso ajuda a resolver ambiguidades de forma justa.
+
+6. **Erros e Apagamentos**: Se uma parte do documento foi apagada ou está ilegível, mas o significado ainda pode ser entendido, pode-se seguir a parte que está clara. No entanto, se o documento for conhecido por ter sido alterado, ele é considerado inválido.
+
+7. **Moedas e Valores**: Quando um documento menciona uma moeda específica, mas o valor não está claro, presume-se um valor mínimo. Isso é para proteger o devedor de pagar mais do que o devido.
+
+8. **Costumes Locais**: Se o documento não especifica a moeda ou o valor, segue-se o costume do local onde o documento foi emitido. Isso garante que as partes envolvidas tenham uma expectativa comum sobre o que o documento significa.
+
+9. **Termos Ambíguos**: Se o documento usa linguagem que pode ser interpretada de diferentes maneiras, geralmente se interpreta de forma que favoreça o devedor, a menos que o contexto indique claramente o contrário.
+
+10. **Uso de Termos Familiares**: Em casos onde termos como "meu filho" ou "meu pai" são usados em documentos para descrever relações não biológicas, isso é aceito como válido, pois reflete o uso comum e respeitoso da linguagem.
+
+Essas regras são importantes para garantir que os documentos legais sejam claros, precisos e justos, protegendo todas as partes envolvidas de possíveis fraudes ou mal-entendidos. Na prática, isso significa que ao lidar com documentos legais, especialmente em contextos judaicos, é crucial seguir essas diretrizes para garantir a validade e a justiça.

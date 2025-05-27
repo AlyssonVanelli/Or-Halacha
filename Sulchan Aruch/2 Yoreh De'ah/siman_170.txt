@@ -1,0 +1,34 @@
+SIMAN 170
+
+1. Um judeu que toma dinheiro emprestado de um não-judeu com juros não pode ter outro judeu como fiador, pois, de acordo com as leis deles, o credor primeiro demanda o fiador. Assim, o fiador acaba cobrando do judeu os juros que ele deve ao não-judeu. Portanto, se o não-judeu aceitar não demandar o fiador primeiro, isso é permitido. Nota: Atualmente, presume-se que o não-judeu aceita essa condição, pois essa é a prática comum, e isso é permitido apenas onde o costume é demandar primeiro o devedor.
+
+2. Alguns dizem que isso é proibido apenas no caso de um "fiador de tipo 'Shaluf Dutz'", que é um fiador que limpa o devedor da responsabilidade perante o credor, como o "Shaluf Dutz", uma erva usada para limpar as mãos da sujeira. Ou seja, quando o credor não tem qualquer relação com o devedor, pois ele pode direcionar o credor ao fiador. Nota: Se alguém se tornou fiador, ele deve pagar qualquer perda que o devedor tenha por sua causa, mas não precisa pagar os juros que o devedor pagou por ele, pois não se diz para pagar juros. E se ele já pagou os juros, não se retira o dinheiro dele, pois não é pior do que "pó de juros".
+
+3. Da mesma forma, um não-judeu que toma dinheiro emprestado de um judeu com juros, é proibido para um judeu ser seu fiador. Nota: A menos que ele tenha estipulado com o não-judeu que enquanto ele tiver como pagar, ele não direcionará o credor ao fiador, então é permitido receber o principal e os juros do judeu se o não-judeu não pagar. E se o judeu for fiador apenas para o principal e não para os juros, ou vice-versa, é permitido. Isso é apenas quando o não-judeu recebe o dinheiro diretamente do credor, mas se o judeu for fiador e receber o dinheiro diretamente, mesmo que seja para o não-judeu, é proibido. Isso é apenas sem penhor, mas se ele der um penhor do não-judeu pelo principal, ele pode ser fiador para os juros, pois o empréstimo principal é sobre o penhor, mesmo que ele o receba do judeu credor, é como se ele tivesse emprestado ao não-judeu. E se o judeu tiver um penhor do não-judeu ou um fiador não-judeu, e um judeu vier e disser ao credor para devolver o penhor ao não-judeu ou liberar o fiador não-judeu e ele se tornar fiador, ele deve pagar todo o principal e os juros acumulados até aquele dia, mas não os juros que se acumularão a partir de então, a menos que o penhor valesse mais, então ele deve pagar juros até o valor do penhor ou devolver o penhor. E se o não-judeu consolidar o principal com os juros, então mesmo o que se acumular depois é considerado como principal e ele deve pagar tudo, mesmo que o penhor não valesse ou mesmo que não houvesse penhor, mas ele liberou o fiador não-judeu que ele tinha.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda as regras sobre empréstimos com juros entre judeus e não-judeus, especificamente no contexto de garantias ou fiadores. Vamos explicar isso de forma prática:
+
+1. **Empréstimos com Juros e Fiadores:**
+   - **Juros:** No judaísmo, cobrar ou pagar juros entre judeus é proibido. No entanto, quando um judeu toma dinheiro emprestado de um não-judeu, os juros podem ser aplicáveis.
+   - **Fiador:** Um fiador é alguém que se compromete a pagar a dívida se o devedor original não puder. No contexto judaico, há preocupações específicas sobre como isso é feito.
+
+2. **Regras para Fiadores Judeus:**
+   - Se um judeu toma um empréstimo de um não-judeu com juros, outro judeu não deve ser o fiador, porque, segundo as leis de muitos países, o credor pode cobrar primeiro do fiador. Isso significa que o fiador judeu acabaria pagando os juros, o que é problemático.
+   - No entanto, se o não-judeu concordar em não cobrar primeiro do fiador, então é permitido. Hoje em dia, presume-se que essa é a prática comum, então, em muitos casos, isso é permitido.
+
+3. **Tipos de Fiadores:**
+   - **"Shaluf Dutz":** Este é um tipo de fiador que "limpa" a responsabilidade do devedor, como uma erva que limpa sujeira. Isso significa que o credor pode ir diretamente ao fiador sem passar pelo devedor. Este tipo de fiador é problemático porque o credor não tem mais relação com o devedor.
+   - Se alguém se torna um fiador e causa prejuízo ao devedor, ele deve compensar o devedor, mas não precisa pagar os juros que o devedor pagou por ele.
+
+4. **Empréstimos de Judeus para Não-Judeus:**
+   - Se um não-judeu toma dinheiro emprestado de um judeu com juros, um judeu não deve ser o fiador, a menos que haja um acordo de que o credor não irá diretamente ao fiador enquanto o devedor puder pagar.
+   - Se o judeu é fiador apenas para o principal (a quantia original emprestada) e não para os juros, ou vice-versa, isso é permitido.
+
+5. **Penhor e Garantias:**
+   - Se há um penhor (um bem dado como garantia) do não-judeu, o judeu pode ser fiador para os juros, pois o empréstimo principal está garantido pelo penhor.
+   - Se um judeu substitui um penhor ou um fiador não-judeu, ele deve pagar o principal e os juros acumulados até aquele momento, mas não os juros futuros, a menos que o penhor valha mais.
+
+Essas regras são importantes para garantir que as transações financeiras entre judeus e não-judeus sejam feitas de maneira que respeite as leis judaicas sobre juros, evitando que judeus acabem indiretamente pagando ou recebendo juros de outros judeus. Na prática contemporânea, essas leis ajudam a orientar como os judeus devem se comportar em situações financeiras complexas, especialmente em contextos internacionais onde as leis locais podem diferir das leis judaicas.

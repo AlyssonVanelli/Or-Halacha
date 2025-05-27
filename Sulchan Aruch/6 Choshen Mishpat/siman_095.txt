@@ -1,0 +1,42 @@
+SIMAN 95
+
+**Lei sobre quais juramentos são feitos em relação a terrenos e a lei do hekdesh (consagração) nos dias de hoje. Contém seis seções:**
+
+1. Estes são os assuntos sobre os quais não se faz juramento pela Torá: terrenos, mesmo os da diáspora, escravos, documentos e consagrações. Da mesma forma, propriedades de gentios, seja em caso de reconhecimento parcial ou negação total, ou quando uma única testemunha o contradiz, ou em juramento de guardiões, mesmo que tenham sido negligentes e perdidos, estão isentos de pagamento, seja um guardião gratuito ou remunerado, e um mutuário. Se houver um acordo para pagar tudo conforme o estipulado, deve-se seguir o acordo (Maimônides, Capítulo 2 das Leis de Aluguel) (ver também Siman 66, Seção 40).
+
+2. No entanto, o juramento de heset é feito mesmo sobre esses assuntos, e também através de gilgul (extensão do juramento) se faz juramento sobre eles. As consagrações mencionadas referem-se apenas ao hekdesh gavoah (consagração elevada), mas consagrações para os pobres, sinagogas ou um Sefer Torá e similares, são juradas como se fossem propriedades comuns.
+
+3. Alguns dizem que algo que foi separado e depois anexado ao terreno não é considerado como terreno (Tur em nome de Itur), mas há quem discorde. Portanto, se alguém emprestou uma casa e ela foi queimada, está isento de pagamento (Mordechai, Capítulo dos Juízes, e veja adiante Siman 301).
+
+4. Se alguém reivindica uvas prontas para serem colhidas e grãos secos prontos para serem ceifados, e o réu admite parte e nega parte, ele deve jurar sobre eles como sobre outros bens móveis, desde que não precisem do terreno, pois tudo que está pronto para ser colhido é considerado como colhido em termos de negação e admissão. Mas se precisarem do terreno, são considerados como terreno em todos os aspectos.
+
+5. Se alguém reivindica dois meses de aluguel de um pátio e o réu admite apenas um mês, isso é considerado uma admissão parcial. Se o aluguel do mês negado vale dois kesef, ele deve jurar, pois a reivindicação não é sobre o terreno em si, mas sobre o aluguel, que é móvel.
+
+6. Se alguém entrega um documento a outro e afirma que tinha dez dinarim de valor, e o outro diz que nunca existiu tal coisa, ou alega que foi perdido, está isento até mesmo do juramento de heset, pois mesmo que tenha sido negligente e perdido, está isento, como já foi explicado.
+
+7. Se alguém reivindica utensílios e terrenos, seja admitindo todos os utensílios e negando todos os terrenos, ou admitindo todos os terrenos e negando todos os utensílios, ou admitindo parte dos terrenos e negando todos os utensílios, está isento do juramento da Torá. Mas se negar todos os terrenos e admitir parte dos utensílios e negar parte deles, deve jurar o juramento da Torá sobre os utensílios, e o juramento é estendido aos terrenos. O mesmo se aplica se reivindicar utensílios e escravos ou utensílios e documentos.
+
+8. Se alguém cavar buracos, valas e cavernas no campo de outro e causar dano, é obrigado a pagar, seja alegando que cavou e o réu diz que não cavou, ou alegando que cavou duas cavernas e o réu diz que cavou apenas uma, ou se houver uma testemunha que ele cavou e o réu diz que não cavou nada, está isento do juramento da Torá. Alguns dizem que isso se aplica apenas se a reivindicação for para preencher as escavações, mas se a reivindicação for para pagar a depreciação, é como outras reivindicações monetárias (Tur em nome de Raavad).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 95 do Shulchan Aruch Choshen Mishpat, é importante desmistificar alguns conceitos e termos técnicos que aparecem no texto. Vamos abordar cada seção de forma prática e acessível:
+
+1. **Juramentos e Propriedades Especiais**: A Torá, que é a lei judaica, não exige juramentos em disputas sobre terrenos, escravos, documentos e bens consagrados (hekdesh). Isso significa que, em casos de disputa sobre esses itens, a pessoa não precisa jurar para provar sua posição. Isso também se aplica a propriedades de não-judeus e a situações em que alguém é acusado de perder algo que estava guardando. Se houver um acordo prévio sobre como resolver disputas, esse acordo deve ser seguido.
+
+2. **Juramento de Heset e Gilgul**: Mesmo que a Torá não exija juramentos para os itens mencionados, existe um tipo de juramento chamado "heset" que pode ser aplicado. Além disso, o conceito de "gilgul" permite que um juramento sobre um assunto se estenda a outros assuntos relacionados. No caso de bens consagrados, apenas aqueles destinados a propósitos elevados (hekdesh gavoah) são isentos de juramento. Bens consagrados para causas como caridade ou sinagogas são tratados como propriedades comuns e podem exigir juramento.
+
+3. **Itens Separados e Anexados ao Terreno**: Há uma discussão sobre se algo que foi separado do terreno e depois anexado novamente é considerado parte do terreno. Isso é relevante porque, se for considerado parte do terreno, não se faz juramento sobre ele. Por exemplo, se uma casa emprestada pega fogo, a pessoa que emprestou a casa não precisa pagar por ela.
+
+4. **Colheitas Prontas para Colheita**: Se alguém reivindica uvas ou grãos prontos para serem colhidos, e a outra parte admite parte da reivindicação, deve-se jurar sobre eles como se fossem bens móveis, desde que não dependam do terreno. Isso significa que, para fins de juramento, são tratados como se já tivessem sido colhidos.
+
+5. **Aluguel de Propriedades**: Se há uma disputa sobre o aluguel de um pátio, e a pessoa admite parte da dívida, isso é considerado uma admissão parcial. Se o valor do aluguel negado for significativo, a pessoa deve jurar, pois o aluguel é considerado um bem móvel, não um terreno.
+
+6. **Documentos e Juramentos**: Se alguém entrega um documento a outra pessoa e há uma disputa sobre seu valor ou existência, a pessoa não precisa jurar, mesmo que tenha sido negligente e perdido o documento. Isso se deve à natureza especial dos documentos na lei judaica.
+
+7. **Combinação de Reivindicações**: Quando há reivindicações envolvendo tanto utensílios quanto terrenos, a necessidade de juramento depende de como as reivindicações são feitas. Se a pessoa admite parte dos utensílios, deve jurar sobre eles, e esse juramento pode se estender aos terrenos.
+
+8. **Danos a Propriedades**: Se alguém causa danos ao cavar no campo de outra pessoa, deve pagar pelos danos. No entanto, não precisa jurar sobre a disputa, a menos que a reivindicação seja para pagar pela depreciação do terreno, o que é tratado como uma reivindicação monetária comum.
+
+Essas leis refletem a complexidade das disputas legais na tradição judaica e como elas são tratadas de acordo com a halachá (lei judaica). Elas são relevantes hoje em dia para resolver disputas de forma justa e de acordo com a tradição.

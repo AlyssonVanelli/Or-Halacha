@@ -1,0 +1,36 @@
+SIMAN 343
+
+**Lei sobre o empréstimo após o término do período de empréstimo. Contém 2 parágrafos:**
+
+1. Quando alguém toma emprestado um objeto ou qualquer coisa por um período de tempo, assim que esse tempo termina, o objeto emprestado retorna à posse do proprietário original, e o tomador do empréstimo fica isento de responsabilidade por eventos imprevistos, mesmo que o objeto ainda esteja em sua casa. No entanto, ele continua responsável por roubo e perda, como um "shomer sachar" (guardião pago). Se o objeto foi enviado de volta ao proprietário durante o período de empréstimo, seja pelas mãos de um servo ou mensageiro do proprietário ou do tomador do empréstimo, isso é explicado no Siman 340.
+
+2. Um "shomer sachar" (guardião pago) por um período de tempo, uma vez que o tempo termina, sua responsabilidade de guarda também termina. Mesmo que o objeto ainda esteja em sua casa, ele é considerado apenas um "shomer chinam" (guardião não pago).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender melhor o que está sendo discutido no Siman 343 do Shulchan Aruch Choshen Mishpat, vamos explicar os conceitos e a aplicação prática dessas leis:
+
+### Conceitos Técnicos
+
+1. **Empréstimo de Objetos**: Quando alguém empresta um objeto, como uma ferramenta ou um livro, para outra pessoa por um período específico, há regras sobre o que acontece quando esse período termina.
+
+2. **Shomer Sachar (Guardião Pago)**: Este é alguém que está cuidando de um objeto e recebe algum tipo de compensação por isso. Ele tem a responsabilidade de proteger o objeto contra roubo e perda.
+
+3. **Shomer Chinam (Guardião Não Pago)**: Este é alguém que cuida de um objeto sem receber pagamento. Sua responsabilidade é menor, e ele não é responsável por roubo ou perda, a menos que tenha sido negligente.
+
+### Relevância Prática
+
+- **Após o Período de Empréstimo**: Quando o tempo do empréstimo termina, o objeto deve ser devolvido ao dono. Se o objeto ainda está com quem pegou emprestado, essa pessoa não é mais responsável por danos imprevistos, como um acidente que danifique o objeto. No entanto, ainda precisa cuidar para que o objeto não seja roubado ou perdido, como faria um guardião pago.
+
+- **Responsabilidade do Guardião Pago**: Se alguém está cuidando de um objeto como um guardião pago, sua responsabilidade termina quando o período acordado termina. Mesmo que o objeto ainda esteja em sua posse, ele passa a ser considerado um guardião não pago, com menos responsabilidade.
+
+### Pontos Esclarecedores
+
+- **Devolução do Objeto**: Se o objeto foi enviado de volta ao dono durante o período de empréstimo, as regras sobre quem é responsável podem variar. Isso é discutido em outro trecho do Shulchan Aruch (Siman 340).
+
+- **Mudança de Responsabilidade**: A mudança de responsabilidade de um guardião pago para um não pago é automática quando o período termina, mesmo que o objeto não tenha sido fisicamente devolvido.
+
+### Aplicação na Vida Contemporânea
+
+Essas leis são relevantes para situações modernas, como o empréstimo de equipamentos, livros ou qualquer outro item. Elas ajudam a definir claramente as responsabilidades de cada parte envolvida, evitando mal-entendidos e disputas. Por exemplo, se você empresta uma ferramenta a um vizinho por uma semana, ao final desse período, ele não é mais responsável por danos acidentais, mas ainda deve garantir que a ferramenta não seja roubada ou perdida até que seja devolvida.

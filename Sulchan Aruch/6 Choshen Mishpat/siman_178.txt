@@ -1,0 +1,35 @@
+SIMAN 178
+
+**Parceiro que pediu ao coletor de impostos que o perdoasse. Contém três seções:**
+
+1. Quando um dos parceiros pede ao coletor de impostos que o perdoe e ele concede o perdão, isso é considerado como se ele fosse um emissário de todos os parceiros para pedir em nome de todos. No entanto, se ele, por conta própria e sem negociação, diz "eu perdoo em nome de fulano", o perdão é apenas para ele mesmo.
+
+2. Alguém que foi isento pelo rei de todos os impostos e taxas ainda assim é obrigado a contribuir para as despesas que a comunidade tem com suas necessidades e segurança. (Veja acima no Siman 163).
+
+3. Um parceiro que entra no campo compartilhado e o trabalha é considerado como se tivesse permissão e recebe como um arrendatário da cidade, mesmo que o campo esteja pronto para a colheita ou mesmo em um campo que não é usualmente plantado. O mesmo se aplica se ele lida com um bem móvel compartilhado sem permissão. 
+
+   *Nota: O parceiro não recebe reembolso das despesas, exceto de acordo com o lucro que ele gerou. Se não gerou lucro, não recebe nada (conforme Nimmukei Yosef no capítulo "Chazakat Habatim" e Mordechai no capítulo "Hagazal Batra"). Se o outro parceiro se opõe à ação, como construir um edifício, e ele se opõe, se for algo que não pode ser feito sem construção, o parceiro deve dar-lhe sua parte. Se não for necessário construir, o parceiro pode dizer "leve sua madeira e pedras". (Nota de Maimônides, Leis de Roubo).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 178 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### 1. Perdão de Impostos por um Parceiro
+
+- **Contexto:** Imagine que você e outras pessoas são sócios em um negócio. Um de vocês vai até o coletor de impostos e consegue que ele perdoe a dívida de impostos.
+- **Explicação:** Se esse sócio conseguiu o perdão dos impostos, é como se ele estivesse representando todos os sócios, a menos que ele tenha dito explicitamente que o perdão é apenas para ele. Isso significa que, em situações de parceria, as ações de um sócio podem afetar todos, a menos que ele deixe claro que está agindo apenas por si mesmo.
+
+### 2. Isenção de Impostos pelo Rei
+
+- **Contexto:** Alguém recebe uma isenção de impostos do governo (ou do "rei", no contexto antigo).
+- **Explicação:** Mesmo que essa pessoa não precise pagar impostos ao governo, ela ainda deve contribuir para as despesas da comunidade, como segurança e infraestrutura. Isso mostra a importância da responsabilidade comunitária, onde todos devem ajudar a manter o bem-estar coletivo, independentemente de isenções pessoais.
+
+### 3. Trabalho em Propriedade Compartilhada
+
+- **Contexto:** Dois ou mais sócios possuem um campo ou um bem móvel (como um carro ou equipamento).
+- **Explicação:** Se um dos sócios decide trabalhar no campo ou usar o bem sem pedir permissão, ele é tratado como se tivesse permissão, mas só recebe uma parte dos lucros que gerou. Se não houver lucro, ele não recebe nada. Isso incentiva a colaboração e o respeito entre sócios, garantindo que ninguém se beneficie injustamente do trabalho ou dos recursos dos outros.
+
+- **Construção e Objeções:** Se um sócio quer construir algo e o outro não concorda, a construção só pode acontecer se for absolutamente necessária. Caso contrário, o sócio que não concorda pode pedir que o outro retire seus materiais. Isso protege os direitos de todos os sócios e evita que um sócio imponha suas decisões sobre os outros sem consenso.
+
+Essas leis refletem a importância da comunicação, da responsabilidade compartilhada e do respeito mútuo em parcerias e comunidades, valores que continuam sendo relevantes na vida judaica contemporânea.

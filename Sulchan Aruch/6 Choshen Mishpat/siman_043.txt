@@ -1,0 +1,88 @@
+SIMAN 43
+
+**Siman 43: A Necessidade de Escrever a Data em um Documento e Todos os Detalhes de Prioridade e União. Contém 29 Seções:**
+
+1. Deve-se escrever a data em um documento de empréstimo para que se saiba de quais compradores o credor pode cobrar, pois dos compradores que adquiriram antes da data do empréstimo, ele não pode cobrar. Se não houver data no documento, ele é válido para cobrar do devedor, mas não dos compradores, que podem alegar que compraram antes do empréstimo.
+
+2. Há quem diga que se a compra foi feita após os testemunhos terem visto o documento escrito e assinado, o credor pode cobrar deles.
+
+3. Um recibo sem data é válido, e a vantagem está com o portador do recibo (Responsa do Rosh 20:73).
+
+4. Se o escriba omitiu e não escreveu "desde a criação do mundo" e também não escreveu "cinco mil", é válido, mesmo que tenha omitido as centenas e escrito apenas a unidade, é válido. Mas se escreveu os milhares e a unidade e omitiu as centenas ou dezenas, é inválido (Rivash Siman 322).
+
+5. Se escreveu "milhares" e omitiu "cinco", é válido.
+
+6. Se escreveu "no quarto dia, vinte dias do mês de Shevat" e omitiu "no sábado", é válido.
+
+7. Se escreveu "no quarto dia da semana, 22 de Tishrei" e não coincide com o quarto dia da semana de Tishrei daquele ano, mas sim no dia 24, ainda assim é válido.
+
+8. Um documento escrito à mão não precisa ter data.
+
+9. Documentos de dívida antecipados são inválidos, pois permitem cobrar de compradores de forma indevida. Portanto, os sábios penalizaram o credor, e ele não pode cobrar com um documento antecipado, exceto de bens livres, devido ao receio de que ele possa cobrar a partir da data anterior. Se o devedor alegar que pagou, é tratado como qualquer outra alegação em documentos. Se ele alegar que o documento é falso, ele é considerado um mentiroso. Há quem diga que é completamente inválido (Tur em nome de R"Y e Rosh, e Rivash Siman 322).
+
+10. Quando dizemos que ele pode cobrar de bens livres, é quando os testemunhos não anteciparam a data intencionalmente. Mas se anteciparam intencionalmente, mesmo de bens livres não pode cobrar, pois os testemunhos são inválidos por terem assinado falsamente.
+
+11. Um documento de presente que deveria ter sido escrito no ano 58 e foi escrito no ano 57, e é evidente que é um erro do escriba, pois está escrito "e dê a fulano, meu genro", e no ano 57 ele ainda não era seu genro, e está assinado por uma pessoa de grande estatura em Torá e piedade, isso não salva o documento de ser inválido. No entanto, se os testemunhos estão presentes e sua escrita não é conhecida de outro lugar, eles podem assinar outro documento a partir da segunda data. Se sua escrita é conhecida de outro lugar, eles não são mais confiáveis. No entanto, o receptor do presente é confiável para dizer que foi um erro, pois poderia ter dito que o documento é válido e que no ano 57 ele adquiriu.
+
+12. Um documento antecipado que diz "antes da assinatura dos testemunhos, este documento foi escrito no dia tal e não foi assinado até o dia tal" é válido.
+
+13. Mesmo que os testemunhos tenham visto o empréstimo e o devedor tenha dito para escrever e assinar o documento e entregá-lo ao credor, se não houve aquisição, escreve-se a data em que foi entregue, não a data do empréstimo.
+
+14. Documentos de dívida atrasados são válidos, pois enfraquecem a posição do credor, que só pode cobrar a partir da data do documento. Mesmo que não esteja escrito que é atrasado, é válido. Isso se aplica quando está escrito "e adquiriu", mas se não estiver escrito, são inválidos, a menos que esteja explicitamente escrito que foi atrasado. Não se deve atrasar nenhum documento desde o início, pois parece uma mentira (Rabino Yerucham 54:4).
+
+15. A validade dos documentos de dívida atrasados aplica-se apenas a documentos de empréstimo, mas em documentos de compra e venda, mesmo atrasados, são inválidos, a menos que o atraso seja explicitamente mencionado.
+
+16. Um documento cuja data está escrita no sábado ou no décimo de Tishrei é considerado atrasado e válido, e não se teme que seja antecipado, pois presume-se que o documento está em sua presunção, já que é sabido que não se escreve no sábado ou no Yom Kipur, e por isso foi atrasado. Há quem diga que se o credor exigir um juramento, ele deve jurar, mas apenas em um documento confirmado. Se não for confirmado, cabe ao credor trazer prova.
+
+17. Qualquer documento que venha diante de nós, presumimos que foi entregue na data escrita, exceto quando há suspeita, como quando caiu, pois uma vez que há suspeita, não pode cobrar até que traga prova de que chegou às suas mãos na data escrita, se não houver aquisição.
+
+18. Se foi escrito à noite e assinado no dia seguinte, é válido, pois o dia segue a noite. Mas se foi escrito durante o dia e assinado à noite, é inválido. Isso se aplica quando não estão ocupados com o assunto, mas se estão, é válido. E apenas se não houve aquisição, mas se houve, mesmo que não assinem até muito tempo depois, é válido. Portanto, testemunhos que viram a aquisição e atrasaram a escrita até depois, se lembram da data da aquisição, escrevem a data daquele dia, senão escrevem a data da escrita.
+
+19. Há quem diga que quando dizemos que estando ocupados com o assunto é válido, isso se aplica apenas a documentos de empréstimo, mas em documentos de obrigação, onde a obrigação é feita por aquisição ou documento, não.
+
+20. Quando escrevem o dia em que adquiriram, confiam na data da escrita para aquele dia e escrevem "adquirimos de fulano no dia tal e escrevemos e entregamos a fulano". E quando escrevem o dia em que estão, confiam na escrita para aquele dia em que assinam e escrevem "adquirimos de fulano e escrevemos e assinamos no dia tal e entregamos a fulano". Se não, parece uma mentira. No entanto, se escreverem de forma geral "em tal lugar adquirimos de fulano", não parece uma mentira (Rabino Yerucham 54:2, Tur de Beit HaBechirah).
+
+21. Se não se lembram do dia da aquisição, não devem dizer "é claro para nós que adquirimos dele em Tishrei e não sabemos em que dia, e por isso escrevemos desde o início de Cheshvan", pois isso parece uma mentira. Há quem diga que se lembram que adquiriram no início, meio ou fim de Tishrei, devem escrever "no primeiro terço do mês tal, ou no meio, ou no último terço".
+
+22. Se o testemunho foi entregue a eles em uma cidade e os testemunhos escreveram em outra cidade, não mencionam no documento o lugar onde o testemunho foi entregue, mas sim o lugar onde assinaram. Isso se aplica quando não escrevem a data da aquisição e escrevem a data da escrita, mas se lembram da data da aquisição e a escrevem, então devem escrever o lugar onde a aquisição foi feita, pois se escreverem o lugar da escrita, estarão mentindo e o documento será inválido. Quando escrevem o lugar da escrita, escrevem "assim nos disse fulano e escrevemos em tal lugar", mas quando escrevem o lugar onde as coisas foram entregues, escrevem "fulano nos disse ou adquirimos de fulano em tal lugar e escrevemos e assinamos e entregamos a fulano".
+
+23. Quando dizemos que escrevem o lugar da escrita, mesmo que adquiram em outro lugar, é apenas quando a moeda não muda de um lugar para outro, ou mesmo se muda, desde que esteja escrito no documento a moeda que será usada em tal lugar. Mas se a moeda muda do lugar da entrega para o lugar da escrita e não está escrito no documento a moeda usada em tal lugar, não escrevem senão o lugar onde as coisas foram entregues, pois a moeda daquele lugar é a que está vinculada. Se escreverem outro lugar, será vinculada à moeda usada no lugar da escrita do documento.
+
+24. Um documento que não tem escrito o lugar onde foi escrito é válido (e isso é provado acima, Siman 42:14).
+
+25. Reuven e Shimon, cada um com um documento sobre Levi. No documento de Reuven está escrito "no 25 de Nissan" e no de Shimon está escrito "em Nissan" sem especificar. Levi tem apenas um campo que não cobre a dívida de ambos. Dá-se a Reuven, pois talvez o documento de Shimon foi no final de Nissan. Assim, Shimon não pode cobrar de compradores que compraram de Levi a partir de Iyar, pois dirão que seu tempo é desde o início de Nissan e deixamos para você um lugar para cobrar sua dívida, que é o campo que Reuven cobrou, pois ele cobrou indevidamente, já que você é anterior a ele. Portanto, se escreverem uma autorização um para o outro, podem cobrar de compradores que compraram a partir de Iyar.
+
+26. Mesmo que não esteja escrito no recibo nem os testemunhos do documento nem sua data, desde que o valor do dinheiro do documento e do recibo sejam iguais, dizemos que o recibo foi escrito para aquele documento.
+
+27. Quem apresentou um documento de dívida em Nissan sem especificar e apresentou um perdão datado de 18 de Nissan, esse perdão tem força para cancelar a dívida.
+
+28. Reuven apresentou um documento de dívida sobre Shimon datado de um certo dia, e Shimon apresentou um recibo para aquele documento datado no mesmo dia, a mão do portador do documento é inferior.
+
+29. Reuven apresentou um documento de dívida sobre Shimon datado de 5 de Nissan, e Shimon apresentou um recibo datado de 5 de Nissan, dizendo que Reuven perdoou todas as reivindicações que tinha contra ele até aquele dia. Reuven cobra seu documento, pois na linguagem comum "até" não inclui o próprio dia. Mas se estivesse escrito que ele perdoou todas as reivindicações que tinha contra ele até agora, seria uma dúvida, e por dúvida não retiramos dinheiro.
+
+30. Dois documentos feitos em um ano bissexto, um com "Adar" sem especificar e outro com "Adar II", e o devedor não tem bens suficientes para ambos, dá-se ao que está escrito "Adar" sem especificar. Se ambos estão escritos "Adar" sem especificar, é como se ambos estivessem escritos "Adar I", e dá-se ao que tem a data anterior no número de dias do mês. (Veja em Orach Chaim Siman 427 como escrever, e em Even HaEzer Siman 126). Qualquer tempo escrito em um documento, como "até a Páscoa" ou "até a colheita", é julgado como em votos.
+
+31. Se estiver escrito no documento "até depois da Páscoa", significa até que a maioria dos dias entre a Páscoa e Shavuot tenham passado. (Até aqui, dia 21).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 43 do Shulchan Aruch Choshen Mishpat trata de regras sobre a documentação de dívidas e transações, com foco na importância de incluir datas e outros detalhes para garantir a validade e a justiça nas cobranças. Vamos explicar os principais pontos de forma prática:
+
+1. **Importância da Data**: Quando alguém empresta dinheiro, é crucial que o documento de empréstimo inclua a data. Isso ajuda a determinar de quem o credor pode cobrar, especialmente se o devedor vendeu propriedades após o empréstimo. Se a data estiver ausente, o credor só pode cobrar diretamente do devedor, não de quem comprou propriedades do devedor.
+
+2. **Recibos e Erros de Data**: Um recibo sem data ainda é válido, mas a pessoa que possui o recibo tem vantagem. Se houver erros na data, como omitir partes do ano, o documento pode ainda ser válido, dependendo do que foi omitido.
+
+3. **Documentos Antecipados e Atrasados**: Um documento de dívida com uma data anterior à real (antecipado) é problemático, pois pode permitir cobranças injustas. Por isso, os sábios penalizaram o credor, limitando suas opções de cobrança. Já documentos com datas posteriores (atrasados) são válidos, pois não prejudicam ninguém.
+
+4. **Especificidade de Datas**: Se um documento menciona um dia específico, mas não coincide com o calendário, ele ainda pode ser válido. A precisão é importante, mas há flexibilidade em certos casos.
+
+5. **Assinaturas e Localização**: A localização onde o documento é assinado deve ser mencionada, especialmente se a moeda ou outras condições variam de um lugar para outro. Isso garante clareza sobre as condições do acordo.
+
+6. **Conflitos de Documentos**: Quando há dois documentos com datas conflitantes, o que tem a data mais específica geralmente tem prioridade. Isso é importante para resolver disputas sobre quem tem direito a cobrar primeiro.
+
+7. **Perdão de Dívidas**: Se um documento de perdão de dívida tem uma data específica, ele pode cancelar a dívida, mesmo que o documento de dívida não especifique a data.
+
+8. **Ano Bissexto**: Em anos bissextos, onde há dois meses de Adar, a especificação de "Adar I" ou "Adar II" é importante. Se não especificado, presume-se "Adar I".
+
+Essas regras são relevantes na vida judaica contemporânea, especialmente em comunidades que seguem a lei judaica para transações financeiras. Elas garantem justiça e clareza, prevenindo disputas e fraudes. A precisão na documentação é essencial para proteger os direitos de todas as partes envolvidas.

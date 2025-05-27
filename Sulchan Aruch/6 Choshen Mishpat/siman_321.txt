@@ -1,0 +1,37 @@
+SIMAN 321
+
+**Aquele que arrenda uma casa de irrigação e um campo de árvores e eles secaram. Contém dois parágrafos:**
+
+1. Aquele que arrenda ou recebe um campo de seu amigo, sendo este um "Beit Hashlachin" (campo irrigado) ou um "Beit HaIlan" (campo de árvores), e a fonte de água do "Beit Hashlachin" secou, mas o grande rio não parou, sendo possível trazer água com baldes, ou se a árvore do "Beit HaIlanot" foi cortada, não se deduz do arrendamento. Porém, se for uma calamidade pública, como o rio secar, deduz-se do arrendamento.
+
+   *Nota: No caso de um contrato de parceria, não se deduz nada, mas dividem conforme o acordo (Maguid, capítulo 8 de Aluguel, N.Y. início do capítulo "Hamekabel"). E o que foi dito, que se for uma calamidade pública, deduz-se do arrendamento, aplica-se a qualquer situação semelhante, onde o assunto é completamente arruinado e é considerado uma calamidade pública, deduz-se do aluguel. Se for possível consertar com esforço e estratégias, não se deduz (Mahar"m Padua, Siman 39). Em qualquer caso onde se deduz, não há diferença entre o passado ou o futuro. Assim também decidiu o Mahar"m sobre um professor que o governante proibiu de ensinar, sendo uma calamidade pública, e toda a perda recai sobre o proprietário (Mordechai, capítulo "HaOmanin"). Há quem discorde e sustente que daqui em diante é considerado como uma rescisão, como foi dito acima no Siman 310 sobre o caso de alugar um burro e ele morrer, e se não rescindir, ele mesmo causou a perda e perdoou (Mahar"m Padua mencionado acima). A primeira opinião me parece a principal.*
+
+2. Se ele estava de pé dentro do campo e disse-lhe: "Este Beit Hashlachin eu alugo para você, este Beit HaIlan eu alugo para você", e a fonte secou ou a árvore foi cortada, deduz-se do arrendamento, pois ele está de pé dentro dela e não disse "este" exceto como quem diz "como está agora eu alugo".
+
+   *Nota: E há quem diga que isso se aplica apenas se as árvores foram cortadas a ponto de não restar uma plantação de dez para um "Beit Seah" e a fonte secou completamente. Mas se restar uma plantação de dez para um "Beit Seah" ou se a fonte não secou completamente, não se deduz (Tur). Portanto, se ele não estava de pé dentro dela e disse: "Eu alugo para você um Beit Hashlachin ou um Beit HaIlan", e a fonte secou ou a árvore foi cortada, não se deduz do arrendamento. E há quem diga que isso se aplica apenas se o arrendador disse ao arrendatário, mas se o arrendatário disse ao arrendador: "Eu arrendo de você um Beit Hashlachin", deduz-se, mesmo que ele não esteja de pé dentro dela (Tur em nome de Ramah e Maguid, capítulo 8 de Aluguel, N.Y. capítulo "Hamekabel").*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda questões relacionadas ao arrendamento de propriedades agrícolas, especificamente campos irrigados e campos de árvores, e como lidar com situações em que essas propriedades não podem mais ser usadas como originalmente pretendido devido a problemas como a falta de água ou a perda de árvores.
+
+### Explicação Prática:
+
+1. **Conceitos Técnicos:**
+   - **Beit Hashlachin:** Refere-se a um campo que depende de irrigação artificial, ou seja, precisa de água trazida de uma fonte externa para ser cultivado.
+   - **Beit HaIlan:** Refere-se a um campo de árvores, que pode ser um pomar ou uma área plantada com árvores frutíferas.
+   - **Calamidade Pública:** Um evento que afeta uma grande área ou muitas pessoas, como um rio secando, que não é culpa de uma única pessoa.
+
+2. **Relevância Prática:**
+   - Na vida contemporânea, essas leis podem ser aplicadas a contratos de aluguel ou arrendamento de propriedades agrícolas. Elas ajudam a determinar quem é responsável por perdas quando eventos fora do controle de ambas as partes ocorrem.
+   - Por exemplo, se você aluga um campo para cultivar e a fonte de água seca, a responsabilidade por essa perda pode ser ajustada dependendo se o evento é considerado uma calamidade pública.
+
+3. **Esclarecimentos:**
+   - Se a fonte de água de um campo irrigado seca, mas ainda é possível trazer água de outra forma (como com baldes), o arrendatário não pode deduzir o custo do aluguel. No entanto, se o rio principal secar, o que é uma calamidade pública, o arrendatário pode deduzir do aluguel.
+   - Se uma árvore em um campo de árvores é cortada, isso não afeta o aluguel, a menos que seja uma situação de calamidade pública.
+   - Se o arrendador e o arrendatário estavam no campo quando o contrato foi feito e o arrendador disse "este campo", isso implica que o campo está sendo alugado em seu estado atual. Se algo mudar drasticamente, como a fonte de água secar completamente, o arrendatário pode deduzir do aluguel.
+
+4. **Fidelidade ao Significado Original:**
+   - O texto original discute diferentes cenários e opiniões sobre como lidar com perdas em contratos de arrendamento. A explicação acima mantém a essência dessas discussões, esclarecendo quando e como as deduções no aluguel são permitidas.
+
+Essas leis são importantes para garantir justiça e clareza em acordos de arrendamento, especialmente em situações onde eventos imprevistos afetam a capacidade de usar a propriedade conforme planejado.

@@ -1,0 +1,26 @@
+SIMAN 412
+
+**Lei sobre a divisão do Eiruv. Contém um parágrafo:**
+
+1. Se alguém fez um Eiruv para a primeira metade do dia em direção ao norte e para a segunda metade do dia em direção ao sul, por engano, pensando que isso era permitido, ou se ele instruiu duas pessoas para fazerem o Eiruv em seu nome, e uma fez o Eiruv para o norte e a outra para o sul, se cada um colocou seu Eiruv no final de dois mil côvados, ele não deve se mover de seu lugar, pois não se sabe qual Eiruv é válido para ele. 
+
+2. No entanto, se os Eiruvin não foram colocados no final dos dois mil côvados, ele pode ir até onde for possível com base em ambos. Como assim? Se cada um colocou seu Eiruv a mil côvados de sua casa, ele tem mil côvados de sua casa para cada um dos Eiruvin. Se um foi colocado a leste no final de mil côvados e o outro a oeste no final de quinhentos, ele pode ir para o oeste mil côvados com base no que o Eiruv a leste deixou para ele, e para o leste mil e quinhentos côvados com base no que o Eiruv a oeste deixou para ele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido aqui, precisamos primeiro explicar alguns conceitos básicos:
+
+**Eiruv**: No contexto judaico, um "Eiruv" é uma solução haláchica que permite que certas atividades, que normalmente seriam restritas no Shabat (o dia de descanso judaico), sejam realizadas. Um tipo comum de Eiruv é o "Eiruv Techumin", que permite que uma pessoa caminhe além do limite padrão de 2.000 côvados (aproximadamente 1 km) a partir de sua residência no Shabat.
+
+**Côvado**: Uma medida de comprimento antiga, aproximadamente equivalente a 0,5 metros.
+
+Agora, vamos ao texto:
+
+1. **Divisão do Eiruv**: A situação descrita envolve alguém que tentou criar um Eiruv para duas direções diferentes no mesmo dia, ou pediu a duas pessoas para fazerem isso em seu nome. Se os Eiruvin (plural de Eiruv) foram colocados exatamente no limite de 2.000 côvados, a pessoa não pode se mover de sua posição inicial. Isso ocorre porque não está claro qual dos Eiruvin é válido, e ultrapassar o limite permitido no Shabat é uma violação das leis.
+
+2. **Eiruvin dentro do limite**: Se os Eiruvin foram colocados a menos de 2.000 côvados, a pessoa pode se mover dentro dos limites permitidos por ambos. Por exemplo, se um Eiruv está a 1.000 côvados ao norte e outro a 500 côvados ao sul, a pessoa pode caminhar 1.000 côvados ao norte e 1.500 côvados ao sul, pois o Eiruv ao sul "libera" mais espaço para caminhar ao norte.
+
+**Relevância prática**: Na vida judaica contemporânea, essas leis são relevantes para aqueles que observam o Shabat e desejam maximizar sua mobilidade dentro das restrições haláchicas. Planejar adequadamente onde colocar um Eiruv pode permitir que uma pessoa visite amigos, vá à sinagoga ou participe de eventos comunitários sem violar as leis do Shabat.
+
+**Pontos difíceis**: A principal dificuldade aqui é entender como os limites de movimento são calculados com base na localização dos Eiruvin. A chave é que cada Eiruv "libera" uma certa quantidade de espaço, e a pessoa pode se mover dentro do espaço liberado por ambos, desde que não ultrapasse o limite de 2.000 côvados no total.

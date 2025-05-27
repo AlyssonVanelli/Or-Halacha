@@ -1,0 +1,46 @@
+SIMAN 3
+
+**Sobre quantos juízes são necessários para julgar. Contém 4 seções:**
+
+1. Um tribunal não pode ter menos de três juízes. Qualquer grupo de três é chamado de tribunal, mesmo que sejam leigos, pois é impossível que não haja entre eles alguém que conheça as razões legais. No entanto, se não houver entre eles alguém que saiba julgar, eles ainda podem aceitar as alegações e enviá-las a um especialista. Eles podem julgar uma pessoa contra sua vontade se o réu se recusar a comparecer ao tribunal ou não quiser julgar com o autor em sua cidade. Mas se ele quiser julgar na cidade, mas não deseja os três escolhidos pelo autor, então cada um escolhe um juiz. Nota: Isso se aplica apenas a juízes não fixos, mas se forem juízes fixos na cidade, ele não pode recusar-se a ser julgado por eles.
+
+2. Menos de três juízes não constituem um tribunal, mesmo que não cometam erros, a menos que as partes aceitem ou que o juiz seja um especialista reconhecido. Atualmente, não se julga como um especialista reconhecido que pode julgar sozinho contra a vontade de alguém. Qualquer tribunal que não seja composto por três juízes, e que não tenha sido aceito pelas partes, e que não seja composto por especialistas reconhecidos, mesmo que sejam ordenados na Terra de Israel, a confissão feita perante eles é como uma confissão fora do tribunal, e as partes podem mudar suas alegações feitas perante eles. Se alguém negar perante eles e depois surgirem testemunhas, ele não é considerado um mentiroso. Mas se forem três, mesmo que não sejam ordenados, a confissão perante eles é como uma confissão no tribunal, e se alguém negar e depois surgirem testemunhas, ele é considerado um mentiroso e não pode mudar suas alegações.
+
+3. Embora um especialista reconhecido possa julgar sozinho, é uma mitzvá dos sábios que ele se sente com outros. Embora um tribunal de três seja completo, quanto mais juízes, melhor. É preferível que o julgamento seja decidido por onze do que por dez. Todos os que se sentam no tribunal devem ser sábios e adequados, e é proibido a um sábio sentar-se em julgamento até saber com quem está se sentando, para não se encontrar entre pessoas inadequadas e ser considerado parte de uma conspiração de traidores, e não de um tribunal.
+
+4. Quem não é um especialista e não foi aceito pelas partes, mesmo que tenha recebido permissão do chefe da diáspora, seu julgamento não é válido, mesmo que não cometa erros. Qualquer uma das partes pode voltar atrás e julgar perante um tribunal. Nota: A permissão dada pelo rei gentio atualmente não tem validade, mas se a comunidade o aceitar com base na carta do rei, ele pode julgar. Alguns dizem que se ele for erudito e sábio, a permissão do rei é eficaz, ou do oficial nomeado em sua cidade, pois isso está dentro da lei do reino para nomear juízes e oficiais conforme desejar. No entanto, quem faz isso sem a permissão da comunidade causa sofrimento ao público e será responsabilizado no futuro.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática o que está sendo discutido neste trecho do Shulchan Aruch, que é um importante código de leis judaicas:
+
+### 1. Quantos Juízes São Necessários?
+
+- **Tribunal de Três Juízes**: Para que um julgamento seja considerado válido, é necessário ter pelo menos três juízes. Isso é chamado de "Beit Din" ou tribunal. Mesmo que os juízes não sejam especialistas, presume-se que entre eles haja alguém que entenda as leis básicas. Se não houver, eles podem ouvir as alegações e depois consultar um especialista.
+
+- **Julgamento Contra a Vontade**: Se uma pessoa se recusar a comparecer ao tribunal ou não quiser ser julgada na cidade onde o autor do processo está, o tribunal pode forçá-la a participar. No entanto, se a pessoa apenas não concorda com os juízes escolhidos, cada parte pode escolher um juiz.
+
+- **Juízes Fixos**: Se a cidade já tem juízes estabelecidos, a pessoa não pode recusar ser julgada por eles.
+
+### 2. Menos de Três Juízes
+
+- **Validade do Tribunal**: Um tribunal com menos de três juízes não é considerado válido, a menos que as partes envolvidas aceitem ou que o juiz seja um especialista reconhecido. Hoje em dia, não se julga com um único especialista contra a vontade de alguém.
+
+- **Confissões e Testemunhos**: Se um tribunal não é composto por três juízes, as confissões feitas perante eles não têm o mesmo peso legal. As partes podem mudar suas alegações. No entanto, se houver três juízes, mesmo que não sejam especialistas, as confissões são consideradas válidas.
+
+### 3. Especialistas e Mitzvá
+
+- **Especialista Julgando Sozinho**: Embora um especialista possa julgar sozinho, é uma mitzvá (mandamento) que ele se sente com outros juízes. Mais juízes são preferíveis, pois trazem mais sabedoria ao julgamento.
+
+- **Qualidade dos Juízes**: Todos os juízes devem ser sábios e adequados. Um sábio deve saber com quem está se sentando para evitar ser associado a pessoas inadequadas.
+
+### 4. Juízes Não Especialistas
+
+- **Validade do Julgamento**: Se alguém não é um especialista e não foi aceito pelas partes, seu julgamento não é válido, mesmo que ele não cometa erros. As partes podem optar por um novo julgamento em um tribunal adequado.
+
+- **Permissão do Rei ou Líderes**: A permissão dada por um líder não judeu não tem validade a menos que a comunidade aceite o juiz. Se o juiz for sábio, a permissão pode ser eficaz, mas ele deve ser aceito pela comunidade. Caso contrário, ele pode causar problemas e será responsabilizado.
+
+### Relevância Prática
+
+Essas leis são importantes para garantir que os julgamentos sejam justos e que as decisões sejam tomadas por pessoas qualificadas. Na vida judaica contemporânea, essas regras ajudam a manter a ordem e a justiça dentro das comunidades, assegurando que as disputas sejam resolvidas de maneira adequada e respeitosa.

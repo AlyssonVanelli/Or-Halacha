@@ -1,0 +1,46 @@
+SIMAN 357
+
+**Leis sobre um pátio menor que quatro amot e um canal. Contém três seções:**
+
+1. Um pátio que é menor que quatro amot por quatro amot e está próximo ao domínio público não pode ser usado para despejar água nele no Shabat durante o verão. Isso ocorre porque, não tendo quatro amot, não pode absorver dois seah de água que uma pessoa normalmente usa diariamente, e é como se estivesse despejando no domínio público. Portanto, é necessário fazer uma cavidade que possa conter dois seah. *Nota: Toda cavidade de meio amah por meio amah com uma profundidade de três quintos de amah pode conter dois seah (Rambam).*
+
+   Seja feita dentro do pátio ou fora, mas se for feita fora, deve ser coberta com tábuas para que seja um makom patur (lugar isento) e a água caia de sua mão para o makom patur. Uma vez que a cavidade é feita, pode-se despejar nela quanto quiser. Se não contiver dois seah, não se deve despejar nela de forma alguma. Se o pátio tiver quatro por quatro, mesmo que seja longo e estreito, ou durante a estação das chuvas, em qualquer pátio é permitido despejar quanto quiser. Um pátio e uma varanda, que não têm individualmente quatro amot, podem se combinar para permitir o despejo de água.
+
+2. Isso se aplica a um pátio próximo ao domínio público, mas se estiver próximo a um carmelit, mesmo que seja muito pequeno, não precisa de uma cavidade, mesmo no verão. *Nota: Veja também Siman 367.*
+
+3. Um canal coberto por quatro amot de comprimento no domínio público e que tem quatro por quatro amot permite despejar água mesmo na boca do canal, mesmo no verão, embora a água saia imediatamente para fora. Desde que não seja um tubo de madeira, que não absorve água, mas se for feito como um piso de pedras, que absorve, é permitido. Segundo o Rambam, mesmo que o canal ou tubo tenha cem amot de comprimento, não se deve despejar na sua boca no verão, mas sim fora do canal, e a água desce para o canal.
+
+   Isso se aplica quando a água sai para o domínio público, mas se sair para um carmelit, é permitido despejar na boca do canal, mesmo no verão. *Nota: Alguns dizem que não há diferença entre carmelit e domínio público (Beit Yosef em nome de Tosafot e Rosh no capítulo "Como se associam"). Isso se aplica apenas a um carmelit dentro da cidade, que pode ser confundido com o próprio domínio público, mesmo agora que não temos um domínio público, mas um carmelit fora da cidade ou um pátio não eruvado é permitido (Mordechai no capítulo "O que lança" e Sefer Mitzvot Gadol e outros). Uma cidade cercada por muralhas e não eruvada é como um pátio não eruvado (Mordechai no final do capítulo "O que habita" e Terumat HaDeshen Siman 73 e 74). Se o tubo estiver acima de dez tefachim, onde a água passa por um makom patur para o carmelit, pode-se ser leniente (Maharil), e essa é a opinião principal.*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 357 do Shulchan Aruch Orach Chayim, vamos simplificar os conceitos e explicar como eles se aplicam na prática:
+
+### Contexto Geral
+
+No Shabat, existem restrições sobre o que se pode fazer em diferentes tipos de espaços, chamados de "domínios". Os principais domínios são o "domínio público" (áreas abertas e públicas) e o "carmelit" (um tipo de espaço que não é totalmente público nem privado). As leis discutidas aqui tratam de como e onde se pode despejar água em um pátio durante o Shabat.
+
+### Seção 1: Pátios Pequenos e Despejo de Água
+
+- **Pátio Menor que Quatro Amot**: Um "ama" é uma medida antiga, aproximadamente 48 cm. Se um pátio for menor que quatro amot por quatro amot (cerca de 1,92 metros por 1,92 metros), ele não pode absorver a quantidade de água que uma pessoa normalmente usa em um dia (dois seah, uma medida antiga de volume). Portanto, despejar água diretamente nele seria como despejar no domínio público, o que é proibido no Shabat.
+
+- **Solução com Cavidade**: Para resolver isso, pode-se criar uma cavidade (um buraco) que possa conter dois seah de água. Essa cavidade pode ser feita dentro ou fora do pátio, mas se for fora, deve ser coberta para que a água caia em um "makom patur" (um espaço isento de restrições). Com essa cavidade, é permitido despejar água à vontade.
+
+- **Pátios Maiores ou Combinados**: Se o pátio tiver pelo menos quatro amot por quatro amot, ou se for combinado com uma varanda para atingir esse tamanho, é permitido despejar água sem restrições, mesmo no verão.
+
+### Seção 2: Pátios Próximos a um Carmelit
+
+- **Carmelit**: Se o pátio estiver próximo a um carmelit, não é necessário fazer uma cavidade, mesmo que o pátio seja pequeno. Isso se aplica especialmente no verão, quando o uso de água é mais frequente.
+
+### Seção 3: Canais e Despejo de Água
+
+- **Canal Coberto**: Se houver um canal coberto de pelo menos quatro amot de comprimento no domínio público, e ele tiver quatro por quatro amot, é permitido despejar água na sua entrada, mesmo que a água saia imediatamente. Isso é permitido se o canal for feito de materiais que absorvem água, como pedras.
+
+- **Diferença entre Domínio Público e Carmelit**: Se a água do canal sair para um carmelit, é permitido despejar diretamente na boca do canal. No entanto, se sair para o domínio público, deve-se despejar fora do canal.
+
+- **Exceções e Opiniões Divergentes**: Existem algumas opiniões diferentes sobre quando e onde é permitido despejar água, especialmente em relação a carmelit dentro ou fora da cidade. Algumas autoridades permitem mais flexibilidade se o canal estiver acima de dez tefachim (uma medida de altura), pois a água passaria por um makom patur antes de chegar ao carmelit.
+
+### Relevância Prática
+
+Essas leis são relevantes para judeus que observam o Shabat e precisam gerenciar o uso de água em suas propriedades. Elas ajudam a garantir que as atividades realizadas no Shabat estejam de acordo com as tradições e leis judaicas, respeitando as restrições sobre o transporte e despejo de objetos e substâncias entre diferentes tipos de domínios.

@@ -1,0 +1,42 @@
+SIMAN 361
+
+**Lei sobre desespero se acompanhado de mudança de nome ou mudança de posse. Contém oito parágrafos:**
+
+1. O desespero por si só não adquire a propriedade.
+
+2. O desespero acompanhado de mudança de nome é considerado inferior, pois o objeto retorna ao seu estado original. Alguns dizem que adquire, e não é necessário devolver o objeto, apenas o seu valor.
+
+3. Isso se aplica quando é sabido que os proprietários se desesperaram, mas em caso de roubo comum, não se considera que os proprietários se desesperaram.
+
+4. O desespero com mudança de posse adquire, e suas leis são explicadas no Siman 353.
+
+5. Não é considerado mudança de posse a menos que o objeto tenha sido vendido ou dado a outro. (Alguns dizem que se foi vendido com garantia ou dado por engano ou contra a vontade, não é considerado mudança de posse. Resposta de Rashba, Siman 5098). Mas se outra pessoa tomou o objeto da casa do ladrão sem o seu consentimento, é como se tivesse sido tomado da casa dos proprietários. Se o roubado quiser, pode cobrar do primeiro ou do segundo, ou se quiser, pode cobrar metade de um e metade do outro. Se o segundo pagou ao primeiro ou se o primeiro ladrão perdoou o segundo, isso não tem efeito, pois o segundo só tem que lidar com os proprietários, independentemente de saber ou não que o objeto era roubado. Mesmo se o segundo o consumiu, ele é obrigado a pagar aos proprietários.
+
+6. Isso se aplica quando não houve desespero, mas se houve desespero e alguém veio e consumiu o objeto, está isento. Embora, se o objeto estivesse intacto, ele seria obrigado a devolvê-lo, agora que foi consumido, está isento.
+
+7. Se o ladrão morreu e deixou o objeto roubado para seus filhos, não é considerado mudança de posse, mas é como se o pai ainda estivesse vivo. Se o objeto está intacto e não foi alterado, deve ser devolvido, mesmo que os proprietários tenham se desesperado. Se foi alterado e ainda existe, deve-se pagar o seu valor. Mas se foi consumido, seja durante a vida do pai ou após sua morte, se foi consumido antes do desespero, os filhos são obrigados a pagar. Após o desespero, estão isentos, a menos que o pai tenha deixado bens. Mas se o pai deixou bens, mesmo que o objeto tenha sido consumido após o desespero, os filhos são obrigados a pagar. O mesmo se aplica se o pai vendeu ou deu o objeto a outro; se deixou bens, são obrigados a pagar. Não há diferença entre filhos maiores e menores. Se os filhos maiores disserem que sabem que o pai fez um acerto de contas com o reclamante e que nada mais lhe é devido, são acreditados. Alguns dizem que isso se aplica apenas quando não se sabe que o pai roubou, exceto pelo testemunho dos filhos. Mas se houver testemunhas de que ele roubou, os filhos não são acreditados.
+
+8. Quem rouba seu próximo na presença de testemunhas, alguns dizem que não precisa devolver na presença de testemunhas. Outros dizem que precisa.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 361 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de leis relacionadas a objetos roubados e o conceito de "desespero" (em hebraico, "yeiush") do proprietário original. Vamos explicar cada parágrafo de forma prática:
+
+1. **Desespero e Propriedade**: Quando alguém perde a esperança de recuperar um objeto roubado, isso é chamado de "desespero". No entanto, apenas o desespero do proprietário não faz com que o ladrão adquira legalmente a propriedade do objeto.
+
+2. **Desespero e Mudança de Nome**: Se o objeto roubado passa a ser conhecido por outro nome, há uma discussão se isso muda a situação. Alguns dizem que o ladrão não precisa devolver o objeto, mas apenas o valor dele.
+
+3. **Desespero Conhecido**: Se é claro que o proprietário perdeu a esperança de recuperar o objeto, isso é relevante. Mas em casos de roubo comum, não se presume automaticamente que o proprietário se desesperou.
+
+4. **Desespero e Mudança de Posse**: Se o objeto roubado muda de posse, isso pode afetar a situação legal. As regras específicas sobre isso estão em outro trecho do Shulchan Aruch.
+
+5. **O que é Mudança de Posse?**: Para que haja uma mudança de posse, o objeto deve ser vendido ou dado a outra pessoa. Se alguém pega o objeto do ladrão sem permissão, é como se tivesse pego do proprietário original. O proprietário pode escolher de quem cobrar a devolução ou o valor do objeto.
+
+6. **Consumo após Desespero**: Se alguém consome o objeto após o proprietário ter perdido a esperança, essa pessoa não precisa pagar. Mas se o objeto ainda existisse, teria que ser devolvido.
+
+7. **Herança de Objetos Roubados**: Se o ladrão morre e deixa o objeto para seus filhos, isso não é considerado uma mudança de posse. Se o objeto ainda existe e não foi alterado, deve ser devolvido. Se foi alterado, deve-se pagar o valor. Se foi consumido antes do desespero, os filhos devem pagar. Após o desespero, estão isentos, a menos que o ladrão tenha deixado bens.
+
+8. **Devolução na Presença de Testemunhas**: Se o roubo ocorreu na presença de testemunhas, há uma discussão se a devolução também precisa ser feita na presença de testemunhas.
+
+Essas leis são relevantes para garantir justiça e responsabilidade em casos de roubo, mesmo em tempos modernos. Elas ajudam a proteger os direitos dos proprietários e a definir obrigações para aqueles que adquirem ou consomem objetos de forma ilícita.

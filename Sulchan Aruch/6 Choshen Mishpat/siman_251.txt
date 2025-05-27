@@ -1,0 +1,34 @@
+SIMAN 251
+
+**Leis sobre a doação de um moribundo ou de uma pessoa saudável. Contém 2 seções:**
+
+1. Aquele que faz uma doação enquanto está em estado de "shechiv mera" (moribundo) e escreve nela "em vida e na morte" ou "desde a vida e na morte", seja em tudo ou em parte, uma vez que está escrito "e na morte", é considerada uma doação de "shechiv mera". Isso porque o que está escrito "e na morte" indica que a doação só será efetiva após a morte. O que está escrito "desde a vida" é um sinal para tranquilizar sua mente de que ele sobreviverá a essa doença. No entanto, se uma pessoa saudável faz uma doação e escreve no documento "desde a vida e na morte", isso é considerado uma doação completa desde a vida, e o que está escrito "e na morte" é como se dissesse "de agora e para sempre", sendo apenas uma ornamentação do documento.
+
+2. Uma doação de "shechiv mera" que não está escrito que ele morreu dessa doença em que fez a doação, e não há testemunhas disponíveis para perguntar-lhes: *Nota: Os testemunhas podem confiar em si mesmos ou em seus assistentes que dizem que a doença se agravou e ele faleceu (e por isso) os testemunhas podem testemunhar assim (N.Y.)* Mesmo que o doador tenha morrido, a doação é anulada, pois sua morte não é prova de que ele não se recuperou da doença em que fez a doação e depois adoeceu novamente e morreu. Portanto, os bens permanecem sob a posse dos herdeiros até que se traga prova de que ele morreu da doença em que fez essa doação. *Nota: E se o receptor tomou posse dos bens móveis, ele pode alegar que são dele e é acreditado ao dizer que morreu da primeira doença. O mesmo se aplica se o doente se recuperou e quer revogar sua doação, alegando que era uma doação de "shechiv mera", e o receptor diz que ele estava saudável e não pode revogar. Cabe ao receptor trazer prova (Tur). E em qualquer lugar onde haja uma disputa entre os sábios, se o receptor ganhou, cabe a ele trazer prova (Maharik, raiz 94 e Maharam Padua, siman 92).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis discutidas no Siman 251 do Shulchan Aruch Choshen Mishpat, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Shechiv Mera**: Este termo refere-se a uma pessoa que está em estado crítico de saúde, ou seja, um moribundo. No contexto das leis judaicas, uma doação feita por alguém nesse estado tem regras específicas, pois presume-se que a pessoa está agindo sob a pressão de sua condição.
+
+2. **Doação em Vida e na Morte**: Quando alguém faz uma doação e usa a expressão "em vida e na morte", isso pode ter significados diferentes dependendo do estado de saúde do doador. Se a pessoa está moribunda, a doação só se efetiva após a morte. Se a pessoa está saudável, a doação é considerada efetiva imediatamente e a expressão "e na morte" é apenas uma formalidade.
+
+### Seção 1: Doações de Moribundos e Pessoas Saudáveis
+
+- **Moribundo**: Se um moribundo faz uma doação e escreve "em vida e na morte", isso significa que a doação só será válida após sua morte. A parte "em vida" serve para dar esperança de recuperação, mas não altera o fato de que a doação só se concretiza após o falecimento.
+
+- **Pessoa Saudável**: Se uma pessoa saudável faz uma doação com a mesma expressão, a doação é válida imediatamente. A frase "e na morte" é apenas uma maneira de dizer que a doação é permanente e não será revogada.
+
+### Seção 2: Validade da Doação de um Moribundo
+
+- **Prova de Morte pela Doença**: Se um moribundo faz uma doação, mas não há prova de que ele morreu da doença em que estava quando fez a doação, a doação pode ser anulada. Isso ocorre porque ele poderia ter se recuperado e depois falecido de outra doença. Assim, os bens permanecem com os herdeiros até que se prove que ele morreu da doença original.
+
+- **Posse dos Bens**: Se o receptor da doação já tomou posse dos bens móveis (bens que podem ser movidos, como móveis ou dinheiro), ele pode alegar que a doação é válida, afirmando que o doador morreu da doença original. Neste caso, ele é acreditado, a menos que se prove o contrário.
+
+- **Disputas sobre a Doação**: Se houver uma disputa sobre a validade da doação, cabe ao receptor provar que a doação foi feita por uma pessoa saudável ou que o doador morreu da doença em que fez a doação. Se o doador se recuperou e quer revogar a doação, ele deve provar que a doação foi feita enquanto estava moribundo.
+
+### Relevância Prática
+
+Na vida judaica contemporânea, essas leis são importantes para garantir que as doações feitas por pessoas em estado crítico sejam tratadas com justiça e clareza. Elas protegem tanto os interesses dos herdeiros quanto dos beneficiários, assegurando que as intenções do doador sejam respeitadas conforme seu estado de saúde no momento da doação. Em casos de disputas, essas regras ajudam a determinar quem tem o ônus da prova e como os bens devem ser distribuídos.

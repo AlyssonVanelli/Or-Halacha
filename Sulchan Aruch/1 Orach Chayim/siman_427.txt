@@ -1,0 +1,30 @@
+SIMAN 427
+
+**Quando Rosh Chodesh é de dois dias, como se escreve em documentos. E contém um parágrafo:**
+
+Quando Rosh Chodesh (o início do mês) é de dois dias, escreve-se no documento, no primeiro dia, "no dia de Rosh Chodesh", que é o trigésimo dia do mês anterior. (E a contagem para o novo mês começa no segundo dia, e escreve-se nele "no primeiro do mês"). (Tur)
+
+Nota: Quando o ano é embolísmico (um ano bissexto no calendário judaico), escreve-se "Adar" simples no primeiro Adar, e no segundo Adar escreve-se "Adar Sheni" (o segundo Adar). (Tur)
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 427 do Shulchan Aruch Orach Chayim, precisamos primeiro explicar alguns conceitos básicos do calendário judaico:
+
+1. **Rosh Chodesh**: Este é o termo hebraico para o início de um novo mês no calendário judaico. Diferente do calendário gregoriano, que é solar, o calendário judaico é lunar, o que significa que cada mês começa com a lua nova.
+
+2. **Dois Dias de Rosh Chodesh**: Às vezes, o início do mês judaico é celebrado por dois dias. Isso acontece porque os meses lunares têm cerca de 29,5 dias, então alguns meses têm 29 dias e outros têm 30. Quando um mês tem 30 dias, o 30º dia é considerado o primeiro dia de Rosh Chodesh do mês seguinte, e o dia seguinte é o segundo dia de Rosh Chodesh, que é também o primeiro dia do novo mês.
+
+3. **Documentos e Datas**: Quando se escreve a data em documentos durante um Rosh Chodesh de dois dias, é importante especificar corretamente qual dia é. No primeiro dia de Rosh Chodesh, que é o 30º dia do mês anterior, escreve-se "no dia de Rosh Chodesh". No segundo dia, que é o primeiro dia do novo mês, escreve-se "no primeiro do mês".
+
+4. **Ano Embolísmico**: O calendário judaico ajusta-se ao ano solar adicionando um mês extra em alguns anos, chamados de anos embolísmicos ou bissextos. Nesses anos, há dois meses de Adar: Adar I e Adar II. Em documentos, o primeiro Adar é simplesmente chamado de "Adar", enquanto o segundo é chamado de "Adar Sheni" (o segundo Adar).
+
+**Relevância Prática**: 
+
+- **Precisão em Documentos**: Para contratos, certidões e outros documentos legais, é crucial que as datas sejam precisas. Isso evita confusões e possíveis disputas legais sobre quando um documento foi realmente assinado ou entrou em vigor.
+
+- **Observância Religiosa**: Saber quando começa um novo mês é importante para a observância de certas práticas religiosas, como o jejum de Rosh Chodesh e a recitação de orações específicas.
+
+- **Planejamento Comunitário**: Comunidades judaicas podem usar essas informações para planejar eventos e atividades que dependem do calendário lunar, como festas e celebrações.
+
+Em resumo, o Siman 427 trata de como registrar corretamente as datas em documentos durante períodos específicos do calendário judaico, garantindo clareza e precisão, especialmente em anos com ajustes especiais como o ano embolísmico.

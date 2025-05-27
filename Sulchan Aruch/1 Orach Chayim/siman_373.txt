@@ -1,0 +1,30 @@
+SIMAN 373
+
+**Lei sobre duas varandas em dois andares. Contém um parágrafo:**
+
+Duas varandas que se projetam de dois andares, uma em frente à outra, e se coloca entre elas uma tábua com largura de quatro [tefachim], isso é considerado como uma abertura, e podem fazer um eruv em conjunto. 
+
+*Nota: Se a distância entre elas não for de quatro [amôt], mesmo sem a tábua, a lei é a mesma (como mencionado pelo Maguid no capítulo 3).*
+
+Se desejarem, cada uma pode fazer um eruv separadamente. No entanto, se não estiverem uma em frente à outra, por exemplo, uma está deslocada para o leste e a outra para o oeste, não podem fazer um eruv em conjunto. Da mesma forma, se uma estiver mais alta que a outra, não é considerado uma abertura.
+
+Essas palavras se aplicam quando estão distantes uma da outra por três [tefachim], mas se estiverem dentro de três [tefachim] uma da outra, seja em distância ou em altura, é considerado adequadamente como uma abertura.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 373 do Shulchan Aruch Orach Chayim, precisamos primeiro explicar alguns conceitos básicos:
+
+1. **Eruv**: No contexto judaico, um eruv é uma solução haláchica que permite que judeus carreguem objetos em áreas públicas durante o Shabat, algo que normalmente não é permitido. O eruv cria uma "área comum" que simbolicamente transforma espaços públicos em uma extensão do espaço privado.
+
+2. **Tefachim e Amôt**: Estas são medidas antigas usadas na lei judaica. Um "tefach" é aproximadamente a largura de uma mão (cerca de 8 cm), enquanto um "amá" é cerca de 48 cm.
+
+Agora, vamos ao texto:
+
+- **Duas varandas em dois andares**: Imagine dois apartamentos, um em cima do outro, cada um com uma varanda. Se essas varandas estão uma de frente para a outra, é possível conectar as duas com uma tábua de pelo menos quatro tefachim de largura. Isso cria uma "abertura" simbólica entre as duas varandas, permitindo que os moradores façam um eruv em conjunto. Isso significa que eles podem carregar objetos entre as varandas durante o Shabat.
+
+- **Distância e altura**: Se as varandas não estão exatamente uma em frente à outra (por exemplo, uma está mais para o leste e a outra para o oeste), ou se uma está significativamente mais alta que a outra, elas não podem ser consideradas conectadas para o propósito de um eruv. No entanto, se a diferença de altura ou distância entre elas for menor que três tefachim, ainda podem ser consideradas conectadas.
+
+- **Eruv separado**: Mesmo que as varandas possam ser conectadas, os moradores têm a opção de fazer um eruv separado para cada varanda, se preferirem.
+
+Na prática, essas leis são relevantes para comunidades judaicas que vivem em prédios de apartamentos e desejam criar um eruv para facilitar a observância do Shabat. A ideia é garantir que as áreas comuns possam ser usadas de maneira que respeite as leis do Shabat, promovendo a convivência e a cooperação entre vizinhos.

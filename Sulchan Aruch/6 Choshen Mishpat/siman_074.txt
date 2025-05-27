@@ -1,0 +1,46 @@
+SIMAN 74
+
+**Em que lugar é permitido cobrar um empréstimo e a ordem do pagamento. Contém sete seções:**
+
+1. O credor pode cobrar a dívida em qualquer lugar, mesmo que o empréstimo tenha sido feito em uma área habitada, ele pode exigir o pagamento no deserto e forçar o devedor a pagá-lo ali, desde que o devedor tenha o suficiente para suas necessidades até chegar a um local habitado e para pagar a dívida. Se o credor afirma com certeza que o devedor tem o suficiente para suas necessidades e para pagar a dívida, e o devedor afirma que tem apenas o suficiente para suas necessidades, o devedor deve jurar. No entanto, se o devedor deseja pagar no deserto, o credor não é obrigado a aceitar até que cheguem a um local habitado, já que o empréstimo foi feito em um local habitado. Contudo, em qualquer local habitado, o credor pode ser forçado a aceitar o pagamento, mesmo que não seja o local do credor, do devedor ou onde o empréstimo foi feito, mesmo que haja vários desertos antes de chegar ao seu destino. Uma caravana é considerada um local habitado.
+
+2. Se o empréstimo foi feito no deserto, o credor pode ser forçado a aceitar o pagamento no deserto, mesmo que o empréstimo tenha sido feito em um local habitado. Se o devedor diz que quer ir ao deserto e o credor também diz que quer ir ao deserto, é como se o empréstimo tivesse sido feito no deserto e o pagamento deve ser aceito no deserto.
+
+3. Se o credor estipulou um prazo para o devedor e o devedor deseja pagar antes do prazo para não ter a responsabilidade do dinheiro até o vencimento, e o credor não quer aceitar, se o prazo chegou, mesmo que o devedor queira pagar rapidamente para se proteger de futuros problemas como a desvalorização da moeda, impostos ou confisco, a lei está com o credor, pois o problema ainda não é visível, mesmo que possa ocorrer no futuro. No entanto, se o prazo não chegou e a desvalorização da moeda ou impostos são evidentes e iminentes, o credor não pode ser forçado a aceitar o pagamento antes do prazo. Mas se não houver tais preocupações, mesmo que o credor não queira aceitar o pagamento antes do prazo para não ter a responsabilidade até o vencimento, ele não é ouvido, pois o prazo foi estabelecido para o benefício do devedor.
+
+4. Em um empréstimo garantido por penhor, onde o credor consome os frutos, em um lugar onde não se pode remover o penhor até o vencimento, como se estivesse colhendo frutos até o vencimento, o credor não é obrigado a aceitar o pagamento antes do prazo, a menos que o devedor permita que ele continue a consumir os frutos.
+
+5. Se o devedor diz ao credor para pegar seu dinheiro no prazo e o credor não quer aceitar, e o dinheiro está guardado com o devedor e é roubado ou perdido, o devedor é responsável por pagar. Mas em um depósito, em tal caso, ele está isento.
+
+6. Se o devedor deseja pagar antes do prazo em pequenas parcelas, alguns dizem que o credor não pode recusar e exigir o pagamento total de uma vez, pois o pagamento em parcelas também é considerado pagamento. No entanto, o credor pode ter uma reclamação contra o devedor. Contudo, se o devedor hipotecou um campo ou mesmo dois campos, ele não pode forçar o credor a devolver metade do penhor por metade do dinheiro.
+
+7. Se o credor emprestou com um penhor de bens móveis ou imóveis que valem mais do que a dívida, e o devedor quer que o credor pegue do penhor o valor da dívida e devolva o excedente, suas palavras não têm validade. O mesmo se aplica se o penhor não vale mais do que a dívida; o devedor não pode forçar o credor a aceitá-lo como pagamento e devolver o documento da dívida.
+
+8. Se o devedor diz que não tem dinheiro ou bens móveis, apenas terras, e o credor diz que não quer terras e prefere esperar até que o devedor tenha dinheiro, o credor não pode ser forçado a aceitar terras, pois ele não está exigindo o pagamento agora.
+
+9. Se o credor emprestou com base em uma moeda que foi desvalorizada, se ele pode usá-la em outro país e tem um caminho para lá, ele deve dar ao devedor a moeda emprestada e dizer para usá-la naquele lugar. Se não houver caminho ou se houver restrições para levar a moeda desvalorizada, ele deve dar a moeda corrente no momento. O mesmo se aplica a um contrato de casamento. Se o rei decretou como os devedores devem pagar, a lei do reino é a lei, e o pagamento deve ser conforme decretado. Há quem discorde, e deve-se consultar outras fontes para mais detalhes sobre a lei do reino.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática e acessível as regras sobre como e onde um credor pode cobrar uma dívida, conforme descrito no Siman 74 do Shulchan Aruch Choshen Mishpat:
+
+1. **Cobrança em Qualquer Lugar**: Um credor pode exigir o pagamento de uma dívida em qualquer lugar, mesmo que o empréstimo tenha sido feito em uma cidade. Isso significa que, se ambos estiverem em um deserto, o credor pode pedir o pagamento ali, desde que o devedor tenha o suficiente para suas necessidades básicas e para pagar a dívida. Se houver uma disputa sobre se o devedor tem o suficiente, ele deve jurar que só tem o necessário para suas necessidades. No entanto, se o devedor quiser pagar no deserto, o credor não é obrigado a aceitar até que cheguem a um local habitado. Em qualquer cidade, o credor deve aceitar o pagamento, mesmo que não seja a cidade de origem de nenhum dos dois.
+
+2. **Empréstimos no Deserto**: Se o empréstimo foi feito no deserto, o credor deve aceitar o pagamento no deserto. Se ambos concordaram em ir ao deserto, é como se o empréstimo tivesse sido feito lá, e o pagamento deve ser aceito no deserto.
+
+3. **Pagamento Antecipado**: Se um prazo foi estipulado para o pagamento e o devedor quer pagar antes para evitar riscos futuros, como desvalorização da moeda, o credor não é obrigado a aceitar antes do prazo, a menos que esses riscos sejam iminentes. O prazo é geralmente para beneficiar o devedor, mas se não houver riscos visíveis, o credor pode recusar o pagamento antecipado.
+
+4. **Empréstimos com Penhor**: Se o empréstimo é garantido por um penhor e o credor está colhendo frutos desse penhor, ele não precisa aceitar o pagamento antes do prazo, a menos que o devedor permita que ele continue a colher os frutos.
+
+5. **Responsabilidade por Dinheiro Guardado**: Se o devedor oferece o pagamento no prazo e o credor recusa, e o dinheiro é roubado ou perdido, o devedor ainda é responsável por pagar. No caso de um depósito, ele estaria isento.
+
+6. **Pagamento em Parcelas**: Se o devedor quer pagar em parcelas antes do prazo, alguns dizem que o credor deve aceitar, mas o credor pode ter objeções. No entanto, se o devedor hipotecou um campo, ele não pode forçar o credor a aceitar metade do penhor por metade do dinheiro.
+
+7. **Penhor Excedente**: Se o penhor vale mais do que a dívida, o devedor não pode forçar o credor a aceitar o penhor como pagamento e devolver o excedente. O mesmo se aplica se o penhor não vale mais do que a dívida.
+
+8. **Pagamento com Terras**: Se o devedor só tem terras para oferecer e o credor prefere esperar por dinheiro, o credor não pode ser forçado a aceitar terras.
+
+9. **Moeda Desvalorizada**: Se a moeda do empréstimo foi desvalorizada, o credor deve aceitar a moeda se ela puder ser usada em outro país e houver um caminho para lá. Caso contrário, ele deve aceitar a moeda corrente. Se houver um decreto real sobre como os devedores devem pagar, essa lei deve ser seguida, embora haja opiniões divergentes sobre isso.
+
+Essas regras ajudam a garantir justiça e clareza nas transações financeiras, respeitando tanto os direitos do credor quanto as necessidades do devedor.

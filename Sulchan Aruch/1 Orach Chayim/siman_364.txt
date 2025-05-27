@@ -1,0 +1,47 @@
+SIMAN 364
+
+**Regulamento sobre um beco aberto e construído como um "Nadal". Contém cinco seções:**
+
+1. Um beco que é aberto em ambas as extremidades para um domínio público (Reshut HaRabim) ou uma extremidade para o domínio público e a outra para um Carmelit precisa de uma "Tzurat HaPetach" (estrutura de porta) de um lado e um "Lechi" (poste) ou "Korá" (viga) do outro. No entanto, se uma extremidade está aberta para o domínio público e a outra para um pátio não eruvado, basta um Lechi ou Korá em ambas as extremidades. Nota: Tudo isso tem condições explicadas anteriormente no Siman 363, Seif 27, sobre becos. Mas se for apenas um pátio, é necessário um ajuste de pátio em ambos os lados.
+
+2. O próprio domínio público só pode ser permitido com portas, e estas devem ser trancadas à noite. Alguns dizem que mesmo que não sejam trancadas, devem ser capazes de ser trancadas. Se estiverem enterradas no solo, devem ser desenterradas e ajustadas para que possam ser trancadas. Depois de fazer o ajuste das portas, todo o espaço é considerado como um único pátio, e seus becos não precisam de ajustes.
+
+3. Um beco curvo, como a letra "Dalet", é considerado como se fosse aberto em sua curvatura e precisa de uma Tzurat HaPetach em sua curvatura e em ambas as extremidades, cada uma com um Lechi ou Korá, ou uma Tzurat HaPetach em cada uma das duas extremidades e um Lechi ou Korá na curvatura. Se for feito como a letra "Chet", precisa de uma Tzurat HaPetach em ambas as curvaturas e um Lechi ou Korá em ambas as extremidades.
+
+4. Becos que se abrem uns para os outros e a curvatura de um deles não se inclina para o domínio público, uma vez que a abertura do beco externo está para o domínio público, o beco que se abre para ele em sua curvatura é considerado como aberto para o domínio público, assim como o beco que se abre para aquele beco, e assim por diante.
+
+5. Um beco construído como um "Nadal", ou seja, um grande beco com muitos becos pequenos abertos para ele, e as extremidades dos pequenos abertos para o domínio público, mesmo que as aberturas dos pequenos de ambos os lados não estejam alinhadas uma com a outra, faz-se para cada um, no local de sua abertura para o grande beco, uma Tzurat HaPetach, e na outra extremidade aberta para o domínio público, um Lechi ou Korá. No grande beco, se for aberto, faz-se uma Tzurat HaPetach de um lado e do outro lado um Lechi ou Korá, e se for fechado, faz-se um Lechi ou Korá em sua extremidade.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 364 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos sobre as leis de "Eruv", que são cercas ou barreiras simbólicas que permitem o transporte de objetos em áreas públicas durante o Shabat, algo que normalmente é restrito.
+
+### Conceitos Técnicos:
+
+1. **Reshut HaRabim**: Refere-se a um domínio público, como uma rua movimentada, onde o transporte de objetos é restrito no Shabat.
+2. **Carmelit**: Uma área que não é nem totalmente pública nem privada, como um campo aberto.
+3. **Tzurat HaPetach**: Estrutura que imita uma porta, geralmente feita com dois postes verticais e uma viga horizontal, usada para simbolicamente fechar uma área.
+4. **Lechi e Korá**: Elementos usados para marcar a entrada de um beco. Um "Lechi" é um poste vertical, enquanto uma "Korá" é uma viga horizontal.
+
+### Explicação Prática:
+
+1. **Beco Aberto em Ambas as Extremidades**:
+   - Se um beco está aberto em ambas as extremidades para áreas públicas, ele precisa de uma estrutura de porta (Tzurat HaPetach) em uma extremidade e um poste ou viga (Lechi ou Korá) na outra. Isso ajuda a criar uma barreira simbólica, permitindo o transporte de objetos no Shabat.
+   - Se uma extremidade do beco está aberta para um pátio que não tem um Eruv, basta colocar um Lechi ou Korá em ambas as extremidades.
+
+2. **Domínio Público**:
+   - Para permitir o transporte em um domínio público, é necessário instalar portas que devem ser trancadas à noite. Mesmo que não sejam trancadas, devem ser capazes de ser trancadas. Isso transforma a área em um espaço privado simbólico.
+
+3. **Beco Curvo**:
+   - Um beco que faz uma curva, como a letra "Dalet", precisa de uma estrutura de porta na curva e postes ou vigas nas extremidades. Se a curva for como a letra "Chet", são necessárias estruturas de porta nas curvas e postes ou vigas nas extremidades.
+
+4. **Becos Interligados**:
+   - Quando becos se abrem uns para os outros, se um beco externo está aberto para o domínio público, todos os becos conectados a ele são considerados abertos para o domínio público. Isso significa que precisam das mesmas barreiras simbólicas.
+
+5. **Beco "Nadal"**:
+   - Um beco grande com muitos becos pequenos conectados a ele, onde as extremidades dos pequenos se abrem para o domínio público, requer uma estrutura de porta na entrada de cada pequeno beco para o grande beco, e um poste ou viga na extremidade aberta para o domínio público. O grande beco precisa de uma estrutura de porta em uma extremidade e um poste ou viga na outra.
+
+### Relevância Prática:
+
+Essas leis são importantes para comunidades judaicas que desejam criar um Eruv, permitindo que seus membros carreguem objetos em áreas públicas durante o Shabat. A construção de um Eruv requer um entendimento detalhado dessas regras para garantir que ele seja válido e respeite as tradições haláchicas.

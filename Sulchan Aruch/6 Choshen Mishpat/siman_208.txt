@@ -1,0 +1,28 @@
+SIMAN 208
+
+**Uma transação realizada em circunstâncias de proibição. E contém um parágrafo:**
+
+Uma transação realizada de forma proibida, como quando o preço do negócio foi aumentado devido à espera pelo pagamento, ou quando o preço foi fixado antes que o valor de mercado fosse estabelecido, e o vendedor não tinha permissão para fazê-lo. (Da mesma forma, se alguém jurou ou fez um voto de não vender e, ainda assim, vendeu - veja Beit Yosef). Se a transação foi confirmada por meio de um ato de aquisição ou por qualquer um dos métodos de transferência de propriedade, a transação é válida. O preço deve ser ajustado para o valor permitido, e nenhuma das partes pode anular a transação. No entanto, o comprador pode desistir de pagar o preço inflacionado. (Não há diferença neste caso entre uma compra, um presente, uma renúncia ou outras questões - conforme escrito no Beit Yosef).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Transação Proibida**: No contexto judaico, uma transação pode ser considerada proibida se não seguir as regras estabelecidas pela Halachá (lei judaica). Isso pode incluir, por exemplo, aumentar o preço de um produto porque o pagamento será feito mais tarde, ou fixar um preço antes que o valor de mercado seja conhecido.
+
+2. **Ato de Aquisição**: Este é um procedimento formal que confirma a transferência de propriedade de um item de uma pessoa para outra. Na lei judaica, existem várias formas de realizar um ato de aquisição, como a entrega física do item ou a assinatura de um contrato.
+
+3. **Juramento ou Voto**: Se alguém fez um juramento ou voto de não vender algo e, mesmo assim, vendeu, isso também pode ser uma questão de transação proibida.
+
+Agora, vamos explicar o que o texto diz:
+
+- Se uma transação foi feita de maneira que não está de acordo com as regras, como nos exemplos acima, mas foi confirmada por um ato de aquisição, a transação ainda é considerada válida. Isso significa que, mesmo que a transação tenha começado de forma incorreta, ela não pode ser simplesmente anulada.
+
+- No entanto, o preço da transação deve ser ajustado para um valor que seja permitido pela Halachá. Isso significa que, se o preço foi inflacionado de forma inadequada, ele deve ser corrigido.
+
+- Importante: O comprador tem o direito de não pagar o preço inflacionado. Isso protege o comprador de ser explorado por um preço injusto.
+
+- Essa regra se aplica não apenas a compras, mas também a presentes, renúncias de direitos ou outras questões semelhantes.
+
+Na prática, essas leis são relevantes para garantir que as transações comerciais sejam justas e éticas, respeitando os princípios da lei judaica. Elas ajudam a proteger tanto compradores quanto vendedores de práticas comerciais injustas e asseguram que os negócios sejam conduzidos de maneira honesta.

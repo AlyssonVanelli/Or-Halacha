@@ -1,0 +1,34 @@
+SIMAN 225
+
+**Seção 225: Aceitação de Responsabilidade por Força Maior ou Isenção de Responsabilidade. Contém seis parágrafos:**
+
+1. Qualquer pessoa que venda um terreno, escravo ou bens móveis é responsável por sua garantia. Como assim? Se alguém vier e tomar o objeto comprado das mãos do comprador devido ao vendedor, o comprador pode retornar e recuperar todo o dinheiro pago do vendedor, pois o objeto foi retirado por causa dele. Esta é a lei para todas as vendas, mesmo que o comprador não tenha especificado isso, mas tenha comprado de forma geral. Mesmo que o terreno tenha sido vendido com um documento e a garantia não tenha sido mencionada, ainda assim, o vendedor é responsável pela garantia, pois a ausência de menção à garantia é considerada um erro de escriba.
+
+2. Quando isso se aplica? Quando o objeto comprado é retirado das mãos do comprador em um tribunal judaico, como no caso de bens móveis que foram roubados ou saqueados, ou quando o terreno foi tomado, ou quando um credor do vendedor vem e toma o objeto das mãos do comprador, e tudo isso em um tribunal judaico. Mas se um não-judeu é quem retira o objeto do comprador, seja por ordem do rei ou em seus tribunais, o vendedor não é responsável pela garantia, mesmo que o não-judeu alegue que o vendedor roubou ou saqueou o objeto dele e traga testemunhas não-judaicas para isso, o vendedor não é responsável, pois isso é considerado força maior, e o vendedor não é responsável por força maior.
+
+3. Quando isso se aplica? Quando não houve uma condição explícita. Mas se houve uma condição explícita de que o vendedor seria responsável por qualquer força maior que ocorresse com o terreno, mesmo que um não-judeu venha e o tome por causa do vendedor, ele é obrigado a pagar. No entanto, se o rio que irrigava o terreno secar, ou se o rio voltar a passar por ele e transformá-lo em um pântano, ou se um terremoto o destruir, ele está isento, pois esses são casos de força maior incomum, e o vendedor não considerou isso no momento da condição. O mesmo se aplica a qualquer condição financeira, onde se avalia a intenção do estipulante, e apenas os assuntos conhecidos que motivaram a condição são incluídos, aqueles que estavam na mente do estipulante no momento da condição.
+
+4. Houve um caso em que alguém contratou marinheiros para transportar gergelim para um determinado lugar e estipulou com eles que seriam responsáveis por qualquer força maior que ocorresse até que o gergelim chegasse ao destino. O rio pelo qual estavam navegando secou, e os sábios disseram que isso é uma força maior incomum, e eles não são obrigados a transportar o gergelim em animais até aquele lugar, e o mesmo se aplica a casos semelhantes.
+
+5. Se o vendedor estipulou explicitamente que não seria responsável, mesmo que se saiba com certeza que o objeto foi roubado e o verdadeiro dono o retirou das mãos do comprador, o vendedor não é responsável. E não é necessário dizer que se um credor vier e o tomar, ele não precisa devolver nada, pois qualquer condição financeira é válida.
+
+6. Se alguém vendeu a outro uma adega de vinho e estipularam entre si que o vendedor só seria responsável se um barril quebrasse ou derramasse, e o comprador só seria responsável pelo sabor, como se azedasse, e depois ocorreu apenas um caso de força maior de libação, a responsabilidade é do vendedor.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 225 do Shulchan Aruch Choshen Mishpat, vamos desmembrar os conceitos e aplicá-los de forma prática:
+
+1. **Garantia em Vendas**: Quando alguém vende algo, como um terreno, escravo ou bens móveis (objetos que podem ser movidos), o vendedor é responsável por garantir que o comprador possa manter o que comprou. Se, por exemplo, uma terceira pessoa reivindicar o objeto vendido e o tomar do comprador por causa de uma dívida do vendedor, o comprador tem o direito de receber seu dinheiro de volta. Isso se aplica a todas as vendas, mesmo que não tenha sido explicitamente mencionado no contrato.
+
+2. **Tribunais Judaicos vs. Não-Judaicos**: A responsabilidade do vendedor se aplica quando a reivindicação é feita em um tribunal judaico. Se um tribunal não-judaico ou uma autoridade não-judaica toma o objeto, o vendedor não é responsável, pois isso é considerado "força maior" – eventos fora do controle do vendedor.
+
+3. **Condições Explícitas**: Se o vendedor e o comprador concordaram explicitamente que o vendedor seria responsável por qualquer evento, mesmo de força maior, o vendedor deve cumprir essa condição. No entanto, eventos extremamente raros, como desastres naturais, não são cobertos, a menos que tenham sido especificamente mencionados.
+
+4. **Exemplo de Força Maior**: Um caso citado é o de marinheiros contratados para transportar gergelim. Se o rio secar, isso é considerado um evento raro e inesperado, e os marinheiros não são obrigados a completar a entrega por outros meios, como por terra.
+
+5. **Isenção de Responsabilidade**: Se o vendedor explicitamente se isentou de responsabilidade, ele não precisa reembolsar o comprador, mesmo que o objeto seja tomado por um credor ou roubado. Isso mostra que as condições financeiras acordadas são válidas e respeitadas.
+
+6. **Condições Específicas em Vendas**: Em um exemplo de venda de uma adega de vinho, se o vendedor e o comprador concordaram em responsabilidades específicas (como o vendedor ser responsável por barris quebrados e o comprador por mudanças no sabor), e um evento de força maior ocorre, como uma libação (uso do vinho para rituais), a responsabilidade recai sobre o vendedor.
+
+Essas leis são relevantes hoje em dia, pois ajudam a definir claramente as responsabilidades em transações comerciais, protegendo tanto compradores quanto vendedores de disputas legais. Elas também destacam a importância de acordos claros e explícitos em contratos, especialmente em situações que podem envolver riscos ou eventos inesperados.

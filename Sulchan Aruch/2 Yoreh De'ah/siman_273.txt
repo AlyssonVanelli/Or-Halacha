@@ -1,0 +1,44 @@
+SIMAN 273
+
+1. A medida da margem inferior é de quatro dedos de largura, e a margem superior é de três dedos. Entre cada folha, deve haver um espaço de dois dedos. Portanto, é necessário deixar no início e no final de cada pergaminho a largura de um dedo, além do espaço necessário para a costura. Assim, quando os pergaminhos são costurados juntos, haverá entre cada folha em todo o livro a largura de dois dedos. Entre cada linha, deve haver um espaço equivalente à largura de uma linha. Entre cada livro da Torá, deve haver quatro linhas em branco, sem escrita, e o próximo livro deve começar na quinta linha. Deve-se deixar no início e no final espaço suficiente para enrolar no rolo, além de dois dedos que devem permanecer entre o rolo e a folha.
+
+2. Não se deve reduzir o tamanho da escrita por causa do espaço inferior e superior, nem por causa do espaço entre uma parashá e outra.
+
+3. Se encontrar uma palavra de cinco letras, não deve escrever duas dentro da folha e três fora dela, mas sim escrever três dentro da folha e duas fora. Se não houver espaço suficiente para escrever três dentro da folha, deve-se deixar o espaço em branco e não estender as letras para torná-las maiores que as outras a fim de preencher até o final da folha. Uma palavra de três letras pode ter duas escritas fora da folha, mesmo que a maioria esteja dentro. Mas se houver apenas duas letras, não se deve escrevê-las fora da folha. Mesmo que as duas letras sejam de uma palavra grande e pareçam uma palavra por si só, não se deve escrevê-las na margem.
+
+4. Se encontrar uma palavra de dez letras ou menos ou mais, e não houver espaço suficiente na linha para escrevê-la toda dentro da folha, se puder escrever metade dentro da folha e metade fora, deve fazê-lo. Caso contrário, deve deixar o espaço em branco e começar no início da linha seguinte.
+
+5. Todas essas regras são apenas para cumprir a mitzvá da melhor maneira, mas se forem alteradas, ainda é válido.
+
+6. Se esquecer de escrever o Nome de D'us inteiro, deve pendurá-lo entre as linhas. Mas se parte do Nome estiver na linha e parte pendurada, é inválido. Para outras palavras, se esquecer, pode escrever parte da palavra na linha e parte acima. Alguns escribas são meticulosos em escrever as letras בי"ה שמ"ו no início das colunas, e alguns escrevem a letra ו' no início de cada coluna, chamando-as de "vavim das colunas". Não é necessário ser meticuloso com isso, e mesmo o mais meticuloso não deve diminuir ou expandir a escrita por causa disso, pois todas essas práticas não têm uma base sólida.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O texto que você forneceu é uma parte do Shulchan Aruch, um importante código de leis judaicas, que neste caso está tratando de regras específicas para a escrita de pergaminhos da Torá. Vamos explicar cada parte de forma prática e acessível:
+
+1. **Margens e Espaçamento**: 
+   - Quando se escreve um pergaminho da Torá, é importante deixar margens e espaçamentos específicos. A margem inferior deve ter quatro dedos de largura e a superior três dedos. Entre cada folha do pergaminho, deve haver um espaço de dois dedos. Isso é importante para garantir que, quando os pergaminhos são costurados juntos, o texto fique bem alinhado e legível.
+   - Entre cada linha de texto, deve haver um espaço equivalente à largura de uma linha, para que o texto não fique muito apertado e seja fácil de ler.
+   - Entre cada livro da Torá (por exemplo, entre Gênesis e Êxodo), deve haver quatro linhas em branco, e o próximo livro começa na quinta linha. Isso ajuda a distinguir claramente onde um livro termina e outro começa.
+   - No início e no final do pergaminho, deve haver espaço suficiente para enrolar o pergaminho, além de dois dedos de espaço entre o rolo e a folha.
+
+2. **Tamanho da Escrita**:
+   - Não se deve diminuir o tamanho das letras para ajustar o texto às margens ou ao espaço entre as seções (parashot). A escrita deve ser clara e uniforme.
+
+3. **Divisão de Palavras**:
+   - Se uma palavra tem cinco letras e não cabe no final de uma linha, deve-se escrever três letras na linha e duas na próxima. Se não houver espaço para três letras, deve-se deixar o espaço em branco e não tentar esticar as letras para preencher a linha.
+   - Para palavras de três letras, duas podem ser escritas na linha seguinte, mas para palavras de duas letras, ambas devem estar na mesma linha.
+
+4. **Palavras Longas**:
+   - Se uma palavra tem dez letras ou mais e não cabe na linha, pode-se dividir a palavra entre duas linhas, desde que metade esteja em cada linha. Caso contrário, deve-se deixar o espaço em branco e começar a palavra na linha seguinte.
+
+5. **Cumprimento Ideal vs. Validade**:
+   - Essas regras são para cumprir a mitzvá (mandamento) da melhor maneira possível. No entanto, se as regras não forem seguidas exatamente, o pergaminho ainda é considerado válido.
+
+6. **Escrita do Nome de D'us**:
+   - Se esquecer de escrever o Nome de D'us completo, deve-se escrevê-lo entre as linhas. No entanto, se parte do Nome estiver na linha e parte pendurada, isso torna o pergaminho inválido.
+   - Para outras palavras, se esquecer, pode-se escrever parte na linha e parte acima.
+   - Alguns escribas têm a prática de começar cada coluna com certas letras, mas isso não é obrigatório e não deve comprometer a clareza ou uniformidade da escrita.
+
+Essas regras são importantes para garantir que os pergaminhos da Torá sejam escritos de forma precisa e respeitosa, mantendo a tradição e a santidade do texto. Na prática contemporânea, essas diretrizes são seguidas por escribas treinados, conhecidos como soferim, que dedicam anos ao estudo e prática da escrita de pergaminhos sagrados.

@@ -1,0 +1,26 @@
+SIMAN 381
+
+**Lei sobre cinco pessoas que se sentaram em um banco. Contém um parágrafo:**
+
+Cinco pessoas se sentaram em um banco e ele não quebrou. Então, uma sexta pessoa veio e se sentou nele, apoiando-se nos outros e não permitindo que se levantassem, e o banco quebrou. Mesmo que o banco já estivesse propenso a quebrar antes que ele se sentasse, como a quebra foi acelerada pela última pessoa, esta é responsável, pois se pode argumentar que, se ele não tivesse se apoiado nos outros, eles teriam se levantado antes que o banco quebrasse. Se todos se sentaram ao mesmo tempo e o banco quebrou, todos são responsáveis, e o mesmo se aplica a casos semelhantes.
+
+*Nota: Há quem diga que um banco comum é considerado emprestado para uso geral, e se ele quebra sob eles, é como se tivesse quebrado devido ao uso normal, e eles estão isentos de pagar (Tur, Seção 62, em nome do Rosh, Tosafot, Primeiro Capítulo de Bava Kama), a menos que os que se sentaram sejam diferentes, pesados e mais corpulentos do que outras pessoas. Nesse caso, se eles se sentaram juntos e o banco quebrou sob eles, todos são obrigados a pagar. Se eles se sentaram um após o outro, e o banco não teria quebrado sem a última pessoa, somente esta é responsável por pagar. Se o banco teria quebrado sem a última pessoa, ela está isenta. Se o banco não teria quebrado senão após duas horas, mas com a última pessoa quebrou em uma hora, então se verifica: se a última pessoa se apoiou nos outros e os impediu de se levantar, somente ela é responsável por pagar; caso contrário, todos são responsáveis (tudo isso está no Tur em nome do Rosh).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda uma situação específica de responsabilidade por danos, usando o exemplo de um banco que quebra quando várias pessoas se sentam nele. Vamos explicar isso de forma prática:
+
+1. **Cenário Básico**: Imagine que cinco pessoas estão sentadas em um banco. O banco está em um estado que pode suportar o peso delas, mas está perto de quebrar. Quando uma sexta pessoa se junta e se senta, o banco quebra. A questão aqui é: quem é responsável por pagar pelo banco quebrado?
+
+2. **Responsabilidade Individual**: Se a sexta pessoa se sentou e, ao fazer isso, impediu que as outras cinco se levantassem (talvez por se apoiar nelas), essa pessoa é considerada responsável. A lógica é que, se ela não tivesse se apoiado, as outras poderiam ter se levantado antes que o banco quebrasse, evitando o dano.
+
+3. **Responsabilidade Coletiva**: Se todas as seis pessoas se sentaram ao mesmo tempo e o banco quebrou, todas são consideradas responsáveis. Isso significa que, como todos contribuíram igualmente para a situação, todos compartilham a responsabilidade pelo dano.
+
+4. **Uso Normal do Banco**: Existe uma opinião que diz que um banco comum é considerado emprestado para uso geral. Se ele quebra durante o uso normal, as pessoas que estavam sentadas não precisam pagar, pois o banco foi usado como esperado. No entanto, se as pessoas que se sentaram são significativamente mais pesadas do que o normal, e o banco quebra, elas são responsáveis.
+
+5. **Ordem de Sentar**: Se as pessoas se sentaram uma após a outra, e o banco não teria quebrado sem a última pessoa, então apenas essa última pessoa é responsável. Se o banco teria quebrado de qualquer forma, a última pessoa não é responsável.
+
+6. **Tempo de Quebra**: Se o banco estava destinado a quebrar em duas horas, mas quebrou em uma hora por causa da última pessoa, a responsabilidade depende de se essa pessoa impediu as outras de se levantarem. Se sim, ela é responsável; se não, todos compartilham a responsabilidade.
+
+Essas regras são aplicadas para determinar a responsabilidade em situações de danos, refletindo a importância de considerar tanto a ação individual quanto a coletiva. Na vida contemporânea, isso pode ser aplicado a várias situações em que várias pessoas contribuem para um dano, ajudando a decidir quem deve arcar com os custos.

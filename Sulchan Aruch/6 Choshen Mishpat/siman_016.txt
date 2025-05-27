@@ -1,0 +1,34 @@
+SIMAN 16
+
+**Quanto tempo é dado para apresentar prova e a lei sobre a imposição de um herem. Contém cinco seifim:**
+
+1. Se uma das partes em um litígio afirma que tem testemunhas para apresentar, é concedido a ela um prazo de 30 dias. Após esses 30 dias, o julgamento é concluído. Se a parte trouxer as testemunhas depois, o julgamento pode ser reaberto. Se for conhecido e evidente para o Beit Din (tribunal rabínico) que certas pessoas são testemunhas no caso e estão distantes, é dado tempo suficiente para trazê-las. Da mesma forma, se o Beit Din souber que a parte pode esclarecer suas palavras dentro de 30 dias, não se concede tempo desnecessário.
+
+2. O prazo de 30 dias é dado especificamente quando a parte foi inicialmente demandada sem prova e o Beit Din a obrigou a jurar, e ela alega ter prova, mas não a possui no momento. Se a parte não quiser aceitar o juramento, é dado o prazo de 30 dias. No entanto, se a parte inicialmente alegou ter prova, mas não a possui no momento, não há necessidade de conceder tempo; quando trouxer a prova, o réu responderá. Se a parte voltar atrás e disser que não tem prova, o réu responderá sem prova. Há quem diga que, se a parte jurar e for liberada, não poderá mais trazer prova.
+
+3. Se o réu pedir tempo para responder à alegação do demandante, e parecer ao Beit Din que é apenas uma manobra de adiamento, não se concede tempo e ele deve responder imediatamente. No entanto, se parecer ao Beit Din que ele precisa de tempo para refletir e considerar questões pessoais, é dado tempo conforme necessário. Se estiver escrito em um documento que o pagamento deve ser feito sem adiamento, todas as condições financeiras são válidas.
+
+4. Se uma das partes em um litígio alegar ter direito a testemunhas ou prova, mas não souber quem as possui, o juiz deve impor um herem (anátema) sobre qualquer um que saiba de tal prova ou testemunha para que informe ao juiz, mesmo que a parte adversa saiba da prova ou testemunha, é obrigada a informar.
+
+5. Se alguém disser a outro que tem um documento em sua posse que lhe confere direito, e o outro admitir que tal direito existe, ele deve apresentar o documento no Beit Din, que transcreverá o que está escrito sobre o direito. Mas se o outro afirmar que não possui tal documento, não é obrigado a mostrar o documento a ninguém. No entanto, se a parte quiser impor um herem geral sobre qualquer um que possua um documento que lhe confere direito, pode fazê-lo. Se a parte alegar com certeza que o documento está em posse do outro, este deve jurar que não o possui.
+
+6. Se alguém apresentar um documento contra outro, e este alegar que o documento é falso e pedir uma cópia para examiná-lo, deve ser concedida, mesmo que esteja escrito no documento que não se deve fazer cópias.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 16 do Shulchan Aruch Choshen Mishpat trata de regras sobre como lidar com provas e testemunhas em disputas legais dentro do contexto da lei judaica. Vamos explicar cada parte de forma prática:
+
+1. **Prazo para Apresentar Provas**: Quando alguém está envolvido em uma disputa legal e diz que tem testemunhas para apresentar, o tribunal rabínico (Beit Din) dá a essa pessoa 30 dias para trazer essas testemunhas. Se, após esse período, as testemunhas não forem apresentadas, o caso é encerrado. No entanto, se as testemunhas aparecerem depois, o caso pode ser reaberto. Se o tribunal souber que as testemunhas estão longe, pode dar mais tempo. Isso garante que todos tenham uma chance justa de apresentar suas provas.
+
+2. **Juramento e Provas**: Se uma pessoa é chamada ao tribunal sem provas e é obrigada a jurar, mas diz que tem provas, recebe 30 dias para apresentá-las. Se a pessoa não quiser jurar, também recebe 30 dias. No entanto, se inicialmente afirmou ter provas, mas não as tem no momento, não recebe tempo extra; deve apresentar as provas quando as tiver. Se a pessoa jurar e for liberada, não pode mais apresentar provas.
+
+3. **Tempo para Responder**: Se o réu (a pessoa que está sendo acusada) pede mais tempo para responder, o tribunal decide se é um pedido legítimo ou apenas uma tentativa de adiar o processo. Se for legítimo, o tempo necessário é concedido. Se houver um documento que estipule pagamento imediato, essas condições devem ser respeitadas.
+
+4. **Herem para Descobrir Provas**: Se alguém acredita que existem provas ou testemunhas, mas não sabe quem as possui, o tribunal pode impor um "herem" (uma espécie de anátema ou maldição) para que qualquer pessoa que saiba sobre essas provas ou testemunhas informe ao tribunal. Isso inclui a parte adversa, que também deve informar se souber de algo.
+
+5. **Documentos e Herem**: Se alguém afirma ter um documento que prova um direito, e a outra parte admite isso, o documento deve ser apresentado ao tribunal para registro. Se a outra parte nega ter o documento, não é obrigada a mostrá-lo. No entanto, a parte interessada pode pedir um herem para que qualquer pessoa que tenha o documento o apresente. Se a parte tiver certeza de que o documento está com a outra pessoa, esta deve jurar que não o possui.
+
+6. **Exame de Documentos**: Se alguém apresenta um documento contra outra pessoa, e esta alega que o documento é falso, tem o direito de pedir uma cópia para examiná-lo, mesmo que o documento diga que não se deve fazer cópias. Isso é para garantir que a pessoa possa se defender adequadamente.
+
+Essas regras são importantes para garantir justiça e equidade nos processos legais dentro da comunidade judaica, permitindo que todas as partes tenham a oportunidade de apresentar suas provas e se defenderem de maneira justa.

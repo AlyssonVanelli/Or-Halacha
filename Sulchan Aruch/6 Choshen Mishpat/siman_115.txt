@@ -1,0 +1,54 @@
+SIMAN 115
+
+**Lei sobre os frutos e o aumento de valor quando um credor toma de um comprador e de órfãos. Contém seis seções:**
+
+Quando um credor vem tomar de um comprador, se o devedor escreveu para ele "Da'akna" (uma cláusula que permite ao credor tomar também o aumento de valor), ele também toma o aumento de valor que o campo teve, seja o aumento que ocorreu naturalmente, como árvores que cresceram ou o aumento de valor, seja o aumento devido a despesas. No entanto, se o aumento ocorreu naturalmente, ele toma todo o aumento.
+
+**Nota:** Alguns dizem que, em qualquer caso, ele só recebe metade do aumento (Tur em nome do Rosh e do Magid, capítulo 21 de Empréstimos, e assim me parece ser a principal opinião). No entanto, se ele escreveu explicitamente para o comprador que não cobraria do "Da'akna", o comprador não tem direito a nada do aumento (Rosh, capítulo 1 de Bava Metzia).
+
+Se o aumento foi devido a despesas, ele toma metade do aumento além das despesas. **Nota:** Alguns dizem que o credor não dá ao comprador as despesas, já que a dívida é contra o principal com o aumento (Tur em nome do Rosh e veja Beit Yosef).
+
+O comprador pode então cobrar o principal dos bens do vendedor, mesmo dos bens que foram vendidos ou dados após o tempo em que o campo foi vendido a ele. No entanto, o aumento que o credor tomou dele não pode ser cobrado dos bens do vendedor, apenas dos bens livres.
+
+Tudo isso se aplica apenas ao aumento que ocorreu enquanto o vendedor estava vivo. Mas se o aumento ocorreu após a morte do vendedor, o credor não tem direito a ele, e ele permanece totalmente com o comprador (Nimukei Yosef, capítulo 1 de Bava Metzia).
+
+Todos os frutos que o comprador consumiu não são tomados dele, mas todos os frutos ainda ligados à terra, mesmo que não precisem da terra, como uvas prontas para serem colhidas, o credor os toma como toma o aumento. Se o comprador quiser removê-lo, ele pode removê-lo, seja do campo ou do aumento, a menos que tenha sido feito um "Apotiki" explícito, dizendo que não haverá pagamento exceto deste.
+
+Um credor que tomou sua dívida do comprador, o que é devido a ele do principal e metade do aumento, verifica-se se o restante da terra é benéfico para o comprador, como se restasse para ele no campo uma área de nove kabin e no jardim uma área de meio kab, ambos compartilham. Se não restar nada que, se dividido, ficaria todo com ele, o credor paga o valor a ele. **Nota:** Se o comprador quiser (Tur, seção 67). Alguns dizem que o mesmo se aplica se o valor da dívida for apenas contra o principal e não contra o aumento, então todo o aumento permanece com o comprador, a menos que o vendedor tenha feito um "Apotiki".
+
+Todos esses assuntos se aplicam apenas a um comprador, mas um receptor de presente que aumentou o valor devido a despesas, o credor não toma nada do aumento, mas verifica-se quanto valia no momento do presente e ele toma. Se o aumento ocorreu naturalmente, o credor toma todo o aumento. **Nota:** Alguns dizem que mesmo o aumento natural não é tomado (Tur em nome de Razah e Rosh), a menos que tenha sido feito um "Apotiki", que é tratado como com órfãos, como será explicado em breve (Magid, capítulo 21).
+
+Se o doador aceitou a responsabilidade pelo presente, o credor toma dele como toma de um comprador. **Nota:** Um comprador que especificou explicitamente que não tem responsabilidade sobre o vendedor é tratado como um receptor de presente (Magid, capítulo 21).
+
+Da mesma forma, órfãos que aumentaram o valor dos bens, o credor não toma nada do aumento, mas se o aumento ocorreu naturalmente, ele toma todo o aumento. **Nota:** Alguns discordam e acreditam que ele não toma dos órfãos como de um presente, a menos que tenha sido feito um "Apotiki", então ele toma também o aumento (Tur).
+
+**Nota:** (Daqui até o final do capítulo, tudo é a linguagem de Maimônides, final do capítulo 21 das Leis de Empréstimos). Um credor que vem tomar dos órfãos o aumento devido a despesas, os órfãos dizem "nós aumentamos" e o credor diz "talvez seu pai aumentou", os órfãos devem trazer prova. **Nota:** Alguns dizem que, se não foi feito um "Apotiki", ele deve trazer prova (Tur).
+
+Se os órfãos trouxerem prova de que eles aumentaram, avalia-se o aumento e as despesas, e eles tomam o menor dos dois, e ele paga em dinheiro. **Nota:** Isso se aplica apenas se o campo foi feito um "Apotiki". **Nota:** Alguns dizem que isso é apenas quando a dívida não é contra o principal e o aumento, mas se for contra ambos, ele toma tudo e não dá as despesas (Tur). Se não foi feito um "Apotiki", se os órfãos quiserem remover o credor com dinheiro, eles podem, e se quiserem, tomam da terra a medida do aumento deles.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 115 do Shulchan Aruch Choshen Mishpat, precisamos primeiro compreender alguns conceitos básicos:
+
+1. **Credor e Devedor**: Um credor é alguém a quem se deve dinheiro, enquanto o devedor é quem deve o dinheiro.
+
+2. **Comprador e Receptor de Presente**: Um comprador é alguém que adquiriu um bem pagando por ele, enquanto um receptor de presente recebeu o bem sem custo.
+
+3. **Aumento de Valor**: Refere-se ao aumento no valor de um bem, que pode ocorrer naturalmente (como árvores que crescem) ou através de despesas (como melhorias feitas no terreno).
+
+4. **Da'akna**: Uma cláusula que permite ao credor tomar não apenas o bem original, mas também qualquer aumento de valor que tenha ocorrido.
+
+5. **Apotiki**: Um termo técnico que se refere a um bem específico designado para o pagamento de uma dívida.
+
+Agora, vamos explicar as seções principais:
+
+- **Credor tomando de um Comprador**: Se um credor tem uma dívida a receber e o devedor vendeu um bem a um comprador, o credor pode tomar esse bem do comprador para satisfazer a dívida. Se o devedor incluiu a cláusula "Da'akna", o credor pode também tomar qualquer aumento de valor que o bem tenha tido. Se o aumento foi natural, o credor pode tomar tudo; se foi devido a despesas, ele pode tomar metade do aumento, descontando as despesas.
+
+- **Frutos e Aumento de Valor**: Se o comprador já consumiu os frutos do bem, o credor não pode tomá-los. No entanto, frutos ainda ligados à terra podem ser tomados pelo credor.
+
+- **Receptor de Presente e Órfãos**: Se o bem foi dado como presente, o credor não pode tomar o aumento de valor devido a despesas, mas pode tomar o aumento natural. Para órfãos, o credor não pode tomar o aumento de valor devido a despesas, mas pode tomar o aumento natural, a menos que um "Apotiki" tenha sido feito.
+
+- **Provas e Disputas**: Se há uma disputa sobre quem causou o aumento de valor (o devedor original ou os órfãos), cabe aos órfãos provar que foram eles que aumentaram o valor.
+
+Essas leis são relevantes hoje em situações de dívidas e garantias, especialmente em contextos onde propriedades são usadas como garantia para empréstimos. Elas ajudam a definir direitos e responsabilidades de credores, devedores, compradores e receptores de presentes, garantindo que as transações sejam justas e claras para todas as partes envolvidas.

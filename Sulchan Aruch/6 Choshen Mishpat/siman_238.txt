@@ -1,0 +1,37 @@
+SIMAN 238
+
+**Escrevem-se documentos para o vendedor e não para o comprador. Contém três seções:**
+
+1. Escreve-se um documento para o vendedor que vendeu seu campo a um determinado indivíduo, mesmo que esse indivíduo não esteja presente. Isso é permitido desde que o vendedor imediatamente transfira o campo para ele através de um ato de aquisição, ou que ele testemunhe que já adquiriu o campo por um dos métodos de aquisição. Contudo, é necessário que as testemunhas conheçam os nomes no documento, identificando corretamente as partes envolvidas. No entanto, não se escreve um documento para o comprador sem o consentimento do vendedor. Há quem diga que mesmo se o vendedor transferiu o campo para o comprador na ausência deste, e o comprador vem solicitar a escritura, não se deve atendê-lo, pois não se considera que um ato de aquisição foi feito para fins de documentação, a menos que seja na presença do comprador.
+
+   *Nota: Se alguém vem às testemunhas e diz que uma casa que possui em determinado lugar está sendo dada a outra pessoa, mesmo que as testemunhas não saibam se ele realmente possui uma casa naquele local, podem escrever, pois estão apenas testemunhando a doação. Se ele não possui a casa, a doação é nula (Mordechai, final do capítulo "O Vendedor de Frutas").*
+
+2. O comprador paga o salário do escriba, mesmo quando o vendedor está vendendo seu campo devido a sua má qualidade.
+
+3. Há quem diga que o fato de se escrever um documento para o vendedor, mesmo sem a presença do comprador, é especificamente quando se testemunha que o vendedor já recebeu o dinheiro do comprador. Se isso não estiver escrito, quando o vendedor exigir o pagamento em tribunal, ele deve trazer prova de que a venda foi feita com seu consentimento. Há quem diga que mesmo se testemunharem que o vendedor recebeu o dinheiro, se o documento indicar que a venda foi consensual, não se deve escrever. Outros dizem que se escreve mesmo sem testemunhar que o vendedor recebeu o dinheiro.
+
+   *Nota: Este documento não obriga o comprador a adquirir, pois serve apenas como prova (Tur, em nome de Ramban). Portanto, o comprador também é acreditado para afirmar que pagou o dinheiro (Beit Yosef, em nome da resposta de Rashba 136). Um documento de venda que não menciona o valor da transação, mas apenas a natureza da venda, é válido (Resposta de Rashba 1811).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 238 do Shulchan Aruch Choshen Mishpat trata das regras sobre a documentação de vendas de propriedades, como campos, e quem é responsável por esses documentos. Vamos explicar isso de forma prática:
+
+1. **Documentos de Venda:**
+   - Quando alguém vende um campo, é possível criar um documento que registra essa venda. Este documento é feito principalmente para o vendedor, mesmo que o comprador não esteja presente. Isso é permitido desde que o vendedor já tenha transferido o campo para o comprador de alguma forma reconhecida, ou que haja testemunhas que confirmem que a transferência já ocorreu.
+   - É importante que as testemunhas saibam quem são as partes envolvidas, ou seja, conheçam os nomes corretos do vendedor e do comprador.
+
+2. **Consentimento do Vendedor:**
+   - Não se pode criar um documento de venda para o comprador sem que o vendedor concorde. Mesmo que o vendedor já tenha transferido o campo para o comprador, se o comprador quiser um documento, ele precisa do consentimento do vendedor.
+
+3. **Testemunhas e Propriedade:**
+   - Se alguém diz às testemunhas que está doando uma casa para outra pessoa, as testemunhas podem registrar isso, mesmo que não saibam se a pessoa realmente possui a casa. Se a pessoa não possui a casa, a doação não tem efeito.
+
+4. **Custos do Documento:**
+   - O comprador é quem paga pelo serviço do escriba que escreve o documento, mesmo que o vendedor esteja vendendo o campo porque ele não é de boa qualidade.
+
+5. **Pagamento e Consenso:**
+   - Há uma discussão sobre se o documento pode ser feito sem a presença do comprador. Alguns dizem que isso só é permitido se houver prova de que o vendedor já recebeu o pagamento. Se não houver essa prova, o vendedor precisa demonstrar que a venda foi consensual se houver uma disputa.
+   - Outros dizem que o documento pode ser feito mesmo sem prova de pagamento, mas o documento não obriga o comprador a aceitar a compra; ele serve apenas como prova de que a venda ocorreu.
+
+Essas regras são importantes para garantir que as transações de propriedades sejam feitas de forma justa e clara, protegendo os direitos de ambas as partes envolvidas. Na prática, isso ajuda a evitar disputas legais sobre a propriedade e garante que todos os envolvidos entendam e concordem com os termos da venda.

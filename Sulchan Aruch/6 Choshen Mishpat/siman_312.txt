@@ -1,0 +1,74 @@
+SIMAN 312
+
+**O locador que aluga uma casa para seu amigo por um tempo determinado ou sem especificar. Contém 20 seções:**
+
+1. Se alguém aluga uma casa, pátio, banho ou loja para seu amigo por um tempo determinado, não pode voltar atrás e removê-lo antes do término do período, mesmo que a casa do locador caia e ele não tenha onde morar. Mesmo que ele empobreça e precise vendê-la a outro, não pode removê-lo, e a venda é válida, mas o comprador deve deixá-la nas mãos do locatário até que o tempo termine. Se o aluguel foi feito de tal forma que não poderia ser resgatado a menos que fosse vendido, ele pode vendê-lo e removê-lo imediatamente. Se ele estipulou que poderia removê-lo para suas necessidades e vendeu, o comprador não pode removê-lo. Se o aluguel foi pago antecipadamente, mesmo por um longo tempo, ele não pode removê-lo até que todo o tempo do aluguel pago antecipadamente termine.
+
+2. Mesmo que não tenha sido estipulado um tempo, presume-se que o aluguel foi feito em troca do dinheiro pago. Se o locador deseja reconstruir a casa durante o período de aluguel, ele não pode forçar o locatário a sair, mesmo para uma casa melhor, nem pode trazer trabalhadores para construir dentro dela. No entanto, é pedido ao locatário que aja além da letra da lei.
+
+3. Se, após alugar a casa, ele a aluga ou vende a um não-judeu ou a um opressor que anula o primeiro aluguel, ele é obrigado a alugar outra casa semelhante para o locatário, e assim em todos os casos semelhantes.
+
+4. Se ele hipotecou a casa por anos específicos, com um valor fixo por ano, e depois a vendeu a outro, o comprador não pode tomá-la do credor durante o ano, mas após o ano pode tomá-la.
+
+5. Se ele alugou para pernoite, não é menos que um dia; para descanso, não é menos que dois dias; para casamento, não é menos que trinta dias.
+
+6. Se alguém aluga uma casa sem especificar, não pode removê-lo até notificá-lo trinta dias antes, para que ele possa procurar um lugar e não fique desabrigado. No final dos trinta dias, ele deve sair. Isso se aplica no verão, mas no inverno, ele não pode removê-lo do feriado até a Páscoa.
+
+7. Se ele estipulou trinta dias antes do feriado, mesmo que reste apenas um dia dos trinta, ele não pode removê-lo até após a Páscoa, desde que o tenha notificado trinta dias antes. Isso se aplica em cidades, mas em vilas, tanto no verão quanto no inverno, ele deve notificá-lo doze meses antes. Para uma loja, tanto em vilas quanto em cidades, ele deve notificá-lo doze meses antes. Para uma padaria ou tinturaria, ele deve notificá-lo três anos antes.
+
+8. Assim como o locador deve notificar o locatário, o locatário também deve notificar o locador trinta dias antes em cidades ou doze meses antes em vilas, para que o locador possa encontrar outro inquilino e não deixe a casa vazia. Se não o notificar, ele não pode sair, a menos que pague o aluguel. Ou ele pode encontrar outro para substituí-lo, mas se quiser colocar alguém inadequado, o locador não é obrigado a aceitá-lo.
+
+9. Se ele alugou por um tempo determinado, assim que o tempo terminar, ele pode removê-lo imediatamente, mesmo que o tempo termine no meio do inverno.
+
+10. O que dissemos que o locador não pode removê-lo e o locatário não pode sair até notificá-lo antes, se as casas aumentaram de preço, o locador pode aumentar o aluguel e dizer ao locatário: "Ou alugue pelo preço atual ou saia." Da mesma forma, se as casas diminuíram de preço, o locatário pode reduzir o aluguel e dizer ao locador: "Ou alugue-me pelo preço atual ou aqui está sua casa." No entanto, isso é apenas se eles estipularam isso antes do tempo, mesmo que o tempo de notificação tenha passado. Mas se eles permaneceram em silêncio, presume-se que sua intenção era pelo aluguel original.
+
+11. Se ele alugou por um tempo determinado, mesmo que as casas tenham aumentado ou diminuído de preço, eles não podem mudar, apenas conforme estipulado. Se alguém alugou uma casa para seu amigo e era seu amigo, e depois se tornou seu inimigo, ele não pode removê-lo da casa. Se ele disse desde o início que não alugaria para ele, exceto porque era seu amigo, e depois se tornou seu inimigo, ele pode removê-lo.
+
+12. Isso se aplica quando ele alugou sem especificar, mas se ele alugou por um tempo determinado, mesmo que as casas tenham aumentado ou diminuído de preço, eles não podem aumentar ou diminuir.
+
+13. Se a casa do locador, onde ele morava, caiu, ele pode remover o locatário de sua casa e dizer-lhe: "Não é justo que você more na minha casa enquanto eu estou desabrigado, pois você não tem mais direito a esta casa do que eu." Isso se aplica apenas a um aluguel sem especificar, mas se for por um tempo determinado, ele não pode removê-lo durante o tempo.
+
+14. Se ele deu a casa ao seu filho para se casar, se ele sabia que seu filho se casaria em tal tempo e poderia ter notificado antes, mas não o fez, ele não pode removê-lo. Mas se agora ele encontrou uma esposa e está prestes a se casar imediatamente, ele pode removê-lo, pois não é justo que este more na casa enquanto o filho do proprietário deve alugar uma casa para seu casamento.
+
+15. Se ele vendeu, deu ou legou a casa, o segundo não pode removê-lo até notificá-lo trinta dias antes ou doze meses antes, pois o locatário pode dizer-lhe: "Seu direito não é maior do que o daquele que lhe deu a casa."
+
+16. Em um lugar onde é costume ter um ano fixo para aluguéis de casas, e Reuven alugou uma casa de Shimon por um ano, e após o término do ano, ele permaneceu na casa por um mês sem que nenhum dos dois falasse sobre o aluguel do próximo ano, e Reuven quis sair da casa, mas Shimon o impediu de sair até o final do segundo ano, a lei está com Shimon.
+
+17. Se dois moravam em uma casa e estavam dividindo a casa, e depois um foi condenado em tribunal a sair, ele deve sair mesmo no meio do inverno, mesmo que seu amigo não o tenha notificado antes.
+
+18. Se alguém aluga uma casa por um ano por um valor fixo e o ano é um ano bissexto, o mês adicional pertence ao locatário. Se ele alugou por meses, o mês adicional pertence ao locador. Se ele mencionou meses e ano, seja dizendo "um dinar por mês, doze dinar por ano" ou "doze dinar por ano, um dinar por mês", o mês adicional pertence ao locador, pois a terra está sob a posse de seu proprietário.
+
+19. Se o locador diz "Eu aluguei para você por um tempo" e o locatário diz "Eu aluguei sem especificar ou por um tempo longo", o locatário deve trazer prova, e se não trouxer, o locador jura e o remove da casa. E assim em qualquer dúvida que surja entre quem mora na casa de seu amigo e seu amigo, a menos que ele tenha uma posse de três anos, então ele é acreditado com a alegação de que comprou.
+
+20. Se alguém aluga uma casa para seu amigo por um tempo e quer demoli-la durante o tempo, o locatário pode impedi-lo. Se ele a demoliu durante o tempo, ele deve fornecer outra casa ou alugar uma semelhante. Se a casa caiu por si mesma, se ele disse "Esta casa eu alugo para você", ele não é obrigado a reconstruí-la, mas calcula o uso e devolve o restante do aluguel. Se o locatário diz "Eu a reconstruirei com meu dinheiro", não o escutam. No entanto, se a casa caiu completamente, mas se ainda está de pé, mas é perigosa para morar, o locador deve consertá-la se ele tiver aluguel antecipado. Se ele disse "Uma casa sem especificar" e ela caiu, ele deve reconstruí-la ou fornecer outra casa. Se a nova casa for menor que a que caiu, o locatário não pode impedi-lo, desde que seja considerada uma casa, pois ele alugou apenas uma casa sem especificar. Mas se ele disse "Uma casa como esta eu alugo para você", ele deve fornecer uma casa com as mesmas dimensões de comprimento e largura da casa que ele mostrou. Ele não pode dizer "Eu quis dizer apenas que estaria perto do rio ou do mercado ou do banho como esta", mas deve fornecer uma casa com as mesmas dimensões e forma. Portanto, se era pequena, ele não deve torná-la grande; se era grande, ele não deve torná-la pequena; uma não deve ser feita em duas, nem duas em uma, e não deve diminuir ou aumentar as janelas sem o consentimento de ambos.
+
+21. Se a casa foi queimada, é considerada como se tivesse caído. Se toda a cidade foi queimada, é considerada uma calamidade pública, e ele deduz do aluguel o tempo que não morou, quer tenha pago antecipadamente ou não. Se alguém aluga uma casa para seu amigo e ela cai, presume-se que ele a alugou com a intenção de reconstruí-la.
+
+22. Se alguém aluga um andar superior sem especificar, ele deve fornecer um andar superior. Se ele disse "Este andar superior sobre esta casa eu alugo para você", ele vinculou a casa ao andar superior. Portanto, se o andar superior foi danificado em quatro tefachim ou mais, o locador deve consertá-lo. Se ele não consertar, o locatário pode descer e morar na casa com o proprietário, entrando e saindo pela porta da casa até que o andar superior seja consertado. Mas se a casa e o andar superior caírem, ele não precisa construir outro, pois ele disse "Esta casa".
+
+23. Se havia dois andares, um sobre o outro, e o superior foi danificado, ele mora no inferior. Se o inferior foi danificado, é uma dúvida se ele deve morar no superior ou na casa, portanto, ele não deve morar em nenhum dos dois. Se ele morar, não o removem de lá.
+
+24. Houve um caso em que alguém disse a seu amigo: "Esta videira sobre este pêssego eu alugo para você", e a árvore de pêssego foi arrancada de seu lugar. O caso foi levado aos sábios, e eles disseram que ele deve fornecer o pêssego enquanto a videira estiver de pé. E assim em todos os casos semelhantes. Isso se aplica apenas quando o pêssego ainda está no mundo, mas foi arrancado de seu lugar. Mas se foi cortado, ele não é obrigado a fornecer outro. Da mesma forma, se a casa sob o andar superior caiu, e ele disse "O andar superior sobre esta casa", ele não precisa fornecer outra casa.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 312 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas ao aluguel de propriedades, como casas, pátios, banhos e lojas. Vamos explicar os principais pontos de forma prática e acessível:
+
+1. **Aluguel por Tempo Determinado**: Se alguém aluga uma propriedade por um período específico, o locador (quem aluga) não pode pedir que o locatário (quem está alugando) saia antes do término do contrato, mesmo que o locador enfrente dificuldades, como precisar da casa para si ou ter que vendê-la. O locatário tem o direito de permanecer até o final do período acordado.
+
+2. **Aluguel Sem Tempo Especificado**: Quando o tempo de aluguel não é especificado, presume-se que o aluguel é válido enquanto o pagamento for feito. O locador não pode forçar o locatário a sair para reconstruir ou melhorar a propriedade, a menos que o locatário concorde.
+
+3. **Venda ou Aluguel a Terceiros**: Se o locador vende ou aluga a propriedade a alguém que anula o contrato original, ele deve encontrar uma solução para o locatário, como alugar uma casa semelhante.
+
+4. **Notificação Prévia**: Se o aluguel não tem um tempo determinado, o locador deve notificar o locatário 30 dias antes de pedir que ele saia, para que o locatário tenha tempo de encontrar outro lugar. No inverno, o locador não pode pedir que o locatário saia até depois da Páscoa, a menos que a notificação tenha sido feita antes do feriado.
+
+5. **Mudança de Preço**: Se o valor dos aluguéis aumentar ou diminuir, o locador ou locatário pode ajustar o preço, mas isso deve ser acordado previamente. Se não houver acordo, o preço original permanece.
+
+6. **Casos Especiais**: Existem regras específicas para situações como quando a casa do locador cai, quando a casa é dada a um filho para casamento, ou quando a casa é vendida ou legada a outra pessoa. Em geral, o locatário tem direitos que devem ser respeitados, e o locador deve seguir as normas de notificação e respeito ao contrato.
+
+7. **Calamidades e Danos**: Se a casa alugada for danificada ou destruída, há regras sobre quem é responsável por consertar ou substituir a propriedade. Se a destruição for uma calamidade pública, o locatário pode ter direito a um desconto no aluguel.
+
+8. **Disputas e Provas**: Em caso de disputa sobre o contrato de aluguel, a parte que alega um acordo diferente deve apresentar provas. Se não houver provas, o locador pode exigir que o locatário saia.
+
+Essas leis visam proteger tanto o locador quanto o locatário, garantindo que ambos cumpram suas obrigações e respeitem os direitos um do outro. Na prática contemporânea, essas regras ajudam a manter a justiça e a ordem nos contratos de aluguel dentro da comunidade judaica.

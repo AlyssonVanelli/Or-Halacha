@@ -1,0 +1,40 @@
+SIMAN 147
+
+**O contestador sobre o campo, sendo ele testemunha ou juiz. Contém cinco seções:**
+
+1. Reuven vendeu um campo para Shimon, e Levi foi uma das testemunhas do documento. Se Levi vier contestar o campo, alegando que Reuven o roubou dele, não se dá ouvidos a ele, e não se considera as provas que ele trouxer sobre aquele campo. Ele perdeu todo o seu direito, pois se diz a ele: "Como você pode testemunhar sobre a venda e depois vir contestar?" 
+
+   *Nota: Isso é apenas se ele assinou junto com outra testemunha, mas se ele assinou sozinho, não perdeu seu direito, pois pode-se dizer que ele assinou sabendo que a assinatura de uma única testemunha não tem valor (Beit Yosef em nome do Ritva). Da mesma forma, se ele assinou apenas por cortesia, não perdeu seu direito (Rivash, Siman 252).*
+
+2. Da mesma forma, se Levi testemunhou em um documento que dizia que o campo de Reuven estava ao leste ou oeste, e ele fez do campo um sinal para outro e testemunhou no documento, ele perdeu seu direito e não pode voltar a contestar.
+
+   *Nota: Um tutor ou um tribunal que vendeu em nome de órfãos em tal caso não perdeu seu direito sobre o campo (Rivash, Siman 244, e veja acima Siman 111, Seif 26). Se o contestador alugou o terreno do possuidor, é como se ele tivesse assinado como testemunha e perdeu seu direito (Rosh, Clal 70, Siman 3). Veja também no início de Siman 142.*
+
+3. Se a testemunha alegar que apenas um sulco foi feito como sinal e não todo o campo, e que apenas aquele sulco próximo à fronteira pertence a Reuven, essa é uma alegação válida, e ele pode contestar todo o campo, exceto aquele sulco, desde que o sulco tenha a medida de nove kavim, que é a medida de um campo. Se estiver escrito "campo" e não "terreno", ele só tem direito a um pequeno sulco.
+
+   *Nota: Se ele voltou e alegou que comprou de volta o sulco que admitiu, se não houver outro documento que prove o contrário, ou se o sulco estiver em sua posse e ele o manteve depois, ele é acreditado (Tur). Se ele alegar que fez o sinal para outro não porque era dele, mas porque as propriedades eram chamadas assim quando eram dele inicialmente, sua alegação é válida, a menos que ele tenha especificado claramente que são dele (Beit Yosef em nome do Ritva em nome do Ramah).*
+
+4. Um juiz que assinou a validação de um documento pode contestar, pois pode alegar que não sabia o que estava escrito no documento, já que os juízes podem validar um documento mesmo sem lê-lo.
+
+   *Nota: Mas se ele era um juiz e concedeu a posse do terreno a alguém, ele perdeu seu direito (Rivash, Siman 252).*
+
+5. Se Shimon veio e consultou Levi, dizendo: "Estou comprando o campo de Reuven e, com seu conselho, vou comprá-lo", e Levi disse a ele: "Vá e compre, pois é bom", Levi pode contestar e não perdeu seu direito, pois não fez nenhuma ação.
+
+   *Nota: Há quem diga que isso é apenas se o contestador admitiu que o aconselhou assim, mas se ele negou e disse que não aconteceu, e o outro trouxe testemunhas para suas palavras, o contestador é obrigado por isso.*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda situações em que uma pessoa que foi testemunha ou juiz em uma transação de venda de um campo tenta posteriormente contestar a validade dessa transação. Vamos explicar cada seção de forma prática:
+
+1. **Testemunha Contestando a Venda**: Se Levi foi uma das testemunhas quando Reuven vendeu um campo para Shimon, e depois Levi tenta dizer que o campo foi roubado dele, ele não pode fazer isso. A razão é que, ao testemunhar a venda, ele implicitamente concordou com ela. No entanto, se Levi foi a única testemunha, ele ainda pode contestar, pois uma única testemunha não tem poder legal suficiente para validar uma transação. Além disso, se ele assinou apenas por cortesia, sem intenção de validar a venda, ele também não perde seu direito de contestar.
+
+2. **Testemunho sobre a Localização do Campo**: Se Levi testemunhou sobre a localização do campo de Reuven em um documento, ele não pode mais contestar a propriedade do campo. Isso é porque ele usou o campo como referência em um documento oficial, o que implica reconhecimento da propriedade de Reuven.
+
+3. **Contestação de Parte do Campo**: Se Levi alega que apenas uma parte específica do campo (um sulco) pertence a Reuven, ele pode contestar o restante do campo, desde que o sulco tenha um tamanho significativo (nove kavim, uma medida agrícola). Se ele alegar que comprou de volta o sulco, ele precisa de provas, a menos que o sulco esteja claramente em sua posse.
+
+4. **Juiz Contestando um Documento**: Um juiz que validou um documento pode contestar a transação, pois ele pode alegar que não leu o documento. No entanto, se ele foi o juiz que concedeu a posse do campo a alguém, ele não pode mais contestar, pois sua ação foi mais direta.
+
+5. **Conselho sobre a Compra**: Se Levi aconselhou Shimon a comprar o campo de Reuven, dizendo que era uma boa compra, Levi ainda pode contestar a venda depois, pois ele não fez nenhuma ação formal que implicasse concordância com a venda. No entanto, se Shimon puder provar que Levi realmente o aconselhou, Levi pode ser responsabilizado por isso.
+
+Essas leis são relevantes hoje em dia, pois tratam de questões de integridade e responsabilidade em transações legais. Elas destacam a importância de ser cuidadoso ao testemunhar ou validar documentos, pois essas ações têm implicações legais significativas.

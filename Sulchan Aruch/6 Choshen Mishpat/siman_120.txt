@@ -1,0 +1,32 @@
+SIMAN 120
+
+**Aquele que lança sua dívida de forma indefinida ou como um documento de quitação e a lança e ela se perde. Contém dois parágrafos:**
+
+1. O dinheiro permanece sob a responsabilidade do devedor até que ele pague ao credor ou ao seu agente. Se ele lançar o dinheiro na presença do credor e este se perder, o devedor é responsável, mesmo que o credor tenha dito "Lance minha dívida" e ele a lançou e se perdeu, o devedor ainda é responsável. No entanto, se o credor disse "Lance minha dívida e fique isento" e ele a lançou, mesmo que longe do credor, e ela se perdeu antes de chegar às mãos do credor, o devedor está isento, pois o credor o autorizou a fazê-lo. Se o credor disse "Lance minha dívida como um documento de quitação", se o dinheiro estava mais próximo do devedor, ainda está sob sua responsabilidade; se estava mais próximo do credor, o devedor está isento. Se estava a meio caminho, e se perdeu ou foi roubado, o devedor paga metade.
+
+2. Como ele lançou para ele dentro de quatro cúbitos do credor, o devedor está isento. Fora dos quatro cúbitos, se o credor pode guardá-lo e não o devedor, o devedor está isento. Se o devedor pode guardá-lo e não o credor, o devedor é responsável. Se ambos podem guardá-lo, é considerado meio a meio, e ambos são responsáveis. Mas se nenhum dos dois pode guardá-lo, é como se ele o tivesse lançado em um lugar perdido, e o devedor é responsável.
+
+**Em que casos isso se aplica? Quando o credor não expressou que não deseja recebê-lo. Portanto, se ele o lançou e se perdeu, o devedor é responsável, pois o credor pode dizer: "Se você tivesse me dado, eu o teria guardado". Mas se o devedor disse "Aqui está seu dinheiro" e o credor não quis recebê-lo e ele o lançou na frente dele, se for em um lugar onde o credor pode ser pago, o devedor está isento e não precisa levá-lo ao tribunal, pois pagamento forçado é considerado pagamento. Da mesma forma, se ele disse "Aqui está seu dinheiro amarrado em minha casa, venha e pegue seu dinheiro" e o credor se recusou a pegá-lo e ele foi roubado ou perdido, o devedor está isento, a menos que ele tenha sido negligente e ele foi roubado ou perdido.
+
+**Nota:** Há quem discorde disso. Se ele pagou à esposa do credor, se ela é uma pessoa de entendimento, o devedor está isento como se tivesse dado ao próprio credor. Se Reuven devia a Shimon e quando chegou a hora do pagamento, Shimon disse para investir o dinheiro para metade do lucro e depois foi roubado da mão do devedor, ele é responsável por todas as perdas, como no início, já que inicialmente estava sob sua responsabilidade e não mudou apenas por palavras.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este texto do Shulchan Aruch aborda questões sobre como uma dívida deve ser paga e quem é responsável se o dinheiro se perder durante o processo de pagamento. Vamos explicar isso de forma prática:
+
+1. **Responsabilidade do Devedor**: Quando alguém deve dinheiro a outra pessoa, o devedor é responsável por garantir que o credor receba o pagamento. Se o devedor simplesmente "lançar" o dinheiro (ou seja, entregar de forma descuidada) e ele se perder, o devedor ainda é responsável, a menos que o credor tenha explicitamente liberado o devedor dessa responsabilidade.
+
+2. **Instruções do Credor**: Se o credor diz ao devedor para lançar o dinheiro e se isentar de responsabilidade, então o devedor não é mais responsável se o dinheiro se perder, mesmo que não tenha chegado às mãos do credor. Isso só se aplica se o credor deu permissão clara para isso.
+
+3. **Proximidade do Dinheiro**: Se o dinheiro está mais próximo do devedor quando se perde, o devedor é responsável. Se está mais próximo do credor, o devedor não é responsável. Se está no meio do caminho, ambos compartilham a responsabilidade.
+
+4. **Quatro Cúbitos**: Um "cúbito" é uma medida de distância. Se o dinheiro é lançado dentro de quatro cúbitos do credor, o devedor está isento de responsabilidade. Fora dessa área, a responsabilidade depende de quem pode guardar o dinheiro. Se ambos podem guardá-lo, a responsabilidade é dividida.
+
+5. **Recusa do Credor**: Se o credor se recusa a aceitar o pagamento, mas o devedor o oferece de forma que o credor poderia aceitá-lo, o devedor não é responsável se o dinheiro se perder. Isso é considerado um pagamento válido.
+
+6. **Pagamento a Terceiros**: Se o devedor paga à esposa do credor e ela é considerada capaz de entender a transação, é como se tivesse pago ao próprio credor.
+
+7. **Investimento do Dinheiro**: Se o credor pede ao devedor para investir o dinheiro em vez de pagá-lo diretamente, e o dinheiro se perde, o devedor ainda é responsável, pois a responsabilidade original não mudou.
+
+Essas regras são importantes para garantir que as transações financeiras sejam feitas de forma justa e clara, protegendo os direitos de ambas as partes envolvidas. Na vida contemporânea, essas leis ajudam a resolver disputas sobre pagamentos e responsabilidades financeiras, garantindo que todos saibam suas obrigações e direitos.

@@ -1,0 +1,38 @@
+SIMAN 364
+
+**Siman 364: Aquele que entra na casa de alguém e remove objetos ou arrebata moedas de ouro de sua mão. Contém nove seções:**
+
+1. Se alguém foi testemunhado entrando na casa de outra pessoa na presença do proprietário e pegou objetos, mas não se sabe quantos objetos foram levados, suas leis são explicadas no Siman 90.
+
+2. Se testemunhas viram alguém entrar na casa de outra pessoa sem a presença do proprietário e pegar objetos, mesmo que os tenha retirado abertamente, e mesmo que o proprietário costume vender seus objetos, se ele alegar que os pegou de forma ilícita e o outro afirmar "Entrei com sua permissão" ou "Você os vendeu para mim" ou "Os peguei por uma dívida que você tem comigo", ele não é acreditado. Qualquer um que entre na casa de outra pessoa sem sua presença e retire objetos na presença de testemunhas é considerado um ladrão. Portanto, ele deve devolver os objetos ao proprietário, e não há juramento aqui, pois as testemunhas viram o que foi roubado. Após devolver, ele pode processar o proprietário por qualquer alegação que tenha, e o julgamento será entre eles.
+
+3. Da mesma forma, se houver apenas uma testemunha e o proprietário alegar que o objeto em sua mão foi roubado, e o outro afirmar que o comprou ou o pegou por uma dívida ou que era seu e estava em depósito, ele deve devolver o objeto ao proprietário sem juramento. Se houvesse duas testemunhas, ele seria obrigado a pagar, e agora que há apenas uma testemunha, ele é obrigado a jurar, mas não pode jurar, pois não contradiz a testemunha. Qualquer um que seja obrigado a jurar e não possa jurar deve pagar. Portanto, se ele negar e disser "Não entrei em sua casa e não peguei nada", já que há apenas uma testemunha e ele a contradiz, ele jura um juramento da Torá de que não pegou nada da casa e é liberado.
+
+4. Se alguém arrebatar uma moeda de prata da mão de outra pessoa na presença de uma testemunha e disser "Arrebatei o que é meu", ele deve devolver.
+
+5. Se ele arrebatar moedas de ouro na presença de uma testemunha e disser "Arrebatei o que é meu" e "Eram vinte", mesmo que a testemunha não saiba quantas foram arrebatadas, ele deve pagar as vinte, pois é certo que ele arrebatou moedas de ouro, e ele é obrigado a jurar, mas não pode jurar, então deve pagar.
+
+6. Se o arrebatador disser "Arrebatei vinte e são meus" e o roubado disser "Arrebatou cem", ele deve pagar os vinte que admitiu, e sobre o restante ele jura um juramento de heset.
+
+7. Se alguém entrar na casa de outra pessoa sem sua presença e pegar objetos na presença de uma testemunha, e a testemunha não souber quantos foram levados, e o proprietário disser "Havia vinte objetos em minha casa" e o ladrão disser "Peguei apenas dez e são meus", ele deve devolver os dez, pois é obrigado a jurar, mas não pode jurar, e não jura sobre o restante, nem mesmo um juramento de heset, pois não pode fazer uma alegação certa contra o ladrão.
+
+8. Se alguém disser a outro "Você me roubou cem", e o outro disser "Não roubei", ele jura um juramento de heset. Se ele admitir que roubou cinquenta, ele paga os cinquenta e jura um juramento da Torá sobre o restante, como os outros que juram, pois não foi estabelecido como ladrão por testemunhas.
+
+9. Da mesma forma, se alguém alegar que outro entrou em sua casa e roubou objetos, e o outro disser "Peguei como penhor por uma dívida que você tem comigo", e o proprietário disser "Você não tem nada comigo", mesmo que ele admita que penhorou sem permissão, já que não há testemunhas que atestem o roubo, ele jura e cobra sua dívida do penhor.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 364 do Shulchan Aruch Choshen Mishpat trata de situações em que alguém entra na casa de outra pessoa e pega objetos ou dinheiro, abordando como lidar com essas situações de acordo com a lei judaica. Vamos explicar isso de forma prática e acessível:
+
+1. **Testemunhas e Provas**: Se alguém é visto entrando na casa de outra pessoa e pegando objetos, mas não se sabe quantos, as regras para lidar com isso estão em outro lugar (Siman 90). A presença de testemunhas é crucial. Se alguém entra sem o dono presente e pega algo, mesmo que diga que tinha permissão ou que era uma dívida, ele é considerado um ladrão e deve devolver os objetos. Depois, ele pode tentar provar sua alegação em tribunal.
+
+2. **Uma Testemunha**: Se apenas uma testemunha viu o ato, e o dono diz que foi roubado, o acusado deve devolver o objeto. Se houvesse duas testemunhas, ele teria que pagar. Com uma testemunha, ele deve jurar que não pegou nada, mas se não puder jurar, deve pagar.
+
+3. **Arrebatar Dinheiro**: Se alguém pega uma moeda de outra pessoa na frente de uma testemunha e diz que era sua, deve devolver. Se for ouro e ele diz que eram vinte moedas, mas a testemunha não sabe quantas eram, ele deve pagar as vinte, pois não pode jurar.
+
+4. **Admissão Parcial**: Se alguém admite ter pegado parte do que é alegado, ele paga o que admite e jura sobre o restante. Isso é chamado de "juramento de heset", um tipo de juramento menos formal.
+
+5. **Penhor por Dívida**: Se alguém alega ter pegado algo como penhor por uma dívida, mas o dono nega a dívida, o acusado pode jurar que a dívida existe e manter o penhor, desde que não haja testemunhas do roubo.
+
+Essas leis são relevantes hoje em dia porque estabelecem princípios de justiça e responsabilidade. Elas mostram a importância de testemunhas e juramentos na resolução de disputas, e como a lei judaica busca equilibrar a proteção dos direitos de propriedade com a necessidade de provas claras. Em situações de disputa, a honestidade e a integridade são fundamentais, e a lei fornece um caminho para resolver conflitos de forma justa.

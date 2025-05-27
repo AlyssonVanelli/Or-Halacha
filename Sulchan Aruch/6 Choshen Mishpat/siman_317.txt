@@ -1,0 +1,53 @@
+SIMAN 317
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 317):**
+
+**O locatário diz: "Paguei o aluguel da casa", e o locador diz: "Você não pagou". Este capítulo contém quatro seções:**
+
+1. Se o locatário afirma que pagou o aluguel da casa que devia, e o locador diz que ainda não recebeu, seja o contrato por escrito (ou com testemunhas) ou sem testemunhas, se o locador o cobrar dentro do período de aluguel, como por exemplo, se alugou por 30 dias e o locador o cobrar dentro desses 30 dias, o locatário deve trazer prova ou pagar e fazer um juramento contra quem recebeu dele indevidamente. Ou ele pode alegar que pagou inicialmente, e isso será uma alegação independente, e o locador deve jurar. Se o locador o cobrar após 30 dias, mesmo no trigésimo dia, o locador deve trazer prova ou o locatário deve jurar que já pagou o aluguel e será isento. Da mesma forma, se ele alugou para pagar o aluguel anualmente e o locador o cobrar dentro do ano, o locatário deve trazer prova. Se o locador o cobrar após o ano, mesmo no último dia do ano, o locador deve trazer prova.
+
+2. Se o locador alugou uma casa para seu amigo por escrito por dez anos e não há data especificada, e o locatário diz que apenas um ano passou desde o contrato, enquanto o locador diz que já passaram e completaram os dez anos de aluguel, o locatário deve trazer prova. Se ele não trouxer prova, o locador deve jurar e removê-lo da propriedade. (O mesmo se aplica a outras disputas entre eles). No entanto, alguns dizem que se for após o período de aluguel, ele pode alegar que pagou ou que nunca alugou, e se surgir uma disputa entre o locador e o locatário, mesmo que a terra esteja sob a posse do proprietário, o locatário é acreditado com um "migo" (uma alegação que poderia ter sido mais forte).
+
+3. Se um contrato de aluguel ou hipoteca menciona anos de forma genérica, e o proprietário dos frutos diz três anos, enquanto o proprietário da terra diz dois, e o locatário ou credor antecipou e consumiu os frutos, os frutos permanecem sob a posse de quem os consome até que o proprietário da terra traga prova. E há quem diga que se o tribunal ver que o locatário ou hipotecário não pode mais esclarecer suas palavras, eles o removem da posse.
+
+4. Se o locatário ou hipotecário consumiu por três anos e escondeu o contrato, e diz que tem direito aos frutos por cinco anos, enquanto o proprietário da terra diz três, e ele diz "traga seu contrato" e ele responde "perdi", o locatário é acreditado, pois se quisesse, poderia ter dito que a terra foi comprada por ele, já que consumiu por três anos. Isso é apenas se não houver testemunhas de que a terra está alugada ou hipotecada em sua posse, e o proprietário da terra não protestou; caso contrário, ele não é acreditado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 317 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este texto aborda disputas entre locadores (quem aluga a propriedade) e locatários (quem aluga a propriedade) sobre o pagamento de aluguel. Ele estabelece regras sobre quem deve provar o quê em diferentes situações, dependendo de quando a cobrança é feita e se há ou não um contrato escrito.
+
+### Seção 1: Disputa sobre Pagamento de Aluguel
+
+- **Situação:** O locatário afirma que já pagou o aluguel, mas o locador diz que não recebeu.
+- **Regra:** 
+  - Se a cobrança é feita dentro do período de aluguel (por exemplo, dentro dos 30 dias de um aluguel mensal), o locatário deve provar que pagou. Se não puder provar, ele deve pagar novamente e pode fazer um juramento para se proteger contra cobranças indevidas.
+  - Se a cobrança é feita após o período de aluguel, o locador deve provar que o aluguel não foi pago. Se não puder, o locatário pode jurar que pagou e será isento de pagar novamente.
+
+### Seção 2: Disputa sobre Duração do Aluguel
+
+- **Situação:** O locatário e o locador discordam sobre quanto tempo passou desde o início do contrato.
+- **Regra:** 
+  - Se não há prova clara, o locatário deve provar sua alegação. Se não puder, o locador pode jurar e exigir que o locatário desocupe a propriedade.
+  - Se a disputa ocorre após o término do período de aluguel, o locatário pode alegar que pagou ou que nunca alugou, e ele é acreditado se puder fazer uma alegação mais forte (chamada de "migo").
+
+### Seção 3: Disputa sobre Anos de Aluguel ou Hipoteca
+
+- **Situação:** O contrato menciona anos de forma genérica, e há uma disputa sobre quantos anos foram acordados.
+- **Regra:** 
+  - Se o locatário ou credor já consumiu os frutos da terra, ele mantém os frutos até que o proprietário da terra prove o contrário.
+  - Se o tribunal perceber que o locatário ou hipotecário não pode esclarecer sua posição, ele pode ser removido da posse.
+
+### Seção 4: Disputa sobre Consumo de Frutos
+
+- **Situação:** O locatário ou hipotecário consumiu frutos por três anos e alega ter direito a mais anos, mas perdeu o contrato.
+- **Regra:** 
+  - O locatário é acreditado se não houver testemunhas de que a terra está alugada ou hipotecada, e se o proprietário não protestou. Isso se baseia na ideia de que ele poderia ter alegado que comprou a terra, já que consumiu os frutos por três anos.
+
+### Relevância Prática
+
+Essas leis são importantes para resolver disputas de forma justa e ordenada, garantindo que ambas as partes tenham a oportunidade de apresentar suas provas e alegações. Na vida contemporânea, essas regras ajudam a evitar litígios prolongados e a proteger os direitos de locadores e locatários.

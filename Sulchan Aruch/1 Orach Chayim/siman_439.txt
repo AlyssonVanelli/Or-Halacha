@@ -1,0 +1,32 @@
+SIMAN 439
+
+**Lei sobre alguém que verificou e não encontrou o número de pães que havia deixado. Contém 4 seções:**
+
+1. Se havia nove pilhas de matzá e uma de chametz, e um rato veio e pegou algo, mas não sabemos se pegou chametz ou matzá, e entrou em uma casa que já foi verificada, é necessário verificar novamente. No entanto, se o pão é pequeno o suficiente para que o rato possa comê-lo, assumimos que ele o comeu e não é necessário verificar novamente (Tur). Isso porque tudo que está fixo é considerado como metade e metade. Se o pão foi retirado de seu local fixo e o rato o pegou de lá, não é necessário verificar novamente, pois tudo que se separa, separa-se da maioria.
+
+2. Se há duas pilhas, uma de chametz e outra de matzá, e duas casas, uma verificada e outra não, e dois ratos vieram, um pegou chametz e o outro matzá, mas não se sabe em qual casa entrou o que pegou o chametz, ou se ambas as casas são verificadas e há uma pilha de chametz, e um rato pegou algo e não se sabe em qual casa entrou, ou se sabe que entrou em uma delas e alguém entrou depois e verificou, mas não encontrou nada, ou verificou parte da casa e encontrou um pão, não é necessário verificar novamente. (Essas são as palavras do Rambam, mas a conclusão dos decisores não é assim).
+
+3. Se alguém deixou nove pães de chametz e encontrou dez, é necessário verificar todos os nove. Da mesma forma, se deixou dez e encontrou nove, é necessário verificar todos os dez, pois dizemos que o que foi deixado foi levado e estes são outros. E há quem diga que isso se aplica quando estão amarrados juntos, mas se não estão amarrados, não é necessário verificar, exceto por um.
+
+4. Se alguém deixou chametz em um canto e o encontrou em outro canto, é necessário verificar novamente.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 439 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+- **Chametz**: Refere-se a qualquer alimento feito de trigo, cevada, centeio, aveia ou espelta que tenha fermentado. Durante a Páscoa judaica (Pessach), é proibido possuir ou consumir chametz.
+- **Matzá**: É o pão não fermentado que os judeus comem durante o Pessach, em vez de chametz.
+- **Verificação (Bedikat Chametz)**: É a busca e remoção de chametz das casas antes do início do Pessach.
+
+Agora, vamos explicar cada seção:
+
+1. **Rato e Pilhas de Pão**: Se você tem nove pilhas de matzá e uma de chametz, e um rato pega algo, mas não sabemos o que, e entra em uma casa já verificada, você deve verificar novamente. Isso é porque não sabemos se o rato levou chametz. No entanto, se o pedaço de pão é pequeno o suficiente para que o rato possa tê-lo comido, assumimos que ele o fez, e não é necessário verificar novamente. A regra geral é que, se algo está em um local fixo, consideramos as chances de ser chametz ou matzá como iguais. Mas se o rato pegou o pão de um local não fixo, assumimos que ele pegou da maioria, que é matzá, e não precisamos verificar novamente.
+
+2. **Dois Ratos e Duas Casas**: Se há duas pilhas, uma de chametz e outra de matzá, e dois ratos pegam um de cada, mas não sabemos em qual casa cada um entrou, ou se ambas as casas são verificadas e um rato pega algo, mas não sabemos em qual casa entrou, ou se sabemos que entrou em uma casa e alguém verificou e não encontrou nada, ou encontrou um pão, não é necessário verificar novamente. No entanto, há uma discussão entre os sábios sobre essa conclusão.
+
+3. **Pães a Mais ou a Menos**: Se você deixou nove pães de chametz e encontrou dez, ou deixou dez e encontrou nove, é necessário verificar todos os pães. Isso porque podemos supor que os pães originais foram levados e estes são outros. Alguns dizem que isso só se aplica se os pães estavam amarrados juntos; se não estavam, só é necessário verificar um.
+
+4. **Pão Movido de Lugar**: Se você deixou chametz em um canto e o encontrou em outro, é necessário verificar novamente. Isso é porque o movimento do chametz pode indicar que algo foi alterado, e precisamos garantir que não há mais chametz escondido.
+
+Essas leis são relevantes na prática judaica contemporânea, especialmente durante a preparação para o Pessach, quando a remoção de chametz é uma obrigação religiosa. Elas ajudam a garantir que a casa esteja livre de chametz, cumprindo assim as exigências da festividade.

@@ -1,0 +1,42 @@
+SIMAN 305
+
+**Guardião que nega ou alega que foi forçado ou roubado. Contém sete seções:**
+
+1. Um guardião remunerado tem o mesmo julgamento que um guardião gratuito no que diz respeito a negar ou outras alegações entre eles, como se ele dissesse que usou o objeto e o danificou, e coisas semelhantes. Ele jura um juramento de heset e é absolvido. Se o guardião alega que foi forçado, se estiver em um lugar onde há testemunhas disponíveis, ele deve trazer testemunhas e será absolvido ou pagará. Se não houver testemunhas disponíveis, ele deve jurar que é como ele diz.
+
+2. Ele deve incluir em seu juramento que não estendeu a mão sobre o objeto e que não está em sua posse. Se ele alega que foi roubado ou mesmo se diz que foi negligente e está disposto a pagar, ele é obrigado a jurar que não está em sua posse.
+
+3. Se foi roubado por ladrões armados e o ladrão foi identificado, ele deve pagar ao proprietário, e este levará o ladrão ao tribunal. Mesmo se ele já jurou e foi absolvido antes, e o ladrão foi identificado, ele deve levar o ladrão ao tribunal, e este pagará ao proprietário.
+
+4. Se os proprietários estavam com ele em seu trabalho no momento em que ele puxou o objeto para guardá-lo, ele está isento mesmo de negligência, como foi explicado nas leis de guardião gratuito.
+
+5. Se ele aceitou ser um guardião remunerado para se responsabilizar mesmo por casos de força maior, ou se estipulou ser isento de roubo e perda e de juramento, tudo depende de seu acordo. (Se ele disse de forma geral que não se responsabilizaria, ele está isento mesmo de negligência) (Mordechai, final do capítulo dos artesãos).
+
+6. Um guardião remunerado que entregou a outro guardião, seu julgamento é explicado no Siman 291.
+
+7. Aquele que diz ao seu amigo "Guarde para mim e eu guardarei para você" (alguns dizem que o mesmo se aplica a "Empreste-me e eu emprestarei a você") é considerado uma guarda com o proprietário. Se ele disse "Guarde para mim hoje e eu guardarei para você amanhã", "Empreste-me hoje e eu emprestarei a você amanhã", "Guarde para mim hoje e eu emprestarei a você amanhã", "Empreste-me hoje e eu guardarei para você amanhã", todos se tornam guardiões remunerados um para o outro. (Alguns dizem que "Empreste-me e eu emprestarei a você" e "Guarde para mim e eu emprestarei a você" ou "Empreste-me e eu guardarei para você", mesmo em um único dia, o guardião é considerado um guardião remunerado e não é chamado de guarda com o proprietário).
+
+8. Se ele disse "Empreste-me seu manto leve e pegue o meu pesado", e vieram ladrões e levaram um deles, o que restou pertence ao primeiro proprietário. (Isso é considerado "Empreste-me e eu emprestarei a você", que é uma questão de empréstimo com o proprietário. No entanto, se os objetos emprestados não estão nas mãos dos mutuários, mas nas mãos de outros, como quando Reuven deixou um penhor com Levi por Shimon, e Shimon emprestou algo a Reuven, não é considerado um empréstimo com o proprietário, pois Shimon não é guardião de Reuven, e eles são guardiões remunerados um para o outro) (Maharik, raiz 125).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre guardiões no contexto judaico, é importante saber que, na tradição judaica, há diferentes tipos de guardiões, cada um com responsabilidades específicas. Vamos explicar cada seção de forma prática:
+
+1. **Guardião Remunerado vs. Guardião Gratuito**: Um guardião remunerado é alguém que recebe pagamento para cuidar de um objeto, enquanto um guardião gratuito faz isso sem receber nada. Ambos têm responsabilidades, mas se um guardião remunerado alega que algo aconteceu com o objeto (como uso ou dano), ele deve fazer um juramento especial chamado "juramento de heset" para ser absolvido. Se ele diz que foi forçado ou roubado, ele precisa de testemunhas para provar isso ou, na falta delas, deve jurar que está dizendo a verdade.
+
+2. **Juramento e Posse**: Quando um guardião alega que o objeto foi roubado ou que ele foi negligente, ele ainda precisa jurar que o objeto não está mais em sua posse. Isso é para garantir que ele não está escondendo o objeto.
+
+3. **Roubo por Ladrões Armados**: Se o objeto foi roubado por ladrões armados e o ladrão é identificado, o guardião deve pagar ao dono do objeto, e o dono pode então processar o ladrão. Mesmo que o guardião já tenha jurado e sido absolvido, ele ainda deve ajudar a levar o ladrão ao tribunal.
+
+4. **Presença do Proprietário**: Se o proprietário estava presente quando o guardião começou a cuidar do objeto, o guardião não é responsável por negligência. Isso é porque a presença do proprietário implica que ele estava ciente e concordou com a situação.
+
+5. **Acordos Especiais**: Se um guardião remunerado fez um acordo específico para ser responsável por eventos imprevistos ou para ser isento de certas responsabilidades, ele deve seguir esse acordo. Isso significa que as condições do acordo são fundamentais para determinar suas responsabilidades.
+
+6. **Transferência para Outro Guardião**: Se um guardião remunerado passa a responsabilidade para outro guardião, as regras sobre isso são explicadas em outra seção do Shulchan Aruch.
+
+7. **Troca de Serviços de Guarda**: Quando duas pessoas fazem um acordo para guardar objetos uma para a outra, elas se tornam guardiões remunerados, a menos que o acordo seja para dias diferentes, o que muda a natureza da responsabilidade.
+
+8. **Troca de Objetos**: Se duas pessoas trocam objetos, como um manto leve por um pesado, e um deles é roubado, o que sobrou pertence ao dono original. Isso é porque a troca é vista como um empréstimo com o proprietário, o que afeta a responsabilidade.
+
+Essas leis são relevantes hoje em dia, pois ajudam a definir responsabilidades em situações de confiança e cuidado com a propriedade alheia, algo que ainda é muito comum em várias formas de negócios e acordos pessoais.

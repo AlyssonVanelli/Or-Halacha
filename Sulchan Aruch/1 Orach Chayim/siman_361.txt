@@ -1,0 +1,39 @@
+SIMAN 361
+
+**Lei sobre um telhado próximo ao domínio público. Contém 2 seções:**
+
+1. Um telhado próximo ao domínio público, dentro de dez tefachim (aproximadamente 80 cm), e acima de dez tefachim em relação ao pátio, uma vez que muitos utilizam este espaço, é considerado como um domínio público (Reshut HaRabim). Portanto, é proibido ao proprietário do telhado utilizá-lo a partir de seu pátio, a menos que ele instale uma escada fixa a partir de seu pátio. O que é considerado uma escada fixa? Qualquer escada que esteja permanentemente colocada, tanto para dias de semana quanto para o Shabat.
+
+2. Um pátio que foi completamente aberto ou mais de dez tefachim para o domínio público, o local da barreira é considerado como os lados do domínio público, que é uma carmelita (um tipo de domínio semi-público). Se a abertura for em um canto, mesmo que seja menor que dez tefachim, é proibido. Da mesma forma, uma casa que foi aberta em um canto, mesmo que seja menor que dez tefachim, e o telhado também foi aberto até que reste apenas uma diagonal, é proibido. No entanto, uma abertura que não está em um canto, dizemos que a borda do telhado desce e fecha, mesmo que seja maior que dez tefachim, desde que a borda do telhado não seja inclinada, pois não há borda. 
+
+*Nota: Alguns dizem que também é necessário que a largura do telhado seja de quatro tefachim (de acordo com Tosafot, Rosh, Sefer Mitzvot Gadol e Tur), e dizemos que a borda do telhado desce e fecha, mesmo com duas paredes, se houver duas paredes completas conectadas uma à outra, mas não se estiverem opostas uma à outra.*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 361 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos do judaísmo em relação ao Shabat e aos diferentes tipos de domínios. No Shabat, há restrições sobre o transporte de objetos entre diferentes tipos de domínios, que são categorias de espaços definidos pela Halachá (lei judaica).
+
+### Conceitos Básicos:
+
+1. **Domínio Público (Reshut HaRabim):** Este é um espaço público, como uma rua movimentada, onde muitas pessoas passam. No Shabat, é proibido transportar objetos de um domínio privado para um domínio público e vice-versa.
+
+2. **Carmelit:** Este é um tipo de domínio semi-público, que não é nem completamente público nem completamente privado. As regras para transportar objetos em um carmelit são mais restritivas do que em um domínio privado, mas menos do que em um domínio público.
+
+3. **Tefachim:** Uma medida de comprimento usada na Halachá, onde um tefach é aproximadamente 8 cm. Dez tefachim seriam cerca de 80 cm.
+
+### Explicação Prática:
+
+1. **Telhado Próximo ao Domínio Público:**
+   - Se você tem um telhado que está a menos de 80 cm de altura em relação a um espaço público movimentado, ele é considerado parte desse espaço público. Isso significa que, no Shabat, você não pode usar esse telhado para transportar objetos do seu pátio, a menos que tenha uma escada fixa que conecte o pátio ao telhado. Uma escada fixa é aquela que está sempre no lugar, tanto durante a semana quanto no Shabat.
+
+2. **Pátio Aberto para o Domínio Público:**
+   - Se o seu pátio tem uma abertura grande (mais de 80 cm) para um espaço público, a área onde a barreira deveria estar é considerada um carmelit. Isso significa que você deve ter cuidado ao transportar objetos nessa área no Shabat.
+   - Se a abertura estiver em um canto, mesmo que seja menor que 80 cm, ainda é problemático. Isso também se aplica a uma casa com uma abertura em um canto e um telhado que foi aberto, deixando apenas uma parte diagonal.
+   - No entanto, se a abertura não estiver em um canto, podemos considerar que a borda do telhado "desce e fecha" a abertura, desde que a borda do telhado não seja inclinada. Isso significa que, visualmente, podemos imaginar que a borda do telhado cria uma barreira.
+
+### Notas Adicionais:
+
+- Alguns comentaristas dizem que o telhado deve ter pelo menos quatro tefachim de largura (cerca de 32 cm) para que possamos aplicar a ideia de que a borda do telhado "desce e fecha".
+- A regra de "descer e fechar" pode ser aplicada mesmo com apenas duas paredes, desde que estejam conectadas, mas não se estiverem em lados opostos.
+
+Essas leis são relevantes para garantir que as práticas do Shabat sejam observadas corretamente, especialmente em áreas urbanas onde os limites entre espaços públicos e privados podem ser complexos.

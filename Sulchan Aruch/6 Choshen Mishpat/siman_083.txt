@@ -1,0 +1,44 @@
+SIMAN 83
+
+**Lei sobre um credor que admite que um documento é falsificado. Contém 4 seções:**
+
+1. Se o credor admite que recebeu do devedor o valor do documento, mas afirma que o recebeu por um empréstimo verbal que tinha com ele, e o devedor não admite tal empréstimo, isso é esclarecido no Siman 58.
+
+2. Se o devedor admite dois empréstimos e ambos já venceram, e ele paga uma quantia sem especificar, e o credor deseja aplicar o pagamento à dívida que tem menos garantia sobre o devedor, enquanto o devedor quer aplicá-lo à dívida com garantia, pois diz que essa era sua intenção, não se dá ouvidos a ele. Mesmo que o devedor declare explicitamente que só pagará uma dívida específica e o credor diga que só aceitará para outra dívida, a lei está com o credor. Mesmo que o credor tenha permanecido em silêncio ao receber o pagamento, ele pode posteriormente afirmar que ficou em silêncio para receber o dinheiro, mas só aceitará para outra dívida. Da mesma forma, se o devedor enviar dinheiro através do credor para outros e o credor aceitar em silêncio, ele pode posteriormente afirmar que aceitou para si mesmo e que ficou em silêncio para receber o dinheiro.
+
+3. Se o devedor diz que pagou uma dívida específica na qual há um fiador, e o credor diz que só aceitou para uma dívida sem fiador, se a dívida que o devedor afirma ter pago era verbal, o devedor é acreditado com um juramento de heset, e o fiador é liberado, mesmo que fosse um garantidor. Se ambos os empréstimos têm documentos, e o pagamento não foi feito na presença de testemunhas, o credor é acreditado com um "migo" de que poderia ter negado a transação e jura e recebe. Se há uma cláusula de confiança, ele recebe sem juramento. Mesmo se o pagamento foi feito na presença de testemunhas que atestam que foi dado como pagamento, mas não sabem de qual documento, o credor é acreditado para dizer que aceitou para a dívida sem fiador e jura e cobra do devedor ou do fiador. Se há uma cláusula de confiança, ele cobra sem juramento.
+
+4. Se um documento validado é apresentado contra o devedor, e ele afirma que é falsificado ou uma simulação, e o credor concorda, mas diz que tinha um documento válido que foi perdido, o devedor jura um juramento de heset e é liberado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 83 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Contexto Geral
+
+Este trecho do Shulchan Aruch trata de situações envolvendo dívidas e documentos que comprovam essas dívidas. No contexto judaico, as transações financeiras são frequentemente formalizadas por meio de documentos escritos, e a lei judaica (Halachá) tem regras específicas sobre como lidar com disputas relacionadas a esses documentos.
+
+### Seção 1: Admissão de Recebimento
+
+- **Situação**: O credor admite que recebeu o valor de um documento do devedor, mas afirma que o pagamento foi para um empréstimo verbal, não documentado.
+- **Relevância**: Isso é importante porque, na lei judaica, um empréstimo verbal tem menos força do que um documentado. Se o devedor nega o empréstimo verbal, a situação é tratada em outro lugar (Siman 58).
+
+### Seção 2: Aplicação de Pagamentos
+
+- **Situação**: O devedor tem duas dívidas com o credor, uma com garantia e outra sem. Ele paga uma quantia sem especificar para qual dívida. O credor quer aplicar o pagamento à dívida sem garantia, enquanto o devedor quer que seja para a dívida com garantia.
+- **Relevância**: A lei favorece o credor. Mesmo que o devedor declare que está pagando uma dívida específica, o credor pode decidir para qual dívida o pagamento será aplicado. Isso mostra a importância de especificar claramente para qual dívida um pagamento é feito.
+
+### Seção 3: Dívida com Fiador
+
+- **Situação**: O devedor diz que pagou uma dívida específica que tinha um fiador, mas o credor diz que aceitou o pagamento para outra dívida sem fiador.
+- **Relevância**: Se a dívida era verbal, o devedor pode ser acreditado com um juramento simples, liberando o fiador. Se ambas as dívidas têm documentos, o credor é acreditado, a menos que o pagamento tenha sido feito na presença de testemunhas que não sabem qual dívida foi paga. Isso destaca a complexidade de lidar com fiadores e a importância de ter testemunhas.
+
+### Seção 4: Documento Falsificado
+
+- **Situação**: Um documento é apresentado contra o devedor, que alega ser falsificado. O credor concorda, mas afirma que tinha um documento válido que foi perdido.
+- **Relevância**: O devedor pode ser liberado com um juramento simples. Isso demonstra a seriedade com que a Halachá trata alegações de falsificação e a necessidade de provas claras.
+
+### Conclusão
+
+Essas leis mostram a importância de clareza e documentação em transações financeiras. Elas também destacam como a Halachá lida com disputas, equilibrando a proteção dos direitos do credor e do devedor. Na prática, isso incentiva a formalização de acordos financeiros e a presença de testemunhas para evitar disputas futuras.

@@ -1,0 +1,40 @@
+SIMAN 378
+
+**Lei das Áreas Abertas umas para as outras. Contém cinco seções:**
+
+1. Três pátios abertos uns para os outros e abertos para o domínio público. Se cada um dos pátios externos fez um eruv com o pátio do meio, mas os pátios externos não fizeram um eruv entre si, os pátios externos são proibidos de transportar entre si, enquanto o pátio do meio é permitido com cada um deles, e eles são permitidos com ele.
+
+2. Em que casos isso se aplica? Quando o pátio do meio colocou seu eruv em cada um dos pátios externos, ou quando os pátios externos colocaram seus eruvin no pátio do meio em duas casas. Mas se os dois pátios externos colocaram seus eruvin no pátio do meio em uma única casa, todos os três são permitidos uns com os outros.
+
+3. Duas áreas, uma dentro da outra, com a interna aberta para a externa e a externa para o beco. Se a área interna tem passagem pela externa e fez um eruv para si mesma, mas a externa não fez, ou se cada uma fez um eruv para si mesma e alguém da externa esqueceu de participar, a interna é permitida e a externa é proibida. Se a externa fez um eruv e a interna não, ou se cada uma fez um eruv para si mesma e alguém da interna esqueceu de participar, ambas são proibidas. Se cada uma fez um eruv para si mesma, cada uma é permitida em sua própria área.
+
+4. Se fizeram um eruv juntos e colocaram o eruv na área externa, e alguém, seja da interna ou da externa, esqueceu de participar, ambas são proibidas até que ele renuncie ao seu direito. Se colocaram o eruv na área interna e alguém da interna esqueceu de participar, ambas são proibidas. Mas se alguém da externa esqueceu de participar, a interna é permitida.
+
+5. Se uma única pessoa reside na área interna e uma única pessoa na externa, ou duas na externa, e fizeram um eruv, o indivíduo na interna não proíbe a externa. Nota: O mesmo se aplica a muitos que são como um único, e não precisam fazer um eruv, conforme explicado anteriormente no Siman 370 (Maguid Mishneh, capítulo 4).
+
+6. Três áreas, uma dentro da outra, com um único residente em cada uma. Mesmo que muitos passem pela externa, eles não proíbem, pois cada uma é permitida em seu próprio lugar. Mas se houver dois na interna e não fizeram um eruv, eles proíbem os indivíduos na área do meio e na externa. Esta é a regra: um pé que é proibido em seu próprio lugar proíbe fora de seu lugar, e um pé que é permitido não proíbe fora de seu lugar.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 378 do Shulchan Aruch Orach Chayim, precisamos primeiro explicar alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite carregar objetos em áreas públicas durante o Shabat, algo que normalmente é proibido. O eruv cria uma "fronteira" simbólica que transforma áreas públicas em uma extensão do espaço privado.
+
+2. **Pátios e Domínio Público**: No contexto dessas leis, um "pátio" refere-se a uma área residencial compartilhada por várias casas, enquanto "domínio público" é uma área aberta a todos, como uma rua.
+
+Agora, vamos explicar as seções:
+
+1. **Três Pátios Conectados**: Imagine três pátios em linha, com o do meio conectado aos outros dois. Se os pátios externos fizerem um eruv com o do meio, mas não entre si, eles não podem carregar objetos entre si. No entanto, o pátio do meio pode carregar com cada um dos externos.
+
+2. **Colocação do Eruv**: Se o eruv do pátio do meio está em casas diferentes dos pátios externos, eles podem carregar entre si. Mas se os eruvin dos pátios externos estão em uma única casa no pátio do meio, todos podem carregar entre si.
+
+3. **Áreas Interna e Externa**: Se uma área interna tem acesso através de uma externa, e a interna fez um eruv, mas a externa não, a interna pode carregar, mas a externa não. Se a externa fez um eruv e a interna não, ambas são proibidas de carregar. Se ambas fizeram eruvin separadamente, cada uma pode carregar em sua própria área.
+
+4. **Eruv Conjunto**: Se um eruv conjunto é feito e colocado na área externa, mas alguém esquece de participar, ambas as áreas são proibidas de carregar até que essa pessoa renuncie ao seu direito de uso. Se o eruv está na área interna e alguém da interna esquece, ambas são proibidas. Mas se alguém da externa esquece, a interna ainda pode carregar.
+
+5. **Residentes Únicos**: Se há apenas uma pessoa na área interna e uma ou duas na externa, e eles fazem um eruv, a pessoa na interna não impede a externa de carregar. Isso também se aplica a muitos que são considerados como um único grupo.
+
+6. **Três Áreas em Linha**: Se há três áreas em linha, cada uma com um único residente, mesmo que muitos passem pela externa, eles não impedem o carregamento, pois cada área é permitida em seu próprio espaço. Mas se houver dois na interna e não fizerem um eruv, eles impedem os outros de carregar.
+
+Essas regras são importantes para a vida judaica contemporânea, especialmente em comunidades que observam o Shabat, pois ajudam a definir como as pessoas podem se mover e interagir em espaços compartilhados sem violar as leis do Shabat.

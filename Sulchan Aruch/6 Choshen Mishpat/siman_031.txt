@@ -1,0 +1,45 @@
+SIMAN 31
+
+**Lei sobre múltiplos grupos de testemunhas. Contém 4 seções:**
+
+1. Quando há dois grupos de testemunhas que se contradizem, e um membro de cada grupo testemunha sobre um assunto diferente, não há testemunho válido, pois certamente um deles está mentindo. Se cada grupo testemunha separadamente sobre um assunto, cada testemunho é aceito individualmente.
+
+2. Um credor que possui dois documentos de dívida contra um devedor, um de 100 e outro de 200, e o devedor nega ambos. Se um grupo de testemunhas assina um documento e outro grupo assina o outro, e ambos são apresentados juntos, o devedor paga apenas 100 e jura sobre o restante. O documento de 200 é retirado e rasgado. Se apenas um documento é apresentado, ele é cobrado, e se o segundo documento é apresentado posteriormente, ele também é cobrado. Alguns dizem que é melhor queimar o menor para evitar que o devedor faça o credor jurar que possui dois documentos assinados por essas testemunhas.
+
+3. Dois credores que apresentam cada um um documento contra um devedor, com diferentes grupos de testemunhas assinando cada documento, e o devedor nega ambos, cada credor jura e recebe. Mesmo que haja uma cláusula de confiança nos documentos, eles ainda precisam jurar.
+
+4. Um credor que apresenta documentos contra dois devedores, se apresentados juntos, cada devedor jura e é liberado. Se um deles admite, ele paga com seus bens livres. Se um documento é apresentado, ele é cobrado, e depois o segundo documento é apresentado e também é cobrado.
+
+5. Se alguém traz testemunhas que são contraditas, e depois traz outras testemunhas para a mesma reivindicação, e são contraditas, mesmo até cem grupos, e depois traz testemunhas cuja evidência é consistente, o caso é julgado com base nelas. No entanto, se dois vêm e dizem que um documento foi falsificado, mesmo que o documento seja validado por suas assinaturas, ele nunca é cobrado, a menos que as testemunhas do documento venham e testemunhem pessoalmente sobre suas assinaturas.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o Siman 31 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### 1. Testemunhas Contraditórias
+
+- **Conceito**: Quando há dois grupos de testemunhas que se contradizem, significa que eles estão dizendo coisas opostas sobre o mesmo evento ou fato.
+- **Relevância**: Na prática, isso significa que não podemos confiar em nenhum dos grupos, pois um deles está mentindo. No entanto, se cada grupo testemunha sobre assuntos diferentes, suas declarações podem ser aceitas separadamente.
+
+### 2. Documentos de Dívida com Testemunhas Diferentes
+
+- **Conceito**: Um credor tem dois documentos de dívida contra a mesma pessoa, mas com valores diferentes. Se testemunhas diferentes assinaram cada documento e ambos são apresentados ao mesmo tempo, o devedor paga apenas o valor menor e jura sobre o restante.
+- **Relevância**: Isso protege o devedor de pagar mais do que deve, enquanto ainda permite que o credor receba parte do que lhe é devido. Se os documentos forem apresentados separadamente, cada um pode ser cobrado individualmente.
+
+### 3. Dois Credores com Documentos Diferentes
+
+- **Conceito**: Quando dois credores apresentam documentos contra o mesmo devedor, e cada documento tem testemunhas diferentes, cada credor deve jurar para receber o pagamento.
+- **Relevância**: Mesmo que os documentos tenham uma cláusula de confiança, o juramento é necessário para garantir que o devedor não seja injustamente cobrado duas vezes.
+
+### 4. Um Credor com Documentos contra Dois Devedores
+
+- **Conceito**: Se um credor tem documentos contra dois devedores e os apresenta juntos, cada devedor jura e é liberado. Se um devedor admite a dívida, ele paga com seus bens disponíveis.
+- **Relevância**: Isso assegura que cada devedor só pague o que realmente deve, e que o credor não receba mais do que o devido.
+
+### 5. Testemunhas Contraditórias Repetidas
+
+- **Conceito**: Se alguém apresenta várias vezes testemunhas que são contraditadas, mas finalmente traz testemunhas cuja evidência é consistente, o caso é decidido com base nessas últimas testemunhas.
+- **Relevância**: Isso mostra que, mesmo após várias tentativas falhas, é possível resolver o caso com testemunhas confiáveis. No entanto, se houver alegações de falsificação de um documento, ele só pode ser cobrado se as testemunhas originais confirmarem suas assinaturas pessoalmente.
+
+Essas leis são importantes para garantir justiça e equidade em disputas financeiras e legais, protegendo tanto credores quanto devedores de fraudes e erros.

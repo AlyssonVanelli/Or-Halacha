@@ -1,0 +1,58 @@
+SIMAN 94
+
+**Lei sobre a extensão de um juramento. Contém nove parágrafos:**
+
+1. Qualquer pessoa que seja obrigada a fazer um juramento no tribunal, mesmo que seja um juramento de heset, o seu oponente pode estender sobre ela qualquer reivindicação que tenha contra ela, desde que, se ela admitisse, seria obrigada a pagar. (Há quem diga que se o juramento veio a ela por meio de inversão, quando o réu disse "jure e receba", não se pode estender sobre ela) (T.H. Siman 327). Se, mesmo que admitisse, não seria obrigada a pagar dinheiro, mas apenas um juramento, não se pode estender. Contudo, um trabalhador que jura e recebe não se pode estender sobre ele, mesmo que o demandante não tenha solicitado a extensão, o tribunal por si só pode estender.
+
+2. Não se pode estender, exceto quando o réu alega com certeza e é obrigado a jurar. Mas se ele alega uma dúvida e é obrigado a jurar, não se pode estender sobre ele. Contudo, sobre uma alegação de dúvida do demandante, pode-se estender, desde que haja fundamento para a questão, como no juramento dos sócios.
+
+3. Se alguém é obrigado a jurar e o demandante começa a estender sobre ele outras questões que não foram alegadas, e o réu vê isso e diz "não quero jurar, mas pagarei a reivindicação original pela qual fui obrigado a jurar", não se ouve isso. Diz-se ao réu: ou pague tudo o que foi estendido sobre você das reivindicações certas, ou jure. (Mesmo que ele queira pagar o valor das extensões e o demandante queira os próprios itens que está reivindicando) (N.Y. Perek HaMafkid).
+
+4. Se, quando foi obrigado a jurar, ele disse "pagarei e não jurarei", e depois que disse isso, foi-lhe reivindicado outras questões, estas não são consideradas extensões, pois ele já concordou em pagar antes de saber que queriam estender sobre ele outras questões.
+
+5. Quando se estendem sobre ele reivindicações certas e o réu diz "não quero jurar, mas pagarei a reivindicação original", como dissemos, não se ouve isso. Ou ele paga tudo o que foi estendido sobre ele ou jura. Se ele quiser jurar, é liberado de tudo, mesmo da primeira reivindicação, embora já tenha concordado em pagá-la, pode voltar atrás, mesmo depois de sair do tribunal, pois ele só concordou em pagar para se livrar do juramento. Mas uma vez que precisa jurar, ele jura até sobre a primeira reivindicação.
+
+6. Se alguém que foi obrigado a um juramento de heset e vê que estão estendendo sobre ele muito, ele pode inverter o juramento. Diz-se a ele: ou jure sobre tudo ou inverta tudo para que o outro jure sobre tudo e receba. Se o réu disser "sobre as extensões eu juro e sou liberado, e sobre a primeira reivindicação ele jura e recebe", ele tem permissão para isso.
+
+7. Se alguém reivindica cem e admite cinquenta, e sobre o restante diz "não sei", e o outro estende sobre ele várias extensões, e o réu responde sobre as extensões "não tenho nada contigo", embora a questão principal do juramento seja que, por não poder jurar, ele paga, não se julga assim sobre as extensões. Qual é o seu julgamento? Há quem diga que ele jura sobre a extensão se quiser, ou a inverte sobre ele. E há quem diga que não há extensão aqui, pois ele nunca foi obrigado a um juramento, mas é obrigado a pagar-lhe pela Torá, e não há extensão aqui.
+
+8. Se ele foi obrigado a um juramento pela Torá e veio estender sobre ele um juramento de heset, ele pode dizer "juramento da Torá eu juro para você, e sobre as extensões você jura e recebe".
+
+9. Se alguém reivindica cem e admite cinquenta, e nega cinquenta, e quando vem jurar, estende sobre ele extensões, e ele responde sobre as extensões "não sei", ele jura sobre a questão principal e é liberado de jurar sobre as extensões. Mas amaldiçoam na sua presença qualquer um que saiba que fulano tem tanto e não confesse.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 94 do Shulchan Aruch Choshen Mishpat trata das regras sobre a extensão de um juramento em disputas legais. Vamos explicar isso de forma prática e acessível:
+
+### Conceitos Básicos
+
+1. **Juramento no Tribunal**: Em casos legais, às vezes uma pessoa é obrigada a fazer um juramento para confirmar a verdade de suas alegações. Isso pode acontecer em várias situações, como quando há uma disputa sobre dinheiro ou propriedade.
+
+2. **Juramento de Heset**: Este é um tipo de juramento que não é exigido pela Torá, mas foi instituído pelos rabinos para resolver disputas onde não há evidências claras.
+
+3. **Extensão de Juramento**: Quando uma pessoa é obrigada a jurar, a parte contrária pode tentar "estender" o juramento, incluindo outras reivindicações que não foram inicialmente parte do caso.
+
+### Regras e Aplicações
+
+1. **Extensão Permitida**: Se a pessoa que deve jurar poderia ser obrigada a pagar caso admitisse a reivindicação, a extensão é permitida. Isso significa que o oponente pode incluir outras reivindicações no juramento.
+
+2. **Extensão Não Permitida**: Se a pessoa não teria que pagar mesmo que admitisse, a extensão não é permitida. Por exemplo, se a única consequência seria outro juramento, não se pode estender.
+
+3. **Trabalhadores**: No caso de trabalhadores que juram para receber pagamento, o tribunal pode decidir estender o juramento, mesmo sem pedido do demandante.
+
+4. **Alegações de Certeza vs. Dúvida**: A extensão só é permitida quando a alegação é feita com certeza. Se a alegação é baseada em dúvida, a extensão não é permitida, a menos que a dúvida tenha fundamento, como em casos de sócios.
+
+5. **Recusa em Jurar**: Se a pessoa obrigada a jurar prefere pagar a reivindicação original para evitar o juramento, ela não pode evitar as extensões dessa forma. Ela deve pagar tudo ou jurar.
+
+6. **Inversão do Juramento**: A pessoa pode optar por inverter o juramento, fazendo com que o oponente jure e receba, em vez de ela mesma jurar.
+
+7. **Admissão Parcial**: Se alguém admite parte de uma reivindicação e diz "não sei" sobre o restante, a extensão pode ser complicada. Algumas opiniões dizem que ele pode jurar sobre a extensão ou inverter, enquanto outras dizem que não há extensão porque ele já é obrigado a pagar pela Torá.
+
+8. **Juramento da Torá vs. Heset**: Se alguém é obrigado a um juramento pela Torá e há uma extensão de heset, ele pode optar por jurar apenas o juramento da Torá e deixar o oponente jurar sobre as extensões.
+
+9. **Negação Parcial**: Se alguém admite parte de uma reivindicação e nega outra parte, e há extensões, ele jura sobre a parte principal e é liberado das extensões. No entanto, há uma maldição para quem sabe a verdade e não confessa.
+
+### Relevância Prática
+
+Essas regras são importantes para garantir justiça e verdade em disputas legais. Elas ajudam a evitar que uma parte use o juramento para pressionar a outra injustamente e garantem que as reivindicações sejam tratadas de forma justa e equitativa. Na vida judaica contemporânea, essas leis ainda são relevantes em tribunais rabínicos e em situações onde a lei judaica é aplicada.

@@ -1,0 +1,46 @@
+SIMAN 635
+
+**Lei sobre a Sucá de Ganavach e Rakbash. Contém um parágrafo:**
+
+Uma sucá, mesmo que não tenha sido feita com a intenção de cumprir a mitzvá, é considerada kasher, desde que tenha sido feita para proporcionar sombra. Exemplos incluem sucot de não-judeus, mulheres, animais, cuthim, pastores, guardas de frutas, e vigias de campos. No entanto, uma sucá que se formou por si mesma é inválida, pois não foi feita para sombra.
+
+Portanto, se alguém escavar um monte de feno e transformá-lo em uma sucá, não é considerada uma sucá, pois o monte não foi colocado para sombra. (E o que se faz depois é considerado "faça e não do que já está feito" - Tur).
+
+Portanto, se inicialmente, ao colocar o monte, foi deixado um espaço de um tefach ao longo de sete tefachim com a intenção de fazer uma sucá, e depois escavou e completou até dez tefachim, é kasher, pois o s'chach foi feito para sombra.
+
+Se o monte for grande e apenas um espaço de um tefach ao longo de sete tefachim foi deixado, e depois se escavou muito e se fez uma sucá grande, toda a sucá não é kasher por causa do espaço de sete tefachim deixado inicialmente. E se escavou de ambos os lados quatro amot além dos sete, até mesmo os sete são inválidos, pois s'chach inválido invalida a partir do lado em quatro amot.
+
+*Nota: Não se deve colocar o s'chach antes de fazer as paredes. Se um tefach for deixado próximo ao s'chach, é permitido colocar o s'chach antes de fazer as outras paredes, como no caso de escavar um monte de feno. (Notas de Maimônides, capítulo 5).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o que está sendo discutido no Siman 635 do Shulchan Aruch Orach Chayim, precisamos primeiro compreender alguns conceitos básicos sobre a sucá, que é uma cabana temporária construída para a celebração da festa judaica de Sucot. Durante essa festa, os judeus são ordenados a morar na sucá por sete dias, lembrando as cabanas em que os israelitas viveram durante sua jornada pelo deserto após a saída do Egito.
+
+### Conceitos Técnicos:
+
+1. **Sucá**: Uma estrutura temporária usada durante a festa de Sucot. Deve ter pelo menos três paredes e um teto feito de material natural, chamado de "s'chach", que proporciona sombra.
+
+2. **Kasher**: Significa "adequado" ou "válido" de acordo com a lei judaica.
+
+3. **S'chach**: O material que cobre a sucá, geralmente feito de galhos, folhas ou qualquer material natural que cresceu da terra e foi cortado.
+
+4. **Tefach**: Uma medida de comprimento usada na lei judaica, aproximadamente 8 cm.
+
+5. **Amot**: Outra medida de comprimento, onde 1 amah é cerca de 48 cm.
+
+### Explicação Prática:
+
+- **Intenção ao Construir**: Para que uma sucá seja considerada válida (kasher), ela deve ser construída com a intenção de proporcionar sombra. Isso significa que mesmo que a sucá não tenha sido feita especificamente para a festa de Sucot, como no caso de uma cabana feita por pastores ou guardas de frutas, ela ainda pode ser válida se foi feita para sombra.
+
+- **Sucá Naturalmente Formada**: Se uma sucá se formou por si mesma, como um monte de feno que foi escavado para criar um espaço, ela não é válida. Isso ocorre porque o monte não foi colocado com a intenção de criar sombra.
+
+- **Construção Correta**: Se alguém deseja usar um monte de feno para fazer uma sucá, deve deixar um espaço intencionalmente ao colocar o feno, com a intenção de criar uma sucá. Se esse espaço for de pelo menos um tefach ao longo de sete tefachim, e depois for escavado até atingir a altura necessária, a sucá é válida.
+
+- **Sucá Grande**: Se o monte de feno é grande e apenas uma pequena parte foi deixada com a intenção de criar uma sucá, escavar mais tarde para fazer uma sucá maior não torna toda a estrutura válida. Isso porque a parte inicial não foi feita com a intenção correta.
+
+- **Ordem de Construção**: É importante colocar o s'chach (teto) depois de fazer as paredes. No entanto, se um espaço de um tefach for deixado próximo ao s'chach, é permitido colocar o s'chach antes de completar as outras paredes, como no caso de escavar um monte de feno.
+
+### Relevância Prática:
+
+Na vida judaica contemporânea, essas leis garantem que a sucá seja construída de maneira que cumpra os requisitos religiosos, permitindo que a mitzvá (mandamento) de morar na sucá durante Sucot seja cumprida corretamente. A intenção e a ordem de construção são fundamentais para garantir que a sucá seja um espaço adequado para a celebração da festa.

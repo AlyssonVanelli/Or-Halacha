@@ -1,0 +1,30 @@
+SIMAN 84
+
+**Seção 84: Aquele que diminui ou reduz seu documento ou uma testemunha única atesta que está pago. Contém cinco parágrafos:**
+
+1. Aquele que diminui seu documento não pode receber pagamento a não ser sob juramento, mesmo que o devedor não exija: "Jure para mim". Por exemplo, se o documento é de mil zuz e o devedor alega que está totalmente pago, mas o credor diz que apenas parte foi paga, ele não pode receber o restante sem um juramento, semelhante ao da Torá, mesmo que houvesse testemunhas no momento do pagamento ou que ele tenha escrito um recibo para o que foi pago. Não dizemos que, se ele tivesse pago mais, teria pago na presença de testemunhas, como fez inicialmente, ou teria escrito um recibo. Mesmo que ele tenha sido meticuloso em incluir em sua contabilidade até mesmo menos que o valor de uma perutá, não dizemos que, por ser tão meticuloso, ele está dizendo a verdade. Se houver uma cláusula de confiança, mesmo que não esteja especificado se é para o todo ou parte, ele pode receber sem juramento.
+
+2. Quando isso se aplica? Quando o tempo já passou. Mas se ainda estiver dentro do prazo, mesmo que ele tenha diminuído seu documento, ele pode receber sem juramento, a menos que o devedor exija: "Jure para mim".
+
+3. Se estiver escrito no documento um pagamento entre as linhas, isso não é considerado como diminuindo o documento para obrigá-lo a jurar. (Veja acima, Siman 44, Seif 6 e no final de Siman 45) Um documento que tem um pagamento escrito entre as linhas de 400 moedas de ouro, e o devedor alega que pagou mais, e o credor apagou o local do pagamento e reescreveu o que quis, se o pagamento foi escrito de próprio punho pelo devedor, a lei está com o credor.
+
+4. Aquele que reduz seu documento pode receber sem juramento. Por exemplo, se o documento é de mil zuz e o devedor alega que pagou tudo, mas o credor diz que não recebeu nada, mas você me deve apenas 500, e o que está escrito como mil foi um acordo entre nós, mesmo que não haja cláusula de confiança, ele pode receber sem juramento, a menos que o devedor diga: "Jure para mim". Se o credor alega que não recebeu nada, mas a dívida é apenas 500, e as testemunhas erraram e escreveram mil zuz, ele está admitindo que as testemunhas testemunharam falsamente, e o devedor jura um juramento de heset e é liberado.
+
+5. Uma única testemunha atesta que o documento está pago, ele não pode receber a não ser sob juramento. Quando isso se aplica? Quando o tempo já passou. Mas se ainda estiver dentro do prazo, ele pode receber sem juramento, a menos que o devedor exija: "Jure para mim". Se uma única testemunha atesta que o documento está pago e o credor morre antes de jurar, os herdeiros não podem cobrar, e o mesmo se aplica a quem diminui seu documento e morre antes de jurar.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 84 do Shulchan Aruch Choshen Mishpat trata de questões relacionadas a documentos de dívida e como lidar com alegações de pagamento parcial ou total. Vamos explicar cada parágrafo de forma prática:
+
+1. **Diminuição do Documento e Juramento**: Quando alguém tem um documento que comprova uma dívida, mas admite que parte dela já foi paga, ele não pode cobrar o restante sem fazer um juramento. Isso é necessário mesmo que o devedor não peça explicitamente o juramento. A ideia é garantir que o credor está sendo honesto sobre o valor ainda devido. Mesmo que o credor tenha sido cuidadoso em registrar pagamentos, ele ainda precisa jurar, a menos que haja uma cláusula de confiança no documento que permita receber sem juramento.
+
+2. **Prazo da Dívida**: Se o prazo para pagamento da dívida ainda não expirou, o credor pode cobrar sem juramento, a menos que o devedor exija. Isso significa que, enquanto o tempo para pagar ainda está em aberto, há uma presunção de que o credor está dizendo a verdade sobre o valor devido.
+
+3. **Pagamentos Entre Linhas**: Se um pagamento é registrado entre as linhas do documento, isso não é considerado uma diminuição que obrigue o credor a jurar. Se o devedor alega que pagou mais do que está registrado e o credor alterou o documento, a situação depende de quem escreveu o pagamento. Se foi o devedor, a lei favorece o credor.
+
+4. **Redução do Valor da Dívida**: Se o credor admite que a dívida é menor do que o valor registrado, ele pode cobrar sem juramento, a menos que o devedor exija. Se o credor diz que as testemunhas erraram ao escrever o valor, ele está, na verdade, acusando as testemunhas de falsidade, e o devedor pode ser liberado com um juramento simples.
+
+5. **Testemunha Única**: Se apenas uma testemunha diz que a dívida foi paga, o credor ainda precisa jurar para cobrar. Isso se aplica quando o prazo já passou. Se o credor morre antes de fazer o juramento, seus herdeiros não podem cobrar a dívida. O mesmo se aplica se o credor diminui o valor da dívida e morre antes de jurar.
+
+Essas regras são importantes para garantir justiça e honestidade em transações financeiras, protegendo tanto credores quanto devedores de alegações falsas ou enganosas. Na prática contemporânea, essas leis destacam a importância de documentação clara e acordos bem definidos em qualquer transação financeira.

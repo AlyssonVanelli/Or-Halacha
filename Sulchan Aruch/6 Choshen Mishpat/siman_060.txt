@@ -1,0 +1,37 @@
+SIMAN 60
+
+**Lei sobre a penhora de bens móveis junto com imóveis e a penhora de algo que ainda não veio ao mundo. Contém dois parágrafos:**
+
+1. Quando alguém vem cobrar uma dívida com um documento do devedor e os bens disponíveis não são suficientes para cobrir a dívida, ele pode tomar posse dos imóveis que o devedor possuía no momento em que contraiu a dívida e que foram vendidos ou doados posteriormente. No entanto, ele não pode tomar posse de imóveis adquiridos após a dívida e que foram vendidos ou doados. Se o documento especifica que o devedor penhora bens que ele possui ou que venha a adquirir, ele pode cobrar também desses bens. Contudo, bens móveis não têm garantia, mesmo que fossem possuídos no momento da dívida e tenham sido vendidos ou doados; o credor não pode tomá-los. Se o documento especifica que os bens móveis são penhorados junto com imóveis, não como uma cláusula condicional ou padrão, ele pode cobrar dos bens móveis que o devedor possuía no momento da dívida, assim como dos imóveis. Se o documento especifica que os bens móveis são penhorados junto com imóveis que o devedor possui ou venha a adquirir, não como uma cláusula condicional ou padrão, ele pode cobrar também dos bens móveis adquiridos após a dívida e que foram vendidos ou doados, assim como dos imóveis. Esta é a lei do Talmud. Atualmente, mesmo que seja costume escrever em todos os documentos que os bens móveis são penhorados junto com imóveis, é costume não cobrar dos bens móveis vendidos ou doados, devido à regulamentação do mercado. Mesmo com este costume, se o devedor tinha um documento de dívida sobre outra pessoa e o vendeu, o credor pode cobrar dele, pois a regulamentação do mercado não se aplica a documentos, que não são comuns. Da mesma forma, se o devedor doou todos os seus bens sem deixar nada para si, é evidente que foi para evitar a cobrança, e a regulamentação do mercado não se aplica.
+
+2. Alguém que se compromete a algo não especificado, como sustentar outra pessoa ou vesti-la por cinco anos, mesmo que tenha feito um acordo formal, não está obrigado, segundo Maimônides. No entanto, todos os outros sábios discordam e dizem que ele está obrigado, e assim é a prática aceita. Se alguém se compromete a sustentar outra pessoa e há uma disputa sobre se deve fornecer alimentos ou dinheiro, a decisão é a favor do beneficiário. Se foi acordado explicitamente que o sustento seria na casa do provedor e o beneficiário não quer comer lá, o provedor só é obrigado a fornecer de acordo com o padrão da casa. No entanto, se a recusa não é por parte do beneficiário, mas do provedor, ele deve fornecer todo o custo do sustento. Se o beneficiário adoece, o provedor não é responsável por suas despesas médicas, apenas pelo custo do sustento como se estivesse saudável. Há quem diga que se alguém se compromete a sustentar outra pessoa por toda a vida ou enquanto necessário, isso implica um compromisso contínuo. Se alguém se compromete a sustentar outra pessoa ou a dar-lhe uma quantia anual, ele está liberado após um ano. Se alguém se compromete a sustentar outra pessoa de acordo com sua dignidade, o tribunal deve avaliar conforme o padrão anterior. Roupas não estão incluídas no sustento, a menos que tenha sido dito "sustentar e prover", pois roupas estão incluídas em provisão. Se alguém escreve a outro que o sustentará por um tempo ou dará uma quantia e sustenta por parte do tempo e para, ele não é obrigado a dar a quantia total, apenas o suficiente para completar o sustento até a quantia prometida. Se alguém se compromete a sustentar uma pessoa e sua esposa e a esposa morre, ele está isento de sustentar a esposa, mesmo que tenha estipulado uma quantia para seu sustento.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar o que está sendo discutido no Siman 60 do Shulchan Aruch Choshen Mishpat de forma prática e acessível:
+
+### Parágrafo 1: Penhora de Bens
+
+1. **Cobrança de Dívidas com Imóveis e Bens Móveis:**
+   - Quando alguém deve dinheiro e não tem bens suficientes para pagar, o credor pode tomar posse dos imóveis que o devedor possuía quando contraiu a dívida, mesmo que esses imóveis tenham sido vendidos ou doados depois. Isso não se aplica a imóveis adquiridos após a dívida.
+   - Se o documento de dívida especifica que o devedor penhora bens que ele possui ou venha a adquirir, o credor pode cobrar desses bens também.
+   - Bens móveis (como móveis, carros, etc.) não podem ser tomados, mesmo que o devedor os possuísse na época da dívida e os tenha vendido ou doado, a menos que o documento de dívida especifique claramente que esses bens estão penhorados junto com imóveis.
+   - Atualmente, mesmo que os documentos de dívida mencionem a penhora de bens móveis junto com imóveis, é costume não cobrar de bens móveis vendidos ou doados, para não prejudicar o mercado.
+   - Exceções: Se o devedor vendeu um documento de dívida que ele tinha sobre outra pessoa, o credor pode cobrar dele. Se o devedor doou todos os seus bens para evitar a cobrança, essa doação não é protegida pela regulamentação do mercado.
+
+### Parágrafo 2: Compromissos de Sustento
+
+1. **Compromissos de Sustento:**
+   - Se alguém promete sustentar ou vestir outra pessoa por um período, há uma discussão sobre a obrigatoriedade desse compromisso. Maimônides diz que não é obrigatório, mas a prática aceita é que é obrigatório.
+   - Se houver disputa sobre se o sustento deve ser em forma de alimentos ou dinheiro, a decisão favorece o beneficiário.
+   - Se foi acordado que o sustento seria na casa do provedor e o beneficiário não quer comer lá, o provedor só precisa fornecer de acordo com o padrão da casa. Se o provedor se recusa a receber o beneficiário, ele deve cobrir todo o custo do sustento.
+   - Se o beneficiário adoece, o provedor não é responsável por despesas médicas, apenas pelo sustento como se estivesse saudável.
+   - Compromissos de sustento "por toda a vida" ou "enquanto necessário" são considerados contínuos.
+   - Se alguém se compromete a sustentar por um ano, está liberado após esse período.
+   - Sustento de acordo com a dignidade do beneficiário deve ser avaliado pelo tribunal com base no padrão anterior.
+   - Roupas não estão incluídas no sustento, a menos que o compromisso inclua "sustentar e prover".
+   - Se alguém prometeu sustentar por um tempo e já forneceu parte do sustento, ele só precisa completar o sustento até a quantia prometida.
+   - Se o compromisso era sustentar uma pessoa e sua esposa, e a esposa morre, o provedor está isento de sustentar a esposa.
+
+Essas leis ajudam a regular compromissos financeiros e garantem que as partes envolvidas em dívidas ou promessas de sustento saibam seus direitos e obrigações. Na prática contemporânea, essas diretrizes podem ser usadas para resolver disputas financeiras de forma justa e baseada em precedentes legais.

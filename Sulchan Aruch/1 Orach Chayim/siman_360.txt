@@ -1,0 +1,36 @@
+SIMAN 360
+
+**Cercamento de Barreiras para o Shabat. Contém três seções:**
+
+1. Um indivíduo que passou o Shabat em um vale e cercou com barreiras inferiores, como uma cerca de duas paredes sem uma terceira ou uma terceira sem as duas, até uma área de dois seá (medida de área) é permitido carregar em toda a área. A partir de dois seá, não se pode carregar nela, exceto dentro de quatro cúbitos. O mesmo se aplica se forem duas pessoas. Se forem três israelitas, são considerados como uma caravana, e é permitido carregar em toda a área, mesmo que seja muito grande, desde que não cerquem mais do que o necessário, de modo que não reste uma área de dois seá vazia que não seja necessária para uso. Mas se restar uma área de dois seá vazia, não se pode carregar em toda a área cercada, exceto dentro de quatro cúbitos. Isso se aplica quando cercaram mais de seis seá, mas se não cercaram mais de seis seá, mesmo que haja dois seá vazios, já que são três, é permitido. Nota: Um não-judeu não se junta à caravana, e alguns dizem que o mesmo se aplica a um menor. (Rambam, capítulo 11).
+
+2. Se eram três e cercaram tudo o que precisavam e um morreu no Shabat, é permitido durante todo o Shabat, pois o Shabat começou de forma permitida. Se eram dois e cercaram mais de dois seá e outros se juntaram a eles no Shabat, é proibido, pois o Shabat começou de forma proibida.
+
+3. Se eram três e cada um cercou para si mesmo, lado a lado, e fizeram um eruv juntos, se os externos são largos e o do meio é curto, de modo que o do meio está completamente aberto para os externos, e os externos têm paredes que se estendem além dele de ambos os lados, é permitido dar a eles tudo o que precisam no meio, mesmo que seja muito grande, pois consideramos como se todos morassem nele, e há três juntos. E mesmo nos externos, é permitido dar a eles tudo o que precisam, pois, uma vez que se tornaram uma caravana no meio, os outros são como um pátio para o do meio. Alguns dizem que os externos não são permitidos, exceto até dois seá, e se um deles for mais de dois seá, o do meio também é proibido, pois está completamente aberto. Se os externos estão completamente abertos para o do meio e o do meio está cercado e há apenas um em cada um, não se dá a cada um mais do que dois seá. Se um dos externos for mais de dois seá, ele sozinho é proibido. Se o do meio for mais de dois seá, os externos também são proibidos, pois estão abertos para um lugar que é proibido para eles. Mas se houver um em cada um dos externos e dois no meio, ou dois em cada um dos externos e um no meio, dá-se aos dois externos tudo o que precisam, pois consideramos tudo o que está no meio como se estivesse nos externos. Isso se aplica quando não estão abertos um para o outro mais do que dez cúbitos, pois, se assim for, é uma brecha, e mesmo os cercados são proibidos. Tudo isso se aplica quando as paredes da menor entram na maior, e quando as paredes da menor estão afastadas três tefachim das paredes do comprimento da maior, então a maior proíbe a menor. (Veja acima, Siman 374, Seção 3) Pois, caso contrário, é considerado visível de fora e igual por dentro, e é julgado como um lechi (poste lateral), e todos são considerados cercados, como se nenhum deles estivesse aberto para o outro, e não se dá a eles em nenhum deles mais do que dois seá.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 360 do Shulchan Aruch Orach Chayim, precisamos primeiro compreender alguns conceitos básicos sobre o Shabat e as leis de carregamento. No Shabat, há restrições sobre carregar objetos em espaços públicos ou entre espaços privados e públicos. Para facilitar a vida, especialmente em áreas comunitárias, existem regras sobre como criar "barreiras" que permitem carregar dentro de certas áreas.
+
+**1. Cercamento de Barreiras:**
+
+- **Indivíduos e Caravanas:** Se uma pessoa ou duas pessoas estão em um vale e cercam uma área com barreiras, elas podem carregar dentro dessa área, desde que não seja maior que dois seá (uma medida de área). Se a área for maior, só podem carregar dentro de quatro cúbitos (aproximadamente dois metros). No entanto, se houver três pessoas, elas são consideradas uma "caravana" e podem carregar em uma área maior, desde que não haja mais de dois seá de espaço vazio que não seja necessário para uso. Isso significa que, para três pessoas, a área cercada pode ser maior, mas deve ser usada de forma eficiente.
+
+- **Importância de Três Pessoas:** A presença de três pessoas muda as regras porque elas são vistas como uma unidade maior, permitindo mais flexibilidade no uso do espaço.
+
+- **Exclusão de Não-Judeus e Menores:** Um não-judeu ou uma criança não são contados para formar uma caravana, segundo algumas opiniões.
+
+**2. Mudanças Durante o Shabat:**
+
+- **Alterações no Grupo:** Se três pessoas cercaram uma área e uma delas morre durante o Shabat, a permissão para carregar permanece, pois o Shabat começou de forma permitida. No entanto, se duas pessoas cercaram uma área e outras se juntaram durante o Shabat, a permissão não se aplica, pois o Shabat começou de forma proibida.
+
+**3. Configurações de Eruv:**
+
+- **Eruv e Configurações de Espaço:** Um eruv é uma solução que permite carregar em áreas públicas durante o Shabat. Se três pessoas cercaram áreas lado a lado e fizeram um eruv, a configuração das áreas importa. Se o espaço do meio está completamente aberto para os externos, e os externos têm paredes que se estendem além do meio, é permitido carregar em todo o espaço do meio, pois é considerado como se todos morassem ali.
+
+- **Limitações de Espaço:** Se os espaços externos são maiores que dois seá, isso pode afetar a permissão de carregar, especialmente se o espaço do meio for maior que dois seá e estiver completamente aberto.
+
+- **Brechas e Limites:** Se houver uma abertura maior que dez cúbitos (aproximadamente cinco metros), é considerada uma brecha, e isso pode proibir o carregamento, mesmo em áreas cercadas.
+
+Essas regras são importantes para a vida judaica contemporânea, especialmente em comunidades que desejam facilitar o cumprimento das leis do Shabat enquanto mantêm a mobilidade e a interação social. A compreensão dessas leis ajuda a garantir que as práticas do Shabat sejam respeitadas, ao mesmo tempo em que se adaptam às necessidades práticas da vida comunitária.

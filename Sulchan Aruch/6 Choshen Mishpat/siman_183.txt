@@ -1,0 +1,42 @@
+SIMAN 183
+
+**Fez um agente para comprar trigo para ele e comprou cevada. Contém nove seções:**
+
+1. Aquele que dá dinheiro ao seu agente para comprar uma mercadoria específica e ele não a compra, não tem contra ele senão uma queixa. E se for sabido que ele comprou (com o dinheiro do mandante), pode-se retirar dele à força.
+
+2. Aquele que dá dinheiro ao seu amigo para comprar para ele um terreno ou bens móveis, e o amigo deixa o dinheiro com ele e vai e compra para si mesmo com seu próprio dinheiro, o que ele fez é válido, mas ele é considerado um trapaceiro. Se ele soubesse que o vendedor gosta dele e o respeita, e por isso vende para ele e não para o mandante, é permitido comprar para si mesmo, desde que informe o mandante. Se ele temer que outro venha e o antecipe na compra, pode comprar para si mesmo e depois informar o mandante.
+
+3. Um agente que comprou para si mesmo com o dinheiro do mandante, mesmo que tenha transformado a dívida em um empréstimo, a compra pertence ao mandante. No entanto, se o agente disser perante testemunhas que está desistindo de sua missão, alguns dizem que ele comprou para si mesmo, enquanto outros dizem que em qualquer caso pertence ao mandante.
+
+4. Reuven disse a Shimon: "Compre para mim tal coisa", e ele comprou para ele de forma geral, Reuven adquire a partir do momento em que Shimon puxa o objeto. Mesmo que Shimon, após puxar, diga que pretendia comprar para si mesmo, ele não é acreditado. Mesmo que Shimon tenha pago com seu próprio dinheiro, Reuven adquire e paga a Shimon. Mas se Shimon desistir antes de puxar e disser que está comprando para si mesmo, mesmo que desista entre o pagamento e o puxar, ele adquire para si mesmo, desde que tenha pago com seu próprio dinheiro.
+
+5. Se o preço for fixo e conhecido, e o vendedor der ao agente um acréscimo em quantidade, peso ou medida, tudo o que foi adicionado pertence a ambos, e o agente divide o acréscimo com o dono do dinheiro. Se for algo sem preço fixo, tudo pertence ao dono do dinheiro. No entanto, se o vendedor explicitamente disser que está dando tudo ao agente, tudo pertence ao agente.
+
+6. Se um agente for enviado para receber dinheiro de um não-judeu e o não-judeu errar e der mais, tudo pertence ao agente. Isso é apenas se o agente souber do erro antes de entregar ao mandante. Se ele não souber do erro e entregar ao mandante, tudo pertence ao mandante.
+
+7. Reuven enviou Shimon para comprar um tecido a crédito, e quando chegou a hora do pagamento, deu-lhe o dinheiro para pagar, mas o vendedor esqueceu. Shimon deve devolver o dinheiro a Reuven e não pode dizer que quer retê-lo, pois o vendedor pode lembrar-se mais tarde. Ele também não pode dizer que quer santificar o nome de Deus e devolver ao não-judeu.
+
+8. O mesmo se aplica se Reuven deve dinheiro a um não-judeu e dá a um amigo para pagar, e o não-judeu esquece, o dinheiro deve ser devolvido a Reuven. Da mesma forma, se alguém der a um amigo cinquenta moedas de ouro para negociar com seus credores e ele negociar por vinte e cinco, o excedente pertence ao mandante. Se ele der duzentos para pagar a um não-judeu e o agente enganar o não-judeu, pagando apenas cem, e o não-judeu pensar que recebeu duzentos, tudo pertence ao mandante, como se o não-judeu tivesse perdoado metade da dívida.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 183 do Shulchan Aruch Choshen Mishpat trata de situações envolvendo agentes, ou seja, pessoas que agem em nome de outras para realizar transações comerciais. Vamos explicar cada seção de forma prática:
+
+1. **Agente que não cumpre a tarefa**: Se você dá dinheiro a alguém para comprar algo específico e essa pessoa não compra, você só pode reclamar com ela. No entanto, se for comprovado que ela usou seu dinheiro para comprar algo diferente, você pode exigir legalmente que ela devolva o dinheiro.
+
+2. **Compra de propriedade ou bens móveis**: Se você pede a alguém para comprar um terreno ou bens para você, mas essa pessoa usa o dinheiro para comprar algo para si mesma, a compra é válida, mas a pessoa agiu de forma desonesta. Se a pessoa souber que o vendedor só venderia para ela, pode comprar para si, mas deve informar você. Se houver risco de outra pessoa comprar antes, ela pode comprar e depois informar.
+
+3. **Agente comprando para si mesmo**: Se um agente usa seu dinheiro para comprar algo para si, a compra ainda pertence a você. Se o agente declarar na frente de testemunhas que não está mais agindo em seu nome, há opiniões diferentes sobre quem a compra pertence.
+
+4. **Compra em nome de outra pessoa**: Se você pede a alguém para comprar algo e essa pessoa faz a compra, o item é seu assim que a pessoa o adquire fisicamente. Mesmo que a pessoa diga depois que comprou para si, não é acreditada. Se a pessoa desistir antes de adquirir fisicamente, pode comprar para si, desde que use seu próprio dinheiro.
+
+5. **Acréscimos em transações**: Se o preço de um item é fixo e o vendedor dá mais do que o esperado, o extra é dividido entre você e o agente. Se o preço não é fixo, o extra é todo seu, a menos que o vendedor diga que é para o agente.
+
+6. **Erro em transações com não-judeus**: Se um agente recebe dinheiro a mais de um não-judeu por engano e percebe antes de entregar a você, o extra é dele. Se ele não percebe e entrega a você, o extra é seu.
+
+7. **Pagamento esquecido**: Se você envia alguém para pagar uma dívida e o vendedor esquece de cobrar, a pessoa deve devolver o dinheiro a você. Ela não pode decidir manter o dinheiro ou devolvê-lo ao vendedor para "santificar o nome de Deus".
+
+8. **Dívidas e negociações**: Se você dá dinheiro a alguém para negociar ou pagar dívidas e a pessoa gasta menos do que o esperado, o dinheiro restante é seu. Se a pessoa engana um credor não-judeu, fazendo-o pensar que recebeu mais do que realmente recebeu, o benefício do engano é seu, como se o credor tivesse perdoado parte da dívida.
+
+Essas leis são relevantes hoje em dia, pois tratam de questões de confiança e responsabilidade em transações comerciais, algo comum em qualquer sociedade. Elas ajudam a garantir que as pessoas ajam de forma ética e justa quando representam outras em negócios.

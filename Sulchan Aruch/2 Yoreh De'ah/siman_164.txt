@@ -1,0 +1,24 @@
+SIMAN 164
+
+1. Quem tem um campo hipotecado em sua posse não deve alugá-lo de volta ao proprietário do campo. No entanto, há quem permita fazer isso em uma hipoteca de tipo "Sura", desde que não tenha sido inicialmente acordado dessa forma e que o credor já tenha tomado posse do campo. Caso contrário, é proibido para todos, conforme mencionado no Beit Yosef, Siman 172, em nome da resposta do Rashba.
+
+2. Em uma hipoteca de tipo "Sura", se outra pessoa vier e alugar o campo do credor, é permitido alugar de volta ao proprietário do campo.
+
+3. É permitido vender seu campo a alguém e estipular com ele que o alugue de volta posteriormente. (O arrendatário é uma pessoa que aceita o campo de seu amigo para trabalhá-lo sob a condição de dar ao proprietário uma quantidade específica de frutos, independentemente de o campo produzir ou não frutos).
+
+4. Se alguém emprestar dinheiro sobre seu campo e disser: "Se você não me pagar daqui a três anos, ele será meu", sem dizer "a partir de agora", de modo que a venda não seja válida dentro dos três anos, ele não deve consumir os frutos. Se os consumir, isso constitui usura explícita e deve ser devolvido em tribunal. Há quem diga que o que foi consumido dentro dos três anos é apenas uma forma de usura leve, semelhante a uma hipoteca sem dedução, conforme explicado no Beit Yosef, de acordo com a opinião do Rosh, Tur, Rashi, Tosafot, alunos do Rashba e Raavad, conforme trazido no Beit Yosef, Choshen Mishpat, Siman 167, final do Seif 13. No entanto, o que foi consumido após três anos deve ser devolvido, e essa é a regra principal.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 164 do Shulchan Aruch Yoreh De'ah, é importante primeiro compreender alguns conceitos básicos sobre hipotecas e arrendamentos no contexto judaico. Vamos explicar cada parte de forma prática:
+
+1. **Campo Hipotecado e Aluguel de Volta**: Quando alguém tem um campo hipotecado, significa que o campo foi dado como garantia para um empréstimo. A lei aqui diz que a pessoa que tem o campo hipotecado não deve alugá-lo de volta ao proprietário original. Isso é para evitar situações que possam ser vistas como usura (cobrança de juros indevidos). No entanto, há uma exceção para um tipo específico de hipoteca chamada "Sura", onde isso pode ser permitido se certas condições forem atendidas, como o credor já ter tomado posse do campo.
+
+2. **Aluguel por Terceiros**: Se uma terceira pessoa aluga o campo do credor, então é permitido que essa pessoa alugue o campo de volta ao proprietário original. Isso cria uma separação entre o credor e o proprietário, evitando problemas de usura.
+
+3. **Venda com Condição de Aluguel**: É permitido vender um campo e combinar que o comprador o alugue de volta ao vendedor. Isso é diferente de uma hipoteca porque envolve uma venda real com um acordo de aluguel, e não um empréstimo. O arrendatário, nesse caso, é alguém que trabalha o campo e paga uma quantidade fixa de frutos ao proprietário, independentemente da produção.
+
+4. **Empréstimo com Condição de Venda**: Se alguém empresta dinheiro usando seu campo como garantia e diz que o campo se tornará do credor se o empréstimo não for pago em três anos, mas não diz "a partir de agora", a venda não é válida durante esses três anos. O credor não deve consumir os frutos do campo durante esse tempo, pois isso seria considerado usura. Se ele consumir, deve devolver o valor em tribunal. Após três anos, se o campo for considerado vendido, qualquer fruto consumido deve ser devolvido, pois isso seria usura explícita.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades que seguem a Halachá (lei judaica) de forma rigorosa. Elas ajudam a garantir que as transações financeiras sejam justas e não exploratórias, respeitando os princípios éticos do judaísmo.

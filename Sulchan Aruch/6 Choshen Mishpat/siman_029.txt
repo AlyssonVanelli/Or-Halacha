@@ -1,0 +1,35 @@
+SIMAN 29
+
+**Tradução do Shulchan Aruch Choshen Mishpat (Siman 29):**
+
+**Para que as testemunhas não possam retratar-se. Contém três seções:**
+
+1. Após a testemunha ter testemunhado no Beit Din (tribunal rabínico), não pode mais se retratar. Como, por exemplo, se disser: "Fui enganado", "Fui negligente e lembrei-me que não era assim", ou "Fiz isso por medo", não se dá ouvidos a ele, mesmo que apresente uma justificativa para suas palavras. Da mesma forma, não pode adicionar uma condição ao seu testemunho. (Alguns dizem que pode adicionar uma condição, conforme o Tur em nome do Rosh). No entanto, em um caso onde é evidente que ele cometeu um erro, como quando o Beit Din o obrigou a trazer testemunhas de que não é um enganador, e ele as trouxe, e o Beit Din lhes perguntou: "Vocês sabem que ele é um enganador?" e as testemunhas disseram "sim", e então o litigante perguntou: "Eu sou um enganador?" e eles responderam: "Não dissemos isso, apenas que você não é um enganador", então se dá ouvidos às suas últimas palavras, pois presumivelmente ninguém traz testemunhas para testemunhar contra si mesmo, e certamente houve um erro. Da mesma forma, em qualquer erro que as testemunhas possam cometer, elas são acreditadas em si mesmas, e não há nisso a questão de retratar-se e contar novamente. Da mesma forma, se não contradiz o cerne de suas primeiras palavras, como quando as palavras são ambíguas e podem ser interpretadas de duas maneiras, uma próxima e outra distante, sempre que pudermos ajustar as palavras da testemunha para que seu testemunho não seja contraditório, devemos fazê-lo, assim como devemos reconciliar as palavras de duas testemunhas que parecem se contradizer, para que o testemunho seja coerente.
+
+2. Quando se faz um juramento na sinagoga antes que as testemunhas testemunhem, e depois que saem da sinagoga, vêm testemunhas para testemunhar e dizem: "Não prestamos atenção para testemunhar naquela hora, e agora nos lembramos", podem voltar e testemunhar, pois permaneceram em silêncio no início e não disseram "não sabemos" (Mordechai, capítulo de Shevuat HaEdut). E mesmo que tenham dito "não sabemos" e apresentem uma justificativa para suas palavras, podem voltar e testemunhar, desde que não tenham dito o oposto do que dizem agora (Beit Yosef em nome de Rambam e Tur).
+
+3. Testemunhas que disseram "testemunhamos falsamente" são acreditadas em relação a si mesmas e são obrigadas a pagar tudo o que causaram de perda com seu testemunho.
+
+**Nota:** Mesmo que "não vimos" não seja uma prova, quando ambos são iguais e um diz "não vi", é como se dissesse ao outro "você não viu", e isso é uma contradição. No entanto, se a testemunha diz que fulano estava com ele, e esse fulano diz que não estava com ele, isso não é uma contradição, pois uma testemunha não presta atenção em quem está com ele no momento do testemunho (Resposta do Rosh, capítulo 59, seção 1).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 29 do Shulchan Aruch Choshen Mishpat trata de regras sobre o testemunho no Beit Din, que é um tribunal rabínico. Vamos explicar cada seção de forma prática:
+
+1. **Retratação de Testemunhas:**
+   - Quando uma testemunha dá seu depoimento no Beit Din, ela não pode voltar atrás e mudar o que disse. Isso significa que, mesmo que a testemunha alegue ter sido enganada, negligente ou intimidada, o tribunal não aceita essas justificativas para alterar o testemunho. 
+   - No entanto, se houver um erro claro, como um mal-entendido sobre o que foi dito, o tribunal pode considerar a correção. Por exemplo, se uma testemunha trouxe outras pessoas para confirmar que não é um enganador, e houve confusão sobre o que essas pessoas disseram, o tribunal pode aceitar a correção.
+   - Se as palavras da testemunha forem ambíguas e puderem ser interpretadas de duas maneiras, o tribunal tentará entender de forma que não haja contradição.
+
+2. **Juramento e Lembrança Posterior:**
+   - Se testemunhas fazem um juramento na sinagoga antes de testemunhar e depois se lembram de algo que não disseram, elas podem voltar e dar seu testemunho. Isso é permitido porque inicialmente elas não negaram saber, apenas não se lembraram na hora.
+   - Mesmo que tenham dito "não sabemos" e depois se lembrem de algo, podem testemunhar, desde que não contradigam diretamente o que disseram antes.
+
+3. **Testemunho Falso:**
+   - Se testemunhas admitem que deram um testemunho falso, elas são consideradas confiáveis sobre essa admissão e devem compensar qualquer dano causado por seu falso testemunho.
+
+**Nota sobre Contradições:**
+- Se uma testemunha diz "não vi", isso pode ser uma contradição se outra testemunha afirma ter visto. No entanto, se uma testemunha diz que estava com alguém e essa pessoa nega, isso não é considerado uma contradição, pois uma testemunha pode não prestar atenção em quem está com ela durante o testemunho.
+
+Essas regras são importantes para garantir a integridade e a justiça nos processos legais dentro da comunidade judaica, assegurando que o testemunho seja confiável e que erros ou mal-entendidos possam ser corrigidos de maneira justa.

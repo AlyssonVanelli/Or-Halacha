@@ -1,0 +1,53 @@
+SIMAN 139
+
+**Lei sobre dois que disputam um objeto e se um terceiro o apanha. Contém quatro seções:**
+
+1. Quando dois estão em disputa sobre um objeto e nenhum deles tem posse sobre ele, como no caso de um barco que dois estavam disputando, e cada um dizia "é meu", a regra é "quem for mais forte prevalece". Aquele que conseguir prevalecer primeiro fica com ele até que o outro traga prova. No entanto, o oponente pode exigir que ele jure, e ele deve jurar que é dele. Enquanto o outro não trouxer prova, mesmo que prevaleça, não se permite que tome do que prevaleceu primeiro.
+
+2. Se um terceiro vem e apanha o objeto alegando que é dele, os outros dois não têm nada sobre ele, pois aquele que está em posse alega que é dele. Mas se ele o apanhou sem alegação, o objeto é retirado de sua posse, e ele não tem solução até que devolva a cada um, pois não sabe a quem devolver. Se for terra e ele a tomou posse e consumiu seus frutos, a terra não é considerada roubada, mas os frutos devem ser pagos a cada um.
+
+3. Se um dos dois em disputa sobre o objeto vai ao tribunal e pede que o objeto seja apreendido até que ele traga prova, não se dá ouvidos a ele. Se o tribunal apreendeu com o consentimento de ambos ou se agiu e apreendeu, não se retira até que se esclareça a quem pertence.
+
+4. Se estão em disputa sobre um campo e nenhum deles tem posse, como no caso em que o dono do campo morreu e ambos vêm para herdar, e cada um diz "sou o parente e devo herdar", e nenhum tem testemunhas, a regra é "quem for mais forte prevalece". Se um prevaleceu e consumiu seus frutos, e depois o outro trouxe testemunhas de que é parente, e as testemunhas não sabem se o que prevaleceu é parente ou não, retira-se do que prevaleceu, que é um parente duvidoso, e o outro é um parente certo. O mesmo se aplica se o segundo trouxe testemunhas de que é mais próximo do que o outro; retira-se do que prevaleceu e dá-se ao que é mais próximo. Ele deve devolver todos os frutos que consumiu, mesmo que não se saiba que os consumiu, mas apenas por sua própria admissão. 
+
+**Nota:** Se os decisores divergem sobre isso e nenhum deles tomou posse, se é algo que pode ser dividido, divide-se. Se não pode ser dividido, "quem for mais forte prevalece".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática o que está sendo discutido neste trecho do Shulchan Aruch, que é um importante código de leis judaicas:
+
+### Contexto Geral
+
+Este texto aborda situações em que duas ou mais pessoas estão disputando a posse de um objeto ou propriedade, mas nenhuma delas tem uma posse clara ou comprovada. Isso pode acontecer, por exemplo, quando um objeto é encontrado ou quando há uma herança em disputa. As regras aqui ajudam a decidir quem deve ficar com o objeto até que a situação seja resolvida.
+
+### Seção 1: Disputa Sem Posse
+
+- **Situação:** Duas pessoas estão brigando por um objeto, como um barco, e nenhuma delas tem posse clara.
+- **Regra:** Aquele que conseguir pegar o objeto primeiro pode mantê-lo, mas deve jurar que é dele. O outro só pode tomar o objeto se trouxer provas de que é o verdadeiro dono.
+- **Relevância:** Isso mostra a importância de ter provas ou testemunhas em disputas de posse.
+
+### Seção 2: Intervenção de um Terceiro
+
+- **Situação:** Um terceiro pega o objeto alegando que é dele.
+- **Regra:** Se ele não tem uma alegação válida, deve devolver o objeto, pois não se sabe a quem pertence. Se for uma terra, ele pode ficar com a terra, mas deve pagar pelos frutos que colheu.
+- **Relevância:** Protege os direitos dos verdadeiros donos e desencoraja a apropriação indevida.
+
+### Seção 3: Pedido de Apreensão Judicial
+
+- **Situação:** Um dos disputantes pede ao tribunal para apreender o objeto até que ele traga provas.
+- **Regra:** O tribunal não atende a esse pedido a menos que ambos concordem ou o tribunal já tenha agido.
+- **Relevância:** Evita que o sistema judicial seja usado para ganho pessoal sem provas.
+
+### Seção 4: Disputa de Herança
+
+- **Situação:** Dois herdeiros disputam um campo, mas nenhum tem provas de parentesco.
+- **Regra:** Quem conseguir tomar posse primeiro pode ficar com o campo, mas se o outro trouxer provas de parentesco, o campo deve ser devolvido.
+- **Relevância:** Destaca a importância de provas em disputas de herança e a justiça em restituir o que foi tomado indevidamente.
+
+### Nota Final
+
+- **Divisão de Bens:** Se o objeto em disputa pode ser dividido, ele deve ser dividido. Se não, aplica-se a regra de "quem for mais forte prevalece".
+- **Relevância:** Busca uma solução justa e prática quando possível, mas reconhece limitações em casos de indivisibilidade.
+
+Essas regras são aplicadas em contextos onde não há documentação clara ou testemunhas, e ajudam a manter a ordem e a justiça em disputas de posse. Elas são relevantes até hoje em comunidades que seguem a lei judaica, especialmente em questões de herança e propriedade.

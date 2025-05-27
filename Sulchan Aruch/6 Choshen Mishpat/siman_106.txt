@@ -1,0 +1,38 @@
+SIMAN 106
+
+**Lei sobre a cobrança de dívida na ausência do devedor. Contém três parágrafos:**
+
+1. Um credor que deseja cobrar uma dívida com um documento validado em sua posse, na ausência do devedor, se o tribunal puder enviar uma notificação ao devedor para que compareça ao julgamento, eles devem fazê-lo. Isso é possível se o mensageiro puder ir e voltar dentro de 30 dias, e o credor deve arcar com os custos do envio. Se o devedor estiver em um local onde o mensageiro não possa ir e voltar dentro de 30 dias, o tribunal pode cobrar a dívida imediatamente, desde que o credor preste juramento e receba o pagamento, seja de bens imóveis ou móveis, sem se preocupar com um recibo. Se o documento explicitamente concede confiança para cobrar na ausência do devedor ou menciona confiança nos representantes, o credor não precisa prestar juramento.
+
+2. Há quem diga que a cobrança na ausência do devedor só pode ser feita pelo próprio credor, e não por seus herdeiros, que devem seguir o devedor (Rivash, Siman 253). Veja também acima Siman 73, Seif 10, e Siman 14, Seif 1.
+
+3. Três provas são necessárias para que o tribunal permita a cobrança na ausência do devedor: a primeira é a validação do documento em posse do credor; a segunda é que o devedor está em outro país, a uma distância maior do que o mensageiro pode percorrer e retornar em 30 dias; a terceira é que os bens em questão estão sob a posse do devedor.
+
+**Cobrança na ausência do devedor:**
+
+Assim como o tribunal pode cobrar dos bens do devedor na sua ausência, eles também podem hipotecar a terra do devedor ao credor, pois isso é mais vantajoso para ele.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre a cobrança de dívidas na ausência do devedor, conforme descritas no Siman 106 do Shulchan Aruch Choshen Mishpat, vamos desmembrar os conceitos e procedimentos envolvidos:
+
+1. **Cobrança de Dívida com Documento Validado:**
+   - **Credor e Devedor:** O credor é a pessoa ou entidade que emprestou dinheiro ou forneceu bens/serviços, enquanto o devedor é quem deve pagar essa dívida.
+   - **Documento Validado:** Este é um documento legal que comprova a dívida e foi autenticado por um tribunal ou autoridade competente.
+   - **Notificação ao Devedor:** Se o devedor não está presente, o tribunal deve tentar notificá-lo para comparecer ao julgamento. Isso é feito enviando um mensageiro, desde que a viagem de ida e volta possa ser feita em até 30 dias. O credor paga por esse envio.
+   - **Cobrança Imediata:** Se o devedor está tão distante que o mensageiro não consegue ir e voltar em 30 dias, o tribunal pode permitir que o credor cobre a dívida imediatamente. O credor deve jurar que a dívida é válida e pode receber o pagamento, seja em dinheiro ou bens, sem precisar de um recibo, a menos que o documento permita explicitamente a cobrança sem juramento.
+
+2. **Cobrança por Herdeiros:**
+   - **Herdeiros do Credor:** Se o credor original faleceu, seus herdeiros não podem cobrar a dívida na ausência do devedor. Eles devem seguir o devedor, ou seja, tentar localizá-lo para cobrar a dívida.
+
+3. **Provas Necessárias para Cobrança:**
+   - **Validação do Documento:** O documento de dívida deve ser validado.
+   - **Localização do Devedor:** O devedor deve estar em um local distante, além do alcance de um mensageiro em 30 dias.
+   - **Posse dos Bens:** Os bens que serão usados para pagar a dívida devem estar sob a posse do devedor.
+
+**Hipoteca de Terras:**
+- O tribunal pode hipotecar a terra do devedor ao credor na ausência do devedor. Isso significa que o credor pode tomar posse da terra como garantia de pagamento, o que é considerado vantajoso para o credor.
+
+**Relevância Prática:**
+Na vida judaica contemporânea, essas leis destacam a importância de procedimentos justos e documentados na cobrança de dívidas. Elas garantem que o devedor tenha a chance de se defender, enquanto protegem os direitos do credor. Em situações onde o devedor está ausente, essas regras ajudam a equilibrar a necessidade de justiça com a praticidade de resolver disputas financeiras.

@@ -1,0 +1,25 @@
+SIMAN 345
+
+**Lei sobre quem toma emprestada uma vaca e aluga outra. Contém 2 parágrafos:**
+
+1. Se alguém toma emprestadas duas vacas, uma para metade do dia como empréstimo e a outra metade do dia como aluguel, e o proprietário afirma que a vaca morreu durante o período de empréstimo, enquanto o tomador diz que uma morreu durante o empréstimo e sobre a outra ele não sabe, então, devido à incapacidade de jurar, ele deve pagar por ambas.
+
+2. Da mesma forma, se três vacas foram entregues a ele, duas emprestadas e uma alugada, e o proprietário afirma que as duas emprestadas morreram, enquanto o tomador diz que uma emprestada certamente morreu, mas sobre a outra que morreu ele não sabe se era a emprestada ou a alugada, então, devido à incapacidade de jurar, pois ele diz "não sei", ele deve pagar por ambas as emprestadas.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender essas leis, é importante saber que elas tratam de situações em que alguém toma emprestado ou aluga animais, neste caso, vacas, e há uma disputa sobre o que aconteceu com elas. Vamos explicar cada parágrafo:
+
+1. **Empréstimo e Aluguel de Vacas:**
+   - **Cenário:** Uma pessoa toma emprestadas duas vacas de um proprietário. Uma vaca é emprestada para uso durante metade do dia, e a outra é alugada para a outra metade do dia.
+   - **Problema:** O proprietário afirma que uma das vacas morreu durante o período em que estava emprestada. O tomador (a pessoa que pegou as vacas) concorda que uma vaca morreu durante o empréstimo, mas não tem certeza sobre a outra.
+   - **Solução:** Na lei judaica, quando há uma disputa sobre um empréstimo e a pessoa que tomou emprestado não pode jurar sobre o que aconteceu (porque não tem certeza), ela é obrigada a pagar. Neste caso, como o tomador não pode jurar que a vaca que morreu não era a emprestada, ele deve pagar por ambas as vacas.
+
+2. **Três Vacas: Duas Emprestadas e Uma Alugada:**
+   - **Cenário:** Três vacas são entregues ao tomador: duas emprestadas e uma alugada.
+   - **Problema:** O proprietário diz que as duas vacas emprestadas morreram. O tomador admite que uma vaca emprestada morreu, mas não sabe se a outra vaca que morreu era a emprestada ou a alugada.
+   - **Solução:** Novamente, devido à incerteza e à incapacidade de jurar, o tomador deve pagar pelas duas vacas emprestadas. A lei presume que, na dúvida, a responsabilidade recai sobre quem tomou emprestado, já que ele não pode provar o contrário.
+
+**Relevância Prática:**
+Essas leis são aplicáveis em situações modernas de empréstimos e alugueis, não apenas com animais, mas com qualquer bem. Elas ensinam sobre a importância da responsabilidade e da clareza em acordos. Quando alguém toma algo emprestado, é responsável por ele, especialmente se não puder provar o que aconteceu em caso de perda ou dano. Isso incentiva a comunicação clara e acordos bem definidos entre as partes envolvidas.

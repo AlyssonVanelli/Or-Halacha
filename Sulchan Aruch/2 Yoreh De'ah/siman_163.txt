@@ -1,0 +1,31 @@
+SIMAN 163
+
+**Lei sobre quem estipula trigo para seu devedor ao preço atual. Contém três seifim:**
+
+1. Quem tinha uma dívida em dinheiro com seu amigo e disse a ele: "Dê-me meu dinheiro, pois quero comprar trigo com ele." O amigo respondeu: "Vá e faça isso por mim ao preço atual, e você terá trigo comigo como empréstimo." Se ele tem trigo na quantidade correspondente ao valor do dinheiro, é permitido, mesmo que o preço não tenha sido fixado. Se não, é proibido, mesmo que o preço tenha sido fixado. (Nimukei Yosef em nome de Ramban e Rav Magid, e assim escreveu Ramban e Rashba) (E o vendedor é acreditado ao dizer que tem, e não precisa de prova para suas palavras) (Hagahot Mordechai sobre Eizehu Neshech) conforme acima no Siman 162.
+
+1. Se ele tinha trigo e fez o empréstimo sobre ele, e depois de algum tempo disse a ele: "Dê-me trigo, pois quero vendê-lo e comprar vinho com o dinheiro." O amigo respondeu: "Vá e faça isso por mim ao preço do mercado agora." Se ele tem vinho, isso é permitido. Se não, é proibido. (Ran e Nimukei Yosef)
+
+2. Ele disse a ele: "Empreste-me cem." O amigo respondeu: "Cem não tenho, mas tenho trigo por cem." E ele deu a ele trigo por cem, conforme o preço, e depois o comprou de volta por noventa. (E ainda vale cem) (Beit Yosef em nome de Tosafot) Se ele finalmente pagou os cem com frutas, é permitido, mas é proibido pagar com dinheiro por causa da aparência de usura, já que ele disse inicialmente: "Empreste-me cem." E se ele transgrediu e fez, ele retira dele cem em juízo, pois mesmo o pó da usura não está presente aqui. (Hagahot: E alguns dizem que é o pó da usura (Tur em nome de Ramban e Rosh) E tudo isso não se refere a quando não foi estipulado desde o início, mas se foi estipulado desde o início para comprar dele por menos, é usura completa (Mishneh Torah, capítulo 5 das Leis de Empréstimos, em nome de Ramban e Rashba, e assim está em Nimukei Yosef) mesmo que ele pague com frutas [é proibido] (Nimukei Yosef sobre Eizehu Neshech).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch Yoreh De'ah aborda questões relacionadas a empréstimos e transações comerciais, especialmente no contexto de evitar a prática de usura, que é o ato de cobrar juros excessivos ou injustos sobre empréstimos. Vamos explicar cada parte de forma prática:
+
+1. **Empréstimo de Trigo ao Preço Atual:**
+   - **Cenário:** Uma pessoa deve dinheiro a outra e quer usar esse dinheiro para comprar trigo. O credor diz que pode fornecer o trigo ao preço atual do mercado.
+   - **Condição:** Se o credor realmente possui a quantidade de trigo correspondente ao valor do dinheiro, essa transação é permitida. Isso significa que o credor pode fornecer o trigo como um empréstimo, mesmo que o preço não tenha sido fixado previamente.
+   - **Proibição:** Se o credor não possui o trigo, a transação é proibida, mesmo que o preço tenha sido acordado. Isso evita a prática de usura, pois o credor poderia estar especulando sobre o preço futuro do trigo.
+
+2. **Troca de Trigo por Vinho:**
+   - **Cenário:** Após algum tempo, o devedor quer vender o trigo para comprar vinho. O credor concorda em fazer a troca ao preço atual do mercado.
+   - **Condição:** Se o credor possui o vinho, a troca é permitida. Caso contrário, é proibida. Isso segue a mesma lógica de evitar especulação e usura.
+
+3. **Empréstimo com Trigo e Recompra:**
+   - **Cenário:** Uma pessoa pede um empréstimo de cem moedas. O credor não tem o dinheiro, mas oferece trigo no valor de cem moedas. Depois, ele compra o trigo de volta por noventa moedas.
+   - **Permissão:** Se o pagamento final for feito com produtos (frutas, por exemplo), é permitido. No entanto, pagar com dinheiro é proibido, pois pode parecer que houve cobrança de juros, já que inicialmente foi pedido um empréstimo em dinheiro.
+   - **Transgressão:** Se a transação foi feita de forma proibida, o credor deve devolver o valor total, pois mesmo a aparência de usura deve ser evitada. Alguns consideram isso como "pó de usura", uma forma menor, mas ainda preocupante, de usura.
+
+**Relevância Prática:**
+Essas leis são importantes para garantir que as transações financeiras entre judeus sejam justas e não exploratórias. Na vida contemporânea, isso se traduz em práticas comerciais éticas, onde a especulação e a cobrança de juros injustos são evitadas. As transações devem ser claras e baseadas em valores reais e presentes, não em expectativas futuras que possam prejudicar uma das partes envolvidas.

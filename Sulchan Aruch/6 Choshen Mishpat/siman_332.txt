@@ -1,0 +1,66 @@
+SIMAN 332
+
+**Lei sobre alguém que diz ao seu emissário: "Vá e contrate trabalhadores para mim" e ele os contrata por um valor maior do que o instruído. Contém sete seções:**
+
+1. Se alguém diz ao seu emissário: "Vá e contrate trabalhadores para mim por três moedas" e ele vai e os contrata por quatro, se o emissário disse aos trabalhadores "O pagamento é por minha conta", ele deve pagar-lhes quatro e receberá três do proprietário, perdendo uma moeda do seu próprio bolso. (Alguns dizem que se todos os trabalhadores só podem ser contratados por quatro, o proprietário deve pagar ao emissário conforme o benefício que ele recebeu).
+
+2. Se o emissário disse aos trabalhadores "O pagamento é por conta do proprietário", o proprietário paga-lhes conforme o costume local. Se na cidade há quem seja contratado por três e quem seja contratado por quatro, ele só paga três, e os trabalhadores têm uma queixa contra o emissário.
+
+3. Quando isso se aplica? Quando o trabalho não é evidente. Mas se o trabalho é evidente e vale quatro, o proprietário paga-lhes quatro, pois se o emissário não tivesse dito quatro, eles não teriam se esforçado para fazer um trabalho que vale quatro.
+
+4. Se o proprietário disse ao emissário: "Contrate para mim por quatro" e o emissário contratou por três, mesmo que o trabalho valha quatro, eles só recebem três, pois aceitaram o valor. Eles têm uma queixa contra o emissário (não importa se ele disse "O pagamento é por minha conta" ou "O pagamento é por conta do proprietário").
+
+5. Se o proprietário disse "por três" e o emissário disse "por quatro", e os trabalhadores disseram "Aceitamos como o proprietário disse", eles esperam que o proprietário pague mais de quatro. Portanto, avalia-se o trabalho: se vale quatro, recebem quatro do proprietário; se não vale ou não é conhecido, recebem apenas três.
+
+6. Se o emissário disse "O pagamento é por minha conta", ele paga-lhes quatro em qualquer caso. E se os trabalhadores só podem ser contratados por quatro, o proprietário deve pagar conforme o benefício que ele recebeu.
+
+7. Se o proprietário disse "por quatro" e o emissário disse "por três", e os trabalhadores disseram "Aceitamos como o proprietário disse", mesmo que o trabalho valha quatro, eles só recebem três, pois ouviram três e aceitaram.
+
+8. Se o proprietário enganou os trabalhadores dizendo "Trabalhem comigo por quatro como seus colegas" e eles disseram "Como nossos colegas", e descobriu-se que ele pagou mais aos colegas, ele deve pagar a estes como pagou aos colegas.
+
+9. Se o proprietário enganou os trabalhadores dizendo "Trabalhem comigo por quatro como outros trabalhadores são contratados" e descobriu-se que são contratados por mais, ou se os trabalhadores enganaram o proprietário, é como se não tivessem contratado um ao outro, e ele paga-lhes como o menor dos trabalhadores.
+
+10. Se o proprietário contratou trabalhadores e disse que pagaria com um objeto, ele pode depois pagar-lhes em dinheiro, pois não houve aquisição do objeto.
+
+11. Se o proprietário contratou por um valor e o trabalho desvalorizou, e ele mostrou descontentamento e foi apaziguado com palavras, ele não pode dizer que só foi apaziguado com a condição de reduzir o pagamento, pois os trabalhadores podem dizer que só o apaziguaram para fazer um bom trabalho, e assim fizeram.
+
+12. Se o trabalho valorizou e os trabalhadores mostraram descontentamento e foram apaziguados com palavras, eles não podem dizer que só foram apaziguados com a condição de aumentar o pagamento, pois o proprietário pode dizer que só os apaziguou para aumentar a comida e bebida, e assim fez.
+
+13. Se o trabalho vale cinco e foram contratados por quatro, e o valor caiu para quatro, ele paga-lhes quatro. (Ele não pode dizer que agora devem aceitar um dinar a menos do que vale).
+
+14. Se foram contratados por um dinar a mais do que o devido e o trabalho valorizou, eles não podem dizer que agora devem receber um dinar a mais do que o valor atual.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda situações em que uma pessoa (o proprietário) pede a outra (o emissário) para contratar trabalhadores em seu nome, e surgem complicações sobre o pagamento devido. Vamos explicar cada seção de forma prática:
+
+1. **Emissário Contrata por Mais do que o Instruído**: Se o emissário contrata trabalhadores por um valor maior do que o proprietário instruiu, e ele disse aos trabalhadores que o pagamento seria por conta dele, ele é responsável por pagar a diferença. No entanto, se os trabalhadores só podem ser contratados por esse valor maior, o proprietário pode ter que pagar a diferença, pois ele se beneficiou do trabalho.
+
+2. **Pagamento Conforme o Costume Local**: Se o emissário disse que o pagamento seria por conta do proprietário, o proprietário paga conforme o costume local. Se há uma variação de preços na cidade, ele paga o menor valor, e os trabalhadores devem resolver a diferença com o emissário.
+
+3. **Trabalho Evidente**: Se o trabalho claramente vale mais, o proprietário deve pagar o valor justo, pois os trabalhadores não teriam aceitado o trabalho por menos.
+
+4. **Emissário Contrata por Menos do que o Instruído**: Se o emissário contrata por menos do que o proprietário instruiu, os trabalhadores recebem o valor acordado, mesmo que o trabalho valha mais. Eles podem reclamar com o emissário.
+
+5. **Aceitação dos Termos pelo Proprietário**: Se os trabalhadores aceitam trabalhar pelo valor que o proprietário disse, mas esperam mais, o pagamento é avaliado pelo valor do trabalho. Se vale mais, recebem mais; se não, recebem o valor menor.
+
+6. **Responsabilidade do Emissário**: Se o emissário assume a responsabilidade do pagamento, ele paga o valor maior. Se o trabalho só pode ser feito por esse valor, o proprietário deve pagar conforme o benefício recebido.
+
+7. **Aceitação dos Termos pelo Emissário**: Se os trabalhadores aceitam o valor menor que o emissário disse, mesmo que o trabalho valha mais, eles recebem o valor menor.
+
+8. **Engano do Proprietário**: Se o proprietário engana os trabalhadores sobre o pagamento comparando com outros, ele deve pagar o mesmo que pagou aos outros.
+
+9. **Engano sobre o Valor de Mercado**: Se há engano sobre o valor de mercado, é como se não houvesse contrato, e o pagamento é o menor valor possível.
+
+10. **Pagamento com Objeto**: Se o proprietário prometeu pagar com um objeto, ele pode mudar para dinheiro, pois o objeto não foi adquirido.
+
+11. **Desvalorização do Trabalho**: Se o trabalho desvaloriza e o proprietário é apaziguado sem discutir pagamento, ele não pode reduzir o pagamento, pois os trabalhadores podem ter melhorado o trabalho.
+
+12. **Valorização do Trabalho**: Se o trabalho valoriza e os trabalhadores são apaziguados, eles não podem exigir mais, pois o proprietário pode ter oferecido outras compensações.
+
+13. **Valor do Trabalho Cai**: Se o trabalho vale menos do que o contratado, o pagamento é o valor acordado, não menos.
+
+14. **Valor do Trabalho Sobe**: Se o trabalho vale mais do que o contratado, os trabalhadores não podem exigir mais do que o valor acordado.
+
+Essas leis ajudam a garantir justiça e clareza em acordos de trabalho, refletindo a importância de comunicação clara e honestidade em transações comerciais na vida judaica.

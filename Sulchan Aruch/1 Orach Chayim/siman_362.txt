@@ -1,0 +1,50 @@
+SIMAN 362
+
+**Qual é a definição de uma "mechitzá" (barreira) que permite transportar? Este capítulo contém doze seções:**
+
+1. Qualquer barreira que não foi feita para habitar dentro dela, mas sim para privacidade ou para proteger o que está dentro, ou para sentar-se nela para guardar os campos, é considerada uma barreira para transportar o que está dentro dela. No entanto, não é considerada uma barreira que torna o que está dentro cercado para habitação se for maior que dois "seá". Portanto, uma árvore cujos galhos descem para baixo, se não estiverem a três "tefachim" do chão e a base onde estão conectados à árvore for alta dez "tefachim", é considerada uma barreira, e é permitido transportar em toda a sua área. Isso é válido desde que o espaço entre os galhos seja preenchido com madeira ou palha e os galhos sejam amarrados para que o vento não os mova, pois qualquer barreira que não possa resistir a um vento comum não é considerada uma barreira. Isso é válido apenas até a área de dois "seá", mas não mais. Mesmo que tenha sido plantada para esse propósito, já que não foi feita para habitar dentro, mas para se abrigar à sombra e guardar os campos.
+
+2. Um monte que tem cinco "tefachim" de altura e foi completado para dez "tefachim" ao construir uma barreira de cinco "tefachim" sobre ele é considerado uma barreira para transportar e para todos os propósitos.
+
+3. Uma barreira que se mantém por si só, ou seja, que não foi feita intencionalmente como uma barreira, é válida. Uma barreira feita no Shabat é válida, e isso se aplica quando foi feita inadvertidamente no Shabat. Mas se foi feita intencionalmente, é considerada uma barreira para ser rigoroso, para obrigar quem lança de um domínio público para dentro dela, mas não para permitir transportar dentro dela. Isso se aplica quando não havia uma barreira lá antes, mas se havia uma e foi removida e depois refeita, mesmo intencionalmente, ela retorna ao seu estado original de permissão. Por exemplo, duas ou três pessoas que cercaram a si mesmas com esteiras em um domínio público e também separaram entre si com esteiras e fizeram um "eruv" juntos, podem transportar de um para o outro. Se as esteiras foram enroladas, é proibido. Se foram novamente estendidas, mesmo intencionalmente, retornam à sua permissão original.
+
+4. Em um navio, é permitido transportar em toda a sua área, mesmo que seja maior que dois "seá", pois é considerado cercado para habitação. (Veja também Siman 366 e o final de Siman 382). Se foi virado para habitar debaixo dele, é considerado um domínio privado. Mesmo se foi virado para calafetar, não se pode transportar nele mais do que quatro "amot" se for maior que dois "seá".
+
+5. Pode-se fazer uma barreira com qualquer coisa: com utensílios, com selas, seja com trama horizontal apenas, como cordas, ou com trama vertical apenas, como canas fincadas no chão. É permitido até dois "seá", mesmo para um indivíduo em uma área habitada, desde que não haja mais de três "tefachim" entre uma corda e outra ou entre uma cana e outra. Mesmo com seres vivos, desde que estejam amarrados, e mesmo com pessoas que estão de pé uma ao lado da outra a menos de três "tefachim" de distância. Mesmo quando estão andando, são considerados uma barreira, e o espaço entre eles é um domínio privado, desde que não saibam que foram colocados lá como uma barreira. Se mesmo um deles souber, é proibido. Mesmo que não tenham sido informados de que estão sendo usados como barreiras agora, se for provável que saibam, como se já tivessem sido usados como barreira uma vez, não se deve usá-los novamente como barreira.
+
+6. Se vieram inicialmente sem saber, mesmo que depois percebam, não há problema.
+
+7. Há quem diga que uma pessoa que deseja usar essa barreira não deve posicioná-los, mas sim outra pessoa, sem que eles saibam. Nota: Não se deve fazer uma barreira de pessoas, exceto em caso de necessidade ou emergência. Se alguém esqueceu algo em um domínio público, é melhor levar crianças para trazer o objeto sem fazer uma barreira de pessoas do que fazer uma barreira de pessoas para que um adulto traga (Beit Yosef em nome de Shibolei HaLeket, Sefer Mitzvot Gadol, e Sefer HaTerumot).
+
+8. Se a abertura for maior que a parte sólida, é proibido, a menos que cada abertura seja menor que três "tefachim".
+
+9. Se a abertura for igual à parte sólida, é permitido, seja na trama horizontal ou vertical, desde que em nenhum lugar a abertura seja maior que dez "amot". Até dez "amot" é permitido, pois é considerado uma porta.
+
+10. Se foi feita uma "tzurat hapetach" (forma de porta), mesmo para uma abertura maior que dez "amot", é permitido. Mesmo que apenas quatro postes tenham sido fincados nos quatro cantos e uma "tzurat hapetach" tenha sido feita sobre eles, é permitido. Isso se aplica em um pátio ou beco onde há habitação, mas em um campo aberto, não é eficaz se todas as direções forem cercadas apenas por uma "tzurat hapetach". Segundo o Rambam, uma "tzurat hapetach" não é eficaz para uma abertura maior que dez "amot", a menos que a parte sólida seja maior que a abertura. (Então é eficaz mesmo em um campo aberto em todas as direções).
+
+11. O que é uma "tzurat hapetach"? Um poste de um lado, um poste do outro lado, e um poste sobre eles, mesmo que não toque neles, mas haja várias "amot" entre eles, desde que a altura dos postes de cada lado seja de dez "tefachim". Eles devem estar alinhados com o poste superior. Se o poste superior estiver conectado aos dois postes ou a um deles de lado, não é eficaz. Os postes laterais devem ser fortes o suficiente para suportar uma porta, mesmo que seja de palha ou canas, mas o poste superior pode ser de qualquer material, mesmo de junco.
+
+12. Uma cúpula (significando um portão em forma de cúpula, segundo Rashi), se tiver em suas bases, ou seja, antes de começar a se curvar, dez "tefachim", é permitida como uma "tzurat hapetach".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 362 do Shulchan Aruch Orach Chayim, precisamos primeiro compreender o conceito de "mechitzá", que é uma barreira ou cerca. No contexto das leis de Shabat, uma mechitzá é importante porque determina se é permitido transportar objetos dentro de uma área cercada durante o Shabat. Vamos explorar os principais pontos de forma prática:
+
+1. **Definição de Mechitzá**: Uma mechitzá é uma barreira que permite transportar objetos dentro de sua área. No entanto, para ser considerada válida para habitação, a área cercada não pode ser maior que dois "seá" (uma medida de área). Se a barreira foi feita para privacidade ou proteção, mas não para habitação, ela ainda pode ser usada para transportar, mas com limitações.
+
+2. **Exemplo de Árvore**: Se uma árvore tem galhos que descem até o chão e formam uma barreira, ela pode ser considerada uma mechitzá, desde que os galhos estejam a menos de três "tefachim" (uma medida de comprimento) do chão e a base seja alta o suficiente. Os galhos devem ser amarrados para não se moverem com o vento, garantindo que a barreira seja estável.
+
+3. **Montes e Barreira**: Um monte de terra que é alto o suficiente pode ser completado com uma barreira adicional para atingir a altura necessária de dez "tefachim", tornando-se uma mechitzá válida.
+
+4. **Barreiras Feitas no Shabat**: Se uma barreira foi feita acidentalmente no Shabat, ela é válida. Se foi feita intencionalmente, ela não permite transportar dentro dela, mas ainda é considerada uma barreira para outras leis.
+
+5. **Navios**: Em um navio, é permitido transportar em toda a sua área, pois é considerado cercado para habitação, mesmo que seja maior que dois "seá".
+
+6. **Materiais para Mechitzá**: Uma mechitzá pode ser feita de diversos materiais, como utensílios, cordas ou canas. Até mesmo seres vivos, como pessoas ou animais, podem formar uma barreira, desde que estejam posicionados corretamente e não saibam que estão sendo usados como tal.
+
+7. **Aberturas na Mechitzá**: Se as aberturas em uma barreira forem maiores que as partes sólidas, a barreira não é válida, a menos que cada abertura seja menor que três "tefachim". Se as aberturas e as partes sólidas forem iguais, a barreira é válida, desde que nenhuma abertura seja maior que dez "amot" (outra medida de comprimento).
+
+8. **Tzurat Hapetach (Forma de Porta)**: Uma "tzurat hapetach" é uma estrutura que se assemelha a uma porta, com postes laterais e um poste superior. Ela pode tornar uma abertura maior que dez "amot" válida, mas há regras específicas sobre como deve ser construída.
+
+Essas leis são relevantes na vida judaica contemporânea, especialmente em comunidades que observam o Shabat e precisam garantir que suas áreas estejam adequadamente cercadas para permitir o transporte de objetos. A compreensão dessas regras ajuda a manter a observância do Shabat de acordo com a Halachá (lei judaica).

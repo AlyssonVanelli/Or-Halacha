@@ -1,0 +1,40 @@
+SIMAN 347
+
+**Lei sobre o dano causado pelo boi de um mutuário ao boi do emprestador ou vice-versa. Contém um parágrafo:**
+
+1. Se alguém tomou emprestada uma vaca sem especificar condições, e o boi do mutuário causou dano ao boi do emprestador, mesmo que o boi do mutuário seja considerado "tam" (não habituado a causar danos), ele deve pagar o dano completo. Isso ocorre porque, mesmo que o dano fosse causado por um boi qualquer, ele precisaria pagar, pois presume-se que ele deve cuidar para que o boi não seja danificado nem cause dano.
+
+2. Se o mutuário aceitou a responsabilidade de cuidar para que o boi não cause dano, mas não para que não seja danificado, e o boi do mutuário, sendo "tam", causou dano, ele paga metade do dano; se for "muad" (habituado a causar danos), paga o dano completo.
+
+3. Se o boi do emprestador causou dano ao boi do mutuário, e o empréstimo foi sem especificar condições, seja o boi "tam" ou "muad", o emprestador está isento de pagar.
+
+4. Se o boi do emprestador causou dano a um boi de outra pessoa, o mutuário é responsável por pagar, pois é sua obrigação cuidar para que o boi não cause dano.
+
+5. Se o mutuário aceitou a responsabilidade de cuidar para que o boi não seja danificado, mas não para que não cause dano, e o boi do emprestador causou dano ao boi do mutuário, o emprestador paga metade do dano se o boi for "tam" e o dano completo se for "muad".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender essas leis, é importante saber que elas fazem parte do Choshen Mishpat, uma seção do Shulchan Aruch que trata de leis civis e monetárias no judaísmo. Aqui, estamos lidando com regras sobre responsabilidade por danos causados por animais, especificamente bois, que eram comuns na época em que essas leis foram escritas.
+
+1. **Conceitos Básicos:**
+   - **Mutuário e Emprestador:** O mutuário é a pessoa que pega algo emprestado, enquanto o emprestador é quem empresta.
+   - **Boi "Tam" e "Muad":** Um boi "tam" é aquele que não tem histórico de causar danos, enquanto um "muad" é conhecido por ser perigoso e já causou danos antes.
+
+2. **Responsabilidade do Mutuário:**
+   - Quando alguém pega uma vaca emprestada sem definir condições específicas, ele assume a responsabilidade de cuidar tanto para que a vaca não seja danificada quanto para que não cause danos. Se o boi do mutuário danificar o boi do emprestador, ele deve pagar o dano completo, mesmo que seu boi seja "tam". Isso se deve à responsabilidade implícita de cuidar adequadamente do animal.
+
+3. **Condições Específicas de Responsabilidade:**
+   - Se o mutuário concordou apenas em evitar que o boi cause danos, mas não em protegê-lo de danos, e seu boi "tam" causa dano, ele paga metade do dano. Se o boi for "muad", ele paga o dano completo. Isso reflete a diferença de responsabilidade entre um boi que não tem histórico de danos e um que tem.
+
+4. **Danos Causados pelo Boi do Emprestador:**
+   - Se o boi do emprestador danifica o boi do mutuário e não havia condições específicas no empréstimo, o emprestador não precisa pagar, independentemente de o boi ser "tam" ou "muad". Isso ocorre porque o mutuário aceitou o risco ao pegar o boi emprestado.
+
+5. **Danos a Terceiros:**
+   - Se o boi do emprestador danifica o boi de outra pessoa, o mutuário é responsável por pagar, pois ele é quem está cuidando do boi no momento.
+
+6. **Responsabilidade Limitada:**
+   - Se o mutuário aceitou apenas a responsabilidade de proteger o boi de danos, mas não de evitar que cause danos, e o boi do emprestador danifica o boi do mutuário, o emprestador paga metade do dano se o boi for "tam" e o dano completo se for "muad".
+
+**Relevância Prática:**
+Essas leis refletem a importância da responsabilidade e do cuidado ao lidar com propriedades alheias. Na vida contemporânea, embora não lidemos com bois, os princípios de responsabilidade e cuidado ao emprestar ou tomar emprestado algo ainda são aplicáveis. Eles nos ensinam a importância de definir claramente as condições e responsabilidades ao fazer acordos, para evitar disputas e garantir justiça.

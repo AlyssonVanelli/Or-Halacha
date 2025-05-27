@@ -1,0 +1,38 @@
+SIMAN 297
+
+**Aquele que nega um depósito, mesmo que o depositante forneça um sinal. E há um parágrafo:**
+
+1. Quando alguém deposita um objeto com seu amigo sem testemunhas, o depositário é acreditado ao dizer "não houve tal coisa" (להד"מ), mesmo que o depositário não seja conhecido por possuir tal objeto, e o depositante forneça um sinal. Mesmo se o objeto foi depositado com testemunhas, se elas não viram o objeto atualmente em sua posse, ele é acreditado ao dizer "eu devolvi a você" ou "você me deu de presente". Mesmo se o depositante afirmar "eu depositei trigo com você" e o outro responder "eu devolvi a você", e o depositante disser "havia tal e tal quantidade e você colocou em tal barril", e isso for encontrado como ele disse, ainda assim o depositário é acreditado ao dizer "eu devolvi a você o que era seu, e estes são de outra pessoa", mesmo que tenha sido depositado com testemunhas.
+
+2. No entanto, se as testemunhas testemunharem que ele depositou tal objeto em sua mão e o virem atualmente em sua posse, ele não é acreditado ao dizer "eu devolvi [e recebi de você]" ou "você me deu de presente". Não apenas se ele estiver vivo, o objeto é retirado de sua posse, mas mesmo se ele morrer, o objeto é retirado dos herdeiros, mesmo sem um juramento.
+
+3. Se o depositante disser "eu depositei tal objeto com testemunhas em sua mão, com tal e tal sinal", e nós virmos tal objeto na posse dos órfãos, eles devem mostrá-lo às testemunhas, e se as testemunhas testemunharem que é este, ele é devolvido. Se os órfãos disserem "nosso pai disse que é dele", eles são acreditados com um juramento (Tur, Siman 64).
+
+4. Além disso, se alguém vier e disser "eu depositei tal e tal com seu pai" e fornecer sinais claros, e o depósito for encontrado como ele disse, e o juiz souber que o falecido não era conhecido por possuir tal depósito, o juiz deve dar o depósito àquele que forneceu os sinais, desde que o depositante não fosse alguém que costumava depositar com o falecido. Mas se ele costumava depositar com ele, talvez seja de outra pessoa e ele reconheceu os sinais.
+
+5. Se testemunhas vierem e testemunharem ao juiz que ele não era conhecido por possuir tal coisa, não se retira dos órfãos com base em seu testemunho, pois isso não é uma prova clara, e a avaliação de sua mente não é uma avaliação. O juiz só deve confiar no que sua mente apoia.
+
+6. E desde que aumentaram os tribunais que não são adequados, e mesmo que sejam adequados em suas ações, não são sábios como deveriam ser e não possuem entendimento, a maioria dos tribunais de Israel concordou que não se retira dos órfãos com base na avaliação da mente do juiz.
+
+*(Se um depósito foi devolvido por ordem do tribunal e depois se descobriu que eles erraram, o depositário está isento) (Rabi Yerucham, Seção 51, Parte 1).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda as leis relacionadas a depósitos, ou seja, quando uma pessoa confia um objeto a outra para que o guarde. Vamos explicar os principais pontos de forma prática:
+
+1. **Depósito sem Testemunhas**: Se alguém deixa um objeto com outra pessoa sem testemunhas presentes, e mais tarde a pessoa que guardou o objeto nega ter recebido, ela é acreditada. Isso significa que, na ausência de testemunhas, a palavra do depositário (quem guardou o objeto) é aceita, mesmo que o dono original forneça um sinal ou descrição do objeto.
+
+2. **Depósito com Testemunhas**: Se o objeto foi entregue com testemunhas, mas elas não viram o objeto na posse do depositário no momento da disputa, o depositário ainda pode alegar que devolveu o objeto ou que o dono original o presenteou. A palavra do depositário é aceita, a menos que as testemunhas possam confirmar que o objeto ainda está com ele.
+
+3. **Objeto Visto com o Depositário**: Se as testemunhas viram o objeto com o depositário e ele ainda está em sua posse, ele não pode alegar que devolveu ou que foi presenteado. O objeto deve ser devolvido ao dono original, mesmo que o depositário tenha falecido, e seus herdeiros não podem ficar com o objeto.
+
+4. **Depósito com Sinais**: Se o depositante pode descrever o objeto com sinais claros e o objeto é encontrado com os herdeiros do depositário falecido, os herdeiros devem mostrar o objeto às testemunhas. Se as testemunhas confirmarem que é o mesmo objeto, ele deve ser devolvido ao depositante. Se os herdeiros alegarem que o objeto pertence ao falecido, eles são acreditados, mas precisam fazer um juramento.
+
+5. **Depósito com Sinais e Conhecimento do Juiz**: Se alguém afirma ter depositado um objeto com o falecido e fornece sinais claros, e o juiz sabe que o falecido não era conhecido por possuir tal objeto, o juiz pode devolver o objeto ao reclamante. Isso não se aplica se o reclamante costumava deixar objetos com o falecido, pois pode ser de outra pessoa.
+
+6. **Testemunhas e Conhecimento do Juiz**: Se testemunhas afirmam que o falecido não era conhecido por possuir tal objeto, isso não é suficiente para retirar o objeto dos herdeiros. O juiz deve confiar em seu próprio julgamento.
+
+7. **Tribunais e Erros**: Devido à proliferação de tribunais inadequados, a maioria dos tribunais em Israel concorda que não se deve retirar objetos dos herdeiros apenas com base na avaliação do juiz. Se um tribunal ordena a devolução de um depósito e depois se descobre que houve um erro, o depositário não é responsabilizado.
+
+Essas leis são relevantes para garantir a justiça e a confiança nas transações e acordos pessoais, especialmente em comunidades onde a confiança mútua é fundamental. Elas também destacam a importância de testemunhas e documentação em acordos financeiros e de propriedade.

@@ -1,0 +1,42 @@
+SIMAN 632
+
+**Assuntos que invalidam o s'chach (cobertura da sucá). Este capítulo contém quatro seções:**
+
+1. Um s'chach inválido invalida a sucá no meio se tiver quatro tefachim (unidade de medida), mas se for menos de quatro, a sucá é válida. É permitido dormir sob ele se estiver ao lado.
+
+2. O s'chach inválido só invalida a sucá se tiver quatro amot (outra unidade de medida), mas se for menos de quatro amot, a sucá é válida. Isso se deve ao conceito de "dofen akumá" (parede curva), que significa que consideramos como se a parede estivesse curvada e o s'chach inválido fosse parte da própria parede. Este é um princípio recebido por tradição desde Moisés no Sinai.
+
+3. Portanto, se uma casa tiver um buraco no meio e for coberta no local do buraco, e restar do teto ao redor menos de quatro amot entre o s'chach válido e as paredes, a sucá é válida. No entanto, não se deve dormir sob essa parte enquanto houver quatro tefachim de s'chach inválido.
+
+4. Isso se aplica a uma sucá grande que tenha mais de sete tefachim por sete tefachim de s'chach inválido. Mas em uma sucá pequena que não tenha mais do que sete por sete, tanto no meio quanto ao lado, se houver três tefachim de s'chach inválido, a sucá é inválida. Se for menos de três, a sucá é válida e pode-se dormir sob ela, e ela conta para completar o tamanho mínimo da sucá.
+
+5. O espaço vazio, tanto em uma sucá grande quanto em uma pequena, é igual: tanto no meio quanto ao lado, se houver três tefachim de espaço vazio, a sucá é inválida. Se for menos de três, a sucá é válida e conta para completar o tamanho da sucá, mas não se deve dormir sob essa parte.
+
+*Nota: Isso se aplica apenas se o espaço vazio atravessar toda a sucá ou for suficiente para que a cabeça e a maior parte do corpo fiquem sob ele. Caso contrário, é permitido, pois não há sucá sem pequenos buracos. E o fato de que um s'chach inválido invalida com quatro tefachim e o espaço vazio com três é apenas quando divide a sucá em duas e não resta o tamanho mínimo de uma sucá válida com paredes em um lugar. Mas se restar o tamanho de uma sucá em um lugar, esse lugar é válido, mesmo que esteja fora, se estiver conectado pelos lados.*
+
+6. Um s'chach inválido com menos de quatro tefachim e um espaço vazio ao lado com menos de três tefachim não se combinam para invalidar a sucá. Portanto, se houver três tefachim de espaço vazio em um lugar, mesmo que seja reduzido com s'chach inválido, a sucá é válida. Isso se aplica a uma sucá grande, mas em uma pequena que não tenha mais do que sete por sete, se houver três tefachim entre ambos, eles se combinam para invalidar a sucá.
+
+7. Se houver dois tefachim de s'chach inválido e mais dois tefachim de s'chach inválido, e um espaço vazio de menos de três tefachim os separa, há dúvida se os dois s'chach inválidos se combinam para invalidar a sucá.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre o s'chach (a cobertura da sucá), é importante saber que a sucá é uma cabana temporária construída para a festa judaica de Sucot. O s'chach é a cobertura feita de materiais naturais, como galhos ou folhas, que deve proporcionar mais sombra do que luz dentro da sucá.
+
+Aqui está uma explicação prática das regras mencionadas:
+
+1. **S'chach Inválido no Meio da Sucá**: Se a cobertura inválida (s'chach que não atende aos requisitos) tiver uma largura de quatro tefachim (uma unidade de medida tradicional, aproximadamente 32 cm), ela invalida a sucá. Se for menos de quatro tefachim, a sucá ainda é válida, e você pode dormir sob essa parte se estiver ao lado.
+
+2. **S'chach Inválido nas Bordas**: Se a cobertura inválida tiver quatro amot (outra unidade de medida, cerca de 1,92 metros), ela invalida a sucá. Menos de quatro amot é aceitável devido ao conceito de "dofen akumá" (parede curva), que permite considerar a cobertura inválida como parte da parede, mantendo a sucá válida.
+
+3. **Buraco no Teto**: Se uma casa tem um buraco no teto e você coloca s'chach válido sobre ele, a sucá é válida se a distância entre o s'chach válido e as paredes for menor que quatro amot. No entanto, não se deve dormir sob uma parte com quatro tefachim de s'chach inválido.
+
+4. **Sucá Pequena vs. Grande**: Em uma sucá grande, se houver mais de sete tefachim de s'chach inválido, ela é inválida. Em uma sucá pequena (não maior que sete por sete tefachim), três tefachim de s'chach inválido já a tornam inválida. Menos de três tefachim é aceitável e conta para o tamanho mínimo da sucá.
+
+5. **Espaço Vazio**: Tanto em sucás grandes quanto pequenas, três tefachim de espaço vazio tornam a sucá inválida. Menos de três tefachim é aceitável, mas não se deve dormir sob essa parte. Pequenos buracos são normais e não invalidam a sucá.
+
+6. **Combinação de S'chach Inválido e Espaço Vazio**: S'chach inválido com menos de quatro tefachim e espaço vazio com menos de três tefachim não se combinam para invalidar a sucá. Em sucás pequenas, se houver três tefachim entre ambos, eles se combinam para invalidar a sucá.
+
+7. **Dúvida sobre Combinação**: Se houver dois tefachim de s'chach inválido em dois lugares separados por menos de três tefachim de espaço vazio, há dúvida se eles se combinam para invalidar a sucá.
+
+Essas regras ajudam a garantir que a sucá seja construída de acordo com as tradições e leis judaicas, permitindo que os judeus celebrem Sucot de maneira adequada.

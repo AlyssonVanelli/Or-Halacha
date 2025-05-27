@@ -1,0 +1,30 @@
+SIMAN 151
+
+**Lei sobre aqueles cuja posse não é prova. Contém três seifim:**
+
+1. Todos aqueles cuja posse não é considerada prova, se trouxerem testemunhas de que os proprietários venderam-lhes este campo ou deram-lhes como presente, sua prova é válida, exceto para o ladrão e o marido em relação aos bens de sua esposa. Em quais propriedades isso foi dito? Em propriedades que ela trouxe para o casamento (nichsei tzon barzel) ou em um campo que foi especificado para ela em seu contrato de casamento (ketubah), ou em um campo que ele escreveu para ela em seu contrato de casamento, ou em um campo que ele deu a ela de sua própria propriedade. No entanto, em relação aos nichsei melog (propriedades que a esposa traz para o casamento, mas que permanecem sob seu controle), ele tem prova.
+
+2. Uma mulher em relação aos bens de seu marido, se ela trouxer testemunhas de que ele os vendeu para ela, isso foi esclarecido no Tur Even HaEzer.
+
+3. Como é o caso do ladrão? Uma vez que ele foi estabelecido como ladrão em relação a este campo, mesmo que ele traga prova em um documento de que o proprietário admitiu perante testemunhas que vendeu-lhe o campo e recebeu o pagamento, e os proprietários dizem que só admitiram por medo, o campo é retirado de sua posse e ele não tem nada. (E se ele escreveu para ele uma garantia de propriedade, alguns dizem que ele adquiriu [Tur Siman 63 em nome de Rabi Yitzchak Alfasi]). E se as testemunhas testemunharem que na presença delas ele pagou tal e tal quantia, o campo é retirado do ladrão e o dinheiro é devolvido aos proprietários. Nota: E alguns dizem que se as testemunhas viram a entrega do dinheiro e o vendedor não fez uma declaração de protesto antes, a venda é válida, pois mantemos que "se alguém é forçado a vender, a venda é válida" (Tur em nome do Rosh), e isso é considerado o principal. Veja também Siman 245 sobre as leis de declaração de protesto.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 151 do Shulchan Aruch Choshen Mishpat, é importante saber que ele trata de situações em que a posse de uma propriedade não é suficiente para provar a propriedade legal. Vamos explicar cada parte de forma prática:
+
+1. **Posse e Prova de Propriedade:**
+   - Em geral, se alguém possui um campo e pode trazer testemunhas de que o campo foi vendido ou dado a eles, essa prova é válida. No entanto, há exceções, como no caso de um ladrão ou de um marido em relação aos bens de sua esposa.
+   - **Nichsei Tzon Barzel**: São propriedades que a esposa traz para o casamento e que são especificadas no contrato de casamento (ketubah). O marido não pode usar a posse dessas propriedades como prova de que são dele.
+   - **Nichsei Melog**: São propriedades que a esposa traz para o casamento, mas que permanecem sob seu controle. Aqui, o marido pode ter prova de posse.
+
+2. **Mulher e Bens do Marido:**
+   - Se uma mulher alega que seu marido vendeu bens para ela, isso é discutido em outra parte do Shulchan Aruch, no Tur Even HaEzer. Isso significa que há regras específicas para essa situação que devem ser consultadas lá.
+
+3. **Caso do Ladrão:**
+   - Se alguém é reconhecido como ladrão de um campo, mesmo que tenha um documento dizendo que o proprietário admitiu a venda, isso não é suficiente se o proprietário diz que admitiu por medo. O campo é retirado do ladrão.
+   - Se houver testemunhas de que o ladrão pagou pelo campo, o campo é retirado dele, mas o dinheiro é devolvido ao ladrão.
+   - Há uma opinião que diz que se as testemunhas viram o pagamento e o vendedor não protestou, a venda pode ser válida, pois em alguns casos, uma venda forçada ainda é considerada válida.
+
+**Relevância Prática:**
+Essas leis são importantes para resolver disputas de propriedade, especialmente em casos de casamento e alegações de roubo. Elas ajudam a proteger os direitos de propriedade e garantem que as transações sejam feitas de forma justa e documentada. Na vida contemporânea, essas regras podem ser aplicadas em contextos legais e comunitários para resolver disputas de forma justa e baseada em testemunhos e documentação adequada.

@@ -1,0 +1,32 @@
+SIMAN 160
+
+**Um telhado próximo a um pátio e dois pátios, um mais alto que o outro. Contém três seções:**
+
+1. Um telhado que está próximo ao pátio do seu vizinho: o proprietário do telhado causa dano ao proprietário do pátio, e o proprietário do pátio não causa dano ao proprietário do telhado. Portanto, o proprietário do telhado deve construir entre eles uma barreira de quatro amot (cerca de dois metros) para remover o dano. O proprietário do pátio não é obrigado a ajudar, exceto na medida em que sua parte atinja uma barreira de dez tefachim (aproximadamente um metro) para que ele seja considerado um ladrão se ultrapassar. Se o solo do pátio for mais alto que o telhado, o proprietário do telhado deve construir em sua parte inferior até que esteja quatro amot acima do solo do pátio para remover o dano, mesmo que o telhado esteja quatro amot abaixo do pátio. Há quem diga que ainda há dano de visão do telhado para o pátio, e o proprietário do telhado deve construir uma barreira de quatro amot de altura a partir do solo do pátio. E há quem diga que, uma vez que o telhado está quatro amot abaixo do pátio, não há mais dano de visão e ele não precisa fazer nada.
+
+2. Se o telhado estiver mais baixo que o pátio, há quem diga que o superior não é obrigado a ajudar o inferior de forma alguma. E há quem diga que isso se aplica quando o pátio está dez tefachim acima do telhado, mas se estiver menos de dez tefachim acima, o proprietário do telhado deve construir até o nível do solo do pátio, e vemos quanto ainda falta para completar a altura de dez tefachim, e o proprietário do pátio deve contribuir com metade disso.
+
+3. Dois pátios, onde o solo de um é mais alto que o do outro: o superior deve ajudar o inferior a construir embaixo, e o inferior deve ajudar o superior até que a construção esteja quatro amot acima do solo do superior. Portanto, eles devem nivelar o solo do superior na espessura de metade da parede, e a parede é construída sobre o solo de ambos até que esteja quatro amot acima do solo do superior. Nota: Se o pátio for muito alto ou se o inferior não for largo o suficiente para ser visto de longe, e uma barreira menor for suficiente para remover o dano de visão, é suficiente uma barreira que mostre às pessoas que ele não causa mais dano com sua visão (Tur em nome de Rabi Yonah).
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este texto do Shulchan Aruch, é importante saber que ele trata de leis sobre danos causados pela falta de privacidade entre propriedades vizinhas, especificamente entre telhados e pátios. Vamos explicar cada seção de forma prática:
+
+1. **Telhado próximo ao pátio do vizinho:**
+   - Imagine que você tem um telhado que está ao lado do pátio do seu vizinho. Se do seu telhado você consegue ver o pátio do vizinho, isso é considerado uma invasão de privacidade, ou um "dano de visão".
+   - Para resolver isso, a lei diz que você, como proprietário do telhado, deve construir uma barreira de cerca de dois metros de altura para garantir a privacidade do seu vizinho.
+   - O vizinho não precisa ajudar a construir essa barreira, a menos que ele também esteja em uma posição onde possa invadir sua privacidade. Nesse caso, ele deve contribuir para uma barreira de cerca de um metro.
+   - Se o pátio do vizinho for mais alto que o seu telhado, você ainda precisa construir uma barreira que seja alta o suficiente para garantir a privacidade, mesmo que isso signifique construir a partir do nível do pátio.
+
+2. **Telhado mais baixo que o pátio:**
+   - Se o seu telhado está abaixo do nível do pátio do vizinho, há diferentes opiniões sobre o que fazer.
+   - Uma opinião diz que, se o pátio está significativamente mais alto (mais de um metro), o vizinho não precisa ajudar a construir a barreira.
+   - Outra opinião sugere que, se a diferença de altura for menor, você deve construir até o nível do pátio, e o vizinho deve ajudar a completar a altura necessária para garantir a privacidade.
+
+3. **Dois pátios em diferentes níveis:**
+   - Quando há dois pátios, um mais alto que o outro, ambos os proprietários devem colaborar para construir uma barreira.
+   - O proprietário do pátio mais alto deve ajudar a construir a parte inferior da barreira, enquanto o do pátio mais baixo ajuda a construir até que a barreira esteja alta o suficiente para garantir a privacidade do pátio superior.
+   - Se o pátio superior for muito alto ou o inferior for pequeno, uma barreira menor pode ser suficiente, desde que ela claramente impeça a invasão de privacidade.
+
+Essas leis são relevantes hoje em dia porque a privacidade continua sendo um valor importante na vida judaica. Elas nos ensinam a respeitar o espaço dos outros e a tomar medidas práticas para evitar conflitos entre vizinhos.

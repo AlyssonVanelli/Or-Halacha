@@ -1,0 +1,38 @@
+SIMAN 80
+
+**Em que situação uma pessoa pode alegar novamente e mudar sua alegação. Contém dois parágrafos:**
+
+1. Quem apresenta uma alegação em um tribunal e é considerado responsável por ela, não pode apresentar uma nova alegação que contradiga a primeira, mesmo que haja testemunhas para a segunda alegação, isso não é válido. (Ver Nimmukei Yosef, capítulo "HaChovel" e "Al Pi"). No entanto, se a pessoa deseja corrigir a primeira alegação dizendo que foi isso que ela quis dizer, e a linguagem da alegação permite tal correção, então ela é ouvida. Isso se aplica enquanto a pessoa não tiver saído do tribunal. Mas se ela já saiu do tribunal, não é ouvida, pois pode ser que alguém a tenha ensinado a mentir. No entanto, qualquer coisa que a pessoa alegue fora do tribunal, ela pode voltar e alegar novamente, mesmo que contradiga sua primeira alegação, pois uma pessoa só revela suas alegações no tribunal.
+
+2. Isso se aplica quando a pessoa não pode alegar novamente para contradizer sua primeira alegação, quando foi considerada responsável pela primeira alegação. Mas se a pessoa pode ganhar o caso com a primeira alegação, ela pode voltar e alegar novamente e ganhar com a outra alegação, mesmo que não tenha dado uma explicação para a primeira alegação. (Tur em nome de Rabi Yitzchak Migash e Rambam, no final do capítulo 7 das Leis de Alegações). E mesmo que a pessoa tenha saído do tribunal e retornado, ela pode voltar e alegar e mudar todas as alegações que desejar, de uma isenção para outra, até que venham testemunhas. (Ver acima, Siman 79, Seif 9). Mas depois que as testemunhas vêm e contradizem sua alegação inicial, na qual ela se baseou, ela não pode mudar para outra alegação, a menos que dê uma explicação para a alegação na qual se baseou, e a linguagem permita tal mudança, e isso enquanto não tiver saído do tribunal.
+
+**Nota:** Tudo isso se aplica apenas após o tempo de "kdei dibur" (o tempo necessário para dizer uma breve saudação), mas dentro desse tempo, a pessoa pode voltar e contradizer sua primeira alegação. (Tur, Darkei Moshe em nome de Mahariv, Siman 15). E em tudo isso, não há diferença se a pessoa alegou inicialmente e depois veio alegar outra coisa, ou se ficou em silêncio no início e depois veio alegar, a menos que tenha dado uma razão para seu silêncio inicial. (Resposta do Rosh, Clal 64, Siman 3, e Mahariv, Siman 77). E não como aqueles que discordam, que dizem que se a pessoa ficou em silêncio, pode voltar e alegar. (Hagahot Maimoniot, capítulo 7 das Leis de Alegações, em nome de Moheram).
+
+**Há quem diga** que depois que a pessoa escreveu sua alegação em um documento, não pode voltar e alegar novamente, mesmo que dê uma explicação, e mesmo que não tenha sido contradita. (E há quem diga que o tribunal deve escrever as alegações para que a pessoa não possa voltar e alegar novamente). (Rivash, Siman 298). Ver acima, Siman 13, Seif 3.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda as regras sobre como uma pessoa pode apresentar e modificar suas alegações em um tribunal judaico. Vamos explicar isso de forma prática e acessível:
+
+1. **Alegações no Tribunal:**
+   - Quando alguém faz uma alegação em um tribunal, essa pessoa é responsável por aquilo que disse. Isso significa que ela não pode simplesmente mudar sua história ou apresentar uma nova alegação que contradiga a primeira, mesmo que tenha testemunhas para apoiar a nova alegação. A ideia aqui é manter a integridade e a consistência das declarações feitas em um ambiente formal como o tribunal.
+   - No entanto, se a pessoa quiser esclarecer ou corrigir o que disse inicialmente, e se a forma como ela falou permitir essa correção, ela pode ser ouvida, mas isso só é válido enquanto ainda estiver no tribunal. Uma vez que a pessoa sai do tribunal, não pode mais fazer essa correção, pois pode haver suspeitas de que alguém a influenciou a mudar sua história.
+
+2. **Alegações Fora do Tribunal:**
+   - Fora do tribunal, a pessoa tem mais liberdade para mudar suas alegações, mesmo que isso contradiga o que disse antes. Isso ocorre porque as alegações formais são consideradas apenas aquelas feitas dentro do tribunal.
+
+3. **Condições para Mudar Alegações:**
+   - Se a pessoa pode ganhar o caso com sua primeira alegação, ela pode apresentar uma nova alegação para reforçar sua posição, mesmo sem explicar a primeira alegação. Isso é permitido mesmo que a pessoa tenha saído e retornado ao tribunal.
+   - No entanto, se testemunhas aparecem e contradizem a alegação inicial, a pessoa não pode simplesmente mudar sua história sem uma boa explicação que seja linguísticamente plausível.
+
+4. **Tempo de "Kdei Dibur":**
+   - Existe um conceito chamado "kdei dibur", que é o tempo necessário para dizer uma breve saudação. Dentro desse curto período, a pessoa pode mudar sua alegação sem restrições.
+
+5. **Silêncio Inicial:**
+   - Se a pessoa ficou em silêncio inicialmente e depois apresentou uma alegação, isso é tratado da mesma forma que se ela tivesse feito uma alegação inicial e depois quisesse mudá-la, a menos que ela tenha uma boa razão para seu silêncio.
+
+6. **Alegações Escritas:**
+   - Se a alegação foi escrita em um documento, a pessoa não pode simplesmente mudar sua alegação, mesmo que tenha uma explicação, a menos que o tribunal tenha registrado as alegações para evitar mudanças posteriores.
+
+Essas regras são importantes para garantir que os processos judiciais sejam justos e que as partes envolvidas sejam responsáveis por suas declarações. Na prática contemporânea, isso ajuda a manter a ordem e a justiça nos tribunais judaicos, assegurando que as alegações sejam tratadas com seriedade e que as partes não possam manipular o sistema com mudanças constantes de suas histórias.

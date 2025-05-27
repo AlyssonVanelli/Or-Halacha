@@ -1,0 +1,52 @@
+SIMAN 103
+
+**Regra sobre "Noten Ta'am Lifgam" (dar sabor prejudicial). Contém sete seifim:**
+
+1. Qualquer coisa cujo sabor é prejudicial não proíbe a sua mistura. Mesmo que o sabor não seja prejudicial por si só, sendo saboroso e agradável por si mesmo, mas prejudica a mistura, é permitido. No entanto, coisas importantes como um "beriah" (entidade completa) ou similares, se não forem prejudiciais por si mesmas, mesmo que prejudiquem o cozido, não são anuladas, mesmo em mil (e assim escreveu o Aruch, regra 32).
+
+2. Este prejuízo não precisa ser total a ponto de ser repulsivo para comer, mas mesmo que prejudique um pouco, não proíbe a mistura. Há quem diga que isso é apenas quando a proibição é pequena e misturada com uma quantidade maior de permissão. Mas se a proibição é maior que a permissão, ou mesmo metade a metade, não dizemos que "noten ta'am lifgam" é permitido até que seja completamente impróprio para consumo humano. Se não houver substância da proibição, mas apenas seu sabor, mesmo que a proibição seja maior e a permissão menor, é permitido se prejudicar um pouco. Há quem hesite (ou seja, tende a ser rigoroso e proíbe) em dizer que se a proibição aumenta a quantidade da permissão a ponto de melhorar mais ao ser consumida em maior quantidade do que prejudica pela perda de sabor, é proibido até que seja impróprio para consumo humano. Isso se aplica quando prejudica do início ao fim, mas se melhora e depois prejudica, ou prejudica e depois melhora, é proibido. Há quem diga que, embora a proibição seja "noten ta'am lifgam" e o alimento seja permitido, a panela é proibida. Se depois cozinhar nela dentro de 24 horas um prato em que a primeira proibição dá sabor agradável, o segundo prato é proibido, a menos que haja sessenta vezes contra a primeira proibição. Mas se mexer o primeiro prato com uma colher e depois inserir a colher em um segundo prato que também é prejudicial, a panela não é proibida. O mesmo se aplica a algo que não tem sabor, como o caldeirão em que se derrete o mel, mesmo que haja pernas de abelhas, o caldeirão não é proibido, e assim por diante (conforme mencionado no Aruch).
+
+3. Mesmo que a proibição por si só não tenha força para prejudicar, mas apenas com a ajuda de outra coisa que a auxilia, como quando uma proibição cai em uma panela com sal ou especiarias moídas (em grande quantidade), e sem o sal e as especiarias não teria força para prejudicar, ainda assim é permitido.
+
+4. Óleo e mel de um não-judeu, mesmo que sejam cozidos, são permitidos porque a carne prejudica o óleo e o torna rançoso, e o mesmo para o mel. Há quem diga que a carne não prejudica o mel em si, mas apenas a bebida feita de mel (conforme Maharil em suas anotações ao Shulchan Aruch, Siman 22, e muitos outros decisores, veja Siftei Kohen 13), e onde não há grande perda, deve-se ser rigoroso. Carne ou leite no vinho é prejudicial e permitido (anotações de Asheri, capítulo 2 de Avodah Zarah).
+
+5. Qualquer panela que não seja "ben yomo" (usada no mesmo dia) é considerada que seu sabor é prejudicial e não proíbe. É chamada "ben yomo" enquanto não passou 24 horas desde que a proibição foi cozida nela. Uma vez que passou 24 horas desde que a proibição foi cozida nela, não é mais chamada "ben yomo". Se cozinhar nela quando não é "ben yomo", o prato é permitido, pois é "noten ta'am lifgam". Isso é desde que esteja lavada, sem gordura na superfície, pois se não estiver lavada, proíbe, e é como um pedaço de proibição que não foi prejudicado. Há quem permita mesmo se cozinhar nela antes de lavar. Se houver sessenta vezes contra o que está grudado nela, todos concordam que é permitido, já que a panela não é "ben yomo", e assim é o costume (Orach Chaim).
+
+6. Há quem diga que se colocarem pimentas em uma panela de proibição que não é "ben yomo", tudo é proibido, pois sua acidez a torna agradável (conforme decisão própria no Beit Yosef).
+
+7. Uma panela que está impregnada de carne e leite cozidos juntos ou um após o outro, e antes de passar uma noite, se aquecerem água nela, é considerada "ben yomo" até que passe 24 horas desde que a água foi aquecida nela. No entanto, se passou uma noite, é permitido. E se passou uma noite entre o cozimento de carne e leite, mesmo que depois a água tenha sido aquecida imediatamente, a regra é a mesma. E o mesmo se aplica a todas as proibições, conforme estabelecido em todas as proibições, que um pedaço se torna "neveilah" (carne não abatida corretamente) (Beit Yosef e a opinião do Rav). E veja acima no Siman 92. Em caso de perda, é permitido em tal caso em outras proibições de qualquer maneira, desde que seja 24 horas desde o tempo do cozimento da proibição.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Vamos explicar de forma prática o que está sendo discutido no Siman 103 do Shulchan Aruch Yoreh De'ah, que trata do conceito de "Noten Ta'am Lifgam", ou seja, quando um sabor prejudicial é introduzido em uma mistura.
+
+### 1. Conceito de "Noten Ta'am Lifgam"
+
+- **Noten Ta'am Lifgam**: Este termo refere-se a uma situação em que um alimento proibido dá um sabor ruim ou prejudicial a outro alimento. Quando isso acontece, a mistura não é considerada proibida, pois o sabor ruim não é desejável.
+
+### 2. Relevância Prática
+
+Na vida judaica, as leis alimentares (kashrut) são muito importantes. Elas determinam o que é permitido ou proibido comer. Este siman aborda situações em que um alimento proibido se mistura com outro, mas não o torna proibido porque o sabor que ele adiciona é ruim.
+
+### 3. Explicações Detalhadas
+
+- **Mistura com Sabor Prejudicial**: Se um alimento proibido cai em uma panela e o sabor que ele dá ao prato é ruim, a mistura não se torna proibida. Isso é verdade mesmo que o alimento proibido, por si só, tenha um sabor bom, mas na mistura ele prejudica o sabor.
+
+- **Importância de "Beriah"**: Certas coisas, como uma entidade completa (beriah), não são anuladas mesmo que o sabor que elas dão seja ruim. Isso significa que, se um inseto inteiro cair em uma sopa, por exemplo, a sopa pode ser proibida, mesmo que o sabor do inseto seja ruim.
+
+- **Proporção de Mistura**: Se a quantidade de alimento proibido é maior ou igual à quantidade de alimento permitido, a regra de "Noten Ta'am Lifgam" não se aplica, a menos que o sabor seja completamente impróprio para consumo humano.
+
+- **Uso de Panelas**: Uma panela que não foi usada nas últimas 24 horas para cozinhar algo proibido é considerada como dando um sabor prejudicial. Portanto, cozinhar nela não torna o novo prato proibido, desde que a panela esteja limpa.
+
+- **Exceções**: Há exceções, como quando pimentas são usadas, pois sua acidez pode tornar o sabor agradável, mesmo em uma panela que não é "ben yomo" (usada no mesmo dia).
+
+### 4. Pontos Específicos
+
+- **Óleo e Mel de Não-Judeus**: O texto menciona que óleo e mel de não-judeus são permitidos, pois a carne que pode ter sido cozida com eles os torna rançosos, ou seja, prejudica o sabor.
+
+- **Panelas "Ben Yomo"**: Uma panela é considerada "ben yomo" se foi usada nas últimas 24 horas. Se não foi, o sabor que ela dá é considerado prejudicial, e cozinhar nela não torna o novo prato proibido.
+
+- **Cozimento de Carne e Leite**: Se carne e leite foram cozidos juntos ou um após o outro em uma panela, e depois água foi aquecida nela, a panela é considerada "ben yomo" até que 24 horas tenham passado desde o aquecimento da água.
+
+Essas regras ajudam a determinar quando uma mistura de alimentos se torna proibida ou não, com base no sabor que o alimento proibido adiciona. Elas são parte das complexas leis de kashrut que guiam a alimentação judaica.

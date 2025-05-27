@@ -1,0 +1,74 @@
+SIMAN 56
+
+**Lei sobre o Depositário. Contém sete seções:**
+
+1. Um depositário, enquanto a sua função de depositário está em suas mãos, é confiável como duas testemunhas, mesmo que ele seja um parente, e não precisa jurar.
+
+2. Mesmo que o assunto do depósito tenha sido escrito em um documento, não se diz que não confiaram no depositário, mas também neste caso o depositário é confiável (Beit Yosef em nome do Rashba).
+
+3. E mesmo que o tempo tenha passado e ele não tenha devolvido a um dos envolvidos, ele ainda é considerado um depositário e é confiável, mesmo que um dos envolvidos o contradiga e diga que não o fez depositário, o depositário é confiável. Mesmo que ambos o contradigam, o depositário é confiável, desde que não haja contradição entre eles e o depositário sobre a quantia em dinheiro em suas mãos, pois se assim fosse, ele seria considerado interessado na questão e não seria confiável.
+
+4. Em um lugar onde ele não tem um "migo" (um argumento que poderia ter sido feito para seu benefício), ele não é confiável, mas onde ele tem um "migo", ele é confiável (Mordechai, capítulo "Hachovel"). E podem fazê-lo jurar mesmo em uma alegação de dúvida (anotações de Mordechai sobre Gittin).
+
+5. Um documento que estava nas mãos de um depositário e foi retirado de suas mãos no tribunal, e ele disse que estava pago, mesmo que o documento esteja validado, ele é confiável, pois se quisesse, poderia tê-lo queimado ou rasgado. Da mesma forma, se o depositário morreu e foi encontrado um escrito de sua mão dizendo que o documento que estava com ele estava pago, mesmo que não haja testemunhas sobre o escrito, é considerado pago. Mas um escrito que saiu das mãos do credor dizendo que um determinado documento está pago, mesmo que seja de sua própria mão, é apenas como uma brincadeira.
+
+6. Se as testemunhas o contradisserem e disserem que ele foi feito depositário sob uma certa condição, as testemunhas são confiáveis. Isso se aplica quando o depositário diz que em um determinado dia foi entregue a ele sob certas condições e as testemunhas o contradizem. Mas se ele diz que está em suas mãos sob certas condições, mesmo que as testemunhas digam que quando foi entregue a ele, as condições não eram essas, o depositário é confiável, pois talvez depois eles tenham vindo a ele e estipulado essas condições, mesmo que o depositário não alegue explicitamente assim, nós alegamos por ele para que ele não seja contradito pelas testemunhas.
+
+7. Não há diferença em relação ao depositário se ambos entregaram em suas mãos ou se o credor entregou em suas mãos para ser depositário entre eles (Beit Yosef em nome das respostas do Rashba).
+
+8. Ele não deve entregar o depósito exceto na presença do tribunal e deve explicar a eles o assunto do depósito, para que não haja disputa entre eles. E se ele retirar o depósito de suas mãos, ele não será confiável exceto como uma única testemunha, portanto, o tribunal deve escrever e assinar o assunto.
+
+9. Um documento que sai das mãos de um depositário e o devedor alega que é falsificado ou pago, se não puderem validar a assinatura das testemunhas, mesmo que o depositário testemunhe que o credor e o devedor o entregaram a ele e disseram que ainda resta pagar uma certa quantia deste documento, ele não é confiável.
+
+10. Um depositário que foi feito depositário de um documento para pagá-lo em um determinado dia, e o tempo passou, e o devedor alega que pagou a tempo, ou que o devedor morreu, ele é considerado como não pago e o devolve ao credor. E se o devedor morreu, ele não pagará exceto com um juramento, conforme a lei de quem vem cobrar dos órfãos.
+
+11. Quem se obrigou em um documento com aquisição a seu amigo e o devedor o depositou nas mãos de outro sem especificar, e o depositante morreu, ele não o entregará ao credor nem o devolverá aos herdeiros do devedor.
+
+12. Um depositário feito por meio de um agente, como quando o devedor vem com outro que tem um penhor ou documento e diz ao credor: "Ele me fez agente para trazer isso a você e entregá-lo em suas mãos sob certas condições", e o depositário o aceita, e depois o credor vem e nega a agência e diz que nunca o fez agente para isso, o depositário fará o que o agente lhe disse.
+
+13. Se ele não negou a questão da agência, mas o depositário não quis aceitar o depósito e ficou nas mãos do agente, o agente não tem o status de depositário, mas apenas como um agente comum e deve devolvê-lo a quem o deu a ele (Beit Yosef em nome das respostas do Rashba).
+
+14. O depositário sempre fará conforme o que foi depositado em suas mãos, mesmo que um dos envolvidos tenha uma alegação sobre isso depois. Por exemplo, se Reuven concordou com Shimon, a quem ele deve, que pagará em parcelas e depositou o documento nas mãos de Levi, e estipulou que se não pagasse uma parcela, Levi devolveria o documento e ele cobraria tudo de uma vez, e Shimon não pagou uma parcela, Levi devolverá o documento a Reuven, mesmo que saiba que Shimon terá alegações sobre isso, pois Levi não é juiz na questão, apenas depositário, portanto, ele devolverá o documento a Reuven.
+
+15. Antes de retirá-lo de suas mãos, ele dirá perante testemunhas como o documento chegou a ele e sob qual condição, e as testemunhas escreverão e assinarão e entregarão o assunto ao depositário, e ele o entregará a Shimon, e ele alegará depois o que quiser (Tur em nome das respostas do Rosh, capítulo 105, seção 6).
+
+16. Portanto, sempre que o depositário devolver o documento, não há preocupação de que tenha sido feito de forma inadequada ou que ele não estivesse familiarizado com a lei do depósito, a menos que surja uma suspeita (resposta do Rashba, seção 901).
+
+17. Uma mulher que negocia dentro de casa e um tutor nomeado sobre os bens do chefe da casa (e o chefe da casa morreu) e sabem que o chefe da casa tinha bens de outros, e o dinheiro ficou em suas mãos, e sabem de quem são, devem devolver a cada um o que é seu. Se não devolverem e forem ao tribunal, são confiáveis com um "migo".
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis sobre o depositário no contexto judaico, é importante saber que um depositário é alguém a quem se confia um bem ou documento para guardar. Essas leis são relevantes para situações em que uma pessoa precisa confiar seus bens a outra, garantindo que eles sejam mantidos em segurança e devolvidos conforme acordado.
+
+1. **Confiabilidade do Depositário**: Um depositário é considerado tão confiável quanto duas testemunhas, mesmo que seja parente de uma das partes. Isso significa que sua palavra é aceita sem a necessidade de juramento, a menos que haja uma disputa específica.
+
+2. **Documentação e Confiança**: Mesmo que o depósito seja registrado por escrito, isso não diminui a confiança no depositário. O documento serve como prova, mas a palavra do depositário ainda é válida.
+
+3. **Disputas sobre o Depósito**: Se houver uma disputa sobre se o depósito foi feito ou não, o depositário é considerado confiável, a menos que haja uma contradição clara sobre a quantia envolvida. Se houver tal contradição, o depositário pode ser visto como tendo interesse na questão e, portanto, menos confiável.
+
+4. **Argumento "Migo"**: Um "migo" é um argumento que poderia ter sido feito para beneficiar o depositário. Se ele tiver um "migo", sua confiabilidade aumenta. Caso contrário, ele pode ser obrigado a jurar.
+
+5. **Documentos Pagos**: Se um documento em posse do depositário for retirado por um tribunal e ele afirmar que está pago, ele é confiável, pois poderia ter destruído o documento se quisesse. Isso também se aplica se o depositário falecer e houver um escrito de sua mão afirmando que o documento estava pago.
+
+6. **Condições do Depósito**: Se testemunhas afirmarem que o depósito foi feito sob certas condições, elas são confiáveis. No entanto, se o depositário afirmar que as condições mudaram posteriormente, ele é confiável, pois pode ter havido uma alteração nas condições após o depósito inicial.
+
+7. **Entrega do Depósito**: O depositário deve devolver o depósito na presença de um tribunal para evitar disputas. Se ele retirar o depósito sem essa formalidade, sua palavra é considerada como a de uma única testemunha.
+
+8. **Documentos Falsificados ou Pagos**: Se um documento for alegado como falsificado ou pago, e não puder ser validado, o depositário não é confiável, mesmo que afirme que o documento foi entregue a ele com certas condições.
+
+9. **Depósito para Pagamento**: Se um documento for depositado para ser pago em uma data específica e o devedor alegar que pagou, o documento é considerado não pago a menos que o devedor prove o contrário.
+
+10. **Depósito sem Especificação**: Se um documento for depositado sem especificação e o depositante morrer, o depositário não deve entregá-lo ao credor ou aos herdeiros sem instruções claras.
+
+11. **Agente como Depositário**: Se um agente for usado para fazer o depósito e o credor negar a agência, o depositário deve seguir as instruções do agente, a menos que o agente não tenha aceitado o depósito.
+
+12. **Ações do Depositário**: O depositário deve agir conforme as condições do depósito, mesmo que uma das partes tenha uma reclamação posterior. Ele não é um juiz, apenas um guardião.
+
+13. **Formalidades ao Devolver o Depósito**: Antes de devolver o depósito, o depositário deve declarar perante testemunhas como o documento chegou a ele e sob quais condições, para que tudo seja registrado formalmente.
+
+14. **Confiança no Depositário**: Quando o depositário devolve o documento, presume-se que ele agiu corretamente, a menos que haja suspeitas de má conduta.
+
+15. **Mulheres e Tutores como Depositários**: Se uma mulher ou tutor estiver cuidando de bens de outra pessoa e souberem a quem pertencem, devem devolvê-los. Se forem ao tribunal, são confiáveis se tiverem um "migo".
+
+Essas leis garantem que os bens confiados a outra pessoa sejam tratados com integridade e que haja um sistema justo para resolver disputas. Na vida contemporânea, essas regras podem ser aplicadas em situações de confiança, como quando se deixa algo valioso com um amigo ou se utiliza um serviço de guarda de documentos.

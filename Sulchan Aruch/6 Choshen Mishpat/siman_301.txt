@@ -1,0 +1,56 @@
+SIMAN 301
+
+**Lei dos Guardiões em relação a escravos, terras, consagrações e bens dos pobres. Contém 10 seções:**
+
+1. As três leis mencionadas na Torá sobre os quatro tipos de guardiões não se aplicam a terras, escravos, documentos, bens de gentios, nem a consagrações, sejam elas do altar ou do tesouro do Templo. Um guardião gratuito não faz juramento, e um guardião remunerado, locatário ou mutuário não paga. No entanto, um guardião remunerado perde seu pagamento até que jure que guardou adequadamente. Eles também estão isentos mesmo em casos de negligência (e assim é a halachá). Alguns, no entanto, obrigam em casos de negligência. Todos esses, exceto as consagrações, estão isentos até mesmo de juramento, pois não estão sob sua posse.
+
+2. Se um guardião transferir a guarda para outro guardião em relação a esses itens, ele é responsável, pois é considerado pior que negligência (Rosh, Clal 39, Siman 2). Há quem discorde (Maharik, Shoresh 6, e veja Rabbeinu Yerucham, Parte 2). Se alguém emprestar uma casa e ela pegar fogo, está isento de pagar, pois é considerado como terras (Mordechai, Perek HaDayanim e lá nos Tosafot).
+
+3. O fato de não se jurar sobre esses itens é apenas quando são considerados isoladamente, mas através de um juramento adicional, pode-se jurar.
+
+4. Embora se diga que não se jura sobre esses itens, isso é da Torá, mas se jura sobre eles um juramento rabínico (heset) se houver uma reivindicação certa.
+
+5. Todos esses, se adquirirem a responsabilidade, são obrigados.
+
+6. Quem entrega a seu amigo para guardar algo conectado à terra, é considerado como terra, mesmo que sejam uvas prontas para serem colhidas.
+
+7. Quem recebe para guardar dinheiro dos pobres ou resgate de cativos e negligencia, e é roubado, está isento, pois foi dito para guardar e não para distribuir aos pobres, e é considerado dinheiro sem reivindicantes. Isso é quando o dinheiro não é destinado aos pobres deste lugar ou a cativos específicos. Mas se for para esses pobres ou cativos específicos, e está destinado a eles, é considerado dinheiro com reivindicantes, e ele deve pagar se negligenciar ou jurar que não negligenciou, como todos os guardiões. Da mesma forma, se o coletor de fundos disser ao guardião "guarde para mim", ele é responsável como qualquer outro guardião (Mordechai, Perek HaChovel).
+
+8. Quem recebe para guardar dinheiro de resgate de cativos e ladrões vêm e ele se salva com o dinheiro dos cativos, se está isento, é explicado no Siman 292, Seção 9.
+
+9. Quem tem em sua posse dinheiro de órfãos, é como o dinheiro de qualquer outra pessoa, e é proibido usá-lo.
+
+10. Um gentio que deposita e depois se converte, não tem todas as leis de guardiões até que seja judeu desde o início até o fim (assim também, se era profano e depois consagrado na mão do guardião) (Tur em nome de Rambam, Perek 2 de Aluguel).
+
+11. O guardião só é responsável se lhe foi dado para guardar, mas se foi dado para destruir, está isento, pois interpretamos "para guardar" e não para rasgar ou destruir. Isso é quando veio à sua mão originalmente para rasgar e destruir, mas se veio à sua mão originalmente para guardar e depois lhe foi dito para rasgar, ele é responsável, a menos que lhe tenha sido dito explicitamente que está isento.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 301 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas aos guardiões, ou seja, pessoas que recebem a responsabilidade de cuidar de bens alheios. Vamos explicar isso de forma prática e acessível:
+
+1. **Tipos de Guardiões**: Na lei judaica, existem quatro tipos principais de guardiões: 
+   - **Guardião Gratuito**: Cuida de algo sem receber pagamento.
+   - **Guardião Remunerado**: Recebe pagamento para cuidar de algo.
+   - **Locatário**: Aluga algo e é responsável por ele.
+   - **Mutuário**: Empresta algo e é responsável por ele.
+
+   No entanto, essas leis não se aplicam a certos tipos de bens, como terras, escravos, documentos, bens de não-judeus e objetos consagrados ao Templo. Isso significa que, em geral, os guardiões não precisam jurar ou pagar por perdas ou danos a esses itens, mesmo em casos de negligência.
+
+2. **Transferência de Responsabilidade**: Se um guardião passa a responsabilidade de cuidar de um item para outra pessoa, ele pode ser considerado negligente e, portanto, responsável por qualquer dano ou perda. Isso é visto como uma falha maior do que a negligência simples.
+
+3. **Juramentos**: Normalmente, não se faz juramentos sobre os itens mencionados acima. No entanto, em algumas situações, pode ser necessário um juramento rabínico, que é uma forma menos formal de juramento, se houver uma reivindicação clara.
+
+4. **Responsabilidade Assumida**: Se alguém explicitamente assume a responsabilidade por um item, ele pode ser obrigado a pagar por danos ou perdas, mesmo que o item seja um dos mencionados anteriormente.
+
+5. **Itens Conectados à Terra**: Se algo está conectado à terra, como uvas ainda não colhidas, é tratado como terra e, portanto, as regras de guardiões não se aplicam da mesma forma.
+
+6. **Dinheiro dos Pobres e Resgate de Cativos**: Se alguém guarda dinheiro destinado aos pobres ou para resgatar cativos e o dinheiro é roubado, ele geralmente não é responsável, a menos que o dinheiro tenha destinatários específicos. Nesse caso, ele deve pagar ou jurar que não foi negligente.
+
+7. **Dinheiro de Órfãos**: Dinheiro pertencente a órfãos deve ser tratado com o mesmo cuidado que qualquer outro dinheiro, e é proibido usá-lo para outros fins.
+
+8. **Conversão e Consagração**: Se um não-judeu deposita algo e depois se converte ao judaísmo, as leis de guardiões só se aplicam se ele era judeu durante todo o processo. O mesmo se aplica a itens que foram consagrados após serem entregues ao guardião.
+
+9. **Intenção de Destruição**: Se algo é dado a um guardião com a intenção de ser destruído, ele não é responsável por cuidar dele. No entanto, se inicialmente foi dado para guardar e depois foi instruído a destruir, ele ainda pode ser responsável, a menos que tenha sido explicitamente liberado dessa responsabilidade.
+
+Essas leis refletem a complexidade das responsabilidades e obrigações na tradição judaica, destacando a importância da intenção e do contexto em questões de guarda e cuidado de bens.

@@ -1,0 +1,24 @@
+SIMAN 32
+
+1. E se ele não quiser divorciar-se imediatamente, mas apenas em uma data futura, e estiver com pressa para partir, e não for possível escrever o get (documento de divórcio) antes de sua partida, ele deve instruir o mensageiro a entregar o get à sua esposa, mas ela só será considerada divorciada após o tempo especificado.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender este trecho do Shulchan Aruch, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Get**: No judaísmo, um "get" é um documento de divórcio. Para que um divórcio seja válido de acordo com a lei judaica, o marido deve entregar este documento à esposa.
+
+2. **Mensageiro**: Às vezes, o marido pode não estar presente para entregar o get pessoalmente. Nesses casos, ele pode nomear um mensageiro para fazer isso em seu lugar.
+
+Agora, vamos explicar o que o texto está dizendo:
+
+- **Situação Descrita**: O texto aborda uma situação em que um marido deseja se divorciar, mas não imediatamente. Ele quer que o divórcio ocorra em uma data futura específica. No entanto, ele precisa partir rapidamente e não há tempo para preparar o get antes de sua partida.
+
+- **Solução Proposta**: O marido pode instruir um mensageiro para entregar o get à esposa. No entanto, é importante que o get só seja considerado válido e a esposa só seja considerada divorciada na data futura especificada pelo marido.
+
+- **Relevância Prática**: Na vida judaica contemporânea, essa lei é relevante para garantir que os divórcios sejam realizados de acordo com a lei judaica, mesmo quando as circunstâncias são complicadas. Isso assegura que ambas as partes estejam cientes e de acordo com os termos do divórcio, e que o processo seja conduzido de forma justa e ordenada.
+
+- **Pontos a Esclarecer**: É crucial que o mensageiro siga exatamente as instruções do marido, especialmente em relação ao tempo em que o get deve ser entregue. Qualquer desvio pode invalidar o divórcio. Além disso, a esposa só é considerada divorciada a partir da data especificada, não antes.
+
+Em resumo, este trecho do Shulchan Aruch trata de como proceder quando um divórcio precisa ser adiado para uma data futura, mas o marido não pode estar presente para entregar o get pessoalmente. Ele pode nomear um mensageiro para garantir que o divórcio ocorra conforme planejado.

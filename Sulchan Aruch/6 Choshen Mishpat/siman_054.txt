@@ -1,0 +1,34 @@
+SIMAN 54
+
+**Lei de Asmachta e se se escreve um recibo e como escrevê-lo (e a lei de pagamento por meio de recibo). Contém cinco seções:**
+
+1. Aquele que pagou parte de sua dívida, se o credor desejar, o tribunal pode fazer para ele um documento do que ainda lhe deve, e escrevê-lo com a data original, mas não os testemunhos do documento. Nota: Mesmo que seja com o consentimento do devedor (Rashbam), mas a partir da data do pagamento em diante, os testemunhos podem fazer para ele outro documento, se for com o consentimento do devedor (Hagahot Asheri, capítulo G"F).
+
+2. Se desejar, pode escrever um recibo, e o credor deve pagar ao escriba para escrever o recibo. Se não houver documento para o credor e o devedor pedir-lhe um recibo, ele deve pagar o escriba (N"Y, capítulo G"F).
+
+3. Aquele que vem pagar sua dívida e o credor diz "perdi meu documento", o devedor não pode dizer "não pagarei até que me devolva meu documento", mas deve escrever-lhe um recibo e pagar-lhe toda a dívida. O devedor pode fazer um juramento geral sobre quem esconde seu documento e alega que o perdeu. Se o devedor alegar com certeza e disser que o documento está com ele e agora o colocou em seu bolso, o credor deve jurar que perdeu o documento, e então ele pagará sua dívida e escreverá um recibo.
+
+4. Se o credor disser "meu documento não está agora comigo, pois está em outra cidade, e escreverei para você um recibo", há quem diga que não se deve ouvi-lo, pois enquanto o documento existir, não se deve pagar até que o devolva. Nota: E muito mais se o documento estiver em sua mão e ele não quiser devolvê-lo, não é obrigado a pagar até que o devolva. Mesmo que ele jure pagar, está isento do juramento (Responsa Rashba, mil cento e dez). Se o credor disser "pague-me primeiro e depois devolverei seu documento" e o devedor disser "devolva-me meu documento e depois pagarei", a lei está com o devedor (lá e no Siman 113). E parece-me que se ele não confia nele, ele deve colocar o documento nas mãos de um terceiro até após o pagamento. Aquele que deve a seu amigo cem em um documento e admite cinquenta, e sobre os outros cinquenta tem uma alegação contra ele, e o dono do documento diz "dê-me os cinquenta que você admite e escreverei um recibo sobre eles, e sobre os outros cinquenta trarei prova", e o demandado diz "não pagarei nada até que me devolva meu documento", se o demandante puder trazer suas provas agora e julgar com o demandado (veja acima Siman 24), a lei está com o demandado. Mas se ele não puder trazer suas provas agora ou julgar agora conforme parece ao tribunal, e não há astúcia na questão, ou o tribunal precisa ser paciente no julgamento, a lei está com o demandante, que deve pagar-lhe imediatamente o que admite e dar-lhe um recibo (lá Siman 970).
+
+5. Quando se escreve um recibo, se se lembra da data do documento, escreve-se um recibo sobre o documento cuja data é tal e tal. Se não se lembra, escreve-se simplesmente sobre o documento cujo valor é tal e tal, e não se escreve a data no recibo, para que os testemunhos não atrasem a data do empréstimo no documento, e às vezes a data do recibo seja anterior à data do documento, e ele possa novamente apresentar seu documento de dívida atrasado e cobrar com ele. Portanto, os testemunhos não devem escrever a data no recibo, a menos que se lembrem da data do empréstimo. Um recibo escrito simplesmente "fulano pagou a fulano" anula qualquer documento que ele tenha contra ele. Nota: E também se houver testemunhos de que fulano tem um documento pago contra ele, ele não pode apresentar um documento contra ele e dizer que tinha outro documento pago contra ele, mas todos os seus documentos são presumidos como pagos (Rosh em Responsa, Clal 18, Siman 19).
+
+Se a data do documento e do recibo for no mesmo dia, está explicado no Siman 43, Seif 26.
+
+Se estiver escrito no recibo "dinheiros" simplesmente, anula qualquer documento que ele tenha contra ele. Mas se estiver escrito "tantos dinheiros" e o valor foi apagado e restou "dinheiros", ou se o valor estiver escrito sobre o apagamento e não foi confirmado, não se julga com ele, exceto pelo menor dos valores.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis discutidas no Siman 54 do Shulchan Aruch Choshen Mishpat, é importante desmembrar os conceitos e práticas envolvidas em linguagem acessível:
+
+1. **Documentos de Dívida e Recibos**: Quando alguém deve dinheiro a outra pessoa, geralmente há um documento formal que registra essa dívida. Se parte da dívida é paga, o credor (quem emprestou o dinheiro) pode optar por criar um novo documento que reflete o saldo restante, mantendo a data original, mas sem incluir os testemunhos do documento inicial. Isso só pode ser feito com o consentimento do devedor (quem deve o dinheiro).
+
+2. **Escrever um Recibo**: Se o credor preferir, ele pode simplesmente fornecer um recibo ao devedor, confirmando o pagamento parcial. O custo de escrever este recibo é geralmente coberto pelo credor, a menos que não haja um documento original, caso em que o devedor paga pelo recibo.
+
+3. **Perda do Documento de Dívida**: Se o devedor quer pagar sua dívida, mas o credor afirma ter perdido o documento, o devedor não pode se recusar a pagar. Em vez disso, ele deve aceitar um recibo como prova de pagamento. Se o devedor suspeitar que o credor ainda tem o documento, ele pode exigir que o credor faça um juramento de que realmente perdeu o documento.
+
+4. **Documento em Outra Cidade**: Se o credor diz que o documento está em outra cidade, ele não pode exigir pagamento até que o documento seja devolvido. Se houver uma disputa sobre quem deve agir primeiro (pagar ou devolver o documento), a lei favorece o devedor. Em casos de desconfiança, o documento pode ser entregue a uma terceira parte até que o pagamento seja feito.
+
+5. **Especificações do Recibo**: Ao escrever um recibo, é importante que ele seja claro sobre qual documento está sendo quitado. Se a data do documento original não for lembrada, o recibo deve apenas mencionar o valor pago, sem data, para evitar confusões futuras. Um recibo que simplesmente afirma que um pagamento foi feito anula qualquer documento de dívida correspondente.
+
+Essas leis são relevantes na vida judaica contemporânea, pois estabelecem diretrizes claras para lidar com dívidas e pagamentos, garantindo justiça e clareza nas transações financeiras. Elas ajudam a prevenir disputas e a proteger os direitos de ambas as partes envolvidas em um acordo financeiro.

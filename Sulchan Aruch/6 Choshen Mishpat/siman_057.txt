@@ -1,0 +1,33 @@
+SIMAN 57
+
+**Lei que proíbe manter um documento quitado. Contém 2 parágrafos:**
+
+1. É proibido manter um documento quitado em sua casa. O mesmo se aplica a um documento cujo penhor foi perdoado (Responsa do Rosh, Clal 78). Se alguém se recusa a devolver um documento quitado, é apropriado excomungá-lo até que o devolva. Não se deve reter o documento por causa de pequenas despesas de escrita.
+
+   Nota: Em um lugar onde o devedor não paga o salário do escriba, não é necessário devolver o documento, desde que ele seja rasgado (Beit Yosef, Siman 61, em nome do Rashba).
+
+2. No entanto, é permitido manter um documento de cem, mesmo que se deva apenas cinquenta, desde que se escreva um recibo no verso do que foi pago, ou se escreva um recibo separado e o entregue ao devedor.
+
+   Um documento que foi emprestado e quitado não pode ser reutilizado para empréstimo, conforme explicado no Siman 48. Se o devedor disser "paguei" e o credor responder "sim, mas devolvi a você", isso indica que o penhor foi perdoado e não pode ser cobrado. Mas se ele disser "devolvi a você para que o trocasse para mim, pois o dinheiro não estava disponível exceto sob pressão", o documento permanece válido.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda regras sobre como lidar com documentos de dívida que já foram pagos. Vamos explicar cada parte de forma prática:
+
+1. **Proibição de Manter Documentos Quitados:**
+   - **O que é um documento quitado?**: É um documento que comprova uma dívida que já foi paga. 
+   - **Por que não manter?**: Guardar um documento desses pode causar confusão ou até ser usado de forma desonesta para tentar cobrar a dívida novamente.
+   - **Consequências de não devolver**: Se alguém se recusa a devolver um documento quitado, pode ser excomungado, que é uma forma de exclusão da comunidade, até que devolva o documento. Isso mostra a seriedade da questão.
+   - **Custos de escrita**: Mesmo que o credor tenha tido despesas para escrever o documento, isso não justifica mantê-lo. A integridade é mais importante.
+
+   - **Exceção**: Em lugares onde o devedor não paga pelo serviço do escriba, o credor pode rasgar o documento em vez de devolvê-lo, para evitar qualquer uso indevido.
+
+2. **Manter Documentos com Pagamentos Parciais:**
+   - **Documentos parcialmente pagos**: Se um documento é de um valor maior, mas parte já foi paga, o credor pode mantê-lo, desde que registre o pagamento parcial no próprio documento ou em um recibo separado. Isso ajuda a evitar mal-entendidos sobre o que ainda é devido.
+
+3. **Reutilização de Documentos Quitados:**
+   - **Não reutilizar documentos quitados**: Um documento que já foi pago não pode ser usado novamente para um novo empréstimo. Isso é para garantir clareza e evitar confusões.
+   - **Discussões sobre pagamento**: Se houver uma disputa sobre se a dívida foi paga, e o credor admite que o documento foi devolvido ao devedor, isso pode indicar que a dívida foi perdoada. No entanto, se o credor diz que devolveu o documento apenas para que o devedor o trocasse por outro, o documento ainda pode ser válido.
+
+Essas regras são importantes para garantir justiça e clareza nas transações financeiras, evitando fraudes e mal-entendidos. Na vida contemporânea, isso se traduz em práticas de boa-fé e documentação cuidadosa em qualquer tipo de contrato ou acordo financeiro.

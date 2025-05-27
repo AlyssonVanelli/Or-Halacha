@@ -1,0 +1,34 @@
+SIMAN 375
+
+**O que são os objetos situados no pátio que não causam proibição. Contém 4 seções:**
+
+1. Uma varanda que serve como passagem para os andares superiores que se abrem para ela e está situada no pátio, com acesso por uma escada, e os moradores dos andares superiores descem dela para o pátio e passam para o domínio público, não proíbem os moradores do pátio, pois a escada é considerada uma entrada. Isso é como dois pátios com uma entrada entre eles, que se quiserem, podem fazer um eruv juntos, e se quiserem, cada um faz seu próprio eruv, desde que todos os moradores da varanda façam um eruv entre si, para que o uso permitido em seu local seja mantido.
+
+2. Se não fizeram um eruv juntos e há no pátio um monte ou uma coluna que é compartilhada entre ambos, se não têm altura de dez tefachim, são considerados entre o pátio e a varanda, e ambos são proibidos de levar para lá utensílios das casas. E se eles têm altura de dez tefachim do chão do pátio (e dentro de dez tefachim da varanda), e estão dentro de quatro tefachim da varanda, os moradores da varanda têm permissão, pois seu uso é mais fácil do que para os moradores do pátio. E se estiverem a uma distância de quatro tefachim ou mais da varanda, mesmo que tenham altura de dez tefachim (do pátio e dentro de dez tefachim da varanda), são considerados parte do pátio e da varanda, pois ambos podem usá-los por meio de arremesso, portanto, ambos são proibidos de levar para lá utensílios que permaneceram nas casas, a menos que façam um eruv.
+
+3. Se houver uma plataforma de quatro tefachim em frente à varanda, a varanda não proíbe os moradores do pátio, pois está separada deles.
+
+4. Salientes que saem das paredes, qualquer um que esteja abaixo de dez tefachim é considerado parte do pátio, e os moradores do pátio podem usá-lo. Qualquer um que esteja dentro dos dez tefachim superiores próximos ao andar superior, os moradores do andar superior podem usá-lo. E o espaço restante entre os dez tefachim inferiores até o início dos dez tefachim superiores dos salientes que saem, ambos são proibidos de usá-los com utensílios que permaneceram nas casas, a menos que façam um eruv.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender o Siman 375 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Eruv**: É uma solução haláchica que permite carregar objetos em áreas públicas durante o Shabat, algo que normalmente é proibido. Um eruv pode ser uma cerca ou uma linha simbólica que transforma um espaço público em um espaço "privado" para os propósitos do Shabat.
+
+2. **Tefachim**: Uma medida de comprimento usada na lei judaica, aproximadamente equivalente a 8-10 cm.
+
+3. **Domínio Público e Privado**: No contexto do Shabat, um domínio público é uma área onde é proibido carregar objetos, enquanto um domínio privado é onde isso é permitido.
+
+Agora, vamos explicar cada seção do texto:
+
+1. **Varanda e Escada**: Imagine um prédio com uma varanda que serve como corredor para os apartamentos. Se a varanda tem uma escada que leva ao pátio, os moradores do prédio podem descer e sair para a rua sem problemas. A escada é vista como uma entrada, como se fossem dois pátios conectados. Os moradores podem decidir se querem fazer um eruv juntos ou separados, mas os que usam a varanda precisam fazer um eruv entre si para que possam carregar objetos ali.
+
+2. **Monte ou Coluna no Pátio**: Se há um monte ou coluna no pátio que é usado tanto pelos moradores do pátio quanto pelos da varanda, a altura e a distância desses objetos determinam quem pode usá-los. Se o objeto é baixo (menos de dez tefachim), ninguém pode usá-lo para carregar objetos de casa, a menos que façam um eruv. Se o objeto é alto (dez tefachim ou mais) e próximo à varanda, os moradores da varanda podem usá-lo. Se estiver longe da varanda, ninguém pode usá-lo sem um eruv.
+
+3. **Plataforma em Frente à Varanda**: Se há uma plataforma em frente à varanda, ela cria uma separação entre a varanda e o pátio. Isso significa que a varanda não impede os moradores do pátio de usar o espaço, pois estão separados.
+
+4. **Salientes nas Paredes**: Se há saliências (como prateleiras ou varandas pequenas) nas paredes, a altura delas determina quem pode usá-las. Se estão abaixo de dez tefachim, os moradores do pátio podem usá-las. Se estão acima, os moradores do andar superior podem usá-las. Se estão no meio, ninguém pode usá-las sem um eruv.
+
+Essas regras ajudam a organizar o uso de espaços compartilhados em comunidades judaicas, especialmente em áreas urbanas, garantindo que as leis do Shabat sejam respeitadas enquanto se mantém a convivência harmoniosa entre os moradores.

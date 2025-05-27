@@ -1,0 +1,52 @@
+SIMAN 205
+
+**Lei sobre a venda sob coação e a anulação de uma declaração de coação. Contém doze seções:**
+
+1. Se alguém foi coagido a ponto de vender e recebeu o pagamento pela venda, mesmo que tenha sido forçado até vender, a venda é válida, seja de bens móveis ou imóveis, pois devido à coação ele decidiu transferir a propriedade, mesmo que não tenha recebido o pagamento na presença de testemunhas. 
+
+   *Nota: Há quem discorde e sustente que é necessário que as testemunhas vejam a entrega do dinheiro, mas a mera admissão não é suficiente (Tur e Raavad, capítulo 10 de Vendas). E alguns dizem que é necessário que o dinheiro seja entregue a ele, mas se ele recebeu um documento, não é uma aquisição (Beit Yosef em nome do Raavad, de acordo com o Rif). E há quem discorde (Beit Yosef de acordo com o Rif e o Rosh).*
+
+2. Portanto, se ele entregou uma declaração de coação antes de vender e disse a duas testemunhas: "Saibam que estou vendendo este objeto ou campo a fulano por coação", a venda é nula, mesmo que o comprador tenha mantido a posse por muitos anos, ele deve devolver o dinheiro. As testemunhas precisam saber que ele está vendendo por coação e que ele está realmente coagido, não apenas confiar em sua palavra. Qualquer declaração de coação que não inclua "nós, as testemunhas, sabemos que fulano estava coagido" não é uma declaração de coação.
+
+3. Isso se aplica a vendas, mas em doações ou perdões, não é necessário reconhecer a coação.
+
+4. Um acordo tem o mesmo status que uma venda, e um perdão tem o mesmo status que uma doação. Uma doação que inclui a responsabilidade dos bens tem o mesmo status que uma venda (Rivash, Siman 250).
+
+5. Há quem diga que, se não foi entregue uma declaração de coação, a venda é válida, mesmo que não tenha sido pago o valor total, pois não há engano em terras. Mas em bens móveis, se houver engano ou cancelamento da venda, não há transação. Isso se aplica quando ele não foi forçado a vender, mas se foi forçado a vender por menos do que vale, mesmo em terras, não há transação, e é como se ele tivesse sido coagido a dar, o que não é uma doação.
+
+6. Há quem diga que mesmo se ele disser "escrevam para mim que entreguei uma declaração de coação na sua presença, e quando for provado por testemunhas que fui coagido, sua testemunha se juntará para anular a venda", não se deve ouvi-lo. No entanto, se a declaração de coação já foi escrita e ele posteriormente trouxe prova de que estava coagido, a venda é nula (Beit Yosef).
+
+7. Isso se aplica a vendas ou acordos, mas em doações ou perdões, se ele entregou uma declaração de coação antes, mesmo que não esteja coagido, a doação é nula, pois em doações seguimos a intenção clara do doador, e se ele não deseja transferir de todo o coração, o receptor não adquire a doação, e o perdão é uma doação.
+
+8. Se alguém forçou seu amigo, seja batendo ou pendurando até que ele vendesse, ou ameaçando com algo que ele poderia fazer, seja coação física ou financeira, isso é coação. No entanto, há quem discorde e diga que se ele apenas ameaçou, não é nada, pois as pessoas exageram e não fazem (Maharik, Raiz 176).
+
+9. Seja por mãos de gentios ou judeus, isso é coação. Houve um caso de alguém que alugou um pomar de seu amigo por dez anos, e não havia um documento de dívida nas mãos do locador. Depois de três anos, o locatário disse: "Se você não me vender, vou esconder o contrato de aluguel e alegar que é meu." Os sábios disseram que isso é coação, e assim em todos os casos semelhantes.
+
+10. Isso se aplica a coação, pois ele é um extorsionário, forçando o vendedor a vender contra sua vontade. Mas se ele for um ladrão e for conhecido como tal, e depois comprar o campo que roubou, o vendedor não precisa entregar uma declaração de coação, como será explicado.
+
+11. As testemunhas da declaração de coação podem assinar no próprio documento de venda sobre o qual a declaração foi entregue, e não há problema nisso. Mesmo que ele diga na presença do coercitivo: "Vendi de boa vontade, sem coação", a declaração de coação permanece válida, assim como ele foi coagido a vender sem vontade, ele foi coagido a dizer que vendeu de boa vontade.
+
+12. Em que tipo de coação disseram que anula a venda? Em coação que vem de outros, mas não em coação que vem de si mesmo, como alguém que vende porque está pressionado por dinheiro. Mesmo em coação que vem de outros, é apenas se ele foi forçado a vender, mas se ele foi forçado a dar dinheiro e, por não ter o dinheiro, precisou vender, isso não é coação, e sua venda é válida. 
+
+   *Nota: Tudo isso se refere a ser forçado a vender, pois dizemos que devido à coação ele decidiu transferir a propriedade. Mas se ele foi forçado a comprar, não é uma aquisição (Beit Yosef em nome do Itur).*
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+O Siman 205 do Shulchan Aruch Choshen Mishpat trata das leis relacionadas à venda de propriedades sob coação, ou seja, quando alguém é forçado a vender algo contra sua vontade. Vamos explicar isso de forma prática e acessível:
+
+1. **Venda sob Coação**: Se uma pessoa é forçada a vender algo e recebe o pagamento, a venda é considerada válida. Isso se aplica tanto a bens móveis (como objetos) quanto imóveis (como terrenos). A ideia é que, mesmo sob pressão, a pessoa decidiu transferir a propriedade. No entanto, há opiniões diferentes sobre se testemunhas precisam ver o pagamento para validar a venda.
+
+2. **Declaração de Coação**: Se a pessoa que está sendo forçada a vender faz uma declaração formal na presença de duas testemunhas, dizendo que está vendendo sob coação, a venda pode ser anulada. As testemunhas precisam ter certeza de que a pessoa está realmente sendo coagida, não apenas confiar em sua palavra.
+
+3. **Diferença entre Vendas e Doações**: As regras são diferentes para doações. Se alguém doa algo sob coação, a doação não é válida, pois a intenção do doador é crucial. Se ele não quer realmente doar, a doação não acontece.
+
+4. **Acordos e Perdões**: Um acordo forçado é tratado como uma venda, enquanto um perdão forçado é tratado como uma doação. Se alguém perdoa uma dívida sob coação, isso não é válido.
+
+5. **Coação Física e Ameaças**: Coação pode ser física (como violência) ou financeira (como ameaças de prejuízo econômico). No entanto, há quem diga que apenas ameaças verbais podem não ser consideradas coação, pois as pessoas podem exagerar e não cumprir suas ameaças.
+
+6. **Coação por Terceiros**: Se a coação vem de outra pessoa, a venda pode ser anulada. Mas se alguém vende algo porque está em dificuldades financeiras, isso não é considerado coação.
+
+7. **Testemunhas e Documentos**: As testemunhas de uma declaração de coação podem assinar no próprio documento de venda. Mesmo que a pessoa coagida diga na frente do coercitivo que vendeu de boa vontade, a declaração de coação ainda é válida.
+
+Essas leis são relevantes na vida judaica contemporânea, pois garantem que transações sejam feitas de forma justa e voluntária. Elas protegem indivíduos de serem explorados ou forçados a vender ou doar contra sua vontade. Em situações de disputa, essas regras ajudam a determinar a validade de uma transação e a proteger os direitos das partes envolvidas.

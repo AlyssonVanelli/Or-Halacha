@@ -1,0 +1,40 @@
+SIMAN 346
+
+**Leis de Eruvin da Torá. Contém três seções:**
+
+1. De acordo com a Torá, a pessoa só é culpada se transportar, introduzir, lançar ou estender de um domínio privado para um domínio público ou vice-versa. Os sábios proibiram transportar de um carmelit para um domínio privado ou público, ou deles para um carmelit. No entanto, é permitido transportar e introduzir de um makom patur (lugar isento) para um domínio privado e público e vice-versa. Contudo, se alguém está em um domínio privado e transporta, introduz, estende ou lança para um domínio público através de um makom patur, ou vice-versa, é culpado. Da mesma forma, uma pessoa não deve ficar em um makom patur e pegar um objeto da mão de alguém que está em um domínio público e entregá-lo a alguém que está em um domínio privado, ou vice-versa. Trocar através de um makom patur entre domínios é uma questão de debate rabínico; alguns proíbem e outros permitem. [Veja adiante no Siman 372, Seção 6].
+
+2. De acordo com a Torá, a pessoa só é culpada se transportar quatro cúbitos em um domínio público. Os sábios proibiram transportar quatro cúbitos em um carmelit. O mar e o vale são considerados dois tipos de carmelit, e é permitido transportar de um para o outro dentro de quatro cúbitos.
+
+3. Um karpaf (um espaço cercado por muros sem cobertura, como um pátio) maior que dois beit seah, que não foi cercado para habitação, os sábios proibiram transportar nele, exceto dentro de quatro cúbitos. É permitido transportar dele para outro carmelit, como um vale que passa diante dele. Portanto, é permitido pegar uma chave de um carmelit em frente a um jardim para abrir e fechar, e devolver a chave a ele [Tur], desde que não haja um limiar entre eles que seja um domínio privado, como se fosse alto dez tefachim e largo quatro, ou se tiver duas paredes laterais que sejam largas quatro, e uma viga sobre elas larga quatro. Nesse caso, é considerado um domínio privado, mesmo que não seja alto dez. No entanto, é proibido introduzir do limiar para um domínio privado ou vice-versa, pois tememos que a cobertura não seja quatro, e então, se o limiar não for alto três, ele terá o status do domínio em frente a ele. Mesmo se for alto três, uma vez que todos os nossos domínios são carmelit, dizemos que "encontrou seu tipo e despertou", como explicado no Siman 345. Da mesma forma, se a cobertura for muito larga e não tiver paredes laterais, ela tem o status do domínio em frente a ela. Da mesma forma, nossos telhados que se projetam em frente às casas têm o status do domínio em frente a eles [Notas de Mordechai, Primeiro Capítulo de Shabat].
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis de Eruvin descritas no Siman 346 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+### Conceitos Básicos
+
+1. **Domínio Privado e Domínio Público**: No contexto das leis de Shabat, um domínio privado é um espaço cercado, como uma casa ou quintal, enquanto um domínio público é uma área aberta e acessível a todos, como uma rua movimentada.
+
+2. **Carmelit**: Este é um tipo de domínio que não é nem totalmente privado nem totalmente público, como um campo aberto ou uma praia. As regras para transportar objetos em um carmelit são mais restritivas do que em um domínio privado, mas menos do que em um domínio público.
+
+3. **Makom Patur**: Literalmente "lugar isento", refere-se a um espaço que não se encaixa nas categorias de domínio privado, público ou carmelit, e onde certas restrições de transporte não se aplicam.
+
+4. **Cúbito (Amah)**: Uma medida de comprimento usada na Torá, aproximadamente equivalente a 48 cm. Quatro cúbitos seriam cerca de 1,92 metros.
+
+5. **Karpaf**: Um espaço cercado que não foi destinado para habitação, como um grande pátio ou jardim.
+
+### Explicação Prática
+
+1. **Transportar entre Domínios**: De acordo com a Torá, é proibido transportar objetos entre um domínio privado e um domínio público durante o Shabat. Os sábios expandiram essa proibição para incluir o transporte entre um carmelit e outros domínios. No entanto, transportar de um makom patur para outros domínios é permitido, a menos que seja usado como um meio de transferir entre domínios privados e públicos, o que é debatido entre os rabinos.
+
+2. **Transportar em Domínios Públicos e Carmelits**: A Torá proíbe transportar objetos por uma distância de quatro cúbitos em um domínio público. Os sábios aplicaram a mesma regra aos carmelits. No entanto, dentro de um carmelit, como o mar ou um vale, é permitido transportar objetos dentro de quatro cúbitos.
+
+3. **Regras para Karpaf**: Se um karpaf é maior que dois beit seah (uma medida de área) e não foi cercado para habitação, os sábios restringem o transporte dentro dele a quatro cúbitos. É permitido transportar entre um karpaf e outro carmelit, como um vale adjacente. No entanto, se houver um limiar que funcione como um domínio privado entre eles, o transporte é restrito.
+
+### Relevância Prática
+
+Essas leis são relevantes para a observância do Shabat, quando transportar objetos entre diferentes tipos de domínios é uma questão importante. Em comunidades judaicas, especialmente em áreas urbanas, a criação de um "eruv" (uma cerca simbólica) pode permitir o transporte dentro de uma área designada, transformando um espaço público em um domínio privado para os propósitos do Shabat. Isso facilita a vida cotidiana, permitindo que as pessoas carreguem itens como chaves, livros de oração ou empurrem carrinhos de bebê sem violar as leis do Shabat.
+
+Essas regras podem parecer complexas, mas são fundamentais para a prática do Shabat e refletem a importância de respeitar as tradições e leis judaicas enquanto se adapta à vida moderna.

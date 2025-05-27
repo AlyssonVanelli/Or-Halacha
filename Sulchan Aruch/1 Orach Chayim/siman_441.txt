@@ -1,0 +1,34 @@
+SIMAN 441
+
+**Lei sobre quem emprestou sobre o chametz. Contém 2 seções:**
+
+1. Um não-judeu que emprestou a um judeu sobre o chametz deste e o tomou como penhor em sua posse, e disse ao judeu: "A partir de agora será seu se eu não lhe pagar até uma determinada data", e a data chegou e ele não pagou, é permitido [o uso do chametz]. Mesmo que a data estipulada não tenha chegado até depois da Páscoa, pois quando a data chegou e ele não pagou, o chametz foi adquirido retroativamente e se tornou propriedade do não-judeu.
+
+2. Um judeu que emprestou a um não-judeu sobre o chametz deste, se o tomou como penhor em sua posse e disse ao não-judeu: "A partir de agora", e a data chegou, mesmo após a Páscoa, e ele não pagou, mesmo que a responsabilidade não recaia sobre ele, é proibido [o uso do chametz] porque foi adquirido retroativamente. Mas se ele não disse "a partir de agora" e a responsabilidade não recai sobre ele, é permitido.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Este trecho do Shulchan Aruch aborda situações envolvendo empréstimos entre judeus e não-judeus, onde o chametz (alimentos fermentados proibidos durante a Páscoa judaica) é usado como garantia. Vamos explicar isso de forma prática:
+
+### Contexto Geral
+
+**Chametz e Páscoa Judaica:** Durante a Páscoa (Pessach), os judeus são proibidos de possuir ou consumir chametz, que inclui qualquer alimento feito de trigo, cevada, centeio, aveia ou espelta que tenha fermentado. Isso é uma parte central das observâncias da Páscoa.
+
+### Seção 1: Empréstimo de um Não-Judeu para um Judeu
+
+1. **Situação:** Um não-judeu empresta dinheiro a um judeu e aceita chametz como garantia. Ele diz ao judeu que, se a dívida não for paga até uma certa data, o chametz se tornará propriedade do não-judeu.
+
+2. **Resultado:** Se a data chega e o judeu não paga, o chametz é considerado como tendo sido propriedade do não-judeu desde o início do acordo. Isso significa que, mesmo que a data de vencimento seja após a Páscoa, o judeu não violou a proibição de possuir chametz durante a Páscoa, pois, retroativamente, o chametz nunca foi dele durante esse período.
+
+### Seção 2: Empréstimo de um Judeu para um Não-Judeu
+
+1. **Situação:** Um judeu empresta dinheiro a um não-judeu e aceita chametz como garantia. Se o judeu diz ao não-judeu que o chametz será dele "a partir de agora" se a dívida não for paga, e a data chega sem pagamento, o chametz é considerado como tendo sido propriedade do judeu desde o início.
+
+2. **Resultado:** Neste caso, o judeu não pode usar o chametz após a Páscoa, pois ele é considerado como tendo possuído chametz durante a Páscoa, o que é proibido.
+
+3. **Exceção:** Se o judeu não disse "a partir de agora" e a responsabilidade pelo chametz não recai sobre ele, então ele pode usar o chametz após a Páscoa. Isso significa que, sem a cláusula "a partir de agora", o chametz não é considerado como tendo sido propriedade do judeu durante a Páscoa.
+
+### Relevância Prática
+
+Na vida judaica contemporânea, essas leis são importantes para garantir que as transações financeiras envolvendo chametz não levem a violações das proibições da Páscoa. Elas ajudam a definir claramente a propriedade do chametz durante o período em que ele é proibido, evitando complicações legais e religiosas. Para aqueles que lidam com tais situações, é crucial entender como a posse é determinada para cumprir as obrigações religiosas corretamente.

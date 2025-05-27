@@ -1,0 +1,50 @@
+SIMAN 365
+
+**Lei de um beco que foi rompido. Contém oito seções:**
+
+1. Um beco que foi rompido por uma brecha em seu lado em direção à sua entrada: se restar na entrada uma tábua com largura de quatro tefachim (aproximadamente 32 cm), é permitido, desde que a brecha não exceda dez amot (aproximadamente 4,8 metros). Se não restar uma tábua de quatro tefachim, é proibido, a menos que a brecha seja menor que três tefachim.
+
+2. Se a brecha ocorrer em seu lado, mas não em direção à entrada, a medida é de dez amot, mesmo que não reste nada da parede na base. Isso é válido desde que não seja um local onde muitas pessoas passam (mas se muitas pessoas passam, mesmo que a brecha seja apenas de quatro tefachim, é necessário consertá-la) (Rif, Rosh e Tur).
+
+3. Um beco que foi completamente rompido em direção a um pátio, e o pátio foi rompido do outro lado em direção ao domínio público: se os moradores do pátio não fizeram um eruv com os moradores do beco, o pátio é permitido, mesmo que a brecha esteja em frente à brecha do beco, e mesmo que muitas pessoas passem, desde que não exceda dez amot. O beco é proibido, mesmo que não esteja em frente à brecha do pátio, pois, como não fizeram um eruv com o beco, isso o proíbe. Isso ocorre quando as paredes do beco entram no pátio de forma que as saliências restantes no pátio não são visíveis para quem está no beco. Mas se forem visíveis, elas servem como um lechi (poste) e é permitido. Se os moradores do pátio fizeram um eruv com os do beco, e a brecha do beco para o pátio não está do lado do pátio, e a brecha do pátio do outro lado não está alinhada com a brecha do beco, e o pátio é de muitos, então o beco é permitido. Mas se não fizeram um eruv, ou mesmo se fizeram, e a brecha do pátio para o beco está de lado ou mesmo no meio do pátio, e a brecha do pátio do outro lado está alinhada ou mesmo não alinhada, e o pátio é de um único proprietário, é proibido. Se for rompido para um espaço aberto menor que dois seah ou maior que dois seah e cercado para habitação, é como se fosse rompido para um pátio. Mas se for maior que dois seah e não cercado para habitação, é como se fosse rompido para um carmelit e precisa de correção.
+
+4. É permitido usar sob a viga em frente ao lechi, e isso é válido quando aberto para o domínio público. Mas se estiver aberto para um carmelit, é proibido tanto sob a viga quanto em frente ao lechi, pois se junta ao carmelit ao lado, já que "encontrou seu tipo e despertou".
+
+5. Embora seja permitido usar sob a viga, uma pessoa não deve sentar-se na entrada do beco com um objeto na mão, pois pode rolar de sua mão para o domínio público e ele pode trazê-lo de volta, já que não há distinção entre ele e o domínio público. Mas na entrada do pátio é permitido, seja aberto para o domínio público ou para um carmelit, pois há uma distinção.
+
+6. Mulheres que se sentam na entrada do beco com seus jarros na mão não são repreendidas, pois, sendo uma proibição rabínica, é melhor que errem por ignorância do que intencionalmente.
+
+7. Um beco cujas vigas ou lechis caíram no Shabat: embora tenha sido permitido no início do Shabat, é proibido a partir de então, seja aberto para o domínio público ou para um carmelit. Há quem diga que isso se aplica em uma cidade que não é cercada por muralhas, mas em uma cidade cercada por muralhas, é permitido. (Nota: Pode-se confiar nisso para permitir, desde que estivesse apto a permanecer durante todo o Shabat. Mas se estava destinado a ser demolido antes do Shabat, é proibido após ser demolido. Se houver dúvida se foi demolido antes do Shabat ou não, seguimos a opinião mais leniente) (Terumat HaDeshen, Siman 73).
+
+8. Um beco em que foi feito um eruv e a viga foi quebrada: o pátio onde o eruv está colocado e os pátios abertos para ele são permitidos, mas os pátios que não estão abertos para aquele pátio são proibidos.
+
+
+--- EXPLICAÇÃO PRÁTICA ---
+
+Para entender as leis descritas no Siman 365 do Shulchan Aruch Orach Chayim, é importante primeiro compreender alguns conceitos básicos:
+
+1. **Beco (Mavoi)**: Na lei judaica, um beco é uma área semi-pública que conecta várias casas ou pátios a uma rua pública. Para que seja permitido carregar objetos dentro dele durante o Shabat, certas condições devem ser atendidas.
+
+2. **Tefachim e Amot**: Medidas de comprimento usadas na lei judaica. Um tefach é aproximadamente 8 cm, e uma ama é cerca de 48 cm.
+
+3. **Eruv**: Uma solução haláchica que permite carregar objetos em áreas públicas durante o Shabat, criando uma "fronteira" simbólica que transforma áreas públicas em privadas.
+
+4. **Lechi e Viga**: Estruturas usadas para marcar a entrada de um beco, permitindo que ele seja considerado um espaço fechado para fins de Shabat.
+
+Agora, vamos explicar as seções:
+
+1. **Brecha na Entrada do Beco**: Se um beco tem uma abertura ou brecha em sua entrada, ele ainda pode ser usado para carregar no Shabat se houver uma tábua de pelo menos 32 cm de largura na entrada e a brecha não for maior que 4,8 metros. Se a tábua for menor ou a brecha maior, não é permitido carregar.
+
+2. **Brecha no Lado do Beco**: Se a brecha não está na entrada, mas em um dos lados, ela pode ter até 4,8 metros, desde que não seja um local de passagem frequente. Se muitas pessoas passam por ali, a brecha deve ser consertada mesmo que seja menor.
+
+3. **Beco e Pátio Conectados**: Se um beco e um pátio estão conectados por brechas, e os moradores do pátio não fizeram um eruv com os do beco, o pátio pode ser usado, mas o beco não. Se fizeram um eruv, o uso depende do alinhamento das brechas e do número de moradores.
+
+4. **Uso Sob a Viga**: É permitido usar a área sob a viga que marca a entrada do beco, mas não se deve sentar ali com objetos na mão, pois eles podem cair no domínio público.
+
+5. **Mulheres com Jarros**: Mulheres que se sentam na entrada do beco com jarros na mão não são repreendidas por isso, pois é uma proibição rabínica menor, e é preferível que errem por ignorância.
+
+6. **Vigas ou Lechis Caídos no Shabat**: Se as estruturas que permitem o uso do beco caírem durante o Shabat, o uso do beco se torna proibido. Em cidades muradas, pode haver mais flexibilidade.
+
+7. **Eruv e Viga Quebrada**: Se um eruv foi feito e a viga quebra, o pátio onde o eruv está e os pátios conectados a ele ainda podem ser usados, mas outros pátios não.
+
+Essas leis são relevantes para comunidades que desejam manter a observância do Shabat enquanto vivem em áreas urbanas, garantindo que o transporte de objetos seja feito de acordo com a halachá.
