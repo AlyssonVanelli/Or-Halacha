@@ -17,8 +17,7 @@
     "prepare": "husky install",
     "type-check": "tsc --noEmit",
     "validate": "npm-run-all --parallel type-check lint test:coverage",
-    "clean": "rimraf .next out coverage",
-    "postinstall": "prisma generate"
+    "clean": "rimraf .next out coverage"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
