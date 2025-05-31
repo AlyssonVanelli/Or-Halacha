@@ -8,10 +8,7 @@ let supabaseClient: ReturnType<typeof createBrowserClient<Database>> | null = nu
 // Cria uma instância do cliente Supabase para componentes do lado do cliente
 export const createClient = () => {
   if (!supabaseClient) {
-    supabaseClient = createBrowserClient<Database>(
-      SUPABASE_URL,
-      SUPABASE_ANON_KEY
-    )
+    supabaseClient = createBrowserClient<Database>(SUPABASE_URL, SUPABASE_ANON_KEY)
   }
   return supabaseClient
 }
