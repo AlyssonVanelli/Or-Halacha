@@ -8,6 +8,10 @@ declare namespace NodeJS {
     NEXT_PUBLIC_SUPABASE_ANON_KEY: string
     SUPABASE_SERVICE_ROLE_KEY: string
 
+    SUPABASE_URL: string
+    VERCEL_URL?: string
+    JWT_SECRET: string
+
     NEXT_PUBLIC_BASE_URL: string
 
     // SMTP
