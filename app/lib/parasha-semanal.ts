@@ -7,19 +7,19 @@ export default function ParashaViewer() {
     nome: string
     haftarah: string
     leituraEspecial: string
-  } | null>(null)
+  } | null>(null);
 
   useEffect(() => {
     const getParasha = async () => {
-      const res = await fetch('/api/parasha')
-      const data = await res.json()
-      setParasha(data)
-    }
+      const res = await fetch('/api/parasha');
+      const data = await res.json();
+      setParasha(data);
+    };
 
-    getParasha()
-  }, [])
+    getParasha();
+  }, []);
 
-  if (!parasha) return <p>Carregando parashá...</p>
+  if (!parasha) return <p>Carregando parashá...</p>;
 
   return (
     <div>
@@ -27,5 +27,5 @@ export default function ParashaViewer() {
       <p><strong>Haftarah:</strong> {parasha.haftarah}</p>
       <p><strong>Leituras Especiais:</strong> {parasha.leituraEspecial}</p>
     </div>
-  )
+  );
 }
