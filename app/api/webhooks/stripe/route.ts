@@ -22,9 +22,10 @@ export async function POST(req: Request) {
     event = stripe.webhooks.constructEvent(body, signature, webhookSecret)
     console.log('📥 EVENTO RECEBIDO:', event.type)
     console.log('📊 DADOS COMPLETOS DO EVENTO:', JSON.stringify(event.data.object, null, 2))
-  } catch (err: any) {
-    console.error('❌ Erro na verificação da assinatura do webhook:', err.message)
-    return NextResponse.json({ error: `Webhook Error: ${err.message}` }, { status: 400 })
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : 'Erro desconhecido'
+    console.error('❌ Erro na verificação da assinatura do webhook:', errorMessage)
+    return NextResponse.json({ error: `Webhook Error: ${errorMessage}` }, { status: 400 })
   }
 
   switch (event.type) {

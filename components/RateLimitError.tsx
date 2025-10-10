@@ -11,7 +11,7 @@ interface RateLimitErrorProps {
 }
 
 export function RateLimitError({ retryAfter = 900 }: RateLimitErrorProps) {
-  const { seconds, isExpired, formattedTime } = useRateLimitCountdown(retryAfter)
+  const { isExpired, formattedTime } = useRateLimitCountdown(retryAfter)
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 p-4">

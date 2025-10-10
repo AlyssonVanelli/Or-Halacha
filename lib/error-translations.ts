@@ -91,7 +91,7 @@ export function translateAuthErrorForLogin(error: Error | null): string {
 /**
  * Traduz erros de carregamento de dados do Supabase
  */
-export function translateDataError(error: any): string {
+export function translateDataError(error: unknown): string {
   if (!error) return 'Erro desconhecido ao carregar dados.'
 
   // Se é um objeto de erro do Supabase
@@ -164,7 +164,7 @@ export function translateDataError(error: any): string {
 /**
  * Log de erro detalhado para debugging
  */
-export function logDetailedError(context: string, error: any, additionalData?: any): void {
+export function logDetailedError(context: string, error: unknown, additionalData?: unknown): void {
   console.group(`🚨 ERRO: ${context}`)
   console.error('Erro original:', error)
   console.error('Tipo do erro:', typeof error)

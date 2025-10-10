@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { db } from '@/lib/db'
 import type { Profile } from '@/lib/db'
-import { createClient } from '@/lib/supabase/client'
+// import { createClient } from '@/lib/supabase/client'
 
 const stripeKey = process.env.STRIPE_SECRET_KEY
 if (!stripeKey) throw new Error('STRIPE_SECRET_KEY não configurada')
@@ -75,12 +75,12 @@ export async function POST(req: Request) {
         // Usar email passado do frontend
         const userEmailToUse = userEmail || 'usuario@exemplo.com'
 
-        const customer = await stripe.customers.create({
+        const _customer = await stripe.customers.create({
           email: userEmailToUse,
           metadata: { userId },
         })
 
-        stripeCustomerId = customer.id
+        stripeCustomerId = _customer.id
 
         try {
           if (profile) {

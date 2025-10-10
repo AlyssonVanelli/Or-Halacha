@@ -96,7 +96,7 @@ export default function DivisaoPage() {
       }
     }
     loadTratado()
-  }, [tratadoId, livroId])
+  }, [tratadoId, livroId, tratado])
 
   if (!livroId || !tratadoId) return <div>Parâmetros inválidos</div>
 
@@ -186,7 +186,7 @@ export default function DivisaoPage() {
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {simanimPrincipais
                   ?.sort((a, b) => a.position - b.position)
-                  .map((siman, index) => {
+                  .map((siman) => {
                     return (
                       <Link
                         key={siman.id}
@@ -238,7 +238,7 @@ export default function DivisaoPage() {
                 </div>
 
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                  {appendicesDisponiveis.map((apx, index) => {
+                  {appendicesDisponiveis.map((apx) => {
                     return (
                       <Link
                         key={apx}

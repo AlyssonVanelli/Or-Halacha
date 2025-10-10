@@ -87,7 +87,7 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
     }
   }
 
-  componentDidCatch(_error: Error, _errorInfo: React.ErrorInfo) {
+  componentDidCatch() {
     // Log do erro para monitoramento
     // Aqui você pode integrar com serviços de monitoramento como Sentry
     // Sentry.captureException(error, { extra: errorInfo })

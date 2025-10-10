@@ -70,7 +70,7 @@ export function DivisionAccessGuard({
     }
 
     checkAccess()
-  }, [user, divisionId, errorHandler.retryCount])
+  }, [user, divisionId, errorHandler])
 
   const handleRetry = () => {
     errorHandler.incrementRetry()
