@@ -88,14 +88,6 @@ export function translateAuthErrorForLogin(error: Error | null): string {
   return translateAuthError(error.message)
 }
 
-// Interface para objetos de erro comuns
-interface ErrorWithProperties {
-  message?: string
-  code?: string | number
-  details?: string
-  stack?: string
-}
-
 /**
  * Traduz erros de carregamento de dados do Supabase
  */

@@ -140,15 +140,6 @@ export default function DashboardPage() {
     setShowTreatiseModal(false)
 
     try {
-      const requestBody = {
-        userId: user.id,
-        planType: 'tratado-avulso',
-        userEmail: user.email,
-        treatiseId,
-        successUrl: `${window.location.origin}/payment/success`,
-        cancelUrl: `${window.location.origin}/payment/cancel`,
-      }
-
       const response = await fetch('/api/create-treatise-payment', {
         method: 'POST',
         headers: {
@@ -163,7 +154,6 @@ export default function DashboardPage() {
       })
 
       if (!response.ok) {
-        const errorText = await response.text()
         throw new Error('Falha ao criar sessão de checkout de assinatura')
       }
 

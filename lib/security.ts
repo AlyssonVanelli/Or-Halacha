@@ -125,15 +125,14 @@ export function checkRateLimit(
 /**
  * Log de segurança
  */
-export function logSecurityEvent(event: string, details: Record<string, unknown>, ip?: string) {
-  const timestamp = new Date().toISOString()
-  const logEntry = {
-    timestamp,
-    event,
-    details,
-    ip,
-    userAgent: typeof window !== 'undefined' ? window.navigator.userAgent : 'server',
-  }
-
+export function logSecurityEvent(_event: string, _details: Record<string, unknown>, _ip?: string) {
   // Em produção, enviar para serviço de logging
+  // const timestamp = new Date().toISOString()
+  // const logEntry = {
+  //   timestamp,
+  //   event,
+  //   details,
+  //   ip,
+  //   userAgent: typeof window !== 'undefined' ? window.navigator.userAgent : 'server',
+  // }
 }

@@ -62,7 +62,7 @@ export async function POST(req: Request) {
           created_at: new Date().toISOString(),
         }
 
-        const { data: insertData, error: purchaseError } = await supabase
+        const { error: purchaseError } = await supabase
           .from('purchased_books')
           .upsert(purchaseData, { onConflict: 'user_id,division_id' })
           .select()
@@ -129,7 +129,7 @@ export async function POST(req: Request) {
         created_at: new Date().toISOString(),
       }
 
-      const { data: insertData, error: insertError } = await supabase
+      const { error: insertError } = await supabase
         .from('subscriptions')
         .upsert(subscriptionData, { onConflict: 'user_id' })
         .select()

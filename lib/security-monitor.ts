@@ -34,10 +34,10 @@ class SecurityMonitor {
     }
 
     // Em produção, enviar para serviço de monitoramento
-    this.sendToMonitoring(securityEvent)
+    this.sendToMonitoring()
   }
 
-  private sendToMonitoring(event: SecurityEvent) {
+  private sendToMonitoring() {
     // Em produção, integrar com serviços como:
     // - Sentry
     // - DataDog
