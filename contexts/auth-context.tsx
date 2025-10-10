@@ -25,23 +25,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     let mounted = true
 
     async function syncUser() {
-      const {
-        data: { session },
-      } = await supabase.auth.getSession()
-      if (session?.user) {
-        if (mounted) {
-          setUser(session.user)
-          setLoading(false)
-        }
-      } else if (session) {
+      try {
         const {
-          data: { user },
-        } = await supabase.auth.getUser()
+          data: { session },
+        } = await supabase.auth.getSession()
+        
         if (mounted) {
-          setUser(user ?? null)
+          if (session?.user) {
+            setUser(session.user)
+          } else {
+            setUser(null)
+          }
           setLoading(false)
         }
-      } else {
+      } catch (error) {
+        console.error('Erro ao sincronizar usuário:', error)
         if (mounted) {
           setUser(null)
           setLoading(false)
@@ -57,16 +55,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (mounted) {
         if (session?.user) {
           setUser(session.user)
-          setLoading(false)
-        } else if (session) {
-          supabase.auth.getUser().then(({ data: { user } }) => {
-            setUser(user ?? null)
-            setLoading(false)
-          })
         } else {
           setUser(null)
-          setLoading(false)
         }
+        setLoading(false)
       }
     })
 
@@ -74,7 +66,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       mounted = false
       subscription.unsubscribe()
     }
-  }, [pathname])
+  }, [])
 
   async function signIn(email: string, password: string) {
     try {

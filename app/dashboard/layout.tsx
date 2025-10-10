@@ -17,9 +17,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const pathname = usePathname() || ''
 
   useEffect(() => {
-    // Não redireciona se estiver na página de busca
+    // Não redireciona se estiver na página de busca ou se ainda está carregando
     if (!user && !pathname.startsWith('/search')) {
-      router.push('/login')
+      // Pequeno delay para evitar redirecionamento prematuro
+      const timer = setTimeout(() => {
+        router.push('/login')
+      }, 100)
+
+      return () => clearTimeout(timer)
     }
   }, [user, router, pathname])
 
@@ -28,7 +33,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       <div className="flex h-screen w-full items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="flex flex-col items-center gap-4">
           <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-          <p className="text-gray-600">Carregando...</p>
+          <p className="text-gray-600">Verificando autenticação...</p>
         </div>
       </div>
     )

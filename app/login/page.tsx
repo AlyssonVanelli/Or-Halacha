@@ -51,12 +51,22 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (user) {
-      router.push('/dashboard')
+      // Pequeno delay para garantir que o estado foi atualizado
+      setTimeout(() => {
+        router.push('/dashboard')
+      }, 100)
     }
   }, [user, router])
 
   if (user) {
-    return null // Não renderiza nada enquanto redireciona
+    return (
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
+          <p className="text-gray-600">Redirecionando para o dashboard...</p>
+        </div>
+      </div>
+    )
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
