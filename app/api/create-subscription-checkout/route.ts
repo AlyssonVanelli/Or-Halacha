@@ -105,7 +105,7 @@ export async function POST(req: Request) {
       try {
         const userEmailToUse = userEmail || 'usuario@exemplo.com'
 
-        const customer = await stripe.customers.update(stripeCustomerId, {
+        const _customer = await stripe.customers.update(stripeCustomerId, {
           email: userEmailToUse,
         })
       } catch (updateError) {
