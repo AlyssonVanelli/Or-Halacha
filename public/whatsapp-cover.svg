@@ -1,0 +1,54 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo gradiente -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#bgGradient)"/>
+  
+  <!-- Logo/Ícone central -->
+  <g transform="translate(500, 200)">
+    <rect x="0" y="0" width="200" height="200" rx="24" fill="white" opacity="0.1"/>
+    <rect x="0" y="0" width="200" height="200" rx="24" fill="none" stroke="white" stroke-width="4"/>
+    
+    <!-- Ícone BookOpen -->
+    <g transform="translate(50, 50)" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 20h40v80H20V20z"/>
+      <path d="M80 20h40v80h-40V20z"/>
+      <path d="M60 20h40v80H60V20z"/>
+    </g>
+    
+    <!-- Linhas das páginas -->
+    <g transform="translate(70, 70)" fill="white" stroke="white" stroke-width="2">
+      <path d="M20 20h40v4H20v-4z"/>
+      <path d="M20 30h40v4H20v-4z"/>
+      <path d="M20 40h30v4H20v-4z"/>
+      <path d="M20 50h40v4H20v-4z"/>
+      <path d="M20 60h30v4H20v-4z"/>
+    </g>
+  </g>
+  
+  <!-- Título principal -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+    Or Halachá
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="600" y="530" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.9" text-anchor="middle">
+    Shulchan Aruch em Português
+  </text>
+  
+  <!-- Descrição -->
+  <text x="600" y="570" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8" text-anchor="middle">
+    Acesse a sabedoria da Halachá judaica
+  </text>
+  
+  <!-- Elementos decorativos -->
+  <circle cx="200" cy="150" r="40" fill="white" opacity="0.1"/>
+  <circle cx="1000" cy="500" r="30" fill="white" opacity="0.1"/>
+  <circle cx="150" cy="500" r="25" fill="white" opacity="0.1"/>
+  <circle cx="1050" cy="150" r="35" fill="white" opacity="0.1"/>
+</svg>
