@@ -27,23 +27,23 @@ const cleanupRateLimit = () => {
 // Rate limiting function
 const checkRateLimit = (ip: string, isApi: boolean = false): boolean => {
   cleanupRateLimit()
-  
+
   const key = `${ip}:${isApi ? 'api' : 'web'}`
   const now = Date.now()
   const windowStart = now - RATE_LIMIT.windowMs
-  
+
   const current = rateLimitStore.get(key)
   const maxRequests = isApi ? RATE_LIMIT.apiMaxRequests : RATE_LIMIT.maxRequests
-  
+
   if (!current || now > current.resetTime) {
     rateLimitStore.set(key, { count: 1, resetTime: now + RATE_LIMIT.windowMs })
     return true
   }
-  
+
   if (current.count >= maxRequests) {
     return false
   }
-  
+
   current.count++
   return true
 }
@@ -63,17 +63,23 @@ export async function middleware(req: NextRequest) {
   const ip = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip') || 'unknown'
   const userAgent = req.headers.get('user-agent') || ''
   const isApi = req.nextUrl.pathname.startsWith('/api/')
-  
+
   // Block suspicious user agents
   const suspiciousPatterns = [
-    /bot/i, /crawler/i, /spider/i, /scraper/i,
-    /curl/i, /wget/i, /python/i, /java/i
+    /bot/i,
+    /crawler/i,
+    /spider/i,
+    /scraper/i,
+    /curl/i,
+    /wget/i,
+    /python/i,
+    /java/i,
   ]
-  
+
   if (suspiciousPatterns.some(pattern => pattern.test(userAgent))) {
     return new NextResponse('Forbidden', { status: 403 })
   }
-  
+
   // Rate limiting
   if (!checkRateLimit(ip, isApi)) {
     logRateLimitExceeded(ip, userAgent, req.nextUrl.pathname)
@@ -81,10 +87,12 @@ export async function middleware(req: NextRequest) {
       status: 302,
       headers: {
         'Retry-After': '900', // 15 minutos
-        'X-RateLimit-Limit': isApi ? RATE_LIMIT.apiMaxRequests.toString() : RATE_LIMIT.maxRequests.toString(),
+        'X-RateLimit-Limit': isApi
+          ? RATE_LIMIT.apiMaxRequests.toString()
+          : RATE_LIMIT.maxRequests.toString(),
         'X-RateLimit-Remaining': '0',
-        'X-RateLimit-Reset': new Date(Date.now() + RATE_LIMIT.windowMs).toISOString()
-      }
+        'X-RateLimit-Reset': new Date(Date.now() + RATE_LIMIT.windowMs).toISOString(),
+      },
     })
   }
 
@@ -107,7 +115,7 @@ export async function middleware(req: NextRequest) {
     logSuspiciousRequest(ip, userAgent, req.nextUrl.pathname)
     return new NextResponse('Suspicious request detected', { status: 400 })
   }
-  
+
   // Block requests to sensitive paths (exceto APIs públicas)
   const sensitivePaths = ['/_next/', '/admin/', '/dashboard/']
   const publicApiPaths = [
@@ -116,9 +124,9 @@ export async function middleware(req: NextRequest) {
     '/api/create-subscription-checkout',
     '/api/create-checkout-session',
     '/api/webhooks/stripe',
-    '/api/debug-profile'
+    '/api/debug-profile',
   ]
-  
+
   if (sensitivePaths.some(path => req.nextUrl.pathname.startsWith(path))) {
     // Additional validation for sensitive paths
     const authHeader = req.headers.get('authorization')
@@ -126,15 +134,17 @@ export async function middleware(req: NextRequest) {
       return new NextResponse('Unauthorized', { status: 401 })
     }
   }
-  
+
   // Permitir APIs públicas sem autenticação
-  if (req.nextUrl.pathname.startsWith('/api/') && 
-      publicApiPaths.some(path => req.nextUrl.pathname.startsWith(path))) {
+  if (
+    req.nextUrl.pathname.startsWith('/api/') &&
+    publicApiPaths.some(path => req.nextUrl.pathname.startsWith(path))
+  ) {
     // APIs públicas - não requer autenticação
   }
-  
+
   let res = NextResponse.next()
-  
+
   // Supabase authentication
   const supabase = createServerClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     cookies: {
@@ -159,7 +169,7 @@ export async function middleware(req: NextRequest) {
 
   // Add security headers
   res = addSecurityHeaders(res)
-  
+
   return res
 }
 
@@ -173,6 +183,6 @@ export const config = {
     '/favicon.ico',
     '/robots.txt',
     '/sitemap.xml',
-    '/((?!rate-limit).*)' // Excluir rate-limit do middleware para evitar loop
+    '/((?!rate-limit).*)', // Excluir rate-limit do middleware para evitar loop
   ],
 }

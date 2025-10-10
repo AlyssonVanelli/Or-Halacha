@@ -9,15 +9,18 @@
 ## Solução Implementada
 
 ### **1. Sistema de Tokens de Sessão**
+
 **Arquivo**: `app/api/create-checkout-session/route.ts`
 
 #### **Funcionalidades**:
+
 - ✅ **Token único**: Gera UUID para cada sessão de checkout
 - ✅ **Expiração**: Sessões expiram em 5 minutos
 - ✅ **Status tracking**: Pending → Processed → Expired
 - ✅ **Prevenção de duplicatas**: Uma sessão por vez por usuário/divisão
 
 #### **Fluxo**:
+
 ```
 1. Usuário clica "Comprar Tratado"
 2. Página intermediária chama /api/create-checkout-session
@@ -29,15 +32,18 @@
 ```
 
 ### **2. API de Checkout Atualizada**
+
 **Arquivo**: `app/api/direct-checkout/route.ts`
 
 #### **Funcionalidades**:
+
 - ✅ **Verificação de token**: Valida se token existe e não expirou
 - ✅ **Status tracking**: Marca como "processed" após uso
 - ✅ **Prevenção de reuso**: Token só pode ser usado uma vez
 - ✅ **Fallback**: Mantém compatibilidade com método antigo
 
 #### **Lógica de Proteção**:
+
 ```typescript
 // Buscar sessão no banco
 const { data: session } = await supabase
@@ -53,22 +59,22 @@ if (new Date(session.expires_at) < new Date()) {
 }
 
 // Marcar como processada
-await supabase
-  .from('checkout_sessions')
-  .update({ status: 'processed' })
-  .eq('id', sessionToken)
+await supabase.from('checkout_sessions').update({ status: 'processed' }).eq('id', sessionToken)
 ```
 
 ### **3. Página de Checkout Atualizada**
+
 **Arquivo**: `app/checkout/[divisionId]/page.tsx`
 
 #### **Funcionalidades**:
+
 - ✅ **Criação de sessão**: Chama API para criar token
 - ✅ **Redirecionamento seguro**: Usa token em vez de divisionId
 - ✅ **Tratamento de erros**: Mostra mensagens claras
 - ✅ **Estados visuais**: Loading, erro e redirecionamento
 
 #### **Fluxo Atualizado**:
+
 ```typescript
 // Criar sessão de checkout no servidor
 const response = await fetch('/api/create-checkout-session', {
@@ -84,9 +90,11 @@ window.location.href = data.checkoutUrl
 ```
 
 ### **4. Tabela de Sessões**
+
 **Arquivo**: `sql/create-checkout-sessions-table.sql`
 
 #### **Estrutura**:
+
 ```sql
 CREATE TABLE checkout_sessions (
   id UUID PRIMARY KEY,
@@ -100,6 +108,7 @@ CREATE TABLE checkout_sessions (
 ```
 
 #### **Políticas RLS**:
+
 - ✅ **Acesso restrito**: Usuários só veem suas próprias sessões
 - ✅ **Segurança**: RLS habilitado
 - ✅ **Performance**: Índices otimizados
@@ -107,18 +116,21 @@ CREATE TABLE checkout_sessions (
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Sem rate limiting**: Tokens únicos previnem múltiplas chamadas
 - 💡 **Feedback claro**: Mensagens de erro específicas
 - 🚀 **Experiência fluida**: Redirecionamento seguro
 - 📱 **Proteção total**: Sistema robusto contra abusos
 
 ### **Para o Negócio**:
+
 - 📈 **Maior conversão**: Usuários não ficam presos em erros
 - 💰 **Menos abandono**: Reduz problemas técnicos
 - 🎨 **UX profissional**: Sistema confiável e seguro
 - 📊 **Analytics**: Rastreamento de sessões de checkout
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código robusto**: Sistema à prova de falhas
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Código bem documentado
@@ -127,6 +139,7 @@ CREATE TABLE checkout_sessions (
 ## Fluxo de Proteção
 
 ### **Cenário Normal**:
+
 1. **Usuário clica**: "Comprar Tratado"
 2. **Cria sessão**: Token único no banco
 3. **Redireciona**: Para Stripe com token
@@ -134,6 +147,7 @@ CREATE TABLE checkout_sessions (
 5. **Pagamento**: Usuário paga no Stripe
 
 ### **Cenário com Botão Voltar**:
+
 1. **Usuário clica**: "Voltar" no navegador
 2. **Retorna**: Para página intermediária
 3. **Tenta criar**: Nova sessão
@@ -141,6 +155,7 @@ CREATE TABLE checkout_sessions (
 5. **Protege**: Não permite múltiplas sessões
 
 ### **Cenário de Token Expirado**:
+
 1. **Token expira**: Após 5 minutos
 2. **Tenta usar**: Token expirado
 3. **Erro**: "Sessão expirada"

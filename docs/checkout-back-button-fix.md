@@ -9,9 +9,11 @@
 ## Solução Implementada
 
 ### **1. Página Intermediária de Checkout**
+
 **Arquivo**: `app/checkout/[divisionId]/page.tsx`
 
 #### **Funcionalidades**:
+
 - ✅ **Carregamento de dados**: Busca informações da divisão e livro
 - ✅ **Validação**: Verifica se usuário está autenticado
 - ✅ **Redirecionamento automático**: Após 1 segundo, redireciona para Stripe
@@ -19,6 +21,7 @@
 - ✅ **Proteção**: Evita múltiplas chamadas à API
 
 #### **Fluxo**:
+
 ```
 1. Usuário clica "Comprar Tratado"
 2. Redireciona para /checkout/[divisionId]
@@ -29,26 +32,32 @@
 ```
 
 ### **2. Botão de Compra Atualizado**
+
 **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/page.tsx`
 
 #### **Antes**:
+
 ```typescript
 window.location.href = `/api/direct-checkout?divisionId=${div.id}`
 ```
 
 #### **Depois**:
+
 ```typescript
 window.location.href = `/checkout/${div.id}`
 ```
 
 ### **3. API Simplificada**
+
 **Arquivo**: `app/api/direct-checkout/route.ts`
 
 #### **Removido**:
+
 - ❌ **Verificação de referer**: Não é mais necessária
 - ❌ **Redirecionamento de segurança**: Não é mais necessário
 
 #### **Mantido**:
+
 - ✅ **Criação da sessão Stripe**: Funcionalidade principal
 - ✅ **Validação de dados**: Divisão e usuário
 - ✅ **Metadados**: Informações para processamento
@@ -56,6 +65,7 @@ window.location.href = `/checkout/${div.id}`
 ## Estados da Página Intermediária
 
 ### **1. Loading Inicial**:
+
 ```
 ┌─────────────────────────┐
 │ ⟳ Carregando informações│
@@ -64,6 +74,7 @@ window.location.href = `/checkout/${div.id}`
 ```
 
 ### **2. Redirecionamento**:
+
 ```
 ┌─────────────────────────┐
 │ ⟳ Redirecionando para  │
@@ -75,6 +86,7 @@ window.location.href = `/checkout/${div.id}`
 ```
 
 ### **3. Erro**:
+
 ```
 ┌─────────────────────────┐
 │ ❌ Erro                 │
@@ -84,6 +96,7 @@ window.location.href = `/checkout/${div.id}`
 ```
 
 ### **4. Preparação**:
+
 ```
 ┌─────────────────────────┐
 │ Preparando Pagamento    │
@@ -100,18 +113,21 @@ window.location.href = `/checkout/${div.id}`
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Sem rate limiting**: Não cai mais na página de erro
 - 💡 **Feedback visual**: Sabe que está sendo redirecionado
 - 🚀 **Experiência fluida**: Transição suave para o Stripe
 - 📱 **Proteção**: Evita múltiplas requisições
 
 ### **Para o Negócio**:
+
 - 📈 **Melhor conversão**: Usuário não fica preso em erros
 - 💰 **Menos abandono**: Reduz problemas de navegação
 - 🎨 **UX profissional**: Interface moderna e confiável
 - 📊 **Menos erros**: Reduz problemas técnicos
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código limpo**: Separação de responsabilidades
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Código bem documentado
@@ -120,6 +136,7 @@ window.location.href = `/checkout/${div.id}`
 ## Fluxo de Navegação
 
 ### **Cenário Normal**:
+
 1. **Usuário clica**: "Comprar Tratado"
 2. **Redireciona**: Para `/checkout/[divisionId]`
 3. **Página carrega**: Dados da divisão
@@ -128,6 +145,7 @@ window.location.href = `/checkout/${div.id}`
 6. **Pagamento**: Usuário paga no Stripe
 
 ### **Cenário com Botão Voltar**:
+
 1. **Usuário clica**: "Voltar" no navegador
 2. **Retorna**: Para `/checkout/[divisionId]`
 3. **Página carrega**: Dados novamente

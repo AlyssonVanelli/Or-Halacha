@@ -194,7 +194,11 @@ export const db = {
   profiles: {
     async getById(userId: string) {
       const supabase = createClient()
-      const { data, error } = await supabase.from('profiles').select('*').eq('id', userId).maybeSingle()
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', userId)
+        .maybeSingle()
 
       if (error) throw error
       return data

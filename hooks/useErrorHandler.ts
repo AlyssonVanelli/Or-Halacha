@@ -23,7 +23,7 @@ interface UseErrorHandlerReturn {
 export function useErrorHandler(): UseErrorHandlerReturn {
   const [errorState, setErrorState] = useState<ErrorState>({
     error: null,
-    retryCount: 0
+    retryCount: 0,
   })
 
   const setError = useCallback((error: string | null) => {
@@ -41,10 +41,10 @@ export function useErrorHandler(): UseErrorHandlerReturn {
   }, [])
 
   const incrementRetry = useCallback(() => {
-    setErrorState(prev => ({ 
-      ...prev, 
+    setErrorState(prev => ({
+      ...prev,
       retryCount: prev.retryCount + 1,
-      error: null 
+      error: null,
     }))
   }, [])
 
@@ -59,7 +59,7 @@ export function useErrorHandler(): UseErrorHandlerReturn {
     handleError,
     clearError,
     incrementRetry,
-    resetRetry
+    resetRetry,
   }
 }
 
@@ -71,25 +71,28 @@ export function useAsyncOperation<T = any>() {
   const [data, setData] = useState<T | null>(null)
   const errorHandler = useErrorHandler()
 
-  const execute = useCallback(async (
-    operation: () => Promise<T>,
-    context: string,
-    additionalData?: any
-  ): Promise<T | null> => {
-    setLoading(true)
-    errorHandler.clearError()
+  const execute = useCallback(
+    async (
+      operation: () => Promise<T>,
+      context: string,
+      additionalData?: any
+    ): Promise<T | null> => {
+      setLoading(true)
+      errorHandler.clearError()
 
-    try {
-      const result = await operation()
-      setData(result)
-      return result
-    } catch (error) {
-      errorHandler.handleError(context, error, additionalData)
-      return null
-    } finally {
-      setLoading(false)
-    }
-  }, [errorHandler])
+      try {
+        const result = await operation()
+        setData(result)
+        return result
+      } catch (error) {
+        errorHandler.handleError(context, error, additionalData)
+        return null
+      } finally {
+        setLoading(false)
+      }
+    },
+    [errorHandler]
+  )
 
   const reset = useCallback(() => {
     setData(null)
@@ -104,6 +107,6 @@ export function useAsyncOperation<T = any>() {
     retryCount: errorHandler.retryCount,
     execute,
     reset,
-    handleRetry: errorHandler.incrementRetry
+    handleRetry: errorHandler.incrementRetry,
   }
 }

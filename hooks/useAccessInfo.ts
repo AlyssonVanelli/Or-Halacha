@@ -30,10 +30,8 @@ export function useAccessInfo(bookId?: string) {
         const supabase = createClient()
 
         // Buscar divisões do livro
-        let divisionsQuery = supabase
-          .from('divisions')
-          .select('id')
-        
+        let divisionsQuery = supabase.from('divisions').select('id')
+
         if (bookId) {
           divisionsQuery = divisionsQuery.eq('book_id', bookId)
         }
@@ -54,9 +52,8 @@ export function useAccessInfo(bookId?: string) {
           .eq('status', 'active')
           .maybeSingle()
 
-
-        const hasActiveSubscription = !!subscriptionData && 
-          new Date(subscriptionData.current_period_end) > new Date()
+        const hasActiveSubscription =
+          !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
 
         // Buscar divisões compradas
         const { data: purchasedData, error: purchasedError } = await supabase
@@ -64,24 +61,21 @@ export function useAccessInfo(bookId?: string) {
           .select('division_id, expires_at')
           .eq('user_id', user.id)
 
-
-        const validPurchases = (purchasedData || []).filter(pb => 
-          new Date(pb.expires_at) > new Date()
+        const validPurchases = (purchasedData || []).filter(
+          pb => new Date(pb.expires_at) > new Date()
         )
 
         const purchasedDivisions = validPurchases.map(pb => pb.division_id)
         const accessibleDivisions = hasActiveSubscription ? totalDivisions : validPurchases.length
         const hasAllAccess = hasActiveSubscription || accessibleDivisions === totalDivisions
 
-
         setAccessInfo({
           totalDivisions,
           accessibleDivisions,
           hasAllAccess,
           hasActiveSubscription,
-          purchasedDivisions
+          purchasedDivisions,
         })
-
       } catch (error) {
         setError(error instanceof Error ? error.message : 'Erro desconhecido')
       } finally {
@@ -99,6 +93,6 @@ export function useAccessInfo(bookId?: string) {
     refetch: () => {
       setLoading(true)
       setError(null)
-    }
+    },
   }
 }

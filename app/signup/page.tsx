@@ -15,7 +15,7 @@ export default function SignUpPage() {
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const { signIn } = useAuth()
+  // const { signIn } = useAuth()
 
   async function handleSignUp(e: React.FormEvent) {
     e.preventDefault()
@@ -35,10 +35,9 @@ export default function SignUpPage() {
       return
     }
 
-
     try {
       const supabase = createClient()
-      
+
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password,
@@ -47,33 +46,40 @@ export default function SignUpPage() {
         },
       })
 
-
       if (signUpError) {
         console.error('❌ Erro no signUp:', signUpError)
-        
+
         // Se o erro for de usuário já existente, redireciona para login
-        if (signUpError.message.includes('already') || signUpError.message.includes('already registered') || signUpError.message.includes('User already')) {
-          setError('ℹ️ Este email já está cadastrado. Se você não confirmou o email, faça login para reenviar a confirmação.')
+        if (
+          signUpError.message.includes('already') ||
+          signUpError.message.includes('already registered') ||
+          signUpError.message.includes('User already')
+        ) {
+          setError(
+            'ℹ️ Este email já está cadastrado. Se você não confirmou o email, faça login para reenviar a confirmação.'
+          )
           setTimeout(() => {
             window.location.href = '/login'
           }, 3000)
           return
         }
-        
+
         throw signUpError
       }
 
-      setError('✅ Email de confirmação enviado! Verifique sua caixa de entrada e clique no link para ativar sua conta.')
+      setError(
+        '✅ Email de confirmação enviado! Verifique sua caixa de entrada e clique no link para ativar sua conta.'
+      )
     } catch (err) {
       console.error('💥 Erro no cadastro:', err)
       let errorMessage = 'Erro desconhecido'
-      
+
       if (err instanceof Error) {
         errorMessage = err.message
       } else if (typeof err === 'object' && err !== null && 'message' in err) {
         errorMessage = String(err.message)
       }
-      
+
       const translatedError = translateAuthError(errorMessage)
       setError(translatedError)
     } finally {
@@ -139,20 +145,32 @@ export default function SignUpPage() {
                     </div>
                   </div>
                   {error && (
-                    <div className={`rounded-lg border-l-4 px-4 py-3 text-sm shadow-sm ${
-                      error.includes('✅') 
-                        ? 'border-green-500 bg-gradient-to-r from-green-50 to-green-100 text-green-700'
-                        : error.includes('ℹ️')
-                        ? 'border-blue-500 bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700'
-                        : 'border-red-500 bg-gradient-to-r from-red-50 to-red-100 text-red-700'
-                    }`}>
+                    <div
+                      className={`rounded-lg border-l-4 px-4 py-3 text-sm shadow-sm ${
+                        error.includes('✅')
+                          ? 'border-green-500 bg-gradient-to-r from-green-50 to-green-100 text-green-700'
+                          : error.includes('ℹ️')
+                            ? 'border-blue-500 bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700'
+                            : 'border-red-500 bg-gradient-to-r from-red-50 to-red-100 text-red-700'
+                      }`}
+                    >
                       <div className="flex items-start gap-2">
-                        <div className={`mt-0.5 h-4 w-4 rounded-full flex-shrink-0 ${
-                          error.includes('✅') ? 'bg-green-500' : error.includes('ℹ️') ? 'bg-blue-500' : 'bg-red-500'
-                        }`}></div>
+                        <div
+                          className={`mt-0.5 h-4 w-4 flex-shrink-0 rounded-full ${
+                            error.includes('✅')
+                              ? 'bg-green-500'
+                              : error.includes('ℹ️')
+                                ? 'bg-blue-500'
+                                : 'bg-red-500'
+                          }`}
+                        ></div>
                         <div>
                           <p className="font-semibold">
-                            {error.includes('✅') ? 'Sucesso!' : error.includes('ℹ️') ? 'Informação' : 'Erro no cadastro'}
+                            {error.includes('✅')
+                              ? 'Sucesso!'
+                              : error.includes('ℹ️')
+                                ? 'Informação'
+                                : 'Erro no cadastro'}
                           </p>
                           <p className="mt-1">{error}</p>
                         </div>

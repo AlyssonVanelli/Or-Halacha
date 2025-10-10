@@ -9,6 +9,7 @@
 ## Solução Implementada
 
 ### 1. **Correção da Query SQL**
+
 **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
 
 ```typescript
@@ -20,7 +21,9 @@
 ```
 
 ### 2. **Atualização das Interfaces TypeScript**
+
 **Arquivos corrigidos**:
+
 - `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
 - `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/siman/[simanId]/page.tsx`
 
@@ -30,7 +33,7 @@ interface Siman {
   id: string
   title: string
   position: number
-  description: string | null  // ← Coluna que não existe
+  description: string | null // ← Coluna que não existe
 }
 
 // ✅ DEPOIS
@@ -42,7 +45,9 @@ interface Siman {
 ```
 
 ### 3. **Remoção de Referências à Propriedade Description**
+
 **Arquivos corrigidos**:
+
 - `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
 - `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/siman/[simanId]/page.tsx`
 
@@ -68,6 +73,7 @@ interface Siman {
 ## Arquivos Modificados
 
 1. `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
+
    - Query SQL corrigida
    - Interface Siman atualizada
    - Template sem referência à description

@@ -163,10 +163,20 @@ export default function SearchPage() {
         <div className="container py-8">
           {/* Header */}
           <div className="mb-8 text-center">
-            <div className="flex items-center justify-center gap-4 mb-4">
+            <div className="mb-4 flex items-center justify-center gap-4">
               <div className="rounded-full bg-blue-500 p-3">
-                <svg className="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                <svg
+                  className="h-8 w-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
                 </svg>
               </div>
               <div>
@@ -186,24 +196,48 @@ export default function SearchPage() {
           ) : (
             <>
               {results.length === 0 && !error && (
-                <div className="mx-auto max-w-2xl rounded-xl bg-white p-8 shadow-lg text-center">
-                  <div className="rounded-full bg-gray-100 p-4 w-16 h-16 mx-auto mb-4">
-                    <svg className="h-8 w-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.29-1.009-5.824-2.709M15 6.291A7.962 7.962 0 0112 4c-2.34 0-4.29 1.009-5.824 2.709" />
+                <div className="mx-auto max-w-2xl rounded-xl bg-white p-8 text-center shadow-lg">
+                  <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-gray-100 p-4">
+                    <svg
+                      className="h-8 w-8 text-gray-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.29-1.009-5.824-2.709M15 6.291A7.962 7.962 0 0112 4c-2.34 0-4.29 1.009-5.824 2.709"
+                      />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Nenhum resultado encontrado</h3>
-                  <p className="text-gray-600">Tente usar termos diferentes ou verifique a ortografia.</p>
+                  <h3 className="mb-2 text-xl font-semibold text-gray-800">
+                    Nenhum resultado encontrado
+                  </h3>
+                  <p className="text-gray-600">
+                    Tente usar termos diferentes ou verifique a ortografia.
+                  </p>
                 </div>
               )}
               {error && (
-                <div className="mx-auto max-w-2xl rounded-xl bg-red-50 border border-red-200 p-8 shadow-lg text-center">
-                  <div className="rounded-full bg-red-100 p-4 w-16 h-16 mx-auto mb-4">
-                    <svg className="h-8 w-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <div className="mx-auto max-w-2xl rounded-xl border border-red-200 bg-red-50 p-8 text-center shadow-lg">
+                  <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-red-100 p-4">
+                    <svg
+                      className="h-8 w-8 text-red-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold text-red-800 mb-2">Erro na busca</h3>
+                  <h3 className="mb-2 text-xl font-semibold text-red-800">Erro na busca</h3>
                   <p className="text-red-600">{error}</p>
                 </div>
               )}

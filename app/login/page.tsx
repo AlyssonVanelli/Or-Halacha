@@ -29,9 +29,11 @@ export default function LoginPage() {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search)
     const message = urlParams.get('message')
-    
+
     if (message === 'subscription-expired') {
-      setUrlMessage('Sua assinatura expirou ou foi cancelada. Entre em contato conosco para renovar.')
+      setUrlMessage(
+        'Sua assinatura expirou ou foi cancelada. Entre em contato conosco para renovar.'
+      )
       toast({
         title: 'Assinatura Expirada',
         description: 'Sua assinatura foi cancelada. Entre em contato conosco para renovar.',
@@ -67,11 +69,15 @@ export default function LoginPage() {
 
       if (error) {
         // Se o erro for de email não confirmado, mostra opção de reenviar
-        if (error.message.includes('Email não confirmado') || error.message.includes('Email not confirmed')) {
+        if (
+          error.message.includes('Email não confirmado') ||
+          error.message.includes('Email not confirmed')
+        ) {
           setShowEmailConfirmation(true)
           toast({
             title: 'Email não confirmado',
-            description: 'Confirme seu email antes de fazer login. Use o botão abaixo para reenviar o email de confirmação.',
+            description:
+              'Confirme seu email antes de fazer login. Use o botão abaixo para reenviar o email de confirmação.',
             variant: 'destructive',
           })
         } else {
@@ -100,7 +106,7 @@ export default function LoginPage() {
 
   const handleResendEmail = async () => {
     setIsResendingEmail(true)
-    
+
     try {
       const supabase = createClient()
       const { error } = await supabase.auth.resend({
@@ -159,12 +165,22 @@ export default function LoginPage() {
               </div>
               <div className="px-8 pb-8">
                 {urlMessage && (
-                  <div className="mb-6 rounded-lg bg-red-50 border border-red-200 p-4">
+                  <div className="mb-6 rounded-lg border border-red-200 bg-red-50 p-4">
                     <div className="flex items-center">
-                      <svg className="h-5 w-5 text-red-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <svg
+                        className="mr-2 h-5 w-5 text-red-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
                       </svg>
-                      <span className="text-red-700 font-medium">{urlMessage}</span>
+                      <span className="font-medium text-red-700">{urlMessage}</span>
                     </div>
                   </div>
                 )}
@@ -211,7 +227,7 @@ export default function LoginPage() {
                   >
                     {isLoading ? 'Entrando...' : 'Entrar'}
                   </Button>
-                  
+
                   {showEmailConfirmation && (
                     <div className="mt-4 rounded-lg border-l-4 border-amber-500 bg-gradient-to-r from-amber-50 to-amber-100 px-4 py-3 text-sm text-amber-700 shadow-sm">
                       <div className="flex items-start gap-2">
@@ -219,7 +235,8 @@ export default function LoginPage() {
                         <div className="flex-1">
                           <p className="font-semibold">Email não confirmado</p>
                           <p className="mt-1">
-                            Confirme seu email antes de fazer login. Clique no botão abaixo para reenviar o email de confirmação.
+                            Confirme seu email antes de fazer login. Clique no botão abaixo para
+                            reenviar o email de confirmação.
                           </p>
                           <Button
                             onClick={handleResendEmail}

@@ -53,13 +53,13 @@ export async function POST(req: Request) {
         planType,
         divisionId,
         bookId,
-        status: subscription.status
+        status: subscription.status,
       })
 
       // Se é tratado avulso, salvar apenas na purchased_books
       if (planType === 'tratado-avulso' && divisionId && bookId) {
         console.log('📚 Processando tratado avulso...')
-        
+
         const expiresAt = new Date()
         expiresAt.setMonth(expiresAt.getMonth() + 1)
 

@@ -95,12 +95,12 @@ export default function FaqAccordion() {
           Tire suas dúvidas sobre Halachá e nossa plataforma
         </p>
       </div>
-      
+
       <div className="mx-auto max-w-4xl space-y-3">
         {FAQS.map((item, i) => (
           <div
             key={i}
-            className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:border-blue-200"
+            className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:border-blue-200 hover:shadow-lg"
           >
             <button
               onClick={() => toggle(i)}
@@ -146,11 +146,10 @@ export default function FaqAccordion() {
               <MessageCircle className="h-6 w-6 text-white" />
             </div>
           </div>
-          <h3 className="mb-2 text-xl font-bold text-gray-900">
-            Ainda tem dúvidas?
-          </h3>
+          <h3 className="mb-2 text-xl font-bold text-gray-900">Ainda tem dúvidas?</h3>
           <p className="mb-6 text-gray-600">
-            Nossa equipe de suporte está pronta para ajudar com suas questões sobre Halachá e o uso da plataforma.
+            Nossa equipe de suporte está pronta para ajudar com suas questões sobre Halachá e o uso
+            da plataforma.
           </p>
           <Link href="/suporte">
             <Button className="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-3 text-lg font-semibold shadow-lg transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl">

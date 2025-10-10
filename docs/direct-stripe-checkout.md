@@ -9,9 +9,11 @@
 ## Funcionalidade Implementada
 
 ### **1. API Direct Checkout**
+
 **Arquivo**: `app/api/direct-checkout/route.ts`
 
 #### **Funcionalidades**:
+
 - ✅ **Redirecionamento direto**: Pula tela de escolha
 - ✅ **Preço fixo**: R$ 29,90 para tratado individual
 - ✅ **Sessão Stripe**: Cria sessão de checkout automaticamente
@@ -19,6 +21,7 @@
 - ✅ **Metadados**: Informações do tratado para processamento
 
 #### **Fluxo**:
+
 ```
 1. Usuário clica "Comprar Tratado"
 2. API busca informações da divisão
@@ -29,9 +32,11 @@
 ```
 
 ### **2. Botão Atualizado**
+
 **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/page.tsx`
 
 #### **Antes**:
+
 ```typescript
 <Link href={`/payment?divisionId=${div.id}`}>
   Comprar Tratado
@@ -39,6 +44,7 @@
 ```
 
 #### **Depois**:
+
 ```typescript
 <button onClick={() => {
   window.location.href = `/api/direct-checkout?divisionId=${div.id}`
@@ -50,50 +56,57 @@
 ## Configuração do Stripe
 
 ### **Sessão de Checkout**:
+
 ```typescript
 const session = await stripe.checkout.sessions.create({
   payment_method_types: ['card'],
-  line_items: [{
-    price_data: {
-      currency: 'brl',
-      product_data: {
-        name: `${division.title} - ${book.title}`,
-        description: `Acesso completo ao tratado ${division.title}`,
+  line_items: [
+    {
+      price_data: {
+        currency: 'brl',
+        product_data: {
+          name: `${division.title} - ${book.title}`,
+          description: `Acesso completo ao tratado ${division.title}`,
+        },
+        unit_amount: 2990, // R$ 29,90 em centavos
       },
-      unit_amount: 2990, // R$ 29,90 em centavos
+      quantity: 1,
     },
-    quantity: 1,
-  }],
+  ],
   mode: 'payment',
   success_url: `${APP_URL}/payment/success?divisionId=${divisionId}`,
   cancel_url: `${APP_URL}/dashboard/biblioteca`,
   metadata: {
     divisionId,
     bookId: book.id,
-    type: 'tratado-individual'
-  }
+    type: 'tratado-individual',
+  },
 })
 ```
 
 ### **URLs de Retorno**:
+
 - ✅ **Success**: `/payment/success?divisionId=${divisionId}`
 - ✅ **Cancel**: `/dashboard/biblioteca`
 
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🚀 **Experiência rápida**: Um clique para pagar
 - 💳 **Checkout seguro**: Direto no Stripe
 - 📱 **Responsivo**: Funciona em qualquer dispositivo
 - 🔒 **Seguro**: Dados protegidos pelo Stripe
 
 ### **Para o Negócio**:
+
 - 📈 **Maior conversão**: Menos fricção no processo
 - 💰 **Pagamento direto**: Sem tela de escolha
 - 🎯 **Foco na venda**: Usuário vai direto para pagar
 - 📊 **Analytics**: Rastreamento de conversões
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código simples**: API direta e limpa
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Código bem documentado
@@ -114,12 +127,14 @@ const session = await stripe.checkout.sessions.create({
 ## Configurações Necessárias
 
 ### **Variáveis de Ambiente**:
+
 ```env
 STRIPE_SECRET_KEY=sk_test_...
 NEXT_PUBLIC_APP_URL=https://seu-dominio.com
 ```
 
 ### **Webhook do Stripe**:
+
 - ✅ **Endpoint**: `/api/webhooks/stripe`
 - ✅ **Eventos**: `checkout.session.completed`
 - ✅ **Processamento**: Ativar acesso ao tratado
@@ -127,6 +142,7 @@ NEXT_PUBLIC_APP_URL=https://seu-dominio.com
 ## Testes
 
 ### **Teste Manual**:
+
 1. **Acessar página**: `/dashboard/biblioteca/shulchan-aruch`
 2. **Clicar em "Comprar Tratado"**: Em qualquer card sem acesso
 3. **Verificar redirecionamento**: Deve ir para Stripe
@@ -134,6 +150,7 @@ NEXT_PUBLIC_APP_URL=https://seu-dominio.com
 5. **Verificar retorno**: Success ou cancel
 
 ### **Cartão de Teste Stripe**:
+
 ```
 Número: 4242 4242 4242 4242
 CVV: 123

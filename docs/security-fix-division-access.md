@@ -4,7 +4,8 @@
 
 **Vulnerabilidade de Segurança**: Usuários com acesso a apenas 1 tratado conseguiam acessar outros tratados alterando o ID na URL.
 
-**Exemplo**: 
+**Exemplo**:
+
 - Usuário tem acesso apenas ao tratado `f6fba778-0aa1-4df1-a496-cebb967d1fe3`
 - Mas consegue acessar `outro-tratado-id` alterando a URL
 - **Risco**: Acesso não autorizado a conteúdo pago
@@ -12,6 +13,7 @@
 ## Solução Implementada
 
 ### 1. **API de Verificação Específica**
+
 **Arquivo**: `app/api/check-division-access/route.ts`
 
 ```typescript
@@ -34,6 +36,7 @@ POST /api/check-division-access
 ```
 
 ### 2. **Componente de Guard Específico**
+
 **Arquivo**: `components/DivisionAccessGuard.tsx`
 
 ```typescript
@@ -43,6 +46,7 @@ POST /api/check-division-access
 ```
 
 **Funcionalidades**:
+
 - ✅ Verificação automática de acesso
 - ✅ Interface de erro clara
 - ✅ Fallback para verificação local
@@ -51,10 +55,12 @@ POST /api/check-division-access
 ### 3. **Verificação em Duas Camadas**
 
 #### **Camada 1: Verificação Geral**
+
 - `DashboardAccessGuard`: Verifica se usuário tem acesso ao dashboard
 - Verifica assinatura ativa OU pelo menos 1 tratado comprado
 
 #### **Camada 2: Verificação Específica**
+
 - `DivisionAccessGuard`: Verifica acesso à divisão específica
 - Verifica assinatura ativa OU se a divisão específica foi comprada
 
@@ -71,21 +77,25 @@ const hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
 ## Arquivos Modificados
 
 ### **Novos Arquivos**
+
 - ✅ `app/api/check-division-access/route.ts` - API específica
 - ✅ `components/DivisionAccessGuard.tsx` - Guard específico
 
 ### **Arquivos Atualizados**
+
 - ✅ `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
 - ✅ `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/siman/[simanId]/page.tsx`
 
 ## Fluxo de Segurança
 
 ### **1. Usuário Acessa URL**
+
 ```
 /dashboard/biblioteca/shulchan-aruch/OUTRO-TRATADO-ID
 ```
 
 ### **2. DashboardAccessGuard**
+
 ```typescript
 // Verifica se tem acesso geral
 hasAccess = hasActiveSubscription || hasAnyPurchasedBooks
@@ -93,6 +103,7 @@ hasAccess = hasActiveSubscription || hasAnyPurchasedBooks
 ```
 
 ### **3. DivisionAccessGuard**
+
 ```typescript
 // Verifica acesso ESPECÍFICO
 hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
@@ -100,6 +111,7 @@ hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
 ```
 
 ### **4. Resultado**
+
 - **Acesso Negado**: Interface clara explicando o problema
 - **Opções**: Ver planos ou voltar para biblioteca
 - **Logging**: Registro detalhado para auditoria
@@ -107,16 +119,19 @@ hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
 ## Benefícios da Solução
 
 ### **Segurança**
+
 - 🔒 **Acesso granular**: Cada divisão verificada individualmente
 - 🛡️ **Dupla verificação**: Dashboard + Divisão específica
 - 📊 **Auditoria completa**: Logs detalhados de tentativas de acesso
 
 ### **Experiência do Usuário**
+
 - 💬 **Mensagens claras**: Explicação do problema
 - 🎯 **Ações diretas**: Botões para resolver o problema
 - ⚡ **Performance**: Verificação rápida e eficiente
 
 ### **Manutenibilidade**
+
 - 🔧 **Código modular**: Guards reutilizáveis
 - 🧪 **Testável**: Lógica isolada e testável
 - 📚 **Documentado**: Código bem documentado
@@ -124,21 +139,25 @@ hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
 ## Testes de Segurança
 
 ### **Cenário 1: Usuário com Assinatura Ativa**
+
 - ✅ Acesso a todas as divisões
 - ✅ Logging de acesso autorizado
 
 ### **Cenário 2: Usuário com 1 Tratado Comprado**
+
 - ✅ Acesso apenas ao tratado comprado
 - ❌ Acesso negado a outros tratados
 - ✅ Interface clara de acesso negado
 
 ### **Cenário 3: Usuário sem Acesso**
+
 - ❌ Acesso negado a todas as divisões
 - ✅ Redirecionamento para planos
 
 ## Monitoramento
 
 ### **Logs de Segurança**
+
 ```javascript
 🔒 DIVISION ACCESS GUARD: {
   divisionId: "outro-tratado-id",
@@ -148,6 +167,7 @@ hasAccess = hasActiveSubscription || hasPurchasedThisSpecificDivision
 ```
 
 ### **Métricas Importantes**
+
 - Tentativas de acesso não autorizado
 - Divisões mais acessadas
 - Padrões de uso por usuário

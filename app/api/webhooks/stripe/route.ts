@@ -11,7 +11,7 @@ const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!
 
 export async function POST(req: Request) {
   console.log('🔔 WEBHOOK CHAMADO:', new Date().toISOString())
-  
+
   const supabase = createClient()
   const body = await req.text()
   const signature = headers().get('stripe-signature') as string
@@ -57,8 +57,10 @@ export async function POST(req: Request) {
 
       // Verificar se é compra única de tratado
       if (purchaseType === 'treatise-purchase' && divisionId && bookId) {
-        console.log('📚 PROCESSANDO COMPRA ÚNICA DE TRATADO - Iniciando inserção na purchased_books')
-        
+        console.log(
+          '📚 PROCESSANDO COMPRA ÚNICA DE TRATADO - Iniciando inserção na purchased_books'
+        )
+
         const expiresAt = new Date()
         expiresAt.setMonth(expiresAt.getMonth() + 1)
 
@@ -81,7 +83,7 @@ export async function POST(req: Request) {
           success: !purchaseError,
           data: insertData,
           error: purchaseError,
-          purchaseData
+          purchaseData,
         })
 
         if (purchaseError) {
@@ -92,7 +94,11 @@ export async function POST(req: Request) {
 
         return NextResponse.json({ received: true })
       } else {
-        console.log('⚠️ Não é compra única de tratado ou dados insuficientes:', { purchaseType, divisionId, bookId })
+        console.log('⚠️ Não é compra única de tratado ou dados insuficientes:', {
+          purchaseType,
+          divisionId,
+          bookId,
+        })
       }
 
       break
@@ -110,7 +116,7 @@ export async function POST(req: Request) {
         customerId,
         status: subscription.status,
         metadata: subscription.metadata,
-        subscriptionId: subscription.id
+        subscriptionId: subscription.id,
       })
 
       const { data: profile, error: profileError } = await supabase
@@ -133,7 +139,9 @@ export async function POST(req: Request) {
 
       // IGNORAR compras únicas que aparecem como subscription
       if (purchaseType === 'treatise-purchase') {
-        console.log('📚 ⚠️ COMPRA ÚNICA DETECTADA EM SUBSCRIPTION - IGNORANDO (já processada via payment_intent)')
+        console.log(
+          '📚 ⚠️ COMPRA ÚNICA DETECTADA EM SUBSCRIPTION - IGNORANDO (já processada via payment_intent)'
+        )
         return NextResponse.json({ received: true })
       }
 
@@ -159,18 +167,21 @@ export async function POST(req: Request) {
         created_at: new Date().toISOString(),
       }
 
-      console.log('💾 Dados da subscription para inserção na tabela subscriptions:', subscriptionData)
-      
+      console.log(
+        '💾 Dados da subscription para inserção na tabela subscriptions:',
+        subscriptionData
+      )
+
       const { data: insertData, error: insertError } = await supabase
         .from('subscriptions')
         .upsert(subscriptionData, { onConflict: 'user_id' })
         .select()
-      
+
       console.log('💾 RESULTADO DA INSERÇÃO - subscriptions:', {
         success: !insertError,
         data: insertData,
         error: insertError,
-        subscriptionData
+        subscriptionData,
       })
 
       if (insertError) {
@@ -178,7 +189,7 @@ export async function POST(req: Request) {
       } else {
         console.log('✅ SUCESSO: Subscription inserida na tabela subscriptions!')
       }
-      
+
       break
     }
 

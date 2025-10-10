@@ -7,6 +7,7 @@
 ## Como Funciona
 
 ### **1. Hook useAccessInfo**
+
 **Arquivo**: `hooks/useAccessInfo.ts`
 
 ```typescript
@@ -23,24 +24,26 @@ const hasAllAccess = hasActiveSubscription || accessibleDivisions === totalDivis
 ```
 
 ### **2. Componente AccessBadge**
+
 **Arquivo**: `components/AccessBadge.tsx`
 
 ```typescript
 // Lógica do badge:
 if (hasAllAccess) {
-  return "Acesso Completo" // Azul
+  return 'Acesso Completo' // Azul
 } else if (accessibleCount > 0) {
-  return "1/4 Tratados" // Laranja
+  return '1/4 Tratados' // Laranja
 } else {
-  return "Sem Acesso" // Cinza
+  return 'Sem Acesso' // Cinza
 }
 ```
 
 ### **3. Uso na Página**
+
 **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/page.tsx`
 
 ```typescript
-<DynamicAccessBadge 
+<DynamicAccessBadge
   accessInfo={userAccessInfo}
   fallbackText="Acesso Completo"
 />
@@ -49,6 +52,7 @@ if (hasAllAccess) {
 ## Estados Visuais
 
 ### **1. Acesso Completo (4/4)**
+
 ```
 ┌─────────────────────────┐
 │ ✓ Acesso Completo       │ ← Azul
@@ -56,6 +60,7 @@ if (hasAllAccess) {
 ```
 
 ### **2. Acesso Parcial (1/4)**
+
 ```
 ┌─────────────────────────┐
 │ ✓ 1/4 Tratados          │ ← Laranja
@@ -63,6 +68,7 @@ if (hasAllAccess) {
 ```
 
 ### **3. Sem Acesso (0/4)**
+
 ```
 ┌─────────────────────────┐
 │ 🔒 Sem Acesso           │ ← Cinza
@@ -72,6 +78,7 @@ if (hasAllAccess) {
 ## Verificação de Funcionamento
 
 ### **Logs de Debug**:
+
 ```javascript
 📊 INFORMAÇÕES DE ACESSO: {
   totalDivisions: 4,
@@ -84,6 +91,7 @@ if (hasAllAccess) {
 ```
 
 ### **Resultado Esperado**:
+
 - ✅ **Badge**: "✓ 1/4 Tratados" (laranja)
 - ✅ **Cards**: 3 com botão "Comprar Tratado" (verde)
 - ✅ **Cards**: 1 com botão "Acessar Tratado" (azul)
@@ -91,14 +99,17 @@ if (hasAllAccess) {
 ## Possíveis Problemas
 
 ### **1. Hook não está sendo chamado**
+
 - **Causa**: `book?.id` pode ser `undefined` inicialmente
 - **Solução**: O hook já trata isso com `bookId?: string`
 
 ### **2. Dados não estão carregando**
+
 - **Causa**: Problema na query do Supabase
 - **Solução**: Verificar logs de erro no console
 
 ### **3. Badge não está atualizando**
+
 - **Causa**: Estado não está sendo atualizado
 - **Solução**: Verificar se `userAccessInfo` está sendo passado corretamente
 
@@ -115,6 +126,7 @@ if (hasAllAccess) {
    - `hasAllAccess`: Deve ser false
 
 ### **Verificar Badge**:
+
 - **Se tem 1 tratado**: Deve mostrar "✓ 1/4 Tratados" (laranja)
 - **Se tem todos**: Deve mostrar "✓ Acesso Completo" (azul)
 - **Se não tem nenhum**: Deve mostrar "🔒 Sem Acesso" (cinza)
@@ -124,16 +136,19 @@ if (hasAllAccess) {
 ### **Se o badge não está aparecendo**:
 
 1. **Verificar se o hook está sendo chamado**:
+
 ```typescript
 console.log('userAccessInfo:', userAccessInfo)
 ```
 
 2. **Verificar se os dados estão corretos**:
+
 ```typescript
 console.log('book?.id:', book?.id)
 ```
 
 3. **Verificar se o componente está renderizando**:
+
 ```typescript
 console.log('DynamicAccessBadge renderizando')
 ```

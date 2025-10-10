@@ -5,15 +5,18 @@
 **Erro**: `Identifier 'session' has already been declared (67:18)`
 
 **Causa**: A variável `session` estava sendo declarada duas vezes no mesmo escopo:
+
 1. **Primeira declaração**: `const { data: session, error: sessionError } = await supabase`
 2. **Segunda declaração**: `const session = await stripe.checkout.sessions.create({`
 
 ## Solução Implementada
 
 ### **1. Renomeação de Variável**
+
 **Arquivo**: `app/api/direct-checkout/route.ts`
 
 #### **Antes (Incorreto)**:
+
 ```typescript
 // Buscar sessão no banco de dados
 const { data: session, error: sessionError } = await supabase
@@ -35,6 +38,7 @@ return NextResponse.redirect(session.url!)
 ```
 
 #### **Depois (Correto)**:
+
 ```typescript
 // Buscar sessão no banco de dados
 const { data: session, error: sessionError } = await supabase
@@ -58,12 +62,14 @@ return NextResponse.redirect(stripeSession.url!)
 ### **2. Benefícios da Correção**
 
 #### **Vantagens**:
+
 - ✅ **Sem conflitos**: Nomes de variáveis únicos
 - ✅ **Código limpo**: Sem erros de compilação
 - ✅ **Clareza**: Nomes descritivos e específicos
 - ✅ **Manutenibilidade**: Fácil de entender e modificar
 
 #### **Nomenclatura**:
+
 - ✅ **`session`**: Sessão do banco de dados (checkout_sessions)
 - ✅ **`stripeSession`**: Sessão do Stripe (checkout.sessions)
 - ✅ **Clareza**: Cada variável tem propósito específico
@@ -72,6 +78,7 @@ return NextResponse.redirect(stripeSession.url!)
 ## Verificação da Correção
 
 ### **Teste Manual**:
+
 1. **Iniciar servidor**: `npm run dev`
 2. **Acessar**: `/dashboard/biblioteca/shulchan-aruch`
 3. **Clicar**: "Comprar Tratado" em qualquer card
@@ -79,6 +86,7 @@ return NextResponse.redirect(stripeSession.url!)
 5. **Confirmar**: Se não há mais erros de compilação
 
 ### **Logs Esperados**:
+
 ```
 ✅ Sessão de checkout criada: [UUID]
 🚀 DIRETO PARA STRIPE - sessionToken: [UUID]

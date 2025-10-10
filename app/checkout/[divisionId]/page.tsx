@@ -6,7 +6,7 @@ import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Loader2, ArrowLeft, AlertCircle } from 'lucide-react'
+import { ArrowLeft, AlertCircle } from 'lucide-react'
 import Link from 'next/link'
 
 interface Division {
@@ -50,14 +50,15 @@ export default function CheckoutPage() {
       const cachedSession = localStorage.getItem(cacheKey)
       if (cachedSession) {
         const sessionData = JSON.parse(cachedSession)
-        if (Date.now() - sessionData.timestamp > 300000) { // 5 minutos
+        if (Date.now() - sessionData.timestamp > 300000) {
+          // 5 minutos
           localStorage.removeItem(cacheKey)
         }
       }
 
       try {
         const supabase = createClient()
-        
+
         // Buscar informações da divisão
         const { data: divisionData, error: divisionError } = await supabase
           .from('divisions')
@@ -90,11 +91,12 @@ export default function CheckoutPage() {
         const cacheKey = `checkout_${divisionId}_${user.id}`
         const cachedSession = localStorage.getItem(cacheKey)
         const now = Date.now()
-        
+
         // Se existe uma sessão nos últimos 2 minutos, usar ela
         if (cachedSession) {
           const sessionData = JSON.parse(cachedSession)
-          if (now - sessionData.timestamp < 120000) { // 2 minutos
+          if (now - sessionData.timestamp < 120000) {
+            // 2 minutos
             setTimeout(() => {
               setRedirecting(true)
               window.location.href = sessionData.checkoutUrl
@@ -110,9 +112,9 @@ export default function CheckoutPage() {
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ 
-              divisionId, 
-              userId: user.id 
+            body: JSON.stringify({
+              divisionId,
+              userId: user.id,
             }),
           })
 
@@ -123,21 +125,22 @@ export default function CheckoutPage() {
           }
 
           // Cachear a sessão no localStorage
-          localStorage.setItem(cacheKey, JSON.stringify({
-            checkoutUrl: data.checkoutUrl,
-            timestamp: now
-          }))
+          localStorage.setItem(
+            cacheKey,
+            JSON.stringify({
+              checkoutUrl: data.checkoutUrl,
+              timestamp: now,
+            })
+          )
 
           // Redirecionar para o Stripe após carregar os dados
           setTimeout(() => {
             setRedirecting(true)
             window.location.href = data.checkoutUrl
           }, 1000)
-
         } catch (error) {
           setError('Erro ao processar compra. Tente novamente.')
         }
-
       } catch (err) {
         setError('Erro ao carregar informações.')
       } finally {
@@ -152,7 +155,7 @@ export default function CheckoutPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="text-center">
-          <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent mx-auto mb-4"></div>
+          <div className="mx-auto mb-4 h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
           <p className="text-lg text-gray-600">Carregando informações do tratado...</p>
         </div>
       </div>
@@ -164,7 +167,7 @@ export default function CheckoutPage() {
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-red-50 to-red-100 p-4">
         <Card className="w-full max-w-md text-center">
           <CardHeader>
-            <div className="rounded-full bg-red-100 p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100 p-4">
               <AlertCircle className="h-8 w-8 text-red-600" />
             </div>
             <CardTitle className="text-2xl font-bold text-red-700">Erro</CardTitle>
@@ -172,7 +175,7 @@ export default function CheckoutPage() {
           </CardHeader>
           <CardContent>
             <Link href="/dashboard/biblioteca/shulchan-aruch">
-              <Button className="w-full mt-4" variant="outline">
+              <Button className="mt-4 w-full" variant="outline">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Voltar para Biblioteca
               </Button>
@@ -187,9 +190,11 @@ export default function CheckoutPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-green-50 to-emerald-100">
         <div className="text-center">
-          <div className="h-16 w-16 animate-spin rounded-full border-4 border-green-500 border-t-transparent mx-auto mb-4"></div>
+          <div className="mx-auto mb-4 h-16 w-16 animate-spin rounded-full border-4 border-green-500 border-t-transparent"></div>
           <p className="text-lg text-gray-600">Redirecionando para o pagamento...</p>
-          <p className="text-sm text-gray-500 mt-2">Você será direcionado para o Stripe em instantes</p>
+          <p className="mt-2 text-sm text-gray-500">
+            Você será direcionado para o Stripe em instantes
+          </p>
         </div>
       </div>
     )
@@ -206,17 +211,13 @@ export default function CheckoutPage() {
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              {division?.title}
-            </h3>
-            <p className="text-gray-600 mb-4">
-              por {book?.author}
-            </p>
+            <h3 className="mb-2 text-xl font-semibold text-gray-800">{division?.title}</h3>
+            <p className="mb-4 text-gray-600">por {book?.author}</p>
             <div className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
               R$ 29,90
             </div>
           </div>
-          
+
           <div className="text-sm text-gray-500">
             <p>Você será redirecionado para o Stripe em breve.</p>
             <p>Por favor, aguarde...</p>

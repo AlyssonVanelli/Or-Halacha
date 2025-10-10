@@ -212,7 +212,7 @@ export default function FaqPage() {
           <div className="container py-8">
             {/* Header */}
             <div className="mb-8">
-              <Link 
+              <Link
                 href="/dashboard"
                 className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
               >
@@ -224,9 +224,7 @@ export default function FaqPage() {
                   <HelpCircle className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-800">
-                    Perguntas Mais Frequentes
-                  </h1>
+                  <h1 className="text-4xl font-bold text-gray-800">Perguntas Mais Frequentes</h1>
                   <p className="mt-2 text-lg text-gray-600">
                     Comece por aqui - conceitos fundamentais do Judaísmo
                   </p>
@@ -240,11 +238,11 @@ export default function FaqPage() {
                 {FAQS.map((item, i) => (
                   <div
                     key={item.id}
-                    className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-lg transition-all duration-300 hover:shadow-xl hover:border-blue-200"
+                    className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-lg transition-all duration-300 hover:border-blue-200 hover:shadow-xl"
                   >
                     <button
                       onClick={() => toggle(i)}
-                      className="flex w-full items-center justify-between px-6 py-4 text-left transition-colors hover:bg-gray-50 group"
+                      className="group flex w-full items-center justify-between px-6 py-4 text-left transition-colors hover:bg-gray-50"
                     >
                       <h3 className="pr-4 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
                         {item.question}
@@ -310,11 +308,10 @@ export default function FaqPage() {
                       <HelpCircle className="h-8 w-8 text-white" />
                     </div>
                   </div>
-                  <h3 className="mb-2 text-2xl font-bold text-gray-800">
-                    Pronto para Aprofundar?
-                  </h3>
+                  <h3 className="mb-2 text-2xl font-bold text-gray-800">Pronto para Aprofundar?</h3>
                   <p className="mb-6 text-gray-600">
-                    Agora que você conhece os conceitos básicos, explore os tratados completos do Shulchan Aruch
+                    Agora que você conhece os conceitos básicos, explore os tratados completos do
+                    Shulchan Aruch
                   </p>
                   <Link href="/dashboard/biblioteca/shulchan-aruch">
                     <Button className="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-3 text-lg font-semibold shadow-lg transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl">

@@ -9,9 +9,11 @@
 ## Solução Implementada
 
 ### **1. Substituição por Função Nativa**
+
 **Arquivo**: `app/api/create-checkout-session/route.ts`
 
 #### **Antes (Incorreto)**:
+
 ```typescript
 import { v4 as uuidv4 } from 'uuid'
 
@@ -20,6 +22,7 @@ const sessionToken = uuidv4()
 ```
 
 #### **Depois (Correto)**:
+
 ```typescript
 import { randomUUID } from 'crypto'
 
@@ -30,12 +33,14 @@ const sessionToken = randomUUID()
 ### **2. Benefícios da Mudança**
 
 #### **Vantagens**:
+
 - ✅ **Sem dependências externas**: Usa função nativa do Node.js
 - ✅ **Performance**: Mais rápido que bibliotecas externas
 - ✅ **Segurança**: Função criptograficamente segura
 - ✅ **Compatibilidade**: Funciona em todas as versões do Node.js
 
 #### **Funcionalidade**:
+
 - ✅ **UUID v4**: Gera identificadores únicos
 - ✅ **Criptograficamente seguro**: Adequado para tokens
 - ✅ **Formato padrão**: `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx`
@@ -44,18 +49,21 @@ const sessionToken = randomUUID()
 ## Comparação de Implementações
 
 ### **Método Antigo (uuid package)**:
+
 ```typescript
 import { v4 as uuidv4 } from 'uuid'
 const sessionToken = uuidv4()
 ```
 
 ### **Método Novo (crypto nativo)**:
+
 ```typescript
 import { randomUUID } from 'crypto'
 const sessionToken = randomUUID()
 ```
 
 ### **Resultado**:
+
 - ✅ **Mesmo formato**: UUID v4 padrão
 - ✅ **Mesma segurança**: Criptograficamente seguro
 - ✅ **Melhor performance**: Sem overhead de dependência
@@ -64,6 +72,7 @@ const sessionToken = randomUUID()
 ## Verificação da Correção
 
 ### **Teste Manual**:
+
 1. **Iniciar servidor**: `npm run dev`
 2. **Acessar**: `/dashboard/biblioteca/shulchan-aruch`
 3. **Clicar**: "Comprar Tratado" em qualquer card
@@ -71,6 +80,7 @@ const sessionToken = randomUUID()
 5. **Confirmar**: Se não há mais erros de módulo
 
 ### **Logs Esperados**:
+
 ```
 ✅ Sessão de checkout criada: [UUID]
 🚀 DIRETO PARA STRIPE - sessionToken: [UUID]

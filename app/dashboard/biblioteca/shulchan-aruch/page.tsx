@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
-import { DynamicAccessBadge } from '@/components/AccessBadge'
+// import { DynamicAccessBadge } from '@/components/AccessBadge'
 import { ScreenCaptureProtection } from '@/components/ScreenCaptureProtection'
 import { useAccessInfo } from '@/hooks/useAccessInfo'
 import Link from 'next/link'
@@ -41,43 +41,43 @@ export default function ShulchanAruchPage() {
   const [purchasedBooks, setPurchasedBooks] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [processingPurchase, setProcessingPurchase] = useState<string | null>(null)
-  
+
   // Usar o hook para informações de acesso
-  const { accessInfo: userAccessInfo } = useAccessInfo(book?.id)
+  // const { accessInfo: userAccessInfo } = useAccessInfo(book?.id)
 
   useEffect(() => {
     async function loadData() {
       if (!user) return
-      
+
       try {
         const supabase = createClient()
-        
+
         // Carregar livro Shulchan Aruch
         const { data: bookData, error: bookError } = await supabase
           .from('books')
           .select('*')
           .eq('title', 'Shulchan Aruch')
           .single()
-        
+
         if (bookError) {
           return
         }
-        
+
         setBook(bookData)
-        
+
         // Carregar divisões do livro
         const { data: divisionsData, error: divisionsError } = await supabase
           .from('divisions')
           .select('*')
           .eq('book_id', bookData.id)
           .order('position')
-        
+
         if (divisionsError) {
           return
         }
-        
+
         setDivisions(divisionsData || [])
-        
+
         // Carregar assinatura
         const { data: subscriptionData } = await supabase
           .from('subscriptions')
@@ -85,44 +85,43 @@ export default function ShulchanAruchPage() {
           .eq('user_id', user.id)
           .eq('status', 'active')
           .maybeSingle()
-        
+
         setSubscription(subscriptionData)
-        
+
         // Carregar livros comprados
         const { data: purchasedData } = await supabase
           .from('purchased_books')
           .select('division_id, expires_at')
           .eq('user_id', user.id)
-        
+
         if (purchasedData) {
           const ativos = purchasedData.filter(pb => new Date(pb.expires_at) > new Date())
           setPurchasedBooks(ativos.map(pb => pb.division_id))
         }
-        
       } catch (error) {
       } finally {
         setLoading(false)
       }
     }
-    
+
     loadData()
   }, [user])
 
-  const hasActiveSubscription = !!subscription && new Date(subscription.current_period_end) > new Date()
+  const hasActiveSubscription =
+    !!subscription && new Date(subscription.current_period_end) > new Date()
   const hasPlusFeatures = hasActiveSubscription && !!subscription?.explicacao_pratica
   const hasAccess = hasActiveSubscription || purchasedBooks.length > 0
-
 
   // Calcular porcentagem de acesso
   const calculateAccessPercentage = () => {
     if (hasActiveSubscription) {
       return 100 // Assinatura ativa = acesso completo
     }
-    
+
     if (purchasedBooks.length === 0) {
       return 0 // Nenhum tratado comprado
     }
-    
+
     // Calcular porcentagem baseada nos tratados comprados
     const totalDivisions = divisions.length
     const purchasedDivisions = purchasedBooks.length
@@ -147,16 +146,12 @@ export default function ShulchanAruchPage() {
       <DashboardAccessGuard>
         <div className="flex min-h-screen items-center justify-center">
           <div className="text-center">
-            <h2 className="mb-4 text-2xl font-bold text-gray-800">
-              Acesso Restrito
-            </h2>
+            <h2 className="mb-4 text-2xl font-bold text-gray-800">Acesso Restrito</h2>
             <p className="mb-6 text-gray-600">
               Você precisa de uma assinatura para acessar este conteúdo.
             </p>
             <Link href="/dashboard">
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Ver Planos
-              </Button>
+              <Button className="bg-blue-600 hover:bg-blue-700">Ver Planos</Button>
             </Link>
           </div>
         </div>
@@ -172,7 +167,7 @@ export default function ShulchanAruchPage() {
           <div className="container py-8">
             {/* Header */}
             <div className="mb-8">
-              <Link 
+              <Link
                 href="/dashboard"
                 className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
               >
@@ -184,12 +179,8 @@ export default function ShulchanAruchPage() {
                   <Book className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-800">
-                    {book?.title}
-                  </h1>
-                  <p className="mt-2 text-lg text-gray-600">
-                    por {book?.author}
-                  </p>
+                  <h1 className="text-4xl font-bold text-gray-800">{book?.title}</h1>
+                  <p className="mt-2 text-lg text-gray-600">por {book?.author}</p>
                 </div>
               </div>
             </div>
@@ -208,7 +199,9 @@ export default function ShulchanAruchPage() {
                 </div>
               </div>
 
-              <div className={`rounded-xl bg-gradient-to-r ${accessPercentage === 100 ? 'from-green-500 to-green-600' : accessPercentage > 0 ? 'from-yellow-500 to-orange-500' : 'from-gray-400 to-gray-500'} p-6 text-white`}>
+              <div
+                className={`rounded-xl bg-gradient-to-r ${accessPercentage === 100 ? 'from-green-500 to-green-600' : accessPercentage > 0 ? 'from-yellow-500 to-orange-500' : 'from-gray-400 to-gray-500'} p-6 text-white`}
+              >
                 <div className="flex items-center">
                   <div className="rounded-full bg-white/20 p-3">
                     {accessPercentage === 100 ? (
@@ -228,7 +221,9 @@ export default function ShulchanAruchPage() {
                 </div>
               </div>
 
-              <div className={`rounded-xl bg-gradient-to-r ${hasPlusFeatures ? 'from-purple-500 to-purple-600' : 'from-gray-400 to-gray-500'} p-6 text-white`}>
+              <div
+                className={`rounded-xl bg-gradient-to-r ${hasPlusFeatures ? 'from-purple-500 to-purple-600' : 'from-gray-400 to-gray-500'} p-6 text-white`}
+              >
                 <div className="flex items-center">
                   <div className="rounded-full bg-white/20 p-3">
                     <CheckCircle className="h-6 w-6" />
@@ -243,22 +238,21 @@ export default function ShulchanAruchPage() {
 
             {/* Grid de Tratados */}
             <div className="mx-auto max-w-6xl">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center">
+              <div className="grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 lg:grid-cols-4">
                 {divisions.map((div, index) => {
                   const unlocked = hasActiveSubscription || purchasedBooks.includes(div.id)
-                  
-                  
+
                   const colors = [
                     'from-blue-500 to-blue-600',
-                    'from-green-500 to-green-600', 
+                    'from-green-500 to-green-600',
                     'from-purple-500 to-purple-600',
-                    'from-orange-500 to-orange-600'
+                    'from-orange-500 to-orange-600',
                   ]
-                  
+
                   return (
                     <div
                       key={div.id}
-                      className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 w-full max-w-sm"
+                      className="group relative w-full max-w-sm overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
                     >
                       {/* Header com gradiente */}
                       <div className={`h-24 bg-gradient-to-r ${colors[index % colors.length]} p-6`}>
@@ -276,15 +270,13 @@ export default function ShulchanAruchPage() {
 
                       {/* Conteúdo do card */}
                       <div className="p-6">
-                        <h3 className="mb-2 text-xl font-bold text-gray-800">
-                          {div.title}
-                        </h3>
+                        <h3 className="mb-2 text-xl font-bold text-gray-800">{div.title}</h3>
                         {div.description && (
-                          <p className="mb-4 text-sm text-gray-600 line-clamp-2">
+                          <p className="mb-4 line-clamp-2 text-sm text-gray-600">
                             {div.description}
                           </p>
                         )}
-                        
+
                         {/* Badges de recursos - apenas se tiver acesso */}
                         {unlocked && (
                           <div className="mb-4 flex flex-wrap gap-2">
@@ -307,7 +299,7 @@ export default function ShulchanAruchPage() {
                         {unlocked ? (
                           <Link
                             href={`/dashboard/biblioteca/shulchan-aruch/${div.id}`}
-                            className={`block w-full rounded-lg bg-gradient-to-r ${colors[index % colors.length]} px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 hover:shadow-lg hover:scale-105`}
+                            className={`block w-full rounded-lg bg-gradient-to-r ${colors[index % colors.length]} px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg`}
                           >
                             Acessar Tratado
                           </Link>
@@ -320,7 +312,7 @@ export default function ShulchanAruchPage() {
                             <button
                               onClick={async () => {
                                 if (processingPurchase) return // Evitar múltiplos cliques
-                                
+
                                 setProcessingPurchase(div.id)
                                 try {
                                   // Redirecionar para página intermediária que então vai para o Stripe
@@ -330,8 +322,8 @@ export default function ShulchanAruchPage() {
                                 }
                               }}
                               disabled={processingPurchase === div.id}
-                              className={`block w-full rounded-lg bg-gradient-to-r from-green-500 to-green-600 px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 hover:shadow-lg hover:scale-105 flex items-center justify-center gap-2 ${
-                                processingPurchase === div.id ? 'opacity-75 cursor-not-allowed' : ''
+                              className={`block flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-green-500 to-green-600 px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 hover:scale-105 hover:shadow-lg ${
+                                processingPurchase === div.id ? 'cursor-not-allowed opacity-75' : ''
                               }`}
                             >
                               {processingPurchase === div.id ? (

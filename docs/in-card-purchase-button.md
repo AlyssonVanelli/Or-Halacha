@@ -11,6 +11,7 @@
 ### **Interface do Card Atualizada**
 
 #### **Para Tratados com Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -22,6 +23,7 @@
 ```
 
 #### **Para Tratados sem Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -36,6 +38,7 @@
 ### **Características do Botão de Compra**
 
 #### **Design**:
+
 - ✅ **Cor verde**: Diferencia do botão de acesso (azul)
 - ✅ **Ícone de carrinho**: Visual claro de compra
 - ✅ **Gradiente**: `from-green-500 to-green-600`
@@ -43,6 +46,7 @@
 - ✅ **Responsivo**: Funciona em mobile e desktop
 
 #### **Funcionalidade**:
+
 - ✅ **Link direto**: `/payment?divisionId=${div.id}`
 - ✅ **ID específico**: Cada tratado tem seu ID único
 - ✅ **Página de compra**: Redireciona para página de pagamento
@@ -51,6 +55,7 @@
 ## Código Implementado
 
 ### **Estrutura do Card**:
+
 ```typescript
 {unlocked ? (
   // Botão de acesso (azul)
@@ -73,6 +78,7 @@
 ```
 
 ### **Estilos do Botão**:
+
 ```css
 /* Botão de compra */
 bg-gradient-to-r from-green-500 to-green-600
@@ -86,18 +92,21 @@ flex items-center justify-center gap-2
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Ação direta**: Compra sem sair da página principal
 - 💡 **Contexto claro**: Sabe exatamente qual tratado está comprando
 - 🚀 **Facilidade**: Um clique para comprar
 - 📱 **Responsivo**: Funciona em qualquer dispositivo
 
 ### **Para o Negócio**:
+
 - 📈 **Maior conversão**: Botão visível e acessível
 - 💰 **Upsell direto**: Incentivo imediato para compra
 - 🎨 **UX profissional**: Interface moderna e confiável
 - 📊 **Analytics**: Rastreamento de cliques por tratado
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código limpo**: Lógica simples e clara
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Fácil de atualizar
@@ -106,6 +115,7 @@ flex items-center justify-center gap-2
 ## Estados Visuais
 
 ### **1. Tratado com Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ ✓ [Acesso Completo]     │
@@ -117,6 +127,7 @@ flex items-center justify-center gap-2
 ```
 
 ### **2. Tratado sem Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ ✓ [2/4 Tratados]        │
@@ -134,7 +145,7 @@ flex items-center justify-center gap-2
 
 1. **Página principal**: `/dashboard/biblioteca/shulchan-aruch`
 2. **Cards visíveis**: 4 tratados (Orach Chayim, Yoreh De'ah, Even HaEzer, Choshen Mishpat)
-3. **Status visual**: 
+3. **Status visual**:
    - ✅ **Choshen Mishpat**: "Acessar Tratado" (azul)
    - 🔒 **Outros 3**: "Comprar Tratado" (verde)
 4. **Ação do usuário**: Clica em "Comprar Tratado"

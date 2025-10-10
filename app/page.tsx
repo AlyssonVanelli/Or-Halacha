@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, BookOpen, Search, Star } from 'lucide-react'
-import { ParashaSemanal } from './components/parasha-semanal'
+// import { ParashaSemanal } from './components/parasha-semanal'
 import { SimanDoDia } from './components/siman-do-dia'
 import FaqAccordion from './components/FaqAccordion'
 import { HeaderSimplificado } from '@/components/DashboardHeader'
@@ -18,11 +18,40 @@ export default function Home() {
   const { user, loading } = useAuth()
   const router = useRouter()
 
+  // Estados para carregar dados dinamicamente
+  const [siman, setSiman] = useState(null)
+  const [simanLoading, setSimanLoading] = useState(true)
+
   useEffect(() => {
     if (!loading && user) {
       router.replace('/dashboard')
     }
   }, [user, loading, router])
+
+  // Carregar dados do siman do dia e parashá
+  useEffect(() => {
+    async function loadData() {
+      try {
+        // Carregar dados do siman
+        const simanResponse = await fetch('/api/siman-do-dia', {
+          cache: 'force-cache',
+          next: { revalidate: 3600 }, // Cache por 1 hora
+        })
+
+        // Processar resposta do siman
+        if (simanResponse.ok) {
+          const simanData = await simanResponse.json()
+          setSiman(simanData)
+        }
+        setSimanLoading(false)
+      } catch (error) {
+        console.error('Erro ao carregar dados:', error)
+        setSimanLoading(false)
+      }
+    }
+
+    loadData()
+  }, [])
 
   if (loading) {
     return (
@@ -36,50 +65,6 @@ export default function Home() {
   if (user) {
     return null // Redirecionando para dashboard
   }
-
-  // Estados para carregar dados dinamicamente
-  const [parasha, setParasha] = useState(null)
-  const [siman, setSiman] = useState(null)
-  const [dataLoading, setDataLoading] = useState(true)
-  const [simanLoading, setSimanLoading] = useState(true)
-
-  // Carregar dados do siman do dia e parashá
-  useEffect(() => {
-    async function loadData() {
-      try {
-        // Carregar dados em paralelo para otimizar performance
-        const [simanResponse, parashaResponse] = await Promise.allSettled([
-          fetch('/api/siman-do-dia', { 
-            cache: 'force-cache',
-            next: { revalidate: 3600 } // Cache por 1 hora
-          }),
-          fetch('/api/parasha-semanal', { 
-            cache: 'force-cache',
-            next: { revalidate: 3600 } // Cache por 1 hora
-          })
-        ])
-
-        // Processar resposta do siman
-        if (simanResponse.status === 'fulfilled' && simanResponse.value.ok) {
-          const simanData = await simanResponse.value.json()
-          setSiman(simanData)
-        }
-        setSimanLoading(false)
-        
-        // Processar resposta da parashá
-        if (parashaResponse.status === 'fulfilled' && parashaResponse.value.ok) {
-          const parashaData = await parashaResponse.value.json()
-          setParasha(parashaData)
-        }
-      } catch (error) {
-        console.error('Erro ao carregar dados:', error)
-      } finally {
-        setDataLoading(false)
-      }
-    }
-    
-    loadData()
-  }, [])
 
   return (
     <>
@@ -104,7 +89,7 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-4">
-                    <h1 className="bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent text-no-clip sm:text-5xl md:text-6xl">
+                    <h1 className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl">
                       Shulchan Aruch em Português
                     </h1>
                     <p className="max-w-[700px] text-lg leading-relaxed text-gray-600">
@@ -216,18 +201,24 @@ export default function Home() {
               </div>
               <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-5 xl:gap-12">
                 {/* Tratado Avulso */}
-                <div className="flex flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950 h-full">
-                  <div className="flex flex-col items-start mb-4">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">Tratado<br />Avulso</h3>
+                <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
+                  <div className="mb-4 flex flex-col items-start">
+                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                      Tratado
+                      <br />
+                      Avulso
+                    </h3>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 29,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por 1 mês</div>
                   </div>
-                  <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 mb-6">
-                    Acesso a 1 tratado principal<br />
-                    do Shulchan Aruch<br />
+                  <div className="mb-6 mt-1 text-xs text-gray-500 dark:text-gray-400">
+                    Acesso a 1 tratado principal
+                    <br />
+                    do Shulchan Aruch
+                    <br />
                     por período limitado
                   </div>
-                  <ul className="space-y-2 flex-grow">
+                  <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Leitura por 1 mês
                     </li>
@@ -250,18 +241,24 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Mensal Básico */}
-                <div className="flex flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950 h-full">
-                  <div className="flex flex-col items-start mb-4">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">Mensal<br />Básico</h3>
+                <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
+                  <div className="mb-4 flex flex-col items-start">
+                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                      Mensal
+                      <br />
+                      Básico
+                    </h3>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 99,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
-                  <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 mb-6">
-                    Acesso completo à biblioteca<br />
-                    de Halachá com pesquisa<br />
+                  <div className="mb-6 mt-1 text-xs text-gray-500 dark:text-gray-400">
+                    Acesso completo à biblioteca
+                    <br />
+                    de Halachá com pesquisa
+                    <br />
                     avançada e favoritos
                   </div>
-                  <ul className="space-y-2 flex-grow">
+                  <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Acesso à Halachá traduzida
                     </li>
@@ -276,7 +273,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <div className="mt-6">
-                    <SubscriptionButton 
+                    <SubscriptionButton
                       planType="mensal-basico"
                       className="w-full bg-gradient-to-r from-blue-600 to-blue-700 shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
                     >
@@ -285,18 +282,24 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Anual Básico */}
-                <div className="flex flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950 h-full">
-                  <div className="flex flex-col items-start mb-4">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">Anual<br />Básico</h3>
+                <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
+                  <div className="mb-4 flex flex-col items-start">
+                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                      Anual
+                      <br />
+                      Básico
+                    </h3>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 79,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
-                  <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 mb-6">
-                    Cobrança anual de R$ 958,80<br />
-                    (pode parcelar no cartão)<br />
+                  <div className="mb-6 mt-1 text-xs text-gray-500 dark:text-gray-400">
+                    Cobrança anual de R$ 958,80
+                    <br />
+                    (pode parcelar no cartão)
+                    <br />
                     Economia de 20% no plano anual
                   </div>
-                  <ul className="space-y-2 flex-grow">
+                  <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Acesso à Halachá traduzida
                     </li>
@@ -311,7 +314,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <div className="mt-6">
-                    <SubscriptionButton 
+                    <SubscriptionButton
                       planType="anual-basico"
                       className="w-full bg-gradient-to-r from-blue-600 to-blue-700 shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
                     >
@@ -320,18 +323,24 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Mensal Plus */}
-                <div className="flex flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950 h-full">
-                  <div className="flex flex-col items-start mb-4">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">Mensal<br />Plus</h3>
+                <div className="flex h-full flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
+                  <div className="mb-4 flex flex-col items-start">
+                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                      Mensal
+                      <br />
+                      Plus
+                    </h3>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 119,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
-                  <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 mb-6">
-                    Inclui explicações práticas<br />
-                    da Halachá para o dia a dia<br />
+                  <div className="mb-6 mt-1 text-xs text-gray-500 dark:text-gray-400">
+                    Inclui explicações práticas
+                    <br />
+                    da Halachá para o dia a dia
+                    <br />
                     com exemplos e aplicações
                   </div>
-                  <ul className="space-y-2 flex-grow">
+                  <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Tudo do plano Mensal
                     </li>
@@ -347,7 +356,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <div className="mt-6">
-                    <SubscriptionButton 
+                    <SubscriptionButton
                       planType="mensal-plus"
                       className="w-full bg-gradient-to-r from-blue-600 to-blue-700 shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
                     >
@@ -356,18 +365,24 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Anual Plus */}
-                <div className="flex flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950 h-full">
-                  <div className="flex flex-col items-start mb-4">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">Anual<br />Plus</h3>
+                <div className="flex h-full flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
+                  <div className="mb-4 flex flex-col items-start">
+                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                      Anual
+                      <br />
+                      Plus
+                    </h3>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 89,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
-                  <div className="mt-1 text-xs text-gray-500 dark:text-gray-400 mb-6">
-                    Cobrança anual de R$ 1.078,80<br />
-                    (pode parcelar no cartão)<br />
+                  <div className="mb-6 mt-1 text-xs text-gray-500 dark:text-gray-400">
+                    Cobrança anual de R$ 1.078,80
+                    <br />
+                    (pode parcelar no cartão)
+                    <br />
                     Economia de 20% no plano anual
                   </div>
-                  <ul className="space-y-2 flex-grow">
+                  <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Tudo do plano Anual
                     </li>
@@ -383,7 +398,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <div className="mt-6">
-                    <SubscriptionButton 
+                    <SubscriptionButton
                       planType="anual-plus"
                       className="w-full bg-gradient-to-r from-blue-600 to-blue-700 shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
                     >
@@ -407,35 +422,35 @@ export default function Home() {
                   <tbody>
                     <tr>
                       <td className="p-3">Favoritos e marcadores</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
                     </tr>
                     <tr>
                       <td className="p-3">Acesso completo à biblioteca</td>
-                      <td className="p-3 text-center text-red-500 text-xl">✗</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
+                      <td className="p-3 text-center text-xl text-red-500">✗</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
                     </tr>
                     <tr>
                       <td className="p-3">Pesquisa avançada</td>
-                      <td className="p-3 text-center text-red-500 text-xl">✗</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
+                      <td className="p-3 text-center text-xl text-red-500">✗</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
                     </tr>
                     <tr>
                       <td className="p-3">Explicações práticas</td>
-                      <td className="p-3 text-center text-red-500 text-xl">✗</td>
-                      <td className="p-3 text-center text-red-500 text-xl">✗</td>
-                      <td className="p-3 text-center text-red-500 text-xl">✗</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
-                      <td className="p-3 text-center text-green-500 text-xl">✓</td>
+                      <td className="p-3 text-center text-xl text-red-500">✗</td>
+                      <td className="p-3 text-center text-xl text-red-500">✗</td>
+                      <td className="p-3 text-center text-xl text-red-500">✗</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
+                      <td className="p-3 text-center text-xl text-green-500">✓</td>
                     </tr>
                     <tr>
                       <td className="p-3">Preço</td>

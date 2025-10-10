@@ -136,7 +136,7 @@ function SimanPageContent({
         let lastNumber = 1
         let encontrouSeif = false
         let primeiro = true
-        
+
         while ((match = regex.exec(siman.content.content)) !== null) {
           encontrouSeif = true
           const number = parseInt(match[1] ?? '0', 10)
@@ -151,14 +151,14 @@ function SimanPageContent({
           lastNumber = number
           lastIndex = match.index + match[0].length
         }
-        
+
         if (encontrouSeif && lastIndex < siman.content.content.length) {
           const text = siman.content.content.slice(lastIndex).trim()
           if (text) {
             seifim.push({ number: lastNumber, text })
           }
         }
-        
+
         // Se não encontrou seif numerado, dividir por parágrafos
         if (!encontrouSeif) {
           const paragrafos = siman.content.content
@@ -172,7 +172,7 @@ function SimanPageContent({
             })
           })
         }
-        
+
         // Encontrar o seif específico
         const seifEncontrado = seifim.find(s => s.number === seifNumber)
         if (seifEncontrado) {
@@ -325,23 +325,36 @@ function SimanPageContent({
                 className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
               >
                 <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
                 </svg>
                 Voltar para a lista de Simanim
               </Link>
               <div className="flex items-center gap-4">
                 <div className="rounded-full bg-blue-500 p-3">
-                  <svg className="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  <svg
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                    />
                   </svg>
                 </div>
                 <div>
                   <h1 className="text-4xl font-bold text-gray-800">
                     {simanContentTitle || 'Siman'}
                   </h1>
-                  <p className="mt-2 text-lg text-gray-600">
-                    Clique em um seif para ver detalhes
-                  </p>
+                  <p className="mt-2 text-lg text-gray-600">Clique em um seif para ver detalhes</p>
                 </div>
               </div>
             </div>
@@ -399,7 +412,7 @@ function SimanPageContent({
                       return seifim.map((seif, idx) => (
                         <div
                           key={seif.number + '-' + idx} // Garante key única
-                          className="group mb-4 cursor-pointer select-none rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:border-blue-300 hover:shadow-md hover:scale-[1.02]"
+                          className="group mb-4 cursor-pointer select-none rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:scale-[1.02] hover:border-blue-300 hover:shadow-md"
                           onClick={() => {
                             setSelectedSeif({ number: seif.number, text: seif.text })
                             setModalOpen(true)
@@ -410,9 +423,11 @@ function SimanPageContent({
                               {seif.number}
                             </div>
                             <div className="flex-1">
-                              <div className="text-gray-800 leading-relaxed">
+                              <div className="leading-relaxed text-gray-800">
                                 <span
-                                  dangerouslySetInnerHTML={{ __html: seif.text.replace(/\n/g, '<br>') }}
+                                  dangerouslySetInnerHTML={{
+                                    __html: seif.text.replace(/\n/g, '<br>'),
+                                  }}
                                 />
                               </div>
                               <div className="mt-2 text-sm text-gray-500 opacity-0 transition-opacity group-hover:opacity-100">
@@ -453,7 +468,7 @@ function SimanPageContent({
               </div>
               {/* Modal de opções do seif */}
               <Dialog open={modalOpen} onOpenChange={setModalOpen}>
-                <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+                <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>O que deseja fazer?</DialogTitle>
                   </DialogHeader>
@@ -517,7 +532,7 @@ function SimanPageContent({
                   if (!open) setExplicacao('')
                 }}
               >
-                <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+                <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>Explicação Prática</DialogTitle>
                   </DialogHeader>

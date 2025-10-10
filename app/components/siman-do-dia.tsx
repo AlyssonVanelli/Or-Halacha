@@ -33,12 +33,12 @@ export function SimanDoDia({ siman }: SimanDoDiaProps) {
               <span className="mb-1 block text-xs text-muted-foreground">{siman.tratado}</span>
             )}
             <h3 className="mb-1 text-base font-semibold">Siman {siman.numero}</h3>
-            {siman.titulo && 
-             siman.titulo !== `Siman ${siman.numero}` && 
-             !siman.titulo.includes(`Siman ${siman.numero}`) && 
-             !siman.titulo.includes(`Siman ${siman.numero.toString().padStart(3, '0')}`) && (
-              <p className="text-xs text-muted-foreground">{siman.titulo}</p>
-            )}
+            {siman.titulo &&
+              siman.titulo !== `Siman ${siman.numero}` &&
+              !siman.titulo.includes(`Siman ${siman.numero}`) &&
+              !siman.titulo.includes(`Siman ${siman.numero.toString().padStart(3, '0')}`) && (
+                <p className="text-xs text-muted-foreground">{siman.titulo}</p>
+              )}
             {siman.extractedTitle && (
               <div className="mt-3 rounded-lg border-l-4 border-amber-500 bg-gradient-to-r from-amber-50 to-orange-50 p-3 shadow-sm">
                 <p className="text-sm font-medium italic text-amber-800">{siman.extractedTitle}</p>

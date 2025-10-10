@@ -37,7 +37,7 @@ export function SubscriptionButton({ planType, children, className }: Subscripti
           cancelUrl: `${window.location.origin}/dashboard`,
         }),
       })
-      
+
       const data = await response.json()
       if (data.url) {
         window.location.href = data.url
@@ -52,11 +52,7 @@ export function SubscriptionButton({ planType, children, className }: Subscripti
   }
 
   return (
-    <Button 
-      onClick={handleClick}
-      disabled={loading}
-      className={className}
-    >
+    <Button onClick={handleClick} disabled={loading} className={className}>
       {loading ? 'Processando...' : children}
     </Button>
   )

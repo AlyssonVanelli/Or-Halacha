@@ -9,9 +9,11 @@
 ## Solução Implementada
 
 ### **1. Componente de Proteção**
+
 **Arquivo**: `components/ScreenCaptureProtection.tsx`
 
 #### **Funcionalidades**:
+
 - ✅ **Bloqueio de seleção**: Impede seleção de texto
 - ✅ **Bloqueio de menu de contexto**: Impede botão direito
 - ✅ **Bloqueio de teclas**: Impede F12, Ctrl+Shift+I, etc.
@@ -19,6 +21,7 @@
 - ✅ **Detecção de mudança de app**: Blur quando sai do app
 
 #### **Proteções Implementadas**:
+
 ```typescript
 // Bloquear seleção de texto
 const handleSelectStart = (e: Event) => {
@@ -44,6 +47,7 @@ const handleKeyDown = (e: KeyboardEvent) => {
 ### **2. CSS de Proteção**
 
 #### **Bloqueio de Seleção**:
+
 ```css
 * {
   -webkit-user-select: none !important;
@@ -56,13 +60,14 @@ const handleKeyDown = (e: KeyboardEvent) => {
 ```
 
 #### **Bloqueio de Impressão**:
+
 ```css
 @media print {
   body * {
     visibility: hidden !important;
   }
   body::before {
-    content: "Conteúdo protegido contra impressão" !important;
+    content: 'Conteúdo protegido contra impressão' !important;
     visibility: visible !important;
   }
 }
@@ -71,6 +76,7 @@ const handleKeyDown = (e: KeyboardEvent) => {
 ### **3. Detecção de Mudança de App**
 
 #### **Android/iOS**:
+
 ```typescript
 const handleVisibilityChange = () => {
   if (document.hidden) {
@@ -88,18 +94,21 @@ const handleVisibilityChange = () => {
 ## Benefícios Alcançados
 
 ### **Para o Conteúdo**:
+
 - 🎯 **Proteção de texto**: Impede seleção e cópia
 - 💡 **Proteção de imagem**: Blur quando sai do app
 - 🚀 **Proteção de impressão**: Bloqueia impressão
 - 📱 **Proteção de teclas**: Impede atalhos de desenvolvedor
 
 ### **Para o Negócio**:
+
 - 📈 **Proteção de IP**: Conteúdo protegido contra vazamento
 - 💰 **Maior valor**: Conteúdo exclusivo e protegido
 - 🎨 **UX profissional**: Sistema de segurança robusto
 - 📊 **Controle de acesso**: Apenas usuários autenticados
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código modular**: Componente reutilizável
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Código bem documentado
@@ -108,11 +117,13 @@ const handleVisibilityChange = () => {
 ## Páginas Protegidas
 
 ### **1. Lista de Tratados**
+
 - ✅ **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/page.tsx`
 - ✅ **Proteção**: Conteúdo dos cards protegido
 - ✅ **Funcionalidade**: Seleção e captura bloqueadas
 
 ### **2. Páginas de Divisão**
+
 - ✅ **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/[divisaoId]/page.tsx`
 - ✅ **Proteção**: Conteúdo das divisões protegido
 - ✅ **Funcionalidade**: Texto e imagens protegidos
@@ -120,12 +131,14 @@ const handleVisibilityChange = () => {
 ## Limitações Conhecidas
 
 ### **O que NÃO pode ser bloqueado**:
+
 - ❌ **Screenshots nativos**: Alguns dispositivos podem contornar
 - ❌ **Apps de terceiros**: Alguns apps podem capturar
 - ❌ **Root/Jailbreak**: Dispositivos modificados podem contornar
 - ❌ **Ferramentas avançadas**: Desenvolvedores podem contornar
 
 ### **O que PODE ser bloqueado**:
+
 - ✅ **Seleção de texto**: Impedida completamente
 - ✅ **Menu de contexto**: Bloqueado
 - ✅ **Teclas de atalho**: F12, Ctrl+Shift+I, etc.

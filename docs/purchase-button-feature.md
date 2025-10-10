@@ -13,11 +13,13 @@
 **Arquivo**: `components/DivisionAccessGuard.tsx`
 
 #### **Antes**:
+
 - ❌ Apenas mensagem "Acesso Negado"
 - ❌ Botão genérico "Ver Planos"
 - ❌ Experiência frustrante para o usuário
 
 #### **Depois**:
+
 - ✅ **3 opções claras** para o usuário:
   1. **"Comprar Este Tratado"** - Compra específica do tratado
   2. **"Ver Planos Completos"** - Assinatura completa
@@ -28,6 +30,7 @@
 **Arquivo**: `app/payment/page.tsx`
 
 #### **Funcionalidades**:
+
 - ✅ **Carregamento dinâmico**: Busca informações do tratado específico
 - ✅ **Duas opções de compra**:
   - **Tratado Individual**: R$ 29,90 (recomendado)
@@ -40,6 +43,7 @@
 **Arquivo**: `components/ErrorBoundary.tsx`
 
 #### **Melhorias**:
+
 - ✅ **resetError opcional**: Não força botão de retry
 - ✅ **Renderização condicional**: Botão de retry apenas quando necessário
 - ✅ **Flexibilidade**: Permite customização de ações
@@ -56,6 +60,7 @@
    - ↩️ **"Voltar para Biblioteca"** → `/dashboard/biblioteca`
 
 ### **Página de Compra**:
+
 - **Carregamento**: Busca informações do tratado
 - **Opções**: Tratado individual vs Assinatura completa
 - **Decisão**: Usuário escolhe a melhor opção
@@ -64,18 +69,21 @@
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Opções claras**: Sabe exatamente o que pode fazer
 - 💰 **Transparência**: Preços e benefícios visíveis
 - 🚀 **Facilidade**: Compra em poucos cliques
 - 📱 **Responsivo**: Funciona em qualquer dispositivo
 
 ### **Para o Negócio**:
+
 - 📈 **Maior conversão**: Botões diretos de compra
 - 💎 **Upsell**: Opção de assinatura completa
 - 🎨 **UX profissional**: Interface moderna e confiável
 - 📊 **Analytics**: Rastreamento de tentativas de acesso
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código modular**: Componentes reutilizáveis
 - 🧪 **Testável**: Lógica isolada e testável
 - 📚 **Documentado**: Código bem documentado
@@ -84,15 +92,18 @@
 ## Arquivos Criados/Modificados
 
 ### **Novos Arquivos**:
+
 - ✅ `app/payment/page.tsx` - Página de compra específica
 
 ### **Arquivos Atualizados**:
+
 - ✅ `components/ErrorBoundary.tsx` - Flexibilidade melhorada
 - ✅ `components/DivisionAccessGuard.tsx` - Botões de compra adicionados
 
 ## Interface da Página de Compra
 
 ### **Layout**:
+
 ```
 ┌─────────────────────────────────────┐
 │ ← Voltar para Biblioteca            │
@@ -112,6 +123,7 @@
 ```
 
 ### **Características**:
+
 - 🎨 **Design moderno**: Gradientes e sombras
 - 📱 **Responsivo**: Funciona em mobile e desktop
 - ⚡ **Performance**: Carregamento rápido

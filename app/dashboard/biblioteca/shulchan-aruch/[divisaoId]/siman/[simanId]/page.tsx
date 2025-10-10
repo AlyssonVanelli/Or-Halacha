@@ -6,7 +6,7 @@ import { createClient } from '@/lib/supabase/client'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Book, CheckCircle, Lock } from 'lucide-react'
+import { ArrowLeft, Book } from 'lucide-react'
 import { useParams } from 'next/navigation'
 
 interface Seif {
@@ -43,52 +43,52 @@ export default function SimanPage() {
   useEffect(() => {
     async function loadData() {
       if (!user || !simanId || !divisaoId) return
-      
+
       try {
         const supabase = createClient()
-        
+
         // Carregar siman
         const { data: simanData, error: simanError } = await supabase
           .from('simanim')
           .select('*')
           .eq('id', simanId)
           .single()
-        
+
         if (simanError) {
           console.error('Erro ao carregar siman:', simanError)
           return
         }
-        
+
         setSiman(simanData)
-        
+
         // Carregar divisão
         const { data: divisionData, error: divisionError } = await supabase
           .from('divisions')
           .select('*')
           .eq('id', divisaoId)
           .single()
-        
+
         if (divisionError) {
           console.error('Erro ao carregar divisão:', divisionError)
           return
         }
-        
+
         setDivision(divisionData)
-        
+
         // Carregar seifim
         const { data: seifimData, error: seifimError } = await supabase
           .from('seifim')
           .select('*')
           .eq('siman_id', simanId)
           .order('position')
-        
+
         if (seifimError) {
           console.error('Erro ao carregar seifim:', seifimError)
           return
         }
-        
+
         setSeifim(seifimData || [])
-        
+
         // Verificar acesso ESPECÍFICO para esta divisão
         try {
           const accessResponse = await fetch('/api/check-division-access', {
@@ -96,33 +96,32 @@ export default function SimanPage() {
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ 
-              userId: user.id, 
-              divisionId: divisaoId 
+            body: JSON.stringify({
+              userId: user.id,
+              divisionId: divisaoId,
             }),
           })
-          
+
           if (!accessResponse.ok) {
             throw new Error(`Erro na verificação de acesso: ${accessResponse.status}`)
           }
-          
+
           const accessData = await accessResponse.json()
-          
+
           if (!accessData.success) {
             throw new Error('Falha na verificação de acesso')
           }
-          
+
           const { hasAccess } = accessData.access
-          
+
           console.log('🔍 DEBUG ACESSO SIMAN DIVISÃO:', {
             divisaoId,
             simanId,
             hasAccess,
-            details: accessData.details
+            details: accessData.details,
           })
-          
+
           setHasAccess(hasAccess)
-          
         } catch (accessError) {
           console.error('Erro na verificação de acesso:', accessError)
           // Fallback para verificação local
@@ -132,26 +131,28 @@ export default function SimanPage() {
             .eq('user_id', user.id)
             .eq('status', 'active')
             .maybeSingle()
-          
+
           const { data: purchasedData } = await supabase
             .from('purchased_books')
             .select('division_id, expires_at')
             .eq('user_id', user.id)
-          
-          const hasActiveSub = !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
-          const validPurchases = (purchasedData || []).filter(pb => new Date(pb.expires_at) > new Date())
+
+          const hasActiveSub =
+            !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
+          const validPurchases = (purchasedData || []).filter(
+            pb => new Date(pb.expires_at) > new Date()
+          )
           const hasPurchasedThisDivision = validPurchases.some(pb => pb.division_id === divisaoId)
-          
+
           setHasAccess(hasActiveSub || hasPurchasedThisDivision)
         }
-        
       } catch (error) {
         console.error('Erro inesperado:', error)
       } finally {
         setLoading(false)
       }
     }
-    
+
     loadData()
   }, [user, simanId, divisaoId])
 
@@ -170,16 +171,12 @@ export default function SimanPage() {
       <DashboardAccessGuard>
         <div className="flex min-h-screen items-center justify-center">
           <div className="text-center">
-            <h2 className="mb-4 text-2xl font-bold text-gray-800">
-              Acesso Restrito
-            </h2>
+            <h2 className="mb-4 text-2xl font-bold text-gray-800">Acesso Restrito</h2>
             <p className="mb-6 text-gray-600">
               Você precisa de uma assinatura para acessar este conteúdo.
             </p>
             <Link href="/dashboard">
-              <Button className="bg-blue-600 hover:bg-blue-700">
-                Ver Planos
-              </Button>
+              <Button className="bg-blue-600 hover:bg-blue-700">Ver Planos</Button>
             </Link>
           </div>
         </div>
@@ -194,7 +191,7 @@ export default function SimanPage() {
           <div className="container py-8">
             {/* Header */}
             <div className="mb-8">
-              <Link 
+              <Link
                 href={`/dashboard/biblioteca/shulchan-aruch/${divisaoId}`}
                 className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
               >
@@ -216,11 +213,8 @@ export default function SimanPage() {
             {/* Conteúdo do Siman */}
             <div className="mx-auto max-w-4xl">
               <div className="space-y-6">
-                {seifim.map((seif, index) => (
-                  <div
-                    key={seif.id}
-                    className="rounded-xl bg-white p-6 shadow-lg"
-                  >
+                {seifim.map(seif => (
+                  <div key={seif.id} className="rounded-xl bg-white p-6 shadow-lg">
                     <div className="mb-4 flex items-center gap-3">
                       <div className="rounded-full bg-blue-100 px-3 py-1">
                         <span className="text-sm font-bold text-blue-800">
@@ -228,15 +222,13 @@ export default function SimanPage() {
                         </span>
                       </div>
                       {seif.title && (
-                        <h3 className="text-lg font-semibold text-gray-800">
-                          {seif.title}
-                        </h3>
+                        <h3 className="text-lg font-semibold text-gray-800">{seif.title}</h3>
                       )}
                     </div>
-                    
+
                     <div className="prose prose-lg max-w-none">
-                      <div 
-                        className="text-gray-700 leading-relaxed"
+                      <div
+                        className="leading-relaxed text-gray-700"
                         dangerouslySetInnerHTML={{ __html: seif.content }}
                       />
                     </div>

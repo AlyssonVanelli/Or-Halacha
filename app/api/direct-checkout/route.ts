@@ -11,10 +11,9 @@ export async function GET(req: NextRequest) {
     const { searchParams } = new URL(req.url)
     const sessionToken = searchParams.get('sessionToken')
     const divisionId = searchParams.get('divisionId')
-    
+
     // Se tem sessionToken, usar ele; senão usar divisionId (compatibilidade)
     if (sessionToken) {
-      
       // Buscar sessão no banco de dados
       const supabase = await createClient()
       const { data: session, error: sessionError } = await supabase
@@ -26,12 +25,16 @@ export async function GET(req: NextRequest) {
 
       if (sessionError || !session) {
         // Se sessão não existe ou já foi processada, redirecionar para biblioteca
-        return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+        return NextResponse.redirect(
+          `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+        )
       }
 
       // Verificar se não expirou
       if (new Date(session.expires_at) < new Date()) {
-        return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+        return NextResponse.redirect(
+          `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+        )
       }
 
       // Marcar como processada
@@ -42,7 +45,7 @@ export async function GET(req: NextRequest) {
 
       // Usar divisionId da sessão
       const divisionIdFromSession = session.division_id
-      
+
       // Buscar informações da divisão
       const { data: division, error: divisionError } = await supabase
         .from('divisions')
@@ -51,7 +54,9 @@ export async function GET(req: NextRequest) {
         .single()
 
       if (divisionError || !division) {
-        return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+        return NextResponse.redirect(
+          `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+        )
       }
 
       // Buscar informações do livro
@@ -62,14 +67,21 @@ export async function GET(req: NextRequest) {
         .single()
 
       if (bookError || !book) {
-        return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+        return NextResponse.redirect(
+          `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+        )
       }
 
       // Buscar informações do usuário
-      const { data: { user }, error: userError } = await supabase.auth.getUser()
-      
+      const {
+        data: { user },
+        error: userError,
+      } = await supabase.auth.getUser()
+
       if (userError || !user) {
-        return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+        return NextResponse.redirect(
+          `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+        )
       }
 
       // Criar sessão do Stripe
@@ -96,16 +108,18 @@ export async function GET(req: NextRequest) {
           divisionId: divisionIdFromSession,
           bookId: book.id,
           userId: user.id,
-          type: 'tratado-individual'
-        }
+          type: 'tratado-individual',
+        },
       })
 
       return NextResponse.redirect(stripeSession.url!)
     }
-    
+
     // Fallback para método antigo (compatibilidade)
     if (!divisionId) {
-      return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+      return NextResponse.redirect(
+        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+      )
     }
 
     // Buscar informações da divisão
@@ -117,7 +131,9 @@ export async function GET(req: NextRequest) {
       .single()
 
     if (divisionError || !division) {
-      return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+      return NextResponse.redirect(
+        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+      )
     }
 
     // Buscar informações do livro
@@ -128,14 +144,21 @@ export async function GET(req: NextRequest) {
       .single()
 
     if (bookError || !book) {
-      return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+      return NextResponse.redirect(
+        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+      )
     }
 
     // Buscar informações do usuário para obter o email
-    const { data: { user }, error: userError } = await supabase.auth.getUser()
-    
+    const {
+      data: { user },
+      error: userError,
+    } = await supabase.auth.getUser()
+
     if (userError || !user) {
-      return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+      return NextResponse.redirect(
+        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+      )
     }
 
     // Preço fixo para tratado individual (R$ 29,90)
@@ -165,15 +188,16 @@ export async function GET(req: NextRequest) {
         divisionId,
         bookId: book.id,
         userId: user.id,
-        type: 'tratado-individual'
-      }
+        type: 'tratado-individual',
+      },
     })
 
     // Redirecionar para o Stripe
     return NextResponse.redirect(session.url!)
-    
   } catch (error) {
     // Em caso de erro, redirecionar para biblioteca
-    return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`)
+    return NextResponse.redirect(
+      `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
+    )
   }
 }

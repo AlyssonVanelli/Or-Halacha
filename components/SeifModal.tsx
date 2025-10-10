@@ -43,7 +43,7 @@ export function SeifModal({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">
         <DialogHeader>
           <DialogTitle>
             {tratado} - Siman {siman}
@@ -67,7 +67,7 @@ export function SeifModal({
               Ir para Siman
             </Button>
           </div>
-          <div className="whitespace-pre-line rounded-md bg-muted p-4 text-base font-medium max-h-64 overflow-y-auto">
+          <div className="max-h-64 overflow-y-auto whitespace-pre-line rounded-md bg-muted p-4 text-base font-medium">
             {content}
           </div>
         </div>
@@ -86,7 +86,7 @@ export function SeifModal({
           </DialogFooter>
         )}
         {showExplicacao && explicacaoPratica && (
-          <div className="mt-4 rounded bg-blue-50 p-4 text-blue-900 max-h-96 overflow-y-auto">
+          <div className="mt-4 max-h-96 overflow-y-auto rounded bg-blue-50 p-4 text-blue-900">
             <strong>Explicação prática:</strong>
             <div className="mt-2 whitespace-pre-line">{explicacaoPratica}</div>
           </div>

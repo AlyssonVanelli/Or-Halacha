@@ -10,7 +10,7 @@ export async function GET(req: Request) {
   try {
     const { searchParams } = new URL(req.url)
     const divisionId = searchParams.get('divisionId')
-    
+
     if (!divisionId) {
       return NextResponse.json({ error: 'divisionId é obrigatório' }, { status: 400 })
     }
@@ -18,7 +18,6 @@ export async function GET(req: Request) {
     // Redirecionar para página de checkout com parâmetros
     const checkoutUrl = `/payment?divisionId=${divisionId}`
     return NextResponse.redirect(checkoutUrl)
-    
   } catch (error) {
     console.error('❌ Erro na API GET create-purchase-checkout:', error)
     return NextResponse.json({ error: 'Erro interno' }, { status: 500 })
@@ -28,14 +27,14 @@ export async function GET(req: Request) {
 export async function POST(req: Request) {
   try {
     const body = await req.json()
-    const { 
-      userId, 
-      bookId, 
-      divisionId, 
-      priceId, 
-      successUrl, 
+    const {
+      userId,
+      bookId,
+      divisionId,
+      priceId,
+      successUrl,
       cancelUrl,
-      planType = 'tratado-avulso' // Default para tratado avulso
+      planType = 'tratado-avulso', // Default para tratado avulso
     } = body
 
     if (!userId || !priceId) {
@@ -60,7 +59,7 @@ export async function POST(req: Request) {
       console.log('👤 Criando customer no Stripe...')
       const customer = await stripe.customers.create({
         email: body.userEmail,
-        metadata: { userId }
+        metadata: { userId },
       })
       stripeCustomerId = customer.id
 
@@ -99,29 +98,32 @@ export async function POST(req: Request) {
     }
 
     // Adicionar item
-    sessionConfig.line_items = [{
-      price: priceId,
-      quantity: 1,
-    }]
+    sessionConfig.line_items = [
+      {
+        price: priceId,
+        quantity: 1,
+      },
+    ]
 
     console.log('⚙️ Configuração final:', {
       mode: sessionConfig.mode,
-      metadata: sessionConfig.metadata
+      metadata: sessionConfig.metadata,
     })
 
     const session = await stripe.checkout.sessions.create(sessionConfig)
-    
-    return NextResponse.json({ 
-      url: session.url,
-      sessionId: session.id 
-    })
 
+    return NextResponse.json({
+      url: session.url,
+      sessionId: session.id,
+    })
   } catch (error) {
     console.error('❌ Erro na API create-purchase-checkout:', error)
-    return NextResponse.json({ 
-      error: 'Erro interno do servidor',
-      details: error instanceof Error ? error.message : 'Erro desconhecido'
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        error: 'Erro interno do servidor',
+        details: error instanceof Error ? error.message : 'Erro desconhecido',
+      },
+      { status: 500 }
+    )
   }
 }
-

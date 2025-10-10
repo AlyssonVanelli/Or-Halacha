@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Badge } from '@/components/ui/badge'
+// import { Badge } from '@/components/ui/badge'
 import {
   Dialog,
   DialogContent,
@@ -244,8 +244,12 @@ export function SearchResults({
       <div className="mx-auto max-w-4xl">
         <div className="mb-8 flex items-center justify-between">
           <div>
-            <h2 className="text-3xl font-bold text-gray-800">Resultados para "{query}"</h2>
-            <p className="mt-2 text-lg text-gray-600">Encontrados {total} {total === 1 ? 'resultado' : 'resultados'}</p>
+            <h2 className="text-3xl font-bold text-gray-800">
+              Resultados para &quot;{query}&quot;
+            </h2>
+            <p className="mt-2 text-lg text-gray-600">
+              Encontrados {total} {total === 1 ? 'resultado' : 'resultados'}
+            </p>
           </div>
           <div className="rounded-full bg-blue-100 px-4 py-2">
             <span className="text-sm font-semibold text-blue-800">
@@ -253,12 +257,12 @@ export function SearchResults({
             </span>
           </div>
         </div>
-        
+
         <div className="space-y-4">
           {results.map((result, index) => (
             <div
               key={`${result.tratado}-${result.siman}-${result.seif}-${index}`}
-              className="group cursor-pointer rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:border-blue-300 hover:shadow-md hover:scale-[1.02]"
+              className="group cursor-pointer rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:scale-[1.02] hover:border-blue-300 hover:shadow-md"
               onClick={() => handleOpenModal(result)}
             >
               <div className="flex items-start gap-4">
@@ -275,7 +279,7 @@ export function SearchResults({
                       ✓ Encontrado
                     </div>
                   </div>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="leading-relaxed text-gray-700">
                     {result.content.slice(0, 200)}
                     {result.content.length > 200 && '...'}
                   </p>
@@ -289,11 +293,11 @@ export function SearchResults({
         </div>
       </div>
       {total > pageSize && onPageChange && (
-        <div className="mx-auto max-w-4xl mt-8">
+        <div className="mx-auto mt-8 max-w-4xl">
           <div className="flex items-center justify-center gap-4">
-            <Button 
-              variant="outline" 
-              disabled={page === 1} 
+            <Button
+              variant="outline"
+              disabled={page === 1}
               onClick={() => onPageChange(page - 1)}
               className="px-6 py-2"
             >
@@ -317,7 +321,7 @@ export function SearchResults({
       )}
       {selected && (
         <Dialog open={modalOpen} onOpenChange={setModalOpen}>
-          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+          <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">
             <DialogHeader>
               <DialogTitle>
                 {selected.tratado} - Siman {selected.siman}
@@ -343,7 +347,10 @@ export function SearchResults({
                   Ir para Siman
                 </Button>
               </div>
-              <div className="rounded bg-slate-100 p-2 text-base max-h-64 overflow-y-auto" style={{ userSelect: 'none' }}>
+              <div
+                className="max-h-64 overflow-y-auto rounded bg-slate-100 p-2 text-base"
+                style={{ userSelect: 'none' }}
+              >
                 <span
                   dangerouslySetInnerHTML={{
                     __html: seifCompleto?.replace(/\n/g, '<br>') || '',
@@ -366,11 +373,14 @@ export function SearchResults({
           setExplicacaoModalOpen(open)
         }}
       >
-        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">
           <DialogHeader>
             <DialogTitle>Explicação Prática</DialogTitle>
           </DialogHeader>
-          <div className="mb-4 rounded bg-slate-100 p-2 text-base max-h-96 overflow-y-auto" style={{ userSelect: 'none' }}>
+          <div
+            className="mb-4 max-h-96 overflow-y-auto rounded bg-slate-100 p-2 text-base"
+            style={{ userSelect: 'none' }}
+          >
             <div className="mb-2 font-semibold">Seif:</div>
             <div
               className="mb-4"

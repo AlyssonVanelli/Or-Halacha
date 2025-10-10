@@ -189,7 +189,7 @@ export async function getSimanDoDia() {
       // Procura pelo primeiro seif completo para mostrar
       const seifPattern = /(\d+\.\s+[^.]*\.)/g
       const matches = content.match(seifPattern)
-      
+
       if (matches && matches.length > 0) {
         // Pega apenas o primeiro seif completo
         const firstSeif = matches[0]

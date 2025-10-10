@@ -9,19 +9,22 @@
 ## Funcionalidade Implementada
 
 ### **1. Estado de Loading nos Cards de Tratados**
+
 **Arquivo**: `app/dashboard/biblioteca/shulchan-aruch/page.tsx`
 
 #### **Estado Adicionado**:
+
 ```typescript
 const [processingPurchase, setProcessingPurchase] = useState<string | null>(null)
 ```
 
 #### **Botão com Loading**:
+
 ```typescript
 <button
   onClick={async () => {
     if (processingPurchase) return // Evitar múltiplos cliques
-    
+
     setProcessingPurchase(div.id)
     try {
       window.location.href = `/api/direct-checkout?divisionId=${div.id}`
@@ -49,6 +52,7 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ### **2. Estados Visuais**
 
 #### **Estado Normal**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -61,6 +65,7 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ```
 
 #### **Estado de Loading**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -75,12 +80,14 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ### **3. Funcionalidades de Proteção**
 
 #### **Prevenção de Múltiplos Cliques**:
+
 - ✅ **Verificação**: `if (processingPurchase) return`
 - ✅ **Estado único**: Por divisão específica
 - ✅ **Desabilitação**: Botão fica desabilitado
 - ✅ **Visual**: Opacidade reduzida e cursor "not-allowed"
 
 #### **Feedback Visual**:
+
 - ✅ **Spinner**: Ícone de loading animado
 - ✅ **Texto**: "Processando..." em vez de "Comprar Tratado"
 - ✅ **Cores**: Botão fica mais escuro quando desabilitado
@@ -89,18 +96,21 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Feedback claro**: Sabe que está processando
 - 💡 **Prevenção de erros**: Não pode clicar múltiplas vezes
 - 🚀 **Experiência fluida**: Interface responsiva
 - 📱 **Visual profissional**: Loading states bem implementados
 
 ### **Para o Negócio**:
+
 - 📈 **Menos requisições**: Evita múltiplas chamadas à API
 - 💰 **Melhor conversão**: Usuário não fica confuso
 - 🎨 **UX profissional**: Interface moderna e confiável
 - 📊 **Menos erros**: Reduz problemas de processamento
 
 ### **Para Desenvolvedores**:
+
 - 🔧 **Código limpo**: Estados bem gerenciados
 - 🧪 **Testável**: Fácil de testar e debugar
 - 📚 **Manutenível**: Código bem documentado
@@ -109,12 +119,14 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ## Estados de Loading por Contexto
 
 ### **1. Cards de Tratados**:
+
 - ✅ **Estado**: `processingPurchase` (string | null)
 - ✅ **Identificação**: Por `div.id`
 - ✅ **Visual**: Spinner + "Processando..."
 - ✅ **Proteção**: Botão desabilitado
 
 ### **2. Dashboard Principal**:
+
 - ✅ **Estado**: `loadingPurchase` (já implementado)
 - ✅ **Identificação**: Por tipo de plano
 - ✅ **Visual**: "Processando..." nos botões
@@ -123,15 +135,17 @@ const [processingPurchase, setProcessingPurchase] = useState<string | null>(null
 ## Implementação Técnica
 
 ### **Hook de Estado**:
+
 ```typescript
 const [processingPurchase, setProcessingPurchase] = useState<string | null>(null)
 ```
 
 ### **Lógica de Proteção**:
+
 ```typescript
 onClick={async () => {
   if (processingPurchase) return // Evitar múltiplos cliques
-  
+
   setProcessingPurchase(div.id)
   try {
     // Processar compra
@@ -142,6 +156,7 @@ onClick={async () => {
 ```
 
 ### **Renderização Condicional**:
+
 ```typescript
 {processingPurchase === div.id ? (
   <>

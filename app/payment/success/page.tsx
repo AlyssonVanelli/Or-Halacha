@@ -24,7 +24,7 @@ interface Book {
 export default function PaymentSuccessPage() {
   const searchParams = useSearchParams()
   const divisionId = searchParams.get('divisionId')
-  const { user } = useAuth()
+  // const { user } = useAuth()
   const [division, setDivision] = useState<Division | null>(null)
   const [book, setBook] = useState<Book | null>(null)
   const [loading, setLoading] = useState(true)
@@ -40,7 +40,7 @@ export default function PaymentSuccessPage() {
 
       try {
         const supabase = createClient()
-        
+
         // Buscar informações da divisão
         const { data: divisionData, error: divisionError } = await supabase
           .from('divisions')
@@ -68,7 +68,6 @@ export default function PaymentSuccessPage() {
         }
 
         setBook(bookData)
-
       } catch (err) {
         console.error('Erro ao carregar dados:', err)
         setError('Erro ao carregar informações.')
@@ -84,7 +83,7 @@ export default function PaymentSuccessPage() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-green-50 to-emerald-100">
         <div className="text-center">
-          <div className="h-16 w-16 animate-spin rounded-full border-4 border-green-500 border-t-transparent mx-auto mb-4"></div>
+          <div className="mx-auto mb-4 h-16 w-16 animate-spin rounded-full border-4 border-green-500 border-t-transparent"></div>
           <p className="text-lg text-gray-600">Processando sua compra...</p>
         </div>
       </div>
@@ -96,7 +95,7 @@ export default function PaymentSuccessPage() {
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-red-50 to-red-100 p-4">
         <Card className="w-full max-w-md text-center">
           <CardHeader>
-            <div className="rounded-full bg-red-100 p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100 p-4">
               <span className="text-2xl">❌</span>
             </div>
             <CardTitle className="text-2xl font-bold text-red-700">Erro</CardTitle>
@@ -104,7 +103,7 @@ export default function PaymentSuccessPage() {
           </CardHeader>
           <CardContent>
             <Link href="/dashboard/biblioteca">
-              <Button className="w-full mt-4" variant="outline">
+              <Button className="mt-4 w-full" variant="outline">
                 Voltar para Biblioteca
               </Button>
             </Link>
@@ -118,7 +117,7 @@ export default function PaymentSuccessPage() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-green-50 to-emerald-100 p-4">
       <Card className="w-full max-w-md text-center">
         <CardHeader>
-          <div className="rounded-full bg-green-100 p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 p-4">
             <CheckCircle className="h-8 w-8 text-green-600" />
           </div>
           <CardTitle className="text-3xl font-bold text-green-700">Compra Realizada!</CardTitle>
@@ -128,34 +127,30 @@ export default function PaymentSuccessPage() {
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="text-center">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              {division?.title}
-            </h3>
-            <p className="text-gray-600 mb-4">
-              por {book?.author}
-            </p>
+            <h3 className="mb-2 text-xl font-semibold text-gray-800">{division?.title}</h3>
+            <p className="mb-4 text-gray-600">por {book?.author}</p>
             <div className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
-              <CheckCircle className="h-4 w-4 mr-1" />
+              <CheckCircle className="mr-1 h-4 w-4" />
               Acesso Liberado
             </div>
           </div>
-          
+
           <div className="space-y-3">
             <Link href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}>
-              <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold flex items-center justify-center gap-2">
+              <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
                 <Book className="h-5 w-5" />
                 Acessar Tratado
                 <ArrowRight className="h-5 w-5" />
               </Button>
             </Link>
-            
+
             <Link href="/dashboard/biblioteca/shulchan-aruch">
               <Button variant="outline" className="w-full">
                 Ver Todos os Tratados
               </Button>
             </Link>
           </div>
-          
+
           <div className="text-sm text-gray-500">
             <p>Você receberá um email de confirmação em breve.</p>
             <p>Obrigado por sua compra!</p>

@@ -91,23 +91,23 @@ export default function PerfilPage() {
   useEffect(() => {
     async function loadData() {
       if (!user) return
-      
+
       try {
         const supabase = createClient()
-        
+
         // Carregar assinaturas
         const { data: subs, error: subsError } = await supabase
           .from('subscriptions')
           .select('*')
           .eq('user_id', user.id)
           .order('created_at', { ascending: false })
-        
+
         if (subsError) {
           console.error('❌ Erro ao carregar assinaturas:', subsError)
         } else {
           setSubscription(subs?.[0] || null)
         }
-        
+
         // Carregar livros comprados
         const purchased = await db.purchasedBooks.getByUserId(user.id)
         setBooks(purchased)
@@ -125,7 +125,7 @@ export default function PerfilPage() {
             variant: 'default',
           })
         }
-        
+
         // Histórico de pagamentos
         const allPayments: Payment[] = []
         if (subs && subs.length > 0) {
@@ -169,7 +169,6 @@ export default function PerfilPage() {
           })
         }
         setPayments(allPayments)
-        
       } catch (error) {
         console.error('❌ Erro ao carregar dados do perfil:', error)
         toast({
@@ -217,7 +216,7 @@ export default function PerfilPage() {
         })
         return
       }
-      
+
       // Validar tamanho (máximo 5MB)
       if (file.size > 5 * 1024 * 1024) {
         toast({
@@ -227,7 +226,7 @@ export default function PerfilPage() {
         })
         return
       }
-      
+
       setAvatarFile(file)
       setAvatarUrl(URL.createObjectURL(file))
     }
@@ -291,7 +290,6 @@ export default function PerfilPage() {
         setLoading(false)
         return
       }
-
 
       // Atualiza o user_metadata do Supabase Auth
       const { error: authError } = await supabase.auth.updateUser({

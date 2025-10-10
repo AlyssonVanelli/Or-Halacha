@@ -45,7 +45,7 @@ export function translateAuthError(errorMessage: string): string {
     'supabase.auth.signUp': 'Erro ao criar conta. Tente novamente.',
     'supabase.auth.signOut': 'Erro ao fazer logout. Tente novamente.',
     'supabase.auth.resetPasswordForEmail': 'Erro ao enviar email de recuperação. Tente novamente.',
-    
+
     // Erros de cadastro específicos
     'User already registered': 'Este email já está cadastrado. Tente fazer login.',
     'User already exists': 'Este email já está cadastrado. Tente fazer login.',
@@ -56,7 +56,8 @@ export function translateAuthError(errorMessage: string): string {
     'Signup requires a valid password': 'Senha inválida. Use uma senha mais forte.',
     'Unable to validate email address: invalid format': 'Formato de email inválido.',
     'Database error saving new user': 'Erro interno. Tente novamente em alguns minutos.',
-    'duplicate key value violates unique constraint': 'Este email já está cadastrado. Tente fazer login.',
+    'duplicate key value violates unique constraint':
+      'Este email já está cadastrado. Tente fazer login.',
     'already registered': 'Este email já está cadastrado. Tente fazer login.',
     'already exists': 'Este email já está cadastrado. Tente fazer login.',
   }
@@ -100,32 +101,32 @@ export function translateDataError(error: any): string {
       'Failed to fetch': 'Erro de conexão. Verifique sua internet e tente novamente.',
       'Network request failed': 'Falha na conexão de rede. Tente novamente.',
       'Connection timeout': 'Tempo limite de conexão excedido. Tente novamente.',
-      
+
       // Erros de autenticação
       'JWT expired': 'Sessão expirada. Faça login novamente.',
       'Invalid JWT': 'Token inválido. Faça login novamente.',
       'Not authenticated': 'Não autenticado. Faça login para continuar.',
-      
+
       // Erros de permissão
       'Permission denied': 'Permissão negada. Você não tem acesso a este conteúdo.',
       'Row Level Security policy violation': 'Política de segurança violada. Acesso negado.',
       'Insufficient permissions': 'Permissões insuficientes. Entre em contato com o suporte.',
-      
+
       // Erros de dados
       'No rows found': 'Nenhum dado encontrado.',
       'Multiple rows returned': 'Múltiplos registros encontrados. Contate o suporte.',
       'Invalid input': 'Dados inválidos fornecidos.',
       'Data validation failed': 'Falha na validação dos dados.',
-      
+
       // Erros de banco de dados
       'Database connection failed': 'Falha na conexão com o banco de dados.',
       'Query timeout': 'Tempo limite da consulta excedido.',
       'Foreign key constraint': 'Violação de integridade referencial.',
       'Unique constraint violation': 'Violação de restrição única.',
-      
+
       // Erros genéricos do Supabase
-      'supabase_error': 'Erro interno do banco de dados.',
-      'postgres_error': 'Erro do banco de dados PostgreSQL.',
+      supabase_error: 'Erro interno do banco de dados.',
+      postgres_error: 'Erro do banco de dados PostgreSQL.',
       'relation does not exist': 'Tabela não encontrada no banco de dados.',
       'column does not exist': 'Coluna não encontrada na tabela.',
     }
@@ -168,11 +169,11 @@ export function logDetailedError(context: string, error: any, additionalData?: a
   console.error('Erro original:', error)
   console.error('Tipo do erro:', typeof error)
   console.error('Stack trace:', error?.stack)
-  
+
   if (additionalData) {
     console.error('Dados adicionais:', additionalData)
   }
-  
+
   // Log estruturado para debugging
   console.error('Log estruturado:', {
     context,
@@ -182,8 +183,8 @@ export function logDetailedError(context: string, error: any, additionalData?: a
     errorDetails: error?.details,
     timestamp: new Date().toISOString(),
     userAgent: typeof window !== 'undefined' ? window.navigator.userAgent : 'Server',
-    url: typeof window !== 'undefined' ? window.location.href : 'Server'
+    url: typeof window !== 'undefined' ? window.location.href : 'Server',
   })
-  
+
   console.groupEnd()
 }

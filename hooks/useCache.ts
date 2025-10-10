@@ -15,11 +15,11 @@ export function useCache<T>(options: CacheOptions) {
     try {
       const cachedData = localStorage.getItem(key)
       const cacheTime = localStorage.getItem(`${key}-time`)
-      
+
       if (cachedData && cacheTime) {
         const now = Date.now()
         const timeDiff = now - parseInt(cacheTime)
-        
+
         if (timeDiff < ttl) {
           return JSON.parse(cachedData)
         } else {
@@ -31,7 +31,7 @@ export function useCache<T>(options: CacheOptions) {
     } catch (error) {
       console.error('Erro ao ler cache:', error)
     }
-    
+
     return null
   }
 
@@ -57,7 +57,7 @@ export function useCache<T>(options: CacheOptions) {
     // Se não há cache, fazer requisição
     setIsLoading(true)
     setIsFromCache(false)
-    
+
     try {
       const result = await fetchFunction()
       setCachedData(result)
@@ -82,6 +82,6 @@ export function useCache<T>(options: CacheOptions) {
     isFromCache,
     fetchData,
     clearCache,
-    setData
+    setData,
   }
 }

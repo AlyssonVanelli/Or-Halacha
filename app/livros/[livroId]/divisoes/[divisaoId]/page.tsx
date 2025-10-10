@@ -25,21 +25,21 @@ export default function DivisaoPage() {
 
   useEffect(() => {
     if (!tratadoId || !livroId) return
-    
+
     // Cache de 10 minutos para dados de tratado
     const cacheKey = `tratado-${tratadoId}`
     const cachedData = localStorage.getItem(cacheKey)
     const cacheTime = localStorage.getItem(`${cacheKey}-time`)
     const now = Date.now()
-    
-    if (cachedData && cacheTime && (now - parseInt(cacheTime)) < 10 * 60 * 1000) {
+
+    if (cachedData && cacheTime && now - parseInt(cacheTime) < 10 * 60 * 1000) {
       const data = JSON.parse(cachedData)
       setTratado(data.tratado)
       setAppendices(data.appendices || [])
       setLoading(false)
       return
     }
-    
+
     async function loadTratado() {
       try {
         const supabase = createClient()
@@ -80,11 +80,14 @@ export default function DivisaoPage() {
         setAppendices(
           Object.entries(apx).map(([appendix_type, simanim]) => ({ appendix_type, simanim }))
         )
-        
+
         // Salvar no cache
         const cacheData = {
           tratado,
-          appendices: Object.entries(apx).map(([appendix_type, simanim]) => ({ appendix_type, simanim }))
+          appendices: Object.entries(apx).map(([appendix_type, simanim]) => ({
+            appendix_type,
+            simanim,
+          })),
         }
         localStorage.setItem(cacheKey, JSON.stringify(cacheData))
         localStorage.setItem(`${cacheKey}-time`, now.toString())
@@ -141,23 +144,34 @@ export default function DivisaoPage() {
                 className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
               >
                 <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
                 </svg>
                 Voltar para o Shulchan Aruch
               </Link>
               <div className="flex items-center gap-4">
                 <div className="rounded-full bg-blue-500 p-3">
-                  <svg className="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  <svg
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-800">
-                    {tratado.title}
-                  </h1>
-                  <p className="mt-2 text-lg text-gray-600">
-                    Selecione um siman para estudar
-                  </p>
+                  <h1 className="text-4xl font-bold text-gray-800">{tratado.title}</h1>
+                  <p className="mt-2 text-lg text-gray-600">Selecione um siman para estudar</p>
                 </div>
               </div>
             </div>
@@ -165,11 +179,11 @@ export default function DivisaoPage() {
             {/* Grid de Simanim */}
             <div className="mx-auto max-w-6xl">
               <div className="mb-8 text-center">
-                <h2 className="text-3xl font-bold text-gray-800 mb-4">Simanim</h2>
+                <h2 className="mb-4 text-3xl font-bold text-gray-800">Simanim</h2>
                 <p className="text-lg text-gray-600">Escolha um siman para começar</p>
               </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {simanimPrincipais
                   ?.sort((a, b) => a.position - b.position)
                   .map((siman, index) => {
@@ -177,12 +191,22 @@ export default function DivisaoPage() {
                       <Link
                         key={siman.id}
                         href={`/livros/${livroId}/divisoes/${tratadoId}/siman/${siman.id}`}
-                        className="group relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:border-blue-300 hover:shadow-md hover:scale-105"
+                        className="group relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:scale-105 hover:border-blue-300 hover:shadow-md"
                       >
-                        <div className="flex items-center justify-between mb-4">
+                        <div className="mb-4 flex items-center justify-between">
                           <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100">
-                            <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            <svg
+                              className="h-6 w-6 text-blue-600"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                              />
                             </svg>
                           </div>
                           <div className="text-right">
@@ -192,14 +216,12 @@ export default function DivisaoPage() {
                             <div className="text-sm text-gray-500">Siman</div>
                           </div>
                         </div>
-                        
+
                         <div className="text-center">
                           <h3 className="text-lg font-semibold text-gray-800">
                             Siman {getSimanNumber(siman.title)}
                           </h3>
-                          <p className="mt-2 text-sm text-gray-600">
-                            Clique para estudar
-                          </p>
+                          <p className="mt-2 text-sm text-gray-600">Clique para estudar</p>
                         </div>
                       </Link>
                     )
@@ -209,38 +231,44 @@ export default function DivisaoPage() {
 
             {/* Apêndices */}
             {appendicesDisponiveis.length > 0 && (
-              <div className="mx-auto max-w-6xl mt-12">
+              <div className="mx-auto mt-12 max-w-6xl">
                 <div className="mb-8 text-center">
-                  <h2 className="text-3xl font-bold text-gray-800 mb-4">Apêndices</h2>
+                  <h2 className="mb-4 text-3xl font-bold text-gray-800">Apêndices</h2>
                   <p className="text-lg text-gray-600">Conteúdo adicional disponível</p>
                 </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                   {appendicesDisponiveis.map((apx, index) => {
                     return (
                       <Link
                         key={apx}
                         href={`/livros/${livroId}/divisoes/${tratadoId}/apendice/${encodeURIComponent(apx)}`}
-                        className="group relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:border-purple-300 hover:shadow-md hover:scale-105"
+                        className="group relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:scale-105 hover:border-purple-300 hover:shadow-md"
                       >
-                        <div className="flex items-center justify-between mb-4">
+                        <div className="mb-4 flex items-center justify-between">
                           <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100">
-                            <svg className="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            <svg
+                              className="h-6 w-6 text-purple-600"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                              />
                             </svg>
                           </div>
                           <div className="text-right">
                             <div className="text-sm font-medium text-purple-600">Apêndice</div>
                           </div>
                         </div>
-                        
+
                         <div className="text-center">
-                          <h3 className="text-lg font-semibold text-gray-800">
-                            {apx}
-                          </h3>
-                          <p className="mt-2 text-sm text-gray-600">
-                            Conteúdo adicional
-                          </p>
+                          <h3 className="text-lg font-semibold text-gray-800">{apx}</h3>
+                          <p className="mt-2 text-sm text-gray-600">Conteúdo adicional</p>
                         </div>
                       </Link>
                     )

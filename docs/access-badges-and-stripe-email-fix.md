@@ -3,11 +3,13 @@
 ## Problemas Resolvidos
 
 ### **1. Badges de Recursos para Usuários sem Acesso**
+
 **Situação**: Usuários sem acesso viam badges de "Explicações Práticas" e "Pesquisa Avançada" mesmo sem ter acesso ao tratado.
 
 **Solução**: Badges só aparecem para usuários com acesso ao tratado.
 
 ### **2. Email não sendo enviado para o Stripe**
+
 **Situação**: O email do usuário não estava sendo incluído na sessão de checkout do Stripe.
 
 **Solução**: Adicionado `customer_email` na criação da sessão do Stripe.
@@ -17,6 +19,7 @@
 ### **1. Badges Condicionais**
 
 #### **Antes**:
+
 ```typescript
 {/* Badges de recursos */}
 <div className="mb-4 flex flex-wrap gap-2">
@@ -30,6 +33,7 @@
 ```
 
 #### **Depois**:
+
 ```typescript
 {/* Badges de recursos - apenas se tiver acesso */}
 {unlocked && (
@@ -47,6 +51,7 @@
 ### **2. Email no Stripe**
 
 #### **Antes**:
+
 ```typescript
 const session = await stripe.checkout.sessions.create({
   payment_method_types: ['card'],
@@ -57,6 +62,7 @@ const session = await stripe.checkout.sessions.create({
 ```
 
 #### **Depois**:
+
 ```typescript
 // Buscar informações do usuário para obter o email
 const { data: { user }, error: userError } = await supabase.auth.getUser()
@@ -78,6 +84,7 @@ const session = await stripe.checkout.sessions.create({
 ## Resultado Visual
 
 ### **Para Usuários SEM Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -90,6 +97,7 @@ const session = await stripe.checkout.sessions.create({
 ```
 
 ### **Para Usuários COM Acesso**:
+
 ```
 ┌─────────────────────────┐
 │ [Header com gradiente]  │
@@ -104,16 +112,19 @@ const session = await stripe.checkout.sessions.create({
 ## Benefícios Alcançados
 
 ### **Para o Usuário**:
+
 - 🎯 **Interface mais clara**: Badges só aparecem quando relevantes
 - 💡 **Menos confusão**: Não vê recursos que não tem acesso
 - 📱 **Melhor UX**: Interface mais intuitiva
 
 ### **Para o Negócio**:
+
 - 🎨 **Design mais limpo**: Interface profissional
 - 📊 **Foco na conversão**: Botões de compra mais visíveis
 - 💰 **Menos confusão**: Usuário foca no que importa
 
 ### **Para o Stripe**:
+
 - 📧 **Email incluído**: Usuário não precisa digitar email
 - 🔒 **Autenticação**: Verificação de usuário logado
 - 📊 **Metadados**: Informações completas para processamento
@@ -121,11 +132,13 @@ const session = await stripe.checkout.sessions.create({
 ## Funcionalidade do Stripe
 
 ### **Email Automático**:
+
 - ✅ **customer_email**: Email do usuário logado
 - ✅ **Autenticação**: Verificação de usuário
 - ✅ **Metadados**: User ID incluído para processamento
 
 ### **Fluxo de Checkout**:
+
 1. **Usuário clica**: "Comprar Tratado"
 2. **API verifica**: Usuário autenticado
 3. **API busca**: Email do usuário

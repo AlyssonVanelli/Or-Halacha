@@ -28,7 +28,7 @@ export function useRateLimitCountdown(initialSeconds: number = 900) {
   const formatTime = (totalSeconds: number) => {
     const minutes = Math.floor(totalSeconds / 60)
     const remainingSeconds = totalSeconds % 60
-    
+
     if (minutes > 0) {
       return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`
     }
@@ -40,6 +40,6 @@ export function useRateLimitCountdown(initialSeconds: number = 900) {
     isExpired,
     formattedTime: formatTime(seconds),
     minutes: Math.floor(seconds / 60),
-    remainingSeconds: seconds % 60
+    remainingSeconds: seconds % 60,
   }
 }

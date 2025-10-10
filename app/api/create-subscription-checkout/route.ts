@@ -34,17 +34,23 @@ export async function POST(req: Request) {
   const priceId = PLAN_PRICE_IDS[planType]
 
   if (!priceId) {
-    return NextResponse.json({ error: 'Configuração de preço não encontrada. Entre em contato com o suporte.' }, { status: 500 })
+    return NextResponse.json(
+      { error: 'Configuração de preço não encontrada. Entre em contato com o suporte.' },
+      { status: 500 }
+    )
   }
 
   if (!stripeKey) {
-    return NextResponse.json({ error: 'Configuração de pagamento não encontrada. Entre em contato com o suporte.' }, { status: 500 })
+    return NextResponse.json(
+      { error: 'Configuração de pagamento não encontrada. Entre em contato com o suporte.' },
+      { status: 500 }
+    )
   }
 
   try {
     // Buscar o perfil do usuário
     let profile = await db.profiles.getById(userId)
-    
+
     // Se não encontrou o perfil, criar um novo
     if (!profile) {
       try {
@@ -53,14 +59,14 @@ export async function POST(req: Request) {
           created_at: new Date().toISOString(),
           updated_at: new Date().toISOString(),
         }
-        
+
         profile = await db.profiles.create(profileData)
       } catch (createError) {
         // Continuar mesmo se não conseguir criar o perfil
         profile = null
       }
     }
-    
+
     let stripeCustomerId = profile?.stripe_customer_id
 
     // Se não existir, criar o customer no Stripe e salvar no perfil
@@ -68,14 +74,14 @@ export async function POST(req: Request) {
       try {
         // Usar email passado do frontend
         const userEmailToUse = userEmail || 'usuario@exemplo.com'
-        
+
         const customer = await stripe.customers.create({
           email: userEmailToUse,
           metadata: { userId },
         })
-        
+
         stripeCustomerId = customer.id
-        
+
         try {
           if (profile) {
             await db.profiles.update(userId, {
@@ -87,15 +93,18 @@ export async function POST(req: Request) {
           // Erro silencioso
         }
       } catch (stripeError) {
-        return NextResponse.json({ 
-          error: 'Erro ao configurar pagamento. Tente novamente.' 
-        }, { status: 500 })
+        return NextResponse.json(
+          {
+            error: 'Erro ao configurar pagamento. Tente novamente.',
+          },
+          { status: 500 }
+        )
       }
     } else {
       // Atualizar email do customer existente se necessário
       try {
         const userEmailToUse = userEmail || 'usuario@exemplo.com'
-        
+
         const customer = await stripe.customers.update(stripeCustomerId, {
           email: userEmailToUse,
         })
@@ -116,10 +125,10 @@ export async function POST(req: Request) {
       metadata: {
         userId,
         planType,
-        ...(treatiseId && { 
+        ...(treatiseId && {
           divisionId: treatiseId,
           bookId: 'shulchan-aruch', // ID fixo do Shulchan Aruch
-          treatiseId 
+          treatiseId,
         }),
       },
     }
@@ -128,7 +137,7 @@ export async function POST(req: Request) {
       customer: stripeCustomerId,
       success_url: successUrl,
       cancel_url: cancelUrl,
-      metadata: sessionConfig.metadata
+      metadata: sessionConfig.metadata,
     })
 
     if (price.type === 'recurring') {
@@ -137,10 +146,12 @@ export async function POST(req: Request) {
       sessionConfig.mode = 'payment'
     }
 
-    sessionConfig.line_items = [{
-      price: priceId,
-      quantity: 1,
-    }]
+    sessionConfig.line_items = [
+      {
+        price: priceId,
+        quantity: 1,
+      },
+    ]
 
     const session = await stripe.checkout.sessions.create(sessionConfig)
 
@@ -150,23 +161,26 @@ export async function POST(req: Request) {
       // Isso é uma solução temporária até configurar o webhook
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       url: session.url,
       sessionId: session.id,
       treatiseId: treatiseId,
       // Para tratado avulso, incluir dados para salvar no localStorage
-      ...(planType === 'tratado-avulso' && treatiseId && {
-        treatiseData: {
-          divisionId: treatiseId,
-          bookId: 'shulchan-aruch'
-        }
-      })
+      ...(planType === 'tratado-avulso' &&
+        treatiseId && {
+          treatiseData: {
+            divisionId: treatiseId,
+            bookId: 'shulchan-aruch',
+          },
+        }),
     })
-
   } catch (error) {
-    return NextResponse.json({ 
-      error: 'Erro interno do servidor. Tente novamente.',
-      details: error instanceof Error ? error.message : 'Erro desconhecido'
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        error: 'Erro interno do servidor. Tente novamente.',
+        details: error instanceof Error ? error.message : 'Erro desconhecido',
+      },
+      { status: 500 }
+    )
   }
 }

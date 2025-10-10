@@ -43,16 +43,19 @@ errorHandler.incrementRetry()
 #### Melhorias Implementadas:
 
 1. **Tratamento de Erro Robusto**
+
    - Validação de dados antes de usar
    - Logging detalhado para debugging
    - Tradução automática de erros
 
 2. **Verificação de Acesso Centralizada**
+
    - Uso da API `/api/check-user-access`
    - Fallback para verificação local
    - Logging estruturado de acesso
 
 3. **Interface de Usuário Melhorada**
+
    - Estados de loading informativos
    - Mensagens de erro claras
    - Botão de retry funcional
@@ -66,16 +69,19 @@ errorHandler.incrementRetry()
 ## Benefícios da Solução
 
 ### Para Desenvolvedores
+
 - **Debugging facilitado**: Logs estruturados com contexto
 - **Código reutilizável**: Hooks e componentes genéricos
 - **Manutenibilidade**: Tratamento centralizado de erros
 
 ### Para Usuários
+
 - **Mensagens claras**: Erros traduzidos para português
 - **Experiência consistente**: Interface padronizada
 - **Recuperação fácil**: Botão de retry funcional
 
 ### Para Monitoramento
+
 - **Logs estruturados**: Fácil integração com ferramentas de monitoramento
 - **Contexto rico**: Informações detalhadas para debugging
 - **Rastreabilidade**: Timestamps e metadados
@@ -90,7 +96,7 @@ import { ErrorDisplay } from '@/components/ErrorBoundary'
 
 function MeuComponente() {
   const errorHandler = useErrorHandler()
-  
+
   const handleOperation = async () => {
     try {
       // Operação que pode falhar
@@ -98,7 +104,7 @@ function MeuComponente() {
       errorHandler.handleError('Operação falhou', error, { contexto: 'dados' })
     }
   }
-  
+
   if (errorHandler.error) {
     return (
       <ErrorDisplay
@@ -121,9 +127,12 @@ export async function POST(request: NextRequest) {
     // Lógica da API
   } catch (error) {
     logDetailedError('API Error', error, { endpoint: '/api/example' })
-    return NextResponse.json({ 
-      error: translateDataError(error) 
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        error: translateDataError(error),
+      },
+      { status: 500 }
+    )
   }
 }
 ```
@@ -133,6 +142,7 @@ export async function POST(request: NextRequest) {
 ### Logs Estruturados
 
 Todos os erros são logados com:
+
 - **Contexto**: Onde o erro ocorreu
 - **Tipo**: Tipo do erro (string, object, etc.)
 - **Stack trace**: Para debugging

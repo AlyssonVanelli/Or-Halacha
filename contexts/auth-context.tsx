@@ -77,15 +77,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [pathname])
 
   async function signIn(email: string, password: string) {
-    
     try {
       const supabase = createClient()
-      
+
       const { error } = await supabase.auth.signInWithPassword({
         email,
         password,
       })
-
 
       if (error) {
         console.error('❌ Erro no signIn:', error)
