@@ -71,6 +71,21 @@ export function DashboardFooter() {
                   Política de Privacidade
                 </Link>
               </li>
+              <li>
+                <Link href="/politica-compra" className="text-muted-foreground hover:underline">
+                  Política de Compra
+                </Link>
+              </li>
+              <li>
+                <Link href="/politica-reembolso" className="text-muted-foreground hover:underline">
+                  Política de Reembolso
+                </Link>
+              </li>
+              <li>
+                <Link href="/politica-copia" className="text-muted-foreground hover:underline">
+                  Política de Cópia
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

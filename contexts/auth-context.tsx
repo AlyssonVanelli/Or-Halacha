@@ -47,12 +47,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     }
 
+    // Sincronização imediata
     syncUser()
 
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
+    } = supabase.auth.onAuthStateChange((event, session) => {
       if (mounted) {
+        console.log('Auth state changed:', event, session?.user?.email)
         if (session?.user) {
           setUser(session.user)
         } else {

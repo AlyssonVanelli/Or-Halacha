@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -79,6 +81,81 @@
     -webkit-user-select: none !important;
     -ms-user-select: none !important;
     -moz-user-select: none !important;
+  }
+}
+
+@layer components {
+  /* Tipografia Padronizada */
+  .text-display {
+    @apply text-4xl font-bold font-sans text-gray-900;
+  }
+  
+  .text-heading-1 {
+    @apply text-3xl font-semibold font-sans text-gray-900;
+  }
+  
+  .text-heading-2 {
+    @apply text-2xl font-semibold font-sans text-gray-800;
+  }
+  
+  .text-heading-3 {
+    @apply text-xl font-medium font-sans text-gray-800;
+  }
+  
+  .text-heading-4 {
+    @apply text-lg font-medium font-sans text-gray-700;
+  }
+  
+  .text-body-large {
+    @apply text-lg font-normal font-sans text-gray-700 leading-relaxed;
+  }
+  
+  .text-body {
+    @apply text-base font-normal font-sans text-gray-700 leading-relaxed;
+  }
+  
+  .text-body-small {
+    @apply text-sm font-normal font-sans text-gray-600 leading-relaxed;
+  }
+  
+  .text-caption {
+    @apply text-xs font-normal font-sans text-gray-500;
+  }
+  
+  .text-label {
+    @apply text-sm font-medium font-sans text-gray-700;
+  }
+  
+  .text-button {
+    @apply text-base font-medium font-sans;
+  }
+  
+  .text-button-small {
+    @apply text-sm font-medium font-sans;
+  }
+  
+  /* Tipografia para Conteúdo Religioso */
+  .text-hebrew {
+    @apply text-lg font-normal font-serif text-gray-800 leading-relaxed;
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .text-quote {
+    @apply text-lg font-normal font-serif text-gray-700 italic leading-relaxed;
+  }
+  
+  .text-citation {
+    @apply text-sm font-normal font-serif text-gray-600 italic;
+  }
+  
+  /* Tipografia para Código */
+  .text-code {
+    @apply text-sm font-mono text-gray-800 bg-gray-100 px-1 py-0.5 rounded;
+  }
+  
+  .text-code-block {
+    @apply text-sm font-mono text-gray-800 bg-gray-50 p-4 rounded-lg border;
   }
 }
 
