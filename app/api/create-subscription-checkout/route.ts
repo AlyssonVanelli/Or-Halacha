@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { db } from '@/lib/db'
-import type { Profile } from '@/lib/db'
 // import { createClient } from '@/lib/supabase/client'
 
 const stripeKey = process.env.STRIPE_SECRET_KEY
@@ -9,7 +8,6 @@ if (!stripeKey) throw new Error('STRIPE_SECRET_KEY não configurada')
 const stripe = new Stripe(stripeKey, {
   apiVersion: '2025-04-30.basil',
 })
-
 
 // Mapeamento dos planos para price IDs do Stripe
 const PLAN_PRICE_IDS: Record<string, string> = {
