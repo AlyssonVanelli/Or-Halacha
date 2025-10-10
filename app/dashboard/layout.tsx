@@ -23,7 +23,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   useEffect(() => {
     // Não redireciona se estiver na página de busca ou se ainda está carregando
     if (!user && !pathname.startsWith('/search')) {
-      console.log('No user detected, redirecting to login...')
       // Redirecionamento imediato
       router.replace('/login')
     }

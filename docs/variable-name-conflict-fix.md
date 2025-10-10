@@ -33,7 +33,6 @@ const session = await stripe.checkout.sessions.create({
   // ... configuração ...
 })
 
-console.log('✅ Sessão Stripe criada:', session.id)
 return NextResponse.redirect(session.url!)
 ```
 
@@ -55,7 +54,6 @@ const stripeSession = await stripe.checkout.sessions.create({
   // ... configuração ...
 })
 
-console.log('✅ Sessão Stripe criada:', stripeSession.id)
 return NextResponse.redirect(stripeSession.url!)
 ```
 

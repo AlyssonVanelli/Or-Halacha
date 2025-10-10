@@ -43,7 +43,6 @@ export function SubscriptionButton({ planType, children, className }: Subscripti
         window.location.href = data.url
       }
     } catch (error) {
-      console.error('Erro ao criar checkout:', error)
       // Fallback para signup se der erro
       router.push(`/signup?plan=${planType}`)
     } finally {

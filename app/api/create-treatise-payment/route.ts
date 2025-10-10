@@ -10,9 +10,6 @@ export async function POST(req: Request) {
   try {
     const { userId, divisionId, bookId, userEmail } = await req.json()
 
-    console.log('🔄 CRIANDO COMPRA ÚNICA PARA TRATADO AVULSO')
-    console.log('📊 Dados recebidos:', { userId, divisionId, bookId, userEmail })
-
     if (!userId || !divisionId || !bookId) {
       return NextResponse.json(
         {
@@ -34,7 +31,6 @@ export async function POST(req: Request) {
     let stripeCustomerId = profile?.stripe_customer_id
 
     if (!stripeCustomerId) {
-      console.log('👤 Criando customer no Stripe...')
       const customer = await stripe.customers.create({
         email: userEmail,
         metadata: { userId },
@@ -75,16 +71,12 @@ export async function POST(req: Request) {
       },
     })
 
-    console.log('✅ Sessão de pagamento criada:', session.id)
-    console.log('🔗 URL de checkout:', session.url)
-
     return NextResponse.json({
       success: true,
       url: session.url,
       sessionId: session.id,
     })
   } catch (error) {
-    console.error('❌ Erro ao criar compra única:', error)
     return NextResponse.json(
       {
         error: 'Erro interno',

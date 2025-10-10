@@ -131,16 +131,11 @@ export default function DashboardPage() {
   }
 
   async function handleTreatiseSelection(treatiseId: string) {
-    console.log('🎯 Seleção de tratado:', treatiseId)
-
     if (!user) {
-      console.log('❌ Usuário não logado, redirecionando para login')
       router.push('/login')
       return
     }
 
-    console.log('👤 Usuário logado:', user.id, user.email)
-    console.log('🔄 Iniciando processo de compra...')
     setLoadingPurchase('tratado-avulso')
     setShowTreatiseModal(false)
 
@@ -153,8 +148,6 @@ export default function DashboardPage() {
         successUrl: `${window.location.origin}/payment/success`,
         cancelUrl: `${window.location.origin}/payment/cancel`,
       }
-
-      console.log('📤 Enviando requisição para API:', requestBody)
 
       const response = await fetch('/api/create-treatise-payment', {
         method: 'POST',
@@ -169,41 +162,24 @@ export default function DashboardPage() {
         }),
       })
 
-      console.log('📥 Resposta da API:', {
-        status: response.status,
-        ok: response.ok,
-      })
-
       if (!response.ok) {
         const errorText = await response.text()
-        console.error('❌ Erro na API:', errorText)
         throw new Error('Falha ao criar sessão de checkout de assinatura')
       }
 
       const responseData = await response.json()
-      console.log('✅ Resposta da API:', responseData)
 
       // Compra única - dados passados via URL
-      console.log('💾 Compra única - dados serão passados via URL')
 
       if (responseData.url) {
-        console.log('🔗 Redirecionando para Stripe:', responseData.url)
-        console.log('📋 Session ID:', responseData.sessionId)
-
         // Tratados avulsos agora são assinaturas reais no Stripe
         if (responseData.treatiseId) {
-          console.log(
-            '📚 Tratado será processado como assinatura no Stripe:',
-            responseData.treatiseId
-          )
         }
 
         router.push(responseData.url)
       } else {
-        console.error('❌ URL não encontrada na resposta')
       }
     } catch (error) {
-      console.error('❌ Erro na seleção de tratado:', error)
       toast({
         title: 'Erro na assinatura',
         description: 'Não foi possível iniciar o processo de assinatura. Tente novamente.',

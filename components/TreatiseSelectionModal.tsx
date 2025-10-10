@@ -50,7 +50,6 @@ export default function TreatiseSelectionModal({
         .order('title')
 
       if (error) {
-        console.error('Erro ao carregar tratados:', error)
         return
       }
 

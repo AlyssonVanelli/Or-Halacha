@@ -140,13 +140,6 @@ export async function POST(req: Request) {
       },
     }
 
-    console.log('⚙️ Configuração da sessão:', {
-      customer: stripeCustomerId,
-      success_url: successUrl,
-      cancel_url: cancelUrl,
-      metadata: sessionConfig.metadata,
-    })
-
     if (price.type === 'recurring') {
       sessionConfig.mode = 'subscription'
     } else {

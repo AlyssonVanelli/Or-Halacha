@@ -66,7 +66,7 @@ export const ScreenCaptureProtection: React.FC = () => {
         (e.metaKey && e.altKey && e.key === 'PrintScreen') ||
         // Ctrl + Shift + I (DevTools)
         (e.ctrlKey && e.shiftKey && e.key === 'I') ||
-        // Ctrl + Shift + J (Console)
+        // Ctrl + Shift + J ()
         (e.ctrlKey && e.shiftKey && e.key === 'J') ||
         // Ctrl + Shift + C (Element Inspector)
         (e.ctrlKey && e.shiftKey && e.key === 'C') ||

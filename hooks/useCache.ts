@@ -28,9 +28,7 @@ export function useCache<T>(options: CacheOptions) {
           localStorage.removeItem(`${key}-time`)
         }
       }
-    } catch (error) {
-      console.error('Erro ao ler cache:', error)
-    }
+    } catch (error) {}
 
     return null
   }
@@ -40,9 +38,7 @@ export function useCache<T>(options: CacheOptions) {
       localStorage.setItem(key, JSON.stringify(newData))
       localStorage.setItem(`${key}-time`, Date.now().toString())
       setData(newData)
-    } catch (error) {
-      console.error('Erro ao salvar cache:', error)
-    }
+    } catch (error) {}
   }
 
   const fetchData = async (fetchFunction: () => Promise<T>) => {
@@ -63,7 +59,6 @@ export function useCache<T>(options: CacheOptions) {
       setCachedData(result)
       return result
     } catch (error) {
-      console.error('Erro ao buscar dados:', error)
       throw error
     } finally {
       setIsLoading(false)

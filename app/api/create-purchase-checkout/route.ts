@@ -19,7 +19,6 @@ export async function GET(req: Request) {
     const checkoutUrl = `/payment?divisionId=${divisionId}`
     return NextResponse.redirect(checkoutUrl)
   } catch (error) {
-    console.error('❌ Erro na API GET create-purchase-checkout:', error)
     return NextResponse.json({ error: 'Erro interno' }, { status: 500 })
   }
 }
@@ -41,9 +40,6 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'userId e priceId são obrigatórios' }, { status: 400 })
     }
 
-    console.log('🚀 API create-purchase-checkout chamada')
-    console.log('📊 Dados recebidos:', { userId, bookId, divisionId, priceId, planType })
-
     const supabase = createClient()
 
     // Buscar ou criar customer no Stripe
@@ -56,7 +52,6 @@ export async function POST(req: Request) {
     let stripeCustomerId = profile?.stripe_customer_id
 
     if (!stripeCustomerId) {
-      console.log('👤 Criando customer no Stripe...')
       const customer = await stripe.customers.create({
         email: body.userEmail,
         metadata: { userId },
@@ -71,7 +66,6 @@ export async function POST(req: Request) {
 
     // Buscar price para determinar o tipo
     const price = await stripe.prices.retrieve(priceId)
-    console.log('💰 Price encontrado:', { id: price.id, type: price.type })
 
     // Configurar sessão
     const sessionConfig: Stripe.Checkout.SessionCreateParams = {
@@ -91,10 +85,8 @@ export async function POST(req: Request) {
     // Determinar modo baseado no tipo de price
     if (price.type === 'recurring') {
       sessionConfig.mode = 'subscription'
-      console.log('🔄 Modo: subscription (recorrente)')
     } else {
       sessionConfig.mode = 'payment'
-      console.log('💳 Modo: payment (único)')
     }
 
     // Adicionar item
@@ -105,11 +97,6 @@ export async function POST(req: Request) {
       },
     ]
 
-    console.log('⚙️ Configuração final:', {
-      mode: sessionConfig.mode,
-      metadata: sessionConfig.metadata,
-    })
-
     const session = await stripe.checkout.sessions.create(sessionConfig)
 
     return NextResponse.json({
@@ -117,7 +104,6 @@ export async function POST(req: Request) {
       sessionId: session.id,
     })
   } catch (error) {
-    console.error('❌ Erro na API create-purchase-checkout:', error)
     return NextResponse.json(
       {
         error: 'Erro interno do servidor',

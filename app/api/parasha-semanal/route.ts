@@ -6,7 +6,6 @@ export async function GET() {
     const parasha = await getParashaSemanal()
     return NextResponse.json(parasha)
   } catch (error) {
-    console.error('Erro ao buscar parashá semanal:', error)
     return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }

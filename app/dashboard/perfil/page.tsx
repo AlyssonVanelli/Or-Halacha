@@ -103,7 +103,6 @@ export default function PerfilPage() {
           .order('created_at', { ascending: false })
 
         if (subsError) {
-          console.error('❌ Erro ao carregar assinaturas:', subsError)
         } else {
           setSubscription(subs?.[0] || null)
         }
@@ -170,7 +169,6 @@ export default function PerfilPage() {
         }
         setPayments(allPayments)
       } catch (error) {
-        console.error('❌ Erro ao carregar dados do perfil:', error)
         toast({
           title: 'Erro ao carregar perfil',
           description: 'Não foi possível carregar algumas informações. Tente recarregar a página.',
@@ -257,7 +255,6 @@ export default function PerfilPage() {
           .upload(filePath, avatarFile, { upsert: true })
 
         if (uploadError) {
-          console.error('❌ Erro no upload:', uploadError)
           toast({
             title: 'Erro ao fazer upload da foto',
             description: 'Não foi possível atualizar sua foto. Tente novamente.',
@@ -281,7 +278,6 @@ export default function PerfilPage() {
         .eq('id', user.id)
 
       if (updateError) {
-        console.error('❌ Erro ao atualizar perfil:', updateError)
         toast({
           title: 'Erro ao atualizar perfil',
           description: 'Não foi possível salvar suas alterações. Tente novamente.',
@@ -297,7 +293,6 @@ export default function PerfilPage() {
       })
 
       if (authError) {
-        console.error('⚠️ Erro ao atualizar auth (não crítico):', authError)
         toast({
           title: 'Erro ao atualizar nome',
           description:
@@ -320,7 +315,6 @@ export default function PerfilPage() {
         variant: 'default',
       })
     } catch (error) {
-      console.error('💥 Erro inesperado ao salvar perfil:', error)
       toast({
         title: 'Erro ao salvar alterações',
         description: 'Ocorreu um erro inesperado. Tente novamente.',

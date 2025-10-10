@@ -45,7 +45,6 @@ export default function Home() {
         }
         setSimanLoading(false)
       } catch (error) {
-        console.error('Erro ao carregar dados:', error)
         setSimanLoading(false)
       }
     }

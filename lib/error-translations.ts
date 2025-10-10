@@ -173,26 +173,6 @@ export function translateDataError(error: unknown): string {
  * Log de erro detalhado para debugging
  */
 export function logDetailedError(context: string, error: unknown, additionalData?: unknown): void {
-  console.group(`🚨 ERRO: ${context}`)
-  console.error('Erro original:', error)
-  console.error('Tipo do erro:', typeof error)
-  console.error('Stack trace:', (error as ErrorWithProperties)?.stack)
-
   if (additionalData) {
-    console.error('Dados adicionais:', additionalData)
   }
-
-  // Log estruturado para debugging
-  console.error('Log estruturado:', {
-    context,
-    errorType: typeof error,
-    errorMessage: (error as ErrorWithProperties)?.message || 'Sem mensagem',
-    errorCode: (error as ErrorWithProperties)?.code,
-    errorDetails: (error as ErrorWithProperties)?.details,
-    timestamp: new Date().toISOString(),
-    userAgent: typeof window !== 'undefined' ? window.navigator.userAgent : 'Server',
-    url: typeof window !== 'undefined' ? window.location.href : 'Server',
-  })
-
-  console.groupEnd()
 }

@@ -55,7 +55,6 @@ export default function SimanPage() {
           .single()
 
         if (simanError) {
-          console.error('Erro ao carregar siman:', simanError)
           return
         }
 
@@ -69,7 +68,6 @@ export default function SimanPage() {
           .single()
 
         if (divisionError) {
-          console.error('Erro ao carregar divisão:', divisionError)
           return
         }
 
@@ -83,7 +81,6 @@ export default function SimanPage() {
           .order('position')
 
         if (seifimError) {
-          console.error('Erro ao carregar seifim:', seifimError)
           return
         }
 
@@ -114,16 +111,8 @@ export default function SimanPage() {
 
           const { hasAccess } = accessData.access
 
-          console.log('🔍 DEBUG ACESSO SIMAN DIVISÃO:', {
-            divisaoId,
-            simanId,
-            hasAccess,
-            details: accessData.details,
-          })
-
           setHasAccess(hasAccess)
         } catch (accessError) {
-          console.error('Erro na verificação de acesso:', accessError)
           // Fallback para verificação local
           const { data: subscriptionData } = await supabase
             .from('subscriptions')
@@ -147,7 +136,6 @@ export default function SimanPage() {
           setHasAccess(hasActiveSub || hasPurchasedThisDivision)
         }
       } catch (error) {
-        console.error('Erro inesperado:', error)
       } finally {
         setLoading(false)
       }

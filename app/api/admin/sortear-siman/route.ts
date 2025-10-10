@@ -17,7 +17,6 @@ export async function POST(req: Request) {
     const { data, error } = await supabase.rpc('sortear_siman_do_dia')
 
     if (error) {
-      console.error('Erro ao executar sortear_siman_do_dia:', error)
       return NextResponse.json({ error: 'Erro ao sortear siman do dia' }, { status: 500 })
     }
 
@@ -27,7 +26,6 @@ export async function POST(req: Request) {
       data,
     })
   } catch (error) {
-    console.error('Erro na API de sortear siman:', error)
     return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }
@@ -55,7 +53,6 @@ export async function GET() {
       date: hoje,
     })
   } catch (error) {
-    console.error('Erro ao verificar siman do dia:', error)
     return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }

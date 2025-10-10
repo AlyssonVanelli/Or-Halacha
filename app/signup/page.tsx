@@ -55,8 +55,6 @@ export default function SignUpPage() {
       })
 
       if (signUpError) {
-        console.error('❌ Erro no signUp:', signUpError)
-
         // Se o erro for de usuário já existente, redireciona para login
         if (
           signUpError.message.includes('already') ||
@@ -90,18 +88,14 @@ export default function SignUpPage() {
           })
 
           if (!consentResponse.ok) {
-            console.warn('⚠️ Erro ao registrar consentimento, mas signup foi bem-sucedido')
           }
-        } catch (consentError) {
-          console.warn('⚠️ Erro ao registrar consentimento:', consentError)
-        }
+        } catch (consentError) {}
       }
 
       setError(
         '✅ Email de confirmação enviado! Verifique sua caixa de entrada e clique no link para ativar sua conta.'
       )
     } catch (err) {
-      console.error('💥 Erro no cadastro:', err)
       let errorMessage = 'Erro desconhecido'
 
       if (err instanceof Error) {

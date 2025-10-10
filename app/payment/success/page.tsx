@@ -69,7 +69,6 @@ export default function PaymentSuccessPage() {
 
         setBook(bookData)
       } catch (err) {
-        console.error('Erro ao carregar dados:', err)
         setError('Erro ao carregar informações.')
       } finally {
         setLoading(false)

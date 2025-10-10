@@ -43,13 +43,6 @@ class SecurityMonitor {
     // - DataDog
     // - CloudWatch
     // - LogRocket
-
-    console.warn('Security Alert:', {
-      type: event.type,
-      severity: event.severity,
-      ip: event.ip,
-      timestamp: event.timestamp,
-    })
   }
 
   getEvents(type?: SecurityEvent['type']) {

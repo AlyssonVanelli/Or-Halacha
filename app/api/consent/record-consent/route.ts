@@ -40,7 +40,6 @@ export async function POST(request: Request) {
       .select()
 
     if (error) {
-      console.error('Erro ao inserir consentimento:', error)
       return NextResponse.json({ error: 'Erro ao salvar consentimento' }, { status: 500 })
     }
 
@@ -50,7 +49,6 @@ export async function POST(request: Request) {
       message: 'Consentimento registrado com sucesso',
     })
   } catch (error) {
-    console.error('Erro na API de consentimento:', error)
     return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }

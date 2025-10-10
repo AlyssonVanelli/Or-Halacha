@@ -136,5 +136,4 @@ export function logSecurityEvent(event: string, details: Record<string, unknown>
   }
 
   // Em produção, enviar para serviço de logging
-  console.warn('Security Event:', logEntry)
 }

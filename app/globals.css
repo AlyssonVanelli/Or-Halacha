@@ -87,75 +87,75 @@
 @layer components {
   /* Tipografia Padronizada */
   .text-display {
-    @apply text-4xl font-bold font-sans text-gray-900;
+    @apply font-sans text-4xl font-bold text-gray-900;
   }
-  
+
   .text-heading-1 {
-    @apply text-3xl font-semibold font-sans text-gray-900;
+    @apply font-sans text-3xl font-semibold text-gray-900;
   }
-  
+
   .text-heading-2 {
-    @apply text-2xl font-semibold font-sans text-gray-800;
+    @apply font-sans text-2xl font-semibold text-gray-800;
   }
-  
+
   .text-heading-3 {
-    @apply text-xl font-medium font-sans text-gray-800;
+    @apply font-sans text-xl font-medium text-gray-800;
   }
-  
+
   .text-heading-4 {
-    @apply text-lg font-medium font-sans text-gray-700;
+    @apply font-sans text-lg font-medium text-gray-700;
   }
-  
+
   .text-body-large {
-    @apply text-lg font-normal font-sans text-gray-700 leading-relaxed;
+    @apply font-sans text-lg font-normal leading-relaxed text-gray-700;
   }
-  
+
   .text-body {
-    @apply text-base font-normal font-sans text-gray-700 leading-relaxed;
+    @apply font-sans text-base font-normal leading-relaxed text-gray-700;
   }
-  
+
   .text-body-small {
-    @apply text-sm font-normal font-sans text-gray-600 leading-relaxed;
+    @apply font-sans text-sm font-normal leading-relaxed text-gray-600;
   }
-  
+
   .text-caption {
-    @apply text-xs font-normal font-sans text-gray-500;
+    @apply font-sans text-xs font-normal text-gray-500;
   }
-  
+
   .text-label {
-    @apply text-sm font-medium font-sans text-gray-700;
+    @apply font-sans text-sm font-medium text-gray-700;
   }
-  
+
   .text-button {
-    @apply text-base font-medium font-sans;
+    @apply font-sans text-base font-medium;
   }
-  
+
   .text-button-small {
-    @apply text-sm font-medium font-sans;
+    @apply font-sans text-sm font-medium;
   }
-  
+
   /* Tipografia para Conteúdo Religioso */
   .text-hebrew {
-    @apply text-lg font-normal font-serif text-gray-800 leading-relaxed;
+    @apply font-serif text-lg font-normal leading-relaxed text-gray-800;
     direction: rtl;
     text-align: right;
   }
-  
+
   .text-quote {
-    @apply text-lg font-normal font-serif text-gray-700 italic leading-relaxed;
+    @apply font-serif text-lg font-normal italic leading-relaxed text-gray-700;
   }
-  
+
   .text-citation {
-    @apply text-sm font-normal font-serif text-gray-600 italic;
+    @apply font-serif text-sm font-normal italic text-gray-600;
   }
-  
+
   /* Tipografia para Código */
   .text-code {
-    @apply text-sm font-mono text-gray-800 bg-gray-100 px-1 py-0.5 rounded;
+    @apply rounded bg-gray-100 px-1 py-0.5 font-mono text-sm text-gray-800;
   }
-  
+
   .text-code-block {
-    @apply text-sm font-mono text-gray-800 bg-gray-50 p-4 rounded-lg border;
+    @apply rounded-lg border bg-gray-50 p-4 font-mono text-sm text-gray-800;
   }
 }
 

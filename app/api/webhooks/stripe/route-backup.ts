@@ -21,11 +21,8 @@ export async function POST(req: Request) {
     event = stripe.webhooks.constructEvent(body, signature, webhookSecret)
   } catch (err: unknown) {
     const errorMessage = err instanceof Error ? err.message : 'Erro desconhecido'
-    console.error('❌ Erro na verificação da assinatura do webhook:', errorMessage)
     return NextResponse.json({ error: `Webhook Error: ${errorMessage}` }, { status: 400 })
   }
-
-  console.log('🔔 Webhook recebido:', event.type)
 
   switch (event.type) {
     case 'customer.subscription.created':
@@ -42,7 +39,6 @@ export async function POST(req: Request) {
         .maybeSingle()
 
       if (!profile) {
-        console.log('❌ Perfil não encontrado para customer:', customerId)
         break
       }
 
@@ -50,18 +46,8 @@ export async function POST(req: Request) {
       const divisionId = subscription.metadata?.divisionId
       const bookId = subscription.metadata?.bookId
 
-      console.log('📊 Dados da assinatura:', {
-        userId: profile.id,
-        planType,
-        divisionId,
-        bookId,
-        status: subscription.status,
-      })
-
       // Se é tratado avulso, salvar apenas na purchased_books
       if (planType === 'tratado-avulso' && divisionId && bookId) {
-        console.log('📚 Processando tratado avulso...')
-
         const expiresAt = new Date()
         expiresAt.setMonth(expiresAt.getMonth() + 1)
 
@@ -73,28 +59,22 @@ export async function POST(req: Request) {
           created_at: new Date().toISOString(),
         }
 
-        console.log('💾 Inserindo na purchased_books:', purchaseData)
-
         const { error: purchaseError } = await supabase
           .from('purchased_books')
           .upsert(purchaseData, { onConflict: 'user_id,division_id' })
 
         if (purchaseError) {
-          console.error('❌ Erro ao inserir tratado:', purchaseError)
         } else {
-          console.log('✅ Tratado inserido com sucesso!')
         }
 
         return NextResponse.json({ received: true })
       }
 
       // Para assinaturas normais, processar normalmente
-      console.log('🔄 Processando assinatura normal...')
       break
     }
 
     default:
-      console.log('⚠️ Evento não tratado:', event.type)
   }
 
   return NextResponse.json({ received: true })

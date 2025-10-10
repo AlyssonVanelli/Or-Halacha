@@ -59,7 +59,6 @@ export default function LivrosPage() {
           .single()
 
         if (error) {
-          console.error('Erro ao carregar livro:', error)
           return
         }
 
@@ -67,7 +66,6 @@ export default function LivrosPage() {
           setBook(data)
         }
       } catch (error) {
-        console.error('Erro inesperado ao carregar livro:', error)
       } finally {
         setLoading(false)
       }
@@ -88,7 +86,6 @@ export default function LivrosPage() {
         .eq('user_id', user?.id)
 
       if (purchasedError) {
-        console.error('Erro ao carregar compras:', purchasedError)
       } else {
         setPurchasedBooks(purchasedData?.map(p => p.division_id) || [])
       }
@@ -102,7 +99,6 @@ export default function LivrosPage() {
         .single()
 
       if (subscriptionError && subscriptionError.code !== 'PGRST116') {
-        console.error('Erro ao carregar assinatura:', subscriptionError)
       } else {
         setHasActiveSubscription(!!subscriptionData)
       }
@@ -135,7 +131,6 @@ export default function LivrosPage() {
       const data = await response.json()
       window.location.href = data.url
     } catch (error) {
-      console.error('Erro ao iniciar compra:', error)
     } finally {
       setLoadingPurchase(null)
     }
