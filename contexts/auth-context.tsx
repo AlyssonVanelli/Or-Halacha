@@ -47,15 +47,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     }
 
-    // Pequeno delay para garantir que o callback foi processado
-    const timer = setTimeout(() => {
-      syncUser()
-    }, 100)
+    // Sincronização imediata
+    syncUser()
 
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
+    } = supabase.auth.onAuthStateChange((event, session) => {
       if (mounted) {
+        console.log('Auth state changed:', event, session?.user?.email)
         if (session?.user) {
           setUser(session.user)
         } else {
@@ -67,7 +66,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     return () => {
       mounted = false
-      clearTimeout(timer)
       subscription.unsubscribe()
     }
   }, [])

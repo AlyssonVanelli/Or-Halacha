@@ -23,7 +23,7 @@ export default function LoginPage() {
   const [isResendingEmail, setIsResendingEmail] = useState(false)
   const [urlMessage, setUrlMessage] = useState('')
   const router = useRouter()
-  const { signIn, user } = useAuth()
+  const { signIn } = useAuth()
   const { toast } = useToast()
 
   // Verificar mensagens da URL
@@ -50,25 +50,7 @@ export default function LoginPage() {
     }
   }, [toast])
 
-  useEffect(() => {
-    if (user) {
-      // Delay maior para garantir que o estado foi atualizado e evitar loops
-      setTimeout(() => {
-        router.push('/dashboard')
-      }, 500)
-    }
-  }, [user, router])
-
-  if (user) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-          <p className="text-gray-600">Redirecionando para o dashboard...</p>
-        </div>
-      </div>
-    )
-  }
+  // Removido o redirecionamento automático - agora usamos a página intermediária
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -101,8 +83,10 @@ export default function LoginPage() {
       } else {
         toast({
           title: 'Login realizado com sucesso',
-          description: 'Você foi redirecionado para o dashboard',
+          description: 'Redirecionando para o dashboard...',
         })
+        // Redirecionar para página de verificação
+        router.push('/auth-redirect')
       }
     } catch (error) {
       toast({

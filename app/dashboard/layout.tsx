@@ -19,12 +19,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   useEffect(() => {
     // Não redireciona se estiver na página de busca ou se ainda está carregando
     if (!user && !pathname.startsWith('/search')) {
-      // Delay maior para evitar redirecionamento prematuro e loops
-      const timer = setTimeout(() => {
-        router.push('/login')
-      }, 1000)
-
-      return () => clearTimeout(timer)
+      console.log('No user detected, redirecting to login...')
+      // Redirecionamento imediato
+      router.replace('/login')
     }
   }, [user, router, pathname])
 
