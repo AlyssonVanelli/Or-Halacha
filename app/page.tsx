@@ -13,6 +13,16 @@ import Chatbot from '@/components/Chatbot'
 import { ScrollToSection } from './components/ScrollToSection'
 import { SubscriptionButton } from '@/components/SubscriptionButton'
 import { useAuth } from '@/contexts/auth-context'
+import {
+  Display,
+  Heading1,
+  Heading2,
+  Heading3,
+  Body,
+  BodyLarge,
+  BodySmall,
+  ButtonText,
+} from '@/components/ui/typography'
 
 export default function Home() {
   const { user, loading } = useAuth()
@@ -82,20 +92,22 @@ export default function Home() {
                       <BookOpen className="h-10 w-10 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-3xl font-bold text-blue-600">Or Halachá</h2>
-                      <p className="text-lg text-gray-600">Plataforma de Estudo Haláchico</p>
+                      <Heading2 className="text-blue-600">Or Halachá</Heading2>
+                      <BodyLarge className="text-gray-600">
+                        Plataforma de Estudo Haláchico
+                      </BodyLarge>
                     </div>
                   </div>
 
                   <div className="space-y-4">
-                    <h1 className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl">
+                    <Display className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text tracking-tight text-transparent sm:text-5xl md:text-6xl">
                       Shulchan Aruch em Português
-                    </h1>
-                    <p className="max-w-[700px] text-lg leading-relaxed text-gray-600">
+                    </Display>
+                    <BodyLarge className="max-w-[700px] text-gray-600">
                       Acesse o Shulchan Aruch completo em português, com explicações práticas e
                       navegação fácil por tratados, simanim e seifim. Estude, pesquise e aprofunde
                       seu conhecimento em Halachá clássica.
-                    </p>
+                    </BodyLarge>
                   </div>
                   <div className="flex flex-col gap-3 sm:flex-row">
                     <Link href="/signup">
@@ -154,31 +166,31 @@ export default function Home() {
                   <div className="rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 p-4 shadow-lg">
                     <Search className="h-8 w-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800">Pesquisa Avançada</h3>
-                  <p className="text-center leading-relaxed text-gray-600">
+                  <Heading3 className="text-gray-800">Pesquisa Avançada</Heading3>
+                  <Body className="text-center text-gray-600">
                     Encontre rapidamente qualquer tópico de Halachá com nossa ferramenta de busca
                     inteligente.
-                  </p>
+                  </Body>
                 </div>
                 <div className="flex flex-col items-center space-y-4 rounded-xl border-0 bg-gradient-to-br from-white to-green-50/30 p-8 shadow-lg">
                   <div className="rounded-full bg-gradient-to-r from-green-500 to-emerald-500 p-4 shadow-lg">
                     <BookOpen className="h-8 w-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800">Biblioteca Completa</h3>
-                  <p className="text-center leading-relaxed text-gray-600">
+                  <Heading3 className="text-gray-800">Biblioteca Completa</Heading3>
+                  <Body className="text-center text-gray-600">
                     Acesso ao Shulchan Aruch completo em português, com explicações práticas e
                     navegação por divisões, simanim e seifim.
-                  </p>
+                  </Body>
                 </div>
                 <div className="flex flex-col items-center space-y-4 rounded-xl border-0 bg-gradient-to-br from-white to-amber-50/30 p-8 shadow-lg">
                   <div className="rounded-full bg-gradient-to-r from-amber-500 to-orange-500 p-4 shadow-lg">
                     <Star className="h-8 w-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800">Favoritos e Notas</h3>
-                  <p className="text-center leading-relaxed text-gray-600">
+                  <Heading3 className="text-gray-800">Favoritos e Notas</Heading3>
+                  <Body className="text-center text-gray-600">
                     Marque seus trechos favoritos e adicione anotações pessoais para consulta
                     futura.
-                  </p>
+                  </Body>
                 </div>
               </div>
             </div>
@@ -190,23 +202,23 @@ export default function Home() {
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  <Heading1 className="tracking-tighter sm:text-4xl md:text-5xl">
                     Planos de Assinatura
-                  </h2>
-                  <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  </Heading1>
+                  <BodyLarge className="max-w-[900px] text-gray-500 dark:text-gray-400">
                     Escolha o plano que melhor atende às suas necessidades
-                  </p>
+                  </BodyLarge>
                 </div>
               </div>
               <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-5 xl:gap-12">
                 {/* Tratado Avulso */}
                 <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
                   <div className="mb-4 flex flex-col items-start">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                    <Heading2 className="mb-2 leading-tight">
                       Tratado
                       <br />
                       Avulso
-                    </h3>
+                    </Heading2>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 29,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por 1 mês</div>
                   </div>
@@ -242,11 +254,11 @@ export default function Home() {
                 {/* Mensal Básico */}
                 <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
                   <div className="mb-4 flex flex-col items-start">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                    <Heading2 className="mb-2 leading-tight">
                       Mensal
                       <br />
                       Básico
-                    </h3>
+                    </Heading2>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 99,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
@@ -283,11 +295,11 @@ export default function Home() {
                 {/* Anual Básico */}
                 <div className="flex h-full flex-col rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
                   <div className="mb-4 flex flex-col items-start">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                    <Heading2 className="mb-2 leading-tight">
                       Anual
                       <br />
                       Básico
-                    </h3>
+                    </Heading2>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 79,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
@@ -324,11 +336,11 @@ export default function Home() {
                 {/* Mensal Plus */}
                 <div className="flex h-full flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
                   <div className="mb-4 flex flex-col items-start">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                    <Heading2 className="mb-2 leading-tight">
                       Mensal
                       <br />
                       Plus
-                    </h3>
+                    </Heading2>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 119,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
@@ -366,11 +378,11 @@ export default function Home() {
                 {/* Anual Plus */}
                 <div className="flex h-full flex-col rounded-xl border-2 border-blue-600 bg-gradient-to-br from-white to-blue-50/30 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-slate-950">
                   <div className="mb-4 flex flex-col items-start">
-                    <h3 className="mb-2 text-2xl font-bold leading-tight">
+                    <Heading2 className="mb-2 leading-tight">
                       Anual
                       <br />
                       Plus
-                    </h3>
+                    </Heading2>
                     <div className="whitespace-nowrap text-3xl font-bold">R$ 89,90</div>
                     <div className="-mt-1 text-sm text-gray-500 dark:text-gray-400">por mês</div>
                   </div>
@@ -410,12 +422,24 @@ export default function Home() {
                 <table className="min-w-full rounded-xl border-0 bg-gradient-to-br from-white to-gray-50/30 text-sm shadow-lg dark:bg-slate-950">
                   <thead>
                     <tr className="bg-gradient-to-r from-slate-100 to-slate-200 dark:bg-slate-900">
-                      <th className="p-3 font-bold">Recurso</th>
-                      <th className="p-3 font-bold">Tratado Avulso</th>
-                      <th className="p-3 font-bold">Mensal Básico</th>
-                      <th className="p-3 font-bold">Anual Básico</th>
-                      <th className="p-3 font-bold">Mensal Plus</th>
-                      <th className="p-3 font-bold">Anual Plus</th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Recurso</ButtonText>
+                      </th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Tratado Avulso</ButtonText>
+                      </th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Mensal Básico</ButtonText>
+                      </th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Anual Básico</ButtonText>
+                      </th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Mensal Plus</ButtonText>
+                      </th>
+                      <th className="p-3">
+                        <ButtonText className="font-bold">Anual Plus</ButtonText>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -478,9 +502,9 @@ export default function Home() {
         </div>
         <footer className="border-t py-6 md:py-0">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-            <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
+            <BodySmall className="text-center text-gray-500 md:text-left">
               © 2025 Or Halachá. Todos os direitos reservados.
-            </p>
+            </BodySmall>
             <div className="flex flex-wrap justify-center gap-6">
               <Link
                 href="/termos"
