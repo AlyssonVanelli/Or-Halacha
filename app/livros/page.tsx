@@ -85,7 +85,7 @@ export default function LivrosPage() {
       const { data: purchasedData, error: purchasedError } = await supabase
         .from('purchases')
         .select('division_id')
-        .eq('user_id', user.id)
+        .eq('user_id', user?.id)
 
       if (purchasedError) {
         console.error('Erro ao carregar compras:', purchasedError)
@@ -97,7 +97,7 @@ export default function LivrosPage() {
       const { data: subscriptionData, error: subscriptionError } = await supabase
         .from('subscriptions')
         .select('*')
-        .eq('user_id', user.id)
+        .eq('user_id', user?.id)
         .eq('status', 'active')
         .single()
 

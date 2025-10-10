@@ -17,8 +17,6 @@ export default function DashboardPage() {
   const [isLoading, setIsLoading] = useState(true)
   const { toast } = useToast()
   const router = useRouter()
-  // const [purchasedBooks, setPurchasedBooks] = useState<string[]>([])
-  // const [hasActiveSubscription, setHasActiveSubscription] = useState(false)
   const [hasPlusFeatures, setHasPlusFeatures] = useState(false)
 
   // Hook para informações de acesso do Shulchan Aruch
@@ -55,10 +53,8 @@ export default function DashboardPage() {
               [],
           }
 
-          setHasActiveSubscription(accessData.hasActiveSubscription)
           setHasPlusFeatures(accessData.hasPlusFeatures)
           setHasAnyAccess(accessData.hasAnyAccess)
-          setPurchasedBooks(accessData.purchasedBooks)
 
           // Sem cache - dados sempre em tempo real
         }

@@ -2,6 +2,12 @@
 
 import { useEffect } from 'react'
 
+// Interface para CSSStyleDeclaration com propriedades específicas do navegador
+interface ExtendedCSSStyleDeclaration extends CSSStyleDeclaration {
+  mozUserSelect?: string
+  msUserSelect?: string
+}
+
 export const ScreenCaptureProtection: React.FC = () => {
   useEffect(() => {
     // Bloquear captura de tela no Android
@@ -11,15 +17,15 @@ export const ScreenCaptureProtection: React.FC = () => {
         document.body.style.filter = 'blur(20px)'
         document.body.style.userSelect = 'none'
         document.body.style.webkitUserSelect = 'none'
-        document.body.style.mozUserSelect = 'none'
-        document.body.style.msUserSelect = 'none'
+        ;(document.body.style as ExtendedCSSStyleDeclaration).mozUserSelect = 'none'
+        ;(document.body.style as ExtendedCSSStyleDeclaration).msUserSelect = 'none'
       } else {
         // Usuário voltou para o app
         document.body.style.filter = 'none'
         document.body.style.userSelect = 'auto'
         document.body.style.webkitUserSelect = 'auto'
-        document.body.style.mozUserSelect = 'auto'
-        document.body.style.msUserSelect = 'auto'
+        ;(document.body.style as ExtendedCSSStyleDeclaration).mozUserSelect = 'auto'
+        ;(document.body.style as ExtendedCSSStyleDeclaration).msUserSelect = 'auto'
       }
     }
 

@@ -1,7 +1,13 @@
 import { headers } from 'next/headers'
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
-import { createClient } from '@/lib/supabase/server'
+import { createClient } from '@/lib/supabase/client'
+
+// Interface para subscription com propriedades específicas
+interface StripeSubscriptionWithPeriods extends Stripe.Subscription {
+  current_period_start: number
+  current_period_end: number
+}
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
@@ -14,7 +20,8 @@ export async function POST(req: Request) {
 
   const supabase = createClient()
   const body = await req.text()
-  const signature = headers().get('stripe-signature') as string
+  const headersList = await headers()
+  const signature = headersList.get('stripe-signature') as string
 
   let event: Stripe.Event
 
@@ -160,8 +167,16 @@ export async function POST(req: Request) {
         plan_type: planType as 'monthly' | 'yearly',
         price_id: subscription.items.data[0]?.price?.id || '',
         subscription_id: subscription.id,
-        current_period_start: new Date(subscription.current_period_start * 1000).toISOString(),
-        current_period_end: new Date(subscription.current_period_end * 1000).toISOString(),
+        current_period_start: (subscription as StripeSubscriptionWithPeriods).current_period_start
+          ? new Date(
+              (subscription as StripeSubscriptionWithPeriods).current_period_start * 1000
+            ).toISOString()
+          : null,
+        current_period_end: (subscription as StripeSubscriptionWithPeriods).current_period_end
+          ? new Date(
+              (subscription as StripeSubscriptionWithPeriods).current_period_end * 1000
+            ).toISOString()
+          : null,
         cancel_at_period_end: subscription.cancel_at_period_end,
         explicacao_pratica: false,
         updated_at: new Date().toISOString(),

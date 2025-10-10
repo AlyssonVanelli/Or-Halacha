@@ -44,7 +44,7 @@ export async function POST(req: Request) {
   try {
     // Buscar o perfil do usuário
     const supabase = createClient()
-    const { data: profile } = await supabase
+    let { data: profile } = await supabase
       .from('profiles')
       .select('stripe_customer_id')
       .eq('id', userId)
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
           .insert(profileData)
           .select()
           .single()
-        
+
         profile = newProfile
       } catch (createError) {
         // Continuar mesmo se não conseguir criar o perfil

@@ -88,6 +88,14 @@ export function translateAuthErrorForLogin(error: Error | null): string {
   return translateAuthError(error.message)
 }
 
+// Interface para objetos de erro comuns
+interface ErrorWithProperties {
+  message?: string
+  code?: string | number
+  details?: string
+  stack?: string
+}
+
 /**
  * Traduz erros de carregamento de dados do Supabase
  */
@@ -95,7 +103,7 @@ export function translateDataError(error: unknown): string {
   if (!error) return 'Erro desconhecido ao carregar dados.'
 
   // Se é um objeto de erro do Supabase
-  if (error.message) {
+  if (error && typeof error === 'object' && 'message' in error) {
     const errorTranslations: Record<string, string> = {
       // Erros de conexão
       'Failed to fetch': 'Erro de conexão. Verifique sua internet e tente novamente.',
@@ -132,12 +140,12 @@ export function translateDataError(error: unknown): string {
     }
 
     // Busca tradução exata
-    if (errorTranslations[error.message]) {
-      return errorTranslations[error.message]
+    if (errorTranslations[error.message as string]) {
+      return errorTranslations[error.message as string]
     }
 
     // Busca tradução parcial
-    const lowerErrorMessage = error.message.toLowerCase()
+    const lowerErrorMessage = (error.message as string).toLowerCase()
     for (const [englishError, portugueseError] of Object.entries(errorTranslations)) {
       if (lowerErrorMessage.includes(englishError.toLowerCase())) {
         return portugueseError
@@ -168,7 +176,7 @@ export function logDetailedError(context: string, error: unknown, additionalData
   console.group(`🚨 ERRO: ${context}`)
   console.error('Erro original:', error)
   console.error('Tipo do erro:', typeof error)
-  console.error('Stack trace:', error?.stack)
+  console.error('Stack trace:', (error as ErrorWithProperties)?.stack)
 
   if (additionalData) {
     console.error('Dados adicionais:', additionalData)
@@ -178,9 +186,9 @@ export function logDetailedError(context: string, error: unknown, additionalData
   console.error('Log estruturado:', {
     context,
     errorType: typeof error,
-    errorMessage: error?.message || 'Sem mensagem',
-    errorCode: error?.code,
-    errorDetails: error?.details,
+    errorMessage: (error as ErrorWithProperties)?.message || 'Sem mensagem',
+    errorCode: (error as ErrorWithProperties)?.code,
+    errorDetails: (error as ErrorWithProperties)?.details,
     timestamp: new Date().toISOString(),
     userAgent: typeof window !== 'undefined' ? window.navigator.userAgent : 'Server',
     url: typeof window !== 'undefined' ? window.location.href : 'Server',
