@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { CheckCircle, Shield, CreditCard, Clock, Users } from 'lucide-react'
 import { Display, Body } from '@/components/ui/typography'
 import { DashboardHeader } from '@/components/DashboardHeader'
+import { DashboardFooter } from '@/components/DashboardFooter'
 
 export default function PoliticaCompraPage() {
   return (
@@ -212,24 +213,7 @@ export default function PoliticaCompraPage() {
           </div>
         </div>
       </main>
-      <footer className="border-t py-6">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-          <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-            © 2025 Or Halachá. Todos os direitos reservados.
-          </p>
-          <div className="flex gap-4">
-            <a href="/termos" className="text-sm text-gray-500 underline-offset-4 hover:underline">
-              Termos de Uso
-            </a>
-            <a
-              href="/privacidade"
-              className="text-sm text-gray-500 underline-offset-4 hover:underline"
-            >
-              Política de Privacidade
-            </a>
-          </div>
-        </div>
-      </footer>
+      <DashboardFooter />
     </div>
   )
 }
