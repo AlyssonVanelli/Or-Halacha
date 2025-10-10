@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
-import { db } from '@/lib/db'
-// import { createClient } from '@/lib/supabase/client'
+import { createClient } from '@/lib/supabase/client'
 
 const stripeKey = process.env.STRIPE_SECRET_KEY
 if (!stripeKey) throw new Error('STRIPE_SECRET_KEY não configurada')
@@ -44,7 +43,12 @@ export async function POST(req: Request) {
 
   try {
     // Buscar o perfil do usuário
-    let profile = await db.profiles.getById(userId)
+    const supabase = createClient()
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('stripe_customer_id')
+      .eq('id', userId)
+      .single()
 
     // Se não encontrou o perfil, criar um novo
     if (!profile) {
@@ -55,7 +59,13 @@ export async function POST(req: Request) {
           updated_at: new Date().toISOString(),
         }
 
-        profile = await db.profiles.create(profileData)
+        const { data: newProfile } = await supabase
+          .from('profiles')
+          .insert(profileData)
+          .select()
+          .single()
+        
+        profile = newProfile
       } catch (createError) {
         // Continuar mesmo se não conseguir criar o perfil
         profile = null
@@ -79,10 +89,12 @@ export async function POST(req: Request) {
 
         try {
           if (profile) {
-            await db.profiles.update(userId, {
-              stripe_customer_id: stripeCustomerId,
-              email: userEmail,
-            })
+            await supabase
+              .from('profiles')
+              .update({
+                stripe_customer_id: stripeCustomerId,
+              })
+              .eq('id', userId)
           }
         } catch (err) {
           // Erro silencioso
