@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
     console.log('📚 Dados dos livros comprados:', { purchasedData, purchasedError })
 
     // 2. Verificar no Stripe
-    let stripeCustomer = null
+    let stripeCustomer: Stripe.Customer | null = null
     let stripeSubscriptions = []
 
     try {
