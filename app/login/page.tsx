@@ -23,7 +23,7 @@ export default function LoginPage() {
   const [isResendingEmail, setIsResendingEmail] = useState(false)
   const [urlMessage, setUrlMessage] = useState('')
   const router = useRouter()
-  const { signIn } = useAuth()
+  const { signIn, syncing } = useAuth()
   const { toast } = useToast()
 
   // Verificar mensagens da URL
@@ -85,10 +85,15 @@ export default function LoginPage() {
           title: 'Login realizado com sucesso',
           description: 'Redirecionando para o dashboard...',
         })
-        // Aguardar um pouco para garantir que o estado seja sincronizado
-        setTimeout(() => {
-          router.push('/auth-redirect')
-        }, 500)
+        // Aguardar a sincronização estar completa
+        const waitForSync = () => {
+          if (!syncing) {
+            router.push('/auth-redirect')
+          } else {
+            setTimeout(waitForSync, 100)
+          }
+        }
+        setTimeout(waitForSync, 500)
       }
     } catch (error) {
       toast({

@@ -9,6 +9,7 @@ import { translateAuthError } from '@/lib/error-translations'
 interface AuthContextType {
   user: User | null
   loading: boolean
+  syncing: boolean
   signIn: (email: string, password: string) => Promise<{ error: Error | null }>
   signOut: () => Promise<void>
 }
@@ -18,6 +19,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
+  const [syncing, setSyncing] = useState(false)
   const pathname = usePathname()
 
   useEffect(() => {
@@ -26,6 +28,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     async function syncUser() {
       try {
+        setSyncing(true)
         const {
           data: { session },
         } = await supabase.auth.getSession()
@@ -37,12 +40,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             setUser(null)
           }
           setLoading(false)
+          setSyncing(false)
         }
       } catch (error) {
         console.error('Erro ao sincronizar usuário:', error)
         if (mounted) {
           setUser(null)
           setLoading(false)
+          setSyncing(false)
         }
       }
     }
@@ -56,24 +61,31 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (mounted) {
         console.log('Auth state changed:', event, session?.user?.email)
         
-        // Aguardar um pouco para garantir que a sessão seja persistida
         if (event === 'SIGNED_IN' && session?.user) {
-          // Aguardar um pequeno delay para garantir que a sessão seja persistida
-          setTimeout(() => {
-            if (mounted) {
-              setUser(session.user)
-              setLoading(false)
-            }
-          }, 100)
-        } else if (event === 'SIGNED_OUT') {
-          setUser(null)
-          setLoading(false)
-        } else if (session?.user) {
+          console.log('User signed in, setting user state...')
           setUser(session.user)
           setLoading(false)
-        } else {
+          setSyncing(false)
+        } else if (event === 'SIGNED_OUT') {
+          console.log('User signed out, clearing user state...')
           setUser(null)
           setLoading(false)
+          setSyncing(false)
+        } else if (event === 'TOKEN_REFRESHED' && session?.user) {
+          console.log('Token refreshed, updating user state...')
+          setUser(session.user)
+          setLoading(false)
+          setSyncing(false)
+        } else if (session?.user) {
+          console.log('Session available, setting user state...')
+          setUser(session.user)
+          setLoading(false)
+          setSyncing(false)
+        } else {
+          console.log('No session, clearing user state...')
+          setUser(null)
+          setLoading(false)
+          setSyncing(false)
         }
       }
     })
@@ -123,7 +135,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <AuthContext.Provider value={{ user, loading, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, loading, syncing, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
   )

@@ -12,10 +12,10 @@ export default function AuthRedirectPage() {
     if (!loading) {
       if (user) {
         console.log('User authenticated, redirecting to dashboard...')
-        // Aguardar um pouco mais para garantir que tudo esteja sincronizado
+        // Aguardar mais tempo para garantir que tudo esteja sincronizado
         setTimeout(() => {
           router.replace('/dashboard')
-        }, 200)
+        }, 500)
       } else {
         console.log('User not authenticated, redirecting to login...')
         router.replace('/login')
