@@ -6,13 +6,20 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
 })
 
+export async function GET() {
+  return NextResponse.json({ message: 'API de reembolso funcionando' })
+}
+
 export async function POST(req: Request) {
   try {
+    console.log('API /api/refund chamada')
     const supabase = await createClient()
     const {
       data: { user },
       error: userError,
     } = await supabase.auth.getUser()
+
+    console.log('Usuário autenticado:', !!user, 'Erro:', userError)
 
     if (userError || !user) {
       return NextResponse.json({ error: 'Usuário não autenticado' }, { status: 401 })
