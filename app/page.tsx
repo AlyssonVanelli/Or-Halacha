@@ -481,18 +481,36 @@ export default function Home() {
             <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
               © 2025 Or Halachá. Todos os direitos reservados.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap justify-center gap-6">
               <Link
                 href="/termos"
-                className="text-sm text-gray-500 underline-offset-4 hover:underline"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
               >
                 Termos de Uso
               </Link>
               <Link
                 href="/privacidade"
-                className="text-sm text-gray-500 underline-offset-4 hover:underline"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
               >
                 Política de Privacidade
+              </Link>
+              <Link
+                href="/politica-compra"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Compra
+              </Link>
+              <Link
+                href="/politica-reembolso"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Reembolso
+              </Link>
+              <Link
+                href="/politica-copia"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Cópia
               </Link>
             </div>
           </div>
