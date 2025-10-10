@@ -30,6 +30,7 @@ interface Profile {
   stripe_customer_id?: string | null
 }
 interface Subscription {
+  id: string
   subscription_id: string
   plan_type: string
   explicacao_pratica: boolean
@@ -40,6 +41,7 @@ interface Subscription {
   cancel_at_period_end?: boolean
 }
 interface BookAvulso {
+  id: string
   book_id: string
   expires_at: string
   created_at: string
@@ -640,6 +642,15 @@ export default function PerfilPage() {
                             <Button variant="default" onClick={handleUpgrade}>
                               Fazer Upgrade
                             </Button>
+                            <Button
+                              variant="outline"
+                              onClick={() =>
+                                router.push(`/refund?type=subscription&id=${subscription.id}`)
+                              }
+                              className="border-orange-300 text-orange-600 hover:bg-orange-50"
+                            >
+                              Solicitar Reembolso
+                            </Button>
                           </>
                         )
                       ) : (
@@ -752,6 +763,14 @@ export default function PerfilPage() {
                               ⚠️ Expira em breve!
                             </span>
                           )}
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => router.push(`/refund?type=purchase&id=${book.id}`)}
+                            className="border-orange-300 text-orange-600 hover:bg-orange-50"
+                          >
+                            Solicitar Reembolso
+                          </Button>
                           {days <= 1 && (
                             <span className="inline-flex animate-pulse items-center gap-1 rounded-full bg-red-200 px-2 py-1 text-xs font-bold text-red-700">
                               🚨 Expira hoje!
