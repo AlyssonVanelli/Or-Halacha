@@ -196,6 +196,46 @@ const FAQS: FaqItem[] = [
       'comentários clássicos (Targum, Radak, Malbim)',
     ],
   },
+  {
+    id: 'mashiach-ben-yosef-david',
+    question:
+      'Mashiach ben Yosef e Mashiach ben David são duas pessoas diferentes ou uma só? A morte do Mashiach tem base haláchica?',
+    answer:
+      'A tradição judaica ensina que Mashiach ben Yosef e Mashiach ben David são **duas figuras distintas** que desempenham papéis sequenciais na era messiânica.\n\n**Mashiach ben Yosef** é um precursor, associado a um papel mais prático e militar, que pode até morrer em batalha. **Mashiach ben David** é o Mashiach final, descendente do Rei Davi, que trará a redenção espiritual completa, a reconstrução do Templo e a paz universal.\n\nA ideia de que o Mashiach precisa morrer para "terminar de cumprir" sua missão **não tem base na Halachá (Lei Judaica)**. O Mashiach final deve ser uma figura viva e reinante que estabelece a era messiânica.',
+    context:
+      "**Fontes principais:**\n\n• **Talmud Bavli, Sukkah 52a:** Menciona a morte de Mashiach ben Yosef como um evento trágico que precede a redenção final.\n\n• **Midrash Tanchuma, Toldot 11:** Descreve os papéis distintos dos dois Mashiachs.\n\n• **Rambam (Maimônides), Mishneh Torá, Hilchot Melachim u'Milchamot, Capítulos 11-12:** Descreve o Mashiach como um rei que constrói o Templo, reúne os exilados e traz a era messiânica - **vivo e reinante**.\n\n• **Zohar:** Também aborda a dualidade messiânica.\n\n**A morte do Mashiach:** A Halachá, conforme codificada pelo Rambam, descreve o Mashiach como um rei que construirá o Templo, reunirá os exilados e trará a era messiânica. Ele deve ser uma figura viva e reinante. A morte de Mashiach ben Yosef, se ocorrer, é um evento trágico que precede a redenção final, mas não é um requisito para o cumprimento da missão de Mashiach ben David.",
+    commonErrors: [
+      'Confundir Mashiach ben Yosef com Mashiach ben David: são duas figuras distintas',
+      'Acreditar que o Mashiach precisa morrer para cumprir sua missão: não tem base haláchica',
+      'Pensar que uma única pessoa cumpre ambos os papéis simultaneamente: a tradição ensina papéis sequenciais',
+    ],
+    references: [
+      'Talmud Bavli, Sukkah 52a',
+      'Midrash Tanchuma, Toldot 11',
+      "Rambam, Mishneh Torá, Hilchot Melachim u'Milchamot, Capítulos 11-12",
+      'Zohar',
+      'Talmud Bavli, Sanhedrin 97a-98b',
+    ],
+  },
+  {
+    id: 'moshe-rabbenu-tomb-mashiach',
+    question: 'Como a ocultação do túmulo de Moshe Rabbeinu se relaciona com a vinda do Mashiach?',
+    answer:
+      "A Torá relata que D'us enterrou Moshe Rabbeinu em segredo (Devarim 34:6), e o Midrash explica que isso foi para **evitar que seu túmulo se tornasse um local de idolatria ou culto de personalidade**.\n\nSe até o maior dos profetas teve seu local de sepultamento oculto para prevenir desvios da adoração pura a D'us, é inconcebível que o verdadeiro Mashiach, cuja missão é trazer o mundo ao conhecimento de D'us e à adoração exclusiva, causaria confusão, divisão ou um culto de personalidade que desviasse as pessoas da Torá e dos mandamentos.\n\nUm Mashiach que gera tais desvios não pode ser o verdadeiro redentor.",
+    context:
+      '**Devarim (Deuteronômio) 34:6:** "E ele o enterrou no vale na terra de Moav, defronte de Beit Peor; e ninguém sabe o lugar de seu sepultamento até hoje."\n\n**Midrash explica:** D\'us enterrou Moshe em segredo para evitar que seu túmulo se tornasse um local de idolatria ou culto de personalidade. Moshe foi o maior dos profetas, e D\'us quis prevenir qualquer desvio da adoração exclusiva a Ele.\n\n**Implicação para o Mashiach:** Se até Moshe Rabbeinu, que não era o Mashiach, teve seu túmulo oculto para evitar idolatria, é inconcebível que o verdadeiro Mashiach, cuja missão é trazer o mundo ao conhecimento de D\'us e à adoração pura, causaria confusão, divisão ou um culto de personalidade que desviasse as pessoas da Torá e dos mandamentos.\n\nUm "falso Mashiach" que causa confusão, divisão e desvia as pessoas da Torá não pode ser o verdadeiro Mashiach. O verdadeiro Mashiach trará clareza, paz e união sob a Torá.',
+    commonErrors: [
+      "Ignorar a lição do sepultamento secreto de Moshe: D'us preveniu idolatria mesmo para o maior profeta",
+      "Acreditar que um Mashiach que causa divisão pode ser verdadeiro: contradiz sua missão de unir o mundo sob D'us",
+      'Pensar que confusão e desvios são parte do plano messiânico: o verdadeiro Mashiach traz clareza e paz',
+    ],
+    references: [
+      'Devarim (Deuteronômio) 34:6',
+      'Midrash sobre o sepultamento de Moshe',
+      "Rambam, Mishneh Torá, Hilchot Melachim u'Milchamot, Capítulo 11",
+      'Talmud Bavli, Sanhedrin 97a-98b',
+    ],
+  },
 ]
 
 export default function FaqPage() {
