@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
 
     // 2. Verificar no Stripe
     let stripeCustomer: Stripe.Customer | null = null
-    let stripeSubscriptions = []
+    let stripeSubscriptions: Stripe.Subscription[] = []
 
     try {
       // Buscar customer no Stripe
