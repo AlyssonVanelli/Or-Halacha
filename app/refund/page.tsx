@@ -62,6 +62,12 @@ export default function RefundPage() {
 
     setProcessing(true)
     try {
+      // Primeiro, testar se a API está funcionando
+      const testResponse = await fetch('/api/refund', { method: 'GET' })
+      if (!testResponse.ok) {
+        throw new Error(`API não está funcionando: ${testResponse.status}`)
+      }
+
       const response = await fetch('/api/refund', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
