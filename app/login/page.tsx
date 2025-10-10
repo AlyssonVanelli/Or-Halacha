@@ -51,10 +51,10 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (user) {
-      // Pequeno delay para garantir que o estado foi atualizado
+      // Delay maior para garantir que o estado foi atualizado e evitar loops
       setTimeout(() => {
         router.push('/dashboard')
-      }, 100)
+      }, 500)
     }
   }, [user, router])
 
@@ -289,7 +289,7 @@ export default function LoginPage() {
             <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
               © 2025 Or Halachá. Todos os direitos reservados.
             </p>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="/termos"
                 className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
@@ -301,6 +301,24 @@ export default function LoginPage() {
                 className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
               >
                 Política de Privacidade
+              </a>
+              <a
+                href="/politica-compra"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Compra
+              </a>
+              <a
+                href="/politica-reembolso"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Reembolso
+              </a>
+              <a
+                href="/politica-copia"
+                className="text-sm text-gray-500 transition-colors duration-200 hover:text-blue-600"
+              >
+                Política de Cópia
               </a>
             </div>
           </div>

@@ -47,7 +47,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     }
 
-    syncUser()
+    // Pequeno delay para garantir que o callback foi processado
+    const timer = setTimeout(() => {
+      syncUser()
+    }, 100)
 
     const {
       data: { subscription },
@@ -64,6 +67,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     return () => {
       mounted = false
+      clearTimeout(timer)
       subscription.unsubscribe()
     }
   }, [])
