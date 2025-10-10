@@ -85,8 +85,10 @@ export default function LoginPage() {
           title: 'Login realizado com sucesso',
           description: 'Redirecionando para o dashboard...',
         })
-        // Redirecionar para página de verificação
-        router.push('/auth-redirect')
+        // Aguardar um pouco para garantir que o estado seja sincronizado
+        setTimeout(() => {
+          router.push('/auth-redirect')
+        }, 500)
       }
     } catch (error) {
       toast({
