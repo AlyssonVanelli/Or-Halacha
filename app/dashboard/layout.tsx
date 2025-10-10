@@ -4,6 +4,7 @@ import type React from 'react'
 import { useEffect } from 'react'
 import { useRouter, usePathname } from 'next/navigation'
 import { useAuth } from '@/contexts/auth-context'
+import { useSessionTimeout } from '@/hooks/useSessionTimeout'
 import { DashboardHeader } from '@/components/DashboardHeader'
 import { DashboardFooter } from '@/components/DashboardFooter'
 
@@ -15,6 +16,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const { user } = useAuth()
   const router = useRouter()
   const pathname = usePathname() || ''
+
+  // Hook para verificar timeout de sessão
+  useSessionTimeout()
 
   useEffect(() => {
     // Não redireciona se estiver na página de busca ou se ainda está carregando

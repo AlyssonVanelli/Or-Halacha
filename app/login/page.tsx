@@ -47,6 +47,13 @@ export default function LoginPage() {
         description: 'Erro ao verificar sua assinatura. Tente fazer login novamente.',
         variant: 'destructive',
       })
+    } else if (message === 'session-expired') {
+      setUrlMessage('Sua sessão expirou por tempo limite (30 minutos). Faça login novamente.')
+      toast({
+        title: 'Sessão Expirada',
+        description: 'Sua sessão expirou por tempo limite (30 minutos). Faça login novamente.',
+        variant: 'destructive',
+      })
     }
   }, [toast])
 
