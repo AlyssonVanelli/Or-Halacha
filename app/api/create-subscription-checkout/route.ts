@@ -10,9 +10,6 @@ const stripe = new Stripe(stripeKey, {
   apiVersion: '2025-04-30.basil',
 })
 
-interface ProfileWithStripeId extends Profile {
-  stripe_customer_id: string
-}
 
 // Mapeamento dos planos para price IDs do Stripe
 const PLAN_PRICE_IDS: Record<string, string> = {
@@ -87,7 +84,7 @@ export async function POST(req: Request) {
             await db.profiles.update(userId, {
               stripe_customer_id: stripeCustomerId,
               email: userEmail,
-            } as ProfileWithStripeId)
+            })
           }
         } catch (err) {
           // Erro silencioso
