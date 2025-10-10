@@ -35,11 +35,19 @@ export async function POST(req: Request) {
       const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
       const eligible = subscriptionDate >= sevenDaysAgo
 
+      // Determinar nome do plano baseado no tipo
+      let planName = ''
+      if (subscription.plan_type === 'monthly') {
+        planName = subscription.explicacao_pratica ? 'Plano Mensal Plus' : 'Plano Mensal'
+      } else {
+        planName = subscription.explicacao_pratica ? 'Plano Anual Plus' : 'Plano Anual'
+      }
+
       return NextResponse.json({
         type: 'subscription',
         id: subscription.id,
-        title: `Plano ${subscription.plan_type}`,
-        amount: 'R$ ' + (subscription.plan_type.includes('mensal') ? '99,90' : '79,90'),
+        title: planName,
+        amount: 'R$ ' + (subscription.plan_type === 'monthly' ? '99,90' : '79,90'),
         date: subscriptionDate.toLocaleDateString('pt-BR'),
         eligible,
       })
@@ -48,7 +56,13 @@ export async function POST(req: Request) {
     if (type === 'purchase') {
       const { data: purchase } = await supabase
         .from('purchased_books')
-        .select('*')
+        .select(
+          `
+          *,
+          divisions!inner(title),
+          books!inner(title)
+        `
+        )
         .eq('id', id)
         .eq('user_id', user.id)
         .single()
@@ -61,10 +75,15 @@ export async function POST(req: Request) {
       const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
       const eligible = purchaseDate >= sevenDaysAgo
 
+      // Construir nome do tratado
+      const bookTitle = purchase.books?.title || 'Livro'
+      const divisionTitle = purchase.divisions?.title || 'Divisão'
+      const treatiseName = `${bookTitle} - ${divisionTitle}`
+
       return NextResponse.json({
         type: 'purchase',
         id: purchase.id,
-        title: `Tratado ${purchase.division_id}`,
+        title: treatiseName,
         amount: 'R$ 29,90',
         date: purchaseDate.toLocaleDateString('pt-BR'),
         eligible,
