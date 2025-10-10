@@ -1,59 +1,56 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
 
-const supabaseUrl = process.env['NEXT_PUBLIC_SUPABASE_URL']
-const supabaseKey = process.env['SUPABASE_SERVICE_ROLE_KEY']
-if (!supabaseUrl || !supabaseKey)
-  throw new Error('Variáveis de ambiente do Supabase não configuradas')
-const supabaseAdmin = createClient(supabaseUrl, supabaseKey)
-
-export async function POST(req: NextRequest) {
+export async function POST(request: Request) {
   try {
-    const body = await req.json()
-    const { consentType } = body
-    if (!consentType) {
-      return NextResponse.json({ error: 'Tipo de consentimento é obrigatório' }, { status: 400 })
+    const { user_id, consent_type } = await request.json()
+
+    if (!user_id || !consent_type) {
+      return NextResponse.json(
+        { error: 'user_id e consent_type são obrigatórios' },
+        { status: 400 }
+      )
     }
 
-    // Loga todos os cookies recebidos
+    const supabase = await createClient()
 
-    // Procura o cookie de auth do Supabase
-    const authCookie = req.cookies
-      .getAll()
-      .find(cookie => cookie.name.startsWith('sb-') && cookie.name.endsWith('-auth-token'))
+    // Verificar se o usuário está autenticado
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
 
-    let token: string | undefined = undefined
-    if (authCookie) {
-      try {
-        // O valor é um array serializado em JSON, o primeiro item é o JWT
-        const arr = JSON.parse(authCookie.value)
-        token = Array.isArray(arr) ? arr[0] : undefined
-      } catch (e) {}
-    } else {
-    }
-    let user_id: string | null = null
-    if (token) {
-      const result = await supabaseAdmin.auth.getUser(token)
-      const {
-        data: { user },
-        error: userErr,
-      } = result
-      if (!userErr && user) {
-        user_id = user.id
-      } else {
-      }
-    } else {
+    if (authError || !user) {
+      return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
     }
 
-    const { error } = await supabaseAdmin
+    // Verificar se o user_id corresponde ao usuário autenticado
+    if (user.id !== user_id) {
+      return NextResponse.json({ error: 'Não autorizado' }, { status: 403 })
+    }
+
+    // Inserir o consentimento na tabela data_consents
+    const { data, error } = await supabase
       .from('data_consents')
-      .insert({ user_id, consent_type: consentType })
+      .insert({
+        user_id: user_id,
+        consent_type: consent_type,
+        granted_at: new Date().toISOString(),
+      })
+      .select()
 
     if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 })
+      console.error('Erro ao inserir consentimento:', error)
+      return NextResponse.json({ error: 'Erro ao salvar consentimento' }, { status: 500 })
     }
-    return NextResponse.json({ ok: true })
-  } catch (err) {
-    return NextResponse.json({ error: 'Erro inesperado' }, { status: 500 })
+
+    return NextResponse.json({
+      success: true,
+      data: data[0],
+      message: 'Consentimento registrado com sucesso',
+    })
+  } catch (error) {
+    console.error('Erro na API de consentimento:', error)
+    return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }

@@ -4,15 +4,17 @@ import { useState } from 'react'
 // import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
 import { HeaderSimplificado } from '@/components/DashboardHeader'
-import { BookOpen, ShieldCheck } from 'lucide-react'
+import { BookOpen, ShieldCheck, FileText } from 'lucide-react'
 import { Label } from '@/components/ui/label'
 import { translateAuthError } from '@/lib/error-translations'
 
 export default function SignUpPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [acceptTerms, setAcceptTerms] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   // const { signIn } = useAuth()
@@ -35,10 +37,16 @@ export default function SignUpPage() {
       return
     }
 
+    if (!acceptTerms) {
+      setError('Você deve aceitar os Termos de Uso para continuar.')
+      setLoading(false)
+      return
+    }
+
     try {
       const supabase = createClient()
 
-      const { error: signUpError } = await supabase.auth.signUp({
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
@@ -65,6 +73,28 @@ export default function SignUpPage() {
         }
 
         throw signUpError
+      }
+
+      // Se o signup foi bem-sucedido e temos um usuário, registrar o consentimento
+      if (signUpData.user) {
+        try {
+          const consentResponse = await fetch('/api/consent/record-consent', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              user_id: signUpData.user.id,
+              consent_type: 'terms_of_use',
+            }),
+          })
+
+          if (!consentResponse.ok) {
+            console.warn('⚠️ Erro ao registrar consentimento, mas signup foi bem-sucedido')
+          }
+        } catch (consentError) {
+          console.warn('⚠️ Erro ao registrar consentimento:', consentError)
+        }
       }
 
       setError(
@@ -142,6 +172,45 @@ export default function SignUpPage() {
                     <div className="mt-2 flex items-center gap-2 text-xs text-gray-600">
                       <ShieldCheck className="h-4 w-4 text-blue-500" />
                       Use letras, números e símbolos para uma senha forte
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <Checkbox
+                        id="acceptTerms"
+                        checked={acceptTerms}
+                        onCheckedChange={checked => setAcceptTerms(checked as boolean)}
+                        className="mt-1"
+                      />
+                      <div className="space-y-1">
+                        <Label
+                          htmlFor="acceptTerms"
+                          className="cursor-pointer text-sm text-gray-700"
+                        >
+                          Aceito os{' '}
+                          <a
+                            href="/termos"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-blue-600 underline hover:text-blue-700"
+                          >
+                            Termos de Uso
+                          </a>{' '}
+                          e a{' '}
+                          <a
+                            href="/privacidade"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-blue-600 underline hover:text-blue-700"
+                          >
+                            Política de Privacidade
+                          </a>
+                        </Label>
+                        <div className="flex items-center gap-2 text-xs text-gray-600">
+                          <FileText className="h-3 w-3 text-blue-500" />
+                          <span>Leia os termos antes de aceitar</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   {error && (
