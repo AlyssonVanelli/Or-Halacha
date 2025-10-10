@@ -1,9 +1,8 @@
 # 📌 TODO - Or Halacha
 
-- [ ] Corrigir email do suporte
 - [ ] Registrar dominio
 - [ ] Registrar patente
-- [ ] Trigger para o siman diário aleatorio
+- [ ] Corrigir email do suporte
 - [ ] Botão de upgrade
 - [ ] Aceitar contrato na criação da conta
 - [ ] Token do usuario expirar e mostrar mensagem

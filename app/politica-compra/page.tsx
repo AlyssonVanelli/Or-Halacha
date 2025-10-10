@@ -5,12 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { CheckCircle, Shield, CreditCard, Clock, Users } from 'lucide-react'
 import { Display, Body } from '@/components/ui/typography'
-import { HeaderSimplificado } from '@/components/DashboardHeader'
+import { DashboardHeader } from '@/components/DashboardHeader'
 
 export default function PoliticaCompraPage() {
   return (
     <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
-      <HeaderSimplificado />
+      <DashboardHeader />
       <main className="flex-1">
         <div className="container py-8">
           <div className="container mx-auto max-w-4xl px-4">
