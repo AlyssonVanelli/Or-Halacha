@@ -4,16 +4,17 @@ import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { CheckCircle, Shield, CreditCard, Clock, Users } from 'lucide-react'
+import { Display, Body } from '@/components/ui/typography'
 
 export default function PoliticaCompraPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="mb-8 text-center">
-          <h1 className="mb-4 text-4xl font-bold text-gray-800">Política de Compra</h1>
-          <p className="text-lg text-gray-600">
+          <Display className="mb-4">Política de Compra</Display>
+          <Body className="text-lg text-gray-600">
             Termos e condições para aquisição de assinaturas e tratados individuais
-          </p>
+          </Body>
         </div>
 
         <div className="space-y-6">

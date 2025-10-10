@@ -13,6 +13,7 @@ import { useToast } from '@/hooks/use-toast'
 import { HeaderSimplificado } from '@/components/DashboardHeader'
 import { translateAuthErrorForLogin } from '@/lib/error-translations'
 import { createClient } from '@/lib/supabase/client'
+import { Display, Heading1, Body, BodySmall, ButtonText } from '@/components/ui/typography'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('')
@@ -161,17 +162,17 @@ export default function LoginPage() {
               <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 shadow-lg">
                 <BookOpen className="h-10 w-10 text-white" />
               </div>
-              <h2 className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-3xl font-bold text-transparent">
+              <Display className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
                 Or Halachá
-              </h2>
-              <p className="mt-2 text-sm text-gray-600">Plataforma de Estudo Haláchico</p>
+              </Display>
+              <BodySmall className="mt-2">Plataforma de Estudo Haláchico</BodySmall>
             </div>
             <div className="rounded-2xl border-0 bg-gradient-to-br from-white to-blue-50/30 py-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
               <div className="px-8 pb-4 pt-8">
-                <h1 className="text-center text-3xl font-bold text-gray-800">Acesse sua conta</h1>
-                <p className="mt-3 text-center text-base text-gray-600">
+                <Heading1 className="text-center">Acesse sua conta</Heading1>
+                <Body className="mt-3 text-center">
                   Bem-vindo de volta! Faça login para acessar o conteúdo completo.
-                </p>
+                </Body>
               </div>
               <div className="px-8 pb-8">
                 {urlMessage && (
@@ -235,7 +236,7 @@ export default function LoginPage() {
                     className="h-12 w-full bg-gradient-to-r from-blue-600 to-blue-700 text-base font-semibold shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
                     disabled={isLoading}
                   >
-                    {isLoading ? 'Entrando...' : 'Entrar'}
+                    <ButtonText>{isLoading ? 'Entrando...' : 'Entrar'}</ButtonText>
                   </Button>
 
                   {showEmailConfirmation && (
