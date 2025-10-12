@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   console.log('=== CANCELANDO ASSINATURA ===')
 
   const body = await req.json()
-  const { userId, subscriptionId } = body
+  const { userId } = body
 
   if (!userId) {
     return NextResponse.json(

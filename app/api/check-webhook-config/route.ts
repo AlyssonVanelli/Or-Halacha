@@ -14,7 +14,7 @@ export async function GET() {
   console.log('Configuração:', config)
 
   const missingConfigs = Object.entries(config)
-    .filter(([key, value]) => !value)
+    .filter(([, value]) => !value)
     .map(([key]) => key)
 
   if (missingConfigs.length > 0) {

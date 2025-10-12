@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { useAuth } from '@/contexts/auth-context'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { PLAN_TYPES } from '@/lib/stripe'
+// import { PLAN_TYPES } from '@/lib/stripe'
 
 interface SubscriptionButtonProps {
   planType: string

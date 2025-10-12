@@ -125,7 +125,7 @@ export function checkRateLimit(
 /**
  * Log de segurança
  */
-export function logSecurityEvent(_event: string, _details: Record<string, unknown>, _ip?: string) {
+export function logSecurityEvent() {
   // Em produção, enviar para serviço de logging
   // const timestamp = new Date().toISOString()
   // const logEntry = {

@@ -1,9 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { stripe } from '@/lib/stripe'
+import { NextResponse } from 'next/server'
+// import { stripe } from '@/lib/stripe'
 import { subscriptionService } from '@/lib/services/subscription-service'
 import { createClient } from '@/lib/supabase/client'
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     console.log('=== SINCRONIZANDO TODAS AS ASSINATURAS ===')
 

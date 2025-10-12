@@ -24,10 +24,7 @@ export async function POST() {
 
   console.log('=== VERIFICANDO CONEXÃO COM BANCO ===')
   try {
-    const { data: testData, error: testError } = await supabase
-      .from('subscriptions')
-      .select('count')
-      .limit(1)
+    const { error: testError } = await supabase.from('subscriptions').select('count').limit(1)
 
     if (testError) {
       console.error('ERRO na conexão com banco:', testError)

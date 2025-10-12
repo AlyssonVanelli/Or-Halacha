@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/client'
 
-export async function POST(req: Request) {
+export async function POST() {
   console.log('=== TESTE DE WEBHOOK DE ASSINATURA ===')
 
   const supabase = createClient()
@@ -9,10 +9,7 @@ export async function POST(req: Request) {
   try {
     // Testar conexão com banco
     console.log('Testando conexão com banco...')
-    const { data: testData, error: testError } = await supabase
-      .from('subscriptions')
-      .select('count')
-      .limit(1)
+    const { error: testError } = await supabase.from('subscriptions').select('count').limit(1)
 
     if (testError) {
       console.error('ERRO na conexão com banco:', testError)

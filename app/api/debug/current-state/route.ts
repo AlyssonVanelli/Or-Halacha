@@ -13,7 +13,7 @@ export async function GET() {
     console.log('=== VERIFICANDO ESTADO ATUAL ===')
 
     // 1. Verificar profiles no banco
-    const { data: profiles, error: profilesError } = await supabase.from('profiles').select('*')
+    const { data: profiles } = await supabase.from('profiles').select('*')
 
     console.log('=== PROFILES NO BANCO ===')
     console.log('Total:', profiles?.length || 0)
@@ -24,9 +24,7 @@ export async function GET() {
     }
 
     // 2. Verificar subscriptions no banco
-    const { data: subscriptions, error: subscriptionsError } = await supabase
-      .from('subscriptions')
-      .select('*')
+    const { data: subscriptions } = await supabase.from('subscriptions').select('*')
 
     console.log('=== SUBSCRIPTIONS NO BANCO ===')
     console.log('Total:', subscriptions?.length || 0)

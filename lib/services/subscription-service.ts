@@ -4,7 +4,7 @@ import { Database } from '@/lib/supabase/database.types'
 
 type Subscription = Database['public']['Tables']['subscriptions']['Row']
 type SubscriptionInsert = Database['public']['Tables']['subscriptions']['Insert']
-type SubscriptionUpdate = Database['public']['Tables']['subscriptions']['Update']
+// type SubscriptionUpdate = Database['public']['Tables']['subscriptions']['Update']
 
 export class SubscriptionService {
   private supabase = createClient()

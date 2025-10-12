@@ -55,7 +55,7 @@ export class AccessService {
             purchasedDivisions,
           },
           canAccessDivision: (divisionId: string) => purchasedDivisions.includes(divisionId),
-          canAccessBook: (bookId: string) => {
+          canAccessBook: () => {
             // Para compras, verificar se tem pelo menos uma divisão do livro
             return purchasedDivisions.length > 0
           },

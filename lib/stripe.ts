@@ -38,8 +38,8 @@ export const PLAN_PRICE_IDS: Record<PlanType, string> = {
 // Validação dos price IDs
 export function validatePriceIds(): void {
   const missingIds = Object.entries(PLAN_PRICE_IDS)
-    .filter(([_, priceId]) => !priceId)
-    .map(([planType, _]) => planType)
+    .filter(([, priceId]) => !priceId)
+    .map(([planType]) => planType)
 
   if (missingIds.length > 0) {
     throw new Error(`Price IDs não configurados para: ${missingIds.join(', ')}`)

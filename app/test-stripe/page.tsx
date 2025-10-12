@@ -234,41 +234,6 @@ export default function TestStripePage() {
     }
   }
 
-  const handleActivateSubscription = async (subscriptionId: string) => {
-    setLoading(true)
-    setError(null)
-    setResult(null)
-
-    try {
-      console.log('=== ATIVANDO ASSINATURA ===')
-      console.log('Subscription ID:', subscriptionId)
-
-      const response = await fetch('/api/test-activate-subscription', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          subscriptionId: subscriptionId,
-        }),
-      })
-
-      const data = await response.json()
-      console.log('Activate subscription result:', data)
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Erro ao ativar assinatura')
-      }
-
-      setResult(data)
-    } catch (err: any) {
-      console.error('Erro ao ativar assinatura:', err)
-      setError(err.message || 'Erro desconhecido')
-    } finally {
-      setLoading(false)
-    }
-  }
-
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto px-4">

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 import { stripe } from '@/lib/stripe'
-import { subscriptionService } from '@/lib/services/subscription-service'
+// import { subscriptionService } from '@/lib/services/subscription-service'
 import { createClient } from '@/lib/supabase/client'
 
 const DebugRequestSchema = z.object({
