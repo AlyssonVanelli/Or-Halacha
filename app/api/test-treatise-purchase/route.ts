@@ -9,22 +9,22 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 export async function POST(req: Request) {
   try {
     console.log('=== TESTE DE COMPRA DE TRATADO AVULSO ===')
-    
+
     const { userId, divisionId, bookId, userEmail } = await req.json()
-    
+
     console.log('Parâmetros:', { userId, divisionId, bookId, userEmail })
-    
+
     const supabase = await createClient()
-    
+
     // Buscar customer
     const { data: profile } = await supabase
       .from('profiles')
       .select('stripe_customer_id')
       .eq('id', userId)
       .single()
-    
+
     let stripeCustomerId = profile?.stripe_customer_id
-    
+
     if (!stripeCustomerId) {
       const customer = await stripe.customers.create({
         email: userEmail,
@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       })
       stripeCustomerId = customer.id
     }
-    
+
     // Criar sessão de teste
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -58,27 +58,29 @@ export async function POST(req: Request) {
         divisionId,
         bookId,
         type: 'treatise-purchase',
-        test: 'true'
+        test: 'true',
       },
     })
-    
+
     console.log('Sessão de teste criada:', session.id)
     console.log('URL da sessão:', session.url)
     console.log('Metadata enviado:', session.metadata)
-    
+
     return NextResponse.json({
       success: true,
       sessionId: session.id,
       url: session.url,
       metadata: session.metadata,
-      message: 'Sessão de teste criada para tratado avulso'
+      message: 'Sessão de teste criada para tratado avulso',
     })
-    
   } catch (error) {
     console.error('Erro no teste:', error)
-    return NextResponse.json({
-      success: false,
-      error: error instanceof Error ? error.message : 'Erro desconhecido'
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        success: false,
+        error: error instanceof Error ? error.message : 'Erro desconhecido',
+      },
+      { status: 500 }
+    )
   }
 }

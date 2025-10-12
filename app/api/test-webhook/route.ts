@@ -8,7 +8,7 @@ export async function GET() {
   console.log('Stripe Webhook Secret configurado:', !!process.env.STRIPE_WEBHOOK_SECRET)
   console.log('Supabase URL configurado:', !!process.env.NEXT_PUBLIC_SUPABASE_URL)
   console.log('Supabase Anon Key configurado:', !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
-  
+
   return NextResponse.json({
     message: 'Teste de webhook realizado',
     timestamp: new Date().toISOString(),
@@ -17,6 +17,6 @@ export async function GET() {
       stripeWebhookSecret: !!process.env.STRIPE_WEBHOOK_SECRET,
       supabaseUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
       supabaseAnonKey: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-    }
+    },
   })
 }

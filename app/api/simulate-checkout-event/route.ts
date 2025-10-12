@@ -3,9 +3,9 @@ import { NextResponse } from 'next/server'
 export async function POST(req: Request) {
   try {
     console.log('🎭 SIMULANDO EVENTO CHECKOUT.SESSION.COMPLETED')
-    
+
     const { userId, divisionId, bookId } = await req.json()
-    
+
     // Simular evento checkout.session.completed
     const mockEvent = {
       id: 'evt_test_' + Date.now(),
@@ -29,43 +29,45 @@ export async function POST(req: Request) {
             userId,
             divisionId,
             bookId,
-            type: 'treatise-purchase'
+            type: 'treatise-purchase',
           },
-          payment_intent: 'pi_test_' + Date.now()
-        }
-      }
+          payment_intent: 'pi_test_' + Date.now(),
+        },
+      },
     }
-    
+
     console.log('Evento simulado:', JSON.stringify(mockEvent, null, 2))
-    
+
     // Chamar o webhook diretamente
     const webhookUrl = 'https://or-halacha.vercel.app/api/webhooks/stripe'
     console.log('Chamando webhook:', webhookUrl)
-    
+
     const response = await fetch(webhookUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'stripe-signature': 'test_signature'
+        'stripe-signature': 'test_signature',
       },
-      body: JSON.stringify(mockEvent)
+      body: JSON.stringify(mockEvent),
     })
-    
+
     const result = await response.text()
     console.log('Resposta do webhook:', result)
-    
+
     return NextResponse.json({
       success: true,
       message: 'Evento simulado enviado para webhook',
       webhookResponse: result,
-      event: mockEvent
+      event: mockEvent,
     })
-    
   } catch (error) {
     console.error('Erro na simulação:', error)
-    return NextResponse.json({
-      success: false,
-      error: error instanceof Error ? error.message : 'Erro desconhecido'
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        success: false,
+        error: error instanceof Error ? error.message : 'Erro desconhecido',
+      },
+      { status: 500 }
+    )
   }
 }

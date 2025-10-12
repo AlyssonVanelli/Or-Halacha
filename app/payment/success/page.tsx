@@ -39,18 +39,18 @@ export default function PaymentSuccessPage() {
       console.log('🚨 Search params:', window.location.search)
       console.log('🚨 Pathname:', window.location.pathname)
       console.log('🚨 Hash:', window.location.hash)
-      
+
       // Verificar se o usuário está logado
       console.log('🔐 Verificando autenticação...')
       const supabase = createClient()
       const {
         data: { user },
       } = await supabase.auth.getUser()
-      
+
       console.log('🔐 Usuário logado:', !!user)
       console.log('🔐 User ID:', user?.id)
       console.log('🔐 User email:', user?.email)
-      
+
       if (!user) {
         console.error('❌ Usuário não encontrado - redirecionando para login')
         window.location.href = '/login'
@@ -102,7 +102,7 @@ export default function PaymentSuccessPage() {
         console.log('📚 CARREGANDO DADOS DO TRATADO')
         console.log('📚 Division ID:', divisionId)
         console.log('📚 User ID:', user.id)
-        
+
         const supabase = createClient()
 
         // Buscar informações da divisão
@@ -138,7 +138,7 @@ export default function PaymentSuccessPage() {
 
         console.log('✅ Livro encontrado:', bookData)
         setBook(bookData)
-        
+
         // Verificar se o usuário já tem acesso ao tratado
         console.log('🔍 Verificando acesso atual ao tratado...')
         const { data: existingAccess, error: accessError } = await supabase
@@ -146,7 +146,7 @@ export default function PaymentSuccessPage() {
           .select('*')
           .eq('user_id', user.id)
           .eq('division_id', divisionId)
-        
+
         if (accessError) {
           console.error('❌ Erro ao verificar acesso:', accessError)
         } else {
@@ -243,12 +243,15 @@ export default function PaymentSuccessPage() {
           <div className="space-y-3">
             {divisionId ? (
               <>
-                <Link 
+                <Link
                   href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}
                   onClick={() => {
                     console.log('🔗 Clicando em "Acessar Tratado"')
                     console.log('🔗 Division ID:', divisionId)
-                    console.log('🔗 URL de destino:', `/dashboard/biblioteca/shulchan-aruch/${divisionId}`)
+                    console.log(
+                      '🔗 URL de destino:',
+                      `/dashboard/biblioteca/shulchan-aruch/${divisionId}`
+                    )
                   }}
                 >
                   <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
@@ -258,7 +261,7 @@ export default function PaymentSuccessPage() {
                   </Button>
                 </Link>
 
-                <Link 
+                <Link
                   href="/dashboard/biblioteca/shulchan-aruch"
                   onClick={() => {
                     console.log('🔗 Clicando em "Ver Todos os Tratados"')

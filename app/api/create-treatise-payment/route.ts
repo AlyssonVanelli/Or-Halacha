@@ -17,7 +17,7 @@ export async function POST(req: Request) {
   try {
     console.log('=== INICIANDO COMPRA DE TRATADO AVULSO ===')
     const { userId, divisionId, bookId, userEmail } = await req.json()
-    
+
     console.log('Parâmetros recebidos:', { userId, divisionId, bookId, userEmail })
 
     if (!userId || !divisionId || !bookId) {
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
         .from('profiles')
         .update({ stripe_customer_id: stripeCustomerId })
         .eq('id', userId)
-      
+
       if (updateError) {
         console.error('Erro ao atualizar profile:', updateError)
       } else {
@@ -76,12 +76,12 @@ export async function POST(req: Request) {
     const baseUrl = getBaseUrl()
     const successUrl = `${baseUrl}/payment/success?treatise=true&divisionId=${divisionId}&bookId=${bookId}`
     const cancelUrl = `${baseUrl}/dashboard/biblioteca/shulchan-aruch`
-    
+
     console.log('🔧 CORRIGINDO URLs:')
     console.log('Base URL forçada:', baseUrl)
     console.log('Success URL:', successUrl)
     console.log('Cancel URL:', cancelUrl)
-    
+
     console.log('=== CRIANDO SESSÃO DE PAGAMENTO ===')
     console.log('Base URL:', baseUrl)
     console.log('Success URL:', successUrl)
@@ -89,10 +89,10 @@ export async function POST(req: Request) {
     console.log('NODE_ENV:', process.env.NODE_ENV)
     console.log('VERCEL_URL:', process.env.VERCEL_URL)
     console.log('NEXT_PUBLIC_APP_URL:', process.env.NEXT_PUBLIC_APP_URL)
-    
+
     const sessionConfig = {
-      payment_method_types: ['card'],
-      mode: 'payment', // Modo de pagamento único
+      payment_method_types: ['card'] as ('card')[],
+      mode: 'payment' as const, // Modo de pagamento único
       customer: stripeCustomerId,
       line_items: [
         {
@@ -116,9 +116,9 @@ export async function POST(req: Request) {
         type: 'treatise-purchase',
       },
     }
-    
+
     console.log('Configuração da sessão:', JSON.stringify(sessionConfig, null, 2))
-    
+
     const session = await stripe.checkout.sessions.create(sessionConfig)
     console.log('Sessão criada com sucesso:', session.id)
     console.log('URL da sessão:', session.url)

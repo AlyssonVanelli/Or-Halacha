@@ -16,13 +16,13 @@ export async function POST(req: Request) {
   console.log('🚨 Method:', req.method)
   console.log('🚨 User-Agent:', req.headers.get('user-agent'))
   console.log('🚨 Stripe-Signature:', req.headers.get('stripe-signature'))
-  
+
   const sig = req.headers.get('stripe-signature')
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET
-  
+
   console.log('🚨 Stripe signature:', !!sig)
   console.log('🚨 Webhook secret configurado:', !!webhookSecret)
-  
+
   if (!sig || !webhookSecret) {
     console.error('❌ WEBHOOK REJEITADO - Signature ou secret não configurados')
     return NextResponse.json(
@@ -30,7 +30,7 @@ export async function POST(req: Request) {
       { status: 400 }
     )
   }
-  
+
   console.log('🚨 Lendo body do webhook...')
   const rawBody = Buffer.from(await req.arrayBuffer())
   console.log('🚨 Body size:', rawBody.length)
@@ -54,7 +54,7 @@ export async function POST(req: Request) {
   console.log('Event Data:', JSON.stringify(event.data, null, 2))
   console.log('Timestamp:', new Date().toISOString())
   console.log('Webhook Secret configurado:', !!webhookSecret)
-  
+
   // Log específico para checkout.session.completed
   if (event.type === 'checkout.session.completed') {
     console.log('🎯🎯🎯 DETECTADO CHECKOUT.SESSION.COMPLETED 🎯🎯🎯')
@@ -448,7 +448,7 @@ export async function POST(req: Request) {
       console.log('🎯 Timestamp:', new Date().toISOString())
       console.log('🎯 Event ID:', event.id)
       console.log('🎯 Event type:', event.type)
-      
+
       const session = event.data.object as Stripe.Checkout.Session
       console.log('=== CHECKOUT COMPLETADO ===')
       console.log('Session ID:', session.id)
@@ -490,65 +490,65 @@ export async function POST(req: Request) {
       console.log('✅ Session mode:', session.mode)
       console.log('✅ Payment status:', session.payment_status)
       console.log('✅ Metadata:', metadata)
-      
+
       // Se tem metadata específico de tratado, usar ele
       if (metadata && metadata['divisionId'] && metadata['bookId'] && metadata['userId']) {
-          const userId = metadata['userId']
-          const bookId = metadata['bookId']
-          const divisionId = metadata['divisionId']
+        const userId = metadata['userId']
+        const bookId = metadata['bookId']
+        const divisionId = metadata['divisionId']
 
-          console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
-          console.log('User ID:', userId)
-          console.log('Book ID:', bookId)
-          console.log('Division ID:', divisionId)
-          console.log('Metadata type:', metadata['type'])
-          console.log('Session mode:', session.mode)
-          console.log('Payment intent ID:', session.payment_intent)
+        console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
+        console.log('User ID:', userId)
+        console.log('Book ID:', bookId)
+        console.log('Division ID:', divisionId)
+        console.log('Metadata type:', metadata['type'])
+        console.log('Session mode:', session.mode)
+        console.log('Payment intent ID:', session.payment_intent)
 
-          // Calcula a data de expiração (1 mês a partir de agora)
-          const expiresAt = new Date()
-          expiresAt.setMonth(expiresAt.getMonth() + 1)
-          console.log('Data de expiração calculada:', expiresAt.toISOString())
+        // Calcula a data de expiração (1 mês a partir de agora)
+        const expiresAt = new Date()
+        expiresAt.setMonth(expiresAt.getMonth() + 1)
+        console.log('Data de expiração calculada:', expiresAt.toISOString())
 
-          console.log('=== INSERINDO COMPRA NO BANCO DE DADOS ===')
-          console.log('Dados para inserção:', {
-            user_id: userId,
-            book_id: bookId,
-            division_id: divisionId,
-            expires_at: expiresAt.toISOString(),
-            stripe_payment_intent_id: session.payment_intent,
-            created_at: new Date().toISOString(),
-          })
+        console.log('=== INSERINDO COMPRA NO BANCO DE DADOS ===')
+        console.log('Dados para inserção:', {
+          user_id: userId,
+          book_id: bookId,
+          division_id: divisionId,
+          expires_at: expiresAt.toISOString(),
+          stripe_payment_intent_id: session.payment_intent,
+          created_at: new Date().toISOString(),
+        })
 
         console.log('Conectando ao Supabase...')
         console.log('Supabase client criado:', !!supabase)
         console.log('Supabase URL:', process.env.NEXT_PUBLIC_SUPABASE_URL)
         console.log('Supabase Anon Key configurado:', !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
-        
+
         // Testar conexão com o banco primeiro
         console.log('🧪 TESTANDO CONEXÃO COM BANCO...')
         const { data: testData, error: testError } = await supabase
           .from('purchased_books')
           .select('count')
           .limit(1)
-        
+
         if (testError) {
           console.error('❌ ERRO NA CONEXÃO COM BANCO:', testError)
         } else {
           console.log('✅ CONEXÃO COM BANCO OK:', testData)
         }
-        
+
         // Registra a compra na tabela purchased_books
         console.log('Executando upsert na tabela purchased_books...')
-          console.log('Dados finais para inserção:', {
-            user_id: userId,
-            book_id: bookId,
-            division_id: divisionId,
-            expires_at: expiresAt.toISOString(),
-            stripe_payment_intent_id: session.payment_intent,
-            created_at: new Date().toISOString(),
-          })
-        
+        console.log('Dados finais para inserção:', {
+          user_id: userId,
+          book_id: bookId,
+          division_id: divisionId,
+          expires_at: expiresAt.toISOString(),
+          stripe_payment_intent_id: session.payment_intent,
+          created_at: new Date().toISOString(),
+        })
+
         const { data: purchaseResult, error: purchaseError } = await supabase
           .from('purchased_books')
           .upsert(
@@ -564,7 +564,7 @@ export async function POST(req: Request) {
               onConflict: 'user_id,division_id',
             }
           )
-        
+
         console.log('Resultado do upsert:', { purchaseResult, purchaseError })
         console.log('Purchase result type:', typeof purchaseResult)
         console.log('Purchase error type:', typeof purchaseError)
@@ -587,26 +587,22 @@ export async function POST(req: Request) {
             stripe_payment_intent_id: session.payment_intent,
           })
         }
-        } else {
-          console.log('⚠️ COMPRA SEM METADATA ESPECÍFICO')
-          console.log('⚠️ Metadata recebido:', metadata)
-          console.log('⚠️ Session mode:', session.mode)
-          console.log('⚠️ Payment status:', session.payment_status)
-          console.log('⚠️ Customer:', session.customer)
-          console.log('⚠️ Customer email:', session.customer_email)
-          console.log('⚠️ Amount total:', session.amount_total)
-          console.log('⚠️ Line items:', session.line_items)
-          
-          // Tentar identificar se é uma compra de tratado por outros meios
-          if (session.amount_total === 2990) { // R$ 29,90
-            console.log('🔍 Possível compra de tratado avulso (R$ 29,90)')
-            console.log('🔍 Verificando se é compra de tratado por outros meios...')
-          }
-        }
       } else {
-        console.log('⚠️ NÃO É UMA COMPRA DE PAGAMENTO ÚNICO')
+        console.log('⚠️ COMPRA SEM METADATA ESPECÍFICO')
+        console.log('⚠️ Metadata recebido:', metadata)
         console.log('⚠️ Session mode:', session.mode)
         console.log('⚠️ Payment status:', session.payment_status)
+        console.log('⚠️ Customer:', session.customer)
+        console.log('⚠️ Customer email:', session.customer_email)
+        console.log('⚠️ Amount total:', session.amount_total)
+        console.log('⚠️ Line items:', session.line_items)
+
+        // Tentar identificar se é uma compra de tratado por outros meios
+        if (session.amount_total === 2990) {
+          // R$ 29,90
+          console.log('🔍 Possível compra de tratado avulso (R$ 29,90)')
+          console.log('🔍 Verificando se é compra de tratado por outros meios...')
+        }
       }
       console.log('=== FINALIZANDO PROCESSAMENTO CHECKOUT.SESSION.COMPLETED ===')
       break
