@@ -6,8 +6,9 @@ import { createClient } from '@/lib/supabase/client'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Book } from 'lucide-react'
+import { ArrowLeft, Book, Tag, FileText } from 'lucide-react'
 import { useParams } from 'next/navigation'
+import { parseSimanContent } from '@/lib/content-parser'
 
 interface Seif {
   id: string
@@ -39,6 +40,8 @@ export default function SimanPage() {
   const [seifim, setSeifim] = useState<Seif[]>([])
   const [loading, setLoading] = useState(true)
   const [hasAccess, setHasAccess] = useState(false)
+  const [simanTopics, setSimanTopics] = useState<string[]>([])
+  const [simanSummary, setSimanSummary] = useState<string>('')
 
   useEffect(() => {
     async function loadData() {
@@ -94,8 +97,26 @@ export default function SimanPage() {
             position: 1,
           }
           setSeifim([singleSeif])
+
+          // Extrair assuntos e resumo do conteúdo
+          try {
+            const parsedContent = parseSimanContent(
+              simanId,
+              simanData?.title || 'Siman',
+              simanData?.position || 1,
+              contentData.content
+            )
+            setSimanTopics(parsedContent.topics || [])
+            setSimanSummary(parsedContent.summary || '')
+          } catch (error) {
+            console.error('Erro ao analisar conteúdo:', error)
+            setSimanTopics([])
+            setSimanSummary('')
+          }
         } else {
           setSeifim([])
+          setSimanTopics([])
+          setSimanSummary('')
         }
 
         // Verificar acesso ESPECÍFICO para esta divisão
@@ -223,10 +244,59 @@ export default function SimanPage() {
                   <Book className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-800">{siman?.title}</h1>
+                  <h1 className="text-4xl font-bold text-gray-800">
+                    {siman?.title?.replace(/^Siman\s+\d+\s*[-:]\s*/i, '').trim() || 'Siman'}
+                  </h1>
+                  {siman?.position && (
+                    <div className="mt-2 flex items-center gap-2">
+                      <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
+                        Siman {siman.position}
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
+
+            {/* Assuntos do Siman */}
+            {(simanTopics.length > 0 || simanSummary) && (
+              <div className="mx-auto mb-8 max-w-6xl">
+                <div className="rounded-lg border bg-white p-6 shadow-sm">
+                  <div className="mb-4 flex items-center gap-2">
+                    <Tag className="h-5 w-5 text-blue-600" />
+                    <h2 className="text-xl font-semibold text-gray-800">Assuntos do Siman</h2>
+                  </div>
+                  
+                  {simanSummary && (
+                    <div className="mb-4">
+                      <div className="flex items-start gap-2">
+                        <FileText className="mt-1 h-4 w-4 text-gray-500" />
+                        <div>
+                          <h3 className="font-medium text-gray-700">Resumo:</h3>
+                          <p className="mt-1 text-gray-600">{simanSummary}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {simanTopics.length > 0 && (
+                    <div>
+                      <h3 className="mb-2 font-medium text-gray-700">Tópicos Principais:</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {simanTopics.map((topic, index) => (
+                          <span
+                            key={index}
+                            className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800"
+                          >
+                            {topic}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Conteúdo Organizado do Siman */}
             <div className="mx-auto max-w-6xl">
