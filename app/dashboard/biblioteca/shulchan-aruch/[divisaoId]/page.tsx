@@ -161,7 +161,7 @@ export default function DivisaoPage() {
     }
 
     loadData()
-  }, [user, divisaoId])
+  }, [user, divisaoId, errorHandler])
 
   const handleRetry = () => {
     errorHandler.incrementRetry()

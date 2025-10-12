@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Book, List, Eye, EyeOff, ChevronDown, ChevronRight } from 'lucide-react'
+import { List, Eye, EyeOff, ChevronDown, ChevronRight } from 'lucide-react'
 import { parseSimanContent, ParsedSiman, ParsedSeif } from '@/lib/content-parser'
 
 interface ContentOrganizerProps {

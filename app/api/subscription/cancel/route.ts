@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
 })
 
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     const supabase = await createClient()
 
@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Cancelar no Stripe
-    const stripeSubscription = await stripe.subscriptions.update(subscription.subscription_id, {
+    await stripe.subscriptions.update(subscription.subscription_id, {
       cancel_at_period_end: true,
     })
 

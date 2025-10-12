@@ -90,7 +90,7 @@ function generateSummary(text: string, maxLength: number = 200): string {
  */
 function identifySeifim(content: string): ParsedSeif[] {
   const seifim: ParsedSeif[] = []
-  
+
   // Padrões para identificar seifim (em ordem de prioridade)
   const seifPatterns = [
     // Padrão: "**Seif 1**", "**Seif 2**", etc. (mais específico)
@@ -106,12 +106,12 @@ function identifySeifim(content: string): ParsedSeif[] {
   for (const pattern of seifPatterns) {
     const matches = content.match(pattern)
     if (matches && matches.length > 0) {
-      matches.forEach((match, index) => {
+      matches.forEach((match) => {
         const execResult = pattern.exec(match)
         if (execResult) {
           const seifNumber = parseInt(execResult[1]) || position
           const rawTitle = execResult[2]?.trim()
-          
+
           // Criar título mais limpo e descritivo
           let title = rawTitle
           if (!title || title.length < 3) {
@@ -129,7 +129,7 @@ function identifySeifim(content: string): ParsedSeif[] {
               }
             }
           }
-          
+
           const content = execResult[3]?.trim() || match
 
           if (content.length > 20) {

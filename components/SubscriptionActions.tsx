@@ -13,9 +13,9 @@ interface SubscriptionActionsProps {
 }
 
 export function SubscriptionActions({
-  subscriptionId,
+  // subscriptionId,
   isPlus,
-  planType,
+  // planType,
   createdAt,
 }: SubscriptionActionsProps) {
   const [loading, setLoading] = useState<string | null>(null)

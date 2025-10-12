@@ -330,7 +330,7 @@ export default function PerfilPage() {
     }
   }
 
-  async function handleCancel() {
+  // async function handleCancel() {
     if (!subscription) return
     const res = await fetch('/api/cancel-subscription', {
       method: 'POST',
@@ -399,7 +399,7 @@ export default function PerfilPage() {
     setConfirmPassword('')
   }
 
-  async function handleUpgrade() {
+  // async function handleUpgrade() {
     if (!user) return
     const res = await fetch('/api/create-customer-portal-session', {
       method: 'POST',

@@ -174,7 +174,7 @@ export default function PaymentSuccessPage() {
     }
 
     loadData()
-  }, [divisionId])
+  }, [divisionId, user, book, division, error, loading])
 
   if (loading) {
     return (
