@@ -2,6 +2,22 @@ import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { createClient } from '@/lib/supabase/server'
 
+// Função para obter a URL base correta
+function getBaseUrl() {
+  // Em produção (Vercel), usar a URL do domínio
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
+  }
+
+  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    return process.env.NEXT_PUBLIC_APP_URL
+  }
+
+  // Fallback para localhost em desenvolvimento
+  return 'http://localhost:3000'
+}
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
 })
@@ -13,9 +29,7 @@ export async function GET(req: NextRequest) {
 
     // Fallback para método antigo (compatibilidade)
     if (!divisionId) {
-      return NextResponse.redirect(
-        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
-      )
+      return NextResponse.redirect(`${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`)
     }
 
     // Buscar informações da divisão
@@ -27,9 +41,7 @@ export async function GET(req: NextRequest) {
       .single()
 
     if (divisionError || !division) {
-      return NextResponse.redirect(
-        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
-      )
+      return NextResponse.redirect(`${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`)
     }
 
     // Buscar informações do livro
@@ -40,9 +52,7 @@ export async function GET(req: NextRequest) {
       .single()
 
     if (bookError || !book) {
-      return NextResponse.redirect(
-        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
-      )
+      return NextResponse.redirect(`${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`)
     }
 
     // Buscar informações do usuário para obter o email
@@ -52,9 +62,7 @@ export async function GET(req: NextRequest) {
     } = await supabase.auth.getUser()
 
     if (userError || !user) {
-      return NextResponse.redirect(
-        `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
-      )
+      return NextResponse.redirect(`${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`)
     }
 
     // Preço fixo para tratado individual (R$ 29,90)
@@ -78,8 +86,8 @@ export async function GET(req: NextRequest) {
         },
       ],
       mode: 'payment',
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/payment/success?divisionId=${divisionId}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`,
+      success_url: `${getBaseUrl()}/payment/success?divisionId=${divisionId}`,
+      cancel_url: `${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`,
       metadata: {
         divisionId,
         bookId: book.id,
@@ -92,8 +100,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.redirect(session.url!)
   } catch (error) {
     // Em caso de erro, redirecionar para biblioteca
-    return NextResponse.redirect(
-      `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/biblioteca/shulchan-aruch`
-    )
+    return NextResponse.redirect(`${getBaseUrl()}/dashboard/biblioteca/shulchan-aruch`)
   }
 }

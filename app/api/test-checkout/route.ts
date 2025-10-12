@@ -2,6 +2,22 @@ import { NextRequest, NextResponse } from 'next/server'
 import { stripe } from '@/lib/stripe'
 import { createClient } from '@/lib/supabase/client'
 
+// Função para obter a URL base correta
+function getBaseUrl() {
+  // Em produção (Vercel), usar a URL do domínio
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
+  }
+
+  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    return process.env.NEXT_PUBLIC_APP_URL
+  }
+
+  // Fallback para localhost em desenvolvimento
+  return 'http://localhost:3000'
+}
+
 export async function POST(request: NextRequest) {
   try {
     console.log('=== TESTE DE CHECKOUT ===')
@@ -110,8 +126,8 @@ export async function POST(request: NextRequest) {
         customer: customerId,
         payment_method_types: ['card'],
         mode: mode,
-        success_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/test-stripe?success=true`,
-        cancel_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/test-stripe?canceled=true`,
+        success_url: `${getBaseUrl()}/test-stripe?success=true`,
+        cancel_url: `${getBaseUrl()}/test-stripe?canceled=true`,
         metadata: {
           userId: userId,
           test: 'true',

@@ -2,6 +2,22 @@ import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { createClient } from '@/lib/supabase/server'
 
+// Função para obter a URL base correta
+function getBaseUrl() {
+  // Em produção (Vercel), usar a URL do domínio
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
+  }
+
+  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    return process.env.NEXT_PUBLIC_APP_URL
+  }
+
+  // Fallback para localhost em desenvolvimento
+  return 'http://localhost:3000'
+}
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
 })
@@ -61,8 +77,8 @@ export async function POST(req: Request) {
           quantity: 1,
         },
       ],
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/payment/success?treatise=true&divisionId=${divisionId}&bookId=${bookId}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard`,
+      success_url: `${getBaseUrl()}/payment/success?treatise=true&divisionId=${divisionId}&bookId=${bookId}`,
+      cancel_url: `${getBaseUrl()}/dashboard`,
       metadata: {
         userId,
         divisionId,

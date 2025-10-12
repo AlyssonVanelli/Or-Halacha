@@ -181,14 +181,21 @@ export async function POST(req: Request) {
           currentPeriodEnd = new Date((subscription as any).current_period_end * 1000).toISOString()
         }
 
-        // Se as datas não existem, tentar pegar do item da subscription
+        // Se as datas não existem, usar datas padrão baseadas no tipo de plano
         if (!currentPeriodStart || !currentPeriodEnd) {
-          const item = subscription.items.data[0]
-          if (item && item.current_period_start && item.current_period_end) {
-            currentPeriodStart = new Date(item.current_period_start * 1000).toISOString()
-            currentPeriodEnd = new Date(item.current_period_end * 1000).toISOString()
-            console.log('Datas obtidas do item da subscription')
+          const now = new Date()
+          currentPeriodStart = now.toISOString()
+
+          // Calcular data de fim baseada no tipo de plano
+          if (planType === 'yearly') {
+            currentPeriodEnd = new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000).toISOString()
+          } else if (planType === 'monthly') {
+            currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+          } else {
+            // Fallback para 30 dias
+            currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
           }
+          console.log('Datas calculadas com base no tipo de plano')
         }
 
         console.log('Current Period Start:', currentPeriodStart)
