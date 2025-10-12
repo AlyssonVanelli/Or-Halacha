@@ -104,15 +104,22 @@ export default function SimanPage() {
           }
 
           const accessData = await accessResponse.json()
+          console.log('🔍 RESPOSTA DA API DE ACESSO:', accessData)
 
           if (!accessData.success) {
+            console.error('❌ API retornou success: false')
             throw new Error('Falha na verificação de acesso')
           }
 
           const { hasAccess } = accessData.access
+          console.log('🎯 HAS ACCESS do API:', hasAccess)
+          console.log('🎯 Definindo hasAccess como:', hasAccess)
 
           setHasAccess(hasAccess)
         } catch (accessError) {
+          console.error('❌ ERRO na verificação de acesso:', accessError)
+          console.log('🔄 EXECUTANDO FALLBACK LOCAL...')
+          
           // Fallback para verificação local
           const { data: subscriptionData } = await supabase
             .from('subscriptions')
@@ -126,6 +133,10 @@ export default function SimanPage() {
             .select('division_id, expires_at')
             .eq('user_id', user.id)
 
+          console.log('📊 DADOS DO FALLBACK:')
+          console.log('- Subscription data:', subscriptionData)
+          console.log('- Purchased data:', purchasedData)
+
           const hasActiveSub =
             !!subscriptionData &&
             subscriptionData.status === 'active' &&
@@ -136,6 +147,11 @@ export default function SimanPage() {
             pb => new Date(pb.expires_at) > new Date()
           )
           const hasPurchasedThisDivision = validPurchases.some(pb => pb.division_id === divisaoId)
+
+          console.log('🎯 RESULTADO DO FALLBACK:')
+          console.log('- Has active sub:', hasActiveSub)
+          console.log('- Has purchased this division:', hasPurchasedThisDivision)
+          console.log('- Final hasAccess:', hasActiveSub || hasPurchasedThisDivision)
 
           setHasAccess(hasActiveSub || hasPurchasedThisDivision)
         }
