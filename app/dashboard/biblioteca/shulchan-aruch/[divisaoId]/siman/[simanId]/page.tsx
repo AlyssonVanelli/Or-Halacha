@@ -10,12 +10,12 @@ import { Button } from '@/components/ui/button'
 import { ArrowLeft, Book } from 'lucide-react'
 import { useParams } from 'next/navigation'
 
-interface Seif {
-  id: string
-  title: string
-  content: string
-  position: number
-}
+// interface Seif {
+//   id: string
+//   title: string
+//   content: string
+//   position: number
+// }
 
 interface Siman {
   id: string

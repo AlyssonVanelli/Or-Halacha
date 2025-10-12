@@ -106,7 +106,7 @@ function identifySeifim(content: string): ParsedSeif[] {
   for (const pattern of seifPatterns) {
     const matches = content.match(pattern)
     if (matches && matches.length > 0) {
-      matches.forEach((match) => {
+      matches.forEach(match => {
         const execResult = pattern.exec(match)
         if (execResult) {
           const seifNumber = parseInt(execResult[1]) || position
