@@ -91,7 +91,7 @@ export default function SimanPage() {
             id: '1',
             title: 'Conteúdo',
             content: contentData.content,
-            position: 1
+            position: 1,
           }
           setSeifim([singleSeif])
         } else {
@@ -131,7 +131,7 @@ export default function SimanPage() {
         } catch (accessError) {
           console.error('❌ ERRO na verificação de acesso:', accessError)
           console.log('🔄 EXECUTANDO FALLBACK LOCAL...')
-          
+
           // Fallback para verificação local
           const { data: subscriptionData } = await supabase
             .from('subscriptions')
