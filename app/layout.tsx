@@ -107,7 +107,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="canonical" href="https://or-halacha.vercel.app" />
       </head>
-      <body>
+      <body suppressHydrationWarning={true}>
         <ThemeProvider defaultTheme="light">
           <AuthProvider>
             {children}
