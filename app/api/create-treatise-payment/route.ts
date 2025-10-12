@@ -4,22 +4,9 @@ import { createClient } from '@/lib/supabase/server'
 
 // Função para obter a URL base correta
 function getBaseUrl() {
-  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela (prioridade)
-  if (process.env.NEXT_PUBLIC_APP_URL) {
-    console.log('Usando NEXT_PUBLIC_APP_URL:', process.env.NEXT_PUBLIC_APP_URL)
-    return process.env.NEXT_PUBLIC_APP_URL
-  }
-
-  // Em produção (Vercel), usar a URL do domínio
-  if (process.env.VERCEL_URL) {
-    const url = `https://${process.env.VERCEL_URL}`
-    console.log('Usando VERCEL_URL:', url)
-    return url
-  }
-
-  // Fallback para localhost em desenvolvimento
-  console.log('Usando fallback localhost')
-  return 'http://localhost:3000'
+  // SEMPRE usar a URL de produção correta (não a URL de desenvolvimento do Vercel)
+  console.log('Forçando uso da URL de produção correta')
+  return 'https://or-halacha.vercel.app'
 }
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
@@ -90,10 +77,18 @@ export async function POST(req: Request) {
     const successUrl = `${baseUrl}/payment/success?treatise=true&divisionId=${divisionId}&bookId=${bookId}`
     const cancelUrl = `${baseUrl}/dashboard/biblioteca/shulchan-aruch`
     
+    console.log('🔧 CORRIGINDO URLs:')
+    console.log('Base URL forçada:', baseUrl)
+    console.log('Success URL:', successUrl)
+    console.log('Cancel URL:', cancelUrl)
+    
     console.log('=== CRIANDO SESSÃO DE PAGAMENTO ===')
     console.log('Base URL:', baseUrl)
     console.log('Success URL:', successUrl)
     console.log('Cancel URL:', cancelUrl)
+    console.log('NODE_ENV:', process.env.NODE_ENV)
+    console.log('VERCEL_URL:', process.env.VERCEL_URL)
+    console.log('NEXT_PUBLIC_APP_URL:', process.env.NEXT_PUBLIC_APP_URL)
     
     const sessionConfig = {
       payment_method_types: ['card'],

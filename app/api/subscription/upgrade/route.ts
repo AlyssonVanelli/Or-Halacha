@@ -4,18 +4,8 @@ import Stripe from 'stripe'
 
 // Função para obter a URL base correta
 function getBaseUrl() {
-  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela (prioridade)
-  if (process.env.NEXT_PUBLIC_APP_URL) {
-    return process.env.NEXT_PUBLIC_APP_URL
-  }
-
-  // Em produção (Vercel), usar a URL do domínio
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`
-  }
-
-  // Fallback para localhost em desenvolvimento
-  return 'http://localhost:3000'
+  // SEMPRE usar a URL de produção correta (não a URL de desenvolvimento do Vercel)
+  return 'https://or-halacha.vercel.app'
 }
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {

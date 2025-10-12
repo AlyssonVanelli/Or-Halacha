@@ -32,21 +32,27 @@ export default function PaymentSuccessPage() {
 
   useEffect(() => {
     async function loadData() {
-      console.log('=== PÁGINA DE SUCESSO CARREGADA ===')
-      console.log('Division ID da URL:', divisionId)
-      console.log('Search params:', window.location.search)
+      console.log('🚨🚨🚨 PÁGINA DE SUCESSO CARREGADA 🚨🚨🚨')
+      console.log('🚨 Timestamp:', new Date().toISOString())
+      console.log('🚨 URL completa:', window.location.href)
+      console.log('🚨 Division ID da URL:', divisionId)
+      console.log('🚨 Search params:', window.location.search)
+      console.log('🚨 Pathname:', window.location.pathname)
+      console.log('🚨 Hash:', window.location.hash)
       
       // Verificar se o usuário está logado
+      console.log('🔐 Verificando autenticação...')
       const supabase = createClient()
       const {
         data: { user },
       } = await supabase.auth.getUser()
       
-      console.log('Usuário logado:', !!user)
-      console.log('User ID:', user?.id)
+      console.log('🔐 Usuário logado:', !!user)
+      console.log('🔐 User ID:', user?.id)
+      console.log('🔐 User email:', user?.email)
       
       if (!user) {
-        console.error('Usuário não encontrado - redirecionando para login')
+        console.error('❌ Usuário não encontrado - redirecionando para login')
         window.location.href = '/login'
         return
       }
@@ -93,13 +99,14 @@ export default function PaymentSuccessPage() {
       }
 
       try {
-        console.log('=== CARREGANDO DADOS DO TRATADO ===')
-        console.log('Division ID:', divisionId)
+        console.log('📚 CARREGANDO DADOS DO TRATADO')
+        console.log('📚 Division ID:', divisionId)
+        console.log('📚 User ID:', user.id)
         
         const supabase = createClient()
 
         // Buscar informações da divisão
-        console.log('Buscando divisão no banco...')
+        console.log('🔍 Buscando divisão no banco...')
         const { data: divisionData, error: divisionError } = await supabase
           .from('divisions')
           .select('id, title, book_id')
@@ -107,16 +114,16 @@ export default function PaymentSuccessPage() {
           .single()
 
         if (divisionError || !divisionData) {
-          console.error('Erro ao buscar divisão:', divisionError)
+          console.error('❌ Erro ao buscar divisão:', divisionError)
           setError('Divisão não encontrada.')
           return
         }
 
-        console.log('Divisão encontrada:', divisionData)
+        console.log('✅ Divisão encontrada:', divisionData)
         setDivision(divisionData)
 
         // Buscar informações do livro
-        console.log('Buscando livro no banco...')
+        console.log('🔍 Buscando livro no banco...')
         const { data: bookData, error: bookError } = await supabase
           .from('books')
           .select('id, title, author')
@@ -124,16 +131,44 @@ export default function PaymentSuccessPage() {
           .single()
 
         if (bookError || !bookData) {
-          console.error('Erro ao buscar livro:', bookError)
+          console.error('❌ Erro ao buscar livro:', bookError)
           setError('Livro não encontrado.')
           return
         }
 
-        console.log('Livro encontrado:', bookData)
+        console.log('✅ Livro encontrado:', bookData)
         setBook(bookData)
+        
+        // Verificar se o usuário já tem acesso ao tratado
+        console.log('🔍 Verificando acesso atual ao tratado...')
+        const { data: existingAccess, error: accessError } = await supabase
+          .from('purchased_books')
+          .select('*')
+          .eq('user_id', user.id)
+          .eq('division_id', divisionId)
+        
+        if (accessError) {
+          console.error('❌ Erro ao verificar acesso:', accessError)
+        } else {
+          console.log('📋 Acesso atual ao tratado:', existingAccess)
+          if (existingAccess && existingAccess.length > 0) {
+            console.log('✅ Usuário já tem acesso ao tratado!')
+            console.log('📅 Data de expiração:', existingAccess[0].expires_at)
+            console.log('💳 Payment Intent ID:', existingAccess[0].stripe_payment_intent_id)
+          } else {
+            console.log('⚠️ Usuário NÃO tem acesso ao tratado ainda')
+            console.log('⚠️ O webhook pode não ter processado ainda')
+          }
+        }
       } catch (err) {
+        console.error('❌ Erro geral ao carregar dados:', err)
         setError('Erro ao carregar informações.')
       } finally {
+        console.log('🏁 Finalizando carregamento da página de sucesso')
+        console.log('🏁 Division:', division)
+        console.log('🏁 Book:', book)
+        console.log('🏁 Loading:', loading)
+        console.log('🏁 Error:', error)
         setLoading(false)
       }
     }
@@ -208,7 +243,14 @@ export default function PaymentSuccessPage() {
           <div className="space-y-3">
             {divisionId ? (
               <>
-                <Link href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}>
+                <Link 
+                  href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}
+                  onClick={() => {
+                    console.log('🔗 Clicando em "Acessar Tratado"')
+                    console.log('🔗 Division ID:', divisionId)
+                    console.log('🔗 URL de destino:', `/dashboard/biblioteca/shulchan-aruch/${divisionId}`)
+                  }}
+                >
                   <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
                     <Book className="h-5 w-5" />
                     Acessar Tratado
@@ -216,7 +258,13 @@ export default function PaymentSuccessPage() {
                   </Button>
                 </Link>
 
-                <Link href="/dashboard/biblioteca/shulchan-aruch">
+                <Link 
+                  href="/dashboard/biblioteca/shulchan-aruch"
+                  onClick={() => {
+                    console.log('🔗 Clicando em "Ver Todos os Tratados"')
+                    console.log('🔗 URL de destino:', '/dashboard/biblioteca/shulchan-aruch')
+                  }}
+                >
                   <Button variant="outline" className="w-full">
                     Ver Todos os Tratados
                   </Button>

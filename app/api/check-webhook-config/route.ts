@@ -1,37 +1,56 @@
 import { NextResponse } from 'next/server'
+import Stripe from 'stripe'
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  apiVersion: '2025-04-30.basil',
+})
 
 export async function GET() {
-  console.log('=== VERIFICANDO CONFIGURAÇÃO DO WEBHOOK ===')
-
-  const config = {
-    stripeSecretKey: !!process.env.STRIPE_SECRET_KEY,
-    stripeWebhookSecret: !!process.env.STRIPE_WEBHOOK_SECRET,
-    supabaseUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
-    supabaseAnonKey: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-    baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
-  }
-
-  console.log('Configuração:', config)
-
-  const missingConfigs = Object.entries(config)
-    .filter(([, value]) => !value)
-    .map(([key]) => key)
-
-  if (missingConfigs.length > 0) {
-    return NextResponse.json(
-      {
-        success: false,
-        error: 'Configurações faltando',
-        missing: missingConfigs,
-        config,
-      },
-      { status: 500 }
+  try {
+    console.log('🔍 VERIFICANDO CONFIGURAÇÃO DO WEBHOOK')
+    
+    // Listar webhooks
+    const webhooks = await stripe.webhookEndpoints.list()
+    console.log('Webhooks encontrados:', webhooks.data.length)
+    
+    const webhookInfo = webhooks.data.map(webhook => ({
+      id: webhook.id,
+      url: webhook.url,
+      enabled_events: webhook.enabled_events,
+      status: webhook.status,
+      created: new Date(webhook.created * 1000).toISOString()
+    }))
+    
+    console.log('Webhooks:', JSON.stringify(webhookInfo, null, 2))
+    
+    // Verificar se existe webhook para or-halacha.vercel.app
+    const productionWebhook = webhooks.data.find(w => 
+      w.url.includes('or-halacha.vercel.app') && 
+      w.url.includes('/api/webhooks/stripe')
     )
+    
+    console.log('Webhook de produção encontrado:', !!productionWebhook)
+    if (productionWebhook) {
+      console.log('URL:', productionWebhook.url)
+      console.log('Status:', productionWebhook.status)
+      console.log('Eventos habilitados:', productionWebhook.enabled_events)
+    }
+    
+    return NextResponse.json({
+      webhooks: webhookInfo,
+      productionWebhook: productionWebhook ? {
+        id: productionWebhook.id,
+        url: productionWebhook.url,
+        status: productionWebhook.status,
+        enabled_events: productionWebhook.enabled_events
+      } : null,
+      message: 'Verificação de webhook concluída'
+    })
+    
+  } catch (error) {
+    console.error('Erro ao verificar webhook:', error)
+    return NextResponse.json({
+      error: error instanceof Error ? error.message : 'Erro desconhecido'
+    }, { status: 500 })
   }
-
-  return NextResponse.json({
-    success: true,
-    message: 'Configuração do webhook OK',
-    config,
-  })
 }

@@ -54,6 +54,12 @@ export async function POST(req: Request) {
   console.log('Event Data:', JSON.stringify(event.data, null, 2))
   console.log('Timestamp:', new Date().toISOString())
   console.log('Webhook Secret configurado:', !!webhookSecret)
+  
+  // Log específico para checkout.session.completed
+  if (event.type === 'checkout.session.completed') {
+    console.log('🎯🎯🎯 DETECTADO CHECKOUT.SESSION.COMPLETED 🎯🎯🎯')
+    console.log('🎯 Vai processar tratado avulso!')
+  }
 
   switch (event.type) {
     case 'customer.subscription.created':
@@ -438,7 +444,11 @@ export async function POST(req: Request) {
     }
 
     case 'checkout.session.completed': {
-      console.log('=== INICIANDO PROCESSAMENTO CHECKOUT.SESSION.COMPLETED ===')
+      console.log('🎯🎯🎯 EVENTO CHECKOUT.SESSION.COMPLETED RECEBIDO 🎯🎯🎯')
+      console.log('🎯 Timestamp:', new Date().toISOString())
+      console.log('🎯 Event ID:', event.id)
+      console.log('🎯 Event type:', event.type)
+      
       const session = event.data.object as Stripe.Checkout.Session
       console.log('=== CHECKOUT COMPLETADO ===')
       console.log('Session ID:', session.id)
@@ -475,39 +485,40 @@ export async function POST(req: Request) {
       console.log('Type é treatise-purchase?', metadata?.type === 'treatise-purchase')
       console.log('Mode é payment?', session.mode === 'payment')
 
-      if (
-        metadata &&
-        metadata['divisionId'] &&
-        metadata['bookId'] &&
-        metadata['userId'] &&
-        (metadata['type'] === 'treatise-purchase' || session.mode === 'payment')
-      ) {
-        const userId = metadata['userId']
-        const bookId = metadata['bookId']
-        const divisionId = metadata['divisionId']
+      // Processar QUALQUER evento checkout.session.completed
+      console.log('✅ PROCESSANDO QUALQUER CHECKOUT.SESSION.COMPLETED')
+      console.log('✅ Session mode:', session.mode)
+      console.log('✅ Payment status:', session.payment_status)
+      console.log('✅ Metadata:', metadata)
+      
+      // Se tem metadata específico de tratado, usar ele
+      if (metadata && metadata['divisionId'] && metadata['bookId'] && metadata['userId']) {
+          const userId = metadata['userId']
+          const bookId = metadata['bookId']
+          const divisionId = metadata['divisionId']
 
-        console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
-        console.log('User ID:', userId)
-        console.log('Book ID:', bookId)
-        console.log('Division ID:', divisionId)
-        console.log('Metadata type:', metadata['type'])
-        console.log('Session mode:', session.mode)
-        console.log('Payment intent ID:', session.payment_intent)
+          console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
+          console.log('User ID:', userId)
+          console.log('Book ID:', bookId)
+          console.log('Division ID:', divisionId)
+          console.log('Metadata type:', metadata['type'])
+          console.log('Session mode:', session.mode)
+          console.log('Payment intent ID:', session.payment_intent)
 
-        // Calcula a data de expiração (1 mês a partir de agora)
-        const expiresAt = new Date()
-        expiresAt.setMonth(expiresAt.getMonth() + 1)
-        console.log('Data de expiração calculada:', expiresAt.toISOString())
+          // Calcula a data de expiração (1 mês a partir de agora)
+          const expiresAt = new Date()
+          expiresAt.setMonth(expiresAt.getMonth() + 1)
+          console.log('Data de expiração calculada:', expiresAt.toISOString())
 
-        console.log('=== INSERINDO COMPRA NO BANCO DE DADOS ===')
-        console.log('Dados para inserção:', {
-          user_id: userId,
-          book_id: bookId,
-          division_id: divisionId,
-          expires_at: expiresAt.toISOString(),
-          stripe_payment_intent_id: session.payment_intent,
-          created_at: new Date().toISOString(),
-        })
+          console.log('=== INSERINDO COMPRA NO BANCO DE DADOS ===')
+          console.log('Dados para inserção:', {
+            user_id: userId,
+            book_id: bookId,
+            division_id: divisionId,
+            expires_at: expiresAt.toISOString(),
+            stripe_payment_intent_id: session.payment_intent,
+            created_at: new Date().toISOString(),
+          })
 
         console.log('Conectando ao Supabase...')
         console.log('Supabase client criado:', !!supabase)
@@ -576,24 +587,26 @@ export async function POST(req: Request) {
             stripe_payment_intent_id: session.payment_intent,
           })
         }
-      } else {
-        console.log('⚠️ NÃO É UMA COMPRA DE TRATADO AVULSO - METADATA INCOMPLETO')
-        console.log('⚠️ Metadata recebido:', metadata)
-        console.log('⚠️ Session mode:', session.mode)
-        console.log('⚠️ Verificando se é compra única...')
-        console.log('⚠️ Condições não atendidas:')
-        console.log('  - Metadata existe?', !!metadata)
-        console.log('  - DivisionId existe?', !!metadata?.divisionId)
-        console.log('  - BookId existe?', !!metadata?.bookId)
-        console.log('  - UserId existe?', !!metadata?.userId)
-        console.log('  - Type é treatise-purchase?', metadata?.type === 'treatise-purchase')
-        console.log('  - Mode é payment?', session.mode === 'payment')
-
-        // Verificar se é uma compra única sem metadata específico
-        if (session.mode === 'payment' && session.payment_intent) {
-          console.log('🔍 É uma compra única, mas sem metadata de tratado')
-          console.log('🔍 Verificando se é compra de tratado por outros meios...')
+        } else {
+          console.log('⚠️ COMPRA SEM METADATA ESPECÍFICO')
+          console.log('⚠️ Metadata recebido:', metadata)
+          console.log('⚠️ Session mode:', session.mode)
+          console.log('⚠️ Payment status:', session.payment_status)
+          console.log('⚠️ Customer:', session.customer)
+          console.log('⚠️ Customer email:', session.customer_email)
+          console.log('⚠️ Amount total:', session.amount_total)
+          console.log('⚠️ Line items:', session.line_items)
+          
+          // Tentar identificar se é uma compra de tratado por outros meios
+          if (session.amount_total === 2990) { // R$ 29,90
+            console.log('🔍 Possível compra de tratado avulso (R$ 29,90)')
+            console.log('🔍 Verificando se é compra de tratado por outros meios...')
+          }
         }
+      } else {
+        console.log('⚠️ NÃO É UMA COMPRA DE PAGAMENTO ÚNICO')
+        console.log('⚠️ Session mode:', session.mode)
+        console.log('⚠️ Payment status:', session.payment_status)
       }
       console.log('=== FINALIZANDO PROCESSAMENTO CHECKOUT.SESSION.COMPLETED ===')
       break
