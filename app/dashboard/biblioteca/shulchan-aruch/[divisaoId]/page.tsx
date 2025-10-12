@@ -9,7 +9,7 @@ import { ErrorDisplay } from '@/components/ErrorBoundary'
 import { ScreenCaptureProtection } from '@/components/ScreenCaptureProtection'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Book, CheckCircle, Tag, FileText } from 'lucide-react'
+import { ArrowLeft, Book } from 'lucide-react'
 import { useParams } from 'next/navigation'
 import { useErrorHandler } from '@/hooks/useErrorHandler'
 import { parseSimanContent } from '@/lib/content-parser'
@@ -335,55 +335,14 @@ export default function DivisaoPage() {
 
                           {/* Conteúdo do card */}
                           <div className="p-4">
-                            <h3 className="mb-3 line-clamp-2 text-lg font-bold text-gray-800">
-                              {siman.title}
-                            </h3>
-
-                            {/* Assuntos do Siman */}
-                            {(siman.topics && siman.topics.length > 0) || siman.summary ? (
-                              <div className="mb-3 space-y-2">
-                                {siman.summary && (
-                                  <div className="flex items-start gap-2">
-                                    <FileText className="mt-0.5 h-3 w-3 text-gray-500 flex-shrink-0" />
-                                    <p className="text-xs text-gray-600 line-clamp-2">
-                                      {siman.summary}
-                                    </p>
-                                  </div>
-                                )}
-                                
-                                {siman.topics && siman.topics.length > 0 && (
-                                  <div className="flex flex-wrap gap-1">
-                                    {siman.topics.slice(0, 3).map((topic, index) => (
-                                      <span
-                                        key={index}
-                                        className="inline-flex items-center rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800"
-                                      >
-                                        {topic.length > 20 ? `${topic.substring(0, 20)}...` : topic}
-                                      </span>
-                                    ))}
-                                    {siman.topics.length > 3 && (
-                                      <span className="text-xs text-gray-500">
-                                        +{siman.topics.length - 3} mais
-                                      </span>
-                                    )}
-                                  </div>
-                                )}
-                              </div>
-                            ) : (
+                            {/* Resumo limpo do Siman */}
+                            {siman.summary && (
                               <div className="mb-3">
-                                <p className="text-sm text-gray-500 italic">
-                                  Assuntos não disponíveis
+                                <p className="text-sm text-gray-600 line-clamp-3">
+                                  {siman.summary.replace(/^SIMAN\s+\d+\s*/i, '').trim()}
                                 </p>
                               </div>
                             )}
-
-                            {/* Badge de acesso */}
-                            <div className="flex items-center justify-center">
-                              <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-800">
-                                <CheckCircle className="mr-1 h-3 w-3" />
-                                Acesso Completo
-                              </span>
-                            </div>
                           </div>
                         </Link>
                       )
