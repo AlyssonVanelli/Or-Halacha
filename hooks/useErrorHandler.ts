@@ -98,7 +98,7 @@ export function useAsyncOperation<T = any>() {
     setData(null)
     errorHandler.clearError()
     errorHandler.resetRetry()
-  }, [errorHandler])
+  }, [])
 
   return {
     loading,
