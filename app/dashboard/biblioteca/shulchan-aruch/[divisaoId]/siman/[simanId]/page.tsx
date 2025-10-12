@@ -224,9 +224,7 @@ export default function SimanPage() {
                   <Book className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-gray-800">
-                    {siman?.title}
-                  </h1>
+                  <h1 className="text-4xl font-bold text-gray-800">{siman?.title}</h1>
                 </div>
               </div>
             </div>
@@ -241,8 +239,8 @@ export default function SimanPage() {
                   rawContent={contentData.content}
                 />
               ) : (
-                <div className="text-center py-12">
-                  <Book className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+                <div className="py-12 text-center">
+                  <Book className="mx-auto mb-4 h-12 w-12 text-gray-400" />
                   <p className="text-gray-500">Conteúdo não disponível</p>
                 </div>
               )}
