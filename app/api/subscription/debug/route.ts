@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Buscar no Stripe
-    if (subscriptionId) {
+    if (subscriptionId && stripe) {
       try {
         stripeSubscription = await stripe.subscriptions.retrieve(subscriptionId)
       } catch (error) {

@@ -10,7 +10,7 @@ import { Label } from '@/components/ui/label'
 import { BookOpen, Mail, RefreshCw } from 'lucide-react'
 import { useAuth } from '@/contexts/auth-context'
 import { useToast } from '@/hooks/use-toast'
-import { HeaderSimplificado } from '@/components/DashboardHeader'
+import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { translateAuthErrorForLogin } from '@/lib/error-translations'
 import { createClient } from '@/lib/supabase/client'
 import { Display, Heading1, Body, BodySmall, ButtonText } from '@/components/ui/typography'
@@ -151,8 +151,7 @@ export default function LoginPage() {
   }
 
   return (
-    <>
-      <HeaderSimplificado />
+    <ConditionalLayout>
       <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
         <main className="flex flex-1 items-center justify-center py-12">
           <div className="w-full max-w-lg">
@@ -323,6 +322,6 @@ export default function LoginPage() {
           </div>
         </footer>
       </div>
-    </>
+    </ConditionalLayout>
   )
 }

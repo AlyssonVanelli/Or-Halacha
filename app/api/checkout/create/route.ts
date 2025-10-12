@@ -68,6 +68,13 @@ export async function POST(request: NextRequest) {
     }
 
     // Verificar se price ID é válido no Stripe
+    if (!stripe) {
+      return NextResponse.json(
+        { error: 'Stripe não está configurado. Entre em contato com o suporte.' },
+        { status: 500 }
+      )
+    }
+
     try {
       await stripe.prices.retrieve(priceId)
     } catch (error) {

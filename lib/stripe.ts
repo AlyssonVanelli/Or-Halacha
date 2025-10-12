@@ -1,14 +1,16 @@
 import Stripe from 'stripe'
 
-// Configuração do Stripe
-if (!process.env.STRIPE_SECRET_KEY) {
-  throw new Error('STRIPE_SECRET_KEY não está definida nas variáveis de ambiente')
+// Configuração do Stripe - apenas no servidor
+let stripe: Stripe | null = null
+
+if (typeof window === 'undefined' && process.env.STRIPE_SECRET_KEY) {
+  stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+    apiVersion: '2025-04-30.basil',
+    typescript: true,
+  })
 }
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2025-04-30.basil',
-  typescript: true,
-})
+export { stripe }
 
 // Tipos de planos disponíveis
 export const PLAN_TYPES = {
@@ -52,6 +54,10 @@ export async function getOrCreateCustomer(
   email: string,
   name?: string
 ): Promise<Stripe.Customer> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     // Primeiro, tentar buscar customer existente
     const existingCustomers = await stripe.customers.list({
@@ -97,6 +103,10 @@ export async function createSubscriptionCheckoutSession({
   cancelUrl: string
   metadata?: Record<string, string>
 }): Promise<Stripe.Checkout.Session> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
@@ -150,6 +160,10 @@ export async function createSinglePurchaseCheckoutSession({
   cancelUrl: string
   metadata?: Record<string, string>
 }): Promise<Stripe.Checkout.Session> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const session = await stripe.checkout.sessions.create({
       mode: 'payment',
@@ -181,6 +195,10 @@ export async function createSinglePurchaseCheckoutSession({
 
 // Função para buscar assinatura no Stripe
 export async function getStripeSubscription(subscriptionId: string): Promise<Stripe.Subscription> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const subscription = await stripe.subscriptions.retrieve(subscriptionId)
     return subscription
@@ -194,6 +212,10 @@ export async function getStripeSubscription(subscriptionId: string): Promise<Str
 export async function cancelStripeSubscription(
   subscriptionId: string
 ): Promise<Stripe.Subscription> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const subscription = await stripe.subscriptions.update(subscriptionId, {
       cancel_at_period_end: true,
@@ -209,6 +231,10 @@ export async function cancelStripeSubscription(
 export async function reactivateStripeSubscription(
   subscriptionId: string
 ): Promise<Stripe.Subscription> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const subscription = await stripe.subscriptions.update(subscriptionId, {
       cancel_at_period_end: false,
@@ -222,6 +248,10 @@ export async function reactivateStripeSubscription(
 
 // Função para verificar se um price ID é válido
 export async function validatePriceId(priceId: string): Promise<boolean> {
+  if (!stripe) {
+    return false
+  }
+
   try {
     await stripe.prices.retrieve(priceId)
     return true
@@ -232,6 +262,10 @@ export async function validatePriceId(priceId: string): Promise<boolean> {
 
 // Função para obter informações do price
 export async function getPriceInfo(priceId: string): Promise<Stripe.Price> {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
   try {
     const price = await stripe.prices.retrieve(priceId)
     return price

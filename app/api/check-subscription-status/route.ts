@@ -53,8 +53,55 @@ export async function POST(req: Request) {
       console.log('Profile encontrado:', profile.id)
 
       // Determinar tipo de plano baseado no interval
-      const planType =
-        subscription.items.data[0]?.price?.recurring?.interval === 'year' ? 'yearly' : 'monthly'
+      const priceItem = subscription.items.data[0]?.price
+      const interval = priceItem?.recurring?.interval
+      const priceId = priceItem?.id
+
+      console.log('=== DETECÇÃO DE PLANO ===')
+      console.log('Price ID:', priceId)
+      console.log('Interval:', interval)
+      console.log('Price Item:', priceItem)
+
+      // Detecção mais robusta do plan_type
+      let planType = 'monthly' // default
+
+      // Priorizar detecção por interval do Stripe
+      if (interval === 'year') {
+        planType = 'yearly'
+        console.log('✅ Detectado como yearly pelo interval do Stripe')
+      } else if (interval === 'month') {
+        planType = 'monthly'
+        console.log('✅ Detectado como monthly pelo interval do Stripe')
+      } else {
+        // Fallback: detectar por price ID com mais precisão
+        if (priceId) {
+          console.log('🔍 Usando fallback por price ID:', priceId)
+
+          // Detectar por padrões no price ID
+          if (
+            priceId.includes('anual') ||
+            priceId.includes('yearly') ||
+            priceId.includes('year') ||
+            priceId.includes('annual') ||
+            priceId.includes('year')
+          ) {
+            planType = 'yearly'
+            console.log('✅ Detectado como yearly pelo price ID')
+          } else if (
+            priceId.includes('mensal') ||
+            priceId.includes('monthly') ||
+            priceId.includes('month')
+          ) {
+            planType = 'monthly'
+            console.log('✅ Detectado como monthly pelo price ID')
+          } else {
+            // Último fallback: detectar por valor se disponível
+            console.log('⚠️ Usando fallback por valor (não implementado)')
+          }
+        }
+      }
+
+      console.log('Plan Type detectado:', planType)
 
       // Detectar se é Plus baseado no metadata da session
       let explicacaoPratica = false
@@ -101,11 +148,11 @@ export async function POST(req: Request) {
         plan_type: planType as 'monthly' | 'yearly',
         price_id: subscription.items.data[0]?.price?.id || '',
         subscription_id: subscription.id,
-        current_period_start: (subscription as any).current_period_start
-          ? new Date((subscription as any).current_period_start * 1000).toISOString()
+        current_period_start: subscription.items.data[0]?.current_period_start
+          ? new Date(subscription.items.data[0].current_period_start * 1000).toISOString()
           : null,
-        current_period_end: (subscription as any).current_period_end
-          ? new Date((subscription as any).current_period_end * 1000).toISOString()
+        current_period_end: subscription.items.data[0]?.current_period_end
+          ? new Date(subscription.items.data[0].current_period_end * 1000).toISOString()
           : null,
         cancel_at_period_end: subscription.cancel_at_period_end,
         explicacao_pratica: explicacaoPratica,

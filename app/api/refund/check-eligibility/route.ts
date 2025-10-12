@@ -38,9 +38,9 @@ export async function POST(req: Request) {
       // Determinar nome do plano baseado no tipo
       let planName = ''
       if (subscription.plan_type === 'monthly') {
-        planName = subscription.explicacao_pratica ? 'Plano Mensal Plus' : 'Plano Mensal'
+        planName = subscription.explicacao_pratica ? 'Mensal Plus' : 'Mensal Básico'
       } else {
-        planName = subscription.explicacao_pratica ? 'Plano Anual Plus' : 'Plano Anual'
+        planName = subscription.explicacao_pratica ? 'Anual Plus' : 'Anual Básico'
       }
 
       return NextResponse.json({

@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
-import { HeaderSimplificado } from '@/components/DashboardHeader'
+import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { BookOpen, ShieldCheck, FileText } from 'lucide-react'
 import { Label } from '@/components/ui/label'
 import { translateAuthError } from '@/lib/error-translations'
@@ -112,8 +112,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <>
-      <HeaderSimplificado />
+    <ConditionalLayout>
       <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
         <main className="flex flex-1 items-center justify-center py-12">
           <div className="w-full max-w-lg">
@@ -283,6 +282,6 @@ export default function SignUpPage() {
           </div>
         </footer>
       </div>
-    </>
+    </ConditionalLayout>
   )
 }

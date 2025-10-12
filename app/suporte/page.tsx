@@ -1,13 +1,9 @@
-// /pages/support.tsx
 'use client'
 
 import { useState } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
-// import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { HeaderSimplificado } from '@/components/DashboardHeader'
-import { SUPPORT_MESSAGES, SUPPORT_CONFIG } from '@/constants/support'
 
 export default function SupportPage() {
   const { user } = useAuth()
@@ -21,7 +17,6 @@ export default function SupportPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
 
-    // Validações para usuários não logados
     if (!user) {
       if (!name.trim()) {
         setErrorMessage('Nome é obrigatório')
@@ -37,13 +32,13 @@ export default function SupportPage() {
       }
     }
 
-    if (message.length < SUPPORT_CONFIG.MIN_MESSAGE_LENGTH) {
-      setErrorMessage(SUPPORT_MESSAGES.MIN_LENGTH)
+    if (message.length < 10) {
+      setErrorMessage('A mensagem deve ter pelo menos 10 caracteres')
       return
     }
 
-    if (message.length > SUPPORT_CONFIG.MAX_MESSAGE_LENGTH) {
-      setErrorMessage(SUPPORT_MESSAGES.MAX_LENGTH)
+    if (message.length > 2000) {
+      setErrorMessage('A mensagem deve ter no máximo 2000 caracteres')
       return
     }
 
@@ -76,18 +71,16 @@ export default function SupportPage() {
       setEmail('')
     } catch (error) {
       setStatus('error')
-      setErrorMessage(SUPPORT_MESSAGES.ERROR.DESCRIPTION)
+      setErrorMessage('Por favor, tente novamente mais tarde.')
     } finally {
       setLoading(false)
     }
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
-      <HeaderSimplificado />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <main className="flex-1">
         <div className="container py-8">
-          {/* Header */}
           <div className="mb-8 text-center">
             <div className="mb-4 flex items-center justify-center gap-4">
               <div className="rounded-full bg-blue-500 p-3">
@@ -112,7 +105,6 @@ export default function SupportPage() {
             </div>
           </div>
 
-          {/* Formulário de Suporte */}
           <div className="mx-auto max-w-2xl">
             <div className="rounded-xl bg-white p-8 shadow-lg">
               <div className="mb-6">
@@ -128,7 +120,6 @@ export default function SupportPage() {
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-6">
-                {/* Campos para usuários não logados */}
                 {!user && (
                   <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div>
@@ -169,18 +160,14 @@ export default function SupportPage() {
                   <Textarea
                     value={message}
                     onChange={e => setMessage(e.target.value)}
-                    placeholder={SUPPORT_MESSAGES.PLACEHOLDER}
+                    placeholder="Descreva sua dúvida ou problema em detalhes..."
                     className="min-h-[200px] border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                     disabled={loading || status === 'sent'}
                   />
                   <div className="mt-2 flex justify-between text-sm">
-                    <span className="text-gray-500">
-                      {message.length}/{SUPPORT_CONFIG.MAX_MESSAGE_LENGTH} caracteres
-                    </span>
-                    {message.length < SUPPORT_CONFIG.MIN_MESSAGE_LENGTH && (
-                      <span className="text-orange-500">
-                        Mínimo {SUPPORT_CONFIG.MIN_MESSAGE_LENGTH} caracteres
-                      </span>
+                    <span className="text-gray-500">{message.length}/2000 caracteres</span>
+                    {message.length < 10 && (
+                      <span className="text-orange-500">Mínimo 10 caracteres</span>
                     )}
                   </div>
                 </div>
@@ -224,9 +211,11 @@ export default function SupportPage() {
                       </svg>
                       <div>
                         <h3 className="font-semibold text-green-800">
-                          {SUPPORT_MESSAGES.SUCCESS.TITLE}
+                          Mensagem enviada com sucesso!
                         </h3>
-                        <p className="text-green-700">{SUPPORT_MESSAGES.SUCCESS.DESCRIPTION}</p>
+                        <p className="text-green-700">
+                          Nossa equipe responderá em breve no seu e-mail cadastrado.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -249,7 +238,6 @@ export default function SupportPage() {
               </form>
             </div>
 
-            {/* Informações de Contato */}
             <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
               <div className="rounded-xl bg-white p-6 shadow-lg">
                 <div className="mb-3 flex items-center gap-3">

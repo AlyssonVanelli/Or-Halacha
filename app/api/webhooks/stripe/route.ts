@@ -102,10 +102,52 @@ export async function POST(req: Request) {
           break
         }
         const priceId = item.price.id ?? ''
-        const planType = item.price.recurring?.interval === 'year' ? 'yearly' : 'monthly'
+        const interval = item.price.recurring?.interval
 
+        console.log('=== DETECÇÃO DE PLANO ===')
         console.log('Price ID:', priceId)
-        console.log('Plan Type:', planType)
+        console.log('Interval:', interval)
+
+        // Detecção mais robusta do plan_type
+        let planType = 'monthly' // default
+
+        // Priorizar detecção por interval do Stripe
+        if (interval === 'year') {
+          planType = 'yearly'
+          console.log('✅ Detectado como yearly pelo interval do Stripe')
+        } else if (interval === 'month') {
+          planType = 'monthly'
+          console.log('✅ Detectado como monthly pelo interval do Stripe')
+        } else {
+          // Fallback: detectar por price ID com mais precisão
+          if (priceId) {
+            console.log('🔍 Usando fallback por price ID:', priceId)
+
+            // Detectar por padrões no price ID
+            if (
+              priceId.includes('anual') ||
+              priceId.includes('yearly') ||
+              priceId.includes('year') ||
+              priceId.includes('annual') ||
+              priceId.includes('year')
+            ) {
+              planType = 'yearly'
+              console.log('✅ Detectado como yearly pelo price ID')
+            } else if (
+              priceId.includes('mensal') ||
+              priceId.includes('monthly') ||
+              priceId.includes('month')
+            ) {
+              planType = 'monthly'
+              console.log('✅ Detectado como monthly pelo price ID')
+            } else {
+              // Último fallback: detectar por valor se disponível
+              console.log('⚠️ Usando fallback por valor (não implementado)')
+            }
+          }
+        }
+
+        console.log('Plan Type detectado:', planType)
 
         // Busca nome do produto e nickname do preço, se disponíveis
         let priceName = ''
@@ -380,10 +422,24 @@ export async function POST(req: Request) {
       console.log('Session ID:', session.id)
       console.log('Mode:', session.mode)
       console.log('Metadata:', session.metadata)
+      console.log('Payment Intent:', session.payment_intent)
+      console.log('Customer:', session.customer)
 
       // Verifica se é uma compra de tratado avulso
       const metadata = session.metadata as Record<string, string | undefined> | undefined
-      if (metadata && metadata['divisionId'] && metadata['bookId'] && metadata['userId']) {
+      console.log('🔍 Verificando metadata:', metadata)
+      console.log('🔍 DivisionId:', metadata?.divisionId)
+      console.log('🔍 BookId:', metadata?.bookId)
+      console.log('🔍 UserId:', metadata?.userId)
+      console.log('🔍 Type:', metadata?.type)
+
+      if (
+        metadata &&
+        metadata['divisionId'] &&
+        metadata['bookId'] &&
+        metadata['userId'] &&
+        (metadata['type'] === 'treatise-purchase' || session.mode === 'payment')
+      ) {
         const userId = metadata['userId']
         const bookId = metadata['bookId']
         const divisionId = metadata['divisionId']
@@ -403,6 +459,7 @@ export async function POST(req: Request) {
               book_id: bookId,
               division_id: divisionId,
               expires_at: expiresAt.toISOString(),
+              stripe_payment_intent_id: session.payment_intent,
               created_at: new Date().toISOString(),
             },
             {
@@ -412,8 +469,25 @@ export async function POST(req: Request) {
 
         if (purchaseError) {
           console.error('❌ Erro ao salvar compra avulsa:', purchaseError)
+          console.error('❌ Detalhes do erro:', {
+            code: purchaseError.code,
+            message: purchaseError.message,
+            details: purchaseError.details,
+            hint: purchaseError.hint,
+          })
         } else {
           console.log('✅ Compra avulsa salva:', purchaseResult)
+        }
+      } else {
+        console.log('⚠️ Não é uma compra de tratado avulso - metadata incompleto')
+        console.log('⚠️ Metadata recebido:', metadata)
+        console.log('⚠️ Session mode:', session.mode)
+        console.log('⚠️ Verificando se é compra única...')
+
+        // Verificar se é uma compra única sem metadata específico
+        if (session.mode === 'payment' && session.payment_intent) {
+          console.log('🔍 É uma compra única, mas sem metadata de tratado')
+          console.log('🔍 Verificando se é compra de tratado por outros meios...')
         }
       }
       break

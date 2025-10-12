@@ -2,14 +2,11 @@
 'use client'
 
 import Link from 'next/link'
-import { useAuth } from '@/contexts/auth-context'
-import { DashboardHeader, HeaderSimplificado } from '@/components/DashboardHeader'
+import { ConditionalLayout } from '@/components/ConditionalLayout'
 
 export default function Privacidade() {
-  const { user } = useAuth()
   return (
-    <>
-      {user ? <DashboardHeader /> : <HeaderSimplificado />}
+    <ConditionalLayout>
       <div className="flex min-h-screen flex-col">
         <main className="flex-1 bg-slate-50 py-12 dark:bg-slate-900">
           <div className="container mx-auto max-w-2xl px-4 md:px-6">
@@ -79,6 +76,6 @@ export default function Privacidade() {
           </div>
         </footer>
       </div>
-    </>
+    </ConditionalLayout>
   )
 }

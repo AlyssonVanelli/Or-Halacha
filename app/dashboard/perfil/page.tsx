@@ -12,6 +12,8 @@ import { useRouter } from 'next/navigation'
 import { useToast } from '@/hooks/use-toast'
 import Image from 'next/image'
 import Link from 'next/link'
+import { SubscriptionActions } from '@/components/SubscriptionActions'
+import { RenewalModal } from '@/components/RenewalModal'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -74,6 +76,7 @@ export default function PerfilPage() {
   const [passwordError, setPasswordError] = useState<string | null>(null)
   const [passwordSuccess, setPasswordSuccess] = useState<string | null>(null)
   const [passwordLoading, setPasswordLoading] = useState(false)
+  const [renewalModalOpen, setRenewalModalOpen] = useState(false)
   const { toast } = useToast()
 
   useEffect(() => {
@@ -584,10 +587,10 @@ export default function PerfilPage() {
                         {subscription.plan_type === 'yearly'
                           ? subscription.explicacao_pratica
                             ? 'Anual Plus'
-                            : 'Anual'
+                            : 'Anual Básico'
                           : subscription.explicacao_pratica
                             ? 'Mensal Plus'
-                            : 'Mensal'}
+                            : 'Mensal Básico'}
                       </b>
                     </div>
                     <div>
@@ -612,56 +615,29 @@ export default function PerfilPage() {
                         . Após essa data, você perderá o acesso a todo o conteúdo exclusivo do site.
                       </div>
                     )}
-                    <div className="mt-4 flex gap-4">
-                      {subscription.status === 'active' ? (
-                        subscription.cancel_at_period_end ? (
-                          <Button
-                            variant="default"
-                            onClick={async () => {
-                              const supabase = createClient()
-                              const { data: profile } = await supabase
-                                .from('profiles')
-                                .select('stripe_customer_id')
-                                .eq('id', user.id)
-                                .maybeSingle()
-                              if (!profile?.stripe_customer_id) {
-                                toast({
-                                  title: 'Não foi possível localizar seu cadastro Stripe.',
-                                  variant: 'destructive',
-                                })
-                                return
-                              }
-                              const res = await fetch('/api/upgrade-subscription', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: JSON.stringify({ customerId: profile.stripe_customer_id }),
-                              })
-                              const data = await res.json()
-                              if (data.url) window.location.href = data.url
-                            }}
-                          >
-                            Renovar Assinatura
-                          </Button>
-                        ) : (
-                          <>
-                            <Button variant="destructive" onClick={handleCancel}>
-                              Cancelar Assinatura
-                            </Button>
-                            <Button variant="default" onClick={handleUpgrade}>
-                              Fazer Upgrade
-                            </Button>
-                            <Button
-                              variant="outline"
-                              onClick={() =>
-                                router.push(`/refund?type=subscription&id=${subscription.id}`)
-                              }
-                              className="border-orange-300 text-orange-600 hover:bg-orange-50"
-                            >
-                              Solicitar Reembolso
-                            </Button>
-                          </>
-                        )
-                      ) : (
+                    {subscription.status === 'active' && !subscription.cancel_at_period_end && (
+                      <SubscriptionActions
+                        subscriptionId={subscription.subscription_id}
+                        isPlus={subscription.explicacao_pratica}
+                        planType={subscription.plan_type}
+                        createdAt={subscription.created_at}
+                      />
+                    )}
+
+                    {subscription.status === 'active' && subscription.cancel_at_period_end && (
+                      <div className="mt-4">
+                        <Button
+                          variant="default"
+                          onClick={() => setRenewalModalOpen(true)}
+                          className="w-full"
+                        >
+                          Renovar Assinatura
+                        </Button>
+                      </div>
+                    )}
+
+                    {subscription.status !== 'active' && (
+                      <div className="mt-4">
                         <Button
                           variant="default"
                           onClick={() => router.push('/dashboard')}
@@ -669,8 +645,8 @@ export default function PerfilPage() {
                         >
                           Nova Assinatura
                         </Button>
-                      )}
-                    </div>
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <div className="mb-4">
@@ -797,6 +773,16 @@ export default function PerfilPage() {
           )}
         </div>
       </main>
+
+      {/* Modal de Renovação */}
+      {subscription && (
+        <RenewalModal
+          isOpen={renewalModalOpen}
+          onClose={() => setRenewalModalOpen(false)}
+          currentPlan={subscription.plan_type}
+          isPlus={subscription.explicacao_pratica}
+        />
+      )}
     </div>
   )
 }

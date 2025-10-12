@@ -117,6 +117,11 @@ export class SubscriptionService {
       console.log('=== SINCRONIZANDO ASSINATURA COM STRIPE ===')
       console.log('Subscription ID:', subscriptionId)
 
+      if (!stripe) {
+        console.error('Stripe não está configurado')
+        return null
+      }
+
       // Buscar assinatura no Stripe
       const stripeSubscription = await stripe.subscriptions.retrieve(subscriptionId)
 
@@ -207,6 +212,11 @@ export class SubscriptionService {
       }
 
       // Cancelar no Stripe
+      if (!stripe) {
+        console.error('Stripe não está configurado')
+        return false
+      }
+
       await stripe.subscriptions.update(subscription.subscription_id, {
         cancel_at_period_end: true,
       })
@@ -237,6 +247,11 @@ export class SubscriptionService {
       }
 
       // Reativar no Stripe
+      if (!stripe) {
+        console.error('Stripe não está configurado')
+        return false
+      }
+
       await stripe.subscriptions.update(subscription.subscription_id, {
         cancel_at_period_end: false,
       })

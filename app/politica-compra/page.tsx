@@ -141,7 +141,7 @@ export default function PoliticaCompraPage() {
                 <div className="rounded-lg bg-yellow-50 p-4">
                   <h4 className="mb-2 font-semibold text-yellow-800">Preços:</h4>
                   <ul className="space-y-1 text-sm text-yellow-700">
-                    <li>• Assinatura mensal: R$ 29,90/mês</li>
+                    <li>• Assinatura mensal: R$ 99,90/mês</li>
                     <li>• Assinatura anual: R$ 79,90/mês (R$ 958,80/ano)</li>
                     <li>• Tratado individual: R$ 29,90 (30 dias de acesso)</li>
                   </ul>

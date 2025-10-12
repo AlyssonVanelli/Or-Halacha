@@ -103,8 +103,55 @@ export async function POST(req: Request) {
 
     console.log('\n📊 STATUS FINAL:', finalStatus)
 
-    // Detectar Plus
+    // Detectar Plus e Plan Type
     const priceId = subscription.items.data[0]?.price?.id || ''
+    const interval = subscription.items.data[0]?.price?.recurring?.interval
+
+    console.log('=== DETECÇÃO DE PLANO ===')
+    console.log('Price ID:', priceId)
+    console.log('Interval:', interval)
+
+    // Detecção mais robusta do plan_type
+    let planType = 'monthly' // default
+
+    // Priorizar detecção por interval do Stripe
+    if (interval === 'year') {
+      planType = 'yearly'
+      console.log('✅ Detectado como yearly pelo interval do Stripe')
+    } else if (interval === 'month') {
+      planType = 'monthly'
+      console.log('✅ Detectado como monthly pelo interval do Stripe')
+    } else {
+      // Fallback: detectar por price ID com mais precisão
+      if (priceId) {
+        console.log('🔍 Usando fallback por price ID:', priceId)
+
+        // Detectar por padrões no price ID
+        if (
+          priceId.includes('anual') ||
+          priceId.includes('yearly') ||
+          priceId.includes('year') ||
+          priceId.includes('annual') ||
+          priceId.includes('year')
+        ) {
+          planType = 'yearly'
+          console.log('✅ Detectado como yearly pelo price ID')
+        } else if (
+          priceId.includes('mensal') ||
+          priceId.includes('monthly') ||
+          priceId.includes('month')
+        ) {
+          planType = 'monthly'
+          console.log('✅ Detectado como monthly pelo price ID')
+        } else {
+          // Último fallback: detectar por valor se disponível
+          console.log('⚠️ Usando fallback por valor (não implementado)')
+        }
+      }
+    }
+
+    console.log('Plan Type detectado:', planType)
+
     const isPlusSubscription =
       priceId.includes('plus') ||
       priceId.includes('Plus') ||
@@ -137,7 +184,7 @@ export async function POST(req: Request) {
         | 'incomplete_expired'
         | 'past_due'
         | 'unpaid',
-      plan_type: 'yearly' as const,
+      plan_type: planType as 'monthly' | 'yearly',
       price_id: priceId,
       subscription_id: subscription.id,
       current_period_start: periodStart ? new Date(periodStart * 1000).toISOString() : null,

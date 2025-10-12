@@ -1,51 +1,63 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { z } from 'zod'
-import { subscriptionService } from '@/lib/services/subscription-service'
+import { createClient } from '@/lib/supabase/server'
+import Stripe from 'stripe'
 
-const CancelRequestSchema = z.object({
-  userId: z.string().uuid(),
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  apiVersion: '2025-04-30.basil',
 })
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    const { userId } = CancelRequestSchema.parse(body)
+    const supabase = await createClient()
 
-    console.log('=== CANCELANDO ASSINATURA ===')
-    console.log('User ID:', userId)
-
-    const success = await subscriptionService.cancelSubscription(userId)
-
-    if (success) {
-      return NextResponse.json({
-        success: true,
-        message: 'Assinatura cancelada com sucesso. Você terá acesso até o final do período atual.',
-      })
-    } else {
-      return NextResponse.json(
-        { error: 'Não foi possível cancelar a assinatura. Tente novamente.' },
-        { status: 400 }
-      )
+    // Verificar autenticação
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
+    if (authError || !user) {
+      return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
     }
+
+    // Buscar assinatura do usuário
+    const { data: subscription, error: subError } = await supabase
+      .from('subscriptions')
+      .select('*')
+      .eq('user_id', user.id)
+      .eq('status', 'active')
+      .single()
+
+    if (subError || !subscription) {
+      return NextResponse.json({ error: 'Assinatura não encontrada' }, { status: 404 })
+    }
+
+    // Cancelar no Stripe
+    const stripeSubscription = await stripe.subscriptions.update(subscription.subscription_id, {
+      cancel_at_period_end: true,
+    })
+
+    // Atualizar no banco
+    const { error: updateError } = await supabase
+      .from('subscriptions')
+      .update({
+        cancel_at_period_end: true,
+        updated_at: new Date().toISOString(),
+      })
+      .eq('id', subscription.id)
+
+    if (updateError) {
+      console.error('Erro ao atualizar assinatura:', updateError)
+      return NextResponse.json({ error: 'Erro ao cancelar assinatura' }, { status: 500 })
+    }
+
+    return NextResponse.json({
+      success: true,
+      message:
+        'Assinatura cancelada com sucesso. Você manterá o acesso até o fim do período atual.',
+      cancel_at_period_end: true,
+    })
   } catch (error) {
     console.error('Erro ao cancelar assinatura:', error)
-
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(
-        {
-          error: 'Dados inválidos.',
-          details: error.errors.map(e => `${e.path.join('.')}: ${e.message}`),
-        },
-        { status: 400 }
-      )
-    }
-
-    return NextResponse.json(
-      {
-        error: 'Erro interno do servidor.',
-        details: error instanceof Error ? error.message : 'Erro desconhecido',
-      },
-      { status: 500 }
-    )
+    return NextResponse.json({ error: 'Erro interno do servidor' }, { status: 500 })
   }
 }

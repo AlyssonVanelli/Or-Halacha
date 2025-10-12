@@ -180,7 +180,7 @@ export default function PaymentPage() {
                     <p className="mb-4 text-gray-600">
                       Acesso a todos os tratados + recursos premium
                     </p>
-                    <div className="mb-4 text-3xl font-bold text-blue-600">R$ 19,90/mês</div>
+                    <div className="mb-4 text-3xl font-bold text-blue-600">R$ 99,90/mês</div>
                     <ul className="mb-6 space-y-2 text-left">
                       <li className="flex items-center gap-2">
                         <CheckCircle className="h-4 w-4 text-blue-600" />
