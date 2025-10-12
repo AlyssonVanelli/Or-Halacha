@@ -494,16 +494,41 @@ export async function POST(req: Request) {
       // Se tem metadata específico de tratado, usar ele
       if (metadata && metadata['divisionId'] && metadata['bookId'] && metadata['userId']) {
         const userId = metadata['userId']
-        const bookId = metadata['bookId']
+        const bookIdString = metadata['bookId'] // Pode ser "shulchan-aruch" ou UUID
         const divisionId = metadata['divisionId']
 
         console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
         console.log('User ID:', userId)
-        console.log('Book ID:', bookId)
+        console.log('Book ID String:', bookIdString)
         console.log('Division ID:', divisionId)
         console.log('Metadata type:', metadata['type'])
         console.log('Session mode:', session.mode)
         console.log('Payment intent ID:', session.payment_intent)
+
+        // Buscar o UUID real do livro no banco de dados
+        console.log('🔍 BUSCANDO UUID DO LIVRO NO BANCO...')
+        let bookId: string
+        
+        if (bookIdString === 'shulchan-aruch') {
+          // Se for string "shulchan-aruch", buscar pelo slug
+          const { data: bookData, error: bookError } = await supabase
+            .from('books')
+            .select('id')
+            .eq('slug', 'shulchan-aruch')
+            .single()
+          
+          if (bookError || !bookData) {
+            console.error('❌ ERRO: Livro Shulchan Aruch não encontrado no banco:', bookError)
+            return NextResponse.json({ error: 'Livro não encontrado' }, { status: 400 })
+          }
+          
+          bookId = bookData.id
+          console.log('✅ UUID do livro encontrado:', bookId)
+        } else {
+          // Se já for UUID, usar diretamente
+          bookId = bookIdString
+          console.log('✅ Usando UUID fornecido:', bookId)
+        }
 
         // Calcula a data de expiração (1 mês a partir de agora)
         const expiresAt = new Date()
