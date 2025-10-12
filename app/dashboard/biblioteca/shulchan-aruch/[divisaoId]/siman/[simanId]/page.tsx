@@ -73,18 +73,30 @@ export default function SimanPage() {
 
         setDivision(divisionData)
 
-        // Carregar seifim
-        const { data: seifimData, error: seifimError } = await supabase
-          .from('seifim')
+        // Carregar conteúdo do siman
+        const { data: contentData, error: contentError } = await supabase
+          .from('content')
           .select('*')
-          .eq('siman_id', simanId)
-          .order('position')
+          .eq('chapter_id', simanId)
+          .single()
 
-        if (seifimError) {
+        if (contentError) {
+          console.error('❌ Erro ao carregar conteúdo:', contentError)
           return
         }
 
-        setSeifim(seifimData || [])
+        // Se não há conteúdo estruturado, criar um seifim único com o conteúdo
+        if (contentData && contentData.content) {
+          const singleSeif = {
+            id: '1',
+            title: 'Conteúdo',
+            content: contentData.content,
+            position: 1
+          }
+          setSeifim([singleSeif])
+        } else {
+          setSeifim([])
+        }
 
         // Verificar acesso ESPECÍFICO para esta divisão
         try {
