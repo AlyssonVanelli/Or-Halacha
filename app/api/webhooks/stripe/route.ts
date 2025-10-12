@@ -9,21 +9,40 @@ const stripe = new Stripe(stripeKey, {
 })
 
 export async function POST(req: Request) {
+  console.log('🚨🚨🚨 WEBHOOK PRINCIPAL CHAMADO - INÍCIO 🚨🚨🚨')
+  console.log('🚨 Timestamp:', new Date().toISOString())
+  console.log('🚨 Headers:', Object.fromEntries(req.headers.entries()))
+  console.log('🚨 URL:', req.url)
+  console.log('🚨 Method:', req.method)
+  console.log('🚨 User-Agent:', req.headers.get('user-agent'))
+  console.log('🚨 Stripe-Signature:', req.headers.get('stripe-signature'))
+  
   const sig = req.headers.get('stripe-signature')
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET
+  
+  console.log('🚨 Stripe signature:', !!sig)
+  console.log('🚨 Webhook secret configurado:', !!webhookSecret)
+  
   if (!sig || !webhookSecret) {
+    console.error('❌ WEBHOOK REJEITADO - Signature ou secret não configurados')
     return NextResponse.json(
       { error: 'Webhook signature ou secret não configurados' },
       { status: 400 }
     )
   }
+  
+  console.log('🚨 Lendo body do webhook...')
   const rawBody = Buffer.from(await req.arrayBuffer())
+  console.log('🚨 Body size:', rawBody.length)
 
   let event: Stripe.Event
   try {
+    console.log('🚨 Construindo evento do Stripe...')
     event = stripe.webhooks.constructEvent(rawBody, sig, webhookSecret)
+    console.log('🚨 Evento construído com sucesso:', event.type)
   } catch (err: unknown) {
     const error = err as Error
+    console.error('❌ ERRO AO CONSTRUIR EVENTO:', error.message)
     return NextResponse.json({ error: `Webhook Error: ${error.message}` }, { status: 400 })
   }
 
@@ -492,9 +511,33 @@ export async function POST(req: Request) {
 
         console.log('Conectando ao Supabase...')
         console.log('Supabase client criado:', !!supabase)
+        console.log('Supabase URL:', process.env.NEXT_PUBLIC_SUPABASE_URL)
+        console.log('Supabase Anon Key configurado:', !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
+        
+        // Testar conexão com o banco primeiro
+        console.log('🧪 TESTANDO CONEXÃO COM BANCO...')
+        const { data: testData, error: testError } = await supabase
+          .from('purchased_books')
+          .select('count')
+          .limit(1)
+        
+        if (testError) {
+          console.error('❌ ERRO NA CONEXÃO COM BANCO:', testError)
+        } else {
+          console.log('✅ CONEXÃO COM BANCO OK:', testData)
+        }
         
         // Registra a compra na tabela purchased_books
         console.log('Executando upsert na tabela purchased_books...')
+        console.log('Dados finais para inserção:', {
+          user_id: userId,
+          book_id: bookId,
+          division_id: divisionId,
+          expires_at: expiresAt.toISOString(),
+          stripe_payment_intent_id: session.payment_intent,
+          created_at: new Date().toISOString(),
+        })
+        
         const { data: purchaseResult, error: purchaseError } = await supabase
           .from('purchased_books')
           .upsert(
@@ -512,6 +555,8 @@ export async function POST(req: Request) {
           )
         
         console.log('Resultado do upsert:', { purchaseResult, purchaseError })
+        console.log('Purchase result type:', typeof purchaseResult)
+        console.log('Purchase error type:', typeof purchaseError)
 
         if (purchaseError) {
           console.error('❌ ERRO AO INSERIR COMPRA NO BANCO:', purchaseError)
@@ -560,5 +605,6 @@ export async function POST(req: Request) {
 
   console.log('=== WEBHOOK PROCESSADO COM SUCESSO ===')
   console.log('Timestamp final:', new Date().toISOString())
+  console.log('🚨 WEBHOOK FINALIZADO - RETORNANDO RESPOSTA')
   return NextResponse.json({ received: true })
 }

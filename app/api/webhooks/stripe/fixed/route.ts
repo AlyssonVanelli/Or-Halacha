@@ -12,6 +12,7 @@ export async function POST(req: Request) {
   console.log('⏰ TIMESTAMP:', new Date().toISOString())
   console.log('🌐 URL:', req.url)
   console.log('📝 METHOD:', req.method)
+  console.log('🔐 Stripe-Signature:', req.headers.get('stripe-signature'))
   console.log('='.repeat(80))
 
   const supabase = createClient()

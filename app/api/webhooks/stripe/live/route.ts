@@ -10,10 +10,11 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!
 
 export async function POST(req: Request) {
-  console.log('\n🔥🔥🔥 WEBHOOK STRIPE CHAMADO - LOGS EM TEMPO REAL 🔥🔥🔥')
+  console.log('\n🔥🔥🔥 WEBHOOK LIVE CHAMADO - LOGS EM TEMPO REAL 🔥🔥🔥')
   console.log('⏰ TIMESTAMP:', new Date().toISOString())
   console.log('🌐 URL:', req.url)
   console.log('📝 METHOD:', req.method)
+  console.log('🔐 Stripe-Signature:', req.headers.get('stripe-signature'))
   console.log('='.repeat(80))
 
   const supabase = createClient()
