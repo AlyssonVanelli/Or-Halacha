@@ -5,7 +5,12 @@ export async function POST(request: NextRequest) {
   try {
     const { userId, divisionId } = await request.json()
 
+    console.log('🔍 VERIFICAÇÃO DE ACESSO - INÍCIO')
+    console.log('User ID:', userId)
+    console.log('Division ID:', divisionId)
+
     if (!userId || !divisionId) {
+      console.log('❌ ERRO: userId ou divisionId não fornecidos')
       return NextResponse.json(
         {
           error: 'userId e divisionId são obrigatórios',
@@ -43,6 +48,7 @@ export async function POST(request: NextRequest) {
     console.log('- Current date:', new Date().toISOString())
 
     // 2. Verificar se esta divisão específica foi comprada
+    console.log('🔍 VERIFICANDO COMPRAS ESPECÍFICAS...')
     const { data: purchasedData, error: purchasedError } = await supabase
       .from('purchased_books')
       .select('division_id, expires_at')
@@ -50,14 +56,26 @@ export async function POST(request: NextRequest) {
       .eq('division_id', divisionId)
 
     if (purchasedError) {
+      console.error('❌ ERRO ao buscar compras:', purchasedError)
     }
 
+    console.log('📚 Dados de compras encontrados:', purchasedData)
+    console.log('📚 Total de compras:', purchasedData?.length || 0)
+
     const validPurchases = (purchasedData || []).filter(pb => new Date(pb.expires_at) > new Date())
+    console.log('✅ Compras válidas (não expiradas):', validPurchases.length)
+    console.log('✅ Detalhes das compras válidas:', validPurchases)
 
     const hasPurchasedThisDivision = validPurchases.length > 0
+    console.log('🎯 Tem acesso por compra específica?', hasPurchasedThisDivision)
 
     // 3. Calcular acesso final
     const hasAccess = hasActiveSubscription || hasPurchasedThisDivision
+
+    console.log('🎯 RESULTADO FINAL:')
+    console.log('- Tem assinatura ativa?', hasActiveSubscription)
+    console.log('- Comprou esta divisão?', hasPurchasedThisDivision)
+    console.log('- TEM ACESSO?', hasAccess)
 
     return NextResponse.json({
       success: true,
