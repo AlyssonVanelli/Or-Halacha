@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
+import ContentOrganizer from '@/components/ContentOrganizer'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Book } from 'lucide-react'
@@ -230,31 +231,21 @@ export default function SimanPage() {
               </div>
             </div>
 
-            {/* Conteúdo do Siman */}
-            <div className="mx-auto max-w-4xl">
-              <div className="space-y-6">
-                {seifim.map(seif => (
-                  <div key={seif.id} className="rounded-xl bg-white p-6 shadow-lg">
-                    <div className="mb-4 flex items-center gap-3">
-                      <div className="rounded-full bg-blue-100 px-3 py-1">
-                        <span className="text-sm font-bold text-blue-800">
-                          Seif {seif.position}
-                        </span>
-                      </div>
-                      {seif.title && (
-                        <h3 className="text-lg font-semibold text-gray-800">{seif.title}</h3>
-                      )}
-                    </div>
-
-                    <div className="prose prose-lg max-w-none">
-                      <div
-                        className="leading-relaxed text-gray-700"
-                        dangerouslySetInnerHTML={{ __html: seif.content }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
+            {/* Conteúdo Organizado do Siman */}
+            <div className="mx-auto max-w-6xl">
+              {contentData && contentData.content ? (
+                <ContentOrganizer
+                  simanId={simanId}
+                  simanTitle={siman?.title || 'Siman'}
+                  simanPosition={siman?.position || 1}
+                  rawContent={contentData.content}
+                />
+              ) : (
+                <div className="text-center py-12">
+                  <Book className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+                  <p className="text-gray-500">Conteúdo não disponível</p>
+                </div>
+              )}
             </div>
           </div>
         </main>
