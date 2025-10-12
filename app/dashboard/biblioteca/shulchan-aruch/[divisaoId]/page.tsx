@@ -9,14 +9,17 @@ import { ErrorDisplay } from '@/components/ErrorBoundary'
 import { ScreenCaptureProtection } from '@/components/ScreenCaptureProtection'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Book, CheckCircle } from 'lucide-react'
+import { ArrowLeft, Book, CheckCircle, Tag, FileText } from 'lucide-react'
 import { useParams } from 'next/navigation'
 import { useErrorHandler } from '@/hooks/useErrorHandler'
+import { parseSimanContent } from '@/lib/content-parser'
 
 interface Siman {
   id: string
   title: string
   position: number
+  topics?: string[]
+  summary?: string
 }
 
 interface Division {
@@ -90,7 +93,42 @@ export default function DivisaoPage() {
           return
         }
 
-        setSimanim(simanimData)
+        // Carregar conteúdo e extrair assuntos para cada siman
+        const simanimWithTopics = await Promise.all(
+          simanimData.map(async (siman) => {
+            try {
+              // Buscar conteúdo do siman
+              const { data: contentData } = await supabase
+                .from('content')
+                .select('content')
+                .eq('chapter_id', siman.id)
+                .single()
+
+              if (contentData?.content) {
+                // Extrair assuntos usando o parser
+                const parsedContent = parseSimanContent(
+                  siman.id,
+                  siman.title,
+                  siman.position,
+                  contentData.content
+                )
+                
+                return {
+                  ...siman,
+                  topics: parsedContent.topics || [],
+                  summary: parsedContent.summary || ''
+                }
+              }
+              
+              return siman
+            } catch (error) {
+              console.error(`Erro ao extrair assuntos do siman ${siman.id}:`, error)
+              return siman
+            }
+          })
+        )
+
+        setSimanim(simanimWithTopics)
 
         // Verificar acesso ESPECÍFICO para esta divisão
         try {
@@ -297,12 +335,50 @@ export default function DivisaoPage() {
 
                           {/* Conteúdo do card */}
                           <div className="p-4">
-                            <h3 className="mb-2 line-clamp-2 text-lg font-bold text-gray-800">
+                            <h3 className="mb-3 line-clamp-2 text-lg font-bold text-gray-800">
                               {siman.title}
                             </h3>
 
+                            {/* Assuntos do Siman */}
+                            {(siman.topics && siman.topics.length > 0) || siman.summary ? (
+                              <div className="mb-3 space-y-2">
+                                {siman.summary && (
+                                  <div className="flex items-start gap-2">
+                                    <FileText className="mt-0.5 h-3 w-3 text-gray-500 flex-shrink-0" />
+                                    <p className="text-xs text-gray-600 line-clamp-2">
+                                      {siman.summary}
+                                    </p>
+                                  </div>
+                                )}
+                                
+                                {siman.topics && siman.topics.length > 0 && (
+                                  <div className="flex flex-wrap gap-1">
+                                    {siman.topics.slice(0, 3).map((topic, index) => (
+                                      <span
+                                        key={index}
+                                        className="inline-flex items-center rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800"
+                                      >
+                                        {topic.length > 20 ? `${topic.substring(0, 20)}...` : topic}
+                                      </span>
+                                    ))}
+                                    {siman.topics.length > 3 && (
+                                      <span className="text-xs text-gray-500">
+                                        +{siman.topics.length - 3} mais
+                                      </span>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
+                            ) : (
+                              <div className="mb-3">
+                                <p className="text-sm text-gray-500 italic">
+                                  Assuntos não disponíveis
+                                </p>
+                              </div>
+                            )}
+
                             {/* Badge de acesso */}
-                            <div className="mt-3 flex items-center justify-center">
+                            <div className="flex items-center justify-center">
                               <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-800">
                                 <CheckCircle className="mr-1 h-3 w-3" />
                                 Acesso Completo
