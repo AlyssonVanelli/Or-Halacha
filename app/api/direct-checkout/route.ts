@@ -4,14 +4,14 @@ import { createClient } from '@/lib/supabase/server'
 
 // Função para obter a URL base correta
 function getBaseUrl() {
+  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela (prioridade)
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    return process.env.NEXT_PUBLIC_APP_URL
+  }
+
   // Em produção (Vercel), usar a URL do domínio
   if (process.env.VERCEL_URL) {
     return `https://${process.env.VERCEL_URL}`
-  }
-
-  // Se NEXT_PUBLIC_APP_URL estiver definida, usar ela
-  if (process.env.NEXT_PUBLIC_APP_URL) {
-    return process.env.NEXT_PUBLIC_APP_URL
   }
 
   // Fallback para localhost em desenvolvimento
