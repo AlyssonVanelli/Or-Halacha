@@ -23,7 +23,7 @@ import {
   type UpgradeOptions,
   type PricingCalculation,
 } from '@/lib/subscription-manager'
-import { validateUpgradeScenario, type ValidationResult } from '@/lib/subscription-scenarios'
+import { type ValidationResult } from '@/lib/subscription-scenarios'
 import ScenarioValidator from './ScenarioValidator'
 
 interface SubscriptionUpgradeModalProps {
@@ -52,6 +52,7 @@ export default function SubscriptionUpgradeModal({
   const [validation, setValidation] = useState<ValidationResult | null>(null)
   const [showScenarioValidator, setShowScenarioValidator] = useState(false)
 
+
   // Carregar opções de upgrade
   useEffect(() => {
     if (isOpen) {
@@ -60,11 +61,11 @@ export default function SubscriptionUpgradeModal({
       setSelectedPlan(null)
       setPricing(null)
       setError(null)
-
+      
       // Verificar duplicatas
       checkForDuplicates()
     }
-  }, [isOpen, currentPlan, checkForDuplicates])
+  }, [isOpen, currentPlan])
 
   // Calcular preços quando selecionar plano
   useEffect(() => {
@@ -308,22 +309,22 @@ export default function SubscriptionUpgradeModal({
         {/* Botões */}
         <div className="flex justify-between pt-4">
           <div className="flex gap-2">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               onClick={() => setShowScenarioValidator(!showScenarioValidator)}
               disabled={!selectedPlan}
             >
               {showScenarioValidator ? 'Ocultar Análise' : 'Analisar Cenários'}
             </Button>
           </div>
-          
+
           <div className="flex gap-3">
             <Button variant="outline" onClick={onClose} disabled={loading}>
               Cancelar
             </Button>
             <Button
               onClick={handleUpgrade}
-              disabled={!selectedPlan || loading || (validation && !validation.isValid)}
+              disabled={!selectedPlan || loading || (validation ? !validation.isValid : false)}
               className="bg-blue-600 hover:bg-blue-700"
             >
               {loading ? (

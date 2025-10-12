@@ -150,8 +150,8 @@ export async function calculatePricing(
     proration_behavior: 'create_prorations',
   })
 
-  const prorationAmount = Math.abs(prorationResult.latest_invoice?.amount_due || 0) / 100
-  const nextBillingDate = new Date(prorationResult.current_period_end * 1000).toISOString()
+  const prorationAmount = Math.abs((prorationResult.latest_invoice as any)?.amount_due || 0) / 100
+  const nextBillingDate = new Date((prorationResult as any).current_period_end * 1000).toISOString()
 
   // Calcular economia (se aplicável)
   let savings = 0
@@ -162,7 +162,7 @@ export async function calculatePricing(
   }
 
   return {
-    currentPlan,
+    currentPlan: currentPlan || null,
     newPlan,
     prorationAmount,
     immediateCharge: prorationAmount,
@@ -181,8 +181,8 @@ export async function executeUpgrade(
 ): Promise<{ success: boolean; subscriptionId?: string; error?: string; scenario?: string }> {
   try {
     // 1. Verificar se há assinaturas duplicadas
-    const { hasDuplicates, activeSubscriptions } = await checkDuplicateSubscriptions(customerId)
-    
+    const { hasDuplicates } = await checkDuplicateSubscriptions(customerId)
+
     if (hasDuplicates) {
       console.warn('Duplicatas detectadas, limpando antes do upgrade')
       await cleanupDuplicateSubscriptions(customerId, currentSubscriptionId || '')
@@ -191,7 +191,7 @@ export async function executeUpgrade(
     // 2. Verificar status da assinatura atual
     if (currentSubscriptionId) {
       const currentSubscription = await stripe.subscriptions.retrieve(currentSubscriptionId)
-      
+
       // Verificar se pode fazer upgrade
       if (currentSubscription.status === 'paused') {
         return {
@@ -200,7 +200,7 @@ export async function executeUpgrade(
           scenario: 'paused-subscription',
         }
       }
-      
+
       if (currentSubscription.status === 'past_due' || currentSubscription.status === 'unpaid') {
         return {
           success: false,
@@ -208,8 +208,11 @@ export async function executeUpgrade(
           scenario: 'failed-payment',
         }
       }
-      
-      if (currentSubscription.status === 'incomplete' || currentSubscription.status === 'incomplete_expired') {
+
+      if (
+        currentSubscription.status === 'incomplete' ||
+        currentSubscription.status === 'incomplete_expired'
+      ) {
         return {
           success: false,
           error: 'Assinatura incompleta. Complete o pagamento primeiro.',
@@ -239,7 +242,7 @@ export async function executeUpgrade(
     }
   } catch (error) {
     console.error('Erro no upgrade:', error)
-    
+
     // Tratamento específico de erros do Stripe
     if (error instanceof Error) {
       if (error.message.includes('card')) {
@@ -249,7 +252,7 @@ export async function executeUpgrade(
           scenario: 'card-error',
         }
       }
-      
+
       if (error.message.includes('rate limit')) {
         return {
           success: false,
@@ -258,7 +261,7 @@ export async function executeUpgrade(
         }
       }
     }
-    
+
     return {
       success: false,
       error: error instanceof Error ? error.message : 'Erro desconhecido',

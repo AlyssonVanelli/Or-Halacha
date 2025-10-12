@@ -1,24 +1,14 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { Alert, AlertDescription } from '@/components/ui/alert'
-import { 
-  CheckCircle, 
-  XCircle, 
-  AlertTriangle, 
-  Info,
-  Shield,
-  CreditCard,
-  Clock,
-  RefreshCw
-} from 'lucide-react'
-import { 
+import { CheckCircle, XCircle, AlertTriangle, Info, Shield, RefreshCw } from 'lucide-react'
+import {
   validateUpgradeScenario,
   UPGRADE_SCENARIOS,
-  type ValidationResult 
+  type ValidationResult,
 } from '@/lib/subscription-scenarios'
 
 interface ScenarioValidatorProps {
@@ -38,13 +28,9 @@ export default function ScenarioValidator({
 }: ScenarioValidatorProps) {
   const [validation, setValidation] = useState<ValidationResult | null>(null)
   const [loading, setLoading] = useState(false)
-  const [scenarios, setScenarios] = useState(UPGRADE_SCENARIOS)
+  const [scenarios] = useState(UPGRADE_SCENARIOS)
 
-  useEffect(() => {
-    validateScenario()
-  }, [userId, currentSubscriptionId, newPlanId, userAuthenticated])
-
-  const validateScenario = async () => {
+  const validateScenario = useCallback(async () => {
     setLoading(true)
     try {
       const result = await validateUpgradeScenario(
@@ -60,7 +46,11 @@ export default function ScenarioValidator({
     } finally {
       setLoading(false)
     }
-  }
+  }, [userId, currentSubscriptionId, newPlanId, userAuthenticated, onValidationComplete])
+
+  useEffect(() => {
+    validateScenario()
+  }, [validateScenario])
 
   const getRiskIcon = (riskLevel: string) => {
     switch (riskLevel) {
@@ -101,7 +91,11 @@ export default function ScenarioValidator({
     <div className="space-y-6">
       {/* Resultado da Validação */}
       {validation && (
-        <Card className={validation.isValid ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'}>
+        <Card
+          className={
+            validation.isValid ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'
+          }
+        >
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               {validation.isValid ? (
@@ -118,23 +112,27 @@ export default function ScenarioValidator({
                 <XCircle className="h-4 w-4" />
                 <AlertDescription>
                   <strong>Erros encontrados:</strong>
-                  <ul className="mt-2 list-disc list-inside">
+                  <ul className="mt-2 list-inside list-disc">
                     {validation.errors.map((error, index) => (
-                      <li key={index} className="text-red-700">{error}</li>
+                      <li key={index} className="text-red-700">
+                        {error}
+                      </li>
                     ))}
                   </ul>
                 </AlertDescription>
               </Alert>
             )}
-            
+
             {validation.warnings.length > 0 && (
               <Alert className="mb-4">
                 <AlertTriangle className="h-4 w-4" />
                 <AlertDescription>
                   <strong>Avisos:</strong>
-                  <ul className="mt-2 list-disc list-inside">
+                  <ul className="mt-2 list-inside list-disc">
                     {validation.warnings.map((warning, index) => (
-                      <li key={index} className="text-yellow-700">{warning}</li>
+                      <li key={index} className="text-yellow-700">
+                        {warning}
+                      </li>
                     ))}
                   </ul>
                 </AlertDescription>
@@ -184,10 +182,10 @@ export default function ScenarioValidator({
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
-            {scenarios.map((scenario) => (
+            {scenarios.map(scenario => (
               <div
                 key={scenario.id}
-                className="flex items-center justify-between p-4 border rounded-lg"
+                className="flex items-center justify-between rounded-lg border p-4"
               >
                 <div className="flex items-center gap-3">
                   {getRiskIcon(scenario.riskLevel)}
@@ -195,29 +193,29 @@ export default function ScenarioValidator({
                     <h4 className="font-medium">{scenario.name}</h4>
                     <p className="text-sm text-gray-600">{scenario.description}</p>
                     {scenario.errorMessage && (
-                      <p className="text-sm text-red-600 mt-1">{scenario.errorMessage}</p>
+                      <p className="mt-1 text-sm text-red-600">{scenario.errorMessage}</p>
                     )}
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-2">
                   <Badge className={getRiskColor(scenario.riskLevel)}>
                     {scenario.riskLevel.toUpperCase()}
                   </Badge>
-                  
+
                   {scenario.isAllowed ? (
-                    <Badge variant="outline" className="text-green-600 border-green-600">
+                    <Badge variant="outline" className="border-green-600 text-green-600">
                       Permitido
                     </Badge>
                   ) : (
-                    <Badge variant="outline" className="text-red-600 border-red-600">
+                    <Badge variant="outline" className="border-red-600 text-red-600">
                       Bloqueado
                     </Badge>
                   )}
-                  
+
                   {scenario.requiresSpecialHandling && (
-                    <Badge variant="outline" className="text-blue-600 border-blue-600">
-                      <Shield className="h-3 w-3 mr-1" />
+                    <Badge variant="outline" className="border-blue-600 text-blue-600">
+                      <Shield className="mr-1 h-3 w-3" />
                       Especial
                     </Badge>
                   )}
@@ -229,7 +227,7 @@ export default function ScenarioValidator({
       </Card>
 
       {/* Estatísticas */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <Card>
           <CardContent className="p-4 text-center">
             <div className="text-2xl font-bold text-green-600">
@@ -238,7 +236,7 @@ export default function ScenarioValidator({
             <div className="text-sm text-gray-600">Permitidos</div>
           </CardContent>
         </Card>
-        
+
         <Card>
           <CardContent className="p-4 text-center">
             <div className="text-2xl font-bold text-red-600">
@@ -247,7 +245,7 @@ export default function ScenarioValidator({
             <div className="text-sm text-gray-600">Bloqueados</div>
           </CardContent>
         </Card>
-        
+
         <Card>
           <CardContent className="p-4 text-center">
             <div className="text-2xl font-bold text-blue-600">
@@ -256,7 +254,7 @@ export default function ScenarioValidator({
             <div className="text-sm text-gray-600">Especiais</div>
           </CardContent>
         </Card>
-        
+
         <Card>
           <CardContent className="p-4 text-center">
             <div className="text-2xl font-bold text-yellow-600">

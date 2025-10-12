@@ -54,7 +54,7 @@ function extractTopics(text: string): string[] {
   })
 
   // Remove duplicatas e limpa
-  return [...new Set(topics)].filter(
+  return Array.from(new Set(topics)).filter(
     topic => topic.length > 3 && !topic.includes('**') && !topic.match(/^\d+$/)
   )
 }
@@ -183,7 +183,7 @@ export function parseSimanContent(
 
   // Extrai todos os tópicos do siman
   const allTopics = seifim.flatMap(seif => seif.topics)
-  const uniqueTopics = [...new Set(allTopics)]
+  const uniqueTopics = Array.from(new Set(allTopics))
 
   // Gera resumo geral
   const generalSummary = generateSummary(rawContent, 300)

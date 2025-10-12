@@ -11,7 +11,14 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export interface SubscriptionState {
   id: string
-  status: 'active' | 'canceled' | 'incomplete' | 'incomplete_expired' | 'past_due' | 'trialing' | 'unpaid'
+  status:
+    | 'active'
+    | 'canceled'
+    | 'incomplete'
+    | 'incomplete_expired'
+    | 'past_due'
+    | 'trialing'
+    | 'unpaid'
   current_period_end: number
   trial_end?: number
   cancel_at_period_end: boolean
@@ -256,16 +263,16 @@ export async function validateUpgradeScenario(
   if (currentSubscriptionId) {
     try {
       const subscription = await stripe.subscriptions.retrieve(currentSubscriptionId)
-      
+
       // Verificar status da assinatura
       if (subscription.status === 'paused') {
         errors.push('Assinatura pausada. Reative antes de fazer upgrade.')
       }
-      
+
       if (subscription.status === 'past_due' || subscription.status === 'unpaid') {
         errors.push('Assinatura com falha de pagamento. Resolva primeiro.')
       }
-      
+
       if (subscription.status === 'incomplete' || subscription.status === 'incomplete_expired') {
         errors.push('Assinatura incompleta. Complete o pagamento primeiro.')
       }
@@ -278,13 +285,14 @@ export async function validateUpgradeScenario(
 
       // Calcular proratação se necessário
       if (subscription.status === 'active') {
-        const daysRemaining = Math.ceil((subscription.current_period_end - Date.now() / 1000) / 86400)
+        const daysRemaining = Math.ceil(
+          ((subscription as any).current_period_end - Date.now() / 1000) / 86400
+        )
         if (daysRemaining < 7) {
           warnings.push('Poucos dias restantes no período atual')
           requiresConfirmation = true
         }
       }
-
     } catch (error) {
       errors.push('Erro ao verificar assinatura atual')
     }
@@ -292,10 +300,10 @@ export async function validateUpgradeScenario(
 
   // 3. Validação de Plano
   const planMap: Record<string, { price: number; name: string }> = {
-    'mensal-basico': { price: 99.90, name: 'Mensal Básico' },
-    'mensal-plus': { price: 149.90, name: 'Mensal Plus' },
-    'anual-basico': { price: 958.80, name: 'Anual Básico' },
-    'anual-plus': { price: 1078.80, name: 'Anual Plus' },
+    'mensal-basico': { price: 99.9, name: 'Mensal Básico' },
+    'mensal-plus': { price: 149.9, name: 'Mensal Plus' },
+    'anual-basico': { price: 958.8, name: 'Anual Básico' },
+    'anual-plus': { price: 1078.8, name: 'Anual Plus' },
   }
 
   const newPlan = planMap[newPlanId]
@@ -312,7 +320,7 @@ export async function validateUpgradeScenario(
       customer: userId,
       status: 'active',
     })
-    
+
     if (existingSubscriptions.data.length > 1) {
       warnings.push('Múltiplas assinaturas ativas detectadas')
       requiresConfirmation = true
@@ -395,10 +403,9 @@ export async function executeUpgradeWithErrorHandling(
       subscriptionId: newSubscription.id,
       scenario: 'upgrade-success',
     }
-
   } catch (error) {
     console.error('Erro no upgrade:', error)
-    
+
     // Determinar tipo de erro
     if (error instanceof Stripe.errors.StripeCardError) {
       return {
@@ -408,7 +415,7 @@ export async function executeUpgradeWithErrorHandling(
         requiresRetry: true,
       }
     }
-    
+
     if (error instanceof Stripe.errors.StripeRateLimitError) {
       return {
         success: false,
@@ -417,7 +424,7 @@ export async function executeUpgradeWithErrorHandling(
         requiresRetry: true,
       }
     }
-    
+
     if (error instanceof Stripe.errors.StripeAPIError) {
       return {
         success: false,
@@ -446,7 +453,7 @@ function getStripePriceId(planId: string): string {
     'anual-basico': process.env.STRIPE_PRICE_ANUAL_BASICO!,
     'anual-plus': process.env.STRIPE_PRICE_ANUAL_PLUS!,
   }
-  
+
   return priceMap[planId] || ''
 }
 
