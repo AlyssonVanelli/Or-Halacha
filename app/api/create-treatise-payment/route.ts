@@ -91,7 +91,7 @@ export async function POST(req: Request) {
     console.log('NEXT_PUBLIC_APP_URL:', process.env.NEXT_PUBLIC_APP_URL)
 
     const sessionConfig = {
-      payment_method_types: ['card'] as ('card')[],
+      payment_method_types: ['card'] as 'card'[],
       mode: 'payment' as const, // Modo de pagamento único
       customer: stripeCustomerId,
       line_items: [
