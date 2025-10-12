@@ -1,9 +1,8 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { useAuth } from '@/contexts/auth-context'
-import { createClient } from '@/lib/supabase/client'
+import { useRouter } from 'next/navigation'
+import { useSubscription } from '@/hooks/useSubscription'
 import { Button } from '@/components/ui/button'
 import { Lock } from 'lucide-react'
 
@@ -15,57 +14,7 @@ interface BookAccessGuardProps {
 export function BookAccessGuard({ children, bookId }: BookAccessGuardProps) {
   const { user } = useAuth()
   const router = useRouter()
-  const [loading, setLoading] = useState(true)
-  const [hasAccess, setHasAccess] = useState<boolean>(false)
-
-  useEffect(() => {
-    async function checkAccess() {
-      if (!user) {
-        setLoading(false)
-        return
-      }
-
-      try {
-        const supabase = createClient()
-        // Primeiro, verifica assinatura ativa
-        const { data: assinatura } = await supabase
-          .from('subscriptions')
-          .select('status, current_period_end')
-          .eq('user_id', user.id)
-          .eq('status', 'active')
-          .maybeSingle()
-
-        const assinaturaAtiva = assinatura && new Date(assinatura.current_period_end) > new Date()
-
-        if (assinaturaAtiva) {
-          setHasAccess(true)
-          return
-        }
-
-        // Só consulta purchased_books se NÃO tiver assinatura ativa
-        // Precisamos verificar se o usuário comprou este tratado específico
-        // Para isso, precisamos do divisionId, mas o BookAccessGuard só recebe bookId
-        // Vamos verificar se há algum tratado comprado para este livro
-        const { data: purchasedBooks } = await supabase
-          .from('purchased_books')
-          .select('division_id, expires_at')
-          .eq('user_id', user.id)
-          .eq('book_id', bookId)
-
-        // Verifica se há algum tratado comprado e não expirado
-        const ativos = (purchasedBooks || []).filter(pb => new Date(pb.expires_at) > new Date())
-        const hasPurchasedAnyDivision = ativos.length > 0
-
-        setHasAccess(hasPurchasedAnyDivision)
-      } catch (err) {
-        setHasAccess(false)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    checkAccess()
-  }, [user, bookId])
+  const { loading, hasAccess, canAccessBook } = useSubscription()
 
   if (loading) {
     return (
@@ -98,7 +47,7 @@ export function BookAccessGuard({ children, bookId }: BookAccessGuardProps) {
     )
   }
 
-  if (!hasAccess) {
+  if (!hasAccess && !canAccessBook(bookId)) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-4 dark:from-slate-900 dark:to-slate-950">
         <div className="w-full max-w-md">

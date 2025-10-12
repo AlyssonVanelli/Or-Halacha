@@ -53,7 +53,15 @@ export function useAccessInfo(bookId?: string) {
           .maybeSingle()
 
         const hasActiveSubscription =
-          !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
+          !!subscriptionData &&
+          subscriptionData.status === 'active' &&
+          (subscriptionData.current_period_end
+            ? new Date(subscriptionData.current_period_end) > new Date()
+            : true) // Se não tem data de fim, considera ativa
+
+        console.log('useAccessInfo - Verificação de assinatura:')
+        console.log('- Subscription data:', subscriptionData)
+        console.log('- Has active subscription:', hasActiveSubscription)
 
         // Buscar divisões compradas
         const { data: purchasedData, error: purchasedError } = await supabase

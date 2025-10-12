@@ -8,6 +8,7 @@ export interface Database {
           id: string
           full_name: string | null
           avatar_url: string | null
+          stripe_customer_id: string | null
           created_at: string
           updated_at: string
         }
@@ -15,6 +16,7 @@ export interface Database {
           id: string
           full_name?: string | null
           avatar_url?: string | null
+          stripe_customer_id?: string | null
           created_at?: string
           updated_at?: string
         }
@@ -22,6 +24,7 @@ export interface Database {
           id?: string
           full_name?: string | null
           avatar_url?: string | null
+          stripe_customer_id?: string | null
           created_at?: string
           updated_at?: string
         }
@@ -269,6 +272,7 @@ export interface Database {
           book_id: string
           division_id: string
           expires_at: string
+          stripe_payment_intent_id: string | null
           created_at: string
           updated_at: string
         }
@@ -278,6 +282,7 @@ export interface Database {
           book_id: string
           division_id: string
           expires_at: string
+          stripe_payment_intent_id?: string | null
           created_at?: string
           updated_at?: string
         }
@@ -287,6 +292,7 @@ export interface Database {
           book_id?: string
           division_id?: string
           expires_at?: string
+          stripe_payment_intent_id?: string | null
           created_at?: string
           updated_at?: string
         }

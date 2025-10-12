@@ -47,7 +47,7 @@
 ```typescript
 // Buscar sessão no banco
 const { data: session } = await supabase
-  .from('checkout_sessions')
+  .from('subscriptions')
   .select('*')
   .eq('id', sessionToken)
   .eq('status', 'pending')
@@ -59,7 +59,7 @@ if (new Date(session.expires_at) < new Date()) {
 }
 
 // Marcar como processada
-await supabase.from('checkout_sessions').update({ status: 'processed' }).eq('id', sessionToken)
+await supabase.from('subscriptions').update({ status: 'processed' }).eq('id', sessionToken)
 ```
 
 ### **3. Página de Checkout Atualizada**
@@ -96,7 +96,7 @@ window.location.href = data.checkoutUrl
 #### **Estrutura**:
 
 ```sql
-CREATE TABLE checkout_sessions (
+CREATE TABLE subscriptions (
   id UUID PRIMARY KEY,
   user_id UUID NOT NULL,
   division_id UUID NOT NULL,

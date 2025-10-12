@@ -108,9 +108,21 @@ export default function ShulchanAruchPage() {
   }, [user])
 
   const hasActiveSubscription =
-    !!subscription && new Date(subscription.current_period_end) > new Date()
+    !!subscription &&
+    subscription.status === 'active' &&
+    (subscription.current_period_end
+      ? new Date(subscription.current_period_end) > new Date()
+      : true) // Se não tem data de fim, considera ativa
+
   const hasPlusFeatures = hasActiveSubscription && !!subscription?.explicacao_pratica
   const hasAccess = hasActiveSubscription || purchasedBooks.length > 0
+
+  console.log('ShulchanAruchPage - Verificação de acesso:')
+  console.log('- Subscription:', subscription)
+  console.log('- Has active subscription:', hasActiveSubscription)
+  console.log('- Has plus features:', hasPlusFeatures)
+  console.log('- Has access:', hasAccess)
+  console.log('- Purchased books count:', purchasedBooks.length)
 
   // Calcular porcentagem de acesso
   const calculateAccessPercentage = () => {

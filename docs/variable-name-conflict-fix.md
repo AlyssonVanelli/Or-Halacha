@@ -20,7 +20,7 @@
 ```typescript
 // Buscar sessão no banco de dados
 const { data: session, error: sessionError } = await supabase
-  .from('checkout_sessions')
+  .from('subscriptions')
   .select('*')
   .eq('id', sessionToken)
   .eq('status', 'pending')
@@ -41,7 +41,7 @@ return NextResponse.redirect(session.url!)
 ```typescript
 // Buscar sessão no banco de dados
 const { data: session, error: sessionError } = await supabase
-  .from('checkout_sessions')
+  .from('subscriptions')
   .select('*')
   .eq('id', sessionToken)
   .eq('status', 'pending')
@@ -68,7 +68,7 @@ return NextResponse.redirect(stripeSession.url!)
 
 #### **Nomenclatura**:
 
-- ✅ **`session`**: Sessão do banco de dados (checkout_sessions)
+- ✅ **`session`**: Sessão do banco de dados (subscriptions)
 - ✅ **`stripeSession`**: Sessão do Stripe (checkout.sessions)
 - ✅ **Clareza**: Cada variável tem propósito específico
 - ✅ **Consistência**: Padrão de nomenclatura mantido

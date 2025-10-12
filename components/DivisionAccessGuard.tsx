@@ -1,10 +1,10 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useAuth } from '@/contexts/auth-context'
-import { ErrorDisplay } from '@/components/ErrorBoundary'
-import { useErrorHandler } from '@/hooks/useErrorHandler'
-import { ShoppingCart, Home } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useSubscription } from '@/hooks/useSubscription'
+import { Button } from '@/components/ui/button'
+import { Lock, ShoppingCart, Home } from 'lucide-react'
 import Link from 'next/link'
 
 interface DivisionAccessGuardProps {
@@ -17,64 +17,12 @@ interface DivisionAccessGuardProps {
 export function DivisionAccessGuard({
   children,
   divisionId,
-  fallbackHref = '/dashboard/biblioteca',
-  fallbackLabel = 'Voltar para Biblioteca',
+  fallbackHref = '/dashboard',
+  fallbackLabel = 'Voltar para Dashboard',
 }: DivisionAccessGuardProps) {
   const { user } = useAuth()
-  const [hasAccess, setHasAccess] = useState<boolean | null>(null)
-  const [loading, setLoading] = useState(true)
-  const errorHandler = useErrorHandler()
-
-  useEffect(() => {
-    async function checkAccess() {
-      if (!user || !divisionId) {
-        setLoading(false)
-        return
-      }
-
-      setLoading(true)
-      errorHandler.clearError()
-
-      try {
-        const response = await fetch('/api/check-division-access', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            userId: user.id,
-            divisionId,
-          }),
-        })
-
-        if (!response.ok) {
-          throw new Error(`Erro na verificação de acesso: ${response.status}`)
-        }
-
-        const data = await response.json()
-
-        if (!data.success) {
-          throw new Error('Falha na verificação de acesso')
-        }
-
-        setHasAccess(data.access.hasAccess)
-      } catch (error) {
-        errorHandler.handleError('Verificação de acesso à divisão', error, {
-          divisionId,
-          userId: user.id,
-        })
-        setHasAccess(false)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    checkAccess()
-  }, [user, divisionId, errorHandler])
-
-  const handleRetry = () => {
-    errorHandler.incrementRetry()
-  }
+  const router = useRouter()
+  const { loading, hasAccess, canAccessDivision } = useSubscription()
 
   if (loading) {
     return (
@@ -87,20 +35,30 @@ export function DivisionAccessGuard({
     )
   }
 
-  if (errorHandler.error) {
+  if (!user) {
     return (
-      <ErrorDisplay
-        title="Erro na Verificação de Acesso"
-        message={errorHandler.error}
-        onRetry={handleRetry}
-        retryCount={errorHandler.retryCount}
-        backHref={fallbackHref}
-        backLabel={fallbackLabel}
-      />
+      <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-4 dark:from-slate-900 dark:to-slate-950">
+        <div className="w-full max-w-md">
+          <div className="mb-6 flex flex-col items-center">
+            <Lock className="mb-2 h-12 w-12 text-blue-700 dark:text-blue-400" />
+            <span className="text-2xl font-bold text-slate-800 dark:text-white">
+              Acesso Restrito
+            </span>
+          </div>
+          <div className="rounded-2xl border-0 bg-white/90 p-8 text-center shadow-xl dark:bg-slate-950/90">
+            <p className="mb-6 text-gray-600 dark:text-gray-300">
+              Faça login para acessar este conteúdo.
+            </p>
+            <Button className="w-full" onClick={() => router.push('/login')}>
+              Fazer Login
+            </Button>
+          </div>
+        </div>
+      </div>
     )
   }
 
-  if (hasAccess === false) {
+  if (!hasAccess && !canAccessDivision(divisionId)) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <div className="mx-auto max-w-md p-6 text-center">
@@ -151,17 +109,5 @@ export function DivisionAccessGuard({
     )
   }
 
-  if (hasAccess === true) {
-    return <>{children}</>
-  }
-
-  // Estado de loading ou erro
-  return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <div className="mx-auto mb-4 h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-        <p className="text-lg text-gray-600">Carregando...</p>
-      </div>
-    </div>
-  )
+  return <>{children}</>
 }

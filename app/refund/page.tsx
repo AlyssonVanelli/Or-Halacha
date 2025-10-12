@@ -60,25 +60,40 @@ export default function RefundPage() {
   const handleRefund = async () => {
     if (!refundData) return
 
+    console.log('=== INICIANDO PROCESSO DE REEMBOLSO ===')
+    console.log('Dados do reembolso:', refundData)
+
     setProcessing(true)
     try {
       // Primeiro, testar se a API está funcionando
+      console.log('Testando conectividade da API...')
       const testResponse = await fetch('/api/refund', { method: 'GET' })
+      console.log('Resposta do teste:', testResponse.status, testResponse.statusText)
+
       if (!testResponse.ok) {
         throw new Error(`API não está funcionando: ${testResponse.status}`)
       }
 
+      console.log('API está funcionando, processando reembolso...')
+
+      const requestBody = {
+        refundType: refundData.type,
+        subscriptionId: refundData.type === 'subscription' ? refundData.id : undefined,
+        paymentIntentId: refundData.type === 'purchase' ? refundData.id : undefined,
+      }
+
+      console.log('Enviando requisição para API:', requestBody)
+
       const response = await fetch('/api/refund', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          refundType: refundData.type,
-          subscriptionId: refundData.type === 'subscription' ? refundData.id : undefined,
-          paymentIntentId: refundData.type === 'purchase' ? refundData.id : undefined,
-        }),
+        body: JSON.stringify(requestBody),
       })
 
+      console.log('Resposta da API:', response.status, response.statusText)
       const result = await response.json()
+      console.log('Resultado do reembolso:', result)
+
       setResult(result)
 
       if (result.success) {
@@ -87,11 +102,17 @@ export default function RefundPage() {
         }, 3000)
       }
     } catch (error) {
+      console.log('=== ERRO NO PROCESSO DE REEMBOLSO ===')
+      console.error('Erro capturado:', error)
+      console.log('Tipo do erro:', typeof error)
+      console.log('Mensagem do erro:', error instanceof Error ? error.message : 'N/A')
+
       setResult({
         success: false,
         message: 'Erro ao processar reembolso. Tente novamente.',
       })
     } finally {
+      console.log('Finalizando processo de reembolso')
       setProcessing(false)
     }
   }

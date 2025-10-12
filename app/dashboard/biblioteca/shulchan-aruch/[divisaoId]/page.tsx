@@ -137,7 +137,11 @@ export default function DivisaoPage() {
             .eq('user_id', user.id)
 
           const hasActiveSub =
-            !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
+            !!subscriptionData &&
+            subscriptionData.status === 'active' &&
+            (subscriptionData.current_period_end
+              ? new Date(subscriptionData.current_period_end) > new Date()
+              : true) // Se não tem data de fim, considera ativa
           const validPurchases = (purchasedData || []).filter(
             pb => new Date(pb.expires_at) > new Date()
           )
@@ -183,8 +187,8 @@ export default function DivisaoPage() {
           message={errorHandler.error}
           onRetry={handleRetry}
           retryCount={errorHandler.retryCount}
-          backHref="/dashboard/biblioteca"
-          backLabel="Voltar para Biblioteca"
+          backHref="/dashboard"
+          backLabel="Voltar para Dashboard"
         />
       </DashboardAccessGuard>
     )
@@ -255,8 +259,8 @@ export default function DivisaoPage() {
                     <p className="mb-6 text-gray-500">
                       Esta divisão ainda não possui simanim disponíveis.
                     </p>
-                    <Link href="/dashboard/biblioteca">
-                      <Button variant="outline">Voltar para Biblioteca</Button>
+                    <Link href="/dashboard">
+                      <Button variant="outline">Voltar para Dashboard</Button>
                     </Link>
                   </div>
                 ) : (

@@ -25,10 +25,22 @@ export async function POST(request: NextRequest) {
       .maybeSingle()
 
     if (subscriptionError) {
+      console.error('Erro ao buscar assinatura:', subscriptionError)
     }
 
+    // Verificar se a assinatura está ativa e não expirou
     const hasActiveSubscription =
-      !!subscriptionData && new Date(subscriptionData.current_period_end) > new Date()
+      !!subscriptionData &&
+      subscriptionData.status === 'active' &&
+      (subscriptionData.current_period_end
+        ? new Date(subscriptionData.current_period_end) > new Date()
+        : true) // Se não tem data de fim, considera ativa
+
+    console.log('Verificação de assinatura:')
+    console.log('- Subscription data:', subscriptionData)
+    console.log('- Has active subscription:', hasActiveSubscription)
+    console.log('- Current period end:', subscriptionData?.current_period_end)
+    console.log('- Current date:', new Date().toISOString())
 
     // 2. Verificar se esta divisão específica foi comprada
     const { data: purchasedData, error: purchasedError } = await supabase

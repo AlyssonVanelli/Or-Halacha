@@ -174,10 +174,10 @@ export default function CheckoutPage() {
             <CardDescription className="text-red-600">{error}</CardDescription>
           </CardHeader>
           <CardContent>
-            <Link href="/dashboard/biblioteca/shulchan-aruch">
+            <Link href="/dashboard">
               <Button className="mt-4 w-full" variant="outline">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Voltar para Biblioteca
+                Voltar para Dashboard
               </Button>
             </Link>
           </CardContent>

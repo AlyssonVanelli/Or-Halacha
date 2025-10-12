@@ -32,8 +32,55 @@ export default function PaymentSuccessPage() {
 
   useEffect(() => {
     async function loadData() {
+      // Se não há divisionId, é uma assinatura (não compra de tratado individual)
       if (!divisionId) {
-        setError('ID da divisão não fornecido.')
+        // Sincronizar assinatura com o banco
+        try {
+          console.log('=== SINCRONIZANDO ASSINATURA ===')
+
+          // Criar instância do supabase
+          const supabase = createClient()
+
+          // Buscar o customer ID do usuário atual
+          const {
+            data: { user },
+          } = await supabase.auth.getUser()
+          if (!user) {
+            console.error('Usuário não encontrado')
+            return
+          }
+
+          // Buscar o profile para obter o stripe_customer_id
+          const { data: profile } = await supabase
+            .from('profiles')
+            .select('stripe_customer_id')
+            .eq('id', user.id)
+            .single()
+
+          if (!profile?.stripe_customer_id) {
+            console.error('Customer ID não encontrado no profile')
+            return
+          }
+
+          console.log('Customer ID encontrado:', profile.stripe_customer_id)
+
+          const response = await fetch('/api/check-subscription-status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              customerId: profile.stripe_customer_id,
+            }),
+          })
+
+          if (response.ok) {
+            console.log('Assinatura sincronizada com sucesso')
+          } else {
+            console.error('Erro ao sincronizar assinatura')
+          }
+        } catch (error) {
+          console.error('Erro na sincronização:', error)
+        }
+
         setLoading(false)
         return
       }
@@ -101,9 +148,9 @@ export default function PaymentSuccessPage() {
             <CardDescription className="text-red-600">{error}</CardDescription>
           </CardHeader>
           <CardContent>
-            <Link href="/dashboard/biblioteca">
+            <Link href="/dashboard">
               <Button className="mt-4 w-full" variant="outline">
-                Voltar para Biblioteca
+                Voltar para Dashboard
               </Button>
             </Link>
           </CardContent>
@@ -119,15 +166,23 @@ export default function PaymentSuccessPage() {
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 p-4">
             <CheckCircle className="h-8 w-8 text-green-600" />
           </div>
-          <CardTitle className="text-3xl font-bold text-green-700">Compra Realizada!</CardTitle>
+          <CardTitle className="text-3xl font-bold text-green-700">
+            {divisionId ? 'Compra Realizada!' : 'Assinatura Ativada!'}
+          </CardTitle>
           <CardDescription className="text-green-600">
-            Seu pagamento foi processado com sucesso
+            {divisionId
+              ? 'Seu pagamento foi processado com sucesso'
+              : 'Sua assinatura foi ativada com sucesso'}
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="text-center">
-            <h3 className="mb-2 text-xl font-semibold text-gray-800">{division?.title}</h3>
-            <p className="mb-4 text-gray-600">por {book?.author}</p>
+            {divisionId ? (
+              <h3 className="mb-2 text-xl font-semibold text-gray-800">{division?.title}</h3>
+            ) : (
+              <h3 className="mb-2 text-xl font-semibold text-gray-800">Acesso Completo Ativado</h3>
+            )}
+            {divisionId && <p className="mb-4 text-gray-600">por {book?.author}</p>}
             <div className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
               <CheckCircle className="mr-1 h-4 w-4" />
               Acesso Liberado
@@ -135,24 +190,44 @@ export default function PaymentSuccessPage() {
           </div>
 
           <div className="space-y-3">
-            <Link href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}>
-              <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
-                <Book className="h-5 w-5" />
-                Acessar Tratado
-                <ArrowRight className="h-5 w-5" />
-              </Button>
-            </Link>
+            {divisionId ? (
+              <>
+                <Link href={`/dashboard/biblioteca/shulchan-aruch/${divisionId}`}>
+                  <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
+                    <Book className="h-5 w-5" />
+                    Acessar Tratado
+                    <ArrowRight className="h-5 w-5" />
+                  </Button>
+                </Link>
 
-            <Link href="/dashboard/biblioteca/shulchan-aruch">
-              <Button variant="outline" className="w-full">
-                Ver Todos os Tratados
-              </Button>
-            </Link>
+                <Link href="/dashboard/biblioteca/shulchan-aruch">
+                  <Button variant="outline" className="w-full">
+                    Ver Todos os Tratados
+                  </Button>
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link href="/dashboard/biblioteca/shulchan-aruch">
+                  <Button className="flex w-full items-center justify-center gap-2 bg-green-600 py-3 text-lg font-semibold text-white hover:bg-green-700">
+                    <Book className="h-5 w-5" />
+                    Acessar Biblioteca
+                    <ArrowRight className="h-5 w-5" />
+                  </Button>
+                </Link>
+
+                <Link href="/dashboard">
+                  <Button variant="outline" className="w-full">
+                    Ir para Dashboard
+                  </Button>
+                </Link>
+              </>
+            )}
           </div>
 
           <div className="text-sm text-gray-500">
             <p>Você receberá um email de confirmação em breve.</p>
-            <p>Obrigado por sua compra!</p>
+            <p>{divisionId ? 'Obrigado por sua compra!' : 'Obrigado por sua assinatura!'}</p>
           </div>
         </CardContent>
       </Card>

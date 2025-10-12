@@ -89,8 +89,8 @@ export default function PaymentPage() {
           </div>
           <h2 className="mb-4 text-2xl font-bold text-gray-800">Erro ao Carregar</h2>
           <p className="mb-6 text-gray-600">{error || 'Divisão não encontrada'}</p>
-          <Link href="/dashboard/biblioteca">
-            <Button className="bg-blue-600 hover:bg-blue-700">Voltar para Biblioteca</Button>
+          <Link href="/dashboard">
+            <Button className="bg-blue-600 hover:bg-blue-700">Voltar para Dashboard</Button>
           </Link>
         </div>
       </div>
@@ -103,11 +103,11 @@ export default function PaymentPage() {
         {/* Header */}
         <div className="mb-8">
           <Link
-            href="/dashboard/biblioteca"
+            href="/dashboard"
             className="mb-4 inline-flex items-center text-blue-600 hover:text-blue-700"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Voltar para Biblioteca
+            Voltar para Dashboard
           </Link>
         </div>
 

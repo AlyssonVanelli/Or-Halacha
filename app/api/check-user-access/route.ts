@@ -55,7 +55,9 @@ export async function POST(request: NextRequest) {
     // 3. Calcular acesso
     const hasActiveSubscription =
       subscriptionData?.status === 'active' &&
-      new Date(subscriptionData.current_period_end) > new Date()
+      (subscriptionData.current_period_end
+        ? new Date(subscriptionData.current_period_end) > new Date()
+        : subscriptionData?.status === 'active') // Se não tem data de fim, verifica apenas o status
 
     const validPurchasedBooks = (purchasedData || []).filter(
       pb => new Date(pb.expires_at) > new Date()
