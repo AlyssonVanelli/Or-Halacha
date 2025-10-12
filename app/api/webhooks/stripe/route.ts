@@ -540,14 +540,14 @@ export async function POST(req: Request) {
         
         // Registra a compra na tabela purchased_books
         console.log('Executando upsert na tabela purchased_books...')
-        console.log('Dados finais para inserção:', {
-          user_id: userId,
-          book_id: bookId,
-          division_id: divisionId,
-          expires_at: expiresAt.toISOString(),
-          stripe_payment_intent_id: session.payment_intent,
-          created_at: new Date().toISOString(),
-        })
+          console.log('Dados finais para inserção:', {
+            user_id: userId,
+            book_id: bookId,
+            division_id: divisionId,
+            expires_at: expiresAt.toISOString(),
+            stripe_payment_intent_id: session.payment_intent,
+            created_at: new Date().toISOString(),
+          })
         
         const { data: purchaseResult, error: purchaseError } = await supabase
           .from('purchased_books')
