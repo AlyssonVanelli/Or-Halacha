@@ -1,22 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
-import { 
-  getUpgradeOptions, 
-  calculatePricing, 
-  executeUpgrade, 
+import {
+  getUpgradeOptions,
+  executeUpgrade,
   executeRenewal,
   checkDuplicateSubscriptions,
   cleanupDuplicateSubscriptions,
-  type SubscriptionPlan 
+  type SubscriptionPlan,
 } from '@/lib/subscription-manager'
 
 /**
  * GET - Obter opções de upgrade
  */
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const supabase = await createClient()
-    const { data: { user }, error: authError } = await supabase.auth.getUser()
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
 
     if (authError || !user) {
       return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
@@ -45,7 +47,7 @@ export async function GET(request: NextRequest) {
         [process.env.STRIPE_PRICE_MENSAL_BASICO!]: {
           id: 'mensal-basico',
           name: 'Mensal Básico',
-          price: 99.90,
+          price: 99.9,
           interval: 'month',
           isPlus: false,
           stripePriceId: process.env.STRIPE_PRICE_MENSAL_BASICO!,
@@ -53,7 +55,7 @@ export async function GET(request: NextRequest) {
         [process.env.STRIPE_PRICE_MENSAL_PLUS!]: {
           id: 'mensal-plus',
           name: 'Mensal Plus',
-          price: 149.90,
+          price: 149.9,
           interval: 'month',
           isPlus: true,
           stripePriceId: process.env.STRIPE_PRICE_MENSAL_PLUS!,
@@ -61,7 +63,7 @@ export async function GET(request: NextRequest) {
         [process.env.STRIPE_PRICE_ANUAL_BASICO!]: {
           id: 'anual-basico',
           name: 'Anual Básico',
-          price: 958.80,
+          price: 958.8,
           interval: 'year',
           isPlus: false,
           stripePriceId: process.env.STRIPE_PRICE_ANUAL_BASICO!,
@@ -69,13 +71,13 @@ export async function GET(request: NextRequest) {
         [process.env.STRIPE_PRICE_ANUAL_PLUS!]: {
           id: 'anual-plus',
           name: 'Anual Plus',
-          price: 1078.80,
+          price: 1078.8,
           interval: 'year',
           isPlus: true,
           stripePriceId: process.env.STRIPE_PRICE_ANUAL_PLUS!,
         },
       }
-      
+
       currentPlan = planMap[subscription.stripe_price_id] || null
     }
 
@@ -103,7 +105,10 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const supabase = await createClient()
-    const { data: { user }, error: authError } = await supabase.auth.getUser()
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
 
     if (authError || !user) {
       return NextResponse.json({ error: 'Não autorizado' }, { status: 401 })
@@ -132,7 +137,7 @@ export async function POST(request: NextRequest) {
       'mensal-basico': {
         id: 'mensal-basico',
         name: 'Mensal Básico',
-        price: 99.90,
+        price: 99.9,
         interval: 'month',
         isPlus: false,
         stripePriceId: process.env.STRIPE_PRICE_MENSAL_BASICO!,
@@ -140,7 +145,7 @@ export async function POST(request: NextRequest) {
       'mensal-plus': {
         id: 'mensal-plus',
         name: 'Mensal Plus',
-        price: 149.90,
+        price: 149.9,
         interval: 'month',
         isPlus: true,
         stripePriceId: process.env.STRIPE_PRICE_MENSAL_PLUS!,
@@ -148,7 +153,7 @@ export async function POST(request: NextRequest) {
       'anual-basico': {
         id: 'anual-basico',
         name: 'Anual Básico',
-        price: 958.80,
+        price: 958.8,
         interval: 'year',
         isPlus: false,
         stripePriceId: process.env.STRIPE_PRICE_ANUAL_BASICO!,
@@ -156,7 +161,7 @@ export async function POST(request: NextRequest) {
       'anual-plus': {
         id: 'anual-plus',
         name: 'Anual Plus',
-        price: 1078.80,
+        price: 1078.8,
         interval: 'year',
         isPlus: true,
         stripePriceId: process.env.STRIPE_PRICE_ANUAL_PLUS!,
@@ -171,11 +176,14 @@ export async function POST(request: NextRequest) {
     // Verificar duplicatas e limpar se necessário
     const { hasDuplicates } = await checkDuplicateSubscriptions(user.id)
     if (hasDuplicates) {
-      await cleanupDuplicateSubscriptions(user.id, currentSubscription?.stripe_subscription_id || '')
+      await cleanupDuplicateSubscriptions(
+        user.id,
+        currentSubscription?.stripe_subscription_id || ''
+      )
     }
 
     // Executar upgrade/renewal
-    const result = currentSubscription 
+    const result = currentSubscription
       ? await executeUpgrade(user.id, currentSubscription.stripe_subscription_id, selectedPlan)
       : await executeRenewal(user.id, selectedPlan)
 
@@ -203,18 +211,16 @@ export async function POST(request: NextRequest) {
       }
     } else {
       // Criar nova assinatura
-      const { error: insertError } = await supabase
-        .from('subscriptions')
-        .insert({
-          user_id: user.id,
-          stripe_subscription_id: result.subscriptionId,
-          stripe_price_id: selectedPlan.stripePriceId,
-          plan_type: selectedPlan.interval,
-          explicacao_pratica: selectedPlan.isPlus,
-          status: 'active',
-          created_at: new Date().toISOString(),
-          updated_at: new Date().toISOString(),
-        })
+      const { error: insertError } = await supabase.from('subscriptions').insert({
+        user_id: user.id,
+        stripe_subscription_id: result.subscriptionId,
+        stripe_price_id: selectedPlan.stripePriceId,
+        plan_type: selectedPlan.interval,
+        explicacao_pratica: selectedPlan.isPlus,
+        status: 'active',
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+      })
 
       if (insertError) {
         console.error('Erro ao criar assinatura:', insertError)

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { ArrowUp, CreditCard } from 'lucide-react'
+import { ArrowUp } from 'lucide-react'
 import SubscriptionUpgradeModal from './SubscriptionUpgradeModal'
 
 interface UpgradeButtonProps {
@@ -36,9 +36,9 @@ export default function UpgradeButton({
     <>
       <Button
         onClick={() => setIsModalOpen(true)}
-        className="bg-blue-600 hover:bg-blue-700 text-white"
+        className="bg-blue-600 text-white hover:bg-blue-700"
       >
-        <ArrowUp className="h-4 w-4 mr-2" />
+        <ArrowUp className="mr-2 h-4 w-4" />
         {currentPlan ? 'Fazer Upgrade' : 'Renovar Assinatura'}
       </Button>
 

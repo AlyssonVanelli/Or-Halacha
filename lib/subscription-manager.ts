@@ -41,7 +41,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'mensal-basico',
     name: 'Mensal Básico',
-    price: 99.90,
+    price: 99.9,
     interval: 'month',
     isPlus: false,
     stripePriceId: process.env.STRIPE_PRICE_MENSAL_BASICO!,
@@ -49,7 +49,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'mensal-plus',
     name: 'Mensal Plus',
-    price: 149.90,
+    price: 149.9,
     interval: 'month',
     isPlus: true,
     stripePriceId: process.env.STRIPE_PRICE_MENSAL_PLUS!,
@@ -57,7 +57,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'anual-basico',
     name: 'Anual Básico',
-    price: 958.80,
+    price: 958.8,
     interval: 'year',
     isPlus: false,
     stripePriceId: process.env.STRIPE_PRICE_ANUAL_BASICO!,
@@ -65,7 +65,7 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'anual-plus',
     name: 'Anual Plus',
-    price: 1078.80,
+    price: 1078.8,
     interval: 'year',
     isPlus: true,
     stripePriceId: process.env.STRIPE_PRICE_ANUAL_PLUS!,
@@ -75,7 +75,10 @@ export const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
 /**
  * Determina se um upgrade é válido
  */
-export function isValidUpgrade(currentPlan: SubscriptionPlan | null, newPlan: SubscriptionPlan): boolean {
+export function isValidUpgrade(
+  currentPlan: SubscriptionPlan | null,
+  newPlan: SubscriptionPlan
+): boolean {
   if (!currentPlan) return true // Sem assinatura atual = renovação válida
 
   // Mesmo plano = não é upgrade
@@ -101,9 +104,7 @@ export function isValidUpgrade(currentPlan: SubscriptionPlan | null, newPlan: Su
  * Calcula opções de upgrade disponíveis
  */
 export function getUpgradeOptions(currentPlan: SubscriptionPlan | null): UpgradeOptions {
-  const availableUpgrades = SUBSCRIPTION_PLANS.filter(plan => 
-    isValidUpgrade(currentPlan, plan)
-  )
+  const availableUpgrades = SUBSCRIPTION_PLANS.filter(plan => isValidUpgrade(currentPlan, plan))
 
   return {
     currentPlan,
@@ -120,7 +121,7 @@ export async function calculatePricing(
   currentSubscription: Stripe.Subscription | null,
   newPlan: SubscriptionPlan
 ): Promise<PricingCalculation> {
-  const currentPlan = currentSubscription 
+  const currentPlan = currentSubscription
     ? SUBSCRIPTION_PLANS.find(p => p.stripePriceId === currentSubscription.items.data[0].price.id)
     : null
 
@@ -131,23 +132,27 @@ export async function calculatePricing(
       newPlan,
       prorationAmount: 0,
       immediateCharge: newPlan.price,
-      nextBillingDate: new Date(Date.now() + (newPlan.interval === 'month' ? 30 : 365) * 24 * 60 * 60 * 1000).toISOString(),
+      nextBillingDate: new Date(
+        Date.now() + (newPlan.interval === 'month' ? 30 : 365) * 24 * 60 * 60 * 1000
+      ).toISOString(),
       savings: 0,
     }
   }
 
   // Upgrade - calcular proratação
   const prorationResult = await stripe.subscriptions.update(currentSubscription.id, {
-    items: [{
-      id: currentSubscription.items.data[0].id,
-      price: newPlan.stripePriceId,
-    }],
+    items: [
+      {
+        id: currentSubscription.items.data[0].id,
+        price: newPlan.stripePriceId,
+      },
+    ],
     proration_behavior: 'create_prorations',
   })
 
   const prorationAmount = Math.abs(prorationResult.latest_invoice?.amount_due || 0) / 100
   const nextBillingDate = new Date(prorationResult.current_period_end * 1000).toISOString()
-  
+
   // Calcular economia (se aplicável)
   let savings = 0
   if (currentPlan && currentPlan.interval === 'month' && newPlan.interval === 'year') {
@@ -267,9 +272,9 @@ export async function cleanupDuplicateSubscriptions(
   try {
     const { activeSubscriptions } = await checkDuplicateSubscriptions(customerId)
     const toCancel = activeSubscriptions.filter(sub => sub.id !== keepSubscriptionId)
-    
+
     const cancelledIds: string[] = []
-    
+
     for (const subscription of toCancel) {
       await stripe.subscriptions.update(subscription.id, {
         cancel_at_period_end: true,
