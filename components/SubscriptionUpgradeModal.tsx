@@ -23,6 +23,8 @@ import {
   type UpgradeOptions,
   type PricingCalculation,
 } from '@/lib/subscription-manager'
+import { validateUpgradeScenario, type ValidationResult } from '@/lib/subscription-scenarios'
+import ScenarioValidator from './ScenarioValidator'
 
 interface SubscriptionUpgradeModalProps {
   isOpen: boolean
@@ -47,6 +49,8 @@ export default function SubscriptionUpgradeModal({
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [hasDuplicates, setHasDuplicates] = useState(false)
+  const [validation, setValidation] = useState<ValidationResult | null>(null)
+  const [showScenarioValidator, setShowScenarioValidator] = useState(false)
 
   // Carregar opções de upgrade
   useEffect(() => {
@@ -288,28 +292,53 @@ export default function SubscriptionUpgradeModal({
           </div>
         )}
 
+        {/* Validador de Cenários */}
+        {showScenarioValidator && selectedPlan && (
+          <div className="mt-6">
+            <ScenarioValidator
+              userId={customerId}
+              currentSubscriptionId={currentSubscriptionId}
+              newPlanId={selectedPlan.id}
+              userAuthenticated={true}
+              onValidationComplete={setValidation}
+            />
+          </div>
+        )}
+
         {/* Botões */}
-        <div className="flex justify-end gap-3 pt-4">
-          <Button variant="outline" onClick={onClose} disabled={loading}>
-            Cancelar
-          </Button>
-          <Button
-            onClick={handleUpgrade}
-            disabled={!selectedPlan || loading}
-            className="bg-blue-600 hover:bg-blue-700"
-          >
-            {loading ? (
-              <div className="flex items-center gap-2">
-                <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-                Processando...
-              </div>
-            ) : (
-              <div className="flex items-center gap-2">
-                <CreditCard className="h-4 w-4" />
-                {upgradeOptions.isUpgrade ? 'Fazer Upgrade' : 'Renovar'}
-              </div>
-            )}
-          </Button>
+        <div className="flex justify-between pt-4">
+          <div className="flex gap-2">
+            <Button 
+              variant="outline" 
+              onClick={() => setShowScenarioValidator(!showScenarioValidator)}
+              disabled={!selectedPlan}
+            >
+              {showScenarioValidator ? 'Ocultar Análise' : 'Analisar Cenários'}
+            </Button>
+          </div>
+          
+          <div className="flex gap-3">
+            <Button variant="outline" onClick={onClose} disabled={loading}>
+              Cancelar
+            </Button>
+            <Button
+              onClick={handleUpgrade}
+              disabled={!selectedPlan || loading || (validation && !validation.isValid)}
+              className="bg-blue-600 hover:bg-blue-700"
+            >
+              {loading ? (
+                <div className="flex items-center gap-2">
+                  <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+                  Processando...
+                </div>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <CreditCard className="h-4 w-4" />
+                  {upgradeOptions.isUpgrade ? 'Fazer Upgrade' : 'Renovar'}
+                </div>
+              )}
+            </Button>
+          </div>
         </div>
       </DialogContent>
     </Dialog>

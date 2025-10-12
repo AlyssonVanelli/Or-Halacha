@@ -172,22 +172,58 @@ export async function calculatePricing(
 }
 
 /**
- * Executa upgrade de assinatura
+ * Executa upgrade de assinatura com validação completa
  */
 export async function executeUpgrade(
   customerId: string,
   currentSubscriptionId: string | null,
   newPlan: SubscriptionPlan
-): Promise<{ success: boolean; subscriptionId?: string; error?: string }> {
+): Promise<{ success: boolean; subscriptionId?: string; error?: string; scenario?: string }> {
   try {
+    // 1. Verificar se há assinaturas duplicadas
+    const { hasDuplicates, activeSubscriptions } = await checkDuplicateSubscriptions(customerId)
+    
+    if (hasDuplicates) {
+      console.warn('Duplicatas detectadas, limpando antes do upgrade')
+      await cleanupDuplicateSubscriptions(customerId, currentSubscriptionId || '')
+    }
+
+    // 2. Verificar status da assinatura atual
     if (currentSubscriptionId) {
+      const currentSubscription = await stripe.subscriptions.retrieve(currentSubscriptionId)
+      
+      // Verificar se pode fazer upgrade
+      if (currentSubscription.status === 'paused') {
+        return {
+          success: false,
+          error: 'Assinatura pausada. Reative antes de fazer upgrade.',
+          scenario: 'paused-subscription',
+        }
+      }
+      
+      if (currentSubscription.status === 'past_due' || currentSubscription.status === 'unpaid') {
+        return {
+          success: false,
+          error: 'Assinatura com falha de pagamento. Resolva primeiro.',
+          scenario: 'failed-payment',
+        }
+      }
+      
+      if (currentSubscription.status === 'incomplete' || currentSubscription.status === 'incomplete_expired') {
+        return {
+          success: false,
+          error: 'Assinatura incompleta. Complete o pagamento primeiro.',
+          scenario: 'incomplete-subscription',
+        }
+      }
+
       // Cancelar assinatura atual
       await stripe.subscriptions.update(currentSubscriptionId, {
         cancel_at_period_end: true,
       })
     }
 
-    // Criar nova assinatura
+    // 3. Criar nova assinatura
     const newSubscription = await stripe.subscriptions.create({
       customer: customerId,
       items: [{ price: newPlan.stripePriceId }],
@@ -199,12 +235,34 @@ export async function executeUpgrade(
     return {
       success: true,
       subscriptionId: newSubscription.id,
+      scenario: 'upgrade-success',
     }
   } catch (error) {
     console.error('Erro no upgrade:', error)
+    
+    // Tratamento específico de erros do Stripe
+    if (error instanceof Error) {
+      if (error.message.includes('card')) {
+        return {
+          success: false,
+          error: 'Erro no cartão de crédito. Verifique os dados.',
+          scenario: 'card-error',
+        }
+      }
+      
+      if (error.message.includes('rate limit')) {
+        return {
+          success: false,
+          error: 'Muitas tentativas. Tente novamente em alguns minutos.',
+          scenario: 'rate-limit',
+        }
+      }
+    }
+    
     return {
       success: false,
       error: error instanceof Error ? error.message : 'Erro desconhecido',
+      scenario: 'unknown-error',
     }
   }
 }
