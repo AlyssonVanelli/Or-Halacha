@@ -224,7 +224,7 @@ export default function SimanPage() {
                 </div>
                 <div>
                   <h1 className="text-4xl font-bold text-gray-800">
-                    Siman {siman?.position} - {siman?.title}
+                    {siman?.title}
                   </h1>
                 </div>
               </div>
