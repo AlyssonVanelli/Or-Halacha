@@ -49,7 +49,7 @@ export default function SimanPage() {
 
         // Carregar siman
         const { data: simanData, error: simanError } = await supabase
-          .from('simanim')
+          .from('chapters')
           .select('*')
           .eq('id', simanId)
           .single()
