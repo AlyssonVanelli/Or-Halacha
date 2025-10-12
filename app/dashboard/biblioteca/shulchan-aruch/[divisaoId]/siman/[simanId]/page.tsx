@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
-import ContentOrganizer from '@/components/ContentOrganizer'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Book } from 'lucide-react'
@@ -233,11 +232,11 @@ export default function SimanPage() {
             <div className="mx-auto max-w-6xl">
               {seifim && seifim.length > 0 ? (
                 <div className="space-y-6">
-                  {seifim.map((seif) => (
-                    <div key={seif.id} className="bg-white rounded-lg shadow-sm border p-6">
-                      <h3 className="text-lg font-semibold mb-3">{seif.title}</h3>
+                  {seifim.map(seif => (
+                    <div key={seif.id} className="rounded-lg border bg-white p-6 shadow-sm">
+                      <h3 className="mb-3 text-lg font-semibold">{seif.title}</h3>
                       <div className="prose max-w-none">
-                        <p className="text-gray-700 leading-relaxed">{seif.content}</p>
+                        <p className="leading-relaxed text-gray-700">{seif.content}</p>
                       </div>
                     </div>
                   ))}
