@@ -508,7 +508,7 @@ export async function POST(req: Request) {
         // Buscar o UUID real do livro no banco de dados
         console.log('🔍 BUSCANDO UUID DO LIVRO NO BANCO...')
         let bookId: string
-        
+
         if (bookIdString === 'shulchan-aruch') {
           // Se for string "shulchan-aruch", buscar pelo slug
           const { data: bookData, error: bookError } = await supabase
@@ -516,12 +516,12 @@ export async function POST(req: Request) {
             .select('id')
             .eq('slug', 'shulchan-aruch')
             .single()
-          
+
           if (bookError || !bookData) {
             console.error('❌ ERRO: Livro Shulchan Aruch não encontrado no banco:', bookError)
             return NextResponse.json({ error: 'Livro não encontrado' }, { status: 400 })
           }
-          
+
           bookId = bookData.id
           console.log('✅ UUID do livro encontrado:', bookId)
         } else {
