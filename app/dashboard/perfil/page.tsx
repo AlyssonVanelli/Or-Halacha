@@ -331,28 +331,28 @@ export default function PerfilPage() {
   }
 
   // async function handleCancel() {
-    if (!subscription) return
-    const res = await fetch('/api/cancel-subscription', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ subscriptionId: subscription.subscription_id }),
-    })
-    const data = await res.json()
-    if (data.ok) {
-      toast({
-        title: 'Assinatura cancelada',
-        description: 'Sua assinatura permanecerá ativa até o fim do período já pago.',
-        variant: 'default',
-      })
-      setTimeout(() => window.location.reload(), 1800)
-    } else {
-      toast({
-        title: 'Erro ao cancelar assinatura',
-        description: data.error || 'Tente novamente.',
-        variant: 'destructive',
-      })
-    }
-  }
+  //   if (!subscription) return
+  //   const res = await fetch('/api/cancel-subscription', {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/json' },
+  //     body: JSON.stringify({ subscriptionId: subscription.subscription_id }),
+  //   })
+  //   const data = await res.json()
+  //   if (data.ok) {
+  //     toast({
+  //       title: 'Assinatura cancelada',
+  //       description: 'Sua assinatura permanecerá ativa até o fim do período já pago.',
+  //       variant: 'default',
+  //     })
+  //     setTimeout(() => window.location.reload(), 1800)
+  //   } else {
+  //     toast({
+  //       title: 'Erro ao cancelar assinatura',
+  //       description: data.error || 'Tente novamente.',
+  //       variant: 'destructive',
+  //     })
+  //   }
+  // }
 
   // Função utilitária para traduzir status
   function traduzirStatus(status: string) {
@@ -400,17 +400,17 @@ export default function PerfilPage() {
   }
 
   // async function handleUpgrade() {
-    if (!user) return
-    const res = await fetch('/api/create-customer-portal-session', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ userId: user.id }),
-    })
-    const data = await res.json()
-    if (data.url) {
-      window.location.href = data.url
-    }
-  }
+  //   if (!user) return
+  //   const res = await fetch('/api/create-customer-portal-session', {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/json' },
+  //     body: JSON.stringify({ userId: user.id }),
+  //   })
+  //   const data = await res.json()
+  //   if (data.url) {
+  //     window.location.href = data.url
+  //   }
+  // }
 
   if (!user) {
     return <div className="p-8 text-center text-gray-500">Faça login para acessar seu perfil.</div>
