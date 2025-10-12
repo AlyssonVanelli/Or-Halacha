@@ -10,12 +10,12 @@ import { Button } from '@/components/ui/button'
 import { ArrowLeft, Book } from 'lucide-react'
 import { useParams } from 'next/navigation'
 
-// interface Seif {
-//   id: string
-//   title: string
-//   content: string
-//   position: number
-// }
+interface Seif {
+  id: string
+  title: string
+  content: string
+  position: number
+}
 
 interface Siman {
   id: string
@@ -37,7 +37,7 @@ export default function SimanPage() {
   const simanId = params.simanId as string
   const [siman, setSiman] = useState<Siman | null>(null)
   const [division, setDivision] = useState<Division | null>(null)
-  // const [seifim, setSeifim] = useState<Seif[]>([])
+  const [seifim, setSeifim] = useState<Seif[]>([])
   const [loading, setLoading] = useState(true)
   const [hasAccess, setHasAccess] = useState(false)
 
