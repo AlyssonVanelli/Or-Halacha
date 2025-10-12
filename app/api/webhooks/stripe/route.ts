@@ -164,38 +164,58 @@ export async function POST(req: Request) {
         let currentPeriodStart: string | null = null
         let currentPeriodEnd: string | null = null
 
-        // Verificar se as datas existem e são válidas
-        if (
-          (subscription as any).current_period_start &&
-          typeof (subscription as any).current_period_start === 'number'
-        ) {
-          currentPeriodStart = new Date(
-            (subscription as any).current_period_start * 1000
-          ).toISOString()
+        console.log('=== DETECÇÃO DE DATAS ===')
+        console.log('Raw current_period_start:', (subscription as any).current_period_start)
+        console.log('Raw current_period_end:', (subscription as any).current_period_end)
+        console.log(
+          'Type of current_period_start:',
+          typeof (subscription as any).current_period_start
+        )
+        console.log('Type of current_period_end:', typeof (subscription as any).current_period_end)
+
+        // SEMPRE tentar extrair as datas do Stripe primeiro
+        const rawStart = (subscription as any).current_period_start
+        const rawEnd = (subscription as any).current_period_end
+
+        if (rawStart && typeof rawStart === 'number' && rawStart > 0) {
+          currentPeriodStart = new Date(rawStart * 1000).toISOString()
+          console.log('✅ Data de início extraída do Stripe:', currentPeriodStart)
         }
 
-        if (
-          (subscription as any).current_period_end &&
-          typeof (subscription as any).current_period_end === 'number'
-        ) {
-          currentPeriodEnd = new Date((subscription as any).current_period_end * 1000).toISOString()
+        if (rawEnd && typeof rawEnd === 'number' && rawEnd > 0) {
+          currentPeriodEnd = new Date(rawEnd * 1000).toISOString()
+          console.log('✅ Data de fim extraída do Stripe:', currentPeriodEnd)
         }
 
-        // Se as datas não existem, usar datas padrão baseadas no tipo de plano
+        // Se ainda não temos as datas, calcular baseado no tipo de plano
         if (!currentPeriodStart || !currentPeriodEnd) {
+          console.log('⚠️ Datas não encontradas no Stripe, calculando...')
           const now = new Date()
           currentPeriodStart = now.toISOString()
 
           // Calcular data de fim baseada no tipo de plano
           if (planType === 'yearly') {
             currentPeriodEnd = new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000).toISOString()
+            console.log('📅 Calculado para plano anual: +365 dias')
           } else if (planType === 'monthly') {
             currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+            console.log('📅 Calculado para plano mensal: +30 dias')
           } else {
             // Fallback para 30 dias
             currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+            console.log('📅 Fallback: +30 dias')
           }
-          console.log('Datas calculadas com base no tipo de plano')
+        }
+
+        // GARANTIR que sempre temos as duas datas
+        if (!currentPeriodStart) {
+          currentPeriodStart = new Date().toISOString()
+          console.log('🔧 Forçando data de início:', currentPeriodStart)
+        }
+        if (!currentPeriodEnd) {
+          const now = new Date()
+          currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+          console.log('🔧 Forçando data de fim:', currentPeriodEnd)
         }
 
         console.log('Current Period Start:', currentPeriodStart)
@@ -220,10 +240,10 @@ export async function POST(req: Request) {
           subscription_id: subscription.id,
           cancel_at_period_end: subscription.cancel_at_period_end,
           explicacao_pratica: explicacaoPratica,
+          current_period_start: currentPeriodStart, // SEMPRE incluir as datas
+          current_period_end: currentPeriodEnd, // SEMPRE incluir as datas
           updated_at: now,
         }
-        if (currentPeriodStart) updateData['current_period_start'] = currentPeriodStart
-        if (currentPeriodEnd) updateData['current_period_end'] = currentPeriodEnd
         if (event.type === 'customer.subscription.created') updateData['created_at'] = now
 
         console.log('Dados para upsert:', updateData)
