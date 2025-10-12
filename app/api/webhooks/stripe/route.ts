@@ -32,6 +32,7 @@ export async function POST(req: Request) {
   console.log('=== PROCESSANDO WEBHOOK ===')
   console.log('Event Type:', event.type)
   console.log('Event ID:', event.id)
+  console.log('Event Data:', JSON.stringify(event.data, null, 2))
 
   switch (event.type) {
     case 'customer.subscription.created':
@@ -158,36 +159,48 @@ export async function POST(req: Request) {
 
         console.log('Explicação Prática final:', explicacaoPratica)
 
-        const now = new Date().toISOString()
-
         // ───────────────── Datas de período ─────────────────
+        // ESTRATÉGIA HÍBRIDA: Tentar múltiplas fontes e sempre garantir datas
+        console.log('=== ESTRATÉGIA HÍBRIDA DE DATAS ===')
+        console.log('Plan Type:', planType)
+
+        // Tentar extrair do item primeiro
+        const periodStartTs = item.current_period_start
+        const periodEndTs = item.current_period_end
+
+        console.log('🔍 DEBUG ITEM ACCESS:')
+        console.log('item.current_period_start:', item.current_period_start)
+        console.log('item.current_period_end:', item.current_period_end)
+
+        // Tentar extrair do subscription também
+        const subPeriodStartTs = (subscription as any).current_period_start
+        const subPeriodEndTs = (subscription as any).current_period_end
+
+        console.log('🔍 DEBUG DATAS:')
+        console.log('Item Period Start TS:', periodStartTs)
+        console.log('Item Period End TS:', periodEndTs)
+        console.log('Subscription Period Start TS:', subPeriodStartTs)
+        console.log('Subscription Period End TS:', subPeriodEndTs)
+        console.log('Item completo:', JSON.stringify(item, null, 2))
+
+        // Usar as datas do item se disponíveis, senão do subscription
+        const finalStartTs = periodStartTs || subPeriodStartTs
+        const finalEndTs = periodEndTs || subPeriodEndTs
+
         let currentPeriodStart: string | null = null
         let currentPeriodEnd: string | null = null
 
-        console.log('=== DETECÇÃO DE DATAS ===')
-        console.log('Raw current_period_start:', (subscription as any).current_period_start)
-        console.log('Raw current_period_end:', (subscription as any).current_period_end)
-        console.log(
-          'Type of current_period_start:',
-          typeof (subscription as any).current_period_start
-        )
-        console.log('Type of current_period_end:', typeof (subscription as any).current_period_end)
-
-        // SEMPRE tentar extrair as datas do Stripe primeiro
-        const rawStart = (subscription as any).current_period_start
-        const rawEnd = (subscription as any).current_period_end
-
-        if (rawStart && typeof rawStart === 'number' && rawStart > 0) {
-          currentPeriodStart = new Date(rawStart * 1000).toISOString()
+        if (finalStartTs && typeof finalStartTs === 'number' && finalStartTs > 0) {
+          currentPeriodStart = new Date(finalStartTs * 1000).toISOString()
           console.log('✅ Data de início extraída do Stripe:', currentPeriodStart)
         }
 
-        if (rawEnd && typeof rawEnd === 'number' && rawEnd > 0) {
-          currentPeriodEnd = new Date(rawEnd * 1000).toISOString()
+        if (finalEndTs && typeof finalEndTs === 'number' && finalEndTs > 0) {
+          currentPeriodEnd = new Date(finalEndTs * 1000).toISOString()
           console.log('✅ Data de fim extraída do Stripe:', currentPeriodEnd)
         }
 
-        // Se ainda não temos as datas, calcular baseado no tipo de plano
+        // Se ainda não temos as datas, calcular baseado no momento atual
         if (!currentPeriodStart || !currentPeriodEnd) {
           console.log('⚠️ Datas não encontradas no Stripe, calculando...')
           const now = new Date()
@@ -195,31 +208,32 @@ export async function POST(req: Request) {
 
           // Calcular data de fim baseada no tipo de plano
           if (planType === 'yearly') {
-            currentPeriodEnd = new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000).toISOString()
+            const endDate = new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+            currentPeriodEnd = endDate.toISOString()
             console.log('📅 Calculado para plano anual: +365 dias')
           } else if (planType === 'monthly') {
-            currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+            const endDate = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000)
+            currentPeriodEnd = endDate.toISOString()
             console.log('📅 Calculado para plano mensal: +30 dias')
           } else {
             // Fallback para 30 dias
-            currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
+            const endDate = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000)
+            currentPeriodEnd = endDate.toISOString()
             console.log('📅 Fallback: +30 dias')
           }
         }
 
-        // GARANTIR que sempre temos as duas datas
-        if (!currentPeriodStart) {
-          currentPeriodStart = new Date().toISOString()
-          console.log('🔧 Forçando data de início:', currentPeriodStart)
-        }
-        if (!currentPeriodEnd) {
-          const now = new Date()
-          currentPeriodEnd = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString()
-          console.log('🔧 Forçando data de fim:', currentPeriodEnd)
-        }
+        console.log('✅ Data de início final:', currentPeriodStart)
+        console.log('✅ Data de fim final:', currentPeriodEnd)
+        console.log('🎯 SALVANDO NO BANCO COM DATAS:', {
+          current_period_start: currentPeriodStart,
+          current_period_end: currentPeriodEnd,
+        })
 
         console.log('Current Period Start:', currentPeriodStart)
         console.log('Current Period End:', currentPeriodEnd)
+
+        const now = new Date().toISOString()
 
         // ───────────────── Cancelar outras assinaturas ativas do usuário (apenas se não for cancelamento) ─────────────────
         if (incomingStatus !== 'canceled') {
@@ -282,6 +296,79 @@ export async function POST(req: Request) {
             console.log('Created At:', savedSub.created_at)
             console.log('Updated At:', savedSub.updated_at)
           }
+        }
+      }
+      break
+    }
+
+    case 'invoice.payment_succeeded': {
+      const invoice = event.data.object as Stripe.Invoice
+      console.log('=== PAGAMENTO DE INVOICE SUCESSO ===')
+      console.log('Invoice ID:', invoice.id)
+      console.log('Customer:', invoice.customer)
+      console.log('Subscription:', (invoice as any).subscription)
+      console.log('Amount Paid:', invoice.amount_paid)
+      console.log('Status:', invoice.status)
+
+      // Se tem subscription, buscar e atualizar
+      if ((invoice as any).subscription) {
+        const subscriptionId = (invoice as any).subscription as string
+        console.log('Buscando subscription:', subscriptionId)
+
+        try {
+          const subscription = await stripe.subscriptions.retrieve(subscriptionId)
+          console.log('Subscription encontrada:', subscription.id)
+          console.log('Status:', subscription.status)
+          console.log('Current Period Start:', (subscription as any).current_period_start)
+          console.log('Current Period End:', (subscription as any).current_period_end)
+
+          // Buscar customer
+          const customerId = subscription.customer as string
+          const { data: profile } = await supabase
+            .from('profiles')
+            .select('id')
+            .eq('stripe_customer_id', customerId)
+            .maybeSingle()
+
+          if (profile) {
+            console.log('Profile encontrado:', profile.id)
+
+            // Atualizar subscription com dados corretos
+            const now = new Date().toISOString()
+            const currentPeriodStart = (subscription as any).current_period_start
+              ? new Date((subscription as any).current_period_start * 1000).toISOString()
+              : now
+            const currentPeriodEnd = (subscription as any).current_period_end
+              ? new Date((subscription as any).current_period_end * 1000).toISOString()
+              : new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString()
+
+            const { data: result, error } = await supabase.from('subscriptions').upsert(
+              {
+                user_id: profile.id,
+                status: subscription.status,
+                plan_type:
+                  subscription.items.data[0]?.price?.recurring?.interval === 'year'
+                    ? 'yearly'
+                    : 'monthly',
+                price_id: subscription.items.data[0]?.price?.id || '',
+                subscription_id: subscription.id,
+                current_period_start: currentPeriodStart,
+                current_period_end: currentPeriodEnd,
+                cancel_at_period_end: subscription.cancel_at_period_end,
+                explicacao_pratica: false, // Será determinado pela lógica de detecção
+                updated_at: now,
+              },
+              { onConflict: 'user_id' }
+            )
+
+            if (error) {
+              console.error('❌ Erro ao atualizar subscription:', error)
+            } else {
+              console.log('✅ Subscription atualizada:', result)
+            }
+          }
+        } catch (err) {
+          console.error('❌ Erro ao buscar subscription:', err)
         }
       }
       break

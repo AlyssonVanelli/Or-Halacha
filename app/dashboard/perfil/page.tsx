@@ -595,13 +595,21 @@ export default function PerfilPage() {
                     </div>
                     <div>
                       Expira em:{' '}
-                      <b>{format(new Date(subscription.current_period_end), 'dd/MM/yyyy')}</b>
+                      <b>
+                        {subscription.current_period_end
+                          ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
+                          : 'Data não disponível'}
+                      </b>
                     </div>
                     {subscription.cancel_at_period_end && subscription.status === 'active' && (
                       <div className="mt-2 rounded bg-yellow-100 p-2 text-sm font-medium text-yellow-800">
                         Sua assinatura foi cancelada e permanecerá ativa até{' '}
-                        <b>{format(new Date(subscription.current_period_end), 'dd/MM/yyyy')}</b>.
-                        Após essa data, você perderá o acesso a todo o conteúdo exclusivo do site.
+                        <b>
+                          {subscription.current_period_end
+                            ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
+                            : 'Data não disponível'}
+                        </b>
+                        . Após essa data, você perderá o acesso a todo o conteúdo exclusivo do site.
                       </div>
                     )}
                     <div className="mt-4 flex gap-4">
