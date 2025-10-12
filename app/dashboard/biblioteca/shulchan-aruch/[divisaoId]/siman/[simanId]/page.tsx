@@ -231,13 +231,17 @@ export default function SimanPage() {
 
             {/* Conteúdo Organizado do Siman */}
             <div className="mx-auto max-w-6xl">
-              {contentData && contentData.content ? (
-                <ContentOrganizer
-                  simanId={simanId}
-                  simanTitle={siman?.title || 'Siman'}
-                  simanPosition={siman?.position || 1}
-                  rawContent={contentData.content}
-                />
+              {seifim && seifim.length > 0 ? (
+                <div className="space-y-6">
+                  {seifim.map((seif) => (
+                    <div key={seif.id} className="bg-white rounded-lg shadow-sm border p-6">
+                      <h3 className="text-lg font-semibold mb-3">{seif.title}</h3>
+                      <div className="prose max-w-none">
+                        <p className="text-gray-700 leading-relaxed">{seif.content}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               ) : (
                 <div className="py-12 text-center">
                   <Book className="mx-auto mb-4 h-12 w-12 text-gray-400" />
