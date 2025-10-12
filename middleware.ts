@@ -163,7 +163,11 @@ export async function middleware(req: NextRequest) {
     data: { session },
   } = await supabase.auth.getSession()
 
-  if (!session && req.nextUrl.pathname.startsWith('/dashboard')) {
+  // Exceções para páginas que não precisam de autenticação
+  const publicPaths = ['/payment/success', '/payment/cancel', '/login', '/signup']
+  const isPublicPath = publicPaths.some(path => req.nextUrl.pathname.startsWith(path))
+  
+  if (!session && req.nextUrl.pathname.startsWith('/dashboard') && !isPublicPath) {
     return NextResponse.redirect(new URL('/login', req.url))
   }
 

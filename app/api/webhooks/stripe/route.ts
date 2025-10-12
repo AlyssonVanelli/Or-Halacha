@@ -33,6 +33,8 @@ export async function POST(req: Request) {
   console.log('Event Type:', event.type)
   console.log('Event ID:', event.id)
   console.log('Event Data:', JSON.stringify(event.data, null, 2))
+  console.log('Timestamp:', new Date().toISOString())
+  console.log('Webhook Secret configurado:', !!webhookSecret)
 
   switch (event.type) {
     case 'customer.subscription.created':
@@ -417,6 +419,7 @@ export async function POST(req: Request) {
     }
 
     case 'checkout.session.completed': {
+      console.log('=== INICIANDO PROCESSAMENTO CHECKOUT.SESSION.COMPLETED ===')
       const session = event.data.object as Stripe.Checkout.Session
       console.log('=== CHECKOUT COMPLETADO ===')
       console.log('Session ID:', session.id)
@@ -424,6 +427,15 @@ export async function POST(req: Request) {
       console.log('Metadata:', session.metadata)
       console.log('Payment Intent:', session.payment_intent)
       console.log('Customer:', session.customer)
+      console.log('Customer Email:', session.customer_email)
+      console.log('Amount Total:', session.amount_total)
+      console.log('Currency:', session.currency)
+      console.log('Status:', session.status)
+      console.log('Payment Status:', session.payment_status)
+      console.log('Success URL:', session.success_url)
+      console.log('Cancel URL:', session.cancel_url)
+      console.log('Line Items:', session.line_items)
+      console.log('Raw session data:', JSON.stringify(session, null, 2))
 
       // Verifica se é uma compra de tratado avulso
       const metadata = session.metadata as Record<string, string | undefined> | undefined
@@ -432,6 +444,17 @@ export async function POST(req: Request) {
       console.log('🔍 BookId:', metadata?.bookId)
       console.log('🔍 UserId:', metadata?.userId)
       console.log('🔍 Type:', metadata?.type)
+      console.log('🔍 Session mode:', session.mode)
+      console.log('🔍 É payment mode?', session.mode === 'payment')
+      console.log('🔍 É treatise-purchase?', metadata?.type === 'treatise-purchase')
+
+      console.log('=== VERIFICANDO CONDIÇÕES PARA TRATADO AVULSO ===')
+      console.log('Metadata existe?', !!metadata)
+      console.log('DivisionId existe?', !!metadata?.divisionId)
+      console.log('BookId existe?', !!metadata?.bookId)
+      console.log('UserId existe?', !!metadata?.userId)
+      console.log('Type é treatise-purchase?', metadata?.type === 'treatise-purchase')
+      console.log('Mode é payment?', session.mode === 'payment')
 
       if (
         metadata &&
@@ -444,13 +467,34 @@ export async function POST(req: Request) {
         const bookId = metadata['bookId']
         const divisionId = metadata['divisionId']
 
-        console.log('Processando compra avulsa:', { userId, bookId, divisionId })
+        console.log('=== PROCESSANDO COMPRA DE TRATADO AVULSO ===')
+        console.log('User ID:', userId)
+        console.log('Book ID:', bookId)
+        console.log('Division ID:', divisionId)
+        console.log('Metadata type:', metadata['type'])
+        console.log('Session mode:', session.mode)
+        console.log('Payment intent ID:', session.payment_intent)
 
         // Calcula a data de expiração (1 mês a partir de agora)
         const expiresAt = new Date()
         expiresAt.setMonth(expiresAt.getMonth() + 1)
+        console.log('Data de expiração calculada:', expiresAt.toISOString())
 
+        console.log('=== INSERINDO COMPRA NO BANCO DE DADOS ===')
+        console.log('Dados para inserção:', {
+          user_id: userId,
+          book_id: bookId,
+          division_id: divisionId,
+          expires_at: expiresAt.toISOString(),
+          stripe_payment_intent_id: session.payment_intent,
+          created_at: new Date().toISOString(),
+        })
+
+        console.log('Conectando ao Supabase...')
+        console.log('Supabase client criado:', !!supabase)
+        
         // Registra a compra na tabela purchased_books
+        console.log('Executando upsert na tabela purchased_books...')
         const { data: purchaseResult, error: purchaseError } = await supabase
           .from('purchased_books')
           .upsert(
@@ -466,9 +510,11 @@ export async function POST(req: Request) {
               onConflict: 'user_id,division_id',
             }
           )
+        
+        console.log('Resultado do upsert:', { purchaseResult, purchaseError })
 
         if (purchaseError) {
-          console.error('❌ Erro ao salvar compra avulsa:', purchaseError)
+          console.error('❌ ERRO AO INSERIR COMPRA NO BANCO:', purchaseError)
           console.error('❌ Detalhes do erro:', {
             code: purchaseError.code,
             message: purchaseError.message,
@@ -476,13 +522,27 @@ export async function POST(req: Request) {
             hint: purchaseError.hint,
           })
         } else {
-          console.log('✅ Compra avulsa salva:', purchaseResult)
+          console.log('✅ COMPRA INSERIDA COM SUCESSO NO BANCO:', purchaseResult)
+          console.log('✅ Dados inseridos:', {
+            user_id: userId,
+            book_id: bookId,
+            division_id: divisionId,
+            expires_at: expiresAt.toISOString(),
+            stripe_payment_intent_id: session.payment_intent,
+          })
         }
       } else {
-        console.log('⚠️ Não é uma compra de tratado avulso - metadata incompleto')
+        console.log('⚠️ NÃO É UMA COMPRA DE TRATADO AVULSO - METADATA INCOMPLETO')
         console.log('⚠️ Metadata recebido:', metadata)
         console.log('⚠️ Session mode:', session.mode)
         console.log('⚠️ Verificando se é compra única...')
+        console.log('⚠️ Condições não atendidas:')
+        console.log('  - Metadata existe?', !!metadata)
+        console.log('  - DivisionId existe?', !!metadata?.divisionId)
+        console.log('  - BookId existe?', !!metadata?.bookId)
+        console.log('  - UserId existe?', !!metadata?.userId)
+        console.log('  - Type é treatise-purchase?', metadata?.type === 'treatise-purchase')
+        console.log('  - Mode é payment?', session.mode === 'payment')
 
         // Verificar se é uma compra única sem metadata específico
         if (session.mode === 'payment' && session.payment_intent) {
@@ -490,6 +550,7 @@ export async function POST(req: Request) {
           console.log('🔍 Verificando se é compra de tratado por outros meios...')
         }
       }
+      console.log('=== FINALIZANDO PROCESSAMENTO CHECKOUT.SESSION.COMPLETED ===')
       break
     }
 
@@ -497,5 +558,7 @@ export async function POST(req: Request) {
       console.log(`Evento não tratado: ${event.type}`)
   }
 
+  console.log('=== WEBHOOK PROCESSADO COM SUCESSO ===')
+  console.log('Timestamp final:', new Date().toISOString())
   return NextResponse.json({ received: true })
 }

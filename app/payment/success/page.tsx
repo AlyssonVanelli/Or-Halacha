@@ -32,23 +32,30 @@ export default function PaymentSuccessPage() {
 
   useEffect(() => {
     async function loadData() {
+      console.log('=== PÁGINA DE SUCESSO CARREGADA ===')
+      console.log('Division ID da URL:', divisionId)
+      console.log('Search params:', window.location.search)
+      
+      // Verificar se o usuário está logado
+      const supabase = createClient()
+      const {
+        data: { user },
+      } = await supabase.auth.getUser()
+      
+      console.log('Usuário logado:', !!user)
+      console.log('User ID:', user?.id)
+      
+      if (!user) {
+        console.error('Usuário não encontrado - redirecionando para login')
+        window.location.href = '/login'
+        return
+      }
+
       // Se não há divisionId, é uma assinatura (não compra de tratado individual)
       if (!divisionId) {
         // Sincronizar assinatura com o banco
         try {
           console.log('=== SINCRONIZANDO ASSINATURA ===')
-
-          // Criar instância do supabase
-          const supabase = createClient()
-
-          // Buscar o customer ID do usuário atual
-          const {
-            data: { user },
-          } = await supabase.auth.getUser()
-          if (!user) {
-            console.error('Usuário não encontrado')
-            return
-          }
 
           // Buscar o profile para obter o stripe_customer_id
           const { data: profile } = await supabase
@@ -86,9 +93,13 @@ export default function PaymentSuccessPage() {
       }
 
       try {
+        console.log('=== CARREGANDO DADOS DO TRATADO ===')
+        console.log('Division ID:', divisionId)
+        
         const supabase = createClient()
 
         // Buscar informações da divisão
+        console.log('Buscando divisão no banco...')
         const { data: divisionData, error: divisionError } = await supabase
           .from('divisions')
           .select('id, title, book_id')
@@ -96,13 +107,16 @@ export default function PaymentSuccessPage() {
           .single()
 
         if (divisionError || !divisionData) {
+          console.error('Erro ao buscar divisão:', divisionError)
           setError('Divisão não encontrada.')
           return
         }
 
+        console.log('Divisão encontrada:', divisionData)
         setDivision(divisionData)
 
         // Buscar informações do livro
+        console.log('Buscando livro no banco...')
         const { data: bookData, error: bookError } = await supabase
           .from('books')
           .select('id, title, author')
@@ -110,10 +124,12 @@ export default function PaymentSuccessPage() {
           .single()
 
         if (bookError || !bookData) {
+          console.error('Erro ao buscar livro:', bookError)
           setError('Livro não encontrado.')
           return
         }
 
+        console.log('Livro encontrado:', bookData)
         setBook(bookData)
       } catch (err) {
         setError('Erro ao carregar informações.')
