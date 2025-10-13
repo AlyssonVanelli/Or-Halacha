@@ -770,7 +770,12 @@ export default function PerfilPage() {
                               🚨 Expira hoje!
                             </span>
                           )}
-                          <Button size="sm" onClick={() => router.push(`/livros/${book.book_id}`)}>
+                          <Button
+                            size="sm"
+                            onClick={() =>
+                              router.push(`/livros/${book.book_id}/divisoes/${book.id}`)
+                            }
+                          >
                             Ler
                           </Button>
                         </li>

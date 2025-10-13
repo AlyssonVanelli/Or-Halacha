@@ -5,6 +5,8 @@ import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 
+import { ConditionalLayout } from '@/components/ConditionalLayout'
+
 export default function SupportPage() {
   const { user } = useAuth()
   const [message, setMessage] = useState('')
@@ -78,8 +80,9 @@ export default function SupportPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <main className="flex-1">
+    <ConditionalLayout>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <main className="flex-1">
         <div className="container py-8">
           <div className="mb-8 text-center">
             <div className="mb-4 flex items-center justify-center gap-4">
@@ -288,24 +291,7 @@ export default function SupportPage() {
           </div>
         </div>
       </main>
-      <footer className="border-t py-6">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-          <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-            © 2025 Or Halachá. Todos os direitos reservados.
-          </p>
-          <div className="flex gap-4">
-            <a href="/termos" className="text-sm text-gray-500 underline-offset-4 hover:underline">
-              Termos de Uso
-            </a>
-            <a
-              href="/privacidade"
-              className="text-sm text-gray-500 underline-offset-4 hover:underline"
-            >
-              Política de Privacidade
-            </a>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </div>
+    </ConditionalLayout>
   )
 }

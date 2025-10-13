@@ -113,12 +113,11 @@ export default function PlanosPage() {
       })
 
       const data = await response.json()
-
-      if (data.success && data.url) {
+      if (data?.url) {
         window.location.href = data.url
-      } else {
-        throw new Error(data.error || 'Erro ao criar checkout')
+        return
       }
+      throw new Error(data?.error || 'Erro ao criar checkout')
     } catch (error) {
       toast({
         title: 'Erro na assinatura',
@@ -166,7 +165,7 @@ export default function PlanosPage() {
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">{plan.name}</h3>
                   <p className="mb-4 text-gray-600">{plan.description}</p>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl font-bold text-blue-600">
+                    <span className="text-4xl font-bold text-blue-600 whitespace-nowrap">
                       R$ {plan.price.toFixed(2)}
                     </span>
                     <span className="text-gray-500">
