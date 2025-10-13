@@ -774,7 +774,7 @@ export default function PerfilPage() {
                             size="sm"
                             onClick={() =>
                               router.push(
-                                `/livros/${book.book_id}/divisoes/${book.divisions?.id || ''}`
+                                `/dashboard/biblioteca/shulchan-aruch/${book.divisions?.id || ''}`
                               )
                             }
                           >
