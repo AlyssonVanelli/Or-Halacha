@@ -48,7 +48,7 @@ interface BookAvulso {
   expires_at: string
   created_at: string
   books?: { title: string }
-  divisions?: { title: string }
+  divisions?: { id: string; title: string }
 }
 interface Payment {
   type: string
@@ -773,7 +773,9 @@ export default function PerfilPage() {
                           <Button
                             size="sm"
                             onClick={() =>
-                              router.push(`/livros/${book.book_id}/divisoes/${book.id}`)
+                              router.push(
+                                `/livros/${book.book_id}/divisoes/${book.divisions?.id || ''}`
+                              )
                             }
                           >
                             Ler
