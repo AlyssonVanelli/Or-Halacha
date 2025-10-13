@@ -147,7 +147,7 @@ export default function PlanosPage() {
           {plans.map(plan => (
             <div
               key={plan.id}
-              className={`relative rounded-2xl border-2 bg-white shadow-lg transition-all duration-300 hover:shadow-xl ${
+              className={`relative flex flex-col rounded-2xl border-2 bg-white shadow-lg transition-all duration-300 hover:shadow-xl ${
                 plan.popular ? 'scale-105 border-blue-500' : 'border-gray-200 hover:border-blue-300'
               }`}
             >
@@ -160,7 +160,7 @@ export default function PlanosPage() {
                 </div>
               )}
 
-              <div className="p-8">
+              <div className="flex flex-1 flex-col p-8">
                 {/* Plan Header */}
                 <div className="mb-6 text-center">
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">{plan.name}</h3>
@@ -181,7 +181,7 @@ export default function PlanosPage() {
                 </div>
 
                 {/* Features */}
-                <ul className="mb-8 space-y-3">
+                <ul className="mb-8 flex-1 space-y-3">
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-500" />

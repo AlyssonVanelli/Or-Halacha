@@ -137,15 +137,15 @@ export default function PaymentPage() {
 
               <div className="grid gap-6 md:grid-cols-2">
                 {/* Opção 1: Tratado Individual */}
-                <div className="relative rounded-xl border-2 border-green-200 bg-green-50 p-6">
+                <div className="flex flex-col rounded-xl border-2 border-green-200 bg-green-50 p-6">
                   <div className="absolute -top-3 left-6 rounded-full bg-green-600 px-3 py-1 text-sm font-medium text-white">
                     Recomendado
                   </div>
-                  <div className="text-center">
+                  <div className="flex flex-1 flex-col text-center">
                     <h3 className="mb-2 text-xl font-bold text-gray-800">{division.title}</h3>
                     <p className="mb-4 text-gray-600">Acesso completo a este tratado específico</p>
                     <div className="mb-4 text-3xl font-bold text-green-600">R$ 29,90</div>
-                    <ul className="mb-6 space-y-2 text-left">
+                    <ul className="mb-6 flex-1 space-y-2 text-left">
                       <li className="flex items-center gap-2">
                         <CheckCircle className="h-4 w-4 text-green-600" />
                         <span className="text-sm">Acesso completo ao tratado</span>
@@ -163,16 +163,18 @@ export default function PaymentPage() {
                         <span className="text-sm">Acesso vitalício</span>
                       </li>
                     </ul>
-                    <Button className="w-full bg-green-600 py-3 text-white hover:bg-green-700">
-                      <ShoppingCart className="mr-2 h-4 w-4" />
-                      Comprar Este Tratado
-                    </Button>
+                    <div className="mt-auto">
+                      <Button className="w-full bg-green-600 py-3 text-white hover:bg-green-700">
+                        <ShoppingCart className="mr-2 h-4 w-4" />
+                        Comprar Este Tratado
+                      </Button>
+                    </div>
                   </div>
                 </div>
 
                 {/* Opção 2: Assinatura Completa */}
-                <div className="rounded-xl border-2 border-blue-200 bg-blue-50 p-6">
-                  <div className="text-center">
+                <div className="flex flex-col rounded-xl border-2 border-blue-200 bg-blue-50 p-6">
+                  <div className="flex flex-1 flex-col text-center">
                     <div className="mb-2 flex items-center justify-center gap-2">
                       <Star className="h-5 w-5 text-yellow-500" />
                       <h3 className="text-xl font-bold text-gray-800">Assinatura Completa</h3>
@@ -181,7 +183,7 @@ export default function PaymentPage() {
                       Acesso a todos os tratados + recursos premium
                     </p>
                     <div className="mb-4 text-3xl font-bold text-blue-600">R$ 99,90/mês</div>
-                    <ul className="mb-6 space-y-2 text-left">
+                    <ul className="mb-6 flex-1 space-y-2 text-left">
                       <li className="flex items-center gap-2">
                         <CheckCircle className="h-4 w-4 text-blue-600" />
                         <span className="text-sm">Todos os 4 tratados</span>
@@ -199,14 +201,16 @@ export default function PaymentPage() {
                         <span className="text-sm">Suporte prioritário</span>
                       </li>
                     </ul>
-                    <Link href="/dashboard">
-                      <Button
-                        variant="outline"
-                        className="w-full border-blue-600 py-3 text-blue-600 hover:bg-blue-600 hover:text-white"
-                      >
-                        Ver Planos Completos
-                      </Button>
-                    </Link>
+                    <div className="mt-auto">
+                      <Link href="/dashboard">
+                        <Button
+                          variant="outline"
+                          className="w-full border-blue-600 py-3 text-blue-600 hover:bg-blue-600 hover:text-white"
+                        >
+                          Ver Planos Completos
+                        </Button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

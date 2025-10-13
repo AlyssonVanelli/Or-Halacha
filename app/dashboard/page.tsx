@@ -218,48 +218,52 @@ export default function DashboardPage() {
                 <div className="mx-auto max-w-6xl">
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
                     {/* Plano Tratado Avulso */}
-                    <div className="rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="text-center">
+                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
+                      <div className="flex flex-1 flex-col text-center">
                         <h4 className="mb-2 text-xl font-bold text-gray-800">Tratado Avulso</h4>
                         <p className="mb-4 text-sm text-gray-600">Acesso a um tratado específico</p>
                         <div className="mb-4">
                           <span className="text-3xl font-bold text-blue-600">R$ 29,90</span>
                           <span className="text-gray-500">/mês</span>
                         </div>
-                        <Button
-                          className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                          onClick={() => handleSubscriptionCheckout('tratado-avulso')}
-                          disabled={loadingPurchase === 'tratado-avulso'}
-                        >
-                          {loadingPurchase === 'tratado-avulso'
-                            ? 'Processando...'
-                            : 'Assinar Tratado'}
-                        </Button>
+                        <div className="mt-auto">
+                          <Button
+                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
+                            onClick={() => handleSubscriptionCheckout('tratado-avulso')}
+                            disabled={loadingPurchase === 'tratado-avulso'}
+                          >
+                            {loadingPurchase === 'tratado-avulso'
+                              ? 'Processando...'
+                              : 'Assinar Tratado'}
+                          </Button>
+                        </div>
                       </div>
                     </div>
 
                     {/* Plano Mensal Básico */}
-                    <div className="rounded-xl border-2 border-blue-500 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 shadow-lg">
-                      <div className="text-center">
+                    <div className="flex flex-col rounded-xl border-2 border-blue-500 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 shadow-lg">
+                      <div className="flex flex-1 flex-col text-center">
                         <h4 className="mb-2 text-xl font-bold text-gray-800">Mensal Básico</h4>
                         <p className="mb-4 text-sm text-gray-600">Acesso completo à biblioteca</p>
                         <div className="mb-4">
                           <span className="text-3xl font-bold text-blue-600">R$ 99,90</span>
                           <span className="text-gray-500">/mês</span>
                         </div>
-                        <Button
-                          className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                          onClick={() => handleSubscriptionCheckout('mensal-basico')}
-                          disabled={loadingPurchase === 'mensal-basico'}
-                        >
-                          {loadingPurchase === 'mensal-basico' ? 'Processando...' : 'Assinar Plano'}
-                        </Button>
+                        <div className="mt-auto">
+                          <Button
+                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
+                            onClick={() => handleSubscriptionCheckout('mensal-basico')}
+                            disabled={loadingPurchase === 'mensal-basico'}
+                          >
+                            {loadingPurchase === 'mensal-basico' ? 'Processando...' : 'Assinar Plano'}
+                          </Button>
+                        </div>
                       </div>
                     </div>
 
                     {/* Plano Anual Básico */}
-                    <div className="rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="text-center">
+                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
+                      <div className="flex flex-1 flex-col text-center">
                         <h4 className="mb-2 text-xl font-bold text-gray-800">Anual Básico</h4>
                         <p className="mb-4 text-sm text-gray-600">Acesso completo com desconto</p>
                         <div className="mb-4">
@@ -267,19 +271,21 @@ export default function DashboardPage() {
                           <span className="text-gray-500">/mês</span>
                           <div className="text-sm text-gray-500">(R$ 958,80/ano)</div>
                         </div>
-                        <Button
-                          className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                          onClick={() => handleSubscriptionCheckout('anual-basico')}
-                          disabled={loadingPurchase === 'anual-basico'}
-                        >
-                          {loadingPurchase === 'anual-basico' ? 'Processando...' : 'Assinar Plano'}
-                        </Button>
+                        <div className="mt-auto">
+                          <Button
+                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
+                            onClick={() => handleSubscriptionCheckout('anual-basico')}
+                            disabled={loadingPurchase === 'anual-basico'}
+                          >
+                            {loadingPurchase === 'anual-basico' ? 'Processando...' : 'Assinar Plano'}
+                          </Button>
+                        </div>
                       </div>
                     </div>
 
                     {/* Plano Mensal Plus */}
-                    <div className="rounded-xl border-2 border-purple-500 bg-gradient-to-br from-purple-50 to-indigo-50 p-6 shadow-lg">
-                      <div className="text-center">
+                    <div className="flex flex-col rounded-xl border-2 border-purple-500 bg-gradient-to-br from-purple-50 to-indigo-50 p-6 shadow-lg">
+                      <div className="flex flex-1 flex-col text-center">
                         <h4 className="mb-2 text-xl font-bold text-gray-800">Mensal Plus</h4>
                         <p className="mb-4 text-sm text-gray-600">
                           Acesso completo + explicações práticas
@@ -288,19 +294,21 @@ export default function DashboardPage() {
                           <span className="text-3xl font-bold text-purple-600">R$ 119,90</span>
                           <span className="text-gray-500">/mês</span>
                         </div>
-                        <Button
-                          className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
-                          onClick={() => handleSubscriptionCheckout('mensal-plus')}
-                          disabled={loadingPurchase === 'mensal-plus'}
-                        >
-                          {loadingPurchase === 'mensal-plus' ? 'Processando...' : 'Assinar Plano'}
-                        </Button>
+                        <div className="mt-auto">
+                          <Button
+                            className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
+                            onClick={() => handleSubscriptionCheckout('mensal-plus')}
+                            disabled={loadingPurchase === 'mensal-plus'}
+                          >
+                            {loadingPurchase === 'mensal-plus' ? 'Processando...' : 'Assinar Plano'}
+                          </Button>
+                        </div>
                       </div>
                     </div>
 
                     {/* Plano Anual Plus */}
-                    <div className="rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="text-center">
+                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
+                      <div className="flex flex-1 flex-col text-center">
                         <h4 className="mb-2 text-xl font-bold text-gray-800">Anual Plus</h4>
                         <p className="mb-4 text-sm text-gray-600">
                           Acesso completo + explicações com desconto
@@ -310,13 +318,15 @@ export default function DashboardPage() {
                           <span className="text-gray-500">/mês</span>
                           <div className="text-sm text-gray-500">(R$ 1.078,80/ano)</div>
                         </div>
-                        <Button
-                          className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
-                          onClick={() => handleSubscriptionCheckout('anual-plus')}
-                          disabled={loadingPurchase === 'anual-plus'}
-                        >
-                          {loadingPurchase === 'anual-plus' ? 'Processando...' : 'Assinar Plano'}
-                        </Button>
+                        <div className="mt-auto">
+                          <Button
+                            className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
+                            onClick={() => handleSubscriptionCheckout('anual-plus')}
+                            disabled={loadingPurchase === 'anual-plus'}
+                          >
+                            {loadingPurchase === 'anual-plus' ? 'Processando...' : 'Assinar Plano'}
+                          </Button>
+                        </div>
                       </div>
                     </div>
                   </div>
