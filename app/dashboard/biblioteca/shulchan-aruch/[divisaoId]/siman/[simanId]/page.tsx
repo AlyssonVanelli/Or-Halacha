@@ -29,6 +29,67 @@ interface Division {
   description: string | null
 }
 
+// Função para organizar conteúdo em seifim baseado nos números
+function organizeContentIntoSeifim(content: string): Seif[] {
+  // Remover formatação markdown
+  const cleanContent = content
+    .replace(/\*\*(.*?)\*\*/g, '$1') // Remove **texto**
+    .replace(/\*(.*?)\*/g, '$1') // Remove *texto*
+    .replace(/#{1,6}\s*/g, '') // Remove headers markdown
+    .replace(/`(.*?)`/g, '$1') // Remove código inline
+    .trim()
+
+  // Dividir por números que indicam seifim (1., 2., 3., etc.)
+  const seifimPattern = /(\d+\.\s*[^0-9])/g
+  const parts = cleanContent.split(seifimPattern)
+  
+  const seifim: Seif[] = []
+  let currentSeif = ''
+  let seifNumber = 1
+
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i].trim()
+    
+    if (part.match(/^\d+\.\s*$/)) {
+      // É um número de seif
+      if (currentSeif.trim()) {
+        seifim.push({
+          id: seifNumber.toString(),
+          title: `Seif ${seifNumber}`,
+          content: currentSeif.trim(),
+          position: seifNumber
+        })
+        seifNumber++
+      }
+      currentSeif = ''
+    } else if (part) {
+      currentSeif += part + ' '
+    }
+  }
+
+  // Adicionar o último seif se houver conteúdo
+  if (currentSeif.trim()) {
+    seifim.push({
+      id: seifNumber.toString(),
+      title: `Seif ${seifNumber}`,
+      content: currentSeif.trim(),
+      position: seifNumber
+    })
+  }
+
+  // Se não conseguiu dividir por números, criar um seif único
+  if (seifim.length === 0) {
+    seifim.push({
+      id: '1',
+      title: 'Conteúdo',
+      content: cleanContent,
+      position: 1
+    })
+  }
+
+  return seifim
+}
+
 export default function SimanPage() {
   const { user } = useAuth()
   const params = useParams()
@@ -85,15 +146,10 @@ export default function SimanPage() {
           return
         }
 
-        // Se não há conteúdo estruturado, criar um seifim único com o conteúdo
+        // Organizar conteúdo em seifim baseado nos números
         if (contentData && contentData.content) {
-          const singleSeif = {
-            id: '1',
-            title: 'Conteúdo',
-            content: contentData.content,
-            position: 1,
-          }
-          setSeifim([singleSeif])
+          const organizedSeifim = organizeContentIntoSeifim(contentData.content)
+          setSeifim(organizedSeifim)
         } else {
           setSeifim([])
         }
@@ -241,12 +297,17 @@ export default function SimanPage() {
             {/* Conteúdo Organizado do Siman */}
             <div className="mx-auto max-w-6xl">
               {seifim && seifim.length > 0 ? (
-                <div className="space-y-6">
+                <div className="space-y-4">
                   {seifim.map(seif => (
                     <div key={seif.id} className="rounded-lg border bg-white p-6 shadow-sm">
-                      <h3 className="mb-3 text-lg font-semibold">{seif.title}</h3>
+                      <div className="mb-3 flex items-center gap-3">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-sm font-bold text-white">
+                          {seif.position}
+                        </div>
+                        <h3 className="text-lg font-semibold text-gray-800">{seif.title}</h3>
+                      </div>
                       <div className="prose max-w-none">
-                        <p className="leading-relaxed text-gray-700">{seif.content}</p>
+                        <p className="leading-relaxed text-gray-700 whitespace-pre-wrap">{seif.content}</p>
                       </div>
                     </div>
                   ))}
