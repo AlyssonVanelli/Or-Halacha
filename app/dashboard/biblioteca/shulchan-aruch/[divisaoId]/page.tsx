@@ -9,7 +9,7 @@ import { ErrorDisplay } from '@/components/ErrorBoundary'
 import { ScreenCaptureProtection } from '@/components/ScreenCaptureProtection'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Book } from 'lucide-react'
+import { ArrowLeft, Book, Grid3X3, List } from 'lucide-react'
 import { useParams } from 'next/navigation'
 import { useErrorHandler } from '@/hooks/useErrorHandler'
 import { parseSimanContent } from '@/lib/content-parser'
@@ -37,6 +37,7 @@ export default function DivisaoPage() {
   const [simanim, setSimanim] = useState<Siman[]>([])
   const [loading, setLoading] = useState(true)
   const [hasAccess, setHasAccess] = useState(false)
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const errorHandler = useErrorHandler()
 
   useEffect(() => {
@@ -283,7 +284,35 @@ export default function DivisaoPage() {
               <div className="mx-auto max-w-6xl">
                 <div className="mb-8 text-center">
                   <h2 className="mb-4 text-3xl font-bold text-gray-800">Simanim</h2>
-                  <p className="text-lg text-gray-600">Selecione um siman para estudar</p>
+                  <p className="mb-6 text-lg text-gray-600">Selecione um siman para estudar</p>
+                  
+                  {/* Toggle de Visualização */}
+                  <div className="flex justify-center">
+                    <div className="inline-flex rounded-lg border border-gray-300 bg-white p-1">
+                      <button
+                        onClick={() => setViewMode('grid')}
+                        className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+                          viewMode === 'grid'
+                            ? 'bg-blue-500 text-white'
+                            : 'text-gray-600 hover:bg-gray-100'
+                        }`}
+                      >
+                        <Grid3X3 className="h-4 w-4" />
+                        Cards
+                      </button>
+                      <button
+                        onClick={() => setViewMode('list')}
+                        className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+                          viewMode === 'list'
+                            ? 'bg-blue-500 text-white'
+                            : 'text-gray-600 hover:bg-gray-100'
+                        }`}
+                      >
+                        <List className="h-4 w-4" />
+                        Lista
+                      </button>
+                    </div>
+                  </div>
                 </div>
 
                 {simanim.length === 0 ? (
@@ -301,7 +330,7 @@ export default function DivisaoPage() {
                       <Button variant="outline">Voltar para Dashboard</Button>
                     </Link>
                   </div>
-                ) : (
+                ) : viewMode === 'grid' ? (
                   <div className="grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {simanim.map((siman, index) => {
                       const colors = [
@@ -347,6 +376,38 @@ export default function DivisaoPage() {
                         </Link>
                       )
                     })}
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {simanim.map((siman, index) => (
+                      <Link
+                        key={siman.id}
+                        href={`/dashboard/biblioteca/shulchan-aruch/${divisaoId}/siman/${siman.id}`}
+                        className="group flex items-center gap-4 rounded-lg border bg-white p-4 shadow-sm transition-all duration-200 hover:shadow-md"
+                      >
+                        {/* Número do Siman */}
+                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-lg font-bold text-white">
+                          {siman.position}
+                        </div>
+                        
+                        {/* Conteúdo */}
+                        <div className="flex-1">
+                          <h3 className="mb-1 text-lg font-semibold text-gray-800">
+                            {siman.title}
+                          </h3>
+                          {siman.summary && (
+                            <p className="text-sm text-gray-600 line-clamp-2">
+                              {siman.summary.replace(/^SIMAN\s+\d+\s*/i, '').trim()}
+                            </p>
+                          )}
+                        </div>
+                        
+                        {/* Ícone de seta */}
+                        <div className="text-gray-400 group-hover:text-blue-500">
+                          <ArrowLeft className="h-5 w-5 rotate-180" />
+                        </div>
+                      </Link>
+                    ))}
                   </div>
                 )}
               </div>
