@@ -29,7 +29,7 @@ interface Division {
   description: string | null
 }
 
-// Função para organizar conteúdo em seifim baseado nos números
+// Função para organizar conteúdo em seifim baseado nos números (lógica do projeto antigo)
 function organizeContentIntoSeifim(content: string): Seif[] {
   // Remover formatação markdown
   const cleanContent = content
@@ -39,55 +39,60 @@ function organizeContentIntoSeifim(content: string): Seif[] {
     .replace(/`(.*?)`/g, '$1') // Remove código inline
     .trim()
 
-  // Dividir por números que indicam seifim (1., 2., 3., etc.)
-  const seifimPattern = /(\d+\.\s*[^0-9])/g
-  const parts = cleanContent.split(seifimPattern)
-  
-  const seifim: Seif[] = []
-  let currentSeif = ''
-  let seifNumber = 1
+  const seifim: Array<{ number: number; text: string }> = []
+  const regex = /\n?(\d+)\.\s/g
+  let match
+  let lastIndex = 0
+  let lastNumber = 1
+  let encontrouSeif = false
+  let primeiro = true
 
-  for (let i = 0; i < parts.length; i++) {
-    const part = parts[i].trim()
-    
-    if (part.match(/^\d+\.\s*$/)) {
-      // É um número de seif
-      if (currentSeif.trim()) {
-        seifim.push({
-          id: seifNumber.toString(),
-          title: `Seif ${seifNumber}`,
-          content: currentSeif.trim(),
-          position: seifNumber
-        })
-        seifNumber++
+  while ((match = regex.exec(cleanContent)) !== null) {
+    encontrouSeif = true
+    const number = parseInt(match[1] ?? '0', 10)
+    if (!primeiro) {
+      // O texto entre o último match e o atual pertence ao seif anterior
+      const text = cleanContent.slice(lastIndex, match.index).trim()
+      if (text) {
+        seifim.push({ number: lastNumber, text })
       }
-      currentSeif = ''
-    } else if (part) {
-      currentSeif += part + ' '
+    } else {
+      // Ignora introdução antes do primeiro seif numerado
+      primeiro = false
+    }
+    lastNumber = number
+    lastIndex = match.index + match[0].length
+  }
+
+  // Adiciona o último seif, se houver
+  if (encontrouSeif && lastIndex < cleanContent.length) {
+    const text = cleanContent.slice(lastIndex).trim()
+    if (text) {
+      seifim.push({ number: lastNumber, text })
     }
   }
 
-  // Adicionar o último seif se houver conteúdo
-  if (currentSeif.trim()) {
-    seifim.push({
-      id: seifNumber.toString(),
-      title: `Seif ${seifNumber}`,
-      content: currentSeif.trim(),
-      position: seifNumber
+  // Se não encontrou nenhum seif numerado, divide por parágrafos e atribui número incremental
+  if (!encontrouSeif) {
+    const paragrafos = cleanContent
+      .split(/\n{2,}/)
+      .map(p => p.trim())
+      .filter(Boolean)
+    paragrafos.forEach((text, idx) => {
+      seifim.push({
+        number: idx + 1,
+        text,
+      })
     })
   }
 
-  // Se não conseguiu dividir por números, criar um seif único
-  if (seifim.length === 0) {
-    seifim.push({
-      id: '1',
-      title: 'Conteúdo',
-      content: cleanContent,
-      position: 1
-    })
-  }
-
-  return seifim
+  // Converter para o formato Seif[]
+  return seifim.map((seif, idx) => ({
+    id: seif.number.toString(),
+    title: `Seif ${seif.number}`,
+    content: seif.text,
+    position: seif.number
+  }))
 }
 
 export default function SimanPage() {
