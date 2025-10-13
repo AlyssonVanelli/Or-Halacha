@@ -285,7 +285,7 @@ export default function SimanPage() {
                 </div>
                 <div>
                   <h1 className="text-4xl font-bold text-gray-800">
-                    {siman?.title?.replace(/^Siman\s+\d+\s*[-:]\s*/i, '').trim() || 'Siman'}
+                    {siman?.title?.replace(/^Siman\s+0+(\d+)/i, 'Siman $1').replace(/^Siman\s+\d+\s*[-:]\s*/i, '').trim() || 'Siman'}
                   </h1>
                   {siman?.position && (
                     <div className="mt-2 flex items-center gap-2">

@@ -393,7 +393,7 @@ export default function DivisaoPage() {
                         {/* Conteúdo */}
                         <div className="flex-1">
                           <h3 className="mb-1 text-lg font-semibold text-gray-800">
-                            {siman.title}
+                            {siman.title?.replace(/^Siman\s+0+(\d+)$/i, 'Siman $1') || `Siman ${siman.position}`}
                           </h3>
                           {siman.summary && (
                             <p className="text-sm text-gray-600 line-clamp-2">
