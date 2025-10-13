@@ -100,7 +100,7 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-4">
-                    <Display className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text tracking-tight text-transparent sm:text-5xl md:text-6xl will-change-transform">
+                    <Display className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text tracking-tight text-transparent sm:text-5xl md:text-6xl leading-[1.6] md:leading-[1.6] pb-4 md:pb-6 overflow-visible will-change-transform">
                       Shulchan Aruch em Português
                     </Display>
                     <BodyLarge className="max-w-[700px] text-gray-600">
