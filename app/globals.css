@@ -88,6 +88,9 @@
   /* Tipografia Padronizada */
   .text-display {
     @apply font-sans text-4xl font-bold text-gray-900;
+    line-height: 1.5 !important; /* garante espaço para descendentes */
+    padding-bottom: 0.5rem; /* evita corte visual em navegadores */
+    display: block;
   }
 
   .text-heading-1 {
