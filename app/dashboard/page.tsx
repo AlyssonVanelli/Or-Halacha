@@ -486,6 +486,84 @@ export default function DashboardPage() {
                         </div>
                       </div>
                     </Link>
+
+                    {/* Card de Upgrade para Assinatura - só aparece se tem tratados avulsos */}
+                    {userAccessInfo?.purchasedDivisions && userAccessInfo.purchasedDivisions.length > 0 && !userAccessInfo?.hasActiveSubscription && (
+                      <div className="group relative w-full max-w-sm overflow-hidden rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl border-2 border-green-200">
+                        {/* Header com gradiente verde */}
+                        <div className="h-32 bg-gradient-to-r from-green-500 to-emerald-500 p-6">
+                          <div className="flex items-center justify-between">
+                            <div className="rounded-full bg-white/20 p-3">
+                              <svg
+                                className="h-8 w-8 text-white"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                                />
+                              </svg>
+                            </div>
+                            <div className="rounded-full bg-yellow-400 p-1">
+                              <svg
+                                className="h-4 w-4 text-white"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Conteúdo do card */}
+                        <div className="p-6">
+                          <h3 className="mb-2 text-xl font-bold text-gray-800">✨ Upgrade para Assinatura</h3>
+                          <p className="mb-4 text-sm text-gray-600">
+                            Você tem tratados avulsos. Faça upgrade para acessar toda a biblioteca!
+                          </p>
+
+                          {/* Benefícios */}
+                          <div className="mb-4 space-y-2">
+                            <div className="flex items-center text-sm text-gray-600">
+                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                              </svg>
+                              Acesso a todos os livros
+                            </div>
+                            <div className="flex items-center text-sm text-gray-600">
+                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                              </svg>
+                              Economia significativa
+                            </div>
+                            <div className="flex items-center text-sm text-gray-600">
+                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                              </svg>
+                              Recursos exclusivos
+                            </div>
+                          </div>
+
+                          {/* Botão de ação */}
+                          <Link href="/planos">
+                            <div className="w-full rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg">
+                              Ver Planos de Assinatura
+                            </div>
+                          </Link>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </>

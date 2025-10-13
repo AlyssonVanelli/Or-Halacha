@@ -719,7 +719,17 @@ export default function PerfilPage() {
           {/* Só mostra tratados avulsos se não tiver assinatura ativa */}
           {(!subscription || subscription.status !== 'active') && (
             <section className="mt-8">
-              <h2 className="mb-2 text-xl font-bold">Meus Tratados Avulsos</h2>
+              <div className="mb-6 flex items-center justify-between">
+                <h2 className="text-xl font-bold">Meus Tratados Avulsos</h2>
+                {books.length > 0 && (
+                  <Button
+                    onClick={() => router.push('/planos')}
+                    className="bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
+                  >
+                    ✨ Fazer Upgrade para Assinatura
+                  </Button>
+                )}
+              </div>
               {(() => {
                 // Filtra apenas tratados ativos (não vencidos)
                 const activeBooks = books.filter(book => new Date(book.expires_at) > new Date())
