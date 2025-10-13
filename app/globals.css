@@ -161,8 +161,8 @@
 
 @layer utilities {
   .text-no-clip {
-    line-height: 1.35 !important; /* evita cortar descendentes como g, j, y */
-    padding-bottom: 0.75rem !important; /* afasta da linha de base */
+    line-height: 1.5 !important; /* espaço suficiente para descendentes */
+    padding-bottom: 1rem !important; /* margem inferior para não cortar */
     overflow: visible !important;
   }
 }
