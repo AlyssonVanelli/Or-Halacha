@@ -16,7 +16,7 @@
     "clean": "rimraf .next out"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.3.4",
+    "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
     "@radix-ui/react-avatar": "^1.1.10",
