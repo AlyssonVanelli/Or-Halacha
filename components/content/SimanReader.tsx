@@ -42,11 +42,22 @@ export function tratadoHref(divisionId: string) {
   return `/tratado/${divisionId}`
 }
 
-export function SimanReader({ simanId, initialSeif }: { simanId: string; initialSeif?: number }) {
-  const { user } = useAuth()
+export function SimanReader({
+  simanId,
+  initialSeif,
+  initialData,
+}: {
+  simanId: string
+  initialSeif?: number
+  /** Versão pública vinda do servidor (HTML inicial / SEO) */
+  initialData?: SimanDTO | null
+}) {
+  const { user, loading: authLoading } = useAuth()
   const { toast } = useToast()
-  const [data, setData] = useState<SimanDTO | null>(null)
-  const [status, setStatus] = useState<'loading' | 'ok' | 'notfound' | 'error'>('loading')
+  const [data, setData] = useState<SimanDTO | null>(initialData ?? null)
+  const [status, setStatus] = useState<'loading' | 'ok' | 'notfound' | 'error'>(
+    initialData ? 'ok' : 'loading'
+  )
   const [fontIndex, setFontIndex] = useState(1)
   const [openExplanations, setOpenExplanations] = useState<Set<number>>(new Set())
   const [favorites, setFavorites] = useState<Set<number>>(new Set())
@@ -54,23 +65,30 @@ export function SimanReader({ simanId, initialSeif }: { simanId: string; initial
 
   useEffect(() => setFontIndex(readFontIndex()), [])
 
-  const load = useCallback(async () => {
-    setStatus('loading')
-    try {
-      const res = await fetch(`/api/conteudo/siman/${simanId}`, { cache: 'no-store' })
-      if (res.status === 404) return setStatus('notfound')
-      if (!res.ok) throw new Error(String(res.status))
-      setData(await res.json())
-      setStatus('ok')
-    } catch {
-      setStatus('error')
-    }
-  }, [simanId])
+  const load = useCallback(
+    async (silent = false) => {
+      if (!silent) setStatus('loading')
+      try {
+        const res = await fetch(`/api/conteudo/siman/${simanId}`, { cache: 'no-store' })
+        if (res.status === 404) return setStatus('notfound')
+        if (!res.ok) throw new Error(String(res.status))
+        setData(await res.json())
+        setStatus('ok')
+      } catch {
+        setStatus('error')
+      }
+    },
+    [simanId]
+  )
 
-  // Recarrega quando o login muda (o acesso depende do usuário)
+  // Recarrega quando o login muda (o acesso depende do usuário). Sem login, a versão
+  // pública do servidor já basta.
   useEffect(() => {
-    load()
-  }, [load, user?.id])
+    if (authLoading) return
+    if (!user && initialData) return
+    load(!!initialData)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [load, user?.id, authLoading])
 
   useEffect(() => {
     if (!user) return setFavorites(new Set())
@@ -165,7 +183,7 @@ export function SimanReader({ simanId, initialSeif }: { simanId: string; initial
             : 'Verifique sua conexão e tente novamente.'}
         </p>
         <div className="flex justify-center gap-3">
-          {status === 'error' && <Button onClick={load}>Tentar de novo</Button>}
+          {status === 'error' && <Button onClick={() => load()}>Tentar de novo</Button>}
           <Button variant="outline" asChild>
             <Link href={user ? '/dashboard/biblioteca/shulchan-aruch' : '/livros'}>
               Ir para a biblioteca

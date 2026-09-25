@@ -159,14 +159,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     await supabase.auth.signOut()
   }
 
-  if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="h-10 w-10 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-      </div>
-    )
-  }
-
+  // Sempre renderiza o conteúdo (inclusive no servidor, para o Google ver as páginas).
+  // Quem depende do login deve esperar `loading === false` antes de redirecionar.
   return (
     <AuthContext.Provider value={{ user, loading, syncing, signIn, signOut }}>
       {children}

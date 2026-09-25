@@ -405,6 +405,12 @@ export default function DashboardPage() {
                   </p>
                 </div>
 
+                {simanDoDia && (
+                  <div className="mx-auto mb-10 max-w-xl">
+                    <SimanDoDia siman={simanDoDia} />
+                  </div>
+                )}
+
                 {/* Grid de Livros */}
                 <div className="mx-auto max-w-6xl">
                   <div className="grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 lg:grid-cols-3">

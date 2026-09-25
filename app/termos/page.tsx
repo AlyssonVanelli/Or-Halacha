@@ -23,14 +23,24 @@ export default function Termos() {
               .
             </p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">2. Conta e senha</h2>
-            <p>Você é responsável por manter sua senha em sigilo. Não compartilhe sua conta.</p>
+            <p>
+              Você é responsável por manter sua senha em sigilo. Não compartilhe sua conta. Você
+              pode excluir sua conta a qualquer momento em &quot;Meu perfil&quot; &gt; &quot;Excluir
+              minha conta&quot;.
+            </p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">3. Uso permitido</h2>
             <p>
               É permitido usar o conteúdo para estudo pessoal. Qualquer reprodução deve citar a
               fonte.
             </p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">4. Responsabilidades</h2>
-            <p>Não nos responsabilizamos por uso indevido do conteúdo ou decisões baseadas nele.</p>
+            <p>
+              A tradução do Shulchan Aruch e as explicações práticas foram produzidas com auxílio de
+              inteligência artificial e estão em revisão contínua, podendo conter imprecisões. O
+              conteúdo é destinado ao estudo e não substitui a orientação de um rabino para decisões
+              práticas. Não nos responsabilizamos por uso indevido do conteúdo ou por decisões
+              baseadas nele.
+            </p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">5. Modificações</h2>
             <p>Podemos alterar estes termos a qualquer momento. Avisaremos no site.</p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">6. Contato</h2>

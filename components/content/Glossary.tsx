@@ -54,8 +54,9 @@ export function Glossary({ defaultOpen = false }: { defaultOpen?: boolean }) {
         ))}
       </dl>
       <p className="mt-4 text-xs text-gray-500">
-        Conteúdo para estudo. Para decisões práticas da vida religiosa, consulte um rabino de sua
-        confiança.
+        Conteúdo para estudo. A tradução e as explicações práticas foram produzidas com auxílio de
+        inteligência artificial e estão em revisão contínua; se encontrar um erro, avise pelo
+        suporte. Para decisões práticas da vida religiosa, consulte um rabino de sua confiança.
       </p>
     </details>
   )

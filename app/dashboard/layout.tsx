@@ -13,7 +13,7 @@ interface DashboardLayoutProps {
 }
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
-  const { user } = useAuth()
+  const { user, loading } = useAuth()
   const router = useRouter()
   const pathname = usePathname() || ''
 
@@ -21,12 +21,11 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   useSessionTimeout()
 
   useEffect(() => {
-    // Não redireciona se estiver na página de busca ou se ainda está carregando
-    if (!user && !pathname.startsWith('/search')) {
-      // Redirecionamento imediato
-      router.replace('/login')
+    // Só redireciona depois de confirmar que não há login
+    if (!loading && !user && !pathname.startsWith('/search')) {
+      router.replace(`/login?redirect=${encodeURIComponent(pathname)}`)
     }
-  }, [user, router, pathname])
+  }, [user, loading, router, pathname])
 
   if (!user && !pathname.startsWith('/search')) {
     return (

@@ -60,15 +60,8 @@ export default function Home() {
     loadData()
   }, [])
 
-  if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-        <p className="ml-4 text-lg text-gray-600">Carregando...</p>
-      </div>
-    )
-  }
-
+  // A landing é renderizada mesmo enquanto o login é verificado (visível para o Google);
+  // quem estiver logado é levado ao dashboard pelo efeito acima.
   if (user) {
     return null // Redirecionando para dashboard
   }

@@ -64,7 +64,7 @@ export default function PoliticaCompraPage() {
                   <div className="rounded-lg border p-4">
                     <h3 className="mb-2 text-lg font-semibold">Tratados Individuais</h3>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• Acesso por 30 dias</li>
+                      <li>• Acesso por 1 mês</li>
                       <li>• Compra única</li>
                       <li>• Sem renovação automática</li>
                       <li>• Pode ser recomprado</li>
@@ -134,15 +134,15 @@ export default function PoliticaCompraPage() {
                   <h4 className="mb-2 font-semibold">Formas de Pagamento Aceitas:</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li>• Cartões de crédito (Visa, Mastercard, American Express)</li>
-                    <li>• Cartões de débito</li>
-                    <li>• PIX (quando disponível)</li>
                   </ul>
                 </div>
                 <div className="rounded-lg bg-yellow-50 p-4">
                   <h4 className="mb-2 font-semibold text-yellow-800">Preços:</h4>
                   <ul className="space-y-1 text-sm text-yellow-700">
-                    <li>• Assinatura mensal: R$ 99,90/mês</li>
-                    <li>• Assinatura anual: R$ 79,90/mês (R$ 958,80/ano)</li>
+                    <li>• Mensal Básico: R$ 99,90/mês</li>
+                    <li>• Mensal Plus: R$ 119,90/mês</li>
+                    <li>• Anual Básico: R$ 958,80/ano (equivale a R$ 79,90/mês)</li>
+                    <li>• Anual Plus: R$ 1.078,80/ano (equivale a R$ 89,90/mês)</li>
                     <li>• Tratado individual: R$ 29,90 (30 dias de acesso)</li>
                   </ul>
                 </div>

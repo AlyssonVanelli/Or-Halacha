@@ -11,17 +11,18 @@ interface DashboardAccessGuardProps {
 }
 
 export function DashboardAccessGuard({ children }: DashboardAccessGuardProps) {
-  const { user } = useAuth()
+  const { user, loading: authLoading } = useAuth()
   const router = useRouter()
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    if (authLoading) return
     if (!user) {
       router.push('/login')
     } else {
       setLoading(false)
     }
-  }, [user, router])
+  }, [user, authLoading, router])
 
   if (loading) {
     return (

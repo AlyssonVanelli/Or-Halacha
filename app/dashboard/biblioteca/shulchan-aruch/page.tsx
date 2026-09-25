@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { Glossary } from '@/components/content/Glossary'
-import { DIVISION_BLURBS } from '@/components/content/DivisionIndexView'
+import { DIVISION_BLURBS } from '@/lib/content/divisions'
 import { tratadoHref } from '@/components/content/SimanReader'
 
 interface Division {

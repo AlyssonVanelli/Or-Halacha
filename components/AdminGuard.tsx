@@ -8,12 +8,13 @@ interface AdminGuardProps {
 }
 
 export default function AdminGuard({ children }: AdminGuardProps) {
-  const { user } = useAuth()
+  const { user, loading: authLoading } = useAuth()
   const [isAdmin, setIsAdmin] = useState<boolean | null>(null)
   const [loading, setLoading] = useState(true)
   const router = useRouter()
 
   useEffect(() => {
+    if (authLoading) return
     if (user) {
       const supabase = createClient()
       supabase
@@ -32,7 +33,7 @@ export default function AdminGuard({ children }: AdminGuardProps) {
     } else if (!user) {
       router.push('/login')
     }
-  }, [user, router])
+  }, [user, authLoading, router])
 
   if (loading || isAdmin === null) {
     return (

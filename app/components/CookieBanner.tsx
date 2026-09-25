@@ -1,4 +1,5 @@
-// /components/CookieBanner.tsx
+'use client'
+
 import { useAuth } from '@/contexts/auth-context'
 import { useEffect, useState } from 'react'
 

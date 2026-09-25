@@ -8,29 +8,27 @@ import { useAuth } from '@/contexts/auth-context'
 import { Glossary } from '@/components/content/Glossary'
 import { simanHref } from '@/components/content/SimanReader'
 import type { DivisionIndex } from '@/lib/content/server'
-
-// Descrição curta de cada tratado para quem está começando
-export const DIVISION_BLURBS: Record<string, string> = {
-  'Orach Chayim':
-    'O dia a dia judaico: despertar, rezas, bênçãos, tefilin, Shabat e festas do calendário.',
-  "Yoreh De'ah":
-    'Alimentação kasher, abate, mistura de carne e leite, pureza familiar, luto, caridade e estudo.',
-  'Even HaEzer': 'Casamento, ketubá, obrigações entre marido e mulher e divórcio (guet).',
-  'Choshen Mishpat':
-    'Direito civil: tribunais, testemunhas, empréstimos, compras e vendas, danos e heranças.',
-}
+import { DIVISION_BLURBS } from '@/lib/content/divisions'
 
 function normalize(s: string) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 }
 
-export function DivisionIndexView({ divisionId }: { divisionId: string }) {
+export function DivisionIndexView({
+  divisionId,
+  initialIndex,
+}: {
+  divisionId: string
+  /** Índice já carregado no servidor (HTML inicial / SEO) */
+  initialIndex?: DivisionIndex | null
+}) {
   const { user } = useAuth()
-  const [index, setIndex] = useState<DivisionIndex | null>(null)
-  const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading')
+  const [index, setIndex] = useState<DivisionIndex | null>(initialIndex ?? null)
+  const [status, setStatus] = useState<'loading' | 'ok' | 'error'>(initialIndex ? 'ok' : 'loading')
   const [filter, setFilter] = useState('')
 
   useEffect(() => {
+    if (initialIndex) return
     let cancelled = false
     setStatus('loading')
     fetch(`/api/conteudo/divisao/${divisionId}`)
@@ -45,7 +43,7 @@ export function DivisionIndexView({ divisionId }: { divisionId: string }) {
     return () => {
       cancelled = true
     }
-  }, [divisionId])
+  }, [divisionId, initialIndex])
 
   const filtered = useMemo(() => {
     if (!index) return []

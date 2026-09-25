@@ -14,6 +14,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { SubscriptionActions } from '@/components/SubscriptionActions'
 import { RenewalModal } from '@/components/RenewalModal'
+import { DeleteAccountSection } from '@/components/DeleteAccountSection'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -571,6 +572,7 @@ export default function PerfilPage() {
                     {passwordLoading ? 'Salvando...' : 'Alterar senha'}
                   </Button>
                 </form>
+                <DeleteAccountSection />
               </div>
             </div>
             {/* Coluna direita: Assinatura + Histórico */}

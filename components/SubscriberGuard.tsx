@@ -8,11 +8,12 @@ interface SubscriberGuardProps {
 }
 
 export default function SubscriberGuard({ children }: SubscriberGuardProps) {
-  const { user } = useAuth()
+  const { user, loading } = useAuth()
   const [isSubscriber, setIsSubscriber] = useState<boolean | null>(null)
   const router = useRouter()
 
   useEffect(() => {
+    if (loading) return
     if (user) {
       supabase
         .from('subscriptions')
@@ -26,7 +27,7 @@ export default function SubscriberGuard({ children }: SubscriberGuardProps) {
     } else if (!user) {
       router.push('/login')
     }
-  }, [user, router])
+  }, [user, loading, router])
 
   if (isSubscriber === null) {
     return (

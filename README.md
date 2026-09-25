@@ -1,240 +1,96 @@
-# Or Halacha
+# Or Halachá
 
-Uma plataforma moderna, segura e escalável para estudo e consulta de Halachá (Lei Judaica).
+O Shulchan Aruch em português — https://www.or-halacha.com.br
 
-## 🚀 Tecnologias
+Leitura por tratado e siman, siman do dia gratuito, busca sem acento, favoritos e, no plano Plus,
+explicações práticas por seif.
 
-- [Next.js 14](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Supabase](https://supabase.io/)
-- [Jest](https://jestjs.io/) e [React Testing Library](https://testing-library.com/)
-- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) (Airbnb Style Guide)
+## Tecnologias
 
-## 📋 Pré-requisitos
+- [Next.js 15](https://nextjs.org/) (App Router) + TypeScript + Tailwind CSS
+- [Supabase](https://supabase.com/) — Postgres, Auth e Storage
+- [Stripe](https://stripe.com/) — assinaturas, compra avulsa, portal do cliente e reembolsos
+- [Vercel](https://vercel.com/) — hospedagem e Web Analytics
+- pnpm (gerenciador de pacotes usado na Vercel e no CI)
 
-- Node.js 18+
-- pnpm 8+
-- PostgreSQL 14+
-- Docker (opcional)
-
-## 🔧 Instalação
-
-1. Clone o repositório:
+## Rodando localmente
 
 ```bash
-git clone https://github.com/AlyssonVanelli/Or-Halacha.git
-cd Or-Halacha
-```
-
-2. Instale as dependências:
-
-```bash
-npm install
-# ou
 pnpm install
+pnpm dev          # http://localhost:3000
 ```
 
-3. Configure as variáveis de ambiente:
+Variáveis de ambiente: veja [docs/environment-variables.md](docs/environment-variables.md).
+Use chaves de **teste** do Stripe no `.env.local`.
 
 ```bash
-# Crie um arquivo .env.local com as seguintes variáveis:
-# Veja docs/environment-variables.md para detalhes completos
+pnpm type-check   # TypeScript
+pnpm lint         # ESLint
+pnpm build        # build de produção
 ```
 
-4. Inicie o servidor de desenvolvimento:
+O hook de pre-commit (husky) roda `lint-staged` (ESLint + Prettier nos arquivos alterados).
+Mensagens de commit seguem o [Conventional Commits](https://www.conventionalcommits.org/).
 
-```bash
-npm run dev
-# ou
-pnpm dev
-```
+## Arquitetura
 
-5. Acesse a aplicação em: http://localhost:3000
+### Conteúdo e controle de acesso
 
-## 🧪 Testes
+O texto do Shulchan Aruch **nunca é lido direto pelo navegador**. As tabelas `content` e
+`sections` só são acessíveis pelo servidor (service role); as rotas aplicam as regras de acesso:
 
-```bash
-# Executar todos os testes
-pnpm test
+| Quem                       | O que lê                                                                  |
+| -------------------------- | ------------------------------------------------------------------------- |
+| Visitante / conta gratuita | índice de todos os tratados, 1º seif de cada siman, siman do dia completo |
+| Tratado avulso (1 mês)     | tudo daquele tratado                                                      |
+| Assinatura Básica          | todos os tratados                                                         |
+| Assinatura Plus            | + explicações práticas                                                    |
 
-# Executar testes com cobertura
-pnpm test:coverage
-```
+- `lib/content/server.ts` — acesso do usuário, siman, índice do tratado, siman do dia
+- `lib/content/format.ts` — assunto do siman, divisão em seifim, busca sem acento
+- `app/api/conteudo/siman/[simanId]` e `app/api/conteudo/divisao/[divisionId]`
+- `app/api/search` — busca via função `search_sections` (unaccent) no banco
+- `app/api/explicacao-pratica`, `app/api/favoritos`, `app/api/siman-do-dia`
 
-## 📦 Build
+### Páginas principais
 
-```bash
-# Criar build de produção
-pnpm build
+- `/` — landing com siman do dia
+- `/siman/[simanId]` — leitor (renderizado no servidor, com título/descrição por siman)
+- `/tratado/[divisionId]` — índice do tratado com busca por número/assunto
+- `/dashboard` — área logada (biblioteca, favoritos, perfil)
+- `/search`, `/planos`, `/reset-password`, `/update-password`
+- `app/sitemap.ts` — sitemap com todos os tratados e simanim
 
-# Iniciar servidor de produção
-pnpm start
-```
+### Pagamentos (Stripe)
 
-## 🔍 Linting e Formatação
+- Checkout: `app/api/create-subscription-checkout`, `app/api/checkout/create`,
+  `app/api/create-treatise-payment`
+- Webhook: `app/api/webhooks/stripe` → `lib/subscription-sync.ts` (grava com service role)
+- Portal do cliente (trocar plano/cartão): `lib/billing-portal.ts`
+- Cancelar / reativar / reembolsar: `app/api/subscription/*`, `app/api/refund`
+- Proteção: plano anual só é vendido se o preço no Stripe for anual (`planIntervalError`)
 
-```bash
-# Verificar linting
-pnpm lint
+### Banco de dados
 
-# Corrigir problemas de linting
-pnpm lint:fix
+Migrations em `supabase/migrations/` (aplicar em ordem). As de 2026-09 definem o RLS atual:
+usuários só leem os próprios dados; conteúdo e dados pessoais só pelo servidor.
 
-# Verificar formatação
-pnpm format:check
+### Autenticação
 
-# Formatar código
-pnpm format
-```
+- `contexts/auth-context.tsx` — usuário atual no cliente (esperar `loading` antes de redirecionar)
+- `lib/api-auth.ts` — `getAuthenticatedUser()` nas rotas; nunca confiar em `userId` do corpo
+- `app/auth/callback` — links de e-mail (confirmação e recuperação de senha)
+- `app/api/account/delete` — exclusão de conta pelo titular (LGPD)
 
-## 📚 Estrutura do Projeto
+## Deploy
 
-```
-├── app/                    # App Router do Next.js 14
-│   ├── api/               # API Routes
-│   ├── components/        # Componentes específicos da app
-│   ├── contexts/          # Contextos React
-│   ├── dashboard/         # Páginas do dashboard
-│   ├── lib/               # Utilitários específicos da app
-│   └── page.tsx          # Página inicial
-├── components/            # Componentes React reutilizáveis
-│   ├── ui/               # Componentes de UI (Radix UI + Tailwind)
-│   └── ...              # Outros componentes
-├── contexts/              # Contextos React globais
-├── hooks/                 # Custom hooks
-├── lib/                   # Utilitários e configurações
-│   ├── supabase/         # Configuração do Supabase
-│   └── ...              # Outros utilitários
-├── public/                # Arquivos estáticos
-├── styles/                # Estilos globais
-├── types/                 # Definições de tipos TypeScript
-├── supabase/              # Configuração do Supabase
-└── docs/                  # Documentação
-```
+Push na branch `main` → deploy automático na Vercel. O GitHub Actions (`.github/workflows/ci.yml`)
+roda type-check, lint e build.
 
-## 🤝 Contribuindo
+## Pendências
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'feat: minha nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
+Veja [Todo.md](Todo.md).
 
-## 📝 Convenções de Commit
+## Licença
 
-Este projeto segue o [Conventional Commits](https://www.conventionalcommits.org/):
-
-- `feat:` - Nova feature
-- `fix:` - Correção de bug
-- `docs:` - Documentação
-- `style:` - Formatação de código
-- `refactor:` - Refatoração de código
-- `test:` - Adição ou modificação de testes
-- `chore:` - Tarefas de manutenção
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🔐 Segurança
-
-- Nenhum dado sensível é armazenado no repositório
-- Autenticação via Supabase Auth
-- Validação de entrada e saída com Zod
-- Proteção contra CSRF e XSS
-- Headers de segurança configurados
-
-## 🚀 Deploy
-
-O projeto está configurado para deploy automático na Vercel. Cada push para a branch `main` gera um novo deploy.
-
-## 📞 Suporte
-
-Para suporte, envie um email para contato@or-halacha.com ou abra uma issue no GitHub.
-
-## 🐳 Docker
-
-### Desenvolvimento
-
-Para iniciar o ambiente de desenvolvimento com Docker:
-
-```bash
-# Construir e iniciar os containers
-docker-compose up
-
-# Em outro terminal, para ver os logs
-docker-compose logs -f
-
-# Para parar os containers
-docker-compose down
-```
-
-### Produção
-
-Para executar em produção:
-
-```bash
-# Construir e iniciar o container de produção
-docker-compose up app-prod
-
-# Para parar
-docker-compose down
-```
-
-### Comandos Úteis
-
-```bash
-# Reconstruir os containers após mudanças no Dockerfile
-docker-compose build
-
-# Executar comandos dentro do container
-docker-compose exec app pnpm <comando>
-
-# Ver logs de um serviço específico
-docker-compose logs -f app
-
-# Remover containers e volumes
-docker-compose down -v
-```
-
-## 🛠️ Desenvolvimento com Dev Container
-
-Este projeto inclui configuração para Dev Container do VSCode, que oferece um ambiente de desenvolvimento consistente e isolado.
-
-### Pré-requisitos
-
-- [VSCode](https://code.visualstudio.com/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extensão do VSCode
-
-### Como usar
-
-1. Clone o repositório
-2. Abra o projeto no VSCode
-3. Quando solicitado, clique em "Reopen in Container" ou use o comando `Remote-Containers: Reopen in Container` do VSCode
-4. Aguarde a construção do container e instalação das dependências
-
-O Dev Container já inclui:
-
-- Node.js 18
-- pnpm 8
-- Extensões úteis do VSCode
-- Configurações de formatação e linting
-- Hot reload para desenvolvimento
-
-### Comandos Úteis
-
-```bash
-# Iniciar o servidor de desenvolvimento
-pnpm dev
-
-# Executar testes
-pnpm test
-
-# Executar linting
-pnpm lint
-
-# Executar formatação
-pnpm format
-```
+Uso exclusivo — veja [LICENCA_DE_USO_EXCLUSIVO.md](LICENCA_DE_USO_EXCLUSIVO.md).

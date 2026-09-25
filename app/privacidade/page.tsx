@@ -18,31 +18,67 @@ export default function Privacidade() {
             <h2 className="mb-2 mt-6 text-xl font-semibold">1. Dados que coletamos</h2>
             <ul className="mb-4 list-disc pl-6">
               <li>
-                <strong>Dados de conta:</strong> nome, e-mail, foto (opcional).
+                <strong>Dados de conta:</strong> e-mail, nome e foto (opcionais).
               </li>
               <li>
-                <strong>Dados de uso:</strong> logs de acesso, histórico de navegação no dashboard.
+                <strong>Dados de uso da conta:</strong> seifim favoritados, assinatura ou tratado
+                comprado, registros de consentimento e pedidos de suporte.
               </li>
               <li>
-                <strong>Cookies:</strong> essenciais, analytics e marketing, conforme seu
-                consentimento.
+                <strong>Pagamento:</strong> feito diretamente no Stripe. Não armazenamos dados do
+                seu cartão.
+              </li>
+              <li>
+                <strong>Estatísticas:</strong> contagem agregada e anônima de visitas às páginas,
+                sem identificar você.
+              </li>
+              <li>
+                <strong>Cookies:</strong> essenciais (login e preferências) e, se você autorizar,
+                analytics e marketing.
               </li>
             </ul>
             <h2 className="mb-2 mt-6 text-xl font-semibold">2. Finalidades</h2>
             <ul className="mb-4 list-disc pl-6">
-              <li>Autenticar e autorizar acesso (sessão única).</li>
-              <li>Melhorar a plataforma via estatísticas (analytics).</li>
-              <li>Enviar notificações e promoções (marketing), se autorizado.</li>
+              <li>Criar e autenticar sua conta e liberar o conteúdo contratado.</li>
+              <li>Processar pagamentos, cancelamentos e reembolsos.</li>
+              <li>Responder pedidos de suporte.</li>
+              <li>Melhorar a plataforma com estatísticas anônimas.</li>
+              <li>Enviar novidades e promoções, somente se você autorizar.</li>
             </ul>
             <h2 className="mb-2 mt-6 text-xl font-semibold">3. Compartilhamento</h2>
-            <p>
-              Nunca vendemos seus dados. Podemos compartilhar dados anonimizados para estatísticas
-              gerais.
+            <p className="mb-2">
+              Nunca vendemos seus dados. Eles são tratados apenas pelos serviços necessários para o
+              site funcionar:
+            </p>
+            <ul className="mb-4 list-disc pl-6">
+              <li>
+                <strong>Supabase</strong> — banco de dados e login;
+              </li>
+              <li>
+                <strong>Stripe</strong> — pagamentos;
+              </li>
+              <li>
+                <strong>Vercel</strong> — hospedagem e estatísticas anônimas;
+              </li>
+              <li>
+                <strong>provedor de e-mail</strong> — envio de e-mails de conta e suporte.
+              </li>
+            </ul>
+            <p className="mb-4">
+              Esses serviços podem armazenar dados fora do Brasil, com garantias contratuais de
+              proteção.
             </p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">4. Seus direitos (LGPD)</h2>
             <ul className="mb-4 list-disc pl-6">
-              <li>Acessar, corrigir ou excluir seus dados.</li>
-              <li>Revogar consentimento a qualquer momento.</li>
+              <li>Acessar e corrigir seus dados em &quot;Meu perfil&quot;.</li>
+              <li>
+                Excluir sua conta e seus dados a qualquer momento em &quot;Meu perfil&quot; &gt;
+                &quot;Excluir minha conta&quot;.
+              </li>
+              <li>Revogar consentimentos a qualquer momento.</li>
+              <li>
+                Registros de pagamento podem ser mantidos pelo Stripe pelo prazo exigido em lei.
+              </li>
             </ul>
             <h2 className="mb-2 mt-6 text-xl font-semibold">5. Contato</h2>
             <p>

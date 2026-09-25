@@ -54,11 +54,11 @@ export default function PoliticaReembolsoPage() {
                     <h3 className="mb-2 text-lg font-semibold text-green-800">Assinaturas</h3>
                     <ul className="space-y-2 text-sm text-green-700">
                       <li>
-                        • <strong>7 dias</strong> para cancelamento e reembolso
+                        • <strong>7 dias</strong> a partir da compra para pedir reembolso
                       </li>
-                      <li>• Reembolso integral se não utilizou o serviço</li>
-                      <li>• Reembolso proporcional após uso parcial</li>
-                      <li>• Processamento em até 5 dias úteis</li>
+                      <li>• Reembolso integral dentro desse prazo (direito de arrependimento)</li>
+                      <li>• Pedido pelo próprio perfil, em “Solicitar reembolso”</li>
+                      <li>• Depois de 7 dias: cancelamento sem cobrança futura, sem reembolso</li>
                     </ul>
                   </div>
                   <div className="rounded-lg border bg-blue-50 p-4">
@@ -67,11 +67,10 @@ export default function PoliticaReembolsoPage() {
                     </h3>
                     <ul className="space-y-2 text-sm text-blue-700">
                       <li>
-                        • <strong>3 dias</strong> para cancelamento e reembolso
+                        • <strong>7 dias</strong> a partir da compra para pedir reembolso
                       </li>
-                      <li>• Reembolso integral se não acessou o conteúdo</li>
-                      <li>• Sem reembolso após uso do tratado</li>
-                      <li>• Processamento em até 3 dias úteis</li>
+                      <li>• Reembolso integral dentro desse prazo (direito de arrependimento)</li>
+                      <li>• Compra única, sem renovação automática</li>
                     </ul>
                   </div>
                 </div>
@@ -127,10 +126,10 @@ export default function PoliticaReembolsoPage() {
                       1
                     </Badge>
                     <div>
-                      <h4 className="font-semibold">Entre em Contato</h4>
+                      <h4 className="font-semibold">Acesse seu perfil</h4>
                       <p className="text-sm text-gray-600">
-                        Envie um email para suporte@or-halacha.com com o assunto &quot;Solicitação
-                        de Reembolso&quot;.
+                        Entre na sua conta e abra &quot;Meu perfil&quot;. Se preferir, fale com o
+                        suporte pela página /suporte.
                       </p>
                     </div>
                   </div>
@@ -139,10 +138,10 @@ export default function PoliticaReembolsoPage() {
                       2
                     </Badge>
                     <div>
-                      <h4 className="font-semibold">Forneça as Informações</h4>
+                      <h4 className="font-semibold">Clique em &quot;Solicitar reembolso&quot;</h4>
                       <p className="text-sm text-gray-600">
-                        Inclua: email da conta, data da compra, motivo do reembolso e comprovante de
-                        pagamento.
+                        Confirme o pedido. Dentro de 7 dias da compra, o reembolso é feito na hora,
+                        sem análise.
                       </p>
                     </div>
                   </div>
@@ -151,9 +150,9 @@ export default function PoliticaReembolsoPage() {
                       3
                     </Badge>
                     <div>
-                      <h4 className="font-semibold">Aguarde a Análise</h4>
+                      <h4 className="font-semibold">Acesso encerrado</h4>
                       <p className="text-sm text-gray-600">
-                        Analisaremos sua solicitação em até 48 horas e responderemos por email.
+                        A assinatura é cancelada e o acesso pago termina no mesmo momento.
                       </p>
                     </div>
                   </div>
@@ -164,7 +163,8 @@ export default function PoliticaReembolsoPage() {
                     <div>
                       <h4 className="font-semibold">Processamento</h4>
                       <p className="text-sm text-gray-600">
-                        Se aprovado, o reembolso será processado em até 5 dias úteis.
+                        O estorno é enviado ao cartão na hora; o prazo para aparecer na fatura
+                        depende do banco (normalmente de 5 a 10 dias úteis).
                       </p>
                     </div>
                   </div>
@@ -185,16 +185,8 @@ export default function PoliticaReembolsoPage() {
                   <h4 className="mb-2 font-semibold">Métodos de Reembolso:</h4>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>
-                      • <strong>Cartão de crédito:</strong> Estorno automático na próxima fatura
-                    </li>
-                    <li>
-                      • <strong>Cartão de débito:</strong> Estorno em até 30 dias
-                    </li>
-                    <li>
-                      • <strong>PIX:</strong> Transferência para conta bancária
-                    </li>
-                    <li>
-                      • <strong>PayPal:</strong> Reembolso para a conta PayPal
+                      • <strong>Cartão:</strong> estorno no mesmo cartão usado na compra; o prazo
+                      para aparecer na fatura depende do banco emissor
                     </li>
                   </ul>
                 </div>
