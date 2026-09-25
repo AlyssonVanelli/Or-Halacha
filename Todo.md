@@ -14,13 +14,13 @@ Atualizado em 26/09/2026. Ordem = prioridade.
 ### Deploy
 
 - [ ] Conferir na Vercel: `SUPABASE_SERVICE_ROLE_KEY`, `NEXT_PUBLIC_BASE_URL`, `ADMIN_SECRET_TOKEN` (ver `docs/environment-variables.md`)
-- [ ] Definir gerenciador de pacotes (npm ou pnpm) e apagar o lockfile que sobrar (`package-lock.json` / `pnpm-lock.yaml`)
-- [ ] Deploy na Vercel
-- [ ] **Logo após o deploy**, aplicar no Supabase (nesta ordem):
-  - [ ] `supabase/migrations/20260926000000_harden_rls_pagamentos.sql`
-  - [ ] `supabase/migrations/20260926010000_protect_content_and_pii.sql`
+- [x] Gerenciador de pacotes: pnpm (package-lock.json removido)
+- [x] Deploy na Vercel (commit 213e30e, Next 15.5.9 com correção de CVE)
+- [x] **Logo após o deploy**, aplicar no Supabase (nesta ordem):
+  - [x] `supabase/migrations/20260926000000_harden_rls_pagamentos.sql`
+  - [x] `supabase/migrations/20260926010000_protect_content_and_pii.sql`
   - [x] `supabase/migrations/20260927000000_busca_sem_acento.sql` (já aplicada)
-- [ ] Depois das migrations, conferir que o conteúdo NÃO é mais legível pela chave anon (content, sections, support_requests)
+- [x] Conferido: content, sections, support_requests, perfis, compras e assinaturas bloqueados para a chave anon
 
 ### Testes em produção (após deploy)
 
@@ -39,10 +39,10 @@ Atualizado em 26/09/2026. Ordem = prioridade.
 
 ## 🟡 Produto / marca
 
-- [ ] Registrar domínio
+- [x] Registrar domínio (www.or-halacha.com.br)
 - [ ] Registrar patente/marca
 - [ ] **Unificar email do suporte** — hoje há 3 domínios: `suporte@orhalacha.com.br` (rodapé), `suporte@orhalacha.com` (/suporte), `suporte@or-halacha.com` (políticas). Também `termos@` e `privacidade@`
-- [ ] Após o domínio: trocar `or-halacha.vercel.app` nas meta tags (`app/layout.tsx`), `public/robots.txt`, `public/sitemap.xml` e `NEXT_PUBLIC_BASE_URL`
+- [x] Domínio www.or-halacha.com.br no código (meta tags, robots, sitemap)`n- [ ] Conferir `NEXT_PUBLIC_BASE_URL=https://www.or-halacha.com.br` na Vercel
 - [ ] Botão de upgrade: hoje "Mudar plano" abre o portal do Stripe (depende do item do Customer Portal acima)
 - [ ] Revisar textos das políticas (compra, reembolso, cópia) com o que o site realmente faz (ex.: reembolso em 7 dias, sem "suporte prioritário")
 
@@ -58,5 +58,5 @@ Atualizado em 26/09/2026. Ordem = prioridade.
 
 ## 🧹 Limpeza
 
-- [ ] Apagar `.claude/launch.json` (usado só no teste local)
+- [x] Apagar `.claude/launch.json`
 - [ ] Após confirmar tudo em produção, apagar o backup `Or-Halacha-backup-2026-09-26.zip` da Área de Trabalho (contém o `.env`)

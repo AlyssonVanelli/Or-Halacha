@@ -11,7 +11,7 @@
 --     Escritas são feitas apenas pelo servidor (service role: webhook do
 --     Stripe e rotas de API).
 --   * profiles: usuário lê/edita só o próprio perfil e apenas as colunas
---     full_name, avatar_url, current_session_id e updated_at.
+--     full_name, avatar_url e updated_at.
 --
 -- IMPORTANTE: o servidor precisa da variável SUPABASE_SERVICE_ROLE_KEY
 -- configurada (Vercel) ANTES de aplicar esta migration.
@@ -65,7 +65,7 @@ ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
 REVOKE ALL ON public.profiles FROM anon, authenticated;
 GRANT SELECT ON public.profiles TO authenticated;
 -- Apenas colunas editáveis pelo próprio usuário
-GRANT UPDATE (full_name, avatar_url, current_session_id, updated_at)
+GRANT UPDATE (full_name, avatar_url, updated_at)
   ON public.profiles TO authenticated;
 GRANT INSERT (id, full_name, avatar_url, created_at, updated_at)
   ON public.profiles TO authenticated;
