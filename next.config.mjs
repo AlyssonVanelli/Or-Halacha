@@ -45,11 +45,12 @@ const nextConfig = {
           value:
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://api.stripe.com https://*.supabase.co; frame-src 'self' https://js.stripe.com;",
         },
-        {
-          key: 'X-Robots-Tag',
-          value: 'noindex, nofollow, nosnippet, noarchive',
-        },
       ],
+    },
+    // Área logada e APIs fora dos buscadores; o resto do site é indexável
+    {
+      source: '/(dashboard|api)/:path*',
+      headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
     },
     {
       source: '/api/:path*',

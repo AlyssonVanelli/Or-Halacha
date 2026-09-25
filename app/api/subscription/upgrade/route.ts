@@ -1,12 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
 import Stripe from 'stripe'
-
-// Função para obter a URL base correta
-function getBaseUrl() {
-  // SEMPRE usar a URL de produção correta (não a URL de desenvolvimento do Vercel)
-  return 'https://or-halacha.vercel.app'
-}
+import { getBaseUrl } from '@/lib/api-auth'
+import { planIntervalError } from '@/lib/stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
@@ -44,36 +40,25 @@ export async function POST(request: NextRequest) {
     }
 
     // Mapear planos para price_ids corretos do Stripe
-    const planMapping = {
-      'mensal-basico':
-        process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL || 'price_1RQCoOFLuMsSi0YiBmCrrM1r',
-      'mensal-plus':
-        process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS || 'price_1RQCoOFLuMsSi0YiBmCrrM1r',
-      'anual-basico':
-        process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL || 'price_1RQCoOFLuMsSi0YiBmCrrM1r',
-      'anual-plus':
-        process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS || 'price_1RQCoOFLuMsSi0YiBmCrrM1r',
+    const planMapping: Record<string, string | undefined> = {
+      'mensal-basico': process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL,
+      'mensal-plus': process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS,
+      'anual-basico': process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL,
+      'anual-plus': process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS,
     }
 
-    const newPriceId = planMapping[planType as keyof typeof planMapping]
-
-    console.log('=== DEBUG UPGRADE ===')
-    console.log('planType recebido:', planType)
-    console.log('newPriceId mapeado:', newPriceId)
-    console.log('Variáveis de ambiente:')
-    console.log('- NEXT_PUBLIC_STRIPE_PRICE_MENSAL:', process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL)
-    console.log(
-      '- NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS:',
-      process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS
-    )
-    console.log('- NEXT_PUBLIC_STRIPE_PRICE_ANUAL:', process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL)
-    console.log(
-      '- NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS:',
-      process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS
-    )
-
+    const newPriceId = planMapping[planType]
     if (!newPriceId) {
       return NextResponse.json({ error: 'Tipo de plano inválido' }, { status: 400 })
+    }
+
+    const intervalError = planIntervalError(planType, await stripe.prices.retrieve(newPriceId))
+    if (intervalError) {
+      console.error(intervalError)
+      return NextResponse.json(
+        { error: 'Plano temporariamente indisponível. Entre em contato com o suporte.' },
+        { status: 500 }
+      )
     }
 
     // Buscar customer no Stripe

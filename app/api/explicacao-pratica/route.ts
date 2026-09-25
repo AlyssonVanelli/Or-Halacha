@@ -1,35 +1,55 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/server'
+import { getAuthenticatedUser, unauthorizedResponse } from '@/lib/api-auth'
+import { createAdminClient } from '@/lib/supabase/admin'
+import { canReadDivision, getUserAccess, resolveDivisionId } from '@/lib/content/server'
 
 export async function POST(req: Request) {
   try {
-    const { userId, simanId, seif } = await req.json()
-    const supabase = await createClient()
-    // Verifica assinatura ativa e se tem direito à explicação prática
-    const { data: assinatura } = await supabase
-      .from('subscriptions')
-      .select('*')
-      .eq('user_id', userId)
-      .eq('status', 'active')
-      .maybeSingle()
-    if (!assinatura || !assinatura.explicacao_pratica) {
+    const { user } = await getAuthenticatedUser()
+    if (!user) return unauthorizedResponse()
+
+    const { simanId, seif } = await req.json()
+    if (!simanId || seif === undefined) {
+      return NextResponse.json({ error: 'Siman e seif são obrigatórios.' }, { status: 400 })
+    }
+
+    const access = await getUserAccess(user.id)
+    if (!access.isPlus) {
       return NextResponse.json(
         {
-          error:
-            'A explicação prática está disponível apenas para assinantes do plano Plus.\n\n<a href="/upgrade" class="font-semibold text-blue-600 underline">Clique aqui para fazer upgrade</a>',
+          error: 'A explicação prática está disponível apenas para assinantes do plano Plus.',
+          upgradeUrl: '/planos',
         },
         { status: 403 }
       )
     }
-    // Busca explicação prática
-    const { data } = await supabase
+
+    const admin = createAdminClient()
+    const { data: chapter } = await admin
+      .from('chapters')
+      .select('division_id, appendix_type')
+      .eq('id', simanId)
+      .maybeSingle()
+    const divisionId = chapter
+      ? await resolveDivisionId(
+          chapter.division_id as string | null,
+          chapter.appendix_type as string | null
+        )
+      : null
+    if (!chapter || !canReadDivision(access, divisionId)) {
+      return NextResponse.json({ error: 'Sem acesso a este siman.' }, { status: 403 })
+    }
+
+    const { data } = await admin
       .from('sections')
       .select('practical_explanation')
       .eq('chapter_id', simanId)
-      .eq('number', seif)
-      .single()
+      .eq('number', Number(seif))
+      .maybeSingle()
+
     return NextResponse.json({ practical_explanation: data?.practical_explanation || '' })
   } catch (error) {
+    console.error('Erro ao buscar explicação prática:', error)
     return NextResponse.json({ error: 'Erro ao buscar explicação prática.' }, { status: 500 })
   }
 }

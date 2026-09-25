@@ -2,14 +2,17 @@ import { NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import nodemailer from 'nodemailer'
 import { z } from 'zod'
+import { getAuthenticatedUser } from '@/lib/api-auth'
 
 // Schema de validação
 const requestSchema = z.object({
-  user_id: z.string().nullable(),
-  name: z.string().min(1, 'Nome é obrigatório'),
-  email: z.string().email('Email inválido'),
-  subject: z.string(),
-  message: z.string().min(10, 'Mensagem deve ter pelo menos 10 caracteres'),
+  name: z.string().trim().min(1, 'Nome é obrigatório').max(200),
+  email: z.string().email('Email inválido').max(320),
+  subject: z
+    .string()
+    .max(200)
+    .transform(s => s.replace(/[\r\n]+/g, ' ')),
+  message: z.string().min(10, 'Mensagem deve ter pelo menos 10 caracteres').max(5000),
 })
 
 const transporter = nodemailer.createTransport({
@@ -31,9 +34,14 @@ export async function POST(request: Request) {
     const body = await request.json()
     const validatedData = requestSchema.parse(body)
 
+    // user_id vem da sessão (se logado), nunca do corpo da requisição
+    const { user } = await getAuthenticatedUser()
+
     // Salvar no Supabase
     const supabase = createClient(supabaseUrl, supabaseKey)
-    const { error: dbError } = await supabase.from('support_requests').insert([validatedData])
+    const { error: dbError } = await supabase
+      .from('support_requests')
+      .insert([{ ...validatedData, user_id: user?.id ?? null }])
 
     if (dbError) {
       throw dbError

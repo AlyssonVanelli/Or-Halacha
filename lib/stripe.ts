@@ -85,6 +85,110 @@ export async function getOrCreateCustomer(
   }
 }
 
+// Retorna o stripe_customer_id do usuário autenticado, criando o customer se necessário.
+// Grava no profile com service role (o usuário não pode alterar stripe_customer_id via RLS).
+export async function ensureStripeCustomerId(user: { id: string; email?: string }) {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
+  const { createAdminClient } = await import('@/lib/supabase/admin')
+  const admin = createAdminClient()
+
+  const { data: profile } = await admin
+    .from('profiles')
+    .select('stripe_customer_id')
+    .eq('id', user.id)
+    .maybeSingle()
+
+  if (profile?.stripe_customer_id) {
+    // O customer salvo pode não existir nesta conta Stripe (criado em modo teste, apagado
+    // manualmente etc.). Nesse caso cria um novo em vez de quebrar o checkout.
+    try {
+      const existing = await stripe.customers.retrieve(profile.stripe_customer_id)
+      if (!('deleted' in existing && existing.deleted)) {
+        return profile.stripe_customer_id
+      }
+    } catch (err) {
+      const code = (err as { code?: string }).code
+      if (code !== 'resource_missing') throw err
+    }
+    console.warn('stripe_customer_id inválido no perfil; criando novo customer', user.id)
+  }
+
+  const customer = await stripe.customers.create({
+    email: user.email,
+    metadata: { userId: user.id },
+  })
+
+  const { error } = await admin.from('profiles').upsert({
+    id: user.id,
+    stripe_customer_id: customer.id,
+    updated_at: new Date().toISOString(),
+  })
+  if (error) {
+    console.error('Erro ao salvar stripe_customer_id:', error.message)
+  }
+
+  return customer.id
+}
+
+/**
+ * Confere se o preço do Stripe tem o intervalo do plano (anual → year, mensal → month).
+ * Retorna uma mensagem de erro se estiver mal configurado; null se estiver ok.
+ */
+export function planIntervalError(planType: string, price: Stripe.Price): string | null {
+  const expected = planType.startsWith('anual')
+    ? 'year'
+    : planType.startsWith('mensal')
+      ? 'month'
+      : null
+  if (!expected || price.recurring?.interval === expected) return null
+  return `Preço ${price.id} do plano ${planType} está com intervalo "${price.recurring?.interval}", esperado "${expected}"`
+}
+
+// Reembolsa o último pagamento de uma assinatura e a cancela imediatamente no Stripe.
+export async function refundAndCancelSubscription(subscriptionId: string) {
+  if (!stripe) {
+    throw new Error('Stripe não está configurado')
+  }
+
+  const subscription = await stripe.subscriptions.retrieve(subscriptionId)
+  const invoiceId = subscription.latest_invoice as string | null
+  if (!invoiceId) {
+    throw new Error('Assinatura sem fatura para reembolsar')
+  }
+
+  const invoice = (await stripe.invoices.retrieve(invoiceId)) as unknown as Record<string, unknown>
+  let paymentIntent = invoice['payment_intent'] as string | undefined
+
+  // API 2025-03-31+ (basil): payment_intent saiu da invoice e fica em invoice payments
+  if (!paymentIntent) {
+    const client = stripe as unknown as {
+      invoicePayments?: {
+        list: (p: { invoice: string; limit: number }) => Promise<{
+          data: Array<{ payment?: { payment_intent?: string } }>
+        }>
+      }
+    }
+    const payments = await client.invoicePayments?.list({ invoice: invoiceId, limit: 1 })
+    paymentIntent = payments?.data[0]?.payment?.payment_intent
+  }
+
+  if (!paymentIntent) {
+    throw new Error('Pagamento da assinatura não encontrado')
+  }
+
+  const refund = await stripe.refunds.create({
+    payment_intent: paymentIntent,
+    reason: 'requested_by_customer',
+  })
+
+  await stripe.subscriptions.cancel(subscriptionId)
+
+  return refund
+}
+
 // Função para criar sessão de checkout para assinatura
 export async function createSubscriptionCheckoutSession({
   priceId,

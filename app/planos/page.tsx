@@ -44,7 +44,7 @@ const plans: Plan[] = [
     features: [
       'Tudo do plano Básico',
       'Explicação Prática da Halachá',
-      'Suporte prioritário',
+      'Explicações em mais de 11 mil seifim',
       'Cancelamento a qualquer momento',
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS || '',
@@ -62,7 +62,7 @@ const plans: Plan[] = [
       'Busca avançada',
       'Favoritos e marcadores',
       'Cancelamento a qualquer momento',
-      'Economia de 17%',
+      'Economia de 20%',
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL || '',
     interval: 'year',
@@ -76,9 +76,9 @@ const plans: Plan[] = [
     features: [
       'Tudo do plano Anual',
       'Explicação Prática da Halachá',
-      'Suporte prioritário',
+      'Explicações em mais de 11 mil seifim',
       'Cancelamento a qualquer momento',
-      'Economia de 17%',
+      'Economia de 25%',
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS || '',
     interval: 'year',
@@ -165,8 +165,8 @@ export default function PlanosPage() {
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">{plan.name}</h3>
                   <p className="mb-4 text-gray-600">{plan.description}</p>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl font-bold text-blue-600 whitespace-nowrap">
-                      R$ {plan.price.toFixed(2)}
+                    <span className="whitespace-nowrap text-4xl font-bold text-blue-600">
+                      {plan.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                     </span>
                     <span className="text-gray-500">
                       /{plan.interval === 'month' ? 'mês' : 'ano'}
@@ -174,7 +174,13 @@ export default function PlanosPage() {
                   </div>
                   {plan.interval === 'year' && (
                     <p className="mt-2 text-sm text-gray-500">
-                      Economia de 17% comparado ao mensal
+                      {plan.explicacao_pratica ? 'Economia de 25%' : 'Economia de 20%'} em relação
+                      ao mensal ·{' '}
+                      {(plan.price / 12).toLocaleString('pt-BR', {
+                        style: 'currency',
+                        currency: 'BRL',
+                      })}
+                      /mês
                     </p>
                   )}
                 </div>

@@ -4,10 +4,8 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { HeaderSimplificado } from '@/components/DashboardHeader'
-import { Button } from '@/components/ui/button'
-import { Lock } from 'lucide-react'
 import { useAuth } from '@/contexts/auth-context'
-import { useRouter } from 'next/navigation'
+import { tratadoHref } from '@/components/content/SimanReader'
 
 interface Division {
   id: string
@@ -27,12 +25,10 @@ interface Book {
 
 export default function LivrosPage() {
   const { user, loading: authLoading } = useAuth()
-  const router = useRouter()
   const [book, setBook] = useState<Book | null>(null)
   const [loading, setLoading] = useState(true)
   const [purchasedBooks, setPurchasedBooks] = useState<string[]>([])
   const [hasActiveSubscription, setHasActiveSubscription] = useState(false)
-  const [loadingPurchase, setLoadingPurchase] = useState<string | null>(null)
 
   useEffect(() => {
     async function loadBook() {
@@ -105,36 +101,6 @@ export default function LivrosPage() {
     }
     loadUserData()
   }, [user])
-
-  async function handlePurchase(divisionId: string, bookId: string) {
-    if (!user) {
-      router.push('/login')
-      return
-    }
-    if (hasActiveSubscription) {
-      return
-    }
-    setLoadingPurchase(divisionId)
-    try {
-      const response = await fetch('/api/create-checkout-session', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          priceId: process.env['NEXT_PUBLIC_STRIPE_PRICE_SINGLE_BOOK'],
-          userId: user.id,
-          bookId: bookId,
-          divisionId: divisionId,
-          successUrl: `${window.location.origin}/livros`,
-          cancelUrl: `${window.location.origin}/livros`,
-        }),
-      })
-      const data = await response.json()
-      window.location.href = data.url
-    } catch (error) {
-    } finally {
-      setLoadingPurchase(null)
-    }
-  }
 
   if (loading || authLoading) {
     return (
@@ -227,35 +193,24 @@ export default function LivrosPage() {
                           )}
                         </div>
 
-                        <div className="mt-auto">
-                          {unlocked ? (
+                        <div className="mt-auto space-y-2">
+                          <Link
+                            href={tratadoHref(div.id)}
+                            className="block w-full rounded-md bg-gradient-to-r from-blue-600 to-indigo-600 px-2 py-2 text-center text-sm font-semibold text-white transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-lg"
+                          >
+                            {unlocked ? 'Abrir' : 'Ver índice'}
+                          </Link>
+                          {!unlocked && (
                             <Link
-                              href={`/livros/${book.id}/divisoes/${div.id}`}
-                              className="block w-full rounded-md bg-gradient-to-r from-blue-600 to-indigo-600 px-2 py-1.5 text-center text-xs font-semibold text-white transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-lg"
+                              href={
+                                user
+                                  ? `/checkout/${div.id}`
+                                  : `/login?redirect=${encodeURIComponent(`/checkout/${div.id}`)}`
+                              }
+                              className="block w-full rounded-md border border-blue-200 px-2 py-2 text-center text-sm font-medium text-blue-700 hover:bg-blue-50"
                             >
-                              Acessar Tratado
+                              R$ 29,90 / 1 mês
                             </Link>
-                          ) : (
-                            <div className="space-y-1">
-                              <Button
-                                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 px-2 py-1.5 text-xs font-semibold shadow-lg transition-all duration-200 hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl"
-                                onClick={() => handlePurchase(div.id, book.id)}
-                                disabled={loadingPurchase === div.id || hasActiveSubscription}
-                              >
-                                {loadingPurchase === div.id ? (
-                                  <div className="flex items-center justify-center">
-                                    <div className="mr-1 h-2 w-2 animate-spin rounded-full border border-white border-t-transparent" />
-                                    Processando...
-                                  </div>
-                                ) : (
-                                  'Assinar Tratado'
-                                )}
-                              </Button>
-                              <div className="flex items-center justify-center text-gray-500">
-                                <Lock className="mr-1 h-2 w-2" />
-                                <span className="text-xs">Acesso limitado</span>
-                              </div>
-                            </div>
                           )}
                         </div>
                       </div>
@@ -269,7 +224,7 @@ export default function LivrosPage() {
         <footer className="border-t py-6 md:py-0">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
             <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-              © 2025 Or Halachá. Todos os direitos reservados.
+              © {new Date().getFullYear()} Or Halachá. Todos os direitos reservados.
             </p>
             <div className="flex gap-4">
               <Link

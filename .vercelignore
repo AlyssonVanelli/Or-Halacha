@@ -1,0 +1,6 @@
+# Nunca enviar segredos locais: a Vercel usa as variáveis configuradas no painel
+.env
+.env.*
+.claude
+.next
+node_modules

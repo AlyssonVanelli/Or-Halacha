@@ -17,7 +17,13 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [user, setUser] = useState<User | null>(null)
+  const [user, setUserState] = useState<User | null>(null)
+  // Eventos do Supabase (refresh de token, foco na aba etc.) entregam um objeto novo para o mesmo
+  // usuário; manter a mesma referência evita que efeitos dependentes de `user` rodem em loop.
+  const setUser = (next: User | null) =>
+    setUserState(prev =>
+      prev && next && prev.id === next.id && prev.updated_at === next.updated_at ? prev : next
+    )
   const [loading, setLoading] = useState(true)
   const [syncing, setSyncing] = useState(false)
   const pathname = usePathname()

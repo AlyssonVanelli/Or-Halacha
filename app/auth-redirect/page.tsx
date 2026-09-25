@@ -11,9 +11,12 @@ export default function AuthRedirectPage() {
   useEffect(() => {
     if (!loading) {
       if (user) {
+        // Destino pedido no login (?redirect=), aceitando só caminhos internos
+        const next = new URLSearchParams(window.location.search).get('next')
+        const target = next && next.startsWith('/') && !next.startsWith('//') ? next : '/dashboard'
         // Aguardar mais tempo para garantir que tudo esteja sincronizado
         setTimeout(() => {
-          router.replace('/dashboard')
+          router.replace(target)
         }, 500)
       } else {
         router.replace('/login')

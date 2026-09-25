@@ -1,55 +1,62 @@
 # Variáveis de Ambiente
 
-Este documento lista todas as variáveis de ambiente necessárias para executar o projeto Or Halachá.
+Variáveis usadas pelo código. Configure em `.env.local` (desenvolvimento) e no painel da Vercel (produção).
 
-## Configuração do Supabase
+## Supabase
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+NEXT_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+# Obrigatória: usada pelo webhook do Stripe e rotas de API para gravar assinaturas/compras.
+# NUNCA prefixar com NEXT_PUBLIC_ (não pode ir para o navegador).
+SUPABASE_SERVICE_ROLE_KEY=...
 ```
 
-## Configuração do Stripe
+## Stripe
 
 ```env
-STRIPE_SECRET_KEY=your_stripe_secret_key_here
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key_here
-STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret_here
+STRIPE_SECRET_KEY=sk_live_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+
+# Price IDs dos planos
+NEXT_PUBLIC_STRIPE_PRICE_MENSAL=price_...
+NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS=price_...
+NEXT_PUBLIC_STRIPE_PRICE_ANUAL=price_...
+NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS=price_...
+NEXT_PUBLIC_STRIPE_PRICE_SINGLE_BOOK=price_...
 ```
 
-## Configuração de Email (Nodemailer)
+Eventos que o endpoint `/api/webhooks/stripe` precisa receber (configurar no painel do Stripe):
+
+- `customer.subscription.created`
+- `customer.subscription.updated`
+- `customer.subscription.deleted`
+- `invoice.payment_succeeded`
+- `checkout.session.completed`
+- `checkout.session.async_payment_succeeded`
+
+## Aplicação
 
 ```env
-SMTP_HOST=your_smtp_host_here
+# URL pública do site, sem barra no final (usada nos redirects do Stripe)
+NEXT_PUBLIC_BASE_URL=https://www.or-halacha.com.br
+
+# Token para o cron que chama POST /api/admin/sortear-siman (header Authorization: Bearer <token>)
+ADMIN_SECRET_TOKEN=...
+```
+
+## Email do suporte (Nodemailer)
+
+```env
+SMTP_HOST=smtp.exemplo.com
 SMTP_PORT=587
-SMTP_USER=your_smtp_user_here
-SMTP_PASS=your_smtp_password_here
-FROM_EMAIL=your_from_email_here
+SMTP_USER=...
+SMTP_PASS=...
+SMTP_FROM=Or Halacha <no-reply@seu-dominio.com>
+SMTP_TO=suporte@seu-dominio.com
 ```
-
-## Configuração da Aplicação
-
-```env
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXTAUTH_SECRET=your_nextauth_secret_here
-NEXTAUTH_URL=http://localhost:3000
-```
-
-## Configuração do Banco de Dados (se usando conexão direta)
-
-```env
-DATABASE_URL=your_database_url_here
-```
-
-## Como configurar
-
-1. Copie o arquivo `.env.example` para `.env.local`
-2. Preencha todas as variáveis com os valores corretos
-3. Reinicie o servidor de desenvolvimento
 
 ## Segurança
 
-- **NUNCA** commite arquivos `.env` ou `.env.local` para o repositório
-- Use valores seguros para `NEXTAUTH_SECRET`
-- Mantenha as chaves do Stripe e Supabase seguras
+- **NUNCA** commite arquivos `.env` ou `.env.local`.
+- `SUPABASE_SERVICE_ROLE_KEY`, `STRIPE_SECRET_KEY` e `STRIPE_WEBHOOK_SECRET` são segredos de servidor.

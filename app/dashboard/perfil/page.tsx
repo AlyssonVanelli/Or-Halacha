@@ -59,6 +59,22 @@ interface Payment {
   data: string
 }
 
+// Nome do plano pelo price_id (fixo); explicacao_pratica é zerado quando a assinatura termina
+const PLANOS_POR_PRECO: Record<string, string> = Object.fromEntries(
+  [
+    [process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL, 'Mensal Básico'],
+    [process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS, 'Mensal Plus'],
+    [process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL, 'Anual Básico'],
+    [process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS, 'Anual Plus'],
+  ].filter(([id]) => !!id)
+)
+
+function nomeDoPlano(sub: Pick<Subscription, 'price_id' | 'plan_type' | 'explicacao_pratica'>) {
+  if (sub.price_id && PLANOS_POR_PRECO[sub.price_id]) return PLANOS_POR_PRECO[sub.price_id]
+  if (sub.plan_type === 'yearly') return sub.explicacao_pratica ? 'Anual Plus' : 'Anual Básico'
+  return sub.explicacao_pratica ? 'Mensal Plus' : 'Mensal Básico'
+}
+
 export default function PerfilPage() {
   const { user } = useAuth()
   const [profile, setProfile] = useState<Profile | null>(null)
@@ -147,12 +163,7 @@ export default function PerfilPage() {
               } catch {}
             }
             // Ajuste: nome do plano
-            let planoNome = ''
-            if (sub.plan_type === 'yearly') {
-              planoNome = sub.explicacao_pratica ? 'Anual Plus' : 'Anual Básico'
-            } else {
-              planoNome = sub.explicacao_pratica ? 'Mensal Plus' : 'Mensal Básico'
-            }
+            const planoNome = nomeDoPlano(sub)
             allPayments.push({
               type: 'Assinatura',
               plan: planoNome,
@@ -393,7 +404,12 @@ export default function PerfilPage() {
       return
     }
     setPasswordLoading(true)
+    const { error } = await createClient().auth.updateUser({ password: newPassword })
     setPasswordLoading(false)
+    if (error) {
+      setPasswordError('Não foi possível alterar a senha. Tente novamente.')
+      return
+    }
     setPasswordSuccess('Senha alterada com sucesso!')
     setNewPassword('')
     setConfirmPassword('')
@@ -582,28 +598,24 @@ export default function PerfilPage() {
                       )}
                     </div>
                     <div>
-                      Plano:{' '}
-                      <b>
-                        {subscription.plan_type === 'yearly'
-                          ? subscription.explicacao_pratica
-                            ? 'Anual Plus'
-                            : 'Anual Básico'
-                          : subscription.explicacao_pratica
-                            ? 'Mensal Plus'
-                            : 'Mensal Básico'}
-                      </b>
+                      Plano: <b>{nomeDoPlano(subscription)}</b>
                     </div>
-                    <div>
-                      Explicação prática: <b>{subscription.explicacao_pratica ? 'Sim' : 'Não'}</b>
-                    </div>
-                    <div>
-                      Expira em:{' '}
-                      <b>
-                        {subscription.current_period_end
-                          ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
-                          : 'Data não disponível'}
-                      </b>
-                    </div>
+                    {subscription.status === 'active' && (
+                      <>
+                        <div>
+                          Explicação prática:{' '}
+                          <b>{subscription.explicacao_pratica ? 'Sim' : 'Não'}</b>
+                        </div>
+                        <div>
+                          {subscription.cancel_at_period_end ? 'Acesso até' : 'Próxima renovação'}:{' '}
+                          <b>
+                            {subscription.current_period_end
+                              ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
+                              : 'Data não disponível'}
+                          </b>
+                        </div>
+                      </>
+                    )}
                     {subscription.cancel_at_period_end && subscription.status === 'active' && (
                       <div className="mt-2 rounded bg-yellow-100 p-2 text-sm font-medium text-yellow-800">
                         Sua assinatura foi cancelada e permanecerá ativa até{' '}
@@ -628,10 +640,28 @@ export default function PerfilPage() {
                       <div className="mt-4">
                         <Button
                           variant="default"
-                          onClick={() => setRenewalModalOpen(true)}
+                          onClick={async () => {
+                            // Desfaz o cancelamento da MESMA assinatura (sem nova cobrança)
+                            const res = await fetch('/api/subscription/reactivate', {
+                              method: 'POST',
+                            })
+                            if (res.ok) {
+                              toast({
+                                title: 'Assinatura reativada',
+                                description: 'A renovação automática voltou a valer.',
+                              })
+                              setTimeout(() => window.location.reload(), 1200)
+                            } else {
+                              toast({
+                                title: 'Não foi possível reativar',
+                                description: 'Tente novamente ou fale com o suporte.',
+                                variant: 'destructive',
+                              })
+                            }
+                          }}
                           className="w-full"
                         >
-                          Renovar Assinatura
+                          Manter minha assinatura
                         </Button>
                       </div>
                     )}
@@ -691,7 +721,10 @@ export default function PerfilPage() {
                             <td className="p-4 text-gray-700">{p.type}</td>
                             <td className="p-4 text-gray-700">{p.plan || p.nome}</td>
                             <td className="p-4 font-semibold text-gray-800">
-                              R$ {p.valor.toFixed(2)}
+                              {p.valor.toLocaleString('pt-BR', {
+                                style: 'currency',
+                                currency: 'BRL',
+                              })}
                             </td>
                             <td className="p-4 text-gray-600">{p.data}</td>
                             <td className="p-4">

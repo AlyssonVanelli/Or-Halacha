@@ -1,91 +1,44 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@/lib/supabase/client'
-import Stripe from 'stripe'
+import { NextResponse } from 'next/server'
+import { getAuthenticatedUser, unauthorizedResponse } from '@/lib/api-auth'
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-04-30.basil',
-})
-
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
-    const { userId } = await request.json()
+    const { supabase, user } = await getAuthenticatedUser()
+    if (!user) return unauthorizedResponse()
 
-    // 1. Verificar no Supabase
-    const supabase = createClient()
-
-    // Assinatura no banco
-    const { data: subscriptionData, error: subscriptionError } = await supabase
+    const { data: subscriptionData } = await supabase
       .from('subscriptions')
       .select('*')
-      .eq('user_id', userId)
+      .eq('user_id', user.id)
       .maybeSingle()
 
-    // Livros comprados no banco
-    const { data: purchasedData, error: purchasedError } = await supabase
+    const { data: purchasedData } = await supabase
       .from('purchased_books')
       .select('division_id, expires_at')
-      .eq('user_id', userId)
+      .eq('user_id', user.id)
 
-    // 2. Verificar no Stripe
-    let stripeCustomer: Stripe.Customer | null = null
-    let stripeSubscriptions: Stripe.Subscription[] = []
-
-    try {
-      // Buscar customer no Stripe
-      const customers = await stripe.customers.list({
-        email: subscriptionData?.user_id, // Assumindo que temos email
-        limit: 1,
-      })
-
-      if (customers.data.length > 0) {
-        stripeCustomer = customers.data[0]
-
-        // Buscar assinaturas do customer
-        const subscriptions = await stripe.subscriptions.list({
-          customer: stripeCustomer.id,
-          status: 'all',
-        })
-
-        stripeSubscriptions = subscriptions.data
-      }
-    } catch (stripeError) {
-      // Erro silencioso
-    }
-
-    // 3. Calcular acesso
+    const now = new Date()
     const hasActiveSubscription =
       subscriptionData?.status === 'active' &&
-      (subscriptionData.current_period_end
-        ? new Date(subscriptionData.current_period_end) > new Date()
-        : subscriptionData?.status === 'active') // Se não tem data de fim, verifica apenas o status
+      (!subscriptionData.current_period_end || new Date(subscriptionData.current_period_end) > now)
 
-    const validPurchasedBooks = (purchasedData || []).filter(
-      pb => new Date(pb.expires_at) > new Date()
-    )
-
+    const validPurchasedBooks = (purchasedData || []).filter(pb => new Date(pb.expires_at) > now)
     const hasPurchasedBooks = validPurchasedBooks.length > 0
-
-    const hasAnyAccess = hasActiveSubscription || hasPurchasedBooks
 
     return NextResponse.json({
       success: true,
       supabase: {
         subscription: subscriptionData,
         purchasedBooks: purchasedData,
-        subscriptionError: subscriptionError?.message,
-        purchasedError: purchasedError?.message,
-      },
-      stripe: {
-        customer: stripeCustomer,
-        subscriptions: stripeSubscriptions,
       },
       access: {
         hasActiveSubscription,
         hasPurchasedBooks,
-        hasAnyAccess,
+        hasAnyAccess: hasActiveSubscription || hasPurchasedBooks,
       },
     })
   } catch (error) {
+    console.error('Erro ao verificar acesso do usuário:', error)
     return NextResponse.json({ error: 'Erro interno' }, { status: 500 })
   }
 }

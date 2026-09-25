@@ -48,10 +48,10 @@ export default function LoginPage() {
         variant: 'destructive',
       })
     } else if (message === 'session-expired') {
-      setUrlMessage('Sua sessão expirou por tempo limite (30 minutos). Faça login novamente.')
+      setUrlMessage('Sua sessão expirou. Faça login novamente para continuar.')
       toast({
         title: 'Sessão Expirada',
-        description: 'Sua sessão expirou por tempo limite (30 minutos). Faça login novamente.',
+        description: 'Sua sessão expirou. Faça login novamente para continuar.',
         variant: 'destructive',
       })
     }
@@ -93,9 +93,13 @@ export default function LoginPage() {
           description: 'Redirecionando para o dashboard...',
         })
         // Aguardar a sincronização estar completa
+        // Volta para onde o usuário estava (ex.: compra de um tratado); só caminhos internos
+        const redirect = new URLSearchParams(window.location.search).get('redirect')
+        const next =
+          redirect && redirect.startsWith('/') && !redirect.startsWith('//') ? redirect : ''
         const waitForSync = () => {
           if (!syncing) {
-            router.push('/auth-redirect')
+            router.push(next ? `/auth-redirect?next=${encodeURIComponent(next)}` : '/auth-redirect')
           } else {
             setTimeout(waitForSync, 100)
           }
@@ -285,7 +289,7 @@ export default function LoginPage() {
         <footer className="mt-auto border-t border-gray-200 bg-white/50 py-6">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
             <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-              © 2025 Or Halachá. Todos os direitos reservados.
+              © {new Date().getFullYear()} Or Halachá. Todos os direitos reservados.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a

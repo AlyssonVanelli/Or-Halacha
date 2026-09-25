@@ -1,17 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { createClient } from '@/lib/supabase/client'
+import { getAuthenticatedUser, safeReturnUrl, unauthorizedResponse } from '@/lib/api-auth'
 import {
   stripe,
-  getOrCreateCustomer,
+  ensureStripeCustomerId,
+  planIntervalError,
   createSubscriptionCheckoutSession,
   createSinglePurchaseCheckoutSession,
   PLAN_TYPES,
   PLAN_PRICE_IDS,
-  validatePriceIds,
 } from '@/lib/stripe'
 
-// Schema de validação para o request
+// userId/userEmail do corpo são ignorados; o usuário vem da sessão
 const CreateCheckoutSchema = z.object({
   planType: z.enum([
     PLAN_TYPES.MONTHLY_BASIC,
@@ -20,152 +20,67 @@ const CreateCheckoutSchema = z.object({
     PLAN_TYPES.YEARLY_PLUS,
     PLAN_TYPES.SINGLE_BOOK,
   ]),
-  userId: z.string().uuid(),
-  userEmail: z.string().email(),
-  successUrl: z.string().url(),
-  cancelUrl: z.string().url(),
+  successUrl: z.string().url().optional(),
+  cancelUrl: z.string().url().optional(),
   divisionId: z.string().optional(), // Para compras avulsas
-  metadata: z.record(z.string()).optional(),
 })
 
 export async function POST(request: NextRequest) {
   try {
-    // Validar request
+    const { user } = await getAuthenticatedUser()
+    if (!user) return unauthorizedResponse()
+
     const body = await request.json()
-    const validatedData = CreateCheckoutSchema.parse(body)
+    const { planType, successUrl, cancelUrl, divisionId } = CreateCheckoutSchema.parse(body)
 
-    const {
-      planType,
-      userId,
-      userEmail,
-      successUrl,
-      cancelUrl,
-      divisionId,
-      metadata = {},
-    } = validatedData
-
-    console.log('=== CRIANDO CHECKOUT ===')
-    console.log('Plan Type:', planType)
-    console.log('User ID:', userId)
-    console.log('User Email:', userEmail)
-    console.log('Division ID:', divisionId)
-
-    // Validar price IDs
-    try {
-      validatePriceIds()
-    } catch (error) {
-      console.error('Erro na validação dos price IDs:', error)
+    const priceId = PLAN_PRICE_IDS[planType]
+    if (!priceId || !stripe) {
       return NextResponse.json(
         { error: 'Configuração de preços não encontrada. Entre em contato com o suporte.' },
         { status: 500 }
       )
     }
 
-    // Obter price ID
-    const priceId = PLAN_PRICE_IDS[planType]
-    if (!priceId) {
-      return NextResponse.json({ error: 'Tipo de plano não suportado.' }, { status: 400 })
+    if (planType === PLAN_TYPES.SINGLE_BOOK && !divisionId) {
+      return NextResponse.json(
+        { error: 'ID da divisão é obrigatório para compras avulsas.' },
+        { status: 400 }
+      )
     }
 
-    // Verificar se price ID é válido no Stripe
-    if (!stripe) {
+    const intervalError = planIntervalError(planType, await stripe.prices.retrieve(priceId))
+    if (intervalError) {
+      console.error(intervalError)
       return NextResponse.json(
-        { error: 'Stripe não está configurado. Entre em contato com o suporte.' },
+        { error: 'Plano temporariamente indisponível. Entre em contato com o suporte.' },
         { status: 500 }
       )
     }
 
-    try {
-      await stripe.prices.retrieve(priceId)
-    } catch (error) {
-      console.error('Price ID inválido:', error)
-      return NextResponse.json(
-        { error: 'Configuração de preço inválida. Entre em contato com o suporte.' },
-        { status: 500 }
-      )
-    }
+    const customerId = await ensureStripeCustomerId(user)
+    const userEmail = user.email || ''
 
-    // Buscar ou criar perfil do usuário
-    const supabase = createClient()
-    let { data: profile, error: profileError } = await supabase
-      .from('profiles')
-      .select('stripe_customer_id')
-      .eq('id', userId)
-      .maybeSingle()
-
-    if (profileError) {
-      console.error('Erro ao buscar perfil:', profileError)
-      return NextResponse.json({ error: 'Erro ao buscar dados do usuário.' }, { status: 500 })
-    }
-
-    // Criar ou buscar customer no Stripe
-    let customerId: string
-
-    if (profile?.stripe_customer_id) {
-      customerId = profile.stripe_customer_id
-      console.log('Customer existente:', customerId)
-    } else {
-      console.log('Criando novo customer...')
-      const customer = await getOrCreateCustomer(userId, userEmail)
-      customerId = customer.id
-
-      // Salvar customer ID no perfil
-      const { error: updateError } = await supabase.from('profiles').upsert({
-        id: userId,
-        stripe_customer_id: customerId,
-        updated_at: new Date().toISOString(),
-      })
-
-      if (updateError) {
-        console.error('Erro ao salvar customer ID:', updateError)
-        // Continuar mesmo com erro
-      }
-    }
-
-    // Preparar metadata adicional
-    const sessionMetadata = {
-      ...metadata,
+    const metadata: Record<string, string> = {
       planType,
-      userId,
+      userId: user.id,
+      isPlus: planType.includes('plus') ? 'true' : 'false',
+      ...(divisionId && { divisionId, bookId: 'shulchan-aruch' }),
+    }
+
+    const params = {
+      priceId,
+      customerId,
+      userId: user.id,
       userEmail,
-      ...(divisionId && { divisionId }),
+      successUrl: safeReturnUrl(successUrl, request, '/dashboard'),
+      cancelUrl: safeReturnUrl(cancelUrl, request, '/dashboard'),
+      metadata,
     }
 
-    // Criar sessão de checkout
-    let session
-
-    if (planType === PLAN_TYPES.SINGLE_BOOK) {
-      // Compra avulsa
-      if (!divisionId) {
-        return NextResponse.json(
-          { error: 'ID da divisão é obrigatório para compras avulsas.' },
-          { status: 400 }
-        )
-      }
-
-      session = await createSinglePurchaseCheckoutSession({
-        priceId,
-        customerId,
-        userId,
-        userEmail,
-        successUrl,
-        cancelUrl,
-        metadata: sessionMetadata,
-      })
-    } else {
-      // Assinatura
-      session = await createSubscriptionCheckoutSession({
-        priceId,
-        customerId,
-        userId,
-        userEmail,
-        successUrl,
-        cancelUrl,
-        metadata: sessionMetadata,
-      })
-    }
-
-    console.log('Sessão criada com sucesso:', session.id)
+    const session =
+      planType === PLAN_TYPES.SINGLE_BOOK
+        ? await createSinglePurchaseCheckoutSession(params)
+        : await createSubscriptionCheckoutSession(params)
 
     return NextResponse.json({
       success: true,
@@ -191,10 +106,7 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(
-      {
-        error: 'Erro interno do servidor. Tente novamente.',
-        details: error instanceof Error ? error.message : 'Erro desconhecido',
-      },
+      { error: 'Erro interno do servidor. Tente novamente.' },
       { status: 500 }
     )
   }

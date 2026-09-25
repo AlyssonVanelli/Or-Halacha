@@ -38,10 +38,10 @@ export function DashboardHeader() {
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle menu</span>
+                <span className="sr-only">Abrir menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-64">
+            <SheetContent side="left" className="w-72">
               <nav className="grid gap-6 py-6">
                 <Link
                   href={user ? '/dashboard' : '/'}
@@ -50,10 +50,11 @@ export function DashboardHeader() {
                   <BookOpen className="h-6 w-6" />
                   <span>Or Halacha</span>
                 </Link>
+                <HeaderSearchBox compact />
                 <div className="grid gap-4">
                   <Link
-                    href="/"
-                    className="flex items-center gap-2 text-sm font-medium underline-offset-4 hover:underline"
+                    href="/dashboard/biblioteca/shulchan-aruch"
+                    className="flex items-center gap-2 text-base font-medium underline-offset-4 hover:underline"
                   >
                     <BookMarked className="h-4 w-4" />
                     Biblioteca
@@ -73,11 +74,18 @@ export function DashboardHeader() {
                     Perfil
                   </Link>
                   <Link
-                    href="/faq"
-                    className="flex items-center gap-2 text-sm font-medium underline-offset-4 hover:underline"
+                    href="/dashboard/faq"
+                    className="flex items-center gap-2 text-base font-medium underline-offset-4 hover:underline"
                   >
                     <MessageCircle className="h-4 w-4" />
-                    FAQ
+                    Perguntas frequentes
+                  </Link>
+                  <Link
+                    href="/suporte"
+                    className="flex items-center gap-2 text-base font-medium underline-offset-4 hover:underline"
+                  >
+                    <HelpCircle className="h-4 w-4" />
+                    Suporte
                   </Link>
                   <LogoutButton />
                 </div>
@@ -159,7 +167,7 @@ export function HeaderSimplificado() {
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 shadow-lg transition-all duration-300 group-hover:shadow-xl">
             <BookOpen className="h-5 w-5 text-white" />
           </div>
-          <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-xl text-transparent">
+          <span className="whitespace-nowrap bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-lg text-transparent sm:text-xl">
             Or Halacha
           </span>
         </Link>
@@ -179,7 +187,7 @@ export function HeaderSimplificado() {
             <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-gradient-to-r from-blue-600 to-blue-700 transition-all duration-300 group-hover:w-full"></span>
           </Link>
         </nav>
-        <div className="flex gap-3">
+        <div className="flex gap-2 sm:gap-3">
           <Link href="/login">
             <Button
               variant="outline"

@@ -51,18 +51,14 @@ export function SubscriptionActions({
           break
 
         case 'upgrade':
-          response = await fetch('/api/subscription/upgrade', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              planType: isPlus ? 'anual-plus' : 'mensal-plus',
-            }),
-          })
+          // Troca de plano pelo portal do Stripe: substitui a assinatura atual (com cálculo
+          // proporcional) em vez de criar uma segunda assinatura cobrada em paralelo.
+          response = await fetch('/api/create-customer-portal-session', { method: 'POST' })
           data = await response.json()
-          if (data.success) {
-            window.location.href = data.checkoutUrl
+          if (data.url) {
+            window.location.href = data.url
           } else {
-            toast.error(data.error || 'Erro ao fazer upgrade')
+            toast.error(data.error || 'Não foi possível abrir o gerenciamento do plano')
           }
           break
 
@@ -128,7 +124,7 @@ export function SubscriptionActions({
           disabled={loading !== null}
           className="flex-1 bg-blue-600 hover:bg-blue-700"
         >
-          {loading === 'upgrade' ? 'Processando...' : 'Fazer Upgrade'}
+          {loading === 'upgrade' ? 'Abrindo...' : isPlus ? 'Mudar plano' : 'Fazer upgrade'}
         </Button>
 
         <Button

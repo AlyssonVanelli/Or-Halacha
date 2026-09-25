@@ -1,13 +1,7 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
-import { createClient } from '@/lib/supabase/server'
-
-// Função para obter a URL base correta
-function getBaseUrl() {
-  // SEMPRE usar a URL de produção correta (não a URL de desenvolvimento do Vercel)
-  console.log('Forçando uso da URL de produção correta')
-  return 'https://or-halacha.vercel.app'
-}
+import { getAuthenticatedUser, getBaseUrl, unauthorizedResponse } from '@/lib/api-auth'
+import { ensureStripeCustomerId } from '@/lib/stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-04-30.basil',
@@ -15,84 +9,39 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export async function POST(req: Request) {
   try {
-    console.log('=== INICIANDO COMPRA DE TRATADO AVULSO ===')
-    const { userId, divisionId, bookId, userEmail } = await req.json()
+    const { supabase, user } = await getAuthenticatedUser()
+    if (!user) return unauthorizedResponse()
 
-    console.log('Parâmetros recebidos:', { userId, divisionId, bookId, userEmail })
-
-    if (!userId || !divisionId || !bookId) {
-      console.error('Parâmetros obrigatórios faltando:', { userId, divisionId, bookId })
+    const { divisionId, bookId } = await req.json()
+    if (!divisionId || !bookId) {
       return NextResponse.json(
-        {
-          error: 'Parâmetros obrigatórios: userId, divisionId, bookId',
-        },
+        { error: 'Parâmetros obrigatórios: divisionId, bookId' },
         { status: 400 }
       )
     }
 
-    const supabase = await createClient()
-    console.log('Cliente Supabase criado')
-
-    // Buscar ou criar customer no Stripe
-    console.log('Buscando profile do usuário:', userId)
-    const { data: profile, error: profileError } = await supabase
-      .from('profiles')
-      .select('stripe_customer_id')
-      .eq('id', userId)
-      .single()
-
-    if (profileError) {
-      console.error('Erro ao buscar profile:', profileError)
-    } else {
-      console.log('Profile encontrado:', profile)
+    // Garante que a divisão existe antes de cobrar
+    const { data: division } = await supabase
+      .from('divisions')
+      .select('id')
+      .eq('id', divisionId)
+      .maybeSingle()
+    if (!division) {
+      return NextResponse.json({ error: 'Tratado não encontrado' }, { status: 404 })
     }
 
-    let stripeCustomerId = profile?.stripe_customer_id
-    console.log('Stripe Customer ID atual:', stripeCustomerId)
+    const stripeCustomerId = await ensureStripeCustomerId(user)
 
-    if (!stripeCustomerId) {
-      console.log('Criando novo customer no Stripe para usuário:', userId)
-      const customer = await stripe.customers.create({
-        email: userEmail,
-        metadata: { userId },
-      })
-      stripeCustomerId = customer.id
-      console.log('Customer criado no Stripe:', stripeCustomerId)
-
-      console.log('Atualizando profile com stripe_customer_id')
-      const { error: updateError } = await supabase
-        .from('profiles')
-        .update({ stripe_customer_id: stripeCustomerId })
-        .eq('id', userId)
-
-      if (updateError) {
-        console.error('Erro ao atualizar profile:', updateError)
-      } else {
-        console.log('Profile atualizado com sucesso')
-      }
-    }
-
-    // Criar sessão de pagamento único (não assinatura)
     const baseUrl = getBaseUrl()
-    const successUrl = `${baseUrl}/payment/success?treatise=true&divisionId=${divisionId}&bookId=${bookId}`
-    const cancelUrl = `${baseUrl}/dashboard/biblioteca/shulchan-aruch`
+    const params = new URLSearchParams({
+      treatise: 'true',
+      divisionId: String(divisionId),
+      bookId: String(bookId),
+    })
 
-    console.log('🔧 CORRIGINDO URLs:')
-    console.log('Base URL forçada:', baseUrl)
-    console.log('Success URL:', successUrl)
-    console.log('Cancel URL:', cancelUrl)
-
-    console.log('=== CRIANDO SESSÃO DE PAGAMENTO ===')
-    console.log('Base URL:', baseUrl)
-    console.log('Success URL:', successUrl)
-    console.log('Cancel URL:', cancelUrl)
-    console.log('NODE_ENV:', process.env.NODE_ENV)
-    console.log('VERCEL_URL:', process.env.VERCEL_URL)
-    console.log('NEXT_PUBLIC_APP_URL:', process.env.NEXT_PUBLIC_APP_URL)
-
-    const sessionConfig = {
-      payment_method_types: ['card'] as 'card'[],
-      mode: 'payment' as const, // Modo de pagamento único
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      mode: 'payment',
       customer: stripeCustomerId,
       line_items: [
         {
@@ -100,28 +49,22 @@ export async function POST(req: Request) {
             currency: 'brl',
             product_data: {
               name: 'Tratado Avulso - Shulchan Aruch',
-              description: `Acesso por 1 mês ao tratado selecionado`,
+              description: 'Acesso por 1 mês ao tratado selecionado',
             },
             unit_amount: 2990, // R$ 29,90 em centavos
           },
           quantity: 1,
         },
       ],
-      success_url: successUrl,
-      cancel_url: cancelUrl,
+      success_url: `${baseUrl}/payment/success?${params.toString()}`,
+      cancel_url: `${baseUrl}/dashboard/biblioteca/shulchan-aruch`,
       metadata: {
-        userId,
-        divisionId,
-        bookId,
+        userId: user.id,
+        divisionId: String(divisionId),
+        bookId: String(bookId),
         type: 'treatise-purchase',
       },
-    }
-
-    console.log('Configuração da sessão:', JSON.stringify(sessionConfig, null, 2))
-
-    const session = await stripe.checkout.sessions.create(sessionConfig)
-    console.log('Sessão criada com sucesso:', session.id)
-    console.log('URL da sessão:', session.url)
+    })
 
     return NextResponse.json({
       success: true,
@@ -129,12 +72,7 @@ export async function POST(req: Request) {
       sessionId: session.id,
     })
   } catch (error) {
-    return NextResponse.json(
-      {
-        error: 'Erro interno',
-        details: error instanceof Error ? error.message : 'Erro desconhecido',
-      },
-      { status: 500 }
-    )
+    console.error('Erro ao criar pagamento de tratado:', error)
+    return NextResponse.json({ error: 'Erro interno' }, { status: 500 })
   }
 }

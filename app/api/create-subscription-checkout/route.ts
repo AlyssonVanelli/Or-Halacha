@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
-import { createClient } from '@/lib/supabase/client'
+import { getAuthenticatedUser, safeReturnUrl, unauthorizedResponse } from '@/lib/api-auth'
+import { ensureStripeCustomerId, planIntervalError } from '@/lib/stripe'
 
 const stripeKey = process.env.STRIPE_SECRET_KEY
 if (!stripeKey) throw new Error('STRIPE_SECRET_KEY não configurada')
@@ -18,27 +19,17 @@ const PLAN_PRICE_IDS: Record<string, string> = {
 }
 
 export async function POST(req: Request) {
-  console.log('=== INICIANDO CRIAÇÃO DE CHECKOUT DE ASSINATURA ===')
+  const { user } = await getAuthenticatedUser()
+  if (!user) return unauthorizedResponse()
+
   const body = await req.json()
-  console.log('Dados recebidos:', body)
+  const { planType, successUrl, cancelUrl, treatiseId } = body
 
-  const { planType, userId, userEmail, successUrl, cancelUrl, treatiseId } = body
-
-  console.log('Plan Type:', planType)
-  console.log('User ID:', userId)
-  console.log('User Email:', userEmail)
-  console.log('Success URL:', successUrl)
-  console.log('Cancel URL:', cancelUrl)
-  console.log('Treatise ID:', treatiseId)
-
-  if (!planType || !PLAN_PRICE_IDS[planType]) {
-    console.log('ERRO: Tipo de plano inválido')
+  if (!planType || !(planType in PLAN_PRICE_IDS)) {
     return NextResponse.json({ error: 'Tipo de plano inválido.' }, { status: 400 })
   }
 
   const priceId = PLAN_PRICE_IDS[planType]
-  console.log('Price ID encontrado:', priceId)
-
   if (!priceId) {
     return NextResponse.json(
       { error: 'Configuração de preço não encontrada. Entre em contato com o suporte.' },
@@ -46,169 +37,58 @@ export async function POST(req: Request) {
     )
   }
 
-  if (!stripeKey) {
-    return NextResponse.json(
-      { error: 'Configuração de pagamento não encontrada. Entre em contato com o suporte.' },
-      { status: 500 }
-    )
+  if (planType === 'tratado-avulso' && !treatiseId) {
+    return NextResponse.json({ error: 'Tratado não informado.' }, { status: 400 })
   }
 
   try {
-    console.log('=== CRIANDO CLIENTE SUPABASE ===')
-    // Buscar o perfil do usuário
-    const supabase = createClient()
-    console.log('Buscando perfil do usuário:', userId)
+    const stripeCustomerId = await ensureStripeCustomerId(user)
 
-    let { data: profile, error: profileError } = await supabase
-      .from('profiles')
-      .select('stripe_customer_id')
-      .eq('id', userId)
-      .single()
-
-    console.log('Perfil encontrado:', !!profile, 'Erro:', profileError)
-
-    // Se não encontrou o perfil, criar um novo
-    if (!profile) {
-      console.log('Perfil não encontrado, criando novo perfil...')
-      try {
-        const profileData = {
-          id: userId,
-          created_at: new Date().toISOString(),
-          updated_at: new Date().toISOString(),
-        }
-
-        console.log('Dados do novo perfil:', profileData)
-        const { data: newProfile, error: newProfileError } = await supabase
-          .from('profiles')
-          .insert(profileData)
-          .select()
-          .single()
-
-        console.log('Novo perfil criado:', !!newProfile, 'Erro:', newProfileError)
-
-        profile = newProfile
-      } catch (createError) {
-        // Continuar mesmo se não conseguir criar o perfil
-        profile = null
-      }
-    }
-
-    let stripeCustomerId = profile?.stripe_customer_id
-
-    // Se não existir, criar o customer no Stripe e salvar no perfil
-    if (!stripeCustomerId) {
-      try {
-        console.log('=== CRIANDO CUSTOMER NO STRIPE ===')
-        // Usar email passado do frontend
-        const userEmailToUse = userEmail || 'usuario@exemplo.com'
-        console.log('Email do usuário:', userEmailToUse)
-
-        console.log('Criando customer no Stripe...')
-        const _customer = await stripe.customers.create({
-          email: userEmailToUse,
-          metadata: { userId },
-        })
-
-        stripeCustomerId = _customer.id
-        console.log('Stripe Customer ID criado:', stripeCustomerId)
-
-        try {
-          if (profile) {
-            console.log('Atualizando perfil com Stripe Customer ID...')
-            const { error: updateError } = await supabase
-              .from('profiles')
-              .update({
-                stripe_customer_id: stripeCustomerId,
-              })
-              .eq('id', userId)
-
-            if (updateError) {
-              console.log('ERRO ao atualizar perfil:', updateError)
-            } else {
-              console.log('Perfil atualizado com sucesso')
-            }
-          }
-        } catch (err) {
-          console.log('ERRO ao atualizar perfil:', err)
-        }
-      } catch (stripeError) {
-        console.log('ERRO ao criar customer no Stripe:', stripeError)
-        return NextResponse.json(
-          {
-            error: 'Erro ao configurar pagamento. Tente novamente.',
-          },
-          { status: 500 }
-        )
-      }
-    } else {
-      // Atualizar email do customer existente se necessário
-      try {
-        const userEmailToUse = userEmail || 'usuario@exemplo.com'
-
-        await stripe.customers.update(stripeCustomerId, {
-          email: userEmailToUse,
-        })
-      } catch (updateError) {
-        // Erro silencioso
-      }
-    }
-
-    // Buscar o price no Stripe para saber se é one-time ou recurring
-    console.log('=== BUSCANDO PRICE NO STRIPE ===')
-    console.log('Price ID:', priceId)
     const price = await stripe.prices.retrieve(priceId)
-    console.log('Price encontrado:', price.id, 'Tipo:', price.type)
+    const isRecurring = price.type === 'recurring'
 
-    console.log('=== CRIANDO SESSÃO DE CHECKOUT ===')
-    const sessionConfig: Stripe.Checkout.SessionCreateParams = {
+    // Proteção: plano anual precisa de preço anual no Stripe (e mensal, de preço mensal).
+    // Um preço mal configurado cobraria o valor anual todo mês.
+    const intervalError = planIntervalError(planType, price)
+    if (intervalError) {
+      console.error(intervalError)
+      return NextResponse.json(
+        { error: 'Plano temporariamente indisponível. Entre em contato com o suporte.' },
+        { status: 500 }
+      )
+    }
+    const isPlus = planType.includes('plus') ? 'true' : 'false'
+
+    const metadata: Record<string, string> = {
+      userId: user.id,
+      planType,
+      isPlus,
+      ...(!isRecurring &&
+        treatiseId && {
+          divisionId: String(treatiseId),
+          bookId: 'shulchan-aruch', // ID fixo do Shulchan Aruch
+          treatiseId: String(treatiseId),
+        }),
+    }
+
+    const session = await stripe.checkout.sessions.create({
+      mode: isRecurring ? 'subscription' : 'payment',
       payment_method_types: ['card'],
       customer: stripeCustomerId,
-      success_url: successUrl,
-      cancel_url: cancelUrl,
+      line_items: [{ price: priceId, quantity: 1 }],
+      success_url: safeReturnUrl(successUrl, req, '/payment/success'),
+      cancel_url: safeReturnUrl(cancelUrl, req, '/payment/cancel'),
       allow_promotion_codes: true,
-      metadata: {
-        userId,
-        planType,
-        // Adicionar flag para identificar assinaturas Plus
-        isPlus: planType.includes('plus') ? 'true' : 'false',
-        ...(treatiseId && {
-          divisionId: treatiseId,
-          bookId: 'shulchan-aruch', // ID fixo do Shulchan Aruch
-          treatiseId,
-        }),
-      },
-    }
+      metadata,
+      ...(isRecurring && {
+        subscription_data: { metadata: { userId: user.id, planType, isPlus } },
+      }),
+    })
 
-    if (price.type === 'recurring') {
-      sessionConfig.mode = 'subscription'
-    } else {
-      sessionConfig.mode = 'payment'
-    }
-
-    sessionConfig.line_items = [
-      {
-        price: priceId,
-        quantity: 1,
-      },
-    ]
-
-    console.log('Configuração da sessão:', sessionConfig)
-    const session = await stripe.checkout.sessions.create(sessionConfig)
-    console.log('Sessão criada com sucesso:', session.id)
-    console.log('URL da sessão:', session.url)
-
-    // Para tratados avulsos, salvar temporariamente qual tratado foi selecionado
-    if (planType === 'tratado-avulso' && treatiseId) {
-      console.log('Tratado avulso selecionado:', treatiseId)
-      // Salvar no localStorage do frontend (será usado na página de sucesso)
-      // Isso é uma solução temporária até configurar o webhook
-    }
-
-    const response = {
+    return NextResponse.json({
       url: session.url,
       sessionId: session.id,
-      treatiseId: treatiseId,
-      // Para tratado avulso, incluir dados para salvar no localStorage
+      treatiseId,
       ...(planType === 'tratado-avulso' &&
         treatiseId && {
           treatiseData: {
@@ -216,20 +96,11 @@ export async function POST(req: Request) {
             bookId: 'shulchan-aruch',
           },
         }),
-    }
-
-    console.log('=== CHECKOUT CRIADO COM SUCESSO ===')
-    console.log('Resposta:', response)
-
-    return NextResponse.json(response)
+    })
   } catch (error) {
-    console.log('=== ERRO NA CRIAÇÃO DO CHECKOUT ===')
-    console.error('Erro:', error)
+    console.error('Erro na criação do checkout:', error)
     return NextResponse.json(
-      {
-        error: 'Erro interno do servidor. Tente novamente.',
-        details: error instanceof Error ? error.message : 'Erro desconhecido',
-      },
+      { error: 'Erro interno do servidor. Tente novamente.' },
       { status: 500 }
     )
   }

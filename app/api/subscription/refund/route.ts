@@ -1,12 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
-import Stripe from 'stripe'
+import { createAdminClient } from '@/lib/supabase/admin'
+import { refundAndCancelSubscription } from '@/lib/stripe'
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-04-30.basil',
-})
-
-export async function POST(_request: NextRequest) {
+export async function POST() {
   try {
     const supabase = await createClient()
 
@@ -27,15 +24,14 @@ export async function POST(_request: NextRequest) {
       .eq('status', 'active')
       .single()
 
-    if (subError || !subscription) {
+    if (subError || !subscription?.subscription_id) {
       return NextResponse.json({ error: 'Assinatura não encontrada' }, { status: 404 })
     }
 
     // Verificar se está dentro do prazo de 7 dias
     const subscriptionDate = new Date(subscription.created_at)
-    const now = new Date()
     const daysDifference = Math.floor(
-      (now.getTime() - subscriptionDate.getTime()) / (1000 * 60 * 60 * 24)
+      (Date.now() - subscriptionDate.getTime()) / (1000 * 60 * 60 * 24)
     )
 
     if (daysDifference > 7) {
@@ -49,34 +45,21 @@ export async function POST(_request: NextRequest) {
       )
     }
 
-    // Buscar o payment intent da assinatura no Stripe
-    const stripeSubscription = await stripe.subscriptions.retrieve(subscription.subscription_id)
-    const latestInvoice = await stripe.invoices.retrieve(
-      stripeSubscription.latest_invoice as string
-    )
-    const paymentIntent = (latestInvoice as any).payment_intent as string
+    const refund = await refundAndCancelSubscription(subscription.subscription_id)
 
-    // Processar reembolso no Stripe
-    const refund = await stripe.refunds.create({
-      payment_intent: paymentIntent,
-      reason: 'requested_by_customer',
-    })
-
-    // Cancelar assinatura no Stripe
-    await stripe.subscriptions.cancel(subscription.subscription_id)
-
-    // Atualizar status no banco
-    const { error: updateError } = await supabase
+    // Atualizar status no banco (service role: usuário não tem permissão de escrita via RLS)
+    const { error: updateError } = await createAdminClient()
       .from('subscriptions')
       .update({
         status: 'canceled',
+        explicacao_pratica: false,
         updated_at: new Date().toISOString(),
       })
       .eq('id', subscription.id)
 
     if (updateError) {
-      console.error('Erro ao atualizar assinatura:', updateError)
-      return NextResponse.json({ error: 'Erro ao processar cancelamento' }, { status: 500 })
+      // O webhook customer.subscription.deleted também atualiza o status
+      console.error('Erro ao atualizar assinatura após reembolso:', updateError.message)
     }
 
     return NextResponse.json({

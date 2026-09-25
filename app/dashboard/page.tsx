@@ -11,6 +11,8 @@ import { useAccessInfo } from '@/hooks/useAccessInfo'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import TreatiseSelectionModal from '@/components/TreatiseSelectionModal'
+import { SimanDoDia, type SimanDoDiaData } from '@/app/components/siman-do-dia'
+import { Glossary } from '@/components/content/Glossary'
 
 export default function DashboardPage() {
   const { user } = useAuth()
@@ -68,7 +70,17 @@ export default function DashboardPage() {
     if (user) {
       loadUserData()
     }
-  }, [user])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id])
+
+  // Siman gratuito do dia (mostrado para quem ainda não tem plano)
+  const [simanDoDia, setSimanDoDia] = useState<SimanDoDiaData | null>(null)
+  useEffect(() => {
+    fetch('/api/siman-do-dia')
+      .then(res => (res.ok ? res.json() : null))
+      .then(setSimanDoDia)
+      .catch(() => setSimanDoDia(null))
+  }, [])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -205,12 +217,57 @@ export default function DashboardPage() {
         <main className="flex-1">
           <div className="container py-8">
             {!hasAnyAccess ? (
-              // Se não tem acesso, mostra planos
+              // Sem plano: começa pelo conteúdo gratuito e depois mostra os planos
               <>
+                <section className="mx-auto mb-12 max-w-6xl" aria-labelledby="comece-gratis">
+                  <h1
+                    id="comece-gratis"
+                    className="mb-2 text-3xl font-bold text-gray-900 md:text-4xl"
+                  >
+                    Bem-vindo! Comece grátis
+                  </h1>
+                  <p className="mb-6 max-w-3xl text-lg text-gray-600">
+                    Leia o siman do dia completo, navegue pelos índices dos 4 tratados e leia o
+                    primeiro seif de qualquer siman. Quando quiser ir além, escolha um plano.
+                  </p>
+                  <div className="grid gap-6 lg:grid-cols-2">
+                    <SimanDoDia siman={simanDoDia} />
+                    <div className="flex flex-col gap-4">
+                      <Link
+                        href="/dashboard/biblioteca/shulchan-aruch"
+                        className="rounded-2xl bg-white p-6 shadow-lg transition hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                      >
+                        <h2 className="text-xl font-bold text-gray-900">Explorar a biblioteca</h2>
+                        <p className="mt-1 text-gray-600">
+                          Os 4 tratados do Shulchan Aruch, com o assunto de cada siman e busca por
+                          tema.
+                        </p>
+                        <span className="mt-3 inline-block font-semibold text-blue-700">
+                          Abrir biblioteca →
+                        </span>
+                      </Link>
+                      <Link
+                        href="/dashboard/faq"
+                        className="rounded-2xl bg-white p-6 shadow-lg transition hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                      >
+                        <h2 className="text-xl font-bold text-gray-900">Perguntas frequentes</h2>
+                        <p className="mt-1 text-gray-600">
+                          Conceitos básicos do judaísmo para quem está começando.
+                        </p>
+                        <span className="mt-3 inline-block font-semibold text-blue-700">
+                          Ver perguntas →
+                        </span>
+                      </Link>
+                      <Glossary />
+                    </div>
+                  </div>
+                </section>
+
                 <div className="mb-8 text-center">
-                  <h1 className="mb-4 text-4xl font-bold text-gray-800">Escolha seu Plano</h1>
+                  <h2 className="mb-4 text-3xl font-bold text-gray-800">Escolha seu plano</h2>
                   <p className="text-lg text-gray-600">
-                    Para acessar os livros de Halachá, escolha um dos planos abaixo
+                    Leitura completa dos 4 tratados, busca e favoritos. No Plus, explicações
+                    práticas de cada seif.
                   </p>
                 </div>
 
@@ -224,7 +281,9 @@ export default function DashboardPage() {
                         <p className="mb-4 text-sm text-gray-600">Acesso a um tratado específico</p>
                         <div className="mb-4">
                           <span className="text-3xl font-bold text-blue-600">R$ 29,90</span>
-                          <span className="text-gray-500">/mês</span>
+                          <span className="block text-sm text-gray-500">
+                            pagamento único, 1 mês
+                          </span>
                         </div>
                         <div className="mt-auto">
                           <Button
@@ -255,7 +314,9 @@ export default function DashboardPage() {
                             onClick={() => handleSubscriptionCheckout('mensal-basico')}
                             disabled={loadingPurchase === 'mensal-basico'}
                           >
-                            {loadingPurchase === 'mensal-basico' ? 'Processando...' : 'Assinar Plano'}
+                            {loadingPurchase === 'mensal-basico'
+                              ? 'Processando...'
+                              : 'Assinar Plano'}
                           </Button>
                         </div>
                       </div>
@@ -277,7 +338,9 @@ export default function DashboardPage() {
                             onClick={() => handleSubscriptionCheckout('anual-basico')}
                             disabled={loadingPurchase === 'anual-basico'}
                           >
-                            {loadingPurchase === 'anual-basico' ? 'Processando...' : 'Assinar Plano'}
+                            {loadingPurchase === 'anual-basico'
+                              ? 'Processando...'
+                              : 'Assinar Plano'}
                           </Button>
                         </div>
                       </div>
@@ -498,82 +561,111 @@ export default function DashboardPage() {
                     </Link>
 
                     {/* Card de Upgrade para Assinatura - só aparece se tem tratados avulsos */}
-                    {userAccessInfo?.purchasedDivisions && userAccessInfo.purchasedDivisions.length > 0 && !userAccessInfo?.hasActiveSubscription && (
-                      <div className="group relative w-full max-w-sm overflow-hidden rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl border-2 border-green-200">
-                        {/* Header com gradiente verde */}
-                        <div className="h-32 bg-gradient-to-r from-green-500 to-emerald-500 p-6">
-                          <div className="flex items-center justify-between">
-                            <div className="rounded-full bg-white/20 p-3">
-                              <svg
-                                className="h-8 w-8 text-white"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                                />
-                              </svg>
-                            </div>
-                            <div className="rounded-full bg-yellow-400 p-1">
-                              <svg
-                                className="h-4 w-4 text-white"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
-                                />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/* Conteúdo do card */}
-                        <div className="p-6">
-                          <h3 className="mb-2 text-xl font-bold text-gray-800">✨ Upgrade para Assinatura</h3>
-                          <p className="mb-4 text-sm text-gray-600">
-                            Você tem tratados avulsos. Faça upgrade para acessar toda a biblioteca!
-                          </p>
-
-                          {/* Benefícios */}
-                          <div className="mb-4 space-y-2">
-                            <div className="flex items-center text-sm text-gray-600">
-                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              Acesso a todos os livros
-                            </div>
-                            <div className="flex items-center text-sm text-gray-600">
-                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              Economia significativa
-                            </div>
-                            <div className="flex items-center text-sm text-gray-600">
-                              <svg className="mr-2 h-4 w-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                              </svg>
-                              Recursos exclusivos
+                    {userAccessInfo?.purchasedDivisions &&
+                      userAccessInfo.purchasedDivisions.length > 0 &&
+                      !userAccessInfo?.hasActiveSubscription && (
+                        <div className="group relative w-full max-w-sm overflow-hidden rounded-2xl border-2 border-green-200 bg-gradient-to-br from-green-50 to-emerald-50 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+                          {/* Header com gradiente verde */}
+                          <div className="h-32 bg-gradient-to-r from-green-500 to-emerald-500 p-6">
+                            <div className="flex items-center justify-between">
+                              <div className="rounded-full bg-white/20 p-3">
+                                <svg
+                                  className="h-8 w-8 text-white"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                                  />
+                                </svg>
+                              </div>
+                              <div className="rounded-full bg-yellow-400 p-1">
+                                <svg
+                                  className="h-4 w-4 text-white"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
+                                  />
+                                </svg>
+                              </div>
                             </div>
                           </div>
 
-                          {/* Botão de ação */}
-                          <Link href="/planos">
-                            <div className="w-full rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg">
-                              Ver Planos de Assinatura
+                          {/* Conteúdo do card */}
+                          <div className="p-6">
+                            <h3 className="mb-2 text-xl font-bold text-gray-800">
+                              ✨ Upgrade para Assinatura
+                            </h3>
+                            <p className="mb-4 text-sm text-gray-600">
+                              Você tem tratados avulsos. Faça upgrade para acessar toda a
+                              biblioteca!
+                            </p>
+
+                            {/* Benefícios */}
+                            <div className="mb-4 space-y-2">
+                              <div className="flex items-center text-sm text-gray-600">
+                                <svg
+                                  className="mr-2 h-4 w-4 text-green-500"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                                Acesso a todos os livros
+                              </div>
+                              <div className="flex items-center text-sm text-gray-600">
+                                <svg
+                                  className="mr-2 h-4 w-4 text-green-500"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                                Economia significativa
+                              </div>
+                              <div className="flex items-center text-sm text-gray-600">
+                                <svg
+                                  className="mr-2 h-4 w-4 text-green-500"
+                                  fill="currentColor"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clipRule="evenodd"
+                                  />
+                                </svg>
+                                Recursos exclusivos
+                              </div>
                             </div>
-                          </Link>
+
+                            {/* Botão de ação */}
+                            <Link href="/planos">
+                              <div className="w-full rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 px-4 py-3 text-center font-semibold text-white shadow-md transition-all duration-200 group-hover:scale-105 group-hover:shadow-lg">
+                                Ver Planos de Assinatura
+                              </div>
+                            </Link>
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )}
                   </div>
                 </div>
               </>

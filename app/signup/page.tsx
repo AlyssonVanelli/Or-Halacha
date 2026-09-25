@@ -129,7 +129,7 @@ export default function SignUpPage() {
               <div className="px-8 pb-4 pt-8">
                 <h1 className="text-center text-3xl font-bold text-gray-800">Crie sua conta</h1>
                 <p className="mt-3 text-center text-base text-gray-600">
-                  Acesse todo o conteúdo do Shulchan Aruch em português
+                  Crie sua conta para ler, salvar favoritos e escolher seu plano
                 </p>
               </div>
               <div className="px-8 pb-8">
@@ -263,7 +263,7 @@ export default function SignUpPage() {
         <footer className="mt-auto border-t border-gray-200 bg-white/50 py-6">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
             <p className="text-center text-sm leading-loose text-gray-500 md:text-left">
-              © 2025 Or Halachá. Todos os direitos reservados.
+              © {new Date().getFullYear()} Or Halachá. Todos os direitos reservados.
             </p>
             <div className="flex gap-6">
               <a

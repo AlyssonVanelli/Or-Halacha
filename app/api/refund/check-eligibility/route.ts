@@ -47,7 +47,15 @@ export async function POST(req: Request) {
         type: 'subscription',
         id: subscription.id,
         title: planName,
-        amount: 'R$ ' + (subscription.plan_type === 'monthly' ? '99,90' : '79,90'),
+        // Valor efetivamente cobrado em cada plano
+        amount:
+          subscription.plan_type === 'monthly'
+            ? subscription.explicacao_pratica
+              ? 'R$ 119,90'
+              : 'R$ 99,90'
+            : subscription.explicacao_pratica
+              ? 'R$ 1.078,80'
+              : 'R$ 958,80',
         date: subscriptionDate.toLocaleDateString('pt-BR'),
         eligible,
       })

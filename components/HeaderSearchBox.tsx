@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 
-export function HeaderSearchBox() {
+export function HeaderSearchBox({ compact = false }: { compact?: boolean }) {
   const [query, setQuery] = useState('')
   const router = useRouter()
 
@@ -33,18 +33,22 @@ export function HeaderSearchBox() {
     >
       <Input
         type="search"
-        placeholder="Busque por temas, palavras ou termos em hebraico/transliterado..."
+        placeholder={compact ? 'Buscar…' : 'Busque por temas ou palavras (ex.: Shabat, tefilin)'}
         value={query}
         onChange={e => {
           setQuery(e.target.value)
         }}
-        className="flex-1 rounded-full px-4 py-6 text-lg shadow"
+        className={
+          compact
+            ? 'flex-1 rounded-full px-4 text-base'
+            : 'flex-1 rounded-full px-4 py-6 text-lg shadow'
+        }
         aria-label="Buscar nos tratados"
       />
       <Button
         type="submit"
-        size="lg"
-        className="rounded-full px-6 text-lg font-semibold"
+        size={compact ? 'default' : 'lg'}
+        className={compact ? 'rounded-full px-4' : 'rounded-full px-6 text-lg font-semibold'}
         onClick={e => {
           e.preventDefault()
           handleSubmit(e)

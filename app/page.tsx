@@ -6,7 +6,8 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, BookOpen, Search, Star } from 'lucide-react'
 // import { ParashaSemanal } from './components/parasha-semanal'
-import { SimanDoDia } from './components/siman-do-dia'
+import { SimanDoDia, type SimanDoDiaData } from './components/siman-do-dia'
+import { Glossary } from '@/components/content/Glossary'
 import FaqAccordion from './components/FaqAccordion'
 import { HeaderSimplificado } from '@/components/DashboardHeader'
 import Chatbot from '@/components/Chatbot'
@@ -29,7 +30,7 @@ export default function Home() {
   const router = useRouter()
 
   // Estados para carregar dados dinamicamente
-  const [siman, setSiman] = useState(null)
+  const [siman, setSiman] = useState<SimanDoDiaData | null>(null)
   const [simanLoading, setSimanLoading] = useState(true)
 
   useEffect(() => {
@@ -43,10 +44,7 @@ export default function Home() {
     async function loadData() {
       try {
         // Carregar dados do siman
-        const simanResponse = await fetch('/api/siman-do-dia', {
-          cache: 'force-cache',
-          next: { revalidate: 3600 }, // Cache por 1 hora
-        })
+        const simanResponse = await fetch('/api/siman-do-dia')
 
         // Processar resposta do siman
         if (simanResponse.ok) {
@@ -100,13 +98,14 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-4">
-                    <Display className="text-no-clip bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text tracking-tight text-transparent sm:text-5xl md:text-6xl leading-[1.6] md:leading-[1.6] pb-4 md:pb-6 overflow-visible will-change-transform">
+                    <Display className="text-no-clip overflow-visible bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text pb-2 text-4xl font-bold leading-tight tracking-tight text-transparent will-change-transform sm:text-5xl md:pb-6 md:text-6xl md:leading-[1.6]">
                       Shulchan Aruch em Português
                     </Display>
                     <BodyLarge className="max-w-[700px] text-gray-600">
-                      Acesse o Shulchan Aruch completo em português, com explicações práticas e
-                      navegação fácil por tratados, simanim e seifim. Estude, pesquise e aprofunde
-                      seu conhecimento em Halachá clássica.
+                      O código clássico da lei judaica, inteiro em português, com o assunto de cada
+                      capítulo à vista e explicações práticas para o dia a dia. Não precisa saber
+                      hebraico: serve para quem vive a tradição e para quem quer conhecer o
+                      judaísmo.
                     </BodyLarge>
                   </div>
                   <div className="flex flex-col gap-3 sm:flex-row">
@@ -186,12 +185,14 @@ export default function Home() {
                   <div className="rounded-full bg-gradient-to-r from-amber-500 to-orange-500 p-4 shadow-lg">
                     <Star className="h-8 w-8 text-white" />
                   </div>
-                  <Heading3 className="text-gray-800">Favoritos e Notas</Heading3>
+                  <Heading3 className="text-gray-800">Favoritos</Heading3>
                   <Body className="text-center text-gray-600">
-                    Marque seus trechos favoritos e adicione anotações pessoais para consulta
-                    futura.
+                    Guarde os seifim que você quer rever e volte a eles com um toque.
                   </Body>
                 </div>
+              </div>
+              <div className="mx-auto max-w-5xl">
+                <Glossary />
               </div>
             </div>
           </section>
@@ -236,10 +237,10 @@ export default function Home() {
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Sem mensalidade
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
                   </ul>
@@ -279,7 +280,7 @@ export default function Home() {
                     <li className="flex items-center gap-2">
                       <span className="text-green-500">✔</span> Favoritos e marcadores
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
                   </ul>
@@ -359,10 +360,10 @@ export default function Home() {
                       <span className="text-green-500">✔</span> Explicações práticas da Halachá
                       para o dia a dia
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
                   </ul>
@@ -391,7 +392,7 @@ export default function Home() {
                     <br />
                     (pode parcelar no cartão)
                     <br />
-                    Economia de 20% no plano anual
+                    Economia de 25% no plano anual
                   </div>
                   <ul className="flex-grow space-y-2">
                     <li className="flex items-center gap-2">
@@ -401,10 +402,10 @@ export default function Home() {
                       <span className="text-green-500">✔</span> Explicações práticas da Halachá
                       para o dia a dia
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
-                    <li className="flex items-center gap-2 opacity-0">
+                    <li className="flex items-center gap-2 opacity-0" aria-hidden="true">
                       <span className="text-green-500">✔</span> Espaço reservado
                     </li>
                   </ul>
@@ -503,7 +504,7 @@ export default function Home() {
         <footer className="border-t py-6 md:py-0">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
             <BodySmall className="text-center text-gray-500 md:text-left">
-              © 2025 Or Halachá. Todos os direitos reservados.
+              © {new Date().getFullYear()} Or Halachá. Todos os direitos reservados.
             </BodySmall>
             <div className="flex flex-wrap justify-center gap-6">
               <Link

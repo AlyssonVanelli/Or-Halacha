@@ -40,12 +40,12 @@ export function ConfirmationModal({
       case 'upgrade':
         return {
           icon: <CreditCard className="h-8 w-8 text-blue-500" />,
-          title: 'Fazer Upgrade',
-          description: 'Você será redirecionado para o checkout do Stripe',
+          title: 'Mudar de plano',
+          description: 'Você será levado ao portal seguro do Stripe',
           details: [
-            'Seu plano atual será atualizado',
-            'A cobrança será processada imediatamente',
-            'Você terá acesso às novas funcionalidades',
+            'Escolha o novo plano no portal',
+            'Seu plano atual é substituído, sem cobrança duplicada',
+            'A diferença é calculada proporcionalmente',
           ],
           confirmText: 'Continuar',
           confirmVariant: 'default' as const,
@@ -124,7 +124,7 @@ export function ConfirmationModal({
             {/* Actions */}
             <div className="flex gap-3">
               <Button variant="outline" onClick={onClose} disabled={loading} className="flex-1">
-                Cancelar
+                Voltar
               </Button>
               <Button
                 variant={content.confirmVariant}
