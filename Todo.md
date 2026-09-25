@@ -10,7 +10,8 @@ Situação: a conta Stripe atual é brasileira, no seu CPF. Conta Stripe no Bras
 brasileira no mesmo CPF/CNPJ, e a receita fica atrelada ao Brasil — não combina com quem não é mais
 residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)**.
 
-- [ ] **Criar conta no Paddle** (recomendado): é o vendedor legal perante o cliente brasileiro,
+- [ ] **Seguir o plano em `docs/plano-migracao-pagamentos.md`** — primeiro mandar ao suporte da Hotmart a pergunta pronta que está lá (a Hotmart atua como _agente_, não como vendedora legal: o produtor continua responsável por impostos/nota, salvo exceções)
+- [ ] Se a Hotmart não assumir a parte fiscal no seu caso: **conta no Paddle**: é o vendedor legal perante o cliente brasileiro,
       cuida de impostos e recibos, aceita vendedor de Israel e paga em conta bancária em Israel;
       tem "Pix Automático" para o Brasil; permite e-books/cursos/conteúdo digital por assinatura.
       Confirmar com o Paddle, na aprovação: conteúdo religioso digital por assinatura, Pix em
@@ -52,7 +53,7 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 - [ ] **SMTP próprio no Supabase Auth** (Resend, SES, SendGrid…): o SMTP padrão do Supabase envia só alguns emails por hora — num lançamento grande, confirmação de cadastro e recuperação de senha deixam de chegar
 - [ ] Supabase Auth → URL Configuration: Site URL `https://www.or-halacha.com.br` e Redirect URLs `https://www.or-halacha.com.br/**` (necessário para o novo "Esqueceu a senha?")
 - [ ] Templates de email do Supabase em português (confirmação, recuperação de senha) — há um modelo em `docs/email_confirmation_template.html`
-- [ ] **Escolher um único email de suporte** e criar a caixa no domínio (MX/SPF/DKIM de or-halacha.com.br). Hoje o site mostra 3 domínios diferentes: `suporte@orhalacha.com.br` (rodapé), `suporte@orhalacha.com` (/suporte), `suporte@or-halacha.com` (políticas), além de `termos@` e `privacidade@` — depois de escolher, o Claude troca em todo o site
+- [ ] **Criar uma caixa de email no domínio** (ex.: suporte@or-halacha.com.br — Zoho Mail grátis, Google Workspace ou encaminhamento ImprovMX) e configurar MX/SPF/DKIM. Hoje `or-halacha.com.br` não recebe email, e os antigos `orhalacha.com.br`, `orhalacha.com` e `or-halacha.com` nem existem (foram removidos do site). Depois é só preencher `SUPPORT_EMAIL` em `lib/site.ts`
 - [ ] Testar o formulário de suporte em produção (SMTP\_\* na Vercel) — os pedidos só chegam por email
 
 ### Configuração e testes em produção
@@ -70,7 +71,6 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 
 - [ ] **Monitoramento de erros** (Sentry) — principalmente webhook e checkout
 - [ ] Funil de conversão (cadastro → assinatura) nas métricas
-- [ ] Cron / curadoria do `siman_do_dia` (as datas cadastradas acabaram em 25/09/2026; o site escolhe um siman automático por dia)
 - [ ] Painel administrativo mínimo: assinantes, compras, pedidos de suporte
 - [ ] Email de boas-vindas e aviso antes de o tratado avulso expirar (1 mês)
 - [ ] Plano Supabase adequado (o gratuito pausa por inatividade e não tem backup diário)
@@ -108,6 +108,7 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 - [x] Removidas promessas falsas do chatbot/FAQ (Pix, 7 dias grátis, busca em hebraico, "explicação em cada seif")
 - [x] Vercel Analytics no código
 - [x] README com a arquitetura atual
+- [x] Suporte: usuário sem nome já consegue enviar, pedido salvo mesmo se o email de aviso falhar, horário do Brasil, emails inexistentes removidos do site
 - [x] Domínio www.or-halacha.com.br, deploy (pnpm, CI) e migrations aplicadas
 
 ## 🧹 Limpeza
