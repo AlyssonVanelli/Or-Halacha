@@ -95,20 +95,25 @@ export function todayBR() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date())
 }
 
+/** Todos os ids de simanim, paginando (o Supabase devolve no máximo 1.000 linhas por consulta). */
+export async function listChapterIds(onlyMainDivisions = false): Promise<string[]> {
+  const admin = createAdminClient()
+  const ids: string[] = []
+  for (let from = 0; ; from += 1000) {
+    let q = admin.from('chapters').select('id').order('id', { ascending: true })
+    if (onlyMainDivisions) q = q.not('division_id', 'is', null)
+    const { data, error } = await q.range(from, from + 999)
+    if (error) throw error
+    ids.push(...(data || []).map(c => c.id as string))
+    if (!data || data.length < 1000) break
+  }
+  return ids
+}
+
 // Simanim dos 4 tratados principais (sem apêndices), em ordem estável
-const getMainSimanIds = unstable_cache(
-  async () => {
-    const { data } = await createAdminClient()
-      .from('chapters')
-      .select('id')
-      .not('division_id', 'is', null)
-      .order('id', { ascending: true })
-      .range(0, 4999)
-    return (data || []).map(c => c.id as string)
-  },
-  ['main-siman-ids'],
-  { revalidate: 86400 }
-)
+const getMainSimanIds = unstable_cache(() => listChapterIds(true), ['main-siman-ids'], {
+  revalidate: 86400,
+})
 
 export async function getSimanDoDiaId(): Promise<string | null> {
   const today = todayBR()

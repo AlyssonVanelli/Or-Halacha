@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { listChapterIds } from '@/lib/content/server'
 
 const SITE_URL = 'https://www.or-halacha.com.br'
 
@@ -19,10 +20,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   try {
-    const admin = createAdminClient()
-    const [{ data: divisions }, { data: chapters }] = await Promise.all([
-      admin.from('divisions').select('id'),
-      admin.from('chapters').select('id').range(0, 4999),
+    const [{ data: divisions }, chapterIds] = await Promise.all([
+      createAdminClient().from('divisions').select('id'),
+      listChapterIds(),
     ])
 
     for (const d of divisions || []) {
@@ -33,8 +33,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.8,
       })
     }
-    for (const c of chapters || []) {
-      pages.push({ url: `${SITE_URL}/siman/${c.id}`, changeFrequency: 'monthly', priority: 0.6 })
+    for (const id of chapterIds) {
+      pages.push({ url: `${SITE_URL}/siman/${id}`, changeFrequency: 'monthly', priority: 0.6 })
     }
   } catch (error) {
     // Sem acesso ao banco (ex.: build local): publica só as páginas fixas
