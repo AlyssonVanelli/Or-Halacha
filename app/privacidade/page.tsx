@@ -3,6 +3,7 @@
 
 import Link from 'next/link'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SupportContact } from '@/components/SupportContact'
 
 export default function Privacidade() {
   return (
@@ -82,11 +83,7 @@ export default function Privacidade() {
             </ul>
             <h2 className="mb-2 mt-6 text-xl font-semibold">5. Contato</h2>
             <p>
-              Para exercer seus direitos ou dúvidas, envie um e-mail para{' '}
-              <a href="mailto:privacidade@orhalacha.com" className="underline">
-                privacidade@orhalacha.com
-              </a>
-              .
+              Para exercer seus direitos ou tirar dúvidas, fale conosco pelo <SupportContact />.
             </p>
           </div>
         </main>

@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { AlertTriangle, Clock, CreditCard, Shield, CheckCircle } from 'lucide-react'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SupportContact } from '@/components/SupportContact'
 
 export default function PoliticaReembolsoPage() {
   return (
@@ -242,7 +243,7 @@ export default function PoliticaReembolsoPage() {
                 <div className="rounded-lg bg-purple-50 p-4">
                   <ul className="space-y-2 text-sm">
                     <li>
-                      • <strong>Email:</strong> suporte@or-halacha.com
+                      • <strong>Contato:</strong> <SupportContact />
                     </li>
                     <li>
                       • <strong>Assunto:</strong> &quot;Solicitação de Reembolso&quot;

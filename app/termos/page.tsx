@@ -3,6 +3,7 @@
 
 import Link from 'next/link'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SupportContact } from '@/components/SupportContact'
 
 export default function Termos() {
   return (
@@ -45,11 +46,7 @@ export default function Termos() {
             <p>Podemos alterar estes termos a qualquer momento. Avisaremos no site.</p>
             <h2 className="mb-2 mt-6 text-xl font-semibold">6. Contato</h2>
             <p>
-              Em caso de dúvidas, mande e-mail para{' '}
-              <a href="mailto:termos@orhalacha.com" className="underline">
-                termos@orhalacha.com
-              </a>
-              .
+              Em caso de dúvidas, fale conosco pelo <SupportContact />.
             </p>
           </div>
         </main>

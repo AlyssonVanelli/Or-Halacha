@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { CheckCircle, Shield, CreditCard, Clock, Users } from 'lucide-react'
 import { Display, Body } from '@/components/ui/typography'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SupportContact } from '@/components/SupportContact'
 
 export default function PoliticaCompraPage() {
   return (
@@ -193,7 +194,7 @@ export default function PoliticaCompraPage() {
                 <div className="rounded-lg bg-indigo-50 p-4">
                   <ul className="space-y-2 text-sm">
                     <li>
-                      • <strong>Email:</strong> suporte@or-halacha.com
+                      • <strong>Contato:</strong> <SupportContact />
                     </li>
                     <li>
                       • <strong>WhatsApp:</strong> Disponível na página de suporte

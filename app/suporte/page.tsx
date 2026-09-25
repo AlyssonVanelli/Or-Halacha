@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SUPPORT_EMAIL, SUPPORT_WHATSAPP_URL } from '@/lib/site'
 
 export default function SupportPage() {
   const { user } = useAuth()
@@ -64,7 +65,8 @@ export default function SupportPage() {
       })
 
       if (!response.ok) {
-        throw new Error('Erro ao enviar mensagem')
+        const data = await response.json().catch(() => ({}))
+        throw new Error(data.error || 'Por favor, tente novamente mais tarde.')
       }
 
       setStatus('sent')
@@ -73,7 +75,9 @@ export default function SupportPage() {
       setEmail('')
     } catch (error) {
       setStatus('error')
-      setErrorMessage('Por favor, tente novamente mais tarde.')
+      setErrorMessage(
+        error instanceof Error ? error.message : 'Por favor, tente novamente mais tarde.'
+      )
     } finally {
       setLoading(false)
     }
@@ -126,10 +130,14 @@ export default function SupportPage() {
                   {!user && (
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                       <div>
-                        <label className="mb-2 block text-sm font-semibold text-gray-700">
+                        <label
+                          htmlFor="suporte-nome"
+                          className="mb-2 block text-sm font-semibold text-gray-700"
+                        >
                           Nome *
                         </label>
                         <input
+                          id="suporte-nome"
                           type="text"
                           value={name}
                           onChange={e => setName(e.target.value)}
@@ -140,10 +148,14 @@ export default function SupportPage() {
                         />
                       </div>
                       <div>
-                        <label className="mb-2 block text-sm font-semibold text-gray-700">
+                        <label
+                          htmlFor="suporte-email"
+                          className="mb-2 block text-sm font-semibold text-gray-700"
+                        >
                           Email *
                         </label>
                         <input
+                          id="suporte-email"
                           type="email"
                           value={email}
                           onChange={e => setEmail(e.target.value)}
@@ -157,10 +169,14 @@ export default function SupportPage() {
                   )}
 
                   <div>
-                    <label className="mb-2 block text-sm font-semibold text-gray-700">
+                    <label
+                      htmlFor="suporte-mensagem"
+                      className="mb-2 block text-sm font-semibold text-gray-700"
+                    >
                       Sua mensagem
                     </label>
                     <Textarea
+                      id="suporte-mensagem"
                       value={message}
                       onChange={e => setMessage(e.target.value)}
                       placeholder="Descreva sua dúvida ou problema em detalhes..."
@@ -259,9 +275,24 @@ export default function SupportPage() {
                         />
                       </svg>
                     </div>
-                    <h3 className="text-lg font-semibold text-gray-800">Email</h3>
+                    <h3 className="text-lg font-semibold text-gray-800">
+                      {SUPPORT_EMAIL ? 'Email' : 'WhatsApp'}
+                    </h3>
                   </div>
-                  <p className="text-gray-600">suporte@orhalacha.com</p>
+                  {SUPPORT_EMAIL ? (
+                    <a href={`mailto:${SUPPORT_EMAIL}`} className="text-blue-700 underline">
+                      {SUPPORT_EMAIL}
+                    </a>
+                  ) : (
+                    <a
+                      href={SUPPORT_WHATSAPP_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-700 underline"
+                    >
+                      Falar pelo WhatsApp
+                    </a>
+                  )}
                   <p className="mt-1 text-sm text-gray-500">Respondemos o mais rápido possível</p>
                 </div>
 
@@ -284,8 +315,10 @@ export default function SupportPage() {
                     </div>
                     <h3 className="text-lg font-semibold text-gray-800">Horário</h3>
                   </div>
-                  <p className="text-gray-600">Domingo a Quinta</p>
-                  <p className="mt-1 text-sm text-gray-500">16h às 22h (horário de Israel)</p>
+                  <p className="text-gray-600">Domingo a quinta</p>
+                  <p className="mt-1 text-sm text-gray-500">
+                    Das 10h às 16h no horário de Brasília (16h às 22h em Israel)
+                  </p>
                 </div>
               </div>
             </div>

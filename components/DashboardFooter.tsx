@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { BookOpen } from 'lucide-react'
+import { SUPPORT_EMAIL, SUPPORT_WHATSAPP_URL } from '@/lib/site'
 
 export function DashboardFooter() {
   return (
@@ -43,17 +44,19 @@ export function DashboardFooter() {
                   Central de Ajuda
                 </Link>
               </li>
+              {SUPPORT_EMAIL && (
+                <li>
+                  <a
+                    href={`mailto:${SUPPORT_EMAIL}`}
+                    className="text-muted-foreground hover:underline"
+                  >
+                    {SUPPORT_EMAIL}
+                  </a>
+                </li>
+              )}
               <li>
                 <a
-                  href="mailto:suporte@orhalacha.com.br"
-                  className="text-muted-foreground hover:underline"
-                >
-                  suporte@orhalacha.com.br
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://wa.me/972555196370"
+                  href={SUPPORT_WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:underline"

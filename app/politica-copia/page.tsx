@@ -4,6 +4,7 @@ import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Shield, Lock } from 'lucide-react'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
+import { SupportContact } from '@/components/SupportContact'
 
 export default function PoliticaCopiaPage() {
   return (
@@ -132,7 +133,7 @@ export default function PoliticaCopiaPage() {
                 <div className="rounded-lg bg-purple-50 p-4">
                   <ul className="space-y-2 text-sm">
                     <li>
-                      • <strong>Email:</strong> suporte@or-halacha.com
+                      • <strong>Contato:</strong> <SupportContact />
                     </li>
                     <li>
                       • <strong>Assunto:</strong> &quot;Política de Cópia&quot;
