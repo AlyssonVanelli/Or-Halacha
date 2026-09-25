@@ -267,7 +267,7 @@ export default function DashboardPage() {
                   <h2 className="mb-4 text-3xl font-bold text-gray-800">Escolha seu plano</h2>
                   <p className="text-lg text-gray-600">
                     Leitura completa dos 4 tratados, busca e favoritos. No Plus, explicações
-                    práticas de cada seif.
+                    práticas em mais de 11 mil seifim.
                   </p>
                 </div>
 

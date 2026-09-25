@@ -95,13 +95,36 @@ export function todayBR() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date())
 }
 
+// Simanim dos 4 tratados principais (sem apêndices), em ordem estável
+const getMainSimanIds = unstable_cache(
+  async () => {
+    const { data } = await createAdminClient()
+      .from('chapters')
+      .select('id')
+      .not('division_id', 'is', null)
+      .order('id', { ascending: true })
+      .range(0, 4999)
+    return (data || []).map(c => c.id as string)
+  },
+  ['main-siman-ids'],
+  { revalidate: 86400 }
+)
+
 export async function getSimanDoDiaId(): Promise<string | null> {
+  const today = todayBR()
   const { data } = await createAdminClient()
     .from('siman_do_dia')
     .select('siman_id')
-    .eq('data', todayBR())
+    .eq('data', today)
     .maybeSingle()
-  return (data?.siman_id as string) || null
+  if (data?.siman_id) return data.siman_id as string
+
+  // Sem sorteio cadastrado para hoje: escolha determinística pelo dia (igual para todos,
+  // muda a cada dia), para o siman gratuito nunca sumir da home.
+  const ids = await getMainSimanIds()
+  if (ids.length === 0) return null
+  const day = Math.floor(Date.parse(`${today}T00:00:00Z`) / 86400000)
+  return ids[(day * 7919) % ids.length]
 }
 
 export function canReadDivision(access: UserAccess, divisionId: string | null) {
