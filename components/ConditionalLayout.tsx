@@ -9,16 +9,10 @@ interface ConditionalLayoutProps {
   children: React.ReactNode
 }
 
+// Renderiza o conteúdo mesmo enquanto o login é verificado (o Google precisa ver a página);
+// o header/rodapé de usuário logado aparece assim que a sessão é confirmada.
 export function ConditionalLayout({ children }: ConditionalLayoutProps) {
-  const { user, loading } = useAuth()
-
-  if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-      </div>
-    )
-  }
+  const { user } = useAuth()
 
   return (
     <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
