@@ -39,7 +39,7 @@ const FAQS: FaqItem[] = [
   {
     question: 'Como estudar Halachá de forma eficiente?',
     answer:
-      'Comece com um tratado específico, leia os comentários explicativos, pratique com situações do dia a dia, e consulte fontes adicionais quando necessário. A plataforma oferece explicações práticas para facilitar o entendimento.',
+      'Comece por um tratado e leia um siman por vez; o siman do dia é um bom ponto de partida. No plano Plus, as explicações práticas mostram como cada lei se aplica no dia a dia.',
   },
   {
     question: 'Posso usar a plataforma para decisões haláchicas pessoais?',
@@ -64,7 +64,7 @@ const FAQS: FaqItem[] = [
   {
     question: 'Como funciona a pesquisa avançada?',
     answer:
-      'A pesquisa permite buscar por palavras-chave em todos os tratados simultaneamente. Você pode filtrar por tratado específico, siman (capítulo) ou usar termos em português ou hebraico.',
+      'A pesquisa procura palavras em português em todos os tratados de uma vez, com ou sem acento. Dentro de cada tratado, você também pode filtrar os simanim por número ou assunto.',
   },
   {
     question: 'O conteúdo é baseado em qual tradição haláchica?',

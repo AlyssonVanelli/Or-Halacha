@@ -15,17 +15,17 @@ interface Message {
 
 const FAQ_RESPONSES = {
   preço:
-    'Nossos planos começam em R$ 29,90/mês para acesso completo aos tratados do Shulchan Aruch. Temos também planos anuais com desconto!',
+    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
   custa:
-    'Nossos planos começam em R$ 29,90/mês para acesso completo aos tratados do Shulchan Aruch. Temos também planos anuais com desconto!',
+    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
   valor:
-    'Nossos planos começam em R$ 29,90/mês para acesso completo aos tratados do Shulchan Aruch. Temos também planos anuais com desconto!',
+    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
   plano:
-    'Nossos planos começam em R$ 29,90/mês para acesso completo aos tratados do Shulchan Aruch. Temos também planos anuais com desconto!',
+    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
   assinatura:
-    'Você pode assinar através da nossa página de planos. Aceitamos cartão de crédito e PIX. O acesso é imediato após a confirmação do pagamento.',
+    'Você pode assinar pela página de planos. O pagamento é feito com cartão de crédito, e o acesso é liberado assim que o pagamento é confirmado.',
   assinar:
-    'Você pode assinar através da nossa página de planos. Aceitamos cartão de crédito e PIX. O acesso é imediato após a confirmação do pagamento.',
+    'Você pode assinar pela página de planos. O pagamento é feito com cartão de crédito, e o acesso é liberado assim que o pagamento é confirmado.',
   livros:
     'Temos todos os tratados do Shulchan Aruch disponíveis: Orach Chayim, Yoreh Deah, Even HaEzer e Choshen Mishpat.',
   tratados:
@@ -37,9 +37,11 @@ const FAQ_RESPONSES = {
   cancelar:
     'Você pode cancelar sua assinatura a qualquer momento através do seu perfil. Não há taxas de cancelamento.',
   suporte:
-    'Para suporte técnico, entre em contato conosco pelo WhatsApp. Nossa equipe responde em até 24h.',
-  trial: 'Oferecemos 7 dias grátis para você testar nossa plataforma antes de assinar.',
-  grátis: 'Oferecemos 7 dias grátis para você testar nossa plataforma antes de assinar.',
+    'Para suporte, fale conosco pelo WhatsApp ou pela página /suporte. Respondemos o mais rápido possível.',
+  trial:
+    'Todo dia há um siman completo liberado de graça, e você pode ler o primeiro seif de qualquer siman sem assinar. Se assinar e não gostar, pode pedir reembolso em até 7 dias.',
+  grátis:
+    'Todo dia há um siman completo liberado de graça, e você pode ler o primeiro seif de qualquer siman sem assinar. Se assinar e não gostar, pode pedir reembolso em até 7 dias.',
   mobile:
     'Sim! Nossa plataforma é totalmente responsiva e funciona perfeitamente em celulares e tablets.',
   celular:

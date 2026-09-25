@@ -13,9 +13,12 @@ Atualizado em 27/09/2026. Ordem = prioridade. Site no ar: https://www.or-halacha
 - [ ] Recibos do Stripe em português e com o logo
 - [ ] Corrigir nome do produto "Shuchan Aruch Anual Plus" → "Shulchan Aruch Anual Plus"
 
-### Fiscal / jurídico (Brasil)
+### Fiscal / jurídico (vendedor em Israel, sem residência fiscal no Brasil)
 
-- [ ] **CNPJ e emissão de nota fiscal** para cada venda — o Stripe NÃO emite NF-e/NFS-e brasileira (integrar eNotas/NFE.io ou emitir manualmente)
+- [ ] **Definir quem é o vendedor legal.** Descobrir de quem é a conta Stripe atual (em BRL — conta brasileira exige CPF/CNPJ; quem for o titular é quem deve emitir nota no Brasil)
+- [ ] Conversar com um contador em Israel (רואה חשבון): abrir עוסק פטור/מורשה e declarar a receita do site em Israel
+- [ ] **Avaliar um Merchant of Record** (Paddle, Lemon Squeezy ou Hotmart): a plataforma vende em nome próprio ao cliente brasileiro, cuida de impostos/recibos e repassa para conta em Israel — você emite uma fatura por mês para ela em Israel, sem NF brasileira. Confirmar em cada uma: aceita vendedor israelense? assinatura recorrente? Pix? pagamento em BRL?
+- [ ] Se trocar de plataforma de pagamento: adaptar checkout, webhook, portal e reembolso no código (trabalho técnico — pode ser feito)
 - [ ] **Termos de Uso e Política de Privacidade** revisados por advogado e coerentes com o site real: Stripe e Supabase como operadores de dados, prazo de reembolso de 7 dias, cookies, uso de IA na tradução
 - [ ] **Exclusão de conta** (direito do titular — LGPD art. 18): hoje não existe; no mínimo um botão "excluir minha conta" ou fluxo pelo suporte com prazo
 - [ ] Informar na página e nos termos que a tradução/explicações foram produzidas com auxílio de IA (transparência — CDC)
@@ -25,7 +28,9 @@ Atualizado em 27/09/2026. Ordem = prioridade. Site no ar: https://www.or-halacha
 
 - [ ] **Revisão rabínica** da tradução e principalmente das explicações práticas (geradas por IA; erros halachicos derrubam a reputação no lançamento). Ideal: nome do revisor/haskamá na página
 - [ ] Retraduzir 6 simanim do Seder HaGet com recusa de IA no lugar do texto: **64, 67, 69, 70, 71, 72** (hoje aparecem como "Tradução em revisão")
-- [ ] Revisar o FAQ e o chatbot da home (conteúdo religioso, ex.: perguntas sobre Mashiach)
+- [ ] Revisar o FAQ do dashboard: tem respostas polêmicas voltadas contra interpretações cristãs (Isaías 53, "véu rasgado", Mashiach) — decidir se combinam com um site que quer atrair também não judeus
+- [ ] Políticas de compra/reembolso citam **PIX** (pagamento e estorno) — o site só aceita cartão; ajustar o texto
+- [ ] Página /suporte promete "Resposta em até 24 horas" — manter só se for cumprir
 - [ ] Deixar claro no Plus que há explicação em ~60% dos seifim (11.290 de 18.857), não em todos
 
 ### Email (senão os cadastros travam)
@@ -87,6 +92,7 @@ Atualizado em 27/09/2026. Ordem = prioridade. Site no ar: https://www.or-halacha
 - [x] Siman do dia com escolha automática quando não há data cadastrada
 - [x] Domínio www.or-halacha.com.br no código, SEO básico (robots, sitemap, imagem de prévia)
 - [x] Deploy (pnpm, CI) e migrations aplicadas
+- [x] Removidas promessas falsas do chatbot/FAQ (Pix, 7 dias grátis, "planos a partir de R$ 29,90/mês", busca em hebraico e por filtro)
 
 ## 🧹 Limpeza
 
