@@ -26,8 +26,10 @@ export default function Privacidade() {
                 comprado, registros de consentimento e pedidos de suporte.
               </li>
               <li>
-                <strong>Pagamento:</strong> feito diretamente no Stripe. Não armazenamos dados do
-                seu cartão.
+                <strong>Pagamento:</strong> feito no checkout da Hotmart. Não recebemos nem
+                guardamos dados de cartão ou de conta bancária; recebemos da Hotmart apenas o
+                necessário para liberar o acesso (e-mail e nome do comprador, produto, valor, data e
+                situação do pagamento).
               </li>
               <li>
                 <strong>Estatísticas:</strong> contagem agregada e anônima de visitas às páginas,
@@ -56,7 +58,8 @@ export default function Privacidade() {
                 <strong>Supabase</strong> — banco de dados e login;
               </li>
               <li>
-                <strong>Stripe</strong> — pagamentos;
+                <strong>Hotmart</strong> — pagamentos (Pix e cartão), recibos, cancelamentos e
+                reembolsos;
               </li>
               <li>
                 <strong>Vercel</strong> — hospedagem e estatísticas anônimas;
@@ -78,7 +81,7 @@ export default function Privacidade() {
               </li>
               <li>Revogar consentimentos a qualquer momento.</li>
               <li>
-                Registros de pagamento podem ser mantidos pelo Stripe pelo prazo exigido em lei.
+                Registros de pagamento podem ser mantidos pela Hotmart pelo prazo exigido em lei.
               </li>
             </ul>
             <h2 className="mb-2 mt-6 text-xl font-semibold">5. Contato</h2>

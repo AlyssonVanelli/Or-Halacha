@@ -7,41 +7,44 @@ Variáveis usadas pelo código. Configure em `.env.local` (desenvolvimento) e no
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=...
-# Obrigatória: usada pelo webhook do Stripe e rotas de API para gravar assinaturas/compras.
-# NUNCA prefixar com NEXT_PUBLIC_ (não pode ir para o navegador).
+# Obrigatória: usada pelo webhook da Hotmart e pelas rotas de API para ler o conteúdo e
+# gravar assinaturas/compras. NUNCA prefixar com NEXT_PUBLIC_ (não pode ir para o navegador).
 SUPABASE_SERVICE_ROLE_KEY=...
 ```
 
-## Stripe
+## Hotmart (pagamentos)
+
+Passo a passo em [`docs/hotmart.md`](./hotmart.md).
 
 ```env
-STRIPE_SECRET_KEY=sk_live_...
-STRIPE_WEBHOOK_SECRET=whsec_...
+# Token da conta (Ferramentas → Webhook). Valida o header X-HOTMART-HOTTOK.
+HOTMART_HOTTOK=...
 
-# Price IDs dos planos
-NEXT_PUBLIC_STRIPE_PRICE_MENSAL=price_...
-NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS=price_...
-NEXT_PUBLIC_STRIPE_PRICE_ANUAL=price_...
-NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS=price_...
-NEXT_PUBLIC_STRIPE_PRICE_SINGLE_BOOK=price_...
+# Links de checkout de cada plano/oferta, copiados do painel, COM o ?off=...
+HOTMART_CHECKOUT_MENSAL=https://pay.hotmart.com/XXXXXXXX?off=aaaaaaaa
+HOTMART_CHECKOUT_MENSAL_PLUS=https://pay.hotmart.com/XXXXXXXX?off=bbbbbbbb
+HOTMART_CHECKOUT_ANUAL=https://pay.hotmart.com/XXXXXXXX?off=cccccccc
+HOTMART_CHECKOUT_ANUAL_PLUS=https://pay.hotmart.com/XXXXXXXX?off=dddddddd
+
+# Tratado avulso (1 oferta por tratado)
+HOTMART_CHECKOUT_TRATADO_OC=https://pay.hotmart.com/YYYYYYYY?off=...   # Orach Chayim
+HOTMART_CHECKOUT_TRATADO_YD=https://pay.hotmart.com/YYYYYYYY?off=...   # Yoreh De'ah
+HOTMART_CHECKOUT_TRATADO_EH=https://pay.hotmart.com/YYYYYYYY?off=...   # Even HaEzer
+HOTMART_CHECKOUT_TRATADO_CM=https://pay.hotmart.com/YYYYYYYY?off=...   # Choshen Mishpat
 ```
 
-Eventos que o endpoint `/api/webhooks/stripe` precisa receber (configurar no painel do Stripe):
-
-- `customer.subscription.created`
-- `customer.subscription.updated`
-- `customer.subscription.deleted`
-- `invoice.payment_succeeded`
-- `checkout.session.completed`
-- `checkout.session.async_payment_succeeded`
+Sem um link, o botão daquele plano leva ao aviso "Pagamentos em configuração" (o site não quebra).
+Os links não são segredo, mas ficam só no servidor (sem `NEXT_PUBLIC_`).
 
 ## Aplicação
 
 ```env
-# URL pública do site, sem barra no final (usada nos redirects do Stripe)
+# URL pública do site, sem barra no final
 NEXT_PUBLIC_BASE_URL=https://www.or-halacha.com.br
 
-# Token para o cron que chama POST /api/admin/sortear-siman (header Authorization: Bearer <token>)
+# Token de administração (header Authorization: Bearer <token>):
+#  - POST /api/admin/sortear-siman (cron do siman do dia)
+#  - POST /api/admin/hotmart/reprocessar (reaplica eventos da Hotmart que ficaram com erro)
 ADMIN_SECRET_TOKEN=...
 ```
 
@@ -59,4 +62,6 @@ SMTP_TO=suporte@seu-dominio.com
 ## Segurança
 
 - **NUNCA** commite arquivos `.env` ou `.env.local`.
-- `SUPABASE_SERVICE_ROLE_KEY`, `STRIPE_SECRET_KEY` e `STRIPE_WEBHOOK_SECRET` são segredos de servidor.
+- `SUPABASE_SERVICE_ROLE_KEY`, `HOTMART_HOTTOK`, `ADMIN_SECRET_TOKEN` e `SMTP_PASS` são segredos de servidor.
+- As variáveis antigas do Stripe (`STRIPE_*`, `NEXT_PUBLIC_STRIPE_PRICE_*`) não são mais usadas e
+  podem ser apagadas da Vercel.

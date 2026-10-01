@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { MessageCircle, Send, X, Bot, User } from 'lucide-react'
+import { PLANS, REFUND_DAYS, TREATISE_PRICE, brl } from '@/lib/plans'
 
 interface Message {
   id: string
@@ -13,35 +14,43 @@ interface Message {
   timestamp: Date
 }
 
+const PRECO = `O siman do dia é grátis. Para ler tudo: Mensal Básico ${brl(PLANS['mensal-basico'].price)}/mês, Mensal Plus ${brl(PLANS['mensal-plus'].price)}/mês (com explicações práticas), Anual Básico ${brl(PLANS['anual-basico'].price)} e Anual Plus ${brl(PLANS['anual-plus'].price)} à vista, com 4 meses grátis. Ou um tratado por ${brl(TREATISE_PRICE)} (1 mês). Veja em /planos.`
+const PAGAMENTO =
+  'O pagamento é feito pela Hotmart, com Pix ou cartão de crédito, e o acesso é liberado assim que o pagamento é confirmado. O plano anual é à vista (sem parcelamento) e por isso sai bem mais barato.'
+const CANCELAR =
+  'Você cancela a renovação quando quiser na área do comprador da Hotmart (Minhas compras → Or Halachá), sem taxa. O acesso continua até o fim do período pago.'
+const REEMBOLSO = `Você tem ${REFUND_DAYS} dias de garantia: peça o reembolso integral na área do comprador da Hotmart (Minhas compras → Or Halachá).`
+const GRATIS = `Todo dia há um siman completo liberado de graça, e você pode ler o primeiro seif de qualquer siman sem assinar. Se assinar e não gostar, tem ${REFUND_DAYS} dias de garantia.`
+
+// A primeira palavra-chave encontrada responde: as mais específicas vêm antes
 const FAQ_RESPONSES = {
-  preço:
-    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
-  custa:
-    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
-  valor:
-    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
-  plano:
-    'Você pode comprar um tratado por R$ 29,90 (acesso por 1 mês) ou assinar o acesso completo a partir de R$ 99,90/mês. Os planos anuais têm desconto. Veja todos em /planos.',
-  assinatura:
-    'Você pode assinar pela página de planos. O pagamento é feito com cartão de crédito, e o acesso é liberado assim que o pagamento é confirmado.',
-  assinar:
-    'Você pode assinar pela página de planos. O pagamento é feito com cartão de crédito, e o acesso é liberado assim que o pagamento é confirmado.',
+  reembolso: REEMBOLSO,
+  devolu: REEMBOLSO,
+  garantia: REEMBOLSO,
+  cancel: CANCELAR,
+  pix: PAGAMENTO,
+  cartão: PAGAMENTO,
+  cartao: PAGAMENTO,
+  parcel: PAGAMENTO,
+  pagamento: PAGAMENTO,
+  pagar: PAGAMENTO,
+  preço: PRECO,
+  preco: PRECO,
+  custa: PRECO,
+  valor: PRECO,
+  plano: PRECO,
+  assinatura: PRECO,
+  assinar: PRECO,
   livros:
     'Temos todos os tratados do Shulchan Aruch disponíveis: Orach Chayim, Yoreh Deah, Even HaEzer e Choshen Mishpat.',
   tratados:
     'Temos todos os tratados do Shulchan Aruch disponíveis: Orach Chayim, Yoreh Deah, Even HaEzer e Choshen Mishpat.',
   acesso:
-    'Após a assinatura, você terá acesso completo a todos os tratados, busca avançada, favoritos e muito mais.',
-  cancelamento:
-    'Você pode cancelar sua assinatura a qualquer momento através do seu perfil. Não há taxas de cancelamento.',
-  cancelar:
-    'Você pode cancelar sua assinatura a qualquer momento através do seu perfil. Não há taxas de cancelamento.',
+    'Após a assinatura, você terá acesso completo a todos os tratados, busca, favoritos e, no Plus, às explicações práticas.',
   suporte:
     'Para suporte, fale conosco pelo WhatsApp ou pela página /suporte. Respondemos o mais rápido possível.',
-  trial:
-    'Todo dia há um siman completo liberado de graça, e você pode ler o primeiro seif de qualquer siman sem assinar. Se assinar e não gostar, pode pedir reembolso em até 7 dias.',
-  grátis:
-    'Todo dia há um siman completo liberado de graça, e você pode ler o primeiro seif de qualquer siman sem assinar. Se assinar e não gostar, pode pedir reembolso em até 7 dias.',
+  trial: GRATIS,
+  grátis: GRATIS,
   mobile:
     'Sim! Nossa plataforma é totalmente responsiva e funciona perfeitamente em celulares e tablets.',
   celular:

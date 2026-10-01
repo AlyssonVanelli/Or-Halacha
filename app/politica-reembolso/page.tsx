@@ -1,11 +1,27 @@
-'use client'
-
-import React from 'react'
+import type { Metadata } from 'next'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { AlertTriangle, Clock, CreditCard, Shield, CheckCircle } from 'lucide-react'
+import { AlertTriangle, Clock, CreditCard, Shield } from 'lucide-react'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { SupportContact } from '@/components/SupportContact'
+import { HOTMART_BUYER_AREA_URL, REFUND_DAYS } from '@/lib/plans'
+
+export const metadata: Metadata = {
+  title: 'Política de Reembolso',
+  description: `Garantia de ${REFUND_DAYS} dias com reembolso integral pela Hotmart.`,
+  alternates: { canonical: '/politica-reembolso' },
+}
+
+const buyerArea = (
+  <a
+    href={HOTMART_BUYER_AREA_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-blue-700 underline"
+  >
+    área do comprador da Hotmart
+  </a>
+)
 
 export default function PoliticaReembolsoPage() {
   return (
@@ -14,247 +30,132 @@ export default function PoliticaReembolsoPage() {
         <div className="container mx-auto max-w-4xl px-4">
           <div className="mb-8 text-center">
             <h1 className="mb-4 text-4xl font-bold text-gray-800">Política de Reembolso</h1>
-            <p className="text-lg text-gray-600">
-              Termos e condições para solicitação de reembolsos
-            </p>
+            <p className="text-lg text-gray-600">Garantia de {REFUND_DAYS} dias, sem perguntas</p>
           </div>
 
           <div className="space-y-6">
-            {/* Informações Gerais */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Shield className="h-5 w-5 text-blue-600" />
-                  Informações Gerais
+                  Informações gerais
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-gray-700">
-                  Esta política estabelece os termos e condições para solicitação de reembolsos na
-                  plataforma Or Halachá. Leia atentamente antes de realizar uma compra.
+                  Os pagamentos do Or Halachá são processados pela Hotmart. Por isso, o reembolso
+                  também é pedido e feito pela Hotmart, que devolve o valor e avisa o site para
+                  encerrar o acesso.
                 </p>
                 <div className="rounded-lg bg-blue-50 p-4">
                   <p className="text-sm text-blue-800">
-                    <strong>Última atualização:</strong> {new Date().toLocaleDateString('pt-BR')}
+                    <strong>Última atualização:</strong> 01/10/2026
                   </p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Período de Reembolso */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Clock className="h-5 w-5 text-green-600" />
-                  Período de Reembolso
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div className="rounded-lg border bg-green-50 p-4">
-                    <h3 className="mb-2 text-lg font-semibold text-green-800">Assinaturas</h3>
-                    <ul className="space-y-2 text-sm text-green-700">
-                      <li>
-                        • <strong>7 dias</strong> a partir da compra para pedir reembolso
-                      </li>
-                      <li>• Reembolso integral dentro desse prazo (direito de arrependimento)</li>
-                      <li>• Pedido pelo próprio perfil, em “Solicitar reembolso”</li>
-                      <li>• Depois de 7 dias: cancelamento sem cobrança futura, sem reembolso</li>
-                    </ul>
-                  </div>
-                  <div className="rounded-lg border bg-blue-50 p-4">
-                    <h3 className="mb-2 text-lg font-semibold text-blue-800">
-                      Tratados Individuais
-                    </h3>
-                    <ul className="space-y-2 text-sm text-blue-700">
-                      <li>
-                        • <strong>7 dias</strong> a partir da compra para pedir reembolso
-                      </li>
-                      <li>• Reembolso integral dentro desse prazo (direito de arrependimento)</li>
-                      <li>• Compra única, sem renovação automática</li>
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Condições para Reembolso */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-purple-600" />
-                  Condições para Reembolso
+                  Prazo e condições
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
-                  <div className="rounded-lg bg-green-50 p-4">
-                    <h4 className="mb-2 font-semibold text-green-800">✅ Reembolsos Aprovados:</h4>
-                    <ul className="space-y-2 text-sm text-green-700">
-                      <li>• Cobrança duplicada por erro do sistema</li>
-                      <li>• Problemas técnicos que impedem o acesso</li>
-                      <li>• Cancelamento dentro do período estabelecido</li>
-                      <li>• Não utilização do serviço após a compra</li>
-                      <li>• Problemas de pagamento não resolvidos</li>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="rounded-lg border border-green-200 bg-green-50 p-4">
+                    <h3 className="mb-2 text-lg font-semibold text-green-800">
+                      Até {REFUND_DAYS} dias após a compra
+                    </h3>
+                    <ul className="space-y-2 text-sm text-green-800">
+                      <li>
+                        • Reembolso integral, sem precisar justificar (direito de arrependimento)
+                      </li>
+                      <li>• Vale para assinaturas (mensal ou anual) e para o tratado avulso</li>
                     </ul>
                   </div>
-                  <div className="rounded-lg bg-red-50 p-4">
-                    <h4 className="mb-2 font-semibold text-red-800">❌ Reembolsos Negados:</h4>
-                    <ul className="space-y-2 text-sm text-red-700">
-                      <li>• Uso extensivo do conteúdo antes do cancelamento</li>
-                      <li>• Cancelamento após o período de reembolso</li>
-                      <li>• Mudança de opinião após uso satisfatório</li>
-                      <li>• Problemas de conectividade do usuário</li>
-                      <li>• Violação dos termos de uso</li>
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
+                    <h3 className="mb-2 text-lg font-semibold text-gray-800">
+                      Depois de {REFUND_DAYS} dias
+                    </h3>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• Você pode cancelar a renovação a qualquer momento</li>
+                      <li>• O acesso continua até o fim do período já pago</li>
+                      <li>• Não há reembolso proporcional do período restante</li>
                     </ul>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Processo de Solicitação */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <CreditCard className="h-5 w-5 text-orange-600" />
-                  Como Solicitar Reembolso
+                  Como pedir o reembolso
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <Badge variant="outline" className="mt-1">
-                      1
-                    </Badge>
-                    <div>
-                      <h4 className="font-semibold">Acesse seu perfil</h4>
-                      <p className="text-sm text-gray-600">
-                        Entre na sua conta e abra &quot;Meu perfil&quot;. Se preferir, fale com o
-                        suporte pela página /suporte.
-                      </p>
+                  {[
+                    {
+                      title: 'Abra a área do comprador',
+                      body: <>Acesse a {buyerArea} e entre com o e-mail usado na compra.</>,
+                    },
+                    {
+                      title: 'Escolha a compra',
+                      body: 'Em “Minhas compras”, abra o Or Halachá e peça o reembolso (ou o cancelamento com reembolso).',
+                    },
+                    {
+                      title: 'Acesso encerrado',
+                      body: 'Quando a Hotmart confirma o reembolso, o acesso pago termina automaticamente no site.',
+                    },
+                    {
+                      title: 'Devolução do valor',
+                      body: 'No Pix, o valor volta para a conta de origem; no cartão, o estorno aparece na fatura conforme o prazo do banco.',
+                    },
+                  ].map((step, i) => (
+                    <div key={step.title} className="flex items-start gap-3">
+                      <Badge variant="outline" className="mt-1">
+                        {i + 1}
+                      </Badge>
+                      <div>
+                        <h4 className="font-semibold">{step.title}</h4>
+                        <p className="text-sm text-gray-600">{step.body}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Badge variant="outline" className="mt-1">
-                      2
-                    </Badge>
-                    <div>
-                      <h4 className="font-semibold">Clique em &quot;Solicitar reembolso&quot;</h4>
-                      <p className="text-sm text-gray-600">
-                        Confirme o pedido. Dentro de 7 dias da compra, o reembolso é feito na hora,
-                        sem análise.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Badge variant="outline" className="mt-1">
-                      3
-                    </Badge>
-                    <div>
-                      <h4 className="font-semibold">Acesso encerrado</h4>
-                      <p className="text-sm text-gray-600">
-                        A assinatura é cancelada e o acesso pago termina no mesmo momento.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Badge variant="outline" className="mt-1">
-                      4
-                    </Badge>
-                    <div>
-                      <h4 className="font-semibold">Processamento</h4>
-                      <p className="text-sm text-gray-600">
-                        O estorno é enviado ao cartão na hora; o prazo para aparecer na fatura
-                        depende do banco (normalmente de 5 a 10 dias úteis).
-                      </p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
+                <p className="mt-4 text-sm text-gray-600">
+                  Prefere ajuda? Fale com a gente pelo <SupportContact /> que fazemos o pedido com
+                  você.
+                </p>
               </CardContent>
             </Card>
 
-            {/* Formas de Reembolso */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <CreditCard className="h-5 w-5 text-indigo-600" />
-                  Formas de Reembolso
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="rounded-lg bg-gray-50 p-4">
-                  <h4 className="mb-2 font-semibold">Métodos de Reembolso:</h4>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>
-                      • <strong>Cartão:</strong> estorno no mesmo cartão usado na compra; o prazo
-                      para aparecer na fatura depende do banco emissor
-                    </li>
-                  </ul>
-                </div>
-                <div className="mt-4 rounded-lg bg-yellow-50 p-4">
-                  <p className="text-sm text-yellow-800">
-                    <strong>Importante:</strong> O reembolso será creditado na mesma forma de
-                    pagamento utilizada na compra original.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Casos Especiais */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <AlertTriangle className="h-5 w-5 text-yellow-600" />
-                  Casos Especiais
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div className="border-l-4 border-blue-500 pl-4">
-                    <h4 className="font-semibold text-blue-800">Problemas Técnicos</h4>
-                    <p className="mt-1 text-sm text-gray-600">
-                      Se houver problemas técnicos que impeçam o acesso ao conteúdo, oferecemos
-                      reembolso integral independente do período de uso.
-                    </p>
-                  </div>
-                  <div className="border-l-4 border-green-500 pl-4">
-                    <h4 className="font-semibold text-green-800">Cobrança Duplicada</h4>
-                    <p className="mt-1 text-sm text-gray-600">
-                      Em caso de cobrança duplicada por erro do sistema, reembolsamos imediatamente
-                      o valor duplicado.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Contato */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Shield className="h-5 w-5 text-purple-600" />
-                  Suporte e Contato
+                  Casos especiais
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="mb-4 text-gray-700">
-                  Para solicitar reembolsos ou esclarecer dúvidas sobre esta política:
-                </p>
-                <div className="rounded-lg bg-purple-50 p-4">
-                  <ul className="space-y-2 text-sm">
-                    <li>
-                      • <strong>Contato:</strong> <SupportContact />
-                    </li>
-                    <li>
-                      • <strong>Assunto:</strong> &quot;Solicitação de Reembolso&quot;
-                    </li>
-                    <li>
-                      • <strong>WhatsApp:</strong> Disponível na página de suporte
-                    </li>
-                    <li>
-                      • <strong>Horário:</strong> Segunda a sexta, 9h às 18h
-                    </li>
-                  </ul>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="border-l-4 border-blue-500 pl-4">
+                    <h4 className="font-semibold text-blue-800">Problemas técnicos</h4>
+                    <p className="mt-1 text-sm text-gray-600">
+                      Se um problema do site impedir o acesso ao conteúdo pago, devolvemos o valor
+                      mesmo depois de {REFUND_DAYS} dias. Fale com o suporte.
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-semibold text-green-800">Cobrança duplicada</h4>
+                    <p className="mt-1 text-sm text-gray-600">
+                      Cobrança em dobro por erro é devolvida integralmente. Fale com o suporte.
+                    </p>
+                  </div>
                 </div>
               </CardContent>
             </Card>

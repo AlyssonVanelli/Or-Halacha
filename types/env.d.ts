@@ -1,8 +1,16 @@
 declare namespace NodeJS {
   interface ProcessEnv {
-    STRIPE_PUBLIC_KEY: string
-    STRIPE_SECRET_KEY: string
-    STRIPE_WEBHOOK_SECRET: string
+    // Hotmart (pagamentos)
+    HOTMART_HOTTOK?: string
+    HOTMART_CHECKOUT_MENSAL?: string
+    HOTMART_CHECKOUT_MENSAL_PLUS?: string
+    HOTMART_CHECKOUT_ANUAL?: string
+    HOTMART_CHECKOUT_ANUAL_PLUS?: string
+    HOTMART_CHECKOUT_TRATADO_OC?: string
+    HOTMART_CHECKOUT_TRATADO_YD?: string
+    HOTMART_CHECKOUT_TRATADO_EH?: string
+    HOTMART_CHECKOUT_TRATADO_CM?: string
+    ADMIN_SECRET_TOKEN?: string
 
     NEXT_PUBLIC_SUPABASE_URL: string
     NEXT_PUBLIC_SUPABASE_ANON_KEY: string

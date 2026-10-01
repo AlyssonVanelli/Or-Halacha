@@ -1,11 +1,10 @@
 import { NextResponse } from 'next/server'
-import Stripe from 'stripe'
 import { getAuthenticatedUser, unauthorizedResponse } from '@/lib/api-auth'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { HOTMART_BUYER_AREA_URL } from '@/lib/plans'
 
-// Exclusão da conta a pedido do titular (LGPD, art. 18).
-// Cancela assinaturas no Stripe e apaga os dados pessoais. Registros de pagamento ficam
-// no Stripe (obrigação legal/contábil), sem vínculo com a conta apagada.
+// Exclusão da conta a pedido do titular (LGPD, art. 18). Apaga os dados pessoais do site;
+// os registros de pagamento ficam na Hotmart (obrigação legal/contábil), sem vínculo com a conta.
 export async function POST(req: Request) {
   try {
     const { user } = await getAuthenticatedUser()
@@ -18,34 +17,41 @@ export async function POST(req: Request) {
 
     const admin = createAdminClient()
 
+    // A renovação é cobrada pela Hotmart: sem cancelá-la lá, a pessoa continuaria pagando
+    const { data: sub } = await admin
+      .from('subscriptions')
+      .select('status, cancel_at_period_end, provider')
+      .eq('user_id', user.id)
+      .maybeSingle()
+    if (
+      sub?.provider === 'hotmart' &&
+      ['active', 'past_due'].includes(sub.status as string) &&
+      !sub.cancel_at_period_end
+    ) {
+      return NextResponse.json(
+        {
+          error:
+            'Sua assinatura ainda está com renovação automática. Cancele a renovação na área do comprador da Hotmart (Minhas compras → Or Halachá) e depois exclua a conta.',
+          buyerAreaUrl: HOTMART_BUYER_AREA_URL,
+        },
+        { status: 409 }
+      )
+    }
+
     const { data: profile } = await admin
       .from('profiles')
-      .select('stripe_customer_id, avatar_url')
+      .select('avatar_url')
       .eq('id', user.id)
       .maybeSingle()
 
-    // 1. Cancela imediatamente qualquer assinatura ativa (para não haver novas cobranças)
-    const stripeKey = process.env.STRIPE_SECRET_KEY
-    if (stripeKey && profile?.stripe_customer_id) {
-      const stripe = new Stripe(stripeKey, { apiVersion: '2025-04-30.basil' })
-      try {
-        const subs = await stripe.subscriptions.list({
-          customer: profile.stripe_customer_id,
-          status: 'all',
-          limit: 20,
-        })
-        for (const sub of subs.data) {
-          if (!['canceled', 'incomplete_expired'].includes(sub.status)) {
-            await stripe.subscriptions.cancel(sub.id)
-          }
-        }
-      } catch (err) {
-        if ((err as { code?: string }).code !== 'resource_missing') throw err
-      }
-    }
-
-    // 2. Apaga os dados do usuário (filhos primeiro)
-    for (const table of ['favorites', 'data_consents', 'purchased_books', 'subscriptions']) {
+    // Apaga os dados do usuário (filhos primeiro)
+    for (const table of [
+      'favorites',
+      'data_consents',
+      'purchased_books',
+      'subscriptions',
+      'payment_events',
+    ]) {
       const { error } = await admin.from(table).delete().eq('user_id', user.id)
       if (error) console.error(`Exclusão de conta: erro em ${table}`, error.message)
     }
@@ -60,7 +66,7 @@ export async function POST(req: Request) {
 
     await admin.from('profiles').delete().eq('id', user.id)
 
-    // 3. Remove o login
+    // Remove o login
     const { error: authError } = await admin.auth.admin.deleteUser(user.id)
     if (authError) {
       console.error('Exclusão de conta: erro ao remover usuário do Auth', authError.message)

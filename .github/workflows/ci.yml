@@ -28,6 +28,4 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: https://example.supabase.co
           NEXT_PUBLIC_SUPABASE_ANON_KEY: dummy
           SUPABASE_SERVICE_ROLE_KEY: dummy
-          STRIPE_SECRET_KEY: sk_test_dummy
-          STRIPE_WEBHOOK_SECRET: whsec_dummy
           NEXT_TELEMETRY_DISABLED: '1'

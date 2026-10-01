@@ -9,7 +9,7 @@ explicações práticas por seif.
 
 - [Next.js 15](https://nextjs.org/) (App Router) + TypeScript + Tailwind CSS
 - [Supabase](https://supabase.com/) — Postgres, Auth e Storage
-- [Stripe](https://stripe.com/) — assinaturas, compra avulsa, portal do cliente e reembolsos
+- [Hotmart](https://hotmart.com/) — pagamentos (Pix e cartão), assinaturas, tratado avulso e reembolsos
 - [Vercel](https://vercel.com/) — hospedagem e Web Analytics
 - pnpm (gerenciador de pacotes usado na Vercel e no CI)
 
@@ -21,7 +21,8 @@ pnpm dev          # http://localhost:3000
 ```
 
 Variáveis de ambiente: veja [docs/environment-variables.md](docs/environment-variables.md).
-Use chaves de **teste** do Stripe no `.env.local`.
+Sem as variáveis da Hotmart o site funciona normalmente; só os botões de pagamento mostram
+"Pagamentos em configuração".
 
 ```bash
 pnpm type-check   # TypeScript
@@ -58,17 +59,20 @@ O texto do Shulchan Aruch **nunca é lido direto pelo navegador**. As tabelas `c
 - `/siman/[simanId]` — leitor (renderizado no servidor, com título/descrição por siman)
 - `/tratado/[divisionId]` — índice do tratado com busca por número/assunto
 - `/dashboard` — área logada (biblioteca, favoritos, perfil)
-- `/search`, `/planos`, `/reset-password`, `/update-password`
+- `/search`, `/planos`, `/livros`, `/reset-password`, `/update-password`
 - `app/sitemap.ts` — sitemap com todos os tratados e simanim
 
-### Pagamentos (Stripe)
+### Pagamentos (Hotmart)
 
-- Checkout: `app/api/create-subscription-checkout`, `app/api/checkout/create`,
-  `app/api/create-treatise-payment`
-- Webhook: `app/api/webhooks/stripe` → `lib/subscription-sync.ts` (grava com service role)
-- Portal do cliente (trocar plano/cartão): `lib/billing-portal.ts`
-- Cancelar / reativar / reembolsar: `app/api/subscription/*`, `app/api/refund`
-- Proteção: plano anual só é vendido se o preço no Stripe for anual (`planIntervalError`)
+Guia completo (painel, variáveis, testes e operação): [docs/hotmart.md](docs/hotmart.md).
+
+- Preços exibidos: `lib/plans.ts` (anual à vista, sem parcelamento) e `components/PlanCards.tsx`
+- Checkout: `/checkout/<plano ou id do tratado>` (`app/checkout/[item]/route.ts`) → link da
+  Hotmart com e-mail e id da conta (`lib/hotmart.ts`)
+- Webhook: `app/api/webhooks/hotmart` → `lib/hotmart-events.ts` (libera, renova, cancela,
+  reembolsa; eventos em `payment_events`)
+- Cancelar, trocar plano/cartão e reembolso: na área do comprador da Hotmart; o perfil mostra o
+  atalho (`components/BillingSection.tsx`)
 
 ### Banco de dados
 

@@ -1,41 +1,28 @@
 # 📌 TODO - Or Halacha
 
-Atualizado em 27/09/2026. Ordem = prioridade. Site no ar: https://www.or-halacha.com.br
+Atualizado em 01/10/2026. Ordem = prioridade. Site no ar: https://www.or-halacha.com.br
 
 ## 🔴 1. Bloqueia o lançamento
 
-### Como receber (vendedor em Israel, sem residência fiscal no Brasil)
+### Pagamentos pela Hotmart (o código está pronto; falta o painel)
 
-Situação: a conta Stripe atual é brasileira, no seu CPF. Conta Stripe no Brasil exige conta bancária
-brasileira no mesmo CPF/CNPJ, e a receita fica atrelada ao Brasil — não combina com quem não é mais
-residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)**.
+Passo a passo completo em `docs/hotmart.md`. Plano anual agora é à vista (R$ 799 / R$ 959, "4 meses grátis"), sem parcelamento.
 
-- [ ] **Seguir o plano em `docs/plano-migracao-pagamentos.md`** — primeiro mandar ao suporte da Hotmart a pergunta pronta que está lá (a Hotmart atua como _agente_, não como vendedora legal: o produtor continua responsável por impostos/nota, salvo exceções)
-- [ ] Se a Hotmart não assumir a parte fiscal no seu caso: **conta no Paddle**: é o vendedor legal perante o cliente brasileiro,
-      cuida de impostos e recibos, aceita vendedor de Israel e paga em conta bancária em Israel;
-      tem "Pix Automático" para o Brasil; permite e-books/cursos/conteúdo digital por assinatura.
-      Confirmar com o Paddle, na aprovação: conteúdo religioso digital por assinatura, Pix em
-      assinaturas e cobrança em BRL
-- [ ] Alternativa se o Paddle recusar: Lemon Squeezy (MoR; sem Pix hoje) ou Hotmart (forte em Pix e
-      boleto no Brasil; confirmar regras para produtor estrangeiro)
-- [ ] **Depois de aprovado no MoR: migrar checkout, webhook, portal e reembolso no código** (técnico —
-      o Claude faz; 2 a 3 dias de trabalho + testes)
-- [ ] Encerrar/desativar a conta Stripe brasileira depois da migração
+- [ ] Mandar ao suporte da Hotmart as 3 perguntas de `docs/hotmart.md` (moeda do cartão/IOF, Pix nas renovações, saque para Israel)
+- [ ] Mudar o país da conta de produtor para Israel (sacar o saldo antes)
+- [ ] Criar o produto **Assinatura** (4 planos com os nomes exatos, Pix + cartão, sem parcelamento, garantia de 7 dias, troca de plano ativada) e o produto **Tratado avulso** (4 ofertas de R$ 29,90)
+- [ ] Página de obrigado dos 2 produtos: `https://www.or-halacha.com.br/payment/success`
+- [ ] Webhook 2.0 → `https://www.or-halacha.com.br/api/webhooks/hotmart` e, na Vercel, `HOTMART_HOTTOK` + os 8 links `HOTMART_CHECKOUT_*` (com `?off=`); redeploy
+- [ ] Testes reais (`docs/hotmart.md`, seção 4): tratado por Pix → reembolso; assinatura mensal → cancelar renovação → reembolso
+- [ ] Depois de validar: apagar as variáveis `STRIPE_*` da Vercel, desativar webhook/produtos e encerrar a conta Stripe brasileira
 - [ ] **Contador em Israel (רואה חשבון):** abrir עוסק פטור ou מורשה, registrar no ביטוח לאומי
       como autônomo e confirmar:
   - se a receita do site conta como renda de fonte israelense (o trabalho é feito em Israel)
   - se você tem direito à isenção nova para olim sobre renda ativa israelense (vale para quem fez
     aliá entre 05/11/2025 e 31/12/2026; tetos de ₪600 mil em 2026 e ₪1 milhão em 2027–2028)
-  - os pontos de crédito (נקודות זיכוי) de oleh e o IVA (מע"מ) sobre vendas ao exterior via MoR
+  - os pontos de crédito (נקודות זיכוי) de oleh e o IVA (מע"מ) sobre vendas ao exterior pela Hotmart
 - [ ] Se ainda tiver pendências fiscais no Brasil (declaração de saída definitiva etc.), confirmar com
       um contador brasileiro online
-
-### Cobrança (enquanto o Stripe estiver em uso)
-
-- [ ] **Preços anuais estão como cobrança MENSAL**: "Anual Básico" (R$ 958,80) e "Anual Plus" (R$ 1.078,80) cobrariam todo mês. Corrigir para intervalo **anual** (até corrigir, o site recusa a venda anual)
-- [ ] Customer Portal: adicionar os 4 planos em "Troca de plano" (hoje a lista está vazia)
-- [ ] Webhook de produção com os eventos: `customer.subscription.created/updated/deleted`, `invoice.payment_succeeded`, `checkout.session.completed`, `checkout.session.async_payment_succeeded`
-- [ ] Corrigir nome do produto "Shuchan Aruch Anual Plus" → "Shulchan Aruch Anual Plus"
 
 ### Jurídico
 
@@ -62,7 +49,6 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 - [ ] Vercel → Domains: redirecionar `or-halacha.vercel.app` e `or-halacha.com.br` (sem www) para `www.or-halacha.com.br`
 - [ ] Vercel → **ativar Web Analytics** (o código já está no site)
 - [ ] **Google Search Console**: verificar o domínio e enviar `https://www.or-halacha.com.br/sitemap.xml` (1.874 páginas)
-- [ ] Testar com cartão real (valor baixo, depois reembolsar): assinatura mensal, Plus, tratado avulso, cancelamento, reembolso
 - [ ] Testar: cadastro → email de confirmação → login; "Esqueceu a senha?" → email → nova senha
 - [ ] Testar: salvar nome no perfil, excluir uma conta de teste e o editor de conteúdo do admin
 - [ ] Compartilhar o link no WhatsApp e conferir a imagem de prévia
@@ -92,6 +78,8 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 - [ ] Explicação prática em tabela separada, restrita ao Plus também no banco
 - [ ] Regenerar `lib/supabase/database.types.ts` com a CLI do Supabase
 - [ ] Mesclar/fechar os PRs do Dependabot abertos no GitHub
+- [ ] Cancelar a renovação pelo próprio site usando a API da Hotmart (OAuth); hoje o perfil leva à área do comprador
+- [ ] Depois de validar a Hotmart: remover as colunas antigas do Stripe (`profiles.stripe_customer_id`, `purchased_books.stripe_payment_intent_id`)
 
 ## ✅ Feito
 
@@ -103,9 +91,12 @@ residente fiscal. Caminho recomendado: **vender por um Merchant of Record (MoR)*
 - [x] Siman do dia automático quando não há data cadastrada; também no dashboard do assinante
 - [x] **SEO**: páginas renderizadas no servidor (antes o Google via só um spinner), título/descrição por siman e tratado, sitemap com 1.874 páginas
 - [x] **Exclusão de conta** pelo perfil (LGPD) — cancela assinatura e apaga os dados
-- [x] Políticas alinhadas ao site: sem Pix, reembolso integral em 7 dias pelo perfil, preços do Plus, operadores de dados na Privacidade
+- [x] **Hotmart integrada**: checkout com e-mail e conta identificados, webhook (libera, renova, troca de plano, cancela, reembolsa, compra antes do cadastro), perfil com atalho para a área do comprador; Stripe removido do código
+- [x] Anual à vista sem parcelamento (R$ 799 / R$ 959) e planos num só componente (home, /planos, dashboard)
+- [x] Políticas de compra/reembolso, Privacidade, Termos, FAQ e chatbot com Hotmart, Pix + cartão e garantia de 7 dias
+- [x] /livros renderizado no servidor (sem spinner)
 - [x] Aviso de uso de IA na tradução/explicações (glossário e Termos)
-- [x] Removidas promessas falsas do chatbot/FAQ (Pix, 7 dias grátis, busca em hebraico, "explicação em cada seif")
+- [x] Removidas promessas falsas do chatbot/FAQ (7 dias grátis, busca em hebraico, "explicação em cada seif")
 - [x] Vercel Analytics no código
 - [x] README com a arquitetura atual
 - [x] Suporte: usuário sem nome já consegue enviar, pedido salvo mesmo se o email de aviso falhar, horário do Brasil, emails inexistentes removidos do site

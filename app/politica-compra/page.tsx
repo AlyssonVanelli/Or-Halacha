@@ -7,6 +7,15 @@ import { CheckCircle, Shield, CreditCard, Clock, Users } from 'lucide-react'
 import { Display, Body } from '@/components/ui/typography'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { SupportContact } from '@/components/SupportContact'
+import {
+  HOTMART_BUYER_AREA_URL,
+  PLANS,
+  PLAN_ORDER,
+  REFUND_DAYS,
+  TREATISE_PRICE,
+  annualFreeMonths,
+  brl,
+} from '@/lib/plans'
 
 export default function PoliticaCompraPage() {
   return (
@@ -37,7 +46,7 @@ export default function PoliticaCompraPage() {
                 </p>
                 <div className="rounded-lg bg-blue-50 p-4">
                   <p className="text-sm text-blue-800">
-                    <strong>Última atualização:</strong> {new Date().toLocaleDateString('pt-BR')}
+                    <strong>Última atualização:</strong> 01/10/2026
                   </p>
                 </div>
               </CardContent>
@@ -57,9 +66,9 @@ export default function PoliticaCompraPage() {
                     <h3 className="mb-2 text-lg font-semibold">Assinaturas Mensais/Anuais</h3>
                     <ul className="space-y-2 text-sm text-gray-600">
                       <li>• Acesso completo a todos os tratados</li>
-                      <li>• Renovação automática</li>
-                      <li>• Cancelamento a qualquer momento</li>
-                      <li>• Cobrança recorrente</li>
+                      <li>• Renovação automática (todo mês ou a cada 12 meses)</li>
+                      <li>• Cancelamento da renovação a qualquer momento</li>
+                      <li>• Plano anual pago à vista, sem parcelamento</li>
                     </ul>
                   </div>
                   <div className="rounded-lg border p-4">
@@ -103,7 +112,9 @@ export default function PoliticaCompraPage() {
                     <div>
                       <h4 className="font-semibold">Pagamento Seguro</h4>
                       <p className="text-sm text-gray-600">
-                        Processamento seguro via Stripe com criptografia SSL.
+                        O pagamento é feito no checkout da Hotmart (Pix ou cartão de crédito), que
+                        processa a cobrança e envia o recibo para o seu e-mail. O Or Halachá não
+                        recebe nem guarda os dados do seu cartão.
                       </p>
                     </div>
                   </div>
@@ -114,7 +125,8 @@ export default function PoliticaCompraPage() {
                     <div>
                       <h4 className="font-semibold">Ativação Imediata</h4>
                       <p className="text-sm text-gray-600">
-                        Acesso liberado instantaneamente após confirmação do pagamento.
+                        O acesso é liberado na sua conta assim que a Hotmart confirma o pagamento:
+                        no cartão, em segundos; no Pix, assim que o pagamento é concluído.
                       </p>
                     </div>
                   </div>
@@ -134,17 +146,31 @@ export default function PoliticaCompraPage() {
                 <div className="rounded-lg bg-gray-50 p-4">
                   <h4 className="mb-2 font-semibold">Formas de Pagamento Aceitas:</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
-                    <li>• Cartões de crédito (Visa, Mastercard, American Express)</li>
+                    <li>• Pix</li>
+                    <li>• Cartão de crédito</li>
+                    <li>
+                      • O plano anual é cobrado à vista (uma única cobrança por ano), sem
+                      parcelamento
+                    </li>
                   </ul>
                 </div>
                 <div className="rounded-lg bg-yellow-50 p-4">
                   <h4 className="mb-2 font-semibold text-yellow-800">Preços:</h4>
                   <ul className="space-y-1 text-sm text-yellow-700">
-                    <li>• Mensal Básico: R$ 99,90/mês</li>
-                    <li>• Mensal Plus: R$ 119,90/mês</li>
-                    <li>• Anual Básico: R$ 958,80/ano (equivale a R$ 79,90/mês)</li>
-                    <li>• Anual Plus: R$ 1.078,80/ano (equivale a R$ 89,90/mês)</li>
-                    <li>• Tratado individual: R$ 29,90 (30 dias de acesso)</li>
+                    {PLAN_ORDER.map(id => {
+                      const plan = PLANS[id]
+                      return (
+                        <li key={id}>
+                          • {plan.name}: {brl(plan.price)}
+                          {plan.interval === 'year'
+                            ? `/ano, à vista (${annualFreeMonths(plan)} meses grátis em relação ao mensal)`
+                            : '/mês'}
+                        </li>
+                      )
+                    })}
+                    <li>
+                      • Tratado individual: {brl(TREATISE_PRICE)} (1 mês de acesso, pagamento único)
+                    </li>
                   </ul>
                 </div>
               </CardContent>
@@ -163,15 +189,25 @@ export default function PoliticaCompraPage() {
                   <div className="border-l-4 border-green-500 pl-4">
                     <h4 className="font-semibold text-green-800">Renovação Automática</h4>
                     <p className="mt-1 text-sm text-gray-600">
-                      Assinaturas são renovadas automaticamente. Você pode cancelar a qualquer
-                      momento através do seu perfil ou entrando em contato conosco.
+                      Assinaturas são renovadas automaticamente pela Hotmart. Você pode cancelar a
+                      renovação a qualquer momento na{' '}
+                      <a
+                        href={HOTMART_BUYER_AREA_URL}
+                        className="underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        área do comprador da Hotmart
+                      </a>{' '}
+                      (Minhas compras → Or Halachá) ou pedindo ajuda ao nosso suporte.
                     </p>
                   </div>
                   <div className="border-l-4 border-blue-500 pl-4">
                     <h4 className="font-semibold text-blue-800">Cancelamento</h4>
                     <p className="mt-1 text-sm text-gray-600">
-                      Cancelamentos podem ser feitos a qualquer momento. O acesso permanece ativo
-                      até o final do período pago.
+                      O acesso permanece ativo até o fim do período pago. Nos primeiros{' '}
+                      {REFUND_DAYS} dias após a compra, você pode pedir o reembolso integral (veja a
+                      Política de Reembolso).
                     </p>
                   </div>
                 </div>

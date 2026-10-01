@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 // import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -10,6 +10,7 @@ import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { BookOpen, ShieldCheck, FileText } from 'lucide-react'
 import { Label } from '@/components/ui/label'
 import { translateAuthError } from '@/lib/error-translations'
+import { redirectParam } from '@/lib/redirect'
 
 export default function SignUpPage() {
   const [email, setEmail] = useState('')
@@ -17,6 +18,10 @@ export default function SignUpPage() {
   const [acceptTerms, setAcceptTerms] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  // Destino depois de confirmar o e-mail (ex.: /checkout/anual-plus, vindo de um botão Assinar)
+  const [redirectTo, setRedirectTo] = useState<string | null>(null)
+  useEffect(() => setRedirectTo(redirectParam()), [])
+  const loginHref = redirectTo ? `/login?redirect=${encodeURIComponent(redirectTo)}` : '/login'
   // const { signIn } = useAuth()
 
   async function handleSignUp(e: React.FormEvent) {
@@ -50,7 +55,9 @@ export default function SignUpPage() {
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
+          emailRedirectTo: `${window.location.origin}/auth/callback${
+            redirectTo ? `?next=${encodeURIComponent(redirectTo)}` : ''
+          }`,
         },
       })
 
@@ -65,7 +72,7 @@ export default function SignUpPage() {
             'ℹ️ Este email já está cadastrado. Se você não confirmou o email, faça login para reenviar a confirmação.'
           )
           setTimeout(() => {
-            window.location.href = '/login'
+            window.location.href = loginHref
           }, 3000)
           return
         }
@@ -129,7 +136,9 @@ export default function SignUpPage() {
               <div className="px-8 pb-4 pt-8">
                 <h1 className="text-center text-3xl font-bold text-gray-800">Crie sua conta</h1>
                 <p className="mt-3 text-center text-base text-gray-600">
-                  Crie sua conta para ler, salvar favoritos e escolher seu plano
+                  {redirectTo?.startsWith('/checkout/')
+                    ? 'Crie sua conta para continuar para o pagamento. Depois de confirmar o e-mail, você volta direto para ele.'
+                    : 'Crie sua conta para ler, salvar favoritos e escolher seu plano'}
                 </p>
               </div>
               <div className="px-8 pb-8">
@@ -250,7 +259,7 @@ export default function SignUpPage() {
                 <div className="mt-8 text-center text-sm text-gray-600">
                   Já tem uma conta?{' '}
                   <a
-                    href="/login"
+                    href={loginHref}
                     className="font-semibold text-blue-600 transition-colors duration-200 hover:text-blue-700"
                   >
                     Entrar

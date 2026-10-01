@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { MessageCircle, HelpCircle } from 'lucide-react'
+import { PLANS, REFUND_DAYS, brl } from '@/lib/plans'
 
 type FaqItem = {
   question: string
@@ -15,6 +16,10 @@ const FAQS: FaqItem[] = [
     question: 'O que é o Or Halacha?',
     answer:
       'Or Halacha é uma plataforma em Português com ensinamentos e decisões de Halachá, baseada nos quatro tratados do Shulchan Aruch, para facilitar seu estudo e consulta.',
+  },
+  {
+    question: 'Quanto custa e como eu pago?',
+    answer: `O siman do dia é sempre grátis. Para ler tudo, os planos custam a partir de ${brl(PLANS['mensal-basico'].price)}/mês ou ${brl(PLANS['anual-basico'].price)} por ano à vista (4 meses grátis). O pagamento é feito pela Hotmart, com Pix ou cartão de crédito, e você tem ${REFUND_DAYS} dias de garantia.`,
   },
   {
     question: 'Como funciona a minha dashboard?',

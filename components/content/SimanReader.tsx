@@ -21,6 +21,7 @@ import { useToast } from '@/hooks/use-toast'
 import { RichText } from '@/components/content/RichText'
 import { Glossary } from '@/components/content/Glossary'
 import type { SimanDTO } from '@/lib/content/server'
+import { TREATISE_PRICE, brl } from '@/lib/plans'
 
 const FONT_SIZES = ['text-base', 'text-lg', 'text-xl', 'text-2xl'] as const
 const FONT_KEY = 'or-halacha:tamanho-fonte'
@@ -405,8 +406,8 @@ export function SimanReader({
                 </Button>
                 {data.divisionId && (
                   <Button variant="outline" asChild>
-                    <Link href={`/checkout/${data.divisionId}`}>
-                      Só {data.divisionTitle}: R$ 29,90 por 1 mês
+                    <Link href={`/checkout/${data.divisionId}`} prefetch={false}>
+                      Só {data.divisionTitle}: {brl(TREATISE_PRICE)} por 1 mês
                     </Link>
                   </Button>
                 )}

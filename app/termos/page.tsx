@@ -34,7 +34,19 @@ export default function Termos() {
               É permitido usar o conteúdo para estudo pessoal. Qualquer reprodução deve citar a
               fonte.
             </p>
-            <h2 className="mb-2 mt-6 text-xl font-semibold">4. Responsabilidades</h2>
+            <h2 className="mb-2 mt-6 text-xl font-semibold">4. Planos e pagamentos</h2>
+            <p>
+              Os planos pagos são vendidos pela Hotmart, que processa o pagamento (Pix ou cartão de
+              crédito), as renovações e os reembolsos. Ao comprar, você também aceita os termos de
+              compra da Hotmart exibidos no checkout. Assinaturas renovam automaticamente até você
+              cancelar a renovação na área do comprador da Hotmart; o plano anual é pago à vista. O
+              reembolso segue a{' '}
+              <Link href="/politica-reembolso" className="underline">
+                Política de Reembolso
+              </Link>{' '}
+              (7 dias de garantia).
+            </p>
+            <h2 className="mb-2 mt-6 text-xl font-semibold">5. Responsabilidades</h2>
             <p>
               A tradução do Shulchan Aruch e as explicações práticas foram produzidas com auxílio de
               inteligência artificial e estão em revisão contínua, podendo conter imprecisões. O
@@ -42,9 +54,9 @@ export default function Termos() {
               práticas. Não nos responsabilizamos por uso indevido do conteúdo ou por decisões
               baseadas nele.
             </p>
-            <h2 className="mb-2 mt-6 text-xl font-semibold">5. Modificações</h2>
+            <h2 className="mb-2 mt-6 text-xl font-semibold">6. Modificações</h2>
             <p>Podemos alterar estes termos a qualquer momento. Avisaremos no site.</p>
-            <h2 className="mb-2 mt-6 text-xl font-semibold">6. Contato</h2>
+            <h2 className="mb-2 mt-6 text-xl font-semibold">7. Contato</h2>
             <p>
               Em caso de dúvidas, fale conosco pelo <SupportContact />.
             </p>

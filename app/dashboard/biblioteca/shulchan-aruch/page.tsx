@@ -8,6 +8,7 @@ import { useAuth } from '@/contexts/auth-context'
 import { createClient } from '@/lib/supabase/client'
 import { Glossary } from '@/components/content/Glossary'
 import { DIVISION_BLURBS } from '@/lib/content/divisions'
+import { TREATISE_PRICE, brl } from '@/lib/plans'
 import { tratadoHref } from '@/components/content/SimanReader'
 
 interface Division {
@@ -146,9 +147,9 @@ export default function ShulchanAruchPage() {
                   </Button>
                   {!unlocked && (
                     <Button variant="outline" asChild className="flex-1">
-                      <Link href={`/checkout/${div.id}`}>
+                      <Link href={`/checkout/${div.id}`} prefetch={false}>
                         <ShoppingCart className="mr-2 h-4 w-4" />
-                        Comprar este tratado · R$ 29,90
+                        Comprar este tratado · {brl(TREATISE_PRICE)}
                       </Link>
                     </Button>
                   )}

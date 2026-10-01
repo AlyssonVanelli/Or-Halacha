@@ -38,7 +38,8 @@ export function DeleteAccountSection() {
       {!open ? (
         <>
           <p className="mb-3 text-sm text-gray-600">
-            Apaga seu perfil, favoritos e acessos, e cancela qualquer assinatura ativa.
+            Apaga seu perfil, favoritos e acessos. Se você tem assinatura, cancele antes a renovação
+            na área do comprador da Hotmart, para não haver novas cobranças.
           </p>
           <Button
             variant="outline"
@@ -51,9 +52,9 @@ export function DeleteAccountSection() {
       ) : (
         <div className="space-y-3 rounded-lg border border-red-200 bg-red-50 p-4">
           <p className="text-sm text-red-900">
-            Esta ação não pode ser desfeita. Sua assinatura será cancelada na hora, sem reembolso
-            automático (para reembolso dentro de 7 dias, use “Solicitar reembolso” antes). Para
-            confirmar, digite <b>EXCLUIR</b>.
+            Esta ação não pode ser desfeita e o acesso já pago deixa de valer. Se quiser reembolso
+            (até 7 dias após a compra), peça na Hotmart antes de excluir. Para confirmar, digite{' '}
+            <b>EXCLUIR</b>.
           </p>
           <label htmlFor="confirmar-exclusao" className="sr-only">
             Digite EXCLUIR para confirmar

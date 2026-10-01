@@ -1,10 +1,19 @@
 import { NextResponse } from 'next/server'
 import { getAuthenticatedUser, unauthorizedResponse } from '@/lib/api-auth'
+import { createAdminClient } from '@/lib/supabase/admin'
+import { claimPendingPurchases } from '@/lib/hotmart-events'
 
 export async function POST() {
   try {
     const { supabase, user } = await getAuthenticatedUser()
     if (!user) return unauthorizedResponse()
+
+    // Compras feitas na Hotmart com este e-mail antes do cadastro passam a valer agora
+    try {
+      await claimPendingPurchases(createAdminClient(), user)
+    } catch (err) {
+      console.error('Erro ao vincular compras pendentes:', err)
+    }
 
     const { data: subscriptionData } = await supabase
       .from('subscriptions')
@@ -29,7 +38,7 @@ export async function POST() {
       success: true,
       supabase: {
         subscription: subscriptionData,
-        purchasedBooks: purchasedData,
+        purchasedBooks: validPurchasedBooks,
       },
       access: {
         hasActiveSubscription,

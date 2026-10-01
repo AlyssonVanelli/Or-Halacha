@@ -13,6 +13,7 @@ import { useToast } from '@/hooks/use-toast'
 import { ConditionalLayout } from '@/components/ConditionalLayout'
 import { translateAuthErrorForLogin } from '@/lib/error-translations'
 import { createClient } from '@/lib/supabase/client'
+import { redirectParam } from '@/lib/redirect'
 import { Display, Heading1, Body, BodySmall, ButtonText } from '@/components/ui/typography'
 
 export default function LoginPage() {
@@ -22,6 +23,11 @@ export default function LoginPage() {
   const [showEmailConfirmation, setShowEmailConfirmation] = useState(false)
   const [isResendingEmail, setIsResendingEmail] = useState(false)
   const [urlMessage, setUrlMessage] = useState('')
+  const [signupHref, setSignupHref] = useState('/signup')
+  useEffect(() => {
+    const next = redirectParam()
+    if (next) setSignupHref(`/signup?redirect=${encodeURIComponent(next)}`)
+  }, [])
   const router = useRouter()
   const { signIn, syncing } = useAuth()
   const { toast } = useToast()
@@ -276,7 +282,7 @@ export default function LoginPage() {
                 <div className="mt-8 text-center text-sm text-gray-600">
                   Não tem uma conta?{' '}
                   <Link
-                    href="/signup"
+                    href={signupHref}
                     className="font-semibold text-blue-600 transition-colors duration-200 hover:text-blue-700"
                   >
                     Cadastre-se

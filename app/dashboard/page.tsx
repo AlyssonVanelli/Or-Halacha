@@ -2,31 +2,23 @@
 
 import { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/auth-context'
-import { useToast } from '@/hooks/use-toast'
-// import { createClient } from '@/lib/supabase/client'
-import { useRouter } from 'next/navigation'
 import { DashboardAccessGuard } from '@/components/DashboardAccessGuard'
 import { DynamicAccessBadge } from '@/components/AccessBadge'
 import { useAccessInfo } from '@/hooks/useAccessInfo'
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import TreatiseSelectionModal from '@/components/TreatiseSelectionModal'
+import { PlanCards } from '@/components/PlanCards'
 import { SimanDoDia, type SimanDoDiaData } from '@/app/components/siman-do-dia'
 import { Glossary } from '@/components/content/Glossary'
 
 export default function DashboardPage() {
   const { user } = useAuth()
   const [isLoading, setIsLoading] = useState(true)
-  const { toast } = useToast()
-  const router = useRouter()
   const [hasPlusFeatures, setHasPlusFeatures] = useState(false)
 
   // Hook para informações de acesso do Shulchan Aruch
   const { accessInfo: userAccessInfo } = useAccessInfo()
   const [hasAnyAccess, setHasAnyAccess] = useState(false)
-  const [loadingPurchase, setLoadingPurchase] = useState<string | null>(null)
   const [isCheckingAccess, setIsCheckingAccess] = useState(true)
-  const [showTreatiseModal, setShowTreatiseModal] = useState(false)
 
   useEffect(() => {
     async function loadUserData() {
@@ -94,103 +86,6 @@ export default function DashboardPage() {
     }
     fetchData()
   }, [])
-
-  async function handleSubscriptionCheckout(planType: string) {
-    if (!user) {
-      router.push('/login')
-      return
-    }
-
-    // Se for tratado avulso, mostrar modal de seleção
-    if (planType === 'tratado-avulso') {
-      setShowTreatiseModal(true)
-      return
-    }
-
-    setLoadingPurchase(planType)
-    try {
-      const response = await fetch('/api/create-subscription-checkout', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: user.id,
-          planType,
-          userEmail: user.email,
-          successUrl: `${window.location.origin}/payment/success`,
-          cancelUrl: `${window.location.origin}/payment/cancel`,
-        }),
-      })
-
-      if (!response.ok) {
-        throw new Error('Falha ao criar sessão de checkout de assinatura')
-      }
-
-      const { url } = await response.json()
-      if (url) {
-        router.push(url)
-      }
-    } catch (error) {
-      toast({
-        title: 'Erro na assinatura',
-        description: 'Não foi possível iniciar o processo de assinatura. Tente novamente.',
-        variant: 'destructive',
-      })
-    } finally {
-      setLoadingPurchase(null)
-    }
-  }
-
-  async function handleTreatiseSelection(treatiseId: string) {
-    if (!user) {
-      router.push('/login')
-      return
-    }
-
-    setLoadingPurchase('tratado-avulso')
-    setShowTreatiseModal(false)
-
-    try {
-      const response = await fetch('/api/create-treatise-payment', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          userId: user.id,
-          divisionId: treatiseId,
-          bookId: 'shulchan-aruch',
-          userEmail: user.email,
-        }),
-      })
-
-      if (!response.ok) {
-        throw new Error('Falha ao criar sessão de checkout de assinatura')
-      }
-
-      const responseData = await response.json()
-
-      // Compra única - dados passados via URL
-
-      if (responseData.url) {
-        // Tratados avulsos agora são assinaturas reais no Stripe
-        if (responseData.treatiseId) {
-        }
-
-        router.push(responseData.url)
-      } else {
-      }
-    } catch (error) {
-      toast({
-        title: 'Erro na assinatura',
-        description: 'Não foi possível iniciar o processo de assinatura. Tente novamente.',
-        variant: 'destructive',
-      })
-    } finally {
-      setLoadingPurchase(null)
-    }
-  }
 
   if (isLoading || isCheckingAccess) {
     return (
@@ -271,129 +166,7 @@ export default function DashboardPage() {
                   </p>
                 </div>
 
-                {/* Grid de Planos */}
-                <div className="mx-auto max-w-6xl">
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-                    {/* Plano Tratado Avulso */}
-                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="flex flex-1 flex-col text-center">
-                        <h4 className="mb-2 text-xl font-bold text-gray-800">Tratado Avulso</h4>
-                        <p className="mb-4 text-sm text-gray-600">Acesso a um tratado específico</p>
-                        <div className="mb-4">
-                          <span className="text-3xl font-bold text-blue-600">R$ 29,90</span>
-                          <span className="block text-sm text-gray-500">
-                            pagamento único, 1 mês
-                          </span>
-                        </div>
-                        <div className="mt-auto">
-                          <Button
-                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                            onClick={() => handleSubscriptionCheckout('tratado-avulso')}
-                            disabled={loadingPurchase === 'tratado-avulso'}
-                          >
-                            {loadingPurchase === 'tratado-avulso'
-                              ? 'Processando...'
-                              : 'Assinar Tratado'}
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Plano Mensal Básico */}
-                    <div className="flex flex-col rounded-xl border-2 border-blue-500 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 shadow-lg">
-                      <div className="flex flex-1 flex-col text-center">
-                        <h4 className="mb-2 text-xl font-bold text-gray-800">Mensal Básico</h4>
-                        <p className="mb-4 text-sm text-gray-600">Acesso completo à biblioteca</p>
-                        <div className="mb-4">
-                          <span className="text-3xl font-bold text-blue-600">R$ 99,90</span>
-                          <span className="text-gray-500">/mês</span>
-                        </div>
-                        <div className="mt-auto">
-                          <Button
-                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                            onClick={() => handleSubscriptionCheckout('mensal-basico')}
-                            disabled={loadingPurchase === 'mensal-basico'}
-                          >
-                            {loadingPurchase === 'mensal-basico'
-                              ? 'Processando...'
-                              : 'Assinar Plano'}
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Plano Anual Básico */}
-                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="flex flex-1 flex-col text-center">
-                        <h4 className="mb-2 text-xl font-bold text-gray-800">Anual Básico</h4>
-                        <p className="mb-4 text-sm text-gray-600">Acesso completo com desconto</p>
-                        <div className="mb-4">
-                          <span className="text-3xl font-bold text-blue-600">R$ 79,90</span>
-                          <span className="text-gray-500">/mês</span>
-                          <div className="text-sm text-gray-500">(R$ 958,80/ano)</div>
-                        </div>
-                        <div className="mt-auto">
-                          <Button
-                            className="w-full bg-gradient-to-r from-blue-600 to-blue-700"
-                            onClick={() => handleSubscriptionCheckout('anual-basico')}
-                            disabled={loadingPurchase === 'anual-basico'}
-                          >
-                            {loadingPurchase === 'anual-basico'
-                              ? 'Processando...'
-                              : 'Assinar Plano'}
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Plano Mensal Plus */}
-                    <div className="flex flex-col rounded-xl border-2 border-purple-500 bg-gradient-to-br from-purple-50 to-indigo-50 p-6 shadow-lg">
-                      <div className="flex flex-1 flex-col text-center">
-                        <h4 className="mb-2 text-xl font-bold text-gray-800">Mensal Plus</h4>
-                        <p className="mb-4 text-sm text-gray-600">
-                          Acesso completo + explicações práticas
-                        </p>
-                        <div className="mb-4">
-                          <span className="text-3xl font-bold text-purple-600">R$ 119,90</span>
-                          <span className="text-gray-500">/mês</span>
-                        </div>
-                        <div className="mt-auto">
-                          <Button
-                            className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
-                            onClick={() => handleSubscriptionCheckout('mensal-plus')}
-                            disabled={loadingPurchase === 'mensal-plus'}
-                          >
-                            {loadingPurchase === 'mensal-plus' ? 'Processando...' : 'Assinar Plano'}
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Plano Anual Plus */}
-                    <div className="flex flex-col rounded-xl border-2 border-gray-200 bg-white p-6 shadow-lg">
-                      <div className="flex flex-1 flex-col text-center">
-                        <h4 className="mb-2 text-xl font-bold text-gray-800">Anual Plus</h4>
-                        <p className="mb-4 text-sm text-gray-600">
-                          Acesso completo + explicações com desconto
-                        </p>
-                        <div className="mb-4">
-                          <span className="text-3xl font-bold text-purple-600">R$ 89,90</span>
-                          <span className="text-gray-500">/mês</span>
-                          <div className="text-sm text-gray-500">(R$ 1.078,80/ano)</div>
-                        </div>
-                        <div className="mt-auto">
-                          <Button
-                            className="w-full bg-gradient-to-r from-purple-600 to-purple-700"
-                            onClick={() => handleSubscriptionCheckout('anual-plus')}
-                            disabled={loadingPurchase === 'anual-plus'}
-                          >
-                            {loadingPurchase === 'anual-plus' ? 'Processando...' : 'Assinar Plano'}
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <PlanCards />
               </>
             ) : (
               // Se tem acesso, mostra os livros
@@ -679,14 +452,6 @@ export default function DashboardPage() {
           </div>
         </main>
       </div>
-
-      {/* Modal de seleção de tratados */}
-      <TreatiseSelectionModal
-        isOpen={showTreatiseModal}
-        onClose={() => setShowTreatiseModal(false)}
-        onSelect={handleTreatiseSelection}
-        loading={loadingPurchase === 'tratado-avulso'}
-      />
     </DashboardAccessGuard>
   )
 }

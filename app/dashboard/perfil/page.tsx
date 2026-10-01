@@ -6,14 +6,10 @@ import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { User, Home, ChevronRight } from 'lucide-react'
-import { db } from '@/lib/db'
-import { format, differenceInDays } from 'date-fns'
-import { useRouter } from 'next/navigation'
 import { useToast } from '@/hooks/use-toast'
 import Image from 'next/image'
 import Link from 'next/link'
-import { SubscriptionActions } from '@/components/SubscriptionActions'
-import { RenewalModal } from '@/components/RenewalModal'
+import { BillingSection } from '@/components/BillingSection'
 import { DeleteAccountSection } from '@/components/DeleteAccountSection'
 import {
   Breadcrumb,
@@ -30,52 +26,7 @@ interface Profile {
   full_name: string
   avatar_url: string | null
   email: string
-  stripe_customer_id?: string | null
 }
-interface Subscription {
-  id: string
-  subscription_id: string
-  plan_type: string
-  explicacao_pratica: boolean
-  status: string
-  price_id?: string
-  created_at: string
-  current_period_end: string
-  cancel_at_period_end?: boolean
-}
-interface BookAvulso {
-  id: string
-  book_id: string
-  expires_at: string
-  created_at: string
-  books?: { title: string }
-  divisions?: { id: string; title: string }
-}
-interface Payment {
-  type: string
-  plan?: string
-  nome?: string
-  status: string
-  valor: number
-  data: string
-}
-
-// Nome do plano pelo price_id (fixo); explicacao_pratica é zerado quando a assinatura termina
-const PLANOS_POR_PRECO: Record<string, string> = Object.fromEntries(
-  [
-    [process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL, 'Mensal Básico'],
-    [process.env.NEXT_PUBLIC_STRIPE_PRICE_MENSAL_PLUS, 'Mensal Plus'],
-    [process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL, 'Anual Básico'],
-    [process.env.NEXT_PUBLIC_STRIPE_PRICE_ANUAL_PLUS, 'Anual Plus'],
-  ].filter(([id]) => !!id)
-)
-
-function nomeDoPlano(sub: Pick<Subscription, 'price_id' | 'plan_type' | 'explicacao_pratica'>) {
-  if (sub.price_id && PLANOS_POR_PRECO[sub.price_id]) return PLANOS_POR_PRECO[sub.price_id]
-  if (sub.plan_type === 'yearly') return sub.explicacao_pratica ? 'Anual Plus' : 'Anual Básico'
-  return sub.explicacao_pratica ? 'Mensal Plus' : 'Mensal Básico'
-}
-
 export default function PerfilPage() {
   const { user } = useAuth()
   const [profile, setProfile] = useState<Profile | null>(null)
@@ -84,16 +35,11 @@ export default function PerfilPage() {
   const [avatarFile, setAvatarFile] = useState<File | null>(null)
   const [loading, setLoading] = useState(true)
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const [subscription, setSubscription] = useState<Subscription | null>(null)
-  const [books, setBooks] = useState<BookAvulso[]>([])
-  const [payments, setPayments] = useState<Payment[]>([])
-  const router = useRouter()
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [passwordError, setPasswordError] = useState<string | null>(null)
   const [passwordSuccess, setPasswordSuccess] = useState<string | null>(null)
   const [passwordLoading, setPasswordLoading] = useState(false)
-  const [renewalModalOpen, setRenewalModalOpen] = useState(false)
   const { toast } = useToast()
 
   useEffect(() => {
@@ -108,93 +54,6 @@ export default function PerfilPage() {
       setLoading(false)
     }
     fetchProfile()
-  }, [user])
-
-  useEffect(() => {
-    async function loadData() {
-      if (!user) return
-
-      try {
-        const supabase = createClient()
-
-        // Carregar assinaturas
-        const { data: subs, error: subsError } = await supabase
-          .from('subscriptions')
-          .select('*')
-          .eq('user_id', user.id)
-          .order('created_at', { ascending: false })
-
-        if (subsError) {
-        } else {
-          setSubscription(subs?.[0] || null)
-        }
-
-        // Carregar livros comprados
-        const purchased = await db.purchasedBooks.getByUserId(user.id)
-        setBooks(purchased)
-
-        // Verifica tratados que expiram em breve e mostra notificação
-        const expiringSoon = purchased.filter(book => {
-          const days = differenceInDays(new Date(book.expires_at), new Date())
-          return days <= 7 && days > 0
-        })
-
-        if (expiringSoon.length > 0) {
-          toast({
-            title: 'Tratados expirando em breve',
-            description: `${expiringSoon.length} tratado(s) expira(m) em até 7 dias. Renove sua assinatura para continuar acessando.`,
-            variant: 'default',
-          })
-        }
-
-        // Histórico de pagamentos
-        const allPayments: Payment[] = []
-        if (subs && subs.length > 0) {
-          for (const sub of subs) {
-            let valor = 0
-            if (sub.price_id) {
-              try {
-                const res = await fetch('/api/get-stripe-price', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify({ priceId: sub.price_id }),
-                })
-                const data = await res.json()
-                valor = data.amount || 0
-              } catch {}
-            }
-            // Ajuste: nome do plano
-            const planoNome = nomeDoPlano(sub)
-            allPayments.push({
-              type: 'Assinatura',
-              plan: planoNome,
-              status: sub.status,
-              valor,
-              data: format(new Date(sub.created_at), 'dd/MM/yyyy'),
-            })
-          }
-        }
-        for (const book of purchased) {
-          const expirado = new Date(book.expires_at) < new Date()
-          allPayments.push({
-            type: 'Livro Avulso',
-            nome: book.books?.title || 'Livro',
-            valor: 29.9,
-            data: format(new Date(book.created_at), 'dd/MM/yyyy'),
-            status: expirado ? 'expirado' : 'valido',
-          })
-        }
-        setPayments(allPayments)
-      } catch (error) {
-        toast({
-          title: 'Erro ao carregar perfil',
-          description: 'Não foi possível carregar algumas informações. Tente recarregar a página.',
-          variant: 'destructive',
-        })
-      }
-    }
-    loadData()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user])
 
   useEffect(() => {
@@ -342,54 +201,6 @@ export default function PerfilPage() {
     }
   }
 
-  // async function handleCancel() {
-  //   if (!subscription) return
-  //   const res = await fetch('/api/cancel-subscription', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify({ subscriptionId: subscription.subscription_id }),
-  //   })
-  //   const data = await res.json()
-  //   if (data.ok) {
-  //     toast({
-  //       title: 'Assinatura cancelada',
-  //       description: 'Sua assinatura permanecerá ativa até o fim do período já pago.',
-  //       variant: 'default',
-  //     })
-  //     setTimeout(() => window.location.reload(), 1800)
-  //   } else {
-  //     toast({
-  //       title: 'Erro ao cancelar assinatura',
-  //       description: data.error || 'Tente novamente.',
-  //       variant: 'destructive',
-  //     })
-  //   }
-  // }
-
-  // Função utilitária para traduzir status
-  function traduzirStatus(status: string) {
-    switch (status) {
-      case 'active':
-        return 'Ativa'
-      case 'canceled':
-        return 'Cancelada'
-      case 'incomplete':
-        return 'Incompleta'
-      case 'past_due':
-        return 'Atrasada'
-      case 'trialing':
-        return 'Em teste'
-      case 'unpaid':
-        return 'Não paga'
-      case 'valido':
-        return 'Válido'
-      case 'expirado':
-        return 'Expirado'
-      default:
-        return status
-    }
-  }
-
   async function handlePasswordChange(e: React.FormEvent) {
     e.preventDefault()
     setPasswordError(null)
@@ -415,19 +226,6 @@ export default function PerfilPage() {
     setNewPassword('')
     setConfirmPassword('')
   }
-
-  // async function handleUpgrade() {
-  //   if (!user) return
-  //   const res = await fetch('/api/create-customer-portal-session', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify({ userId: user.id }),
-  //   })
-  //   const data = await res.json()
-  //   if (data.url) {
-  //     window.location.href = data.url
-  //   }
-  // }
 
   if (!user) {
     return <div className="p-8 text-center text-gray-500">Faça login para acessar seu perfil.</div>
@@ -575,266 +373,11 @@ export default function PerfilPage() {
                 <DeleteAccountSection />
               </div>
             </div>
-            {/* Coluna direita: Assinatura + Histórico */}
-            <div>
-              <div className="mb-8 rounded-xl border-0 bg-gradient-to-br from-white to-blue-50/30 p-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
-                <h2 className="mb-6 bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-2xl font-bold text-transparent">
-                  Minha Assinatura
-                </h2>
-                {subscription ? (
-                  <div className="mb-4">
-                    <div className="mb-2 flex items-center gap-2">
-                      <div className="flex items-center gap-2">
-                        Status: <b>{traduzirStatus(subscription.status)}</b>
-                        {subscription.status === 'active' && (
-                          <span className="inline-flex h-2 w-2 rounded-full bg-green-500"></span>
-                        )}
-                        {subscription.status === 'canceled' && (
-                          <span className="inline-flex h-2 w-2 rounded-full bg-red-500"></span>
-                        )}
-                      </div>
-                      {subscription.explicacao_pratica && (
-                        <span className="ml-2 inline-block rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-800">
-                          ✨ Assinante Plus
-                        </span>
-                      )}
-                    </div>
-                    <div>
-                      Plano: <b>{nomeDoPlano(subscription)}</b>
-                    </div>
-                    {subscription.status === 'active' && (
-                      <>
-                        <div>
-                          Explicação prática:{' '}
-                          <b>{subscription.explicacao_pratica ? 'Sim' : 'Não'}</b>
-                        </div>
-                        <div>
-                          {subscription.cancel_at_period_end ? 'Acesso até' : 'Próxima renovação'}:{' '}
-                          <b>
-                            {subscription.current_period_end
-                              ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
-                              : 'Data não disponível'}
-                          </b>
-                        </div>
-                      </>
-                    )}
-                    {subscription.cancel_at_period_end && subscription.status === 'active' && (
-                      <div className="mt-2 rounded bg-yellow-100 p-2 text-sm font-medium text-yellow-800">
-                        Sua assinatura foi cancelada e permanecerá ativa até{' '}
-                        <b>
-                          {subscription.current_period_end
-                            ? format(new Date(subscription.current_period_end), 'dd/MM/yyyy')
-                            : 'Data não disponível'}
-                        </b>
-                        . Após essa data, você perderá o acesso a todo o conteúdo exclusivo do site.
-                      </div>
-                    )}
-                    {subscription.status === 'active' && !subscription.cancel_at_period_end && (
-                      <SubscriptionActions
-                        subscriptionId={subscription.subscription_id}
-                        isPlus={subscription.explicacao_pratica}
-                        planType={subscription.plan_type}
-                        createdAt={subscription.created_at}
-                      />
-                    )}
-
-                    {subscription.status === 'active' && subscription.cancel_at_period_end && (
-                      <div className="mt-4">
-                        <Button
-                          variant="default"
-                          onClick={async () => {
-                            // Desfaz o cancelamento da MESMA assinatura (sem nova cobrança)
-                            const res = await fetch('/api/subscription/reactivate', {
-                              method: 'POST',
-                            })
-                            if (res.ok) {
-                              toast({
-                                title: 'Assinatura reativada',
-                                description: 'A renovação automática voltou a valer.',
-                              })
-                              setTimeout(() => window.location.reload(), 1200)
-                            } else {
-                              toast({
-                                title: 'Não foi possível reativar',
-                                description: 'Tente novamente ou fale com o suporte.',
-                                variant: 'destructive',
-                              })
-                            }
-                          }}
-                          className="w-full"
-                        >
-                          Manter minha assinatura
-                        </Button>
-                      </div>
-                    )}
-
-                    {subscription.status !== 'active' && (
-                      <div className="mt-4">
-                        <Button
-                          variant="default"
-                          onClick={() => router.push('/dashboard')}
-                          className="w-full"
-                        >
-                          Nova Assinatura
-                        </Button>
-                      </div>
-                    )}
-                  </div>
-                ) : (
-                  <div className="mb-4">
-                    <div className="mb-4">Você não possui assinatura ativa.</div>
-                    <Button
-                      variant="default"
-                      onClick={() => router.push('/planos')}
-                      className="w-full"
-                    >
-                      Nova Assinatura
-                    </Button>
-                  </div>
-                )}
-              </div>
-              {/* Histórico de Pagamentos */}
-              <div className="rounded-xl border-0 bg-gradient-to-br from-white to-blue-50/30 p-8 shadow-xl transition-all duration-300 hover:shadow-2xl">
-                <h2 className="mb-6 bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-2xl font-bold text-transparent">
-                  Histórico de Pagamentos
-                </h2>
-                {payments.length === 0 ? (
-                  <div className="py-8 text-center text-gray-500">
-                    <p>Nenhum pagamento encontrado.</p>
-                  </div>
-                ) : (
-                  <div className="overflow-hidden rounded-lg border-0 bg-gradient-to-br from-gray-50 to-gray-100/50 shadow-sm">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="bg-gradient-to-r from-slate-100 to-slate-200">
-                          <th className="p-4 text-left font-semibold text-gray-700">Tipo</th>
-                          <th className="p-4 text-left font-semibold text-gray-700">Plano/Livro</th>
-                          <th className="p-4 text-left font-semibold text-gray-700">Valor</th>
-                          <th className="p-4 text-left font-semibold text-gray-700">Data</th>
-                          <th className="p-4 text-left font-semibold text-gray-700">Status</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {payments.map((p, i) => (
-                          <tr
-                            key={i}
-                            className="border-t border-gray-200 transition-colors duration-200 hover:bg-white/50"
-                          >
-                            <td className="p-4 text-gray-700">{p.type}</td>
-                            <td className="p-4 text-gray-700">{p.plan || p.nome}</td>
-                            <td className="p-4 font-semibold text-gray-800">
-                              {p.valor.toLocaleString('pt-BR', {
-                                style: 'currency',
-                                currency: 'BRL',
-                              })}
-                            </td>
-                            <td className="p-4 text-gray-600">{p.data}</td>
-                            <td className="p-4">
-                              <span
-                                className={`inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ${
-                                  p.status === 'active' || p.status === 'valido'
-                                    ? 'bg-green-100 text-green-800'
-                                    : p.status === 'canceled' || p.status === 'expirado'
-                                      ? 'bg-red-100 text-red-800'
-                                      : 'bg-gray-100 text-gray-800'
-                                }`}
-                              >
-                                {p.status ? traduzirStatus(p.status) : '-'}
-                              </span>
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                )}
-              </div>
-            </div>
+            {/* Coluna direita: assinatura, tratados e pagamentos (gerenciados pela Hotmart) */}
+            <BillingSection />
           </div>
-          {/* Só mostra tratados avulsos se não tiver assinatura ativa */}
-          {(!subscription || subscription.status !== 'active') && (
-            <section className="mt-8">
-              <div className="mb-6 flex items-center justify-between">
-                <h2 className="text-xl font-bold">Meus Tratados Avulsos</h2>
-                {books.length > 0 && (
-                  <Button
-                    onClick={() => router.push('/planos')}
-                    className="bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-md transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
-                  >
-                    ✨ Fazer Upgrade para Assinatura
-                  </Button>
-                )}
-              </div>
-              {(() => {
-                // Filtra apenas tratados ativos (não vencidos)
-                const activeBooks = books.filter(book => new Date(book.expires_at) > new Date())
-
-                if (activeBooks.length === 0) {
-                  return <div>Você não possui tratados avulsos ativos.</div>
-                }
-
-                return (
-                  <ul className="space-y-2">
-                    {activeBooks.map(book => {
-                      const days = differenceInDays(new Date(book.expires_at), new Date())
-                      return (
-                        <li key={book.book_id} className="flex items-center gap-4">
-                          <span>
-                            {book.books?.title}
-                            {book.divisions?.title ? ` — ${book.divisions.title}` : ''}
-                          </span>
-                          <span className="text-sm text-muted-foreground">
-                            Expira em {format(new Date(book.expires_at), 'dd/MM/yyyy')} ({days}{' '}
-                            dias)
-                          </span>
-                          {days <= 5 && (
-                            <span className="inline-flex items-center gap-1 rounded-full bg-red-100 px-2 py-1 text-xs font-semibold text-red-600">
-                              ⚠️ Expira em breve!
-                            </span>
-                          )}
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            onClick={() => router.push(`/refund?type=purchase&id=${book.id}`)}
-                            className="border-orange-300 text-orange-600 hover:bg-orange-50"
-                          >
-                            Solicitar Reembolso
-                          </Button>
-                          {days <= 1 && (
-                            <span className="inline-flex animate-pulse items-center gap-1 rounded-full bg-red-200 px-2 py-1 text-xs font-bold text-red-700">
-                              🚨 Expira hoje!
-                            </span>
-                          )}
-                          <Button
-                            size="sm"
-                            onClick={() =>
-                              router.push(
-                                `/dashboard/biblioteca/shulchan-aruch/${book.divisions?.id || ''}`
-                              )
-                            }
-                          >
-                            Ler
-                          </Button>
-                        </li>
-                      )
-                    })}
-                  </ul>
-                )
-              })()}
-            </section>
-          )}
         </div>
       </main>
-
-      {/* Modal de Renovação */}
-      {subscription && (
-        <RenewalModal
-          isOpen={renewalModalOpen}
-          onClose={() => setRenewalModalOpen(false)}
-          currentPlan={subscription.plan_type}
-          isPlus={subscription.explicacao_pratica}
-        />
-      )}
     </div>
   )
 }
